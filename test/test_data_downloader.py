@@ -1,0 +1,48 @@
+from unittest import TestCase
+from unittest.mock import Mock, patch
+
+from src.data_downloader import get_all_metadata, get_cdf_file
+
+
+class TestDataDownloader(TestCase):
+    test_host = "127.0.0.1:5000"
+
+    @patch('src.data_downloader.urllib')
+    def test_download_metadata_from_mock_server(self, mock_urllib):
+        mock_response = Mock()
+        mock_response.read.return_value = '[{"absolute_version": 127, "data_level": "l2", "descriptor": "vid", "directory_path": "fake://../cdf_files", "file_name": "psp_isois_l2-summary_20181102_v1.27.0.cdf", "file_root": "psp_isois_l2-summary_20181102_v1.27.0.cdf", "file_size": 403371422, "id": 3161, "instrument_id": "isois", "md5checksum": "0502a7e4a86e1d78ec7c73515f2dc7d5", "mod_date": "2022-11-02 17:21:19+00:00", "mode": "xos1", "pred_rec": "r", "released": true, "revision": 27, "timetag": "2018-11-02 00:00:00+00:00", "version": 1}]'
+        mock_urllib.request.urlopen.return_value = mock_response
+
+        response = get_all_metadata()
+
+        expected_response = '[{' \
+                            '"absolute_version": 127, ' \
+                            '"data_level": "l2", ' \
+                            '"descriptor": "vid", ' \
+                            '"directory_path": "fake://../cdf_files", ' \
+                            '"file_name": "psp_isois_l2-summary_20181102_v1.27.0.cdf", ' \
+                            '"file_root": "psp_isois_l2-summary_20181102_v1.27.0.cdf", ' \
+                            '"file_size": 403371422, "id": 3161, ' \
+                            '"instrument_id": "isois", ' \
+                            '"md5checksum": "0502a7e4a86e1d78ec7c73515f2dc7d5", ' \
+                            '"mod_date": "2022-11-02 17:21:19+00:00", ' \
+                            '"mode": "xos1", ' \
+                            '"pred_rec": "r", ' \
+                            '"released": true, ' \
+                            '"revision": 27, ' \
+                            '"timetag": "2018-11-02 00:00:00+00:00", ' \
+                            '"version": 1' \
+                            '}]'
+
+        self.assertEqual(expected_response, response)
+        mock_urllib.request.urlopen.assert_called_with(self.test_host + "/dev/science-files-metadata")
+
+    @patch('src.data_downloader.urllib')
+    def test_download_individual_file(self, mock_urllib):
+        mock_response = Mock()
+        mock_response.read.return_value = b'This is a file'
+        mock_urllib.request.urlopen.return_value = mock_response
+
+        response = get_cdf_file("some cdf file")
+
+        self.assertEqual(b'This is a file', response)
