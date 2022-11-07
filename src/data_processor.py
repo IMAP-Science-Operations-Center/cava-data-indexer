@@ -23,7 +23,8 @@ def group_metadata_by_file_names(metadata: [{}]) -> [{}]:
 
 def _parse_variables_from_cdf(file_path: str) -> List[str]:
     cdf = pycdf.CDF(file_path)
-    return [var.attrs["CATDESC"] for var in cdf.values()
+    version = cdf.attrs['Data_version']
+    return [f'{var.attrs["CATDESC"]} v{version}' for var in cdf.values()
             if var.attrs["VAR_TYPE"] == "data"]
 
 

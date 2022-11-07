@@ -29,21 +29,21 @@ class TestDataProcessor(TestCase):
 
     def test_parse_variables_from_cdf_returns_list_of_descriptions(self):
         expected_descriptions = [
-            "Angle between TPS and Sun, 0 in encounter",
-            "Angle between nominal ram and actual ram, 0 in encounter",
-            "angle of off-pointing from ecliptic north when not in encounter",
-            "LET1A look angle with nominal parker spiral",
-            "LET2C look angle with nominal parker spiral",
-            "HETA look angle with nominal parker spiral",
-            "Lo look angle with nominal parker spiral",
-            "Heliocentric distance",
-            "HCI latitude",
-            "HCI longitude",
-            "Heliocentric distance",
-            "HGC latitude",
-            "HGC longitude",
-            "Spacecraft is umbra pointing",
-            "Spacecraft is ram pointing"
+            "Angle between TPS and Sun, 0 in encounter v13",
+            "Angle between nominal ram and actual ram, 0 in encounter v13",
+            "angle of off-pointing from ecliptic north when not in encounter v13",
+            "LET1A look angle with nominal parker spiral v13",
+            "LET2C look angle with nominal parker spiral v13",
+            "HETA look angle with nominal parker spiral v13",
+            "Lo look angle with nominal parker spiral v13",
+            "Heliocentric distance v13",
+            "HCI latitude v13",
+            "HCI longitude v13",
+            "Heliocentric distance v13",
+            "HGC latitude v13",
+            "HGC longitude v13",
+            "Spacecraft is umbra pointing v13",
+            "Spacecraft is ram pointing v13"
         ]
 
         cdf_path = './test_data/test.cdf'
@@ -54,21 +54,21 @@ class TestDataProcessor(TestCase):
 
     def test_parse_variables_from_cdf_bytes_returns_list_of_descriptions(self):
         expected_descriptions = [
-            "Angle between TPS and Sun, 0 in encounter",
-            "Angle between nominal ram and actual ram, 0 in encounter",
-            "angle of off-pointing from ecliptic north when not in encounter",
-            "LET1A look angle with nominal parker spiral",
-            "LET2C look angle with nominal parker spiral",
-            "HETA look angle with nominal parker spiral",
-            "Lo look angle with nominal parker spiral",
-            "Heliocentric distance",
-            "HCI latitude",
-            "HCI longitude",
-            "Heliocentric distance",
-            "HGC latitude",
-            "HGC longitude",
-            "Spacecraft is umbra pointing",
-            "Spacecraft is ram pointing"
+            "Angle between TPS and Sun, 0 in encounter v13",
+            "Angle between nominal ram and actual ram, 0 in encounter v13",
+            "angle of off-pointing from ecliptic north when not in encounter v13",
+            "LET1A look angle with nominal parker spiral v13",
+            "LET2C look angle with nominal parker spiral v13",
+            "HETA look angle with nominal parker spiral v13",
+            "Lo look angle with nominal parker spiral v13",
+            "Heliocentric distance v13",
+            "HCI latitude v13",
+            "HCI longitude v13",
+            "Heliocentric distance v13",
+            "HGC latitude v13",
+            "HGC longitude v13",
+            "Spacecraft is umbra pointing v13",
+            "Spacecraft is ram pointing v13"
         ]
 
         cdf_path = './test_data/test.cdf'
@@ -108,6 +108,7 @@ class TestDataProcessor(TestCase):
         mock_var_4 = Mock()
         mock_var_4.attrs = {"CATDESC": "variable 4", "VAR_TYPE": "data"}
 
+        mock_pycdf.CDF.return_value.attrs = {"Data_version": "1.27.0"}
         mock_pycdf.CDF.return_value.values.side_effect = [
             [mock_var_1, mock_var_2],
             [mock_var_3, mock_var_4]
@@ -125,19 +126,19 @@ class TestDataProcessor(TestCase):
         expected_index = [
         {
             "descriptions": [
-                "variable 1",
-                "variable 2"
+                "variable 1 v1.27.0",
+                "variable 2 v1.27.0"
             ],
             "source_file_format": "psp_instrument1_l2-summary_%yyyymmdd%_v1.27.0.cdf"
         },
         {
             "descriptions": [
-                "variable 3",
-                "variable 4"
+                "variable 3 v1.27.0",
+                "variable 4 v1.27.0"
             ],
             "source_file_format": "psp_instrument2_l2-ephem_%yyyymmdd%_v1.27.0.cdf"
         }
         ]
 
-        self.assertEqual(actual_index, expected_index)
+        self.assertEqual(expected_index, actual_index)
 
