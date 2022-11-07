@@ -1,0 +1,67 @@
+[
+  {
+    "descriptions": [
+      "Angle between TPS and Sun, 0 in encounter",
+      "Angle between nominal ram and actual ram, 0 in encounter",
+      "angle of off-pointing from ecliptic north when not in encounter",
+      "LET1A look angle with nominal parker spiral",
+      "LET2C look angle with nominal parker spiral",
+      "HETA look angle with nominal parker spiral",
+      "Lo look angle with nominal parker spiral",
+      "Heliocentric distance",
+      "HCI latitude",
+      "HCI longitude",
+      "Heliocentric distance",
+      "HGC latitude",
+      "HGC longitude",
+      "Spacecraft is umbra pointing",
+      "Spacecraft is ram pointing"
+    ],
+    "source_file_format": "psp_isois_l2-ephem_%yyyymmdd%_v13.cdf"
+  },
+  {
+    "descriptions": [
+      "HET H count rate side A",
+      "HET H count rate side A 10-50MeV",
+      "HET Electrons count rate side A",
+      "HET Electrons count rate side A 1-5MeV",
+      "PBUF000: R1 H (rate)",
+      "H count rate side A",
+      "H count rate side A 2-10MeV",
+      "Heavy (6<=z<=28) ion count rate side A",
+      "Heavy (6<=z<=28) ion count rate side A 4-40 MeV/nuc",
+      "H count rate channel T (IonTOF)",
+      "H count rate channel T (IonTOF) 30-3600keV/nuc",
+      "Electron count rate channel E (HiResElectrons)"
+    ],
+    "source_file_format": "psp_isois_l2-summary_%yyyymmdd%_v1.26.0.cdf"
+  },
+  {
+    "descriptions": [
+      "HET H count rate side A",
+      "HET H count rate side A 10-50MeV",
+      "HET Electrons count rate side A",
+      "HET Electrons count rate side A 1-5MeV",
+      "PBUF000: R1 H (rate)",
+      "H count rate side A",
+      "H count rate side A 2-10MeV",
+      "Heavy (6<=z<=28) ion count rate side A",
+      "Heavy (6<=z<=28) ion count rate side A 4-40 MeV/nuc",
+      "H count rate channel T (IonTOF)",
+      "H count rate channel T (IonTOF) 30-3600keV/nuc",
+      "Electron count rate channel E (HiResElectrons)"
+    ],
+    "source_file_format": "psp_isois_l2-summary_%yyyymmdd%_v1.27.0.cdf"
+  },
+  {
+    "descriptions": [
+      "HET H count rate side A 10-50MeV",
+      "HET Electrons count rate side A 1-5MeV",
+      "H count rate side A 2-10MeV",
+      "Heavy (6<=z<=28) ion count rate side A 4-40 MeV/nuc",
+      "H count rate channel P (HiResProtons)",
+      "Electron count rate channel E (HiResElectrons)"
+    ],
+    "source_file_format": "psp_isois_l2-summary_%yyyymmdd%_v13.cdf"
+  }
+]

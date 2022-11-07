@@ -26,20 +26,23 @@ def _parse_variables_from_cdf(file_path: str) -> List[str]:
     return [var.attrs["CATDESC"] for var in cdf.values()
             if var.attrs["VAR_TYPE"] == "data"]
 
+
 def parse_variables_from_cdf_bytes(cdf_bytes: bytes):
     with tempfile.TemporaryDirectory() as tmp_dir:
         with open(os.path.join(tmp_dir, 'cdf.cdf'), 'wb') as tmp_file:
             tmp_file.write(cdf_bytes)
         return _parse_variables_from_cdf(tmp_file.name)
 
+
 def get_metadata_index():
     index = []
-    md = group_metadata_by_file_names(get_all_metadata())
-    for file_name_format, filenames in sorted(md.items()):
+    metadata = group_metadata_by_file_names(get_all_metadata())
+    for file_name_format, filenames in sorted(metadata.items()):
         cdf = get_cdf_file(filenames[0]["file_name"])
         variables = parse_variables_from_cdf_bytes(cdf)
         index.append({"descriptions": variables, "source_file_format": file_name_format})
     return index
+
 
 if __name__ == '__main__':
     get_metadata_index()

@@ -1,6 +1,6 @@
 import json
 from unittest import TestCase
-from unittest.mock import Mock, patch
+from unittest.mock import Mock, patch, call
 
 from src.data_downloader import get_all_metadata, get_cdf_file
 
@@ -40,10 +40,14 @@ class TestDataDownloader(TestCase):
 
     @patch('src.data_downloader.urllib')
     def test_download_individual_file(self, mock_urllib):
-        mock_response = Mock()
-        mock_response.read.return_value = b'This is a file'
-        mock_urllib.request.urlopen.return_value = mock_response
+        mock_science_download_response = Mock()
+        mock_science_download_response.read.return_value = b"/science_response"
+
+        mock_file_download_response = Mock()
+        mock_file_download_response.read.return_value = b'This is a file'
+        mock_urllib.request.urlopen.side_effect = [mock_science_download_response, mock_file_download_response]
 
         response = get_cdf_file("some cdf file")
 
+        self.assertEqual([call("http://3.139.73.210/dev/science-files-download?file=some cdf file"), call("http://3.139.73.210/science_response")], mock_urllib.request.urlopen.call_args_list)
         self.assertEqual(b'This is a file', response)
