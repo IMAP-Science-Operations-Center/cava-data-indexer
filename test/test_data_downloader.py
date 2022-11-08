@@ -50,4 +50,4 @@ class TestDataDownloader(TestCase):
         response = get_cdf_file("some cdf file")
 
         self.assertEqual([call("http://3.139.73.210/dev/science-files-download?file=some cdf file"), call("http://3.139.73.210/science_response")], mock_urllib.request.urlopen.call_args_list)
-        self.assertEqual(b'This is a file', response)
+        self.assertEqual({"link":"http://3.139.73.210/science_response" ,"data": b'This is a file'}, response)

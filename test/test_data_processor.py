@@ -28,23 +28,22 @@ class TestDataProcessor(TestCase):
         self.assertEqual(expected_output,actual_output)
 
     def test_parse_variables_from_cdf_returns_list_of_descriptions(self):
-        expected_descriptions = [
-            "Angle between TPS and Sun, 0 in encounter v13",
-            "Angle between nominal ram and actual ram, 0 in encounter v13",
-            "angle of off-pointing from ecliptic north when not in encounter v13",
-            "LET1A look angle with nominal parker spiral v13",
-            "LET2C look angle with nominal parker spiral v13",
-            "HETA look angle with nominal parker spiral v13",
-            "Lo look angle with nominal parker spiral v13",
-            "Heliocentric distance v13",
-            "HCI latitude v13",
-            "HCI longitude v13",
-            "Heliocentric distance v13",
-            "HGC latitude v13",
-            "HGC longitude v13",
-            "Spacecraft is umbra pointing v13",
-            "Spacecraft is ram pointing v13"
-        ]
+        expected_descriptions = {
+            'Angle between TPS and Sun, 0 in encounter v13': 'Sun_Angle',
+            'Angle between nominal ram and actual ram, 0 in encounter v13': 'Roll_Angle',
+            'HCI latitude v13': 'HCI_Lat',
+            'HCI longitude v13': 'HCI_Lon',
+            'HETA look angle with nominal parker spiral v13': 'Spiral_HETA',
+            'HGC latitude v13': 'HGC_Lat',
+            'HGC longitude v13': 'HGC_Lon',
+            'Heliocentric distance v13': 'HGC_R',
+            'LET1A look angle with nominal parker spiral v13': 'Spiral_LET1A',
+            'LET2C look angle with nominal parker spiral v13': 'Spiral_LET2C',
+            'Lo look angle with nominal parker spiral v13': 'Spiral_Lo',
+            'Spacecraft is ram pointing v13': 'Ram_Pointing',
+            'Spacecraft is umbra pointing v13': 'Umbra_Pointing',
+            'angle of off-pointing from ecliptic north when not in encounter v13': 'Clock_Angle'
+        }
 
         cdf_path = './test_data/test.cdf'
         descriptions = _parse_variables_from_cdf(cdf_path)
@@ -53,24 +52,22 @@ class TestDataProcessor(TestCase):
 
 
     def test_parse_variables_from_cdf_bytes_returns_list_of_descriptions(self):
-        expected_descriptions = [
-            "Angle between TPS and Sun, 0 in encounter v13",
-            "Angle between nominal ram and actual ram, 0 in encounter v13",
-            "angle of off-pointing from ecliptic north when not in encounter v13",
-            "LET1A look angle with nominal parker spiral v13",
-            "LET2C look angle with nominal parker spiral v13",
-            "HETA look angle with nominal parker spiral v13",
-            "Lo look angle with nominal parker spiral v13",
-            "Heliocentric distance v13",
-            "HCI latitude v13",
-            "HCI longitude v13",
-            "Heliocentric distance v13",
-            "HGC latitude v13",
-            "HGC longitude v13",
-            "Spacecraft is umbra pointing v13",
-            "Spacecraft is ram pointing v13"
-        ]
-
+        expected_descriptions = {
+            'Angle between TPS and Sun, 0 in encounter v13': 'Sun_Angle',
+            'Angle between nominal ram and actual ram, 0 in encounter v13': 'Roll_Angle',
+            'HCI latitude v13': 'HCI_Lat',
+            'HCI longitude v13': 'HCI_Lon',
+            'HETA look angle with nominal parker spiral v13': 'Spiral_HETA',
+            'HGC latitude v13': 'HGC_Lat',
+            'HGC longitude v13': 'HGC_Lon',
+            'Heliocentric distance v13': 'HGC_R',
+            'LET1A look angle with nominal parker spiral v13': 'Spiral_LET1A',
+            'LET2C look angle with nominal parker spiral v13': 'Spiral_LET2C',
+            'Lo look angle with nominal parker spiral v13': 'Spiral_Lo',
+            'Spacecraft is ram pointing v13': 'Ram_Pointing',
+            'Spacecraft is umbra pointing v13': 'Umbra_Pointing',
+            'angle of off-pointing from ecliptic north when not in encounter v13': 'Clock_Angle'
+        }
         cdf_path = './test_data/test.cdf'
         with open(cdf_path, 'rb') as file:
             cdf_bytes = file.read()
@@ -95,8 +92,8 @@ class TestDataProcessor(TestCase):
              ]
 
         mock_get_cdf_file.side_effect = [
-            b'first cdf file',
-            b'second cdf file'
+            {"link":"http://wwww.youtube.com/psp_instrument1_l2-summary_20181101_v1.27.0.cdf", "data":b'first cdf file'},
+            {"link":"http://www.fbi.gov/psp_instrument2_l2-ephem_20181101_v1.27.0.cdf","data":b'second cdf file'}
         ]
 
         mock_var_1 = Mock()
@@ -109,9 +106,9 @@ class TestDataProcessor(TestCase):
         mock_var_4.attrs = {"CATDESC": "variable 4", "VAR_TYPE": "data"}
 
         mock_pycdf.CDF.return_value.attrs = {"Data_version": "1.27.0"}
-        mock_pycdf.CDF.return_value.values.side_effect = [
-            [mock_var_1, mock_var_2],
-            [mock_var_3, mock_var_4]
+        mock_pycdf.CDF.return_value.items.side_effect = [
+            [("VAR1",mock_var_1), ("VAR2",mock_var_2)],
+            [("VAR3",mock_var_3), ("VAR4",mock_var_4)]
         ]
 
         actual_index = get_metadata_index()
@@ -125,18 +122,18 @@ class TestDataProcessor(TestCase):
 
         expected_index = [
         {
-            "descriptions": [
-                "variable 1 v1.27.0",
-                "variable 2 v1.27.0"
-            ],
-            "source_file_format": "psp_instrument1_l2-summary_%yyyymmdd%_v1.27.0.cdf"
+            "descriptions": {
+                "variable 1 v1.27.0":"VAR1",
+                "variable 2 v1.27.0":"VAR2"}
+            ,
+            "source_file_format": "http://wwww.youtube.com/psp_instrument1_l2-summary_%yyyymmdd%_v1.27.0.cdf"
         },
         {
-            "descriptions": [
-                "variable 3 v1.27.0",
-                "variable 4 v1.27.0"
-            ],
-            "source_file_format": "psp_instrument2_l2-ephem_%yyyymmdd%_v1.27.0.cdf"
+            "descriptions": {
+                "variable 3 v1.27.0":"VAR3",
+                "variable 4 v1.27.0":"VAR4"
+            },
+            "source_file_format": "http://www.fbi.gov/psp_instrument2_l2-ephem_%yyyymmdd%_v1.27.0.cdf"
         }
         ]
 

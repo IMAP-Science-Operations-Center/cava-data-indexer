@@ -1,67 +1,66 @@
 [
   {
-    "descriptions": [
-      "Angle between TPS and Sun, 0 in encounter v13",
-      "Angle between nominal ram and actual ram, 0 in encounter v13",
-      "angle of off-pointing from ecliptic north when not in encounter v13",
-      "LET1A look angle with nominal parker spiral v13",
-      "LET2C look angle with nominal parker spiral v13",
-      "HETA look angle with nominal parker spiral v13",
-      "Lo look angle with nominal parker spiral v13",
-      "Heliocentric distance v13",
-      "HCI latitude v13",
-      "HCI longitude v13",
-      "Heliocentric distance v13",
-      "HGC latitude v13",
-      "HGC longitude v13",
-      "Spacecraft is umbra pointing v13",
-      "Spacecraft is ram pointing v13"
-    ],
-    "source_file_format": "psp_isois_l2-ephem_%yyyymmdd%_v13.cdf"
+    "descriptions": {
+      "Angle between TPS and Sun, 0 in encounter v13": "Sun_Angle",
+      "Angle between nominal ram and actual ram, 0 in encounter v13": "Roll_Angle",
+      "angle of off-pointing from ecliptic north when not in encounter v13": "Clock_Angle",
+      "LET1A look angle with nominal parker spiral v13": "Spiral_LET1A",
+      "LET2C look angle with nominal parker spiral v13": "Spiral_LET2C",
+      "HETA look angle with nominal parker spiral v13": "Spiral_HETA",
+      "Lo look angle with nominal parker spiral v13": "Spiral_Lo",
+      "Heliocentric distance v13": "HGC_R",
+      "HCI latitude v13": "HCI_Lat",
+      "HCI longitude v13": "HCI_Lon",
+      "HGC latitude v13": "HGC_Lat",
+      "HGC longitude v13": "HGC_Lon",
+      "Spacecraft is umbra pointing v13": "Umbra_Pointing",
+      "Spacecraft is ram pointing v13": "Ram_Pointing"
+    },
+    "source_file_format": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-ephem_%yyyymmdd%_v13.cdf"
   },
   {
-    "descriptions": [
-      "HET H count rate side A v1.26.0",
-      "HET H count rate side A 10-50MeV v1.26.0",
-      "HET Electrons count rate side A v1.26.0",
-      "HET Electrons count rate side A 1-5MeV v1.26.0",
-      "PBUF000: R1 H (rate) v1.26.0",
-      "H count rate side A v1.26.0",
-      "H count rate side A 2-10MeV v1.26.0",
-      "Heavy (6<=z<=28) ion count rate side A v1.26.0",
-      "Heavy (6<=z<=28) ion count rate side A 4-40 MeV/nuc v1.26.0",
-      "H count rate channel T (IonTOF) v1.26.0",
-      "H count rate channel T (IonTOF) 30-3600keV/nuc v1.26.0",
-      "Electron count rate channel E (HiResElectrons) v1.26.0"
-    ],
-    "source_file_format": "psp_isois_l2-summary_%yyyymmdd%_v1.26.0.cdf"
+    "descriptions": {
+      "HET H count rate side A v1.26.0": "HET_A_H_Rate",
+      "HET H count rate side A 10-50MeV v1.26.0": "HET_A_H_Rate_TS",
+      "HET Electrons count rate side A v1.26.0": "HET_A_Electrons_Rate",
+      "HET Electrons count rate side A 1-5MeV v1.26.0": "HET_A_Electrons_Rate_TS",
+      "PBUF000: R1 H (rate) v1.26.0": "PBUF_000_R1_H_Rate",
+      "H count rate side A v1.26.0": "A_H_Rate",
+      "H count rate side A 2-10MeV v1.26.0": "A_H_Rate_TS",
+      "Heavy (6<=z<=28) ion count rate side A v1.26.0": "A_Heavy_Rate",
+      "Heavy (6<=z<=28) ion count rate side A 4-40 MeV/nuc v1.26.0": "A_Heavy_Rate_TS",
+      "H count rate channel T (IonTOF) v1.26.0": "H_CountRate_ChanT_SP",
+      "H count rate channel T (IonTOF) 30-3600keV/nuc v1.26.0": "H_CountRate_ChanT_TS",
+      "Electron count rate channel E (HiResElectrons) v1.26.0": "Electron_CountRate_ChanE"
+    },
+    "source_file_format": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-summary_%yyyymmdd%_v1.26.0.cdf"
   },
   {
-    "descriptions": [
-      "HET H count rate side A v1.27.0",
-      "HET H count rate side A 10-50MeV v1.27.0",
-      "HET Electrons count rate side A v1.27.0",
-      "HET Electrons count rate side A 1-5MeV v1.27.0",
-      "PBUF000: R1 H (rate) v1.27.0",
-      "H count rate side A v1.27.0",
-      "H count rate side A 2-10MeV v1.27.0",
-      "Heavy (6<=z<=28) ion count rate side A v1.27.0",
-      "Heavy (6<=z<=28) ion count rate side A 4-40 MeV/nuc v1.27.0",
-      "H count rate channel T (IonTOF) v1.27.0",
-      "H count rate channel T (IonTOF) 30-3600keV/nuc v1.27.0",
-      "Electron count rate channel E (HiResElectrons) v1.27.0"
-    ],
-    "source_file_format": "psp_isois_l2-summary_%yyyymmdd%_v1.27.0.cdf"
+    "descriptions": {
+      "HET H count rate side A v1.27.0": "HET_A_H_Rate",
+      "HET H count rate side A 10-50MeV v1.27.0": "HET_A_H_Rate_TS",
+      "HET Electrons count rate side A v1.27.0": "HET_A_Electrons_Rate",
+      "HET Electrons count rate side A 1-5MeV v1.27.0": "HET_A_Electrons_Rate_TS",
+      "PBUF000: R1 H (rate) v1.27.0": "PBUF_000_R1_H_Rate",
+      "H count rate side A v1.27.0": "A_H_Rate",
+      "H count rate side A 2-10MeV v1.27.0": "A_H_Rate_TS",
+      "Heavy (6<=z<=28) ion count rate side A v1.27.0": "A_Heavy_Rate",
+      "Heavy (6<=z<=28) ion count rate side A 4-40 MeV/nuc v1.27.0": "A_Heavy_Rate_TS",
+      "H count rate channel T (IonTOF) v1.27.0": "H_CountRate_ChanT_SP",
+      "H count rate channel T (IonTOF) 30-3600keV/nuc v1.27.0": "H_CountRate_ChanT_TS",
+      "Electron count rate channel E (HiResElectrons) v1.27.0": "Electron_CountRate_ChanE"
+    },
+    "source_file_format": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-summary_%yyyymmdd%_v1.27.0.cdf"
   },
   {
-    "descriptions": [
-      "HET H count rate side A 10-50MeV v13",
-      "HET Electrons count rate side A 1-5MeV v13",
-      "H count rate side A 2-10MeV v13",
-      "Heavy (6<=z<=28) ion count rate side A 4-40 MeV/nuc v13",
-      "H count rate channel P (HiResProtons) v13",
-      "Electron count rate channel E (HiResElectrons) v13"
-    ],
-    "source_file_format": "psp_isois_l2-summary_%yyyymmdd%_v13.cdf"
+    "descriptions": {
+      "HET H count rate side A 10-50MeV v13": "HET_A_H_Rate_TS",
+      "HET Electrons count rate side A 1-5MeV v13": "HET_A_Electrons_Rate_TS",
+      "H count rate side A 2-10MeV v13": "A_H_Rate_TS",
+      "Heavy (6<=z<=28) ion count rate side A 4-40 MeV/nuc v13": "A_Heavy_Rate_TS",
+      "H count rate channel P (HiResProtons) v13": "H_CountRate_ChanP_SP",
+      "Electron count rate channel E (HiResElectrons) v13": "Electron_CountRate_ChanE"
+    },
+    "source_file_format": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-summary_%yyyymmdd%_v13.cdf"
   }
 ]

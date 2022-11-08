@@ -2,7 +2,7 @@ import os.path
 import tempfile
 from collections import defaultdict
 from datetime import datetime
-from typing import List
+from typing import List, Dict
 from spacepy import pycdf
 
 from src.data_downloader import get_all_metadata, get_cdf_file
@@ -21,11 +21,11 @@ def group_metadata_by_file_names(metadata: [{}]) -> [{}]:
     return grouped_files
 
 
-def _parse_variables_from_cdf(file_path: str) -> List[str]:
+def _parse_variables_from_cdf(file_path: str) -> Dict[str, str]:
     cdf = pycdf.CDF(file_path)
     version = cdf.attrs['Data_version']
-    return [f'{var.attrs["CATDESC"]} v{version}' for var in cdf.values()
-            if var.attrs["VAR_TYPE"] == "data"]
+    return {f'{var.attrs["CATDESC"]} v{version}':key for key, var in cdf.items()
+            if var.attrs["VAR_TYPE"] == "data"}
 
 
 def parse_variables_from_cdf_bytes(cdf_bytes: bytes):
@@ -40,8 +40,9 @@ def get_metadata_index():
     metadata = group_metadata_by_file_names(get_all_metadata())
     for file_name_format, filenames in sorted(metadata.items()):
         cdf = get_cdf_file(filenames[0]["file_name"])
-        variables = parse_variables_from_cdf_bytes(cdf)
-        index.append({"descriptions": variables, "source_file_format": file_name_format})
+        variables = parse_variables_from_cdf_bytes(cdf["data"])
+        link = cdf["link"].replace(filenames[0]["file_name"], file_name_format)
+        index.append({"descriptions": variables, "source_file_format": link})
     return index
 
 
