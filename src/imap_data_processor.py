@@ -2,10 +2,11 @@ import os.path
 import tempfile
 from collections import defaultdict
 from datetime import datetime
-from typing import List, Dict
+from typing import Dict
+
 from spacepy import pycdf
 
-from src.data_downloader import get_all_metadata, get_cdf_file
+from src.cdf_downloader.imap_downloader import get_all_metadata, get_cdf_file
 
 
 def group_metadata_by_file_names(metadata: [{}]) -> [{}]:
@@ -24,7 +25,7 @@ def group_metadata_by_file_names(metadata: [{}]) -> [{}]:
 def _parse_variables_from_cdf(file_path: str) -> Dict[str, str]:
     cdf = pycdf.CDF(file_path)
     version = cdf.attrs['Data_version']
-    return {f'{var.attrs["CATDESC"]} v{version}':key for key, var in cdf.items()
+    return {f'{var.attrs["CATDESC"]} v{version}': key for key, var in cdf.items()
             if var.attrs["VAR_TYPE"] == "data"}
 
 
