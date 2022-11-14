@@ -1,12 +1,18 @@
 import json
+import sys
 
-from src.imap_data_processor import get_metadata_index
+from src import imap_data_processor
+from src.psp_data_processor import PspDataProcessor
 
 
 def main():
-    with open('index.json', 'w') as file_handler:
-        json.dump(get_metadata_index(), file_handler, indent=2)
-
+    args = sys.argv
+    if args[1] == 'imap':
+        with open('index_imap.json', 'w') as file_handler:
+            json.dump(imap_data_processor.get_metadata_index(), file_handler, indent=2)
+    elif args[1] == 'psp':
+        with open('index_psp.json', 'w') as file_handler:
+            json.dump(PspDataProcessor.get_metadata_index(), file_handler, indent=2)
 
 if __name__ == "__main__":
     main()

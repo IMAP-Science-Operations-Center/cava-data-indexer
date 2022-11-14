@@ -13,7 +13,7 @@ class PspFileInfo(NamedTuple):
 class PspFileParser:
 
     @staticmethod
-    def get_dictionary_of_files(url: str, list_of_files=None, top_level_link=None) -> Dict:
+    def get_dictionary_of_files(url: str, list_of_files=None, top_level_link=None) -> Dict[str, PspFileInfo]:
         if list_of_files is None:
             list_of_files = {}
         list_of_links = PspFileParser._get_all_links(url)
@@ -27,7 +27,7 @@ class PspFileParser:
         return list_of_files
 
     @staticmethod
-    def _add_cdf_link_to_list(element_text: str, link: str, list_of_files: List[str], top_level_link: str, year: str):
+    def _add_cdf_link_to_list(element_text: str, link: str, list_of_files: Dict[str, PspFileInfo], top_level_link: str, year: str):
         new_link = PspFileInfo(link, element_text, year)
         if top_level_link in list_of_files:
             list_of_files[top_level_link].append(new_link)
