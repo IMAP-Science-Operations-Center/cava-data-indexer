@@ -38,7 +38,7 @@ class TestPspDownloader(TestCase):
         mock_file_download_response.read.return_value = b'This is a PSP file'
         mock_urllib.request.urlopen.return_value = mock_file_download_response
 
-        response = PspDownloader.get_cdf_file("psp_isois-epihi_l2-het-rate1_20220928_v13.cdf", "epihi", "het-rate1",
+        response = PspDownloader.get_cdf_file("psp_isois-epihi_l2-het-rate1_20220928_v13.cdf", "epihi", "het-rate1/",
                                               "2022")
 
         self.assertEqual([call(

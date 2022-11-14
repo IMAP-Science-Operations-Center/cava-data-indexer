@@ -25,5 +25,5 @@ class PspDownloader:
     @staticmethod
     def get_cdf_file(filename: str, instrument: str, category: str, year: str):
         instrument_base_url = psp_cda_base_url.format(instrument)
-        file_url = f"{instrument_base_url}{category}/{year}/{filename}"
+        file_url = f"{instrument_base_url}{category}{year}/{filename}"
         return {"link": file_url, "data": urllib.request.urlopen(file_url).read()}

@@ -1,7 +1,6 @@
 from src.cdf_downloader.psp_downloader import PspDownloader
 from src.cdf_variable_parser import CdfVariableParser
 
-
 class PspDataProcessor:
     @staticmethod
     def get_metadata_index():
@@ -16,6 +15,7 @@ class PspDataProcessor:
                 variables = CdfVariableParser.parse_variables_from_cdf_bytes(cdf['data'])
                 split_link = cdf['link'].split('_')
                 rebuilt_link = '_'.join(split_link[:-2]) + '_%yyyymmdd%_' + split_link[-1]
+                rebuilt_link = rebuilt_link.replace(psp_file_info.year, '%yyyy%')
                 index.append({"descriptions": variables, "source_file_format": rebuilt_link})
         return index
 

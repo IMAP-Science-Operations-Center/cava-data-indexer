@@ -23,10 +23,10 @@ class TestPspDataProcessor(unittest.TestCase):
         }
 
         mock_downloader.get_cdf_file.side_effect = [
-            {'link': 'psp_isois-epihi_l2-het-rates3600_20190102_v10.cdf', 'data': b'some data 1'},
-            {'link': 'psp_isois-epihi_l2-het-rates3600_20190102_v11.cdf', 'data': b'some data 2'},
-            {'link': 'psp_isois-epihi_l2-het-rates3600_20190102_v12.cdf', 'data': b'some data 3'},
-            {'link': 'psp_isois-epihi_l2-het-rates3600_20190102_v13.cdf', 'data': b'some data 4'},
+            {'link': '/2022/psp_isois-epihi_l2-het-rates3600_20190102_v10.cdf', 'data': b'some data 1'},
+            {'link': '/2023/psp_isois-epihi_l2-het-rates3600_20190102_v11.cdf', 'data': b'some data 2'},
+            {'link': '/2022/psp_isois-epihi_l2-het-rates3600_20190102_v12.cdf', 'data': b'some data 3'},
+            {'link': '/2023/psp_isois-epihi_l2-het-rates3600_20190102_v13.cdf', 'data': b'some data 4'},
         ]
 
         mock_cdf_variable_parser.parse_variables_from_cdf_bytes.side_effect = [
@@ -51,8 +51,8 @@ class TestPspDataProcessor(unittest.TestCase):
         ],
             mock_cdf_variable_parser.parse_variables_from_cdf_bytes.call_args_list)
 
-        self.assertEqual([{"descriptions": {'a description v1': 'a key into the CDF 1'}, "source_file_format": 'psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v10.cdf'},
-                          {"descriptions": {'a description v2': 'a key into the CDF 2'}, "source_file_format": 'psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v11.cdf'},
-                          {"descriptions": {'a description v3': 'a key into the CDF 3'}, "source_file_format": 'psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v12.cdf'},
-                          {"descriptions": {'a description v4': 'a key into the CDF 4'}, "source_file_format": 'psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v13.cdf'}],
+        self.assertEqual([{"descriptions": {'a description v1': 'a key into the CDF 1'}, "source_file_format": '/%yyyy%/psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v10.cdf'},
+                          {"descriptions": {'a description v2': 'a key into the CDF 2'}, "source_file_format": '/%yyyy%/psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v11.cdf'},
+                          {"descriptions": {'a description v3': 'a key into the CDF 3'}, "source_file_format": '/%yyyy%/psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v12.cdf'},
+                          {"descriptions": {'a description v4': 'a key into the CDF 4'}, "source_file_format": '/%yyyy%/psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v13.cdf'}],
                          actual_index)
