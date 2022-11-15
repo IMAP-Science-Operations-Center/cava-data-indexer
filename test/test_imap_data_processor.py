@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest.mock import patch, Mock, call
 
-from src.imap_data_processor import group_metadata_by_file_names,  get_metadata_index
+from src.imap_data_processor import group_metadata_by_file_names, get_metadata_index
 
 
 class TestImapDataProcessor(TestCase):
@@ -30,10 +30,10 @@ class TestImapDataProcessor(TestCase):
         actual_output = group_metadata_by_file_names(metadata)
         self.assertEqual(expected_output, actual_output)
 
-    @patch('src.cdf_variable_parser.pycdf')
+    @patch('src.imap_data_processor.CdfVariableParser')
     @patch('src.imap_data_processor.get_all_metadata')
     @patch('src.imap_data_processor.get_cdf_file')
-    def test_get_metadata_index(self, mock_get_cdf_file, mock_get_all_metadata, mock_pycdf):
+    def test_get_metadata_index(self, mock_get_cdf_file, mock_get_all_metadata, mock_cdf_variable_parser):
         mock_get_all_metadata.return_value = [
             {"absolute_version": 127, "data_level": "l2", "descriptor": "vid", "directory_path": "fake://../cdf_files",
              "file_name": "psp_instrument1_l2-summary_20181101_v1.27.0.cdf",
@@ -91,19 +91,9 @@ class TestImapDataProcessor(TestCase):
             {"link": "http://www.fbi.gov/psp_instrument2_l2-ephem_20181101_v1.27.0.cdf", "data": b'second cdf file'}
         ]
 
-        mock_var_1 = Mock()
-        mock_var_1.attrs = {"CATDESC": "variable 1", "VAR_TYPE": "data"}
-        mock_var_2 = Mock()
-        mock_var_2.attrs = {"CATDESC": "variable 2", "VAR_TYPE": "data"}
-        mock_var_3 = Mock()
-        mock_var_3.attrs = {"CATDESC": "variable 3", "VAR_TYPE": "data"}
-        mock_var_4 = Mock()
-        mock_var_4.attrs = {"CATDESC": "variable 4", "VAR_TYPE": "data"}
-
-        mock_pycdf.CDF.return_value.attrs = {"Data_version": "1.27.0"}
-        mock_pycdf.CDF.return_value.items.side_effect = [
-            [("VAR1", mock_var_1), ("VAR2", mock_var_2)],
-            [("VAR3", mock_var_3), ("VAR4", mock_var_4)]
+        mock_cdf_variable_parser.parse_variables_from_cdf_bytes.side_effect = [
+            {"variable 1 v1.27.0": "VAR1", "variable 2 v1.27.0": "VAR2"},
+            {"variable 3 v1.27.0": "VAR3", "variable 4 v1.27.0": "VAR4"}
         ]
 
         actual_index = get_metadata_index()
