@@ -111,14 +111,16 @@ class TestImapDataProcessor(TestCase):
                     "variable 1 v1.27.0": "VAR1",
                     "variable 2 v1.27.0": "VAR2"}
                 ,
-                "source_file_format": "http://wwww.youtube.com/psp_instrument1_l2-summary_%yyyymmdd%_v1.27.0.cdf"
+                "source_file_format": "http://wwww.youtube.com/psp_instrument1_l2-summary_%yyyymmdd%_v1.27.0.cdf",
+                "description_source_file": 'http://wwww.youtube.com/psp_instrument1_l2-summary_20181101_v1.27.0.cdf'
             },
             {
                 "descriptions": {
                     "variable 3 v1.27.0": "VAR3",
                     "variable 4 v1.27.0": "VAR4"
                 },
-                "source_file_format": "http://www.fbi.gov/psp_instrument2_l2-ephem_%yyyymmdd%_v1.27.0.cdf"
+                "source_file_format": "http://www.fbi.gov/psp_instrument2_l2-ephem_%yyyymmdd%_v1.27.0.cdf",
+                "description_source_file": 'http://www.fbi.gov/psp_instrument2_l2-ephem_20181101_v1.27.0.cdf'
             }
         ]
 

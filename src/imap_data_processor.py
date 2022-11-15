@@ -25,7 +25,7 @@ def get_metadata_index():
         cdf = get_cdf_file(filenames[0]["file_name"])
         variables = CdfVariableParser.parse_variables_from_cdf_bytes(cdf["data"])
         link = cdf["link"].replace(filenames[0]["file_name"], file_name_format)
-        index.append({"descriptions": variables, "source_file_format": link})
+        index.append({"descriptions": variables, "source_file_format": link, "description_source_file": cdf["link"]})
     return index
 
 

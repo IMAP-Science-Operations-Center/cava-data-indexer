@@ -57,7 +57,8 @@
       "S count rate side B v13": "B_S_Rate",
       "Si count rate side B v13": "B_Si_Rate"
     },
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates1h/%yyyy%/psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v13.cdf"
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates1h/%yyyy%/psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v13.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates1h/2018/psp_isois-epihi_l2-het-rates3600_20180928_v13.cdf"
   },
   {
     "descriptions": {
@@ -117,7 +118,8 @@
       "S count rate side B v13": "B_S_Rate",
       "Si count rate side B v13": "B_Si_Rate"
     },
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates1min/%yyyy%/psp_isois-epihi_l2-het-rates60_%yyyymmdd%_v13.cdf"
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates1min/%yyyy%/psp_isois-epihi_l2-het-rates60_%yyyymmdd%_v13.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates1min/2018/psp_isois-epihi_l2-het-rates60_20180928_v13.cdf"
   },
   {
     "descriptions": {
@@ -139,7 +141,8 @@
       "Pitch angle HETBR17SECT v13": "HET_B_R17_SECT_PA",
       "Nominal Parker Spiral angle HETBR17SECT v13": "HET_B_R17_SECT_SA"
     },
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates5min/%yyyy%/psp_isois-epihi_l2-het-rates300_%yyyymmdd%_v13.cdf"
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates5min/%yyyy%/psp_isois-epihi_l2-het-rates300_%yyyymmdd%_v13.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates5min/2018/psp_isois-epihi_l2-het-rates300_20180928_v13.cdf"
   },
   {
     "descriptions": {
@@ -167,7 +170,8 @@
       "He count rate side B v13": "B_He_Rate",
       "He flux side B v13": "B_He_Flux"
     },
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates10s/%yyyy%/psp_isois-epihi_l2-het-rates10_%yyyymmdd%_v13.cdf"
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates10s/%yyyy%/psp_isois-epihi_l2-het-rates10_%yyyymmdd%_v13.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates10s/2018/psp_isois-epihi_l2-het-rates10_20180928_v13.cdf"
   },
   {
     "descriptions": {
@@ -231,7 +235,8 @@
       "Electrons count rate side A v13": "A_Electrons_Rate",
       "Electrons count rate side B v13": "B_Electrons_Rate"
     },
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates1h/%yyyy%/psp_isois-epihi_l2-let1-rates3600_%yyyymmdd%_v13.cdf"
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates1h/%yyyy%/psp_isois-epihi_l2-let1-rates3600_%yyyymmdd%_v13.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates1h/2018/psp_isois-epihi_l2-let1-rates3600_20180928_v13.cdf"
   },
   {
     "descriptions": {
@@ -295,7 +300,8 @@
       "Electrons count rate side A v13": "A_Electrons_Rate",
       "Electrons count rate side B v13": "B_Electrons_Rate"
     },
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates1min/%yyyy%/psp_isois-epihi_l2-let1-rates60_%yyyymmdd%_v13.cdf"
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates1min/%yyyy%/psp_isois-epihi_l2-let1-rates60_%yyyymmdd%_v13.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates1min/2018/psp_isois-epihi_l2-let1-rates60_20180928_v13.cdf"
   },
   {
     "descriptions": {
@@ -321,7 +327,8 @@
       "Pitch angle LET1BR26SECT v13": "LET1_B_R26_SECT_PA",
       "Nominal Parker Spiral angle LET1BR26SECT v13": "LET1_B_R26_SECT_SA"
     },
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates5min/%yyyy%/psp_isois-epihi_l2-let1-rates300_%yyyymmdd%_v13.cdf"
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates5min/%yyyy%/psp_isois-epihi_l2-let1-rates300_%yyyymmdd%_v13.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates5min/2018/psp_isois-epihi_l2-let1-rates300_20180928_v13.cdf"
   },
   {
     "descriptions": {
@@ -349,7 +356,8 @@
       "Electrons count rate side A v13": "A_Electrons_Rate",
       "Electrons count rate side B v13": "B_Electrons_Rate"
     },
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates10s/%yyyy%/psp_isois-epihi_l2-let1-rates10_%yyyymmdd%_v13.cdf"
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates10s/%yyyy%/psp_isois-epihi_l2-let1-rates10_%yyyymmdd%_v13.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates10s/2018/psp_isois-epihi_l2-let1-rates10_20180928_v13.cdf"
   },
   {
     "descriptions": {
@@ -386,7 +394,8 @@
       "Si count rate side C v13": "C_Si_Rate",
       "Electrons count rate side C v13": "C_Electrons_Rate"
     },
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates1h/%yyyy%/psp_isois-epihi_l2-let2-rates3600_%yyyymmdd%_v13.cdf"
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates1h/%yyyy%/psp_isois-epihi_l2-let2-rates3600_%yyyymmdd%_v13.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates1h/2018/psp_isois-epihi_l2-let2-rates3600_20180928_v13.cdf"
   },
   {
     "descriptions": {
@@ -423,7 +432,8 @@
       "Si count rate side C v13": "C_Si_Rate",
       "Electrons count rate side C v13": "C_Electrons_Rate"
     },
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates1min/%yyyy%/psp_isois-epihi_l2-let2-rates60_%yyyymmdd%_v13.cdf"
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates1min/%yyyy%/psp_isois-epihi_l2-let2-rates60_%yyyymmdd%_v13.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates1min/2018/psp_isois-epihi_l2-let2-rates60_20180928_v13.cdf"
   },
   {
     "descriptions": {
@@ -441,7 +451,8 @@
       "Pitch angle LET2CR25SECT v13": "LET2_C_R25_SECT_PA",
       "Nominal Parker Spiral angle LET2CR25SECT v13": "LET2_C_R25_SECT_SA"
     },
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates5min/%yyyy%/psp_isois-epihi_l2-let2-rates300_%yyyymmdd%_v13.cdf"
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates5min/%yyyy%/psp_isois-epihi_l2-let2-rates300_%yyyymmdd%_v13.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates5min/2018/psp_isois-epihi_l2-let2-rates300_20180928_v13.cdf"
   },
   {
     "descriptions": {
@@ -460,7 +471,8 @@
       "He flux side C v13": "C_He_Flux",
       "Electrons count rate side C v13": "C_Electrons_Rate"
     },
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates10s/%yyyy%/psp_isois-epihi_l2-let2-rates10_%yyyymmdd%_v13.cdf"
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates10s/%yyyy%/psp_isois-epihi_l2-let2-rates10_%yyyymmdd%_v13.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates10s/2018/psp_isois-epihi_l2-let2-rates10_20180928_v13.cdf"
   },
   {
     "descriptions": {
@@ -510,7 +522,8 @@
       "H rate HET A v13": "HET_A_H_Rate",
       "H rate HET B v13": "HET_B_H_Rate"
     },
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/merged_rates1s/%yyyy%/psp_isois-epihi_l2-second-rates_%yyyymmdd%_v13.cdf"
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/merged_rates1s/%yyyy%/psp_isois-epihi_l2-second-rates_%yyyymmdd%_v13.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/merged_rates1s/2018/psp_isois-epihi_l2-second-rates_20180928_v13.cdf"
   },
   {
     "descriptions": {
@@ -550,7 +563,8 @@
       "HGC latitude ChanT v13": "HGC_Lat_ChanT",
       "HGC longitude ChanT v13": "HGC_Lon_ChanT"
     },
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epilo/l2/ic/%yyyy%/psp_isois-epilo_l2-ic_%yyyymmdd%_v13.cdf"
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epilo/l2/ic/%yyyy%/psp_isois-epilo_l2-ic_%yyyymmdd%_v13.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epilo/l2/ic/2018/psp_isois-epilo_l2-ic_20180928_v13.cdf"
   },
   {
     "descriptions": {
@@ -576,7 +590,8 @@
       "HGC latitude ChanG v13": "HGC_Lat_ChanG",
       "HGC longitude ChanG v13": "HGC_Lon_ChanG"
     },
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epilo/l2/pe/%yyyy%/psp_isois-epilo_l2-pe_%yyyymmdd%_v13.cdf"
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epilo/l2/pe/%yyyy%/psp_isois-epilo_l2-pe_%yyyymmdd%_v13.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epilo/l2/pe/2018/psp_isois-epilo_l2-pe_20180928_v13.cdf"
   },
   {
     "descriptions": {
@@ -595,7 +610,8 @@
       "Spacecraft is umbra pointing v13": "Umbra_Pointing",
       "Spacecraft is ram pointing v13": "Ram_Pointing"
     },
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/ephemeris/%yyyy%/psp_isois_l2-ephem_%yyyymmdd%_v13.cdf"
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/ephemeris/%yyyy%/psp_isois_l2-ephem_%yyyymmdd%_v13.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/ephemeris/2018/psp_isois_l2-ephem_20180928_v13.cdf"
   },
   {
     "descriptions": {
@@ -606,6 +622,7 @@
       "H count rate channel P (HiResProtons) v13": "H_CountRate_ChanP_SP",
       "Electron count rate channel E (HiResElectrons) v13": "Electron_CountRate_ChanE"
     },
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/summary/%yyyy%/psp_isois_l2-summary_%yyyymmdd%_v13.cdf"
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/summary/%yyyy%/psp_isois_l2-summary_%yyyymmdd%_v13.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/summary/2018/psp_isois_l2-summary_20180928_v13.cdf"
   }
 ]

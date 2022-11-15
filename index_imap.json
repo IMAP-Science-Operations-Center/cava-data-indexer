@@ -16,7 +16,8 @@
       "Spacecraft is umbra pointing v13": "Umbra_Pointing",
       "Spacecraft is ram pointing v13": "Ram_Pointing"
     },
-    "source_file_format": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-ephem_%yyyymmdd%_v13.cdf"
+    "source_file_format": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-ephem_%yyyymmdd%_v13.cdf",
+    "description_source_file": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-ephem_20210918_v13.cdf"
   },
   {
     "descriptions": {
@@ -33,7 +34,8 @@
       "H count rate channel T (IonTOF) 30-3600keV/nuc v1.26.0": "H_CountRate_ChanT_TS",
       "Electron count rate channel E (HiResElectrons) v1.26.0": "Electron_CountRate_ChanE"
     },
-    "source_file_format": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-summary_%yyyymmdd%_v1.26.0.cdf"
+    "source_file_format": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-summary_%yyyymmdd%_v1.26.0.cdf",
+    "description_source_file": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-summary_20181103_v1.26.0.cdf"
   },
   {
     "descriptions": {
@@ -50,7 +52,8 @@
       "H count rate channel T (IonTOF) 30-3600keV/nuc v1.27.0": "H_CountRate_ChanT_TS",
       "Electron count rate channel E (HiResElectrons) v1.27.0": "Electron_CountRate_ChanE"
     },
-    "source_file_format": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-summary_%yyyymmdd%_v1.27.0.cdf"
+    "source_file_format": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-summary_%yyyymmdd%_v1.27.0.cdf",
+    "description_source_file": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-summary_20181111_v1.27.0.cdf"
   },
   {
     "descriptions": {
@@ -61,6 +64,7 @@
       "H count rate channel P (HiResProtons) v13": "H_CountRate_ChanP_SP",
       "Electron count rate channel E (HiResElectrons) v13": "Electron_CountRate_ChanE"
     },
-    "source_file_format": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-summary_%yyyymmdd%_v13.cdf"
+    "source_file_format": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-summary_%yyyymmdd%_v13.cdf",
+    "description_source_file": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-summary_20210604_v13.cdf"
   }
 ]
