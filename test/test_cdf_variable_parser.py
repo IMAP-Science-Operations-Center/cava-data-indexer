@@ -72,6 +72,7 @@ class TestCdfVariableParser(unittest.TestCase):
             "DEPEND_0": "time_col_good",
             "SCALETYP": "linear",
             "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'spectrogram'
         }
         var_that_is_not_filtered.shape = (1, 2)
 
@@ -83,6 +84,7 @@ class TestCdfVariableParser(unittest.TestCase):
             "DEPEND_0": "time_col_good",
             "SCALETYP": "linear",
             "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'spectrogram'
         }
         var_filtered_for_incorrect_shape.shape = (1, 2, 3)
 
@@ -93,6 +95,7 @@ class TestCdfVariableParser(unittest.TestCase):
             "DEPEND_0": "time_col_good",
             "SCALETYP": "linear",
             "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'spectrogram'
         }
         var_filtered_for_missing_fieldnam.shape = (1, 2)
 
@@ -104,6 +107,7 @@ class TestCdfVariableParser(unittest.TestCase):
             "DEPEND_0": "time_col_no_delta_minus",
             "SCALETYP": "linear",
             "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'spectrogram'
         }
         var_filtered_for_missing_delta_minus.shape = (1, 2)
 
@@ -115,6 +119,7 @@ class TestCdfVariableParser(unittest.TestCase):
             "DEPEND_0": "time_col_no_delta_plus",
             "SCALETYP": "linear",
             "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'spectrogram'
         }
         var_filtered_for_missing_delta_plus.shape = (1, 2)
 
@@ -126,6 +131,7 @@ class TestCdfVariableParser(unittest.TestCase):
             "DEPEND_0": "time_col_good",
             "SCALETYP": "linear",
             "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'spectrogram'
         }
         var_not_filtered_for_linear_scaletype_and_scalemin_nonzero.shape = (1, 2)
 
@@ -137,6 +143,7 @@ class TestCdfVariableParser(unittest.TestCase):
             "DEPEND_0": "time_col_good",
             "SCALETYP": "log",
             "SCALEMIN": 0,
+            "DISPLAY_TYPE": 'spectrogram'
         }
         var_filtered_for_scaletype_log_and_scalemin_zero.shape = (1, 2)
 
@@ -148,6 +155,7 @@ class TestCdfVariableParser(unittest.TestCase):
             "DEPEND_0": "time_col_good",
             "SCALETYP": "log",
             "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'spectrogram'
         }
         var_not_filtered_for_scaletype_log_and_scalemin_nonzero.shape = (1, 2)
 
@@ -158,6 +166,7 @@ class TestCdfVariableParser(unittest.TestCase):
             "FIELDNAM": "something",
             "DEPEND_0": "time_col_good",
             "SCALEMIN": 0,
+            "DISPLAY_TYPE": 'spectrogram'
         }
         var_filtered_for_scaletype_missing_and_scalemin_zero.shape = (1, 2)
 
@@ -168,6 +177,7 @@ class TestCdfVariableParser(unittest.TestCase):
             "FIELDNAM": "something",
             "DEPEND_0": "time_col_good",
             "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'spectrogram'
         }
         var_not_filtered_for_scaletype_missing_and_scalemin_nonzero.shape = (1, 2)
 
@@ -179,8 +189,21 @@ class TestCdfVariableParser(unittest.TestCase):
             "DEPEND_0": "time_col_unit_ms",
             "SCALETYP": "linear",
             "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'spectrogram'
         }
         var_filtered_for_wrong_time_units.shape = (1, 2)
+
+        var_filtered_for_wrong_timeseries_shape = Mock()
+        var_filtered_for_wrong_timeseries_shape.attrs = {
+            "CATDESC": "var_filtered_for_timeseries_shape",
+            "VAR_TYPE": "data",
+            "FIELDNAM": "something",
+            "DEPEND_0": "time_col_good",
+            "SCALETYP": "linear",
+            "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'time_series'
+        }
+        var_filtered_for_wrong_timeseries_shape.shape = (1, 2)
 
         mock_cdf_instance.items.return_value = {
             'var0': var_that_is_not_filtered,
@@ -193,7 +216,8 @@ class TestCdfVariableParser(unittest.TestCase):
             'var7': var_not_filtered_for_scaletype_log_and_scalemin_nonzero,
             'var8': var_filtered_for_scaletype_missing_and_scalemin_zero,
             'var9': var_not_filtered_for_scaletype_missing_and_scalemin_nonzero,
-            'var10': var_filtered_for_wrong_time_units
+            'var10': var_filtered_for_wrong_time_units,
+            'var11': var_filtered_for_wrong_timeseries_shape
         }.items()
 
         mock_time_column_good = Mock()

@@ -9,7 +9,8 @@ class CdfVariableParser:
 
     @staticmethod
     def _check_needed_values_are_present(variable, cdf):
-        has_correct_shape = len(variable.shape) <= 2
+        has_correct_shape = (variable.attrs['DISPLAY_TYPE'] == 'spectrogram' and len(variable.shape) <= 2) or (
+                variable.attrs['DISPLAY_TYPE'] == 'time_series' and len(variable.shape) == 1)
         has_field_name = 'FIELDNAM' in variable.attrs
         time_col = variable.attrs['DEPEND_0']
         has_time_delta_minus_col = 'DELTA_MINUS_VAR' in cdf[time_col].attrs
