@@ -1,8 +1,15 @@
 import os
 import tempfile
+from dataclasses import dataclass, field
 from typing import Dict
 
 from spacepy import pycdf
+
+@dataclass
+class CdfFileInfo:
+    logical_source: str
+    data_version: str
+    variable_desc_to_key_dict: Dict[str, str]
 
 
 class CdfVariableParser:

@@ -1,11 +1,11 @@
 import unittest
 from unittest.mock import patch, Mock
 
-from src.cdf_variable_parser import CdfVariableParser
+from src.cdf_variable_parser import CdfVariableParser, CdfFileInfo
 
 
 class TestCdfVariableParser(unittest.TestCase):
-    def test_parse_variables_from_cdf_returns_list_of_descriptions(self):
+    def test_parse_variables_from_cdf_returns_cdf_file_info(self):
         expected_descriptions = {
             'Angle between TPS and Sun, 0 in encounter v13': 'Sun_Angle',
             'Angle between nominal ram and actual ram, 0 in encounter v13': 'Roll_Angle',
@@ -23,10 +23,15 @@ class TestCdfVariableParser(unittest.TestCase):
             'angle of off-pointing from ecliptic north when not in encounter v13': 'Clock_Angle'
         }
 
-        cdf_path = './test_data/test.cdf'
-        descriptions = CdfVariableParser.parse_variables_from_cdf(cdf_path)
+        expected_cdf_file_info = CdfFileInfo(
+            logical_source="psp_isois_l2-ephem",
+            data_version="13",
+            variable_desc_to_key_dict=expected_descriptions)
 
-        self.assertEqual(expected_descriptions, descriptions)
+        cdf_path = './test_data/test.cdf'
+        descriptions = CdfVariableParser.parse_info_from_cdf(cdf_path)
+
+        self.assertEqual(expected_cdf_file_info, descriptions)
 
     def test_parse_variables_from_cdf_bytes_returns_list_of_descriptions(self):
         expected_descriptions = {
@@ -49,16 +54,22 @@ class TestCdfVariableParser(unittest.TestCase):
         with open(cdf_path, 'rb') as file:
             cdf_bytes = file.read()
 
-        descriptions = CdfVariableParser.parse_variables_from_cdf_bytes(cdf_bytes)
 
-        self.assertEqual(expected_descriptions, descriptions)
+        expected_cdf_file_info = CdfFileInfo(
+            logical_source="psp_isois_l2-ephem",
+            data_version="13",
+            variable_desc_to_key_dict=expected_descriptions)
+
+        descriptions = CdfVariableParser.parse_info_from_cdf_bytes(cdf_bytes)
+
+        self.assertEqual(expected_cdf_file_info, descriptions)
 
     @patch('src.cdf_variable_parser.pycdf.CDF')
     def test_parse_variables_from_cdf_bytes_filter_out_variables_that_are_missing_key_features(self, mock_CDF_class):
         mock_cdf_instance = Mock()
         mock_CDF_class.return_value = mock_cdf_instance
 
-        mock_cdf_instance.attrs = {'Data_version': "99"}
+        mock_cdf_instance.attrs = {'Data_version': "99", 'Logical_source': "lsource"}
 
         expected_descriptions = {'var_not_filtered v99': "var0", "var_not_filtered_linear v99": "var5",
                                  "var_not_filtered_for_nonzero_min_and_log v99": "var7",
@@ -233,6 +244,6 @@ class TestCdfVariableParser(unittest.TestCase):
         mock_cdf_instance.__getitem__ = Mock()
         mock_cdf_instance.__getitem__.side_effect = lambda key: cdf_items[key]
 
-        returned_descriptions = CdfVariableParser.parse_variables_from_cdf("")
+        returned_info = CdfVariableParser.parse_info_from_cdf("")
 
-        self.assertEqual(expected_descriptions, returned_descriptions)
+        self.assertEqual(expected_descriptions, returned_info.variable_desc_to_key_dict)

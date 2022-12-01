@@ -1,6 +1,7 @@
 from unittest import TestCase
 from unittest.mock import patch, Mock, call
 
+from src.cdf_variable_parser import CdfFileInfo
 from src.imap_data_processor import group_metadata_by_file_names, get_metadata_index
 
 
@@ -72,12 +73,6 @@ class TestImapDataProcessor(TestCase):
              "mod_date": "2022-11-02 17:21:19+00:00", "mode": "xos1", "pred_rec": "r", "released": True, "revision": 27,
              "timetag": "2018-11-02 00:00:00+00:00", "version": 1},
             {"absolute_version": 127, "data_level": "l2", "descriptor": "vid", "directory_path": "fake://../cdf_files",
-             "file_name": "psp_instrument2_l2-ephem_20181103_v1.27.0.cdf",
-             "file_root": "psp_instrument2_l2-ephem_20181103_v1.27.0.cdf", "file_size": 403371422, "id": 3161,
-             "instrument_id": "instrument2", "md5checksum": "0502a7e4a86e1d78ec7c73515f2dc7d5",
-             "mod_date": "2022-11-03 17:21:19+00:00", "mode": "xos1", "pred_rec": "r", "released": True, "revision": 27,
-             "timetag": "2018-11-03 00:00:00+00:00", "version": 1},
-            {"absolute_version": 127, "data_level": "l2", "descriptor": "vid", "directory_path": "fake://../cdf_files",
              "file_name": "psp_instrument2_l2-ephem_20181104_v1.27.0.cdf",
              "file_root": "psp_instrument2_l2-ephem_20181104_v1.27.0.cdf", "file_size": 403371422, "id": 3161,
              "instrument_id": "instrument2", "md5checksum": "0502a7e4a86e1d78ec7c73515f2dc7d5",
@@ -91,9 +86,9 @@ class TestImapDataProcessor(TestCase):
             {"link": "http://www.fbi.gov/psp_instrument2_l2-ephem_20181101_v1.27.0.cdf", "data": b'second cdf file'}
         ]
 
-        mock_cdf_variable_parser.parse_variables_from_cdf_bytes.side_effect = [
-            {"variable 1 v1.27.0": "VAR1", "variable 2 v1.27.0": "VAR2"},
-            {"variable 3 v1.27.0": "VAR3", "variable 4 v1.27.0": "VAR4"}
+        mock_cdf_variable_parser.parse_info_from_cdf_bytes.side_effect = [
+            CdfFileInfo("source1", "1.27.0", {"variable 1 v1.27.0": "VAR1", "variable 2 v1.27.0": "VAR2"}),
+            CdfFileInfo("source2", "1.27.0", {"variable 3 v1.27.0": "VAR3", "variable 4 v1.27.0": "VAR4"})
         ]
 
         actual_index = get_metadata_index()
@@ -107,6 +102,9 @@ class TestImapDataProcessor(TestCase):
 
         expected_index = [
             {
+                "logical_source": "source1",
+                "version": "1.27.0",
+                "dates_available": [["2018-11-01", "2018-11-04"]],
                 "descriptions": {
                     "variable 1 v1.27.0": "VAR1",
                     "variable 2 v1.27.0": "VAR2"}
@@ -115,6 +113,9 @@ class TestImapDataProcessor(TestCase):
                 "description_source_file": 'http://wwww.youtube.com/psp_instrument1_l2-summary_20181101_v1.27.0.cdf'
             },
             {
+                "logical_source": "source2",
+                "version": "1.27.0",
+                "dates_available": [["2018-11-01", "2018-11-02"], ["2018-11-04", "2018-11-04"]],
                 "descriptions": {
                     "variable 3 v1.27.0": "VAR3",
                     "variable 4 v1.27.0": "VAR4"
