@@ -1,7 +1,10 @@
+import os
+import tempfile
 from collections import defaultdict
 from datetime import datetime
 
 from src.cdf_downloader.imap_downloader import get_all_metadata, get_cdf_file
+from src.cdf_global_parser import CdfGlobalParser
 from src.cdf_variable_parser import CdfVariableParser
 
 
@@ -23,9 +26,13 @@ def get_metadata_index():
     metadata = group_metadata_by_file_names(get_all_metadata())
     for file_name_format, filenames in sorted(metadata.items()):
         cdf = get_cdf_file(filenames[0]["file_name"])
-        variables = CdfVariableParser.parse_variables_from_cdf_bytes(cdf["data"])
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            with open(os.path.join(tmp_dir, 'cdf.cdf'), 'wb') as tmp_file:
+                tmp_file.write(cdf["data"])
+                variables = CdfVariableParser.parse_variables_from_cdf(tmp_file.name)
+                global_variables = CdfGlobalParser.parse_global_variables_from_cdf(tmp_file.name)
         link = cdf["link"].replace(filenames[0]["file_name"], file_name_format)
-        index.append({"descriptions": variables, "source_file_format": link, "description_source_file": cdf["link"]})
+        index.append({"descriptions": variables, "source_file_format": link, "description_source_file": cdf["link"], "logical_source": global_variables['Logical_source']})
     return index
 
 

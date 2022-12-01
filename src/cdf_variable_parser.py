@@ -26,10 +26,3 @@ class CdfVariableParser:
         version = cdf.attrs['Data_version']
         return {f'{var.attrs["CATDESC"]} v{version}': key for key, var in cdf.items()
                 if var.attrs["VAR_TYPE"] == "data" and CdfVariableParser._check_needed_values_are_present(var, cdf)}
-
-    @staticmethod
-    def parse_variables_from_cdf_bytes(cdf_bytes: bytes):
-        with tempfile.TemporaryDirectory() as tmp_dir:
-            with open(os.path.join(tmp_dir, 'cdf.cdf'), 'wb') as tmp_file:
-                tmp_file.write(cdf_bytes)
-            return CdfVariableParser.parse_variables_from_cdf(tmp_file.name)
