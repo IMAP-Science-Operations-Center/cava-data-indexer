@@ -1,15 +1,6 @@
-import os
-import tempfile
-from dataclasses import dataclass, field
 from typing import Dict
 
 from spacepy import pycdf
-
-@dataclass
-class CdfFileInfo:
-    logical_source: str
-    data_version: str
-    variable_desc_to_key_dict: Dict[str, str]
 
 
 class CdfVariableParser:
@@ -28,15 +19,7 @@ class CdfVariableParser:
         return has_correct_shape and has_field_name and has_time_delta_minus_col and has_time_delta_plus_col and is_z_scale_valid and time_is_ns
 
     @staticmethod
-    def parse_variables_from_cdf(file_path: str) -> Dict[str, str]:
-        cdf = pycdf.CDF(file_path)
+    def parse_info_from_cdf(cdf: pycdf.CDF) -> Dict[str, str]:
         version = cdf.attrs['Data_version']
         return {f'{var.attrs["CATDESC"]} v{version}': key for key, var in cdf.items()
                 if var.attrs["VAR_TYPE"] == "data" and CdfVariableParser._check_needed_values_are_present(var, cdf)}
-
-    @staticmethod
-    def parse_variables_from_cdf_bytes(cdf_bytes: bytes):
-        with tempfile.TemporaryDirectory() as tmp_dir:
-            with open(os.path.join(tmp_dir, 'cdf.cdf'), 'wb') as tmp_file:
-                tmp_file.write(cdf_bytes)
-            return CdfVariableParser.parse_variables_from_cdf(tmp_file.name)

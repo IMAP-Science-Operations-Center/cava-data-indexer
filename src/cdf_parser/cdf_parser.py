@@ -1,0 +1,28 @@
+import os
+import tempfile
+from dataclasses import dataclass
+from typing import Dict
+
+from spacepy import pycdf
+
+from src.cdf_parser.cdf_global_parser import CdfGlobalInfo, CdfGlobalParser
+from src.cdf_parser.cdf_variable_parser import CdfVariableParser
+
+
+@dataclass
+class CdfFileInfo:
+    global_info: CdfGlobalInfo
+    variable_desc_to_key_dict: Dict[str, str]
+
+
+class CdfParser:
+
+    @staticmethod
+    def parse_cdf_bytes(cdf_bytes: bytes):
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            with open(os.path.join(tmp_dir, 'temp.cdf'), 'wb') as tmp_file:
+                tmp_file.write(cdf_bytes)
+            with pycdf.CDF(tmp_file.name) as cdf:
+                cdf_global_info = CdfGlobalParser.parse_global_variables_from_cdf(cdf)
+                cdf_variable_info = CdfVariableParser.parse_info_from_cdf(cdf)
+                return CdfFileInfo(cdf_global_info, cdf_variable_info)

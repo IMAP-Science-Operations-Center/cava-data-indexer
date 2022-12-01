@@ -3,7 +3,7 @@ from datetime import datetime
 
 from src import dates_available
 from src.cdf_downloader.imap_downloader import get_all_metadata, get_cdf_file
-from src.cdf_variable_parser import CdfVariableParser
+from src.cdf_parser.cdf_variable_parser import CdfVariableParser
 
 
 def group_metadata_by_file_names(metadata: [{}]) -> [{}]:
