@@ -18,7 +18,14 @@
     },
     "source_file_format": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-ephem_%yyyymmdd%_v13.cdf",
     "description_source_file": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-ephem_20210918_v13.cdf",
-    "logical_source": "psp_isois_l2-ephem"
+    "dates_available": [
+      [
+        "2018-09-28",
+        "2022-04-29"
+      ]
+    ],
+    "logical_source": "psp_isois_l2-ephem",
+    "version": "13"
   },
   {
     "descriptions": {
@@ -37,7 +44,18 @@
     },
     "source_file_format": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-summary_%yyyymmdd%_v1.26.0.cdf",
     "description_source_file": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-summary_20181103_v1.26.0.cdf",
-    "logical_source": "psp_isois_l2-summary"
+    "dates_available": [
+      [
+        "2018-11-02",
+        "2018-11-10"
+      ],
+      [
+        "2018-11-12",
+        "2018-11-12"
+      ]
+    ],
+    "logical_source": "psp_isois_l2-summary",
+    "version": "1.26.0"
   },
   {
     "descriptions": {
@@ -56,7 +74,18 @@
     },
     "source_file_format": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-summary_%yyyymmdd%_v1.27.0.cdf",
     "description_source_file": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-summary_20181111_v1.27.0.cdf",
-    "logical_source": "psp_isois_l2-summary"
+    "dates_available": [
+      [
+        "2018-11-01",
+        "2018-11-01"
+      ],
+      [
+        "2018-11-11",
+        "2018-11-11"
+      ]
+    ],
+    "logical_source": "psp_isois_l2-summary",
+    "version": "1.27.0"
   },
   {
     "descriptions": {
@@ -69,6 +98,105 @@
     },
     "source_file_format": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-summary_%yyyymmdd%_v13.cdf",
     "description_source_file": "http://3.139.73.210/dev/data-files-download?file=psp_isois_l2-summary_20210604_v13.cdf",
-    "logical_source": "psp_isois_l2-summary"
+    "dates_available": [
+      [
+        "2018-09-28",
+        "2018-10-04"
+      ],
+      [
+        "2018-10-06",
+        "2018-10-12"
+      ],
+      [
+        "2018-10-14",
+        "2018-12-19"
+      ],
+      [
+        "2019-01-01",
+        "2019-03-01"
+      ],
+      [
+        "2019-03-03",
+        "2019-05-15"
+      ],
+      [
+        "2019-05-19",
+        "2019-08-19"
+      ],
+      [
+        "2019-08-21",
+        "2019-10-19"
+      ],
+      [
+        "2019-10-21",
+        "2019-11-17"
+      ],
+      [
+        "2019-12-08",
+        "2020-01-02"
+      ],
+      [
+        "2020-01-06",
+        "2020-01-08"
+      ],
+      [
+        "2020-01-16",
+        "2020-04-09"
+      ],
+      [
+        "2020-04-13",
+        "2020-05-01"
+      ],
+      [
+        "2020-05-03",
+        "2020-05-07"
+      ],
+      [
+        "2020-05-09",
+        "2020-07-11"
+      ],
+      [
+        "2020-07-16",
+        "2020-07-18"
+      ],
+      [
+        "2020-07-20",
+        "2020-08-14"
+      ],
+      [
+        "2020-08-16",
+        "2021-02-26"
+      ],
+      [
+        "2021-02-28",
+        "2021-03-26"
+      ],
+      [
+        "2021-03-28",
+        "2021-07-26"
+      ],
+      [
+        "2021-07-28",
+        "2021-07-28"
+      ],
+      [
+        "2021-07-30",
+        "2022-01-03"
+      ],
+      [
+        "2022-01-05",
+        "2022-04-08"
+      ],
+      [
+        "2022-04-10",
+        "2022-04-16"
+      ],
+      [
+        "2022-04-18",
+        "2022-04-29"
+      ]
+    ],
+    "logical_source": "psp_isois_l2-summary",
+    "version": "13"
   }
 ]

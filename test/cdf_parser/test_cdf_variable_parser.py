@@ -1,11 +1,15 @@
 import unittest
-from unittest.mock import patch, Mock
+from pathlib import Path
+from unittest.mock import Mock
 
-from src.cdf_variable_parser import CdfVariableParser
+from spacepy import pycdf
+
+import test
+from src.cdf_parser.cdf_variable_parser import CdfVariableParser
 
 
 class TestCdfVariableParser(unittest.TestCase):
-    def test_parse_variables_from_cdf_returns_list_of_descriptions(self):
+    def test_parse_variables_from_cdf_returns_expected_descriptions(self):
         expected_descriptions = {
             'Angle between TPS and Sun, 0 in encounter v13': 'Sun_Angle',
             'Angle between nominal ram and actual ram, 0 in encounter v13': 'Roll_Angle',
@@ -23,17 +27,16 @@ class TestCdfVariableParser(unittest.TestCase):
             'angle of off-pointing from ecliptic north when not in encounter v13': 'Clock_Angle'
         }
 
-        cdf_path = './test_data/test.cdf'
-        descriptions = CdfVariableParser.parse_variables_from_cdf(cdf_path)
+        cdf_path = str(Path(test.__file__).parent / 'test_data/test.cdf')
+        with pycdf.CDF(cdf_path) as cdf:
+            descriptions = CdfVariableParser.parse_info_from_cdf(cdf)
 
         self.assertEqual(expected_descriptions, descriptions)
 
-    @patch('src.cdf_variable_parser.pycdf.CDF')
-    def test_parse_variables_from_cdf_bytes_filter_out_variables_that_are_missing_key_features(self, mock_CDF_class):
-        mock_cdf_instance = Mock()
-        mock_CDF_class.return_value = mock_cdf_instance
+    def test_parse_variables_from_cdf_bytes_filter_out_variables_that_are_missing_key_features(self):
+        mock_cdf = Mock()
 
-        mock_cdf_instance.attrs = {'Data_version': "99"}
+        mock_cdf.attrs = {'Data_version': "99", 'Logical_source': "lsource"}
 
         expected_descriptions = {'var_not_filtered v99': "var0", "var_not_filtered_linear v99": "var5",
                                  "var_not_filtered_for_nonzero_min_and_log v99": "var7",
@@ -180,7 +183,7 @@ class TestCdfVariableParser(unittest.TestCase):
         }
         var_filtered_for_wrong_timeseries_shape.shape = (1, 2)
 
-        mock_cdf_instance.items.return_value = {
+        mock_cdf.items.return_value = {
             'var0': var_that_is_not_filtered,
             'var1': var_filtered_for_incorrect_shape,
             'var2': var_filtered_for_missing_fieldnam,
@@ -205,9 +208,9 @@ class TestCdfVariableParser(unittest.TestCase):
         mock_time_col_unit_ms.attrs = {'DELTA_MINUS_VAR': '', 'DELTA_PLUS_VAR': '', 'UNITS': 'ms'}
         cdf_items = {'time_col_good': mock_time_column_good, 'time_col_no_delta_minus': mock_time_col_no_delta_minus,
                      'time_col_no_delta_plus': mock_time_col_no_delta_plus, 'time_col_unit_ms': mock_time_col_unit_ms}
-        mock_cdf_instance.__getitem__ = Mock()
-        mock_cdf_instance.__getitem__.side_effect = lambda key: cdf_items[key]
+        mock_cdf.__getitem__ = Mock()
+        mock_cdf.__getitem__.side_effect = lambda key: cdf_items[key]
 
-        returned_descriptions = CdfVariableParser.parse_variables_from_cdf("")
+        returned_info = CdfVariableParser.parse_info_from_cdf(mock_cdf)
 
-        self.assertEqual(expected_descriptions, returned_descriptions)
+        self.assertEqual(expected_descriptions, returned_info)

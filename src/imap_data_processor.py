@@ -1,11 +1,9 @@
-import os
-import tempfile
 from collections import defaultdict
 from datetime import datetime
 
+from src import dates_available
 from src.cdf_downloader.imap_downloader import get_all_metadata, get_cdf_file
-from src.cdf_global_parser import CdfGlobalParser
-from src.cdf_variable_parser import CdfVariableParser
+from src.cdf_parser.cdf_parser import CdfParser
 
 
 def group_metadata_by_file_names(metadata: [{}]) -> [{}]:
@@ -24,15 +22,18 @@ def group_metadata_by_file_names(metadata: [{}]) -> [{}]:
 def get_metadata_index():
     index = []
     metadata = group_metadata_by_file_names(get_all_metadata())
-    for file_name_format, filenames in sorted(metadata.items()):
-        cdf = get_cdf_file(filenames[0]["file_name"])
-        with tempfile.TemporaryDirectory() as tmp_dir:
-            with open(os.path.join(tmp_dir, 'cdf.cdf'), 'wb') as tmp_file:
-                tmp_file.write(cdf["data"])
-                variables = CdfVariableParser.parse_variables_from_cdf(tmp_file.name)
-                global_variables = CdfGlobalParser.parse_global_variables_from_cdf(tmp_file.name)
-        link = cdf["link"].replace(filenames[0]["file_name"], file_name_format)
-        index.append({"descriptions": variables, "source_file_format": link, "description_source_file": cdf["link"], "logical_source": global_variables['Logical_source']})
+    for file_name_format, matching_files_metadata in sorted(metadata.items()):
+        sorted_files_metadata = sorted(matching_files_metadata, key=lambda m: m["timetag"])
+        sorted_dates = [datetime.fromisoformat(metadata["timetag"]).date() for metadata in sorted_files_metadata]
+        available_dates = dates_available.get_date_ranges(sorted_dates)
+        cdf = get_cdf_file(matching_files_metadata[0]["file_name"])
+        cdf_file_info = CdfParser.parse_cdf_bytes(cdf["data"])
+        link = cdf["link"].replace(matching_files_metadata[0]["file_name"], file_name_format)
+        index.append({"descriptions": cdf_file_info.variable_desc_to_key_dict, "source_file_format": link,
+                      "description_source_file": cdf["link"],
+                      "dates_available": [[str(date_range[0]), str(date_range[1])] for date_range in available_dates],
+                      "logical_source": cdf_file_info.global_info.logical_source,
+                      "version": cdf_file_info.global_info.data_version})
     return index
 
 

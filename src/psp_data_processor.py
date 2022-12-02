@@ -2,8 +2,8 @@ import os
 import tempfile
 
 from src.cdf_downloader.psp_downloader import PspDownloader
-from src.cdf_global_parser import CdfGlobalParser
-from src.cdf_variable_parser import CdfVariableParser
+from src.cdf_parser.cdf_global_parser import CdfGlobalParser
+from src.cdf_parser.cdf_variable_parser import CdfVariableParser
 
 
 class PspDataProcessor:
