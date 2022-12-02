@@ -92,9 +92,9 @@ class TestImapDataProcessor(TestCase):
         ]
 
         mock_cdf_parser.parse_cdf_bytes.side_effect = [
-            CdfFileInfo(CdfGlobalInfo("psp_instrument1_l2-summary", "1.27.0"),
+            CdfFileInfo(CdfGlobalInfo("psp_instrument1_l2-summary", "Parker Solar Probe Level 2 Summary", "1.27.0"),
                         {"variable 1 v1.27.0": "VAR1", "variable 2 v1.27.0": "VAR2"}),
-            CdfFileInfo(CdfGlobalInfo("psp_instrument2_l2-ephem", "1.27.0"),
+            CdfFileInfo(CdfGlobalInfo("psp_instrument2_l2-ephem", "Parker Solar Probe Level 2 Ephemeris", "1.27.0"),
                         {"variable 3 v1.27.0": "VAR3", "variable 4 v1.27.0": "VAR4"})
         ]
 
@@ -110,6 +110,7 @@ class TestImapDataProcessor(TestCase):
         expected_index = [
             {
                 "logical_source": "psp_instrument1_l2-summary",
+                "logical_source_description": "Parker Solar Probe Level 2 Summary",
                 "version": "1.27.0",
                 "dates_available": [["2018-11-01", "2018-11-04"]],
                 "descriptions": {
@@ -121,6 +122,7 @@ class TestImapDataProcessor(TestCase):
             },
             {
                 "logical_source": "psp_instrument2_l2-ephem",
+                "logical_source_description": "Parker Solar Probe Level 2 Ephemeris",
                 "version": "1.27.0",
                 "dates_available": [["2018-11-01", "2018-11-02"], ["2018-11-04", "2018-11-04"]],
                 "descriptions": {

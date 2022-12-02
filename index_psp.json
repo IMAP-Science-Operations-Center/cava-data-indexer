@@ -158,6 +158,7 @@
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-het-rates3600",
+    "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 HET Hourly Rates",
     "version": "14"
   },
   {
@@ -287,6 +288,7 @@
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-het-rates60",
+    "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 HET 1-minute Rates",
     "version": "14"
   },
   {
@@ -410,6 +412,7 @@
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-het-rates300",
+    "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 HET 5-minute Rates",
     "version": "14"
   },
   {
@@ -503,6 +506,7 @@
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-het-rates10",
+    "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 HET 10-second Rates",
     "version": "14"
   },
   {
@@ -664,6 +668,7 @@
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-let1-rates3600",
+    "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET1 Hourly Rates",
     "version": "14"
   },
   {
@@ -789,6 +794,7 @@
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-let1-rates60",
+    "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET1 1-minute Rates",
     "version": "14"
   },
   {
@@ -912,6 +918,7 @@
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-let1-rates300",
+    "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET1 5-minute Rates",
     "version": "14"
   },
   {
@@ -1005,6 +1012,7 @@
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-let1-rates10",
+    "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET1 10-second Rates",
     "version": "14"
   },
   {
@@ -1145,6 +1153,7 @@
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-let2-rates3600",
+    "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET2 Hourly Rates",
     "version": "14"
   },
   {
@@ -1253,6 +1262,7 @@
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-let2-rates60",
+    "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET2 1-minute Rates",
     "version": "14"
   },
   {
@@ -1358,6 +1368,7 @@
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-let2-rates300",
+    "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET2 5-minute Rates",
     "version": "14"
   },
   {
@@ -1444,6 +1455,7 @@
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-let2-rates10",
+    "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET2 10-second Rates",
     "version": "14"
   },
   {
@@ -1553,6 +1565,7 @@
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-second-rates",
+    "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 one-second Rates",
     "version": "14"
   },
   {
@@ -1700,6 +1713,7 @@
       ]
     ],
     "logical_source": "psp_isois-epilo_l2-ic",
+    "logical_source_description": "Parker Solar Probe ISOIS EPI-Lo Level 2 Ion Composition",
     "version": "14"
   },
   {
@@ -1897,6 +1911,7 @@
       ]
     ],
     "logical_source": "psp_isois-epilo_l2-pe",
+    "logical_source_description": "Parker Solar Probe ISOIS EPI-Lo Level 2 Particle Energy",
     "version": "14"
   },
   {
@@ -1925,6 +1940,7 @@
       ]
     ],
     "logical_source": "psp_isois_l2-ephem",
+    "logical_source_description": "Parker Solar Probe ISOIS Level 2 ephem",
     "version": "14"
   },
   {
@@ -2037,6 +2053,7 @@
       ]
     ],
     "logical_source": "psp_isois_l2-summary",
+    "logical_source_description": "Parker Solar Probe ISOIS level 2 summary",
     "version": "14"
   }
 ]

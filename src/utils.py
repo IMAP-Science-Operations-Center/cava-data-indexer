@@ -10,4 +10,5 @@ def get_index_entry(cdf_file_info: CdfFileInfo, source_file_format: str, descrip
             "description_source_file": description_source_file,
             "dates_available": [[str(date_range[0]), str(date_range[1])] for date_range in available_dates],
             "logical_source": cdf_file_info.global_info.logical_source,
+            "logical_source_description": cdf_file_info.global_info.logical_source_description,
             "version": cdf_file_info.global_info.data_version}
