@@ -5,27 +5,29 @@ from unittest.mock import Mock
 from spacepy import pycdf
 
 import test
-from src.cdf_parser.cdf_variable_parser import CdfVariableParser
+from src.cdf_parser.cdf_variable_parser import CdfVariableParser, CdfVariableInfo
 
 
 class TestCdfVariableParser(unittest.TestCase):
     def test_parse_variables_from_cdf_returns_expected_descriptions(self):
-        expected_descriptions = {
-            'Angle between TPS and Sun, 0 in encounter v13': 'Sun_Angle',
-            'Angle between nominal ram and actual ram, 0 in encounter v13': 'Roll_Angle',
-            'HCI latitude v13': 'HCI_Lat',
-            'HCI longitude v13': 'HCI_Lon',
-            'HETA look angle with nominal parker spiral v13': 'Spiral_HETA',
-            'HGC latitude v13': 'HGC_Lat',
-            'HGC longitude v13': 'HGC_Lon',
-            'Heliocentric distance v13': 'HGC_R',
-            'LET1A look angle with nominal parker spiral v13': 'Spiral_LET1A',
-            'LET2C look angle with nominal parker spiral v13': 'Spiral_LET2C',
-            'Lo look angle with nominal parker spiral v13': 'Spiral_Lo',
-            'Spacecraft is ram pointing v13': 'Ram_Pointing',
-            'Spacecraft is umbra pointing v13': 'Umbra_Pointing',
-            'angle of off-pointing from ecliptic north when not in encounter v13': 'Clock_Angle'
-        }
+        expected_descriptions = [
+            CdfVariableInfo('Roll_Angle', 'Angle between nominal ram and actual ram, 0 in encounter', 'time_series'),
+            CdfVariableInfo('Sun_Angle', 'Angle between TPS and Sun, 0 in encounter', 'time_series'),
+            CdfVariableInfo('Clock_Angle', 'angle of off-pointing from ecliptic north when not in encounter',
+                            'time_series'),
+            CdfVariableInfo('HCI_Lat', 'HCI latitude', 'time_series'),
+            CdfVariableInfo('HCI_Lon', 'HCI longitude', 'time_series'),
+            CdfVariableInfo('HCI_R', 'Heliocentric distance', 'time_series'),
+            CdfVariableInfo('HGC_R', 'Heliocentric distance', 'time_series'),
+            CdfVariableInfo('Spiral_HETA', 'HETA look angle with nominal parker spiral', 'time_series'),
+            CdfVariableInfo('HGC_Lat', 'HGC latitude', 'time_series'),
+            CdfVariableInfo('HGC_Lon', 'HGC longitude', 'time_series'),
+            CdfVariableInfo('Spiral_LET1A', 'LET1A look angle with nominal parker spiral', 'time_series'),
+            CdfVariableInfo('Spiral_LET2C', 'LET2C look angle with nominal parker spiral', 'time_series'),
+            CdfVariableInfo('Spiral_Lo', 'Lo look angle with nominal parker spiral', 'time_series'),
+            CdfVariableInfo('Ram_Pointing', 'Spacecraft is ram pointing', 'time_series'),
+            CdfVariableInfo('Umbra_Pointing', 'Spacecraft is umbra pointing', 'time_series'),
+        ]
 
         cdf_path = str(Path(test.__file__).parent / 'test_data/test.cdf')
         with pycdf.CDF(cdf_path) as cdf:
@@ -38,9 +40,12 @@ class TestCdfVariableParser(unittest.TestCase):
 
         mock_cdf.attrs = {'Data_version': "99", 'Logical_source': "lsource"}
 
-        expected_descriptions = {'var_not_filtered v99': "var0", "var_not_filtered_linear v99": "var5",
-                                 "var_not_filtered_for_nonzero_min_and_log v99": "var7",
-                                 "var_not_filtered_for_scale v99": "var9"}
+        expected_descriptions = [
+            CdfVariableInfo("var0",'var_not_filtered','spectrogram'),
+            CdfVariableInfo("var7","var_not_filtered_for_nonzero_min_and_log", 'spectrogram'),
+            CdfVariableInfo("var9","var_not_filtered_for_scale", 'spectrogram'),
+            CdfVariableInfo("var5","var_not_filtered_linear",'spectrogram'),
+            ]
 
         var_that_is_not_filtered = Mock()
         var_that_is_not_filtered.attrs = {

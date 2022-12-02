@@ -11,7 +11,7 @@ class TestCdfParser(unittest.TestCase):
     @patch('src.cdf_parser.cdf_parser.CdfGlobalParser')
     @patch('src.cdf_parser.cdf_parser.CdfVariableParser')
     @patch('src.cdf_parser.cdf_parser.pycdf')
-    def test_parses_gloabl_info_and_variable_info(self, mock_pycdf, mock_variable_parser, mock_global_parser,
+    def test_parses_global_info_and_variable_info(self, mock_pycdf, mock_variable_parser, mock_global_parser,
                                                   mock_temp_directory):
         mock_temp_directory_name = './test_data_for_cdf_parser/'
         os.makedirs(mock_temp_directory_name, exist_ok=True)
@@ -29,7 +29,7 @@ class TestCdfParser(unittest.TestCase):
 
         self.assertIsInstance(output, CdfFileInfo)
         self.assertIs(mock_global_parser.parse_global_variables_from_cdf.return_value, output.global_info)
-        self.assertIs(mock_variable_parser.parse_info_from_cdf.return_value, output.variable_desc_to_key_dict)
+        self.assertIs(mock_variable_parser.parse_info_from_cdf.return_value, output.variable_infos)
 
         with open(expected_temp_file_name, 'rb') as f:
             temp_file_contents = f.read()

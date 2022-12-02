@@ -4,6 +4,7 @@ from unittest.mock import patch, call
 
 from src.cdf_parser.cdf_global_parser import CdfGlobalInfo
 from src.cdf_parser.cdf_parser import CdfFileInfo
+from src.cdf_parser.cdf_variable_parser import CdfVariableInfo
 from src.imap_data_processor import group_metadata_by_file_names, get_metadata_index
 
 
@@ -95,10 +96,12 @@ class TestImapDataProcessor(TestCase):
         mock_cdf_parser.parse_cdf_bytes.side_effect = [
             CdfFileInfo(CdfGlobalInfo("psp_instrument1_l2-summary", "Parker Solar Probe Level 2 Summary", "1.27.0",
                                       date(2022, 11, 12)),
-                        {"variable 1 v1.27.0": "VAR1", "variable 2 v1.27.0": "VAR2"}),
+                        [CdfVariableInfo("VAR1","variable 1","time-series"),
+                        CdfVariableInfo("VAR2", "variable 2","spectrogram")]),
             CdfFileInfo(CdfGlobalInfo("psp_instrument2_l2-ephem", "Parker Solar Probe Level 2 Ephemeris", "1.27.0",
                                       date(2022, 11, 13)),
-                        {"variable 3 v1.27.0": "VAR3", "variable 4 v1.27.0": "VAR4"})
+                        [CdfVariableInfo("VAR3", "variable 3", "time-series"),
+                         CdfVariableInfo("VAR4", "variable 4", "spectrogram")])
         ]
 
         actual_index = get_metadata_index()

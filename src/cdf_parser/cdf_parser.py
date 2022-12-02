@@ -1,18 +1,18 @@
 import os
 import tempfile
 from dataclasses import dataclass
-from typing import Dict
+from typing import Dict, List
 
 from spacepy import pycdf
 
 from src.cdf_parser.cdf_global_parser import CdfGlobalInfo, CdfGlobalParser
-from src.cdf_parser.cdf_variable_parser import CdfVariableParser
+from src.cdf_parser.cdf_variable_parser import CdfVariableParser, CdfVariableInfo
 
 
 @dataclass
 class CdfFileInfo:
     global_info: CdfGlobalInfo
-    variable_desc_to_key_dict: Dict[str, str]
+    variable_infos: List[CdfVariableInfo]
 
 
 class CdfParser:
