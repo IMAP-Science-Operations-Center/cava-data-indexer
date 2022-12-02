@@ -1,7 +1,7 @@
 from collections import defaultdict
 from datetime import datetime
 
-from src import dates_available
+from src import dates_available, utils
 from src.cdf_downloader.imap_downloader import get_all_metadata, get_cdf_file
 from src.cdf_parser.cdf_parser import CdfParser
 
@@ -29,11 +29,7 @@ def get_metadata_index():
         cdf = get_cdf_file(matching_files_metadata[0]["file_name"])
         cdf_file_info = CdfParser.parse_cdf_bytes(cdf["data"])
         link = cdf["link"].replace(matching_files_metadata[0]["file_name"], file_name_format)
-        index.append({"descriptions": cdf_file_info.variable_desc_to_key_dict, "source_file_format": link,
-                      "description_source_file": cdf["link"],
-                      "dates_available": [[str(date_range[0]), str(date_range[1])] for date_range in available_dates],
-                      "logical_source": cdf_file_info.global_info.logical_source,
-                      "version": cdf_file_info.global_info.data_version})
+        index.append(utils.get_index_entry(cdf_file_info, link, cdf["link"], available_dates))
     return index
 
 
