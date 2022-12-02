@@ -26,7 +26,8 @@
     ],
     "logical_source": "psp_isois_l2-ephem",
     "logical_source_description": "Parker Solar Probe ISOIS Level 2 ephem",
-    "version": "13"
+    "version": "13",
+    "generation_date": "2022-07-27"
   },
   {
     "descriptions": {
@@ -57,7 +58,8 @@
     ],
     "logical_source": "psp_isois_l2-summary",
     "logical_source_description": "Parker Solar Probe ISOIS level 2 summary",
-    "version": "1.26.0"
+    "version": "1.26.0",
+    "generation_date": "2022-01-28"
   },
   {
     "descriptions": {
@@ -88,7 +90,8 @@
     ],
     "logical_source": "psp_isois_l2-summary",
     "logical_source_description": "Parker Solar Probe ISOIS level 2 summary",
-    "version": "1.27.0"
+    "version": "1.27.0",
+    "generation_date": "2022-01-28"
   },
   {
     "descriptions": {
@@ -201,6 +204,7 @@
     ],
     "logical_source": "psp_isois_l2-summary",
     "logical_source_description": "Parker Solar Probe ISOIS level 2 summary",
-    "version": "13"
+    "version": "13",
+    "generation_date": "2022-07-27"
   }
 ]

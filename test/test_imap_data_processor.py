@@ -1,3 +1,4 @@
+from datetime import date
 from unittest import TestCase
 from unittest.mock import patch, call
 
@@ -92,9 +93,11 @@ class TestImapDataProcessor(TestCase):
         ]
 
         mock_cdf_parser.parse_cdf_bytes.side_effect = [
-            CdfFileInfo(CdfGlobalInfo("psp_instrument1_l2-summary", "Parker Solar Probe Level 2 Summary", "1.27.0"),
+            CdfFileInfo(CdfGlobalInfo("psp_instrument1_l2-summary", "Parker Solar Probe Level 2 Summary", "1.27.0",
+                                      date(2022, 11, 12)),
                         {"variable 1 v1.27.0": "VAR1", "variable 2 v1.27.0": "VAR2"}),
-            CdfFileInfo(CdfGlobalInfo("psp_instrument2_l2-ephem", "Parker Solar Probe Level 2 Ephemeris", "1.27.0"),
+            CdfFileInfo(CdfGlobalInfo("psp_instrument2_l2-ephem", "Parker Solar Probe Level 2 Ephemeris", "1.27.0",
+                                      date(2022, 11, 13)),
                         {"variable 3 v1.27.0": "VAR3", "variable 4 v1.27.0": "VAR4"})
         ]
 
@@ -118,7 +121,8 @@ class TestImapDataProcessor(TestCase):
                     "variable 2 v1.27.0": "VAR2"}
                 ,
                 "source_file_format": "http://wwww.youtube.com/psp_instrument1_l2-summary_%yyyymmdd%_v1.27.0.cdf",
-                "description_source_file": 'http://wwww.youtube.com/psp_instrument1_l2-summary_20181101_v1.27.0.cdf'
+                "description_source_file": 'http://wwww.youtube.com/psp_instrument1_l2-summary_20181101_v1.27.0.cdf',
+                "generation_date": "2022-11-12"
             },
             {
                 "logical_source": "psp_instrument2_l2-ephem",
@@ -130,7 +134,8 @@ class TestImapDataProcessor(TestCase):
                     "variable 4 v1.27.0": "VAR4"
                 },
                 "source_file_format": "http://www.fbi.gov/psp_instrument2_l2-ephem_%yyyymmdd%_v1.27.0.cdf",
-                "description_source_file": 'http://www.fbi.gov/psp_instrument2_l2-ephem_20181101_v1.27.0.cdf'
+                "description_source_file": 'http://www.fbi.gov/psp_instrument2_l2-ephem_20181101_v1.27.0.cdf',
+                "generation_date": "2022-11-13"
             }
         ]
 

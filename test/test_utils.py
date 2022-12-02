@@ -8,7 +8,7 @@ from src.cdf_parser.cdf_parser import CdfFileInfo
 
 class TestUtils(unittest.TestCase):
     def test_get_index(self):
-        cdf_file_info = CdfFileInfo(CdfGlobalInfo("source", "source in human", "123"), {"Variable 1": "cdf_var_1"})
+        cdf_file_info = CdfFileInfo(CdfGlobalInfo("source", "source in human", "123", date(2022,7,28)), {"Variable 1": "cdf_var_1"})
         output = utils.get_index_entry(
             cdf_file_info,
             "source_url_%yyyymmdd%.cdf",
@@ -21,7 +21,8 @@ class TestUtils(unittest.TestCase):
                     'logical_source': 'source',
                     'logical_source_description': 'source in human',
                     'source_file_format': 'source_url_%yyyymmdd%.cdf',
-                    'version': '123'}
+                    'version': '123',
+                    'generation_date': '2022-07-28'}
         self.assertEqual(expected, output)
 
 

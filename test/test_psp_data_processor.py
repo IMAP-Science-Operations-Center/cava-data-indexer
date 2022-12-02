@@ -1,4 +1,5 @@
 import unittest
+from datetime import date
 from unittest.mock import patch, call
 
 from src.cdf_downloader.psp_file_parser import PspFileInfo
@@ -32,14 +33,18 @@ class TestPspDataProcessor(unittest.TestCase):
         ]
 
         mock_cdf_parser.parse_cdf_bytes.side_effect = [
-            CdfFileInfo(CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 10", "10"),
-                        {'a description v1': 'a key into the CDF 1'}),
-            CdfFileInfo(CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 11", "11"),
-                        {'a description v2': 'a key into the CDF 2'}),
-            CdfFileInfo(CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 12", "12"),
-                        {'a description v3': 'a key into the CDF 3'}),
-            CdfFileInfo(CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 13", "13"),
-                        {'a description v4': 'a key into the CDF 4'}),
+            CdfFileInfo(
+                CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 10", "10", date(2022, 11, 14)),
+                {'a description v1': 'a key into the CDF 1'}),
+            CdfFileInfo(
+                CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 11", "11", date(2022, 11, 15)),
+                {'a description v2': 'a key into the CDF 2'}),
+            CdfFileInfo(
+                CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 12", "12", date(2022, 11, 16)),
+                {'a description v3': 'a key into the CDF 3'}),
+            CdfFileInfo(
+                CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 13", "13", date(2022, 11, 17)),
+                {'a description v4': 'a key into the CDF 4'}),
         ]
 
         actual_index = PspDataProcessor.get_metadata_index()
@@ -56,27 +61,27 @@ class TestPspDataProcessor(unittest.TestCase):
                            "logical_source": "psp_isois-epihi_l2-het-rates3600",
                            "logical_source_description": "PSP Description 10",
                            "version": "10",
-                           "dates_available": [["2019-01-02", "2019-01-03"]]},
+                           "generation_date": "2022-11-14", "dates_available": [["2019-01-02", "2019-01-03"]]},
                           {"descriptions": {'a description v2': 'a key into the CDF 2'},
                            "source_file_format": '/%yyyy%/psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v11.cdf',
                            "description_source_file": '/2023/psp_isois-epihi_l2-het-rates3600_20190102_v11.cdf',
                            "logical_source": "psp_isois-epihi_l2-het-rates3600",
                            "logical_source_description": "PSP Description 11",
-                           "version": "11",
+                           "version": "11", "generation_date": "2022-11-15",
                            "dates_available": [["2019-01-02", "2019-01-02"], ["2019-01-05", "2019-01-05"]]},
                           {"descriptions": {'a description v3': 'a key into the CDF 3'},
                            "source_file_format": '/%yyyy%/psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v12.cdf',
                            "description_source_file": '/2022/psp_isois-epihi_l2-het-rates3600_20190102_v12.cdf',
                            "logical_source": "psp_isois-epihi_l2-het-rates3600",
                            "logical_source_description": "PSP Description 12",
-                           "version": "12",
+                           "version": "12", "generation_date": "2022-11-16",
                            "dates_available": [["2018-11-11", "2018-11-12"]]},
                           {"descriptions": {'a description v4': 'a key into the CDF 4'},
                            "source_file_format": '/%yyyy%/psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v13.cdf',
                            "description_source_file": '/2023/psp_isois-epihi_l2-het-rates3600_20190102_v13.cdf',
                            "logical_source": "psp_isois-epihi_l2-het-rates3600",
                            "logical_source_description": "PSP Description 13",
-                           "version": "13",
+                           "version": "13", "generation_date": "2022-11-17",
                            "dates_available": [["2018-11-14", "2018-11-15"]]}],
                          actual_index)
 
