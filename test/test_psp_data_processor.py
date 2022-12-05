@@ -5,6 +5,7 @@ from unittest.mock import patch, call
 from src.cdf_downloader.psp_file_parser import PspFileInfo
 from src.cdf_parser.cdf_global_parser import CdfGlobalInfo
 from src.cdf_parser.cdf_parser import CdfFileInfo
+from src.cdf_parser.cdf_variable_parser import CdfVariableInfo
 from src.psp_data_processor import PspDataProcessor
 
 
@@ -35,16 +36,16 @@ class TestPspDataProcessor(unittest.TestCase):
         mock_cdf_parser.parse_cdf_bytes.side_effect = [
             CdfFileInfo(
                 CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 10", "10", date(2022, 11, 14)),
-                {'a description v1': 'a key into the CDF 1'}),
+                [CdfVariableInfo('a key into the CDF 1', 'a description v1', 'time_series')]),
             CdfFileInfo(
                 CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 11", "11", date(2022, 11, 15)),
-                {'a description v2': 'a key into the CDF 2'}),
+                [CdfVariableInfo('a key into the CDF 2', 'a description v2', 'time_series')]),
             CdfFileInfo(
                 CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 12", "12", date(2022, 11, 16)),
-                {'a description v3': 'a key into the CDF 3'}),
+                [CdfVariableInfo('a key into the CDF 3', 'a description v3', 'time_series')]),
             CdfFileInfo(
                 CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 13", "13", date(2022, 11, 17)),
-                {'a description v4': 'a key into the CDF 4'}),
+                [CdfVariableInfo('a key into the CDF 4', 'a description v4', 'time_series')]),
         ]
 
         actual_index = PspDataProcessor.get_metadata_index()
@@ -55,28 +56,36 @@ class TestPspDataProcessor(unittest.TestCase):
                           call('psp_isois_l2-summary_20181114_v13.cdf', 'merged', 'summary', '2023')],
                          mock_downloader.get_cdf_file.call_args_list)
 
-        self.assertEqual([{"descriptions": {'a description v1': 'a key into the CDF 1'},
+        self.assertEqual([{"variables": [{'catalog_description': 'a description v1',
+                                          'display_type': 'time_series',
+                                          'variable_name': 'a key into the CDF 1'}],
                            "source_file_format": '/%yyyy%/psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v10.cdf',
                            "description_source_file": '/2022/psp_isois-epihi_l2-het-rates3600_20190102_v10.cdf',
                            "logical_source": "psp_isois-epihi_l2-het-rates3600",
                            "logical_source_description": "PSP Description 10",
                            "version": "10",
                            "generation_date": "2022-11-14", "dates_available": [["2019-01-02", "2019-01-03"]]},
-                          {"descriptions": {'a description v2': 'a key into the CDF 2'},
+                          {"variables": [{'catalog_description': 'a description v2',
+                                          'display_type': 'time_series',
+                                          'variable_name': 'a key into the CDF 2'}],
                            "source_file_format": '/%yyyy%/psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v11.cdf',
                            "description_source_file": '/2023/psp_isois-epihi_l2-het-rates3600_20190102_v11.cdf',
                            "logical_source": "psp_isois-epihi_l2-het-rates3600",
                            "logical_source_description": "PSP Description 11",
                            "version": "11", "generation_date": "2022-11-15",
                            "dates_available": [["2019-01-02", "2019-01-02"], ["2019-01-05", "2019-01-05"]]},
-                          {"descriptions": {'a description v3': 'a key into the CDF 3'},
+                          {"variables": [{'catalog_description': 'a description v3',
+                                          'display_type': 'time_series',
+                                          'variable_name': 'a key into the CDF 3'}],
                            "source_file_format": '/%yyyy%/psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v12.cdf',
                            "description_source_file": '/2022/psp_isois-epihi_l2-het-rates3600_20190102_v12.cdf',
                            "logical_source": "psp_isois-epihi_l2-het-rates3600",
                            "logical_source_description": "PSP Description 12",
                            "version": "12", "generation_date": "2022-11-16",
                            "dates_available": [["2018-11-11", "2018-11-12"]]},
-                          {"descriptions": {'a description v4': 'a key into the CDF 4'},
+                          {"variables": [{'catalog_description': 'a description v4',
+                                          'display_type': 'time_series',
+                                          'variable_name': 'a key into the CDF 4'}],
                            "source_file_format": '/%yyyy%/psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v13.cdf',
                            "description_source_file": '/2023/psp_isois-epihi_l2-het-rates3600_20190102_v13.cdf',
                            "logical_source": "psp_isois-epihi_l2-het-rates3600",

@@ -38,8 +38,6 @@ class TestImapDataProcessor(TestCase):
     @patch('src.imap_data_processor.get_all_metadata')
     @patch('src.imap_data_processor.get_cdf_file')
     def test_get_metadata_index(self, mock_get_cdf_file, mock_get_all_metadata, mock_cdf_parser):
-        expected_temp_file_name = './test_data/cdf.cdf'
-
         mock_get_all_metadata.return_value = [
             {"absolute_version": 127, "data_level": "l2", "descriptor": "vid", "directory_path": "fake://../cdf_files",
              "file_name": "psp_instrument1_l2-summary_20181101_v1.27.0.cdf",
@@ -96,8 +94,8 @@ class TestImapDataProcessor(TestCase):
         mock_cdf_parser.parse_cdf_bytes.side_effect = [
             CdfFileInfo(CdfGlobalInfo("psp_instrument1_l2-summary", "Parker Solar Probe Level 2 Summary", "1.27.0",
                                       date(2022, 11, 12)),
-                        [CdfVariableInfo("VAR1","variable 1","time-series"),
-                        CdfVariableInfo("VAR2", "variable 2","spectrogram")]),
+                        [CdfVariableInfo("VAR1", "variable 1", "time-series"),
+                         CdfVariableInfo("VAR2", "variable 2", "spectrogram")]),
             CdfFileInfo(CdfGlobalInfo("psp_instrument2_l2-ephem", "Parker Solar Probe Level 2 Ephemeris", "1.27.0",
                                       date(2022, 11, 13)),
                         [CdfVariableInfo("VAR3", "variable 3", "time-series"),
@@ -119,10 +117,12 @@ class TestImapDataProcessor(TestCase):
                 "logical_source_description": "Parker Solar Probe Level 2 Summary",
                 "version": "1.27.0",
                 "dates_available": [["2018-11-01", "2018-11-04"]],
-                "descriptions": {
-                    "variable 1 v1.27.0": "VAR1",
-                    "variable 2 v1.27.0": "VAR2"}
-                ,
+                "variables": [{'catalog_description': 'variable 1',
+                               'display_type': 'time-series',
+                               'variable_name': 'VAR1'},
+                              {'catalog_description': 'variable 2',
+                               'display_type': 'spectrogram',
+                               'variable_name': 'VAR2'}],
                 "source_file_format": "http://wwww.youtube.com/psp_instrument1_l2-summary_%yyyymmdd%_v1.27.0.cdf",
                 "description_source_file": 'http://wwww.youtube.com/psp_instrument1_l2-summary_20181101_v1.27.0.cdf',
                 "generation_date": "2022-11-12"
@@ -132,10 +132,12 @@ class TestImapDataProcessor(TestCase):
                 "logical_source_description": "Parker Solar Probe Level 2 Ephemeris",
                 "version": "1.27.0",
                 "dates_available": [["2018-11-01", "2018-11-02"], ["2018-11-04", "2018-11-04"]],
-                "descriptions": {
-                    "variable 3 v1.27.0": "VAR3",
-                    "variable 4 v1.27.0": "VAR4"
-                },
+                "variables": [{'catalog_description': 'variable 3',
+                               'display_type': 'time-series',
+                               'variable_name': 'VAR3'},
+                              {'catalog_description': 'variable 4',
+                               'display_type': 'spectrogram',
+                               'variable_name': 'VAR4'}],
                 "source_file_format": "http://www.fbi.gov/psp_instrument2_l2-ephem_%yyyymmdd%_v1.27.0.cdf",
                 "description_source_file": 'http://www.fbi.gov/psp_instrument2_l2-ephem_20181101_v1.27.0.cdf',
                 "generation_date": "2022-11-13"
