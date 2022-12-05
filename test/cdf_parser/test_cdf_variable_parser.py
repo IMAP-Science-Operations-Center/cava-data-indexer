@@ -9,8 +9,8 @@ from src.cdf_parser.cdf_variable_parser import CdfVariableParser, CdfVariableInf
 
 
 class TestCdfVariableParser(unittest.TestCase):
-    def test_parse_variables_from_cdf_returns_expected_descriptions(self):
-        expected_descriptions = [
+    def test_parse_info_from_cdf_returns_expected_info(self):
+        expected_info = [
             CdfVariableInfo('Roll_Angle', 'Angle between nominal ram and actual ram, 0 in encounter', 'time_series'),
             CdfVariableInfo('Sun_Angle', 'Angle between TPS and Sun, 0 in encounter', 'time_series'),
             CdfVariableInfo('Clock_Angle', 'angle of off-pointing from ecliptic north when not in encounter',
@@ -31,16 +31,16 @@ class TestCdfVariableParser(unittest.TestCase):
 
         cdf_path = str(Path(test.__file__).parent / 'test_data/test.cdf')
         with pycdf.CDF(cdf_path) as cdf:
-            descriptions = CdfVariableParser.parse_info_from_cdf(cdf)
+            parsed_info = CdfVariableParser.parse_info_from_cdf(cdf)
 
-        self.assertEqual(expected_descriptions, descriptions)
+        self.assertEqual(expected_info, parsed_info)
 
-    def test_parse_variables_from_cdf_bytes_filter_out_variables_that_are_missing_key_features(self):
+    def test_parse_info_from_cdf_filters_out_variables_that_are_missing_key_features(self):
         mock_cdf = Mock()
 
         mock_cdf.attrs = {'Data_version': "99", 'Logical_source': "lsource"}
 
-        expected_descriptions = [
+        expected_info = [
             CdfVariableInfo("var0",'var_not_filtered','spectrogram'),
             CdfVariableInfo("var7","var_not_filtered_for_nonzero_min_and_log", 'spectrogram'),
             CdfVariableInfo("var9","var_not_filtered_for_scale", 'spectrogram'),
@@ -218,4 +218,4 @@ class TestCdfVariableParser(unittest.TestCase):
 
         returned_info = CdfVariableParser.parse_info_from_cdf(mock_cdf)
 
-        self.assertEqual(expected_descriptions, returned_info)
+        self.assertEqual(expected_info, returned_info)
