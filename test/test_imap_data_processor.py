@@ -125,7 +125,9 @@ class TestImapDataProcessor(TestCase):
                                'variable_name': 'VAR2'}],
                 "source_file_format": "http://wwww.youtube.com/psp_instrument1_l2-summary_%yyyymmdd%_v1.27.0.cdf",
                 "description_source_file": 'http://wwww.youtube.com/psp_instrument1_l2-summary_20181101_v1.27.0.cdf',
-                "generation_date": "2022-11-12"
+                "generation_date": "2022-11-12",
+                "instrument": "instrument1",
+                "mission": "IMAP"
             },
             {
                 "logical_source": "psp_instrument2_l2-ephem",
@@ -140,7 +142,9 @@ class TestImapDataProcessor(TestCase):
                                'variable_name': 'VAR4'}],
                 "source_file_format": "http://www.fbi.gov/psp_instrument2_l2-ephem_%yyyymmdd%_v1.27.0.cdf",
                 "description_source_file": 'http://www.fbi.gov/psp_instrument2_l2-ephem_20181101_v1.27.0.cdf',
-                "generation_date": "2022-11-13"
+                "generation_date": "2022-11-13",
+                "instrument": "instrument2",
+                "mission": "IMAP"
             }
         ]
 

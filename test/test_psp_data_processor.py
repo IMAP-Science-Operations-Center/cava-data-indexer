@@ -2,6 +2,7 @@ import unittest
 from datetime import date
 from unittest.mock import patch, call
 
+from src.cdf_downloader.psp_downloader import PspDirectoryInfo
 from src.cdf_downloader.psp_file_parser import PspFileInfo
 from src.cdf_parser.cdf_global_parser import CdfGlobalInfo
 from src.cdf_parser.cdf_parser import CdfFileInfo
@@ -14,17 +15,26 @@ class TestPspDataProcessor(unittest.TestCase):
     @patch('src.psp_data_processor.CdfParser')
     @patch('src.psp_data_processor.PspDownloader')
     def test_gets_filenames_and_downloads_the_first_file_in_list(self, mock_downloader, mock_cdf_parser):
-        mock_downloader.get_all_filenames.return_value = {'epihi': {
-            'het_rate1': [PspFileInfo('link1', 'psp_isois-epihi_l2-het-rates3600_20190102_v10.cdf', '2022'),
-                          PspFileInfo('link2', 'psp_isois-epihi_l2-het-rates3600_20190103_v10.cdf', '2022')],
-            'het_rate2': [PspFileInfo('link3', 'psp_isois-epihi_l2-het-rates60_20190102_v11.cdf', '2023'),
-                          PspFileInfo('link4', 'psp_isois-epihi_l2-het-rates60_20190105_v11.cdf', '2023')]},
-            'merged': {
-                'ephem': [PspFileInfo('linkfile_to_download5.cdf', 'psp_isois_l2-ephem_20181111_v12.cdf', '2022'),
-                          PspFileInfo('linkfile_to_download6.cdf', 'psp_isois_l2-ephem_20181112_v12.cdf', '2022')],
-                'summary': [PspFileInfo('linkfile_to_download7.cdf', 'psp_isois_l2-summary_20181114_v13.cdf', '2023'),
-                            PspFileInfo('linkfile_to_download8.cdf', 'psp_isois_l2-summary_20181115_v13.cdf', '2023')]}
-        }
+        mock_downloader.get_all_metadata.return_value = \
+            [PspDirectoryInfo('ISOIS-EPIHi', 'epihi', {
+                'het_rate1': [PspFileInfo('link1', 'psp_isois-epihi_l2-het-rates3600_20190102_v10.cdf', '2022'),
+                              PspFileInfo('link2', 'psp_isois-epihi_l2-het-rates3600_20190103_v10.cdf', '2022')],
+                'het_rate2': [PspFileInfo('link3', 'psp_isois-epihi_l2-het-rates60_20190102_v11.cdf', '2023'),
+                              PspFileInfo('link4', 'psp_isois-epihi_l2-het-rates60_20190105_v11.cdf', '2023')]}),
+             PspDirectoryInfo('ISOIS', 'merged',
+                              {
+                                  'ephem': [
+                                      PspFileInfo('linkfile_to_download5.cdf', 'psp_isois_l2-ephem_20181111_v12.cdf',
+                                                  '2022'),
+                                      PspFileInfo('linkfile_to_download6.cdf', 'psp_isois_l2-ephem_20181112_v12.cdf',
+                                                  '2022')],
+                                  'summary': [
+                                      PspFileInfo('linkfile_to_download7.cdf', 'psp_isois_l2-summary_20181114_v13.cdf',
+                                                  '2023'),
+                                      PspFileInfo('linkfile_to_download8.cdf', 'psp_isois_l2-summary_20181115_v13.cdf',
+                                                  '2023')]}
+                              )
+             ]
 
         mock_downloader.get_cdf_file.side_effect = [
             {'link': '/2022/psp_isois-epihi_l2-het-rates3600_20190102_v10.cdf', 'data': b'some data 1'},
@@ -46,6 +56,7 @@ class TestPspDataProcessor(unittest.TestCase):
             CdfFileInfo(
                 CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 13", "13", date(2022, 11, 17)),
                 [CdfVariableInfo('a key into the CDF 4', 'a description v4', 'time_series')]),
+
         ]
 
         actual_index = PspDataProcessor.get_metadata_index()
@@ -64,7 +75,9 @@ class TestPspDataProcessor(unittest.TestCase):
                            "logical_source": "psp_isois-epihi_l2-het-rates3600",
                            "logical_source_description": "PSP Description 10",
                            "version": "10",
-                           "generation_date": "2022-11-14", "dates_available": [["2019-01-02", "2019-01-03"]]},
+                           "generation_date": "2022-11-14", "dates_available": [["2019-01-02", "2019-01-03"]],
+                           "instrument": "ISOIS-EPIHi",
+                           "mission": "PSP"},
                           {"variables": [{'catalog_description': 'a description v2',
                                           'display_type': 'time_series',
                                           'variable_name': 'a key into the CDF 2'}],
@@ -73,7 +86,9 @@ class TestPspDataProcessor(unittest.TestCase):
                            "logical_source": "psp_isois-epihi_l2-het-rates3600",
                            "logical_source_description": "PSP Description 11",
                            "version": "11", "generation_date": "2022-11-15",
-                           "dates_available": [["2019-01-02", "2019-01-02"], ["2019-01-05", "2019-01-05"]]},
+                           "dates_available": [["2019-01-02", "2019-01-02"], ["2019-01-05", "2019-01-05"]],
+                           "instrument": "ISOIS-EPIHi",
+                           "mission": "PSP"},
                           {"variables": [{'catalog_description': 'a description v3',
                                           'display_type': 'time_series',
                                           'variable_name': 'a key into the CDF 3'}],
@@ -82,7 +97,9 @@ class TestPspDataProcessor(unittest.TestCase):
                            "logical_source": "psp_isois-epihi_l2-het-rates3600",
                            "logical_source_description": "PSP Description 12",
                            "version": "12", "generation_date": "2022-11-16",
-                           "dates_available": [["2018-11-11", "2018-11-12"]]},
+                           "dates_available": [["2018-11-11", "2018-11-12"]],
+                           "instrument": "ISOIS",
+                           "mission": "PSP"},
                           {"variables": [{'catalog_description': 'a description v4',
                                           'display_type': 'time_series',
                                           'variable_name': 'a key into the CDF 4'}],
@@ -91,7 +108,9 @@ class TestPspDataProcessor(unittest.TestCase):
                            "logical_source": "psp_isois-epihi_l2-het-rates3600",
                            "logical_source_description": "PSP Description 13",
                            "version": "13", "generation_date": "2022-11-17",
-                           "dates_available": [["2018-11-14", "2018-11-15"]]}],
+                           "dates_available": [["2018-11-14", "2018-11-15"]],
+                           "instrument": "ISOIS",
+                           "mission": "PSP"}],
                          actual_index)
 
         self.assertEqual(4, mock_cdf_parser.parse_cdf_bytes.call_count)

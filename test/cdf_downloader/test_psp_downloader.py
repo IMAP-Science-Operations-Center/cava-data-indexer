@@ -1,28 +1,30 @@
 from unittest import TestCase
 from unittest.mock import patch, Mock, call
 
-from src.cdf_downloader.psp_downloader import PspDownloader
-from src.cdf_downloader.psp_file_parser import PspFileParser
+from src.cdf_downloader.psp_downloader import PspDownloader, PspDirectoryInfo
+from src.cdf_downloader.psp_file_parser import PspFileParser, PspFileInfo
 
 
 class TestPspDownloader(TestCase):
     @patch('src.cdf_downloader.psp_downloader.PspFileParser')
     def test_download_psp_data_from_cda_web(self, mock_psp_file_parser: PspFileParser):
-        epihi_filenames = {"het_rate_1/": ["psp_isois-epihi_l2-het-rate1_20220928_v13.cdf",
-                                           "psp_isois-epihi_l2-het-rate1_20220929_v13.cdf"],
-                           "het_rate_2/": ["psp_isois-epihi_l2-het-rate2_20220928_v13.cdf",
-                                           "psp_isois-epihi_l2-het-rate2_20220929_v13.cdf"]}
+        epihi_filenames = {"het_rate_1/": [PspFileInfo("psp_isois-epihi_l2-het-rate1_20220928_v13.cdf", "name", "1998"),
+                                           PspFileInfo("psp_isois-epihi_l2-het-rate1_20220929_v13.cdf", "name", "1999")],
+                           "het_rate_2/": [PspFileInfo("psp_isois-epihi_l2-het-rate2_20220928_v13.cdf", "name", "2000"),
+                                           PspFileInfo("psp_isois-epihi_l2-het-rate2_20220929_v13.cdf", "name", "2001")]}
 
-        epilo_filenames = {"ic": ["epilo_1.cdf",
-                                  "epilo_2.cdf"], }
+        epilo_filenames = {"ic": [PspFileInfo("epilo_1.cdf", "name5", "2002"),
+                                  PspFileInfo("epilo_2.cdf", "name6", "2003")], }
 
-        merged_filenames = {"summary": ["summary_1.cdf"]}
+        merged_filenames = {"summary": [PspFileInfo("summary_1.cdf", "name7", "2004")]}
 
         mock_psp_file_parser.get_dictionary_of_files.side_effect = [epihi_filenames, epilo_filenames, merged_filenames]
 
-        metadata = PspDownloader.get_all_filenames()
+        metadata = PspDownloader.get_all_metadata()
 
-        expected_metadata = {"epihi": epihi_filenames, "epilo": epilo_filenames, "merged": merged_filenames}
+        expected_metadata = [PspDirectoryInfo("ISOIS-EPIHi", "epihi", epihi_filenames),
+                             PspDirectoryInfo("ISOIS-EPILo", "epilo", epilo_filenames),
+                             PspDirectoryInfo("ISOIS", "merged", merged_filenames)]
 
         self.assertEqual(expected_metadata, metadata)
         mock_psp_file_parser.get_dictionary_of_files.assert_any_call('https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois'
@@ -43,7 +45,7 @@ class TestPspDownloader(TestCase):
 
         self.assertEqual([call(
             "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het-rate1/2022/psp_isois-epihi_l2-het-rate1_20220928_v13.cdf")],
-                         mock_urllib.request.urlopen.call_args_list)
+            mock_urllib.request.urlopen.call_args_list)
         self.assertEqual({
-                             "link": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het-rate1/2022/psp_isois-epihi_l2-het-rate1_20220928_v13.cdf",
-                             "data": b'This is a PSP file'}, response)
+            "link": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het-rate1/2022/psp_isois-epihi_l2-het-rate1_20220928_v13.cdf",
+            "data": b'This is a PSP file'}, response)

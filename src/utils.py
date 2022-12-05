@@ -6,7 +6,7 @@ from src.cdf_parser.cdf_parser import CdfFileInfo
 
 
 def get_index_entry(cdf_file_info: CdfFileInfo, source_file_format: str, description_source_file: str,
-                    available_dates: List[List[date]]) -> Dict:
+                    available_dates: List[List[date]], instrument: str, mission: str) -> Dict:
 
     return {"variables": [dataclasses.asdict(info) for info in cdf_file_info.variable_infos], "source_file_format": source_file_format,
             "description_source_file": description_source_file,
@@ -14,4 +14,6 @@ def get_index_entry(cdf_file_info: CdfFileInfo, source_file_format: str, descrip
             "logical_source": cdf_file_info.global_info.logical_source,
             "logical_source_description": cdf_file_info.global_info.logical_source_description,
             "version": cdf_file_info.global_info.data_version,
-            "generation_date": str(cdf_file_info.global_info.generation_date)}
+            "generation_date": str(cdf_file_info.global_info.generation_date),
+            "instrument": instrument,
+            "mission": mission}

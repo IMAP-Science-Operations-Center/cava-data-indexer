@@ -26,10 +26,13 @@ def get_metadata_index():
         sorted_files_metadata = sorted(matching_files_metadata, key=lambda m: m["timetag"])
         sorted_dates = [datetime.fromisoformat(metadata["timetag"]).date() for metadata in sorted_files_metadata]
         available_dates = dates_available.get_date_ranges(sorted_dates)
-        cdf = get_cdf_file(matching_files_metadata[0]["file_name"])
+        first_file_metadata = matching_files_metadata[0]
+        cdf = get_cdf_file(first_file_metadata["file_name"])
         cdf_file_info = CdfParser.parse_cdf_bytes(cdf["data"])
-        link = cdf["link"].replace(matching_files_metadata[0]["file_name"], file_name_format)
-        index.append(utils.get_index_entry(cdf_file_info, link, cdf["link"], available_dates))
+        link = cdf["link"].replace(first_file_metadata["file_name"], file_name_format)
+        instrument = first_file_metadata["instrument_id"]
+        index.append(utils.get_index_entry(cdf_file_info, link, cdf["link"],
+                                           available_dates, instrument, "IMAP"))
     return index
 
 

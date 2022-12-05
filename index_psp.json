@@ -1,54 +1,247 @@
 [
   {
-    "descriptions": {
-      "Heliocentric distance v14": "HGC_R",
-      "HCI latitude v14": "HCI_Lat",
-      "HCI longitude v14": "HCI_Lon",
-      "HGC latitude v14": "HGC_Lat",
-      "HGC longitude v14": "HGC_Lon",
-      "Pitch angle HETA v14": "HET_A_PA",
-      "Nominal Parker Spiral angle HETA v14": "HET_A_SA",
-      "Pitch angle HETB v14": "HET_B_PA",
-      "Nominal Parker Spiral angle HETB v14": "HET_B_SA",
-      "Al count rate side A v14": "A_Al_Rate",
-      "Ar count rate side A v14": "A_Ar_Rate",
-      "C count rate side A v14": "A_C_Rate",
-      "Ca count rate side A v14": "A_Ca_Rate",
-      "Cr count rate side A v14": "A_Cr_Rate",
-      "Electrons count rate side A v14": "A_Electrons_Rate",
-      "Fe count rate side A v14": "A_Fe_Rate",
-      "H count rate side A v14": "A_H_Rate",
-      "H flux side A v14": "A_H_Flux",
-      "He count rate side A v14": "A_He_Rate",
-      "He flux side A v14": "A_He_Flux",
-      "Mg count rate side A v14": "A_Mg_Rate",
-      "N count rate side A v14": "A_N_Rate",
-      "Na count rate side A v14": "A_Na_Rate",
-      "Ne count rate side A v14": "A_Ne_Rate",
-      "Ni count rate side A v14": "A_Ni_Rate",
-      "O count rate side A v14": "A_O_Rate",
-      "S count rate side A v14": "A_S_Rate",
-      "Si count rate side A v14": "A_Si_Rate",
-      "Al count rate side B v14": "B_Al_Rate",
-      "Ar count rate side B v14": "B_Ar_Rate",
-      "C count rate side B v14": "B_C_Rate",
-      "Ca count rate side B v14": "B_Ca_Rate",
-      "Cr count rate side B v14": "B_Cr_Rate",
-      "Electrons count rate side B v14": "B_Electrons_Rate",
-      "Fe count rate side B v14": "B_Fe_Rate",
-      "H count rate side B v14": "B_H_Rate",
-      "H flux side B v14": "B_H_Flux",
-      "He count rate side B v14": "B_He_Rate",
-      "He flux side B v14": "B_He_Flux",
-      "Mg count rate side B v14": "B_Mg_Rate",
-      "N count rate side B v14": "B_N_Rate",
-      "Na count rate side B v14": "B_Na_Rate",
-      "Ne count rate side B v14": "B_Ne_Rate",
-      "Ni count rate side B v14": "B_Ni_Rate",
-      "O count rate side B v14": "B_O_Rate",
-      "S count rate side B v14": "B_S_Rate",
-      "Si count rate side B v14": "B_Si_Rate"
-    },
+    "variables": [
+      {
+        "variable_name": "A_Al_Rate",
+        "catalog_description": "Al count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Al_Rate",
+        "catalog_description": "Al count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ar_Rate",
+        "catalog_description": "Ar count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ar_Rate",
+        "catalog_description": "Ar count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_C_Rate",
+        "catalog_description": "C count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_C_Rate",
+        "catalog_description": "C count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ca_Rate",
+        "catalog_description": "Ca count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ca_Rate",
+        "catalog_description": "Ca count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Cr_Rate",
+        "catalog_description": "Cr count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Cr_Rate",
+        "catalog_description": "Cr count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Electrons_Rate",
+        "catalog_description": "Electrons count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Electrons_Rate",
+        "catalog_description": "Electrons count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Fe_Rate",
+        "catalog_description": "Fe count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Fe_Rate",
+        "catalog_description": "Fe count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_H_Rate",
+        "catalog_description": "H count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_H_Rate",
+        "catalog_description": "H count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_H_Flux",
+        "catalog_description": "H flux side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_H_Flux",
+        "catalog_description": "H flux side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HCI_Lat",
+        "catalog_description": "HCI latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lon",
+        "catalog_description": "HCI longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "A_He_Rate",
+        "catalog_description": "He count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_He_Rate",
+        "catalog_description": "He count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_He_Flux",
+        "catalog_description": "He flux side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_He_Flux",
+        "catalog_description": "He flux side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HCI_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lat",
+        "catalog_description": "HGC latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lon",
+        "catalog_description": "HGC longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "A_Mg_Rate",
+        "catalog_description": "Mg count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Mg_Rate",
+        "catalog_description": "Mg count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_N_Rate",
+        "catalog_description": "N count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_N_Rate",
+        "catalog_description": "N count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Na_Rate",
+        "catalog_description": "Na count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Na_Rate",
+        "catalog_description": "Na count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ne_Rate",
+        "catalog_description": "Ne count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ne_Rate",
+        "catalog_description": "Ne count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ni_Rate",
+        "catalog_description": "Ni count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ni_Rate",
+        "catalog_description": "Ni count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HET_A_SA",
+        "catalog_description": "Nominal Parker Spiral angle HETA",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_SA",
+        "catalog_description": "Nominal Parker Spiral angle HETB",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "A_O_Rate",
+        "catalog_description": "O count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_O_Rate",
+        "catalog_description": "O count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HET_A_PA",
+        "catalog_description": "Pitch angle HETA",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_PA",
+        "catalog_description": "Pitch angle HETB",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "A_S_Rate",
+        "catalog_description": "S count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_S_Rate",
+        "catalog_description": "S count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Si_Rate",
+        "catalog_description": "Si count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Si_Rate",
+        "catalog_description": "Si count rate side B",
+        "display_type": "spectrogram"
+      }
+    ],
     "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates1h/%yyyy%/psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v14.cdf",
     "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates1h/2018/psp_isois-epihi_l2-het-rates3600_20180928_v14.cdf",
     "dates_available": [
@@ -160,58 +353,253 @@
     "logical_source": "psp_isois-epihi_l2-het-rates3600",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 HET Hourly Rates",
     "version": "14",
-    "generation_date": "2022-11-12"
+    "generation_date": "2022-11-12",
+    "instrument": "ISOIS-EPIHi",
+    "mission": "PSP"
   },
   {
-    "descriptions": {
-      "Heliocentric distance v14": "HGC_R",
-      "HCI latitude v14": "HCI_Lat",
-      "HCI longitude v14": "HCI_Lon",
-      "HGC latitude v14": "HGC_Lat",
-      "HGC longitude v14": "HGC_Lon",
-      "Pitch angle HETA v14": "HET_A_PA",
-      "Nominal Parker Spiral angle HETA v14": "HET_A_SA",
-      "Pitch angle HETB v14": "HET_B_PA",
-      "Nominal Parker Spiral angle HETB v14": "HET_B_SA",
-      "Al count rate side A v14": "A_Al_Rate",
-      "Ar count rate side A v14": "A_Ar_Rate",
-      "C count rate side A v14": "A_C_Rate",
-      "Ca count rate side A v14": "A_Ca_Rate",
-      "Cr count rate side A v14": "A_Cr_Rate",
-      "Electrons count rate side A v14": "A_Electrons_Rate",
-      "Fe count rate side A v14": "A_Fe_Rate",
-      "H count rate side A v14": "A_H_Rate",
-      "H flux side A v14": "A_H_Flux",
-      "He count rate side A v14": "A_He_Rate",
-      "He flux side A v14": "A_He_Flux",
-      "Mg count rate side A v14": "A_Mg_Rate",
-      "N count rate side A v14": "A_N_Rate",
-      "Na count rate side A v14": "A_Na_Rate",
-      "Ne count rate side A v14": "A_Ne_Rate",
-      "Ni count rate side A v14": "A_Ni_Rate",
-      "O count rate side A v14": "A_O_Rate",
-      "S count rate side A v14": "A_S_Rate",
-      "Si count rate side A v14": "A_Si_Rate",
-      "Al count rate side B v14": "B_Al_Rate",
-      "Ar count rate side B v14": "B_Ar_Rate",
-      "C count rate side B v14": "B_C_Rate",
-      "Ca count rate side B v14": "B_Ca_Rate",
-      "Cr count rate side B v14": "B_Cr_Rate",
-      "Electrons count rate side B v14": "B_Electrons_Rate",
-      "Fe count rate side B v14": "B_Fe_Rate",
-      "H count rate side B v14": "B_H_Rate",
-      "H flux side B v14": "B_H_Flux",
-      "He count rate side B v14": "B_He_Rate",
-      "He flux side B v14": "B_He_Flux",
-      "Mg count rate side B v14": "B_Mg_Rate",
-      "N count rate side B v14": "B_N_Rate",
-      "Na count rate side B v14": "B_Na_Rate",
-      "Ne count rate side B v14": "B_Ne_Rate",
-      "Ni count rate side B v14": "B_Ni_Rate",
-      "O count rate side B v14": "B_O_Rate",
-      "S count rate side B v14": "B_S_Rate",
-      "Si count rate side B v14": "B_Si_Rate"
-    },
+    "variables": [
+      {
+        "variable_name": "A_Al_Rate",
+        "catalog_description": "Al count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Al_Rate",
+        "catalog_description": "Al count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ar_Rate",
+        "catalog_description": "Ar count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ar_Rate",
+        "catalog_description": "Ar count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_C_Rate",
+        "catalog_description": "C count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_C_Rate",
+        "catalog_description": "C count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ca_Rate",
+        "catalog_description": "Ca count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ca_Rate",
+        "catalog_description": "Ca count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Cr_Rate",
+        "catalog_description": "Cr count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Cr_Rate",
+        "catalog_description": "Cr count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Electrons_Rate",
+        "catalog_description": "Electrons count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Electrons_Rate",
+        "catalog_description": "Electrons count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Fe_Rate",
+        "catalog_description": "Fe count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Fe_Rate",
+        "catalog_description": "Fe count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_H_Rate",
+        "catalog_description": "H count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_H_Rate",
+        "catalog_description": "H count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_H_Flux",
+        "catalog_description": "H flux side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_H_Flux",
+        "catalog_description": "H flux side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HCI_Lat",
+        "catalog_description": "HCI latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lon",
+        "catalog_description": "HCI longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "A_He_Rate",
+        "catalog_description": "He count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_He_Rate",
+        "catalog_description": "He count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_He_Flux",
+        "catalog_description": "He flux side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_He_Flux",
+        "catalog_description": "He flux side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HCI_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lat",
+        "catalog_description": "HGC latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lon",
+        "catalog_description": "HGC longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "A_Mg_Rate",
+        "catalog_description": "Mg count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Mg_Rate",
+        "catalog_description": "Mg count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_N_Rate",
+        "catalog_description": "N count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_N_Rate",
+        "catalog_description": "N count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Na_Rate",
+        "catalog_description": "Na count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Na_Rate",
+        "catalog_description": "Na count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ne_Rate",
+        "catalog_description": "Ne count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ne_Rate",
+        "catalog_description": "Ne count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ni_Rate",
+        "catalog_description": "Ni count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ni_Rate",
+        "catalog_description": "Ni count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HET_A_SA",
+        "catalog_description": "Nominal Parker Spiral angle HETA",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_SA",
+        "catalog_description": "Nominal Parker Spiral angle HETB",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "A_O_Rate",
+        "catalog_description": "O count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_O_Rate",
+        "catalog_description": "O count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HET_A_PA",
+        "catalog_description": "Pitch angle HETA",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_PA",
+        "catalog_description": "Pitch angle HETB",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "A_S_Rate",
+        "catalog_description": "S count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_S_Rate",
+        "catalog_description": "S count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Si_Rate",
+        "catalog_description": "Si count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Si_Rate",
+        "catalog_description": "Si count rate side B",
+        "display_type": "spectrogram"
+      }
+    ],
     "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates1min/%yyyy%/psp_isois-epihi_l2-het-rates60_%yyyymmdd%_v14.cdf",
     "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates1min/2018/psp_isois-epihi_l2-het-rates60_20180928_v14.cdf",
     "dates_available": [
@@ -291,20 +679,63 @@
     "logical_source": "psp_isois-epihi_l2-het-rates60",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 HET 1-minute Rates",
     "version": "14",
-    "generation_date": "2022-11-12"
+    "generation_date": "2022-11-12",
+    "instrument": "ISOIS-EPIHi",
+    "mission": "PSP"
   },
   {
-    "descriptions": {
-      "Heliocentric distance v14": "HGC_R",
-      "HCI latitude v14": "HCI_Lat",
-      "HCI longitude v14": "HCI_Lon",
-      "HGC latitude v14": "HGC_Lat",
-      "HGC longitude v14": "HGC_Lon",
-      "Pitch angle HETA v14": "HET_A_PA",
-      "Nominal Parker Spiral angle HETA v14": "HET_A_SA",
-      "Pitch angle HETB v14": "HET_B_PA",
-      "Nominal Parker Spiral angle HETB v14": "HET_B_SA"
-    },
+    "variables": [
+      {
+        "variable_name": "HCI_Lat",
+        "catalog_description": "HCI latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lon",
+        "catalog_description": "HCI longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lat",
+        "catalog_description": "HGC latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lon",
+        "catalog_description": "HGC longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_A_SA",
+        "catalog_description": "Nominal Parker Spiral angle HETA",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_SA",
+        "catalog_description": "Nominal Parker Spiral angle HETB",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_A_PA",
+        "catalog_description": "Pitch angle HETA",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_PA",
+        "catalog_description": "Pitch angle HETB",
+        "display_type": "time_series"
+      }
+    ],
     "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates5min/%yyyy%/psp_isois-epihi_l2-het-rates300_%yyyymmdd%_v14.cdf",
     "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates5min/2018/psp_isois-epihi_l2-het-rates300_20180928_v14.cdf",
     "dates_available": [
@@ -416,30 +847,113 @@
     "logical_source": "psp_isois-epihi_l2-het-rates300",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 HET 5-minute Rates",
     "version": "14",
-    "generation_date": "2022-11-12"
+    "generation_date": "2022-11-12",
+    "instrument": "ISOIS-EPIHi",
+    "mission": "PSP"
   },
   {
-    "descriptions": {
-      "Heliocentric distance v14": "HGC_R",
-      "HCI latitude v14": "HCI_Lat",
-      "HCI longitude v14": "HCI_Lon",
-      "HGC latitude v14": "HGC_Lat",
-      "HGC longitude v14": "HGC_Lon",
-      "Pitch angle HETA v14": "HET_A_PA",
-      "Nominal Parker Spiral angle HETA v14": "HET_A_SA",
-      "Pitch angle HETB v14": "HET_B_PA",
-      "Nominal Parker Spiral angle HETB v14": "HET_B_SA",
-      "Electrons count rate side A v14": "A_Electrons_Rate",
-      "H count rate side A v14": "A_H_Rate",
-      "H flux side A v14": "A_H_Flux",
-      "He count rate side A v14": "A_He_Rate",
-      "He flux side A v14": "A_He_Flux",
-      "Electrons count rate side B v14": "B_Electrons_Rate",
-      "H count rate side B v14": "B_H_Rate",
-      "H flux side B v14": "B_H_Flux",
-      "He count rate side B v14": "B_He_Rate",
-      "He flux side B v14": "B_He_Flux"
-    },
+    "variables": [
+      {
+        "variable_name": "A_Electrons_Rate",
+        "catalog_description": "Electrons count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Electrons_Rate",
+        "catalog_description": "Electrons count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_H_Rate",
+        "catalog_description": "H count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_H_Rate",
+        "catalog_description": "H count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_H_Flux",
+        "catalog_description": "H flux side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_H_Flux",
+        "catalog_description": "H flux side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HCI_Lat",
+        "catalog_description": "HCI latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lon",
+        "catalog_description": "HCI longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "A_He_Rate",
+        "catalog_description": "He count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_He_Rate",
+        "catalog_description": "He count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_He_Flux",
+        "catalog_description": "He flux side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_He_Flux",
+        "catalog_description": "He flux side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HCI_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lat",
+        "catalog_description": "HGC latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lon",
+        "catalog_description": "HGC longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_A_SA",
+        "catalog_description": "Nominal Parker Spiral angle HETA",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_SA",
+        "catalog_description": "Nominal Parker Spiral angle HETB",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_A_PA",
+        "catalog_description": "Pitch angle HETA",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_PA",
+        "catalog_description": "Pitch angle HETB",
+        "display_type": "time_series"
+      }
+    ],
     "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates10s/%yyyy%/psp_isois-epihi_l2-het-rates10_%yyyymmdd%_v14.cdf",
     "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates10s/2018/psp_isois-epihi_l2-het-rates10_20180928_v14.cdf",
     "dates_available": [
@@ -511,58 +1025,253 @@
     "logical_source": "psp_isois-epihi_l2-het-rates10",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 HET 10-second Rates",
     "version": "14",
-    "generation_date": "2022-11-12"
+    "generation_date": "2022-11-12",
+    "instrument": "ISOIS-EPIHi",
+    "mission": "PSP"
   },
   {
-    "descriptions": {
-      "Heliocentric distance v14": "HGC_R",
-      "HCI latitude v14": "HCI_Lat",
-      "HCI longitude v14": "HCI_Lon",
-      "HGC latitude v14": "HGC_Lat",
-      "HGC longitude v14": "HGC_Lon",
-      "Pitch angle LET1A v14": "LET1_A_PA",
-      "Nominal Parker Spiral angle LET1A v14": "LET1_A_SA",
-      "Pitch angle LET1B v14": "LET1_B_PA",
-      "Nominal Parker Spiral angle LET1B v14": "LET1_B_SA",
-      "Al count rate side A v14": "A_Al_Rate",
-      "Ar count rate side A v14": "A_Ar_Rate",
-      "C count rate side A v14": "A_C_Rate",
-      "Ca count rate side A v14": "A_Ca_Rate",
-      "Cr count rate side A v14": "A_Cr_Rate",
-      "Fe count rate side A v14": "A_Fe_Rate",
-      "H count rate side A v14": "A_H_Rate",
-      "H flux side A v14": "A_H_Flux",
-      "He count rate side A v14": "A_He_Rate",
-      "He flux side A v14": "A_He_Flux",
-      "Mg count rate side A v14": "A_Mg_Rate",
-      "N count rate side A v14": "A_N_Rate",
-      "Na count rate side A v14": "A_Na_Rate",
-      "Ne count rate side A v14": "A_Ne_Rate",
-      "Ni count rate side A v14": "A_Ni_Rate",
-      "O count rate side A v14": "A_O_Rate",
-      "S count rate side A v14": "A_S_Rate",
-      "Si count rate side A v14": "A_Si_Rate",
-      "Al count rate side B v14": "B_Al_Rate",
-      "Ar count rate side B v14": "B_Ar_Rate",
-      "C count rate side B v14": "B_C_Rate",
-      "Ca count rate side B v14": "B_Ca_Rate",
-      "Cr count rate side B v14": "B_Cr_Rate",
-      "Fe count rate side B v14": "B_Fe_Rate",
-      "H count rate side B v14": "B_H_Rate",
-      "H flux side B v14": "B_H_Flux",
-      "He count rate side B v14": "B_He_Rate",
-      "He flux side B v14": "B_He_Flux",
-      "Mg count rate side B v14": "B_Mg_Rate",
-      "N count rate side B v14": "B_N_Rate",
-      "Na count rate side B v14": "B_Na_Rate",
-      "Ne count rate side B v14": "B_Ne_Rate",
-      "Ni count rate side B v14": "B_Ni_Rate",
-      "O count rate side B v14": "B_O_Rate",
-      "S count rate side B v14": "B_S_Rate",
-      "Si count rate side B v14": "B_Si_Rate",
-      "Electrons count rate side A v14": "A_Electrons_Rate",
-      "Electrons count rate side B v14": "B_Electrons_Rate"
-    },
+    "variables": [
+      {
+        "variable_name": "A_Al_Rate",
+        "catalog_description": "Al count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Al_Rate",
+        "catalog_description": "Al count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ar_Rate",
+        "catalog_description": "Ar count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ar_Rate",
+        "catalog_description": "Ar count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_C_Rate",
+        "catalog_description": "C count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_C_Rate",
+        "catalog_description": "C count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ca_Rate",
+        "catalog_description": "Ca count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ca_Rate",
+        "catalog_description": "Ca count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Cr_Rate",
+        "catalog_description": "Cr count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Cr_Rate",
+        "catalog_description": "Cr count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Electrons_Rate",
+        "catalog_description": "Electrons count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Electrons_Rate",
+        "catalog_description": "Electrons count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Fe_Rate",
+        "catalog_description": "Fe count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Fe_Rate",
+        "catalog_description": "Fe count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_H_Rate",
+        "catalog_description": "H count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_H_Rate",
+        "catalog_description": "H count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_H_Flux",
+        "catalog_description": "H flux side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_H_Flux",
+        "catalog_description": "H flux side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HCI_Lat",
+        "catalog_description": "HCI latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lon",
+        "catalog_description": "HCI longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "A_He_Rate",
+        "catalog_description": "He count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_He_Rate",
+        "catalog_description": "He count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_He_Flux",
+        "catalog_description": "He flux side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_He_Flux",
+        "catalog_description": "He flux side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HCI_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lat",
+        "catalog_description": "HGC latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lon",
+        "catalog_description": "HGC longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "A_Mg_Rate",
+        "catalog_description": "Mg count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Mg_Rate",
+        "catalog_description": "Mg count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_N_Rate",
+        "catalog_description": "N count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_N_Rate",
+        "catalog_description": "N count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Na_Rate",
+        "catalog_description": "Na count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Na_Rate",
+        "catalog_description": "Na count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ne_Rate",
+        "catalog_description": "Ne count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ne_Rate",
+        "catalog_description": "Ne count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ni_Rate",
+        "catalog_description": "Ni count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ni_Rate",
+        "catalog_description": "Ni count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET1_A_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1A",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1B",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "A_O_Rate",
+        "catalog_description": "O count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_O_Rate",
+        "catalog_description": "O count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET1_A_PA",
+        "catalog_description": "Pitch angle LET1A",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_PA",
+        "catalog_description": "Pitch angle LET1B",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "A_S_Rate",
+        "catalog_description": "S count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_S_Rate",
+        "catalog_description": "S count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Si_Rate",
+        "catalog_description": "Si count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Si_Rate",
+        "catalog_description": "Si count rate side B",
+        "display_type": "spectrogram"
+      }
+    ],
     "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates1h/%yyyy%/psp_isois-epihi_l2-let1-rates3600_%yyyymmdd%_v14.cdf",
     "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates1h/2018/psp_isois-epihi_l2-let1-rates3600_20180928_v14.cdf",
     "dates_available": [
@@ -674,58 +1383,253 @@
     "logical_source": "psp_isois-epihi_l2-let1-rates3600",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET1 Hourly Rates",
     "version": "14",
-    "generation_date": "2022-11-12"
+    "generation_date": "2022-11-12",
+    "instrument": "ISOIS-EPIHi",
+    "mission": "PSP"
   },
   {
-    "descriptions": {
-      "Heliocentric distance v14": "HGC_R",
-      "HCI latitude v14": "HCI_Lat",
-      "HCI longitude v14": "HCI_Lon",
-      "HGC latitude v14": "HGC_Lat",
-      "HGC longitude v14": "HGC_Lon",
-      "Pitch angle LET1A v14": "LET1_A_PA",
-      "Nominal Parker Spiral angle LET1A v14": "LET1_A_SA",
-      "Pitch angle LET1B v14": "LET1_B_PA",
-      "Nominal Parker Spiral angle LET1B v14": "LET1_B_SA",
-      "Al count rate side A v14": "A_Al_Rate",
-      "Ar count rate side A v14": "A_Ar_Rate",
-      "C count rate side A v14": "A_C_Rate",
-      "Ca count rate side A v14": "A_Ca_Rate",
-      "Cr count rate side A v14": "A_Cr_Rate",
-      "Fe count rate side A v14": "A_Fe_Rate",
-      "H count rate side A v14": "A_H_Rate",
-      "H flux side A v14": "A_H_Flux",
-      "He count rate side A v14": "A_He_Rate",
-      "He flux side A v14": "A_He_Flux",
-      "Mg count rate side A v14": "A_Mg_Rate",
-      "N count rate side A v14": "A_N_Rate",
-      "Na count rate side A v14": "A_Na_Rate",
-      "Ne count rate side A v14": "A_Ne_Rate",
-      "Ni count rate side A v14": "A_Ni_Rate",
-      "O count rate side A v14": "A_O_Rate",
-      "S count rate side A v14": "A_S_Rate",
-      "Si count rate side A v14": "A_Si_Rate",
-      "Al count rate side B v14": "B_Al_Rate",
-      "Ar count rate side B v14": "B_Ar_Rate",
-      "C count rate side B v14": "B_C_Rate",
-      "Ca count rate side B v14": "B_Ca_Rate",
-      "Cr count rate side B v14": "B_Cr_Rate",
-      "Fe count rate side B v14": "B_Fe_Rate",
-      "H count rate side B v14": "B_H_Rate",
-      "H flux side B v14": "B_H_Flux",
-      "He count rate side B v14": "B_He_Rate",
-      "He flux side B v14": "B_He_Flux",
-      "Mg count rate side B v14": "B_Mg_Rate",
-      "N count rate side B v14": "B_N_Rate",
-      "Na count rate side B v14": "B_Na_Rate",
-      "Ne count rate side B v14": "B_Ne_Rate",
-      "Ni count rate side B v14": "B_Ni_Rate",
-      "O count rate side B v14": "B_O_Rate",
-      "S count rate side B v14": "B_S_Rate",
-      "Si count rate side B v14": "B_Si_Rate",
-      "Electrons count rate side A v14": "A_Electrons_Rate",
-      "Electrons count rate side B v14": "B_Electrons_Rate"
-    },
+    "variables": [
+      {
+        "variable_name": "A_Al_Rate",
+        "catalog_description": "Al count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Al_Rate",
+        "catalog_description": "Al count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ar_Rate",
+        "catalog_description": "Ar count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ar_Rate",
+        "catalog_description": "Ar count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_C_Rate",
+        "catalog_description": "C count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_C_Rate",
+        "catalog_description": "C count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ca_Rate",
+        "catalog_description": "Ca count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ca_Rate",
+        "catalog_description": "Ca count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Cr_Rate",
+        "catalog_description": "Cr count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Cr_Rate",
+        "catalog_description": "Cr count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Electrons_Rate",
+        "catalog_description": "Electrons count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Electrons_Rate",
+        "catalog_description": "Electrons count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Fe_Rate",
+        "catalog_description": "Fe count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Fe_Rate",
+        "catalog_description": "Fe count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_H_Rate",
+        "catalog_description": "H count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_H_Rate",
+        "catalog_description": "H count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_H_Flux",
+        "catalog_description": "H flux side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_H_Flux",
+        "catalog_description": "H flux side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HCI_Lat",
+        "catalog_description": "HCI latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lon",
+        "catalog_description": "HCI longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "A_He_Rate",
+        "catalog_description": "He count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_He_Rate",
+        "catalog_description": "He count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_He_Flux",
+        "catalog_description": "He flux side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_He_Flux",
+        "catalog_description": "He flux side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HCI_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lat",
+        "catalog_description": "HGC latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lon",
+        "catalog_description": "HGC longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "A_Mg_Rate",
+        "catalog_description": "Mg count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Mg_Rate",
+        "catalog_description": "Mg count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_N_Rate",
+        "catalog_description": "N count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_N_Rate",
+        "catalog_description": "N count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Na_Rate",
+        "catalog_description": "Na count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Na_Rate",
+        "catalog_description": "Na count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ne_Rate",
+        "catalog_description": "Ne count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ne_Rate",
+        "catalog_description": "Ne count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ni_Rate",
+        "catalog_description": "Ni count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ni_Rate",
+        "catalog_description": "Ni count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET1_A_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1A",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1B",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "A_O_Rate",
+        "catalog_description": "O count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_O_Rate",
+        "catalog_description": "O count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET1_A_PA",
+        "catalog_description": "Pitch angle LET1A",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_PA",
+        "catalog_description": "Pitch angle LET1B",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "A_S_Rate",
+        "catalog_description": "S count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_S_Rate",
+        "catalog_description": "S count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Si_Rate",
+        "catalog_description": "Si count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Si_Rate",
+        "catalog_description": "Si count rate side B",
+        "display_type": "spectrogram"
+      }
+    ],
     "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates1min/%yyyy%/psp_isois-epihi_l2-let1-rates60_%yyyymmdd%_v14.cdf",
     "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates1min/2018/psp_isois-epihi_l2-let1-rates60_20180928_v14.cdf",
     "dates_available": [
@@ -801,20 +1705,63 @@
     "logical_source": "psp_isois-epihi_l2-let1-rates60",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET1 1-minute Rates",
     "version": "14",
-    "generation_date": "2022-11-12"
+    "generation_date": "2022-11-12",
+    "instrument": "ISOIS-EPIHi",
+    "mission": "PSP"
   },
   {
-    "descriptions": {
-      "Heliocentric distance v14": "HGC_R",
-      "HCI latitude v14": "HCI_Lat",
-      "HCI longitude v14": "HCI_Lon",
-      "HGC latitude v14": "HGC_Lat",
-      "HGC longitude v14": "HGC_Lon",
-      "Pitch angle LET1A v14": "LET1_A_PA",
-      "Nominal Parker Spiral angle LET1A v14": "LET1_A_SA",
-      "Pitch angle LET1B v14": "LET1_B_PA",
-      "Nominal Parker Spiral angle LET1B v14": "LET1_B_SA"
-    },
+    "variables": [
+      {
+        "variable_name": "HCI_Lat",
+        "catalog_description": "HCI latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lon",
+        "catalog_description": "HCI longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lat",
+        "catalog_description": "HGC latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lon",
+        "catalog_description": "HGC longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_A_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1A",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1B",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_A_PA",
+        "catalog_description": "Pitch angle LET1A",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_PA",
+        "catalog_description": "Pitch angle LET1B",
+        "display_type": "time_series"
+      }
+    ],
     "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates5min/%yyyy%/psp_isois-epihi_l2-let1-rates300_%yyyymmdd%_v14.cdf",
     "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates5min/2018/psp_isois-epihi_l2-let1-rates300_20180928_v14.cdf",
     "dates_available": [
@@ -926,30 +1873,113 @@
     "logical_source": "psp_isois-epihi_l2-let1-rates300",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET1 5-minute Rates",
     "version": "14",
-    "generation_date": "2022-11-12"
+    "generation_date": "2022-11-12",
+    "instrument": "ISOIS-EPIHi",
+    "mission": "PSP"
   },
   {
-    "descriptions": {
-      "Heliocentric distance v14": "HGC_R",
-      "HCI latitude v14": "HCI_Lat",
-      "HCI longitude v14": "HCI_Lon",
-      "HGC latitude v14": "HGC_Lat",
-      "HGC longitude v14": "HGC_Lon",
-      "Pitch angle LET1A v14": "LET1_A_PA",
-      "Nominal Parker Spiral angle LET1A v14": "LET1_A_SA",
-      "Pitch angle LET1B v14": "LET1_B_PA",
-      "Nominal Parker Spiral angle LET1B v14": "LET1_B_SA",
-      "H count rate side A v14": "A_H_Rate",
-      "H flux side A v14": "A_H_Flux",
-      "He count rate side A v14": "A_He_Rate",
-      "He flux side A v14": "A_He_Flux",
-      "H count rate side B v14": "B_H_Rate",
-      "H flux side B v14": "B_H_Flux",
-      "He count rate side B v14": "B_He_Rate",
-      "He flux side B v14": "B_He_Flux",
-      "Electrons count rate side A v14": "A_Electrons_Rate",
-      "Electrons count rate side B v14": "B_Electrons_Rate"
-    },
+    "variables": [
+      {
+        "variable_name": "A_Electrons_Rate",
+        "catalog_description": "Electrons count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Electrons_Rate",
+        "catalog_description": "Electrons count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_H_Rate",
+        "catalog_description": "H count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_H_Rate",
+        "catalog_description": "H count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_H_Flux",
+        "catalog_description": "H flux side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_H_Flux",
+        "catalog_description": "H flux side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HCI_Lat",
+        "catalog_description": "HCI latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lon",
+        "catalog_description": "HCI longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "A_He_Rate",
+        "catalog_description": "He count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_He_Rate",
+        "catalog_description": "He count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_He_Flux",
+        "catalog_description": "He flux side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_He_Flux",
+        "catalog_description": "He flux side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HCI_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lat",
+        "catalog_description": "HGC latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lon",
+        "catalog_description": "HGC longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_A_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1A",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1B",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_A_PA",
+        "catalog_description": "Pitch angle LET1A",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_PA",
+        "catalog_description": "Pitch angle LET1B",
+        "display_type": "time_series"
+      }
+    ],
     "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates10s/%yyyy%/psp_isois-epihi_l2-let1-rates10_%yyyymmdd%_v14.cdf",
     "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates10s/2018/psp_isois-epihi_l2-let1-rates10_20180928_v14.cdf",
     "dates_available": [
@@ -1021,37 +2051,148 @@
     "logical_source": "psp_isois-epihi_l2-let1-rates10",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET1 10-second Rates",
     "version": "14",
-    "generation_date": "2022-11-12"
+    "generation_date": "2022-11-12",
+    "instrument": "ISOIS-EPIHi",
+    "mission": "PSP"
   },
   {
-    "descriptions": {
-      "Heliocentric distance v14": "HGC_R",
-      "HCI latitude v14": "HCI_Lat",
-      "HCI longitude v14": "HCI_Lon",
-      "HGC latitude v14": "HGC_Lat",
-      "HGC longitude v14": "HGC_Lon",
-      "Pitch angle LET2C v14": "LET2_C_PA",
-      "Nominal Parker Spiral angle LET2C v14": "LET2_C_SA",
-      "Al count rate side C v14": "C_Al_Rate",
-      "Ar count rate side C v14": "C_Ar_Rate",
-      "C count rate side C v14": "C_C_Rate",
-      "Ca count rate side C v14": "C_Ca_Rate",
-      "Cr count rate side C v14": "C_Cr_Rate",
-      "Fe count rate side C v14": "C_Fe_Rate",
-      "H count rate side C v14": "C_H_Rate",
-      "H flux side C v14": "C_H_Flux",
-      "He count rate side C v14": "C_He_Rate",
-      "He flux side C v14": "C_He_Flux",
-      "Mg count rate side C v14": "C_Mg_Rate",
-      "N count rate side C v14": "C_N_Rate",
-      "Na count rate side C v14": "C_Na_Rate",
-      "Ne count rate side C v14": "C_Ne_Rate",
-      "Ni count rate side C v14": "C_Ni_Rate",
-      "O count rate side C v14": "C_O_Rate",
-      "S count rate side C v14": "C_S_Rate",
-      "Si count rate side C v14": "C_Si_Rate",
-      "Electrons count rate side C v14": "C_Electrons_Rate"
-    },
+    "variables": [
+      {
+        "variable_name": "C_Al_Rate",
+        "catalog_description": "Al count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Ar_Rate",
+        "catalog_description": "Ar count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_C_Rate",
+        "catalog_description": "C count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Ca_Rate",
+        "catalog_description": "Ca count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Cr_Rate",
+        "catalog_description": "Cr count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Electrons_Rate",
+        "catalog_description": "Electrons count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Fe_Rate",
+        "catalog_description": "Fe count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_H_Rate",
+        "catalog_description": "H count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_H_Flux",
+        "catalog_description": "H flux side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HCI_Lat",
+        "catalog_description": "HCI latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lon",
+        "catalog_description": "HCI longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "C_He_Rate",
+        "catalog_description": "He count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_He_Flux",
+        "catalog_description": "He flux side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HCI_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lat",
+        "catalog_description": "HGC latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lon",
+        "catalog_description": "HGC longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "C_Mg_Rate",
+        "catalog_description": "Mg count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_N_Rate",
+        "catalog_description": "N count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Na_Rate",
+        "catalog_description": "Na count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Ne_Rate",
+        "catalog_description": "Ne count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Ni_Rate",
+        "catalog_description": "Ni count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET2_C_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET2C",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "C_O_Rate",
+        "catalog_description": "O count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET2_C_PA",
+        "catalog_description": "Pitch angle LET2C",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "C_S_Rate",
+        "catalog_description": "S count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Si_Rate",
+        "catalog_description": "Si count rate side C",
+        "display_type": "spectrogram"
+      }
+    ],
     "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates1h/%yyyy%/psp_isois-epihi_l2-let2-rates3600_%yyyymmdd%_v14.cdf",
     "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates1h/2018/psp_isois-epihi_l2-let2-rates3600_20180928_v14.cdf",
     "dates_available": [
@@ -1163,37 +2304,148 @@
     "logical_source": "psp_isois-epihi_l2-let2-rates3600",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET2 Hourly Rates",
     "version": "14",
-    "generation_date": "2022-11-12"
+    "generation_date": "2022-11-12",
+    "instrument": "ISOIS-EPIHi",
+    "mission": "PSP"
   },
   {
-    "descriptions": {
-      "Heliocentric distance v14": "HGC_R",
-      "HCI latitude v14": "HCI_Lat",
-      "HCI longitude v14": "HCI_Lon",
-      "HGC latitude v14": "HGC_Lat",
-      "HGC longitude v14": "HGC_Lon",
-      "Pitch angle LET2C v14": "LET2_C_PA",
-      "Nominal Parker Spiral angle LET2C v14": "LET2_C_SA",
-      "Al count rate side C v14": "C_Al_Rate",
-      "Ar count rate side C v14": "C_Ar_Rate",
-      "C count rate side C v14": "C_C_Rate",
-      "Ca count rate side C v14": "C_Ca_Rate",
-      "Cr count rate side C v14": "C_Cr_Rate",
-      "Fe count rate side C v14": "C_Fe_Rate",
-      "H count rate side C v14": "C_H_Rate",
-      "H flux side C v14": "C_H_Flux",
-      "He count rate side C v14": "C_He_Rate",
-      "He flux side C v14": "C_He_Flux",
-      "Mg count rate side C v14": "C_Mg_Rate",
-      "N count rate side C v14": "C_N_Rate",
-      "Na count rate side C v14": "C_Na_Rate",
-      "Ne count rate side C v14": "C_Ne_Rate",
-      "Ni count rate side C v14": "C_Ni_Rate",
-      "O count rate side C v14": "C_O_Rate",
-      "S count rate side C v14": "C_S_Rate",
-      "Si count rate side C v14": "C_Si_Rate",
-      "Electrons count rate side C v14": "C_Electrons_Rate"
-    },
+    "variables": [
+      {
+        "variable_name": "C_Al_Rate",
+        "catalog_description": "Al count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Ar_Rate",
+        "catalog_description": "Ar count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_C_Rate",
+        "catalog_description": "C count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Ca_Rate",
+        "catalog_description": "Ca count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Cr_Rate",
+        "catalog_description": "Cr count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Electrons_Rate",
+        "catalog_description": "Electrons count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Fe_Rate",
+        "catalog_description": "Fe count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_H_Rate",
+        "catalog_description": "H count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_H_Flux",
+        "catalog_description": "H flux side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HCI_Lat",
+        "catalog_description": "HCI latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lon",
+        "catalog_description": "HCI longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "C_He_Rate",
+        "catalog_description": "He count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_He_Flux",
+        "catalog_description": "He flux side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HCI_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lat",
+        "catalog_description": "HGC latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lon",
+        "catalog_description": "HGC longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "C_Mg_Rate",
+        "catalog_description": "Mg count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_N_Rate",
+        "catalog_description": "N count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Na_Rate",
+        "catalog_description": "Na count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Ne_Rate",
+        "catalog_description": "Ne count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Ni_Rate",
+        "catalog_description": "Ni count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET2_C_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET2C",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "C_O_Rate",
+        "catalog_description": "O count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET2_C_PA",
+        "catalog_description": "Pitch angle LET2C",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "C_S_Rate",
+        "catalog_description": "S count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Si_Rate",
+        "catalog_description": "Si count rate side C",
+        "display_type": "spectrogram"
+      }
+    ],
     "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates1min/%yyyy%/psp_isois-epihi_l2-let2-rates60_%yyyymmdd%_v14.cdf",
     "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates1min/2018/psp_isois-epihi_l2-let2-rates60_20180928_v14.cdf",
     "dates_available": [
@@ -1273,18 +2525,53 @@
     "logical_source": "psp_isois-epihi_l2-let2-rates60",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET2 1-minute Rates",
     "version": "14",
-    "generation_date": "2022-11-12"
+    "generation_date": "2022-11-12",
+    "instrument": "ISOIS-EPIHi",
+    "mission": "PSP"
   },
   {
-    "descriptions": {
-      "Heliocentric distance v14": "HGC_R",
-      "HCI latitude v14": "HCI_Lat",
-      "HCI longitude v14": "HCI_Lon",
-      "HGC latitude v14": "HGC_Lat",
-      "HGC longitude v14": "HGC_Lon",
-      "Pitch angle LET2C v14": "LET2_C_PA",
-      "Nominal Parker Spiral angle LET2C v14": "LET2_C_SA"
-    },
+    "variables": [
+      {
+        "variable_name": "HCI_Lat",
+        "catalog_description": "HCI latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lon",
+        "catalog_description": "HCI longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lat",
+        "catalog_description": "HGC latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lon",
+        "catalog_description": "HGC longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET2_C_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET2C",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET2_C_PA",
+        "catalog_description": "Pitch angle LET2C",
+        "display_type": "time_series"
+      }
+    ],
     "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates5min/%yyyy%/psp_isois-epihi_l2-let2-rates300_%yyyymmdd%_v14.cdf",
     "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates5min/2018/psp_isois-epihi_l2-let2-rates300_20180928_v14.cdf",
     "dates_available": [
@@ -1380,23 +2667,78 @@
     "logical_source": "psp_isois-epihi_l2-let2-rates300",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET2 5-minute Rates",
     "version": "14",
-    "generation_date": "2022-11-12"
+    "generation_date": "2022-11-12",
+    "instrument": "ISOIS-EPIHi",
+    "mission": "PSP"
   },
   {
-    "descriptions": {
-      "Heliocentric distance v14": "HGC_R",
-      "HCI latitude v14": "HCI_Lat",
-      "HCI longitude v14": "HCI_Lon",
-      "HGC latitude v14": "HGC_Lat",
-      "HGC longitude v14": "HGC_Lon",
-      "Pitch angle LET2C v14": "LET2_C_PA",
-      "Nominal Parker Spiral angle LET2C v14": "LET2_C_SA",
-      "H count rate side C v14": "C_H_Rate",
-      "H flux side C v14": "C_H_Flux",
-      "He count rate side C v14": "C_He_Rate",
-      "He flux side C v14": "C_He_Flux",
-      "Electrons count rate side C v14": "C_Electrons_Rate"
-    },
+    "variables": [
+      {
+        "variable_name": "C_Electrons_Rate",
+        "catalog_description": "Electrons count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_H_Rate",
+        "catalog_description": "H count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_H_Flux",
+        "catalog_description": "H flux side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HCI_Lat",
+        "catalog_description": "HCI latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lon",
+        "catalog_description": "HCI longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "C_He_Rate",
+        "catalog_description": "He count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_He_Flux",
+        "catalog_description": "He flux side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HCI_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lat",
+        "catalog_description": "HGC latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lon",
+        "catalog_description": "HGC longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET2_C_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET2C",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET2_C_PA",
+        "catalog_description": "Pitch angle LET2C",
+        "display_type": "time_series"
+      }
+    ],
     "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates10s/%yyyy%/psp_isois-epihi_l2-let2-rates10_%yyyymmdd%_v14.cdf",
     "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates10s/2018/psp_isois-epihi_l2-let2-rates10_20180928_v14.cdf",
     "dates_available": [
@@ -1468,46 +2810,193 @@
     "logical_source": "psp_isois-epihi_l2-let2-rates10",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET2 10-second Rates",
     "version": "14",
-    "generation_date": "2022-11-12"
+    "generation_date": "2022-11-12",
+    "instrument": "ISOIS-EPIHi",
+    "mission": "PSP"
   },
   {
-    "descriptions": {
-      "LET1 A-side electron rates v14": "LET1_A_Electrons",
-      "LET1 B-side electron rates v14": "LET1_B_Electrons",
-      "LET1 A-side hydrogen rates v14": "LET1_A_H",
-      "LET1 B-side hydrogen rates v14": "LET1_B_H",
-      "LET2 C-side electron rates v14": "LET2_C_Electrons",
-      "LET2 C-side hydrogen  rates v14": "LET2_C_H",
-      "HET A-side electron rates v14": "HET_A_Electrons",
-      "HET B-side electron rates v14": "HET_B_Electrons",
-      "HET A-side hydrogen rates v14": "HET_A_H",
-      "HET B-side hydrogen rates v14": "HET_B_H",
-      "Heliocentric distance v14": "HGC_R",
-      "HCI latitude v14": "HCI_Lat",
-      "HCI longitude v14": "HCI_Lon",
-      "HGC latitude v14": "HGC_Lat",
-      "HGC longitude v14": "HGC_Lon",
-      "Pitch angle LET1A v14": "LET1_A_PA",
-      "Nominal Parker Spiral angle LET1A v14": "LET1_A_SA",
-      "Pitch angle LET1B v14": "LET1_B_PA",
-      "Nominal Parker Spiral angle LET1B v14": "LET1_B_SA",
-      "Pitch angle LET2C v14": "LET2_C_PA",
-      "Nominal Parker Spiral angle LET2C v14": "LET2_C_SA",
-      "Pitch angle HETA v14": "HET_A_PA",
-      "Nominal Parker Spiral angle HETA v14": "HET_A_SA",
-      "Pitch angle HETB v14": "HET_B_PA",
-      "Nominal Parker Spiral angle HETB v14": "HET_B_SA",
-      "Electrons rate LET1 A v14": "LET1_A_Electrons_Rate",
-      "Electrons rate LET1 B v14": "LET1_B_Electrons_Rate",
-      "H rate LET1 A v14": "LET1_A_H_Rate",
-      "H rate LET1 B v14": "LET1_B_H_Rate",
-      "Electrons rate LET2 C v14": "LET2_C_Electrons_Rate",
-      "H rate LET2 C v14": "LET2_C_H_Rate",
-      "Electrons rate HET A v14": "HET_A_Electrons_Rate",
-      "Electrons rate HET B v14": "HET_B_Electrons_Rate",
-      "H rate HET A v14": "HET_A_H_Rate",
-      "H rate HET B v14": "HET_B_H_Rate"
-    },
+    "variables": [
+      {
+        "variable_name": "HET_A_Electrons_Rate",
+        "catalog_description": "Electrons rate HET A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HET_B_Electrons_Rate",
+        "catalog_description": "Electrons rate HET B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET1_A_Electrons_Rate",
+        "catalog_description": "Electrons rate LET1 A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET1_B_Electrons_Rate",
+        "catalog_description": "Electrons rate LET1 B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET2_C_Electrons_Rate",
+        "catalog_description": "Electrons rate LET2 C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HET_A_H_Rate",
+        "catalog_description": "H rate HET A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HET_B_H_Rate",
+        "catalog_description": "H rate HET B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET1_A_H_Rate",
+        "catalog_description": "H rate LET1 A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET1_B_H_Rate",
+        "catalog_description": "H rate LET1 B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET2_C_H_Rate",
+        "catalog_description": "H rate LET2 C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HCI_Lat",
+        "catalog_description": "HCI latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lon",
+        "catalog_description": "HCI longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_A_Electrons",
+        "catalog_description": "HET A-side electron rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HET_A_H",
+        "catalog_description": "HET A-side hydrogen rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HET_B_Electrons",
+        "catalog_description": "HET B-side electron rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HET_B_H",
+        "catalog_description": "HET B-side hydrogen rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HGC_Lat",
+        "catalog_description": "HGC latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lon",
+        "catalog_description": "HGC longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_A_Electrons",
+        "catalog_description": "LET1 A-side electron rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET1_A_H",
+        "catalog_description": "LET1 A-side hydrogen rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET1_B_Electrons",
+        "catalog_description": "LET1 B-side electron rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET1_B_H",
+        "catalog_description": "LET1 B-side hydrogen rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET2_C_Electrons",
+        "catalog_description": "LET2 C-side electron rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET2_C_H",
+        "catalog_description": "LET2 C-side hydrogen  rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HET_A_SA",
+        "catalog_description": "Nominal Parker Spiral angle HETA",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_SA",
+        "catalog_description": "Nominal Parker Spiral angle HETB",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_A_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1A",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1B",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET2_C_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET2C",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_A_PA",
+        "catalog_description": "Pitch angle HETA",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_PA",
+        "catalog_description": "Pitch angle HETB",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_A_PA",
+        "catalog_description": "Pitch angle LET1A",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_PA",
+        "catalog_description": "Pitch angle LET1B",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET2_C_PA",
+        "catalog_description": "Pitch angle LET2C",
+        "display_type": "time_series"
+      }
+    ],
     "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/merged_rates1s/%yyyy%/psp_isois-epihi_l2-second-rates_%yyyymmdd%_v14.cdf",
     "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/merged_rates1s/2018/psp_isois-epihi_l2-second-rates_20180928_v14.cdf",
     "dates_available": [
@@ -1579,36 +3068,163 @@
     "logical_source": "psp_isois-epihi_l2-second-rates",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 one-second Rates",
     "version": "14",
-    "generation_date": "2022-11-12"
+    "generation_date": "2022-11-12",
+    "instrument": "ISOIS-EPIHi",
+    "mission": "PSP"
   },
   {
-    "descriptions": {
-      "Heliocentric distance ChanP v14": "HGC_R_ChanP",
-      "HCI latitude ChanP v14": "HCI_Lat_ChanP",
-      "HCI longitude ChanP v14": "HCI_Lon_ChanP",
-      "HGC latitude ChanP v14": "HGC_Lat_ChanP",
-      "HGC longitude ChanP v14": "HGC_Lon_ChanP",
-      "Heliocentric distance ChanR v14": "HGC_R_ChanR",
-      "HCI latitude ChanR v14": "HCI_Lat_ChanR",
-      "HCI longitude ChanR v14": "HCI_Lon_ChanR",
-      "HGC latitude ChanR v14": "HGC_Lat_ChanR",
-      "HGC longitude ChanR v14": "HGC_Lon_ChanR",
-      "Heliocentric distance ChanC v14": "HGC_R_ChanC",
-      "HCI latitude ChanC v14": "HCI_Lat_ChanC",
-      "HCI longitude ChanC v14": "HCI_Lon_ChanC",
-      "HGC latitude ChanC v14": "HGC_Lat_ChanC",
-      "HGC longitude ChanC v14": "HGC_Lon_ChanC",
-      "Heliocentric distance ChanD v14": "HGC_R_ChanD",
-      "HCI latitude ChanD v14": "HCI_Lat_ChanD",
-      "HCI longitude ChanD v14": "HCI_Lon_ChanD",
-      "HGC latitude ChanD v14": "HGC_Lat_ChanD",
-      "HGC longitude ChanD v14": "HGC_Lon_ChanD",
-      "Heliocentric distance ChanT v14": "HGC_R_ChanT",
-      "HCI latitude ChanT v14": "HCI_Lat_ChanT",
-      "HCI longitude ChanT v14": "HCI_Lon_ChanT",
-      "HGC latitude ChanT v14": "HGC_Lat_ChanT",
-      "HGC longitude ChanT v14": "HGC_Lon_ChanT"
-    },
+    "variables": [
+      {
+        "variable_name": "HCI_Lat_ChanC",
+        "catalog_description": "HCI latitude ChanC",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lat_ChanD",
+        "catalog_description": "HCI latitude ChanD",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lat_ChanP",
+        "catalog_description": "HCI latitude ChanP",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lat_ChanR",
+        "catalog_description": "HCI latitude ChanR",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lat_ChanT",
+        "catalog_description": "HCI latitude ChanT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lon_ChanC",
+        "catalog_description": "HCI longitude ChanC",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lon_ChanD",
+        "catalog_description": "HCI longitude ChanD",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lon_ChanP",
+        "catalog_description": "HCI longitude ChanP",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lon_ChanR",
+        "catalog_description": "HCI longitude ChanR",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lon_ChanT",
+        "catalog_description": "HCI longitude ChanT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_R_ChanC",
+        "catalog_description": "Heliocentric distance ChanC",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_R_ChanC",
+        "catalog_description": "Heliocentric distance ChanC",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_R_ChanD",
+        "catalog_description": "Heliocentric distance ChanD",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_R_ChanD",
+        "catalog_description": "Heliocentric distance ChanD",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_R_ChanP",
+        "catalog_description": "Heliocentric distance ChanP",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_R_ChanP",
+        "catalog_description": "Heliocentric distance ChanP",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_R_ChanR",
+        "catalog_description": "Heliocentric distance ChanR",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_R_ChanR",
+        "catalog_description": "Heliocentric distance ChanR",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_R_ChanT",
+        "catalog_description": "Heliocentric distance ChanT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_R_ChanT",
+        "catalog_description": "Heliocentric distance ChanT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lat_ChanC",
+        "catalog_description": "HGC latitude ChanC",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lat_ChanD",
+        "catalog_description": "HGC latitude ChanD",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lat_ChanP",
+        "catalog_description": "HGC latitude ChanP",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lat_ChanR",
+        "catalog_description": "HGC latitude ChanR",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lat_ChanT",
+        "catalog_description": "HGC latitude ChanT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lon_ChanC",
+        "catalog_description": "HGC longitude ChanC",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lon_ChanD",
+        "catalog_description": "HGC longitude ChanD",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lon_ChanP",
+        "catalog_description": "HGC longitude ChanP",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lon_ChanR",
+        "catalog_description": "HGC longitude ChanR",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lon_ChanT",
+        "catalog_description": "HGC longitude ChanT",
+        "display_type": "time_series"
+      }
+    ],
     "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epilo/l2/ic/%yyyy%/psp_isois-epilo_l2-ic_%yyyymmdd%_v14.cdf",
     "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epilo/l2/ic/2018/psp_isois-epilo_l2-ic_20180928_v14.cdf",
     "dates_available": [
@@ -1728,26 +3344,103 @@
     "logical_source": "psp_isois-epilo_l2-ic",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Lo Level 2 Ion Composition",
     "version": "14",
-    "generation_date": "2022-11-12"
+    "generation_date": "2022-11-12",
+    "instrument": "ISOIS-EPILo",
+    "mission": "PSP"
   },
   {
-    "descriptions": {
-      "Heliocentric distance ChanE v14": "HGC_R_ChanE",
-      "HCI latitude ChanE v14": "HCI_Lat_ChanE",
-      "HCI longitude ChanE v14": "HCI_Lon_ChanE",
-      "HGC latitude ChanE v14": "HGC_Lat_ChanE",
-      "HGC longitude ChanE v14": "HGC_Lon_ChanE",
-      "Heliocentric distance ChanF v14": "HGC_R_ChanF",
-      "HCI latitude ChanF v14": "HCI_Lat_ChanF",
-      "HCI longitude ChanF v14": "HCI_Lon_ChanF",
-      "HGC latitude ChanF v14": "HGC_Lat_ChanF",
-      "HGC longitude ChanF v14": "HGC_Lon_ChanF",
-      "Heliocentric distance ChanG v14": "HGC_R_ChanG",
-      "HCI latitude ChanG v14": "HCI_Lat_ChanG",
-      "HCI longitude ChanG v14": "HCI_Lon_ChanG",
-      "HGC latitude ChanG v14": "HGC_Lat_ChanG",
-      "HGC longitude ChanG v14": "HGC_Lon_ChanG"
-    },
+    "variables": [
+      {
+        "variable_name": "HCI_Lat_ChanE",
+        "catalog_description": "HCI latitude ChanE",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lat_ChanF",
+        "catalog_description": "HCI latitude ChanF",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lat_ChanG",
+        "catalog_description": "HCI latitude ChanG",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lon_ChanE",
+        "catalog_description": "HCI longitude ChanE",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lon_ChanF",
+        "catalog_description": "HCI longitude ChanF",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lon_ChanG",
+        "catalog_description": "HCI longitude ChanG",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_R_ChanE",
+        "catalog_description": "Heliocentric distance ChanE",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_R_ChanE",
+        "catalog_description": "Heliocentric distance ChanE",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_R_ChanF",
+        "catalog_description": "Heliocentric distance ChanF",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_R_ChanF",
+        "catalog_description": "Heliocentric distance ChanF",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_R_ChanG",
+        "catalog_description": "Heliocentric distance ChanG",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_R_ChanG",
+        "catalog_description": "Heliocentric distance ChanG",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lat_ChanE",
+        "catalog_description": "HGC latitude ChanE",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lat_ChanF",
+        "catalog_description": "HGC latitude ChanF",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lat_ChanG",
+        "catalog_description": "HGC latitude ChanG",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lon_ChanE",
+        "catalog_description": "HGC longitude ChanE",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lon_ChanF",
+        "catalog_description": "HGC longitude ChanF",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lon_ChanG",
+        "catalog_description": "HGC longitude ChanG",
+        "display_type": "time_series"
+      }
+    ],
     "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epilo/l2/pe/%yyyy%/psp_isois-epilo_l2-pe_%yyyymmdd%_v14.cdf",
     "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epilo/l2/pe/2018/psp_isois-epilo_l2-pe_20180928_v14.cdf",
     "dates_available": [
@@ -1927,25 +3620,88 @@
     "logical_source": "psp_isois-epilo_l2-pe",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Lo Level 2 Particle Energy",
     "version": "14",
-    "generation_date": "2022-11-12"
+    "generation_date": "2022-11-12",
+    "instrument": "ISOIS-EPILo",
+    "mission": "PSP"
   },
   {
-    "descriptions": {
-      "Angle between TPS and Sun, 0 in encounter v14": "Sun_Angle",
-      "Angle between nominal ram and actual ram, 0 in encounter v14": "Roll_Angle",
-      "angle of off-pointing from ecliptic north when not in encounter v14": "Clock_Angle",
-      "LET1A look angle with nominal parker spiral v14": "Spiral_LET1A",
-      "LET2C look angle with nominal parker spiral v14": "Spiral_LET2C",
-      "HETA look angle with nominal parker spiral v14": "Spiral_HETA",
-      "Lo look angle with nominal parker spiral v14": "Spiral_Lo",
-      "Heliocentric distance v14": "HGC_R",
-      "HCI latitude v14": "HCI_Lat",
-      "HCI longitude v14": "HCI_Lon",
-      "HGC latitude v14": "HGC_Lat",
-      "HGC longitude v14": "HGC_Lon",
-      "Spacecraft is umbra pointing v14": "Umbra_Pointing",
-      "Spacecraft is ram pointing v14": "Ram_Pointing"
-    },
+    "variables": [
+      {
+        "variable_name": "Roll_Angle",
+        "catalog_description": "Angle between nominal ram and actual ram, 0 in encounter",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "Sun_Angle",
+        "catalog_description": "Angle between TPS and Sun, 0 in encounter",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "Clock_Angle",
+        "catalog_description": "angle of off-pointing from ecliptic north when not in encounter",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lat",
+        "catalog_description": "HCI latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_Lon",
+        "catalog_description": "HCI longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HCI_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_R",
+        "catalog_description": "Heliocentric distance",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "Spiral_HETA",
+        "catalog_description": "HETA look angle with nominal parker spiral",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lat",
+        "catalog_description": "HGC latitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HGC_Lon",
+        "catalog_description": "HGC longitude",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "Spiral_LET1A",
+        "catalog_description": "LET1A look angle with nominal parker spiral",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "Spiral_LET2C",
+        "catalog_description": "LET2C look angle with nominal parker spiral",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "Spiral_Lo",
+        "catalog_description": "Lo look angle with nominal parker spiral",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "Ram_Pointing",
+        "catalog_description": "Spacecraft is ram pointing",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "Umbra_Pointing",
+        "catalog_description": "Spacecraft is umbra pointing",
+        "display_type": "time_series"
+      }
+    ],
     "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/ephemeris/%yyyy%/psp_isois_l2-ephem_%yyyymmdd%_v14.cdf",
     "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/ephemeris/2018/psp_isois_l2-ephem_20180928_v14.cdf",
     "dates_available": [
@@ -1957,17 +3713,43 @@
     "logical_source": "psp_isois_l2-ephem",
     "logical_source_description": "Parker Solar Probe ISOIS Level 2 ephem",
     "version": "14",
-    "generation_date": "2022-11-12"
+    "generation_date": "2022-11-12",
+    "instrument": "ISOIS",
+    "mission": "PSP"
   },
   {
-    "descriptions": {
-      "HET H count rate side A 10-50MeV v14": "HET_A_H_Rate_TS",
-      "HET Electrons count rate side A 1-5MeV v14": "HET_A_Electrons_Rate_TS",
-      "H count rate side A 2-10MeV v14": "A_H_Rate_TS",
-      "Heavy (6<=z<=28) ion count rate side A 4-40 MeV/nuc v14": "A_Heavy_Rate_TS",
-      "H count rate channel P (HiResProtons) v14": "H_CountRate_ChanP_SP",
-      "Electron count rate channel E (HiResElectrons) v14": "Electron_CountRate_ChanE"
-    },
+    "variables": [
+      {
+        "variable_name": "Electron_CountRate_ChanE",
+        "catalog_description": "Electron count rate channel E (HiResElectrons)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "H_CountRate_ChanP_SP",
+        "catalog_description": "H count rate channel P (HiResProtons)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_H_Rate_TS",
+        "catalog_description": "H count rate side A 2-10MeV",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "A_Heavy_Rate_TS",
+        "catalog_description": "Heavy (6<=z<=28) ion count rate side A 4-40 MeV/nuc",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_A_Electrons_Rate_TS",
+        "catalog_description": "HET Electrons count rate side A 1-5MeV",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_A_H_Rate_TS",
+        "catalog_description": "HET H count rate side A 10-50MeV",
+        "display_type": "time_series"
+      }
+    ],
     "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/summary/%yyyy%/psp_isois_l2-summary_%yyyymmdd%_v14.cdf",
     "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/summary/2018/psp_isois_l2-summary_20180928_v14.cdf",
     "dates_available": [
@@ -2071,6 +3853,8 @@
     "logical_source": "psp_isois_l2-summary",
     "logical_source_description": "Parker Solar Probe ISOIS level 2 summary",
     "version": "14",
-    "generation_date": "2022-11-12"
+    "generation_date": "2022-11-12",
+    "instrument": "ISOIS",
+    "mission": "PSP"
   }
 ]

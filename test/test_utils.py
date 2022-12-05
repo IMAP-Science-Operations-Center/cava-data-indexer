@@ -16,7 +16,9 @@ class TestUtils(unittest.TestCase):
             "source_url_%yyyymmdd%.cdf",
             "link_to_example_file.cdf",
             [[date(1900, 1, 1), date(2022, 12, 1)],
-             [date(2022, 12, 3), date(2045, 6, 7)]])
+             [date(2022, 12, 3), date(2045, 6, 7)]],
+            "isois",
+            "PSP")
         expected = {'dates_available': [['1900-01-01', '2022-12-01'], ['2022-12-03', '2045-06-07']],
                     'description_source_file': 'link_to_example_file.cdf',
                     'variables': [{'catalog_description':'Variable 1','variable_name': 'cdf_var_1','display_type':'spectrogram'}],
@@ -24,7 +26,9 @@ class TestUtils(unittest.TestCase):
                     'logical_source_description': 'source in human',
                     'source_file_format': 'source_url_%yyyymmdd%.cdf',
                     'version': '123',
-                    'generation_date': '2022-07-28'}
+                    'generation_date': '2022-07-28',
+                    'instrument': 'isois',
+                    'mission': 'PSP'}
         self.assertEqual(expected, output)
 
 
