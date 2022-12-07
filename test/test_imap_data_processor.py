@@ -66,19 +66,19 @@ class TestImapDataProcessor(TestCase):
             {"absolute_version": 127, "data_level": "l2", "descriptor": "vid", "directory_path": "fake://../cdf_files",
              "file_name": "psp_instrument2_l2-ephem_20181101_v1.27.0.cdf",
              "file_root": "psp_instrument2_l2-ephem_20181101_v1.27.0.cdf", "file_size": 403371422, "id": 3161,
-             "instrument_id": "instrument2", "md5checksum": "0502a7e4a86e1d78ec7c73515f2dc7d5",
+             "instrument_id": "isois", "md5checksum": "0502a7e4a86e1d78ec7c73515f2dc7d5",
              "mod_date": "2022-11-01 17:21:19+00:00", "mode": "xos1", "pred_rec": "r", "released": True, "revision": 27,
              "timetag": "2018-11-01 00:00:00+00:00", "version": 1},
             {"absolute_version": 127, "data_level": "l2", "descriptor": "vid", "directory_path": "fake://../cdf_files",
              "file_name": "psp_instrument2_l2-ephem_20181102_v1.27.0.cdf",
              "file_root": "psp_instrument2_l2-ephem_20181102_v1.27.0.cdf", "file_size": 403371422, "id": 3161,
-             "instrument_id": "instrument2", "md5checksum": "0502a7e4a86e1d78ec7c73515f2dc7d5",
+             "instrument_id": "isois", "md5checksum": "0502a7e4a86e1d78ec7c73515f2dc7d5",
              "mod_date": "2022-11-02 17:21:19+00:00", "mode": "xos1", "pred_rec": "r", "released": True, "revision": 27,
              "timetag": "2018-11-02 00:00:00+00:00", "version": 1},
             {"absolute_version": 127, "data_level": "l2", "descriptor": "vid", "directory_path": "fake://../cdf_files",
              "file_name": "psp_instrument2_l2-ephem_20181104_v1.27.0.cdf",
              "file_root": "psp_instrument2_l2-ephem_20181104_v1.27.0.cdf", "file_size": 403371422, "id": 3161,
-             "instrument_id": "instrument2", "md5checksum": "0502a7e4a86e1d78ec7c73515f2dc7d5",
+             "instrument_id": "isois", "md5checksum": "0502a7e4a86e1d78ec7c73515f2dc7d5",
              "mod_date": "2022-11-04 17:21:19+00:00", "mode": "xos1", "pred_rec": "r", "released": True, "revision": 27,
              "timetag": "2018-11-04 00:00:00+00:00", "version": 1}
         ]
@@ -143,7 +143,7 @@ class TestImapDataProcessor(TestCase):
                 "source_file_format": "http://www.fbi.gov/psp_instrument2_l2-ephem_%yyyymmdd%_v1.27.0.cdf",
                 "description_source_file": 'http://www.fbi.gov/psp_instrument2_l2-ephem_20181101_v1.27.0.cdf',
                 "generation_date": "2022-11-13",
-                "instrument": "instrument2",
+                "instrument": "ISOIS",
                 "mission": "IMAP"
             }
         ]

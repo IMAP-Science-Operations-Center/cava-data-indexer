@@ -30,11 +30,13 @@ def get_metadata_index():
         cdf = get_cdf_file(first_file_metadata["file_name"])
         cdf_file_info = CdfParser.parse_cdf_bytes(cdf["data"])
         link = cdf["link"].replace(first_file_metadata["file_name"], file_name_format)
-        instrument = first_file_metadata["instrument_id"]
+        instrument = _capitalize_isois_instrument_name(first_file_metadata["instrument_id"])
         index.append(utils.get_index_entry(cdf_file_info, link, cdf["link"],
                                            available_dates, instrument, "IMAP"))
     return index
 
+def _capitalize_isois_instrument_name(instrument_name: str):
+    return 'ISOIS' if instrument_name == 'isois' else instrument_name
 
 if __name__ == '__main__':
     get_metadata_index()
