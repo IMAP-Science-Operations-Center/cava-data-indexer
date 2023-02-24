@@ -12,6 +12,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Al",
+        "catalog_description": "Al counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Al",
+        "catalog_description": "Al counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_Ar_Rate",
         "catalog_description": "Ar count rate side A",
         "display_type": "spectrogram"
@@ -19,6 +29,16 @@
       {
         "variable_name": "B_Ar_Rate",
         "catalog_description": "Ar count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ar",
+        "catalog_description": "Ar counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ar",
+        "catalog_description": "Ar counts side B",
         "display_type": "spectrogram"
       },
       {
@@ -32,6 +52,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_C",
+        "catalog_description": "C counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_C",
+        "catalog_description": "C counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_Ca_Rate",
         "catalog_description": "Ca count rate side A",
         "display_type": "spectrogram"
@@ -39,6 +69,26 @@
       {
         "variable_name": "B_Ca_Rate",
         "catalog_description": "Ca count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ca",
+        "catalog_description": "Ca counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ca",
+        "catalog_description": "Ca counts side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_CNO_SECT_Rate",
+        "catalog_description": "CNO sectored count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_CNO_SECT_Rate",
+        "catalog_description": "CNO sectored count rate side B",
         "display_type": "spectrogram"
       },
       {
@@ -52,6 +102,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Cr",
+        "catalog_description": "Cr counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Cr",
+        "catalog_description": "Cr counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_Electrons_Rate",
         "catalog_description": "Electrons count rate side A",
         "display_type": "spectrogram"
@@ -59,6 +119,26 @@
       {
         "variable_name": "B_Electrons_Rate",
         "catalog_description": "Electrons count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Electrons",
+        "catalog_description": "Electrons counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Electrons",
+        "catalog_description": "Electrons counts side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Electrons_SECT_Rate",
+        "catalog_description": "Electrons sectored count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Electrons_SECT_Rate",
+        "catalog_description": "Electrons sectored count rate side B",
         "display_type": "spectrogram"
       },
       {
@@ -72,6 +152,26 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Fe",
+        "catalog_description": "Fe counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Fe",
+        "catalog_description": "Fe counts side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_FeGroup_SECT_Rate",
+        "catalog_description": "FeGroup sectored count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_FeGroup_SECT_Rate",
+        "catalog_description": "FeGroup sectored count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_H_Rate",
         "catalog_description": "H count rate side A",
         "display_type": "spectrogram"
@@ -79,6 +179,16 @@
       {
         "variable_name": "B_H_Rate",
         "catalog_description": "H count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_H",
+        "catalog_description": "H counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_H",
+        "catalog_description": "H counts side B",
         "display_type": "spectrogram"
       },
       {
@@ -90,6 +200,36 @@
         "variable_name": "B_H_Flux",
         "catalog_description": "H flux side B",
         "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_H_SECT_Rate",
+        "catalog_description": "H sectored count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_H_SECT_Rate",
+        "catalog_description": "H sectored count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_H_SECT_Flux",
+        "catalog_description": "H sectored flux side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_H_SECT_Flux",
+        "catalog_description": "H sectored flux side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HET_A_HCI",
+        "catalog_description": "HCI flow direction HETA",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_HCI",
+        "catalog_description": "HCI flow direction HETB",
+        "display_type": "time_series"
       },
       {
         "variable_name": "HCI_Lat",
@@ -112,6 +252,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_He",
+        "catalog_description": "He counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_He",
+        "catalog_description": "He counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_He_Flux",
         "catalog_description": "He flux side A",
         "display_type": "spectrogram"
@@ -119,6 +269,26 @@
       {
         "variable_name": "B_He_Flux",
         "catalog_description": "He flux side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_He_SECT_Rate",
+        "catalog_description": "He sectored count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_He_SECT_Rate",
+        "catalog_description": "He sectored count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_He_SECT_Flux",
+        "catalog_description": "He sectored flux side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_He_SECT_Flux",
+        "catalog_description": "He sectored flux side B",
         "display_type": "spectrogram"
       },
       {
@@ -152,6 +322,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Mg",
+        "catalog_description": "Mg counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Mg",
+        "catalog_description": "Mg counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_N_Rate",
         "catalog_description": "N count rate side A",
         "display_type": "spectrogram"
@@ -159,6 +339,16 @@
       {
         "variable_name": "B_N_Rate",
         "catalog_description": "N count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_N",
+        "catalog_description": "N counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_N",
+        "catalog_description": "N counts side B",
         "display_type": "spectrogram"
       },
       {
@@ -172,6 +362,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Na",
+        "catalog_description": "Na counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Na",
+        "catalog_description": "Na counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_Ne_Rate",
         "catalog_description": "Ne count rate side A",
         "display_type": "spectrogram"
@@ -179,6 +379,26 @@
       {
         "variable_name": "B_Ne_Rate",
         "catalog_description": "Ne count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ne",
+        "catalog_description": "Ne counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ne",
+        "catalog_description": "Ne counts side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_NetoSi_SECT_Rate",
+        "catalog_description": "NetoSi sectored count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_NetoSi_SECT_Rate",
+        "catalog_description": "NetoSi sectored count rate side B",
         "display_type": "spectrogram"
       },
       {
@@ -192,13 +412,33 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Ni",
+        "catalog_description": "Ni counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ni",
+        "catalog_description": "Ni counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "HET_A_SA",
         "catalog_description": "Nominal Parker Spiral angle HETA",
         "display_type": "time_series"
       },
       {
+        "variable_name": "HET_A_R17_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle HETAR17SECT",
+        "display_type": "time_series"
+      },
+      {
         "variable_name": "HET_B_SA",
         "catalog_description": "Nominal Parker Spiral angle HETB",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_R17_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle HETBR17SECT",
         "display_type": "time_series"
       },
       {
@@ -212,13 +452,183 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_O",
+        "catalog_description": "O counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_O",
+        "catalog_description": "O counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "HET_A_PA",
         "catalog_description": "Pitch angle HETA",
         "display_type": "time_series"
       },
       {
+        "variable_name": "HET_A_R17_SECT_PA",
+        "catalog_description": "Pitch angle HETAR17SECT",
+        "display_type": "time_series"
+      },
+      {
         "variable_name": "HET_B_PA",
         "catalog_description": "Pitch angle HETB",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_R17_SECT_PA",
+        "catalog_description": "Pitch angle HETBR17SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "R1A_He_BIN",
+        "catalog_description": "R1A He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1A_Ne_BIN",
+        "catalog_description": "R1A Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1B_He_BIN",
+        "catalog_description": "R1B He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1B_Ne_BIN",
+        "catalog_description": "R1B Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R2A_He_BIN",
+        "catalog_description": "R2A He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R2A_Ne_BIN",
+        "catalog_description": "R2A Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R2B_He_BIN",
+        "catalog_description": "R2B He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R2B_Ne_BIN",
+        "catalog_description": "R2B Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R3A_He_BIN",
+        "catalog_description": "R3A He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R3A_Ne_BIN",
+        "catalog_description": "R3A Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R3B_He_BIN",
+        "catalog_description": "R3B He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R3B_Ne_BIN",
+        "catalog_description": "R3B Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R4A_He_BIN",
+        "catalog_description": "R4A He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R4A_Ne_BIN",
+        "catalog_description": "R4A Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R4B_He_BIN",
+        "catalog_description": "R4B He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R4B_Ne_BIN",
+        "catalog_description": "R4B Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R5A_He_BIN",
+        "catalog_description": "R5A He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R5A_Ne_BIN",
+        "catalog_description": "R5A Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R5B_He_BIN",
+        "catalog_description": "R5B He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R5B_Ne_BIN",
+        "catalog_description": "R5B Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R6A_He_BIN",
+        "catalog_description": "R6A He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R6A_Ne_BIN",
+        "catalog_description": "R6A Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R6B_He_BIN",
+        "catalog_description": "R6B He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R6B_Ne_BIN",
+        "catalog_description": "R6B Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R7A_He_BIN",
+        "catalog_description": "R7A He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R7A_Ne_BIN",
+        "catalog_description": "R7A Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R7B_He_BIN",
+        "catalog_description": "R7B He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R7B_Ne_BIN",
+        "catalog_description": "R7B Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HET_A_RTN",
+        "catalog_description": "RTN flow direction HETA",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_RTN",
+        "catalog_description": "RTN flow direction HETB",
         "display_type": "time_series"
       },
       {
@@ -232,6 +642,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_S",
+        "catalog_description": "S counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_S",
+        "catalog_description": "S counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_Si_Rate",
         "catalog_description": "Si count rate side A",
         "display_type": "spectrogram"
@@ -239,6 +659,16 @@
       {
         "variable_name": "B_Si_Rate",
         "catalog_description": "Si count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Si",
+        "catalog_description": "Si counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Si",
+        "catalog_description": "Si counts side B",
         "display_type": "spectrogram"
       }
     ],
@@ -374,6 +804,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Al",
+        "catalog_description": "Al counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Al",
+        "catalog_description": "Al counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_Ar_Rate",
         "catalog_description": "Ar count rate side A",
         "display_type": "spectrogram"
@@ -381,6 +821,16 @@
       {
         "variable_name": "B_Ar_Rate",
         "catalog_description": "Ar count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ar",
+        "catalog_description": "Ar counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ar",
+        "catalog_description": "Ar counts side B",
         "display_type": "spectrogram"
       },
       {
@@ -394,6 +844,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_C",
+        "catalog_description": "C counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_C",
+        "catalog_description": "C counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_Ca_Rate",
         "catalog_description": "Ca count rate side A",
         "display_type": "spectrogram"
@@ -401,6 +861,16 @@
       {
         "variable_name": "B_Ca_Rate",
         "catalog_description": "Ca count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ca",
+        "catalog_description": "Ca counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ca",
+        "catalog_description": "Ca counts side B",
         "display_type": "spectrogram"
       },
       {
@@ -414,6 +884,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Cr",
+        "catalog_description": "Cr counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Cr",
+        "catalog_description": "Cr counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_Electrons_Rate",
         "catalog_description": "Electrons count rate side A",
         "display_type": "spectrogram"
@@ -421,6 +901,26 @@
       {
         "variable_name": "B_Electrons_Rate",
         "catalog_description": "Electrons count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Electrons",
+        "catalog_description": "Electrons counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Electrons",
+        "catalog_description": "Electrons counts side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Electrons_SECT_Rate",
+        "catalog_description": "Electrons sectored count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Electrons_SECT_Rate",
+        "catalog_description": "Electrons sectored count rate side B",
         "display_type": "spectrogram"
       },
       {
@@ -434,6 +934,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Fe",
+        "catalog_description": "Fe counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Fe",
+        "catalog_description": "Fe counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_H_Rate",
         "catalog_description": "H count rate side A",
         "display_type": "spectrogram"
@@ -441,6 +951,16 @@
       {
         "variable_name": "B_H_Rate",
         "catalog_description": "H count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_H",
+        "catalog_description": "H counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_H",
+        "catalog_description": "H counts side B",
         "display_type": "spectrogram"
       },
       {
@@ -452,6 +972,36 @@
         "variable_name": "B_H_Flux",
         "catalog_description": "H flux side B",
         "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_H_SECT_Rate",
+        "catalog_description": "H sectored count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_H_SECT_Rate",
+        "catalog_description": "H sectored count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_H_SECT_Flux",
+        "catalog_description": "H sectored flux side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_H_SECT_Flux",
+        "catalog_description": "H sectored flux side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HET_A_HCI",
+        "catalog_description": "HCI flow direction HETA",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_HCI",
+        "catalog_description": "HCI flow direction HETB",
+        "display_type": "time_series"
       },
       {
         "variable_name": "HCI_Lat",
@@ -474,6 +1024,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_He",
+        "catalog_description": "He counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_He",
+        "catalog_description": "He counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_He_Flux",
         "catalog_description": "He flux side A",
         "display_type": "spectrogram"
@@ -481,6 +1041,26 @@
       {
         "variable_name": "B_He_Flux",
         "catalog_description": "He flux side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_He_SECT_Rate",
+        "catalog_description": "He sectored count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_He_SECT_Rate",
+        "catalog_description": "He sectored count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_He_SECT_Flux",
+        "catalog_description": "He sectored flux side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_He_SECT_Flux",
+        "catalog_description": "He sectored flux side B",
         "display_type": "spectrogram"
       },
       {
@@ -514,6 +1094,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Mg",
+        "catalog_description": "Mg counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Mg",
+        "catalog_description": "Mg counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_N_Rate",
         "catalog_description": "N count rate side A",
         "display_type": "spectrogram"
@@ -521,6 +1111,16 @@
       {
         "variable_name": "B_N_Rate",
         "catalog_description": "N count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_N",
+        "catalog_description": "N counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_N",
+        "catalog_description": "N counts side B",
         "display_type": "spectrogram"
       },
       {
@@ -534,6 +1134,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Na",
+        "catalog_description": "Na counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Na",
+        "catalog_description": "Na counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_Ne_Rate",
         "catalog_description": "Ne count rate side A",
         "display_type": "spectrogram"
@@ -541,6 +1151,16 @@
       {
         "variable_name": "B_Ne_Rate",
         "catalog_description": "Ne count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ne",
+        "catalog_description": "Ne counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ne",
+        "catalog_description": "Ne counts side B",
         "display_type": "spectrogram"
       },
       {
@@ -554,13 +1174,33 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Ni",
+        "catalog_description": "Ni counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ni",
+        "catalog_description": "Ni counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "HET_A_SA",
         "catalog_description": "Nominal Parker Spiral angle HETA",
         "display_type": "time_series"
       },
       {
+        "variable_name": "HET_A_R17_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle HETAR17SECT",
+        "display_type": "time_series"
+      },
+      {
         "variable_name": "HET_B_SA",
         "catalog_description": "Nominal Parker Spiral angle HETB",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_R17_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle HETBR17SECT",
         "display_type": "time_series"
       },
       {
@@ -574,13 +1214,43 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_O",
+        "catalog_description": "O counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_O",
+        "catalog_description": "O counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "HET_A_PA",
         "catalog_description": "Pitch angle HETA",
         "display_type": "time_series"
       },
       {
+        "variable_name": "HET_A_R17_SECT_PA",
+        "catalog_description": "Pitch angle HETAR17SECT",
+        "display_type": "time_series"
+      },
+      {
         "variable_name": "HET_B_PA",
         "catalog_description": "Pitch angle HETB",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_R17_SECT_PA",
+        "catalog_description": "Pitch angle HETBR17SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_A_RTN",
+        "catalog_description": "RTN flow direction HETA",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_RTN",
+        "catalog_description": "RTN flow direction HETB",
         "display_type": "time_series"
       },
       {
@@ -594,6 +1264,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_S",
+        "catalog_description": "S counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_S",
+        "catalog_description": "S counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_Si_Rate",
         "catalog_description": "Si count rate side A",
         "display_type": "spectrogram"
@@ -601,6 +1281,16 @@
       {
         "variable_name": "B_Si_Rate",
         "catalog_description": "Si count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Si",
+        "catalog_description": "Si counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Si",
+        "catalog_description": "Si counts side B",
         "display_type": "spectrogram"
       }
     ],
@@ -694,6 +1384,36 @@
   {
     "variables": [
       {
+        "variable_name": "A_CNO_SECT_Rate",
+        "catalog_description": "CNO sectored count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_CNO_SECT_Rate",
+        "catalog_description": "CNO sectored count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_FeGroup_SECT_Rate",
+        "catalog_description": "FeGroup sectored count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_FeGroup_SECT_Rate",
+        "catalog_description": "FeGroup sectored count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HET_A_HCI",
+        "catalog_description": "HCI flow direction HETA",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_HCI",
+        "catalog_description": "HCI flow direction HETB",
+        "display_type": "time_series"
+      },
+      {
         "variable_name": "HCI_Lat",
         "catalog_description": "HCI latitude",
         "display_type": "time_series"
@@ -724,8 +1444,23 @@
         "display_type": "time_series"
       },
       {
+        "variable_name": "A_NetoSi_SECT_Rate",
+        "catalog_description": "NetoSi sectored count rate side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_NetoSi_SECT_Rate",
+        "catalog_description": "NetoSi sectored count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "HET_A_SA",
         "catalog_description": "Nominal Parker Spiral angle HETA",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_A_R17_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle HETAR17SECT",
         "display_type": "time_series"
       },
       {
@@ -734,13 +1469,38 @@
         "display_type": "time_series"
       },
       {
+        "variable_name": "HET_B_R17_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle HETBR17SECT",
+        "display_type": "time_series"
+      },
+      {
         "variable_name": "HET_A_PA",
         "catalog_description": "Pitch angle HETA",
         "display_type": "time_series"
       },
       {
+        "variable_name": "HET_A_R17_SECT_PA",
+        "catalog_description": "Pitch angle HETAR17SECT",
+        "display_type": "time_series"
+      },
+      {
         "variable_name": "HET_B_PA",
         "catalog_description": "Pitch angle HETB",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_R17_SECT_PA",
+        "catalog_description": "Pitch angle HETBR17SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_A_RTN",
+        "catalog_description": "RTN flow direction HETA",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_RTN",
+        "catalog_description": "RTN flow direction HETB",
         "display_type": "time_series"
       }
     ],
@@ -876,6 +1636,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Electrons",
+        "catalog_description": "Electrons counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Electrons",
+        "catalog_description": "Electrons counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_H_Rate",
         "catalog_description": "H count rate side A",
         "display_type": "spectrogram"
@@ -883,6 +1653,16 @@
       {
         "variable_name": "B_H_Rate",
         "catalog_description": "H count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_H",
+        "catalog_description": "H counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_H",
+        "catalog_description": "H counts side B",
         "display_type": "spectrogram"
       },
       {
@@ -894,6 +1674,16 @@
         "variable_name": "B_H_Flux",
         "catalog_description": "H flux side B",
         "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "HET_A_HCI",
+        "catalog_description": "HCI flow direction HETA",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_HCI",
+        "catalog_description": "HCI flow direction HETB",
+        "display_type": "time_series"
       },
       {
         "variable_name": "HCI_Lat",
@@ -913,6 +1703,16 @@
       {
         "variable_name": "B_He_Rate",
         "catalog_description": "He count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_He",
+        "catalog_description": "He counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_He",
+        "catalog_description": "He counts side B",
         "display_type": "spectrogram"
       },
       {
@@ -963,6 +1763,16 @@
       {
         "variable_name": "HET_B_PA",
         "catalog_description": "Pitch angle HETB",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_A_RTN",
+        "catalog_description": "RTN flow direction HETA",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_RTN",
+        "catalog_description": "RTN flow direction HETB",
         "display_type": "time_series"
       }
     ],
@@ -1058,6 +1868,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Al",
+        "catalog_description": "Al counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Al",
+        "catalog_description": "Al counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_Ar_Rate",
         "catalog_description": "Ar count rate side A",
         "display_type": "spectrogram"
@@ -1065,6 +1885,16 @@
       {
         "variable_name": "B_Ar_Rate",
         "catalog_description": "Ar count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ar",
+        "catalog_description": "Ar counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ar",
+        "catalog_description": "Ar counts side B",
         "display_type": "spectrogram"
       },
       {
@@ -1078,6 +1908,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_C",
+        "catalog_description": "C counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_C",
+        "catalog_description": "C counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_Ca_Rate",
         "catalog_description": "Ca count rate side A",
         "display_type": "spectrogram"
@@ -1085,6 +1925,36 @@
       {
         "variable_name": "B_Ca_Rate",
         "catalog_description": "Ca count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ca",
+        "catalog_description": "Ca counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ca",
+        "catalog_description": "Ca counts side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1A_CNO_SECT_Rate",
+        "catalog_description": "CNO sectored count rate R1A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1B_CNO_SECT_Rate",
+        "catalog_description": "CNO sectored count rate R1B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26A_CNO_SECT_Rate",
+        "catalog_description": "CNO sectored count rate R26A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26B_CNO_SECT_Rate",
+        "catalog_description": "CNO sectored count rate R26B",
         "display_type": "spectrogram"
       },
       {
@@ -1098,6 +1968,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Cr",
+        "catalog_description": "Cr counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Cr",
+        "catalog_description": "Cr counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_Electrons_Rate",
         "catalog_description": "Electrons count rate side A",
         "display_type": "spectrogram"
@@ -1105,6 +1985,16 @@
       {
         "variable_name": "B_Electrons_Rate",
         "catalog_description": "Electrons count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Electrons",
+        "catalog_description": "Electrons counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Electrons",
+        "catalog_description": "Electrons counts side B",
         "display_type": "spectrogram"
       },
       {
@@ -1118,6 +2008,36 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Fe",
+        "catalog_description": "Fe counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Fe",
+        "catalog_description": "Fe counts side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1A_FeGroup_SECT_Rate",
+        "catalog_description": "FeGroup sectored count rate R1A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1B_FeGroup_SECT_Rate",
+        "catalog_description": "FeGroup sectored count rate R1B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26A_FeGroup_SECT_Rate",
+        "catalog_description": "FeGroup sectored count rate R26A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26B_FeGroup_SECT_Rate",
+        "catalog_description": "FeGroup sectored count rate R26B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_H_Rate",
         "catalog_description": "H count rate side A",
         "display_type": "spectrogram"
@@ -1125,6 +2045,16 @@
       {
         "variable_name": "B_H_Rate",
         "catalog_description": "H count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_H",
+        "catalog_description": "H counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_H",
+        "catalog_description": "H counts side B",
         "display_type": "spectrogram"
       },
       {
@@ -1136,6 +2066,56 @@
         "variable_name": "B_H_Flux",
         "catalog_description": "H flux side B",
         "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1A_H_SECT_Rate",
+        "catalog_description": "H sectored count rate R1A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1B_H_SECT_Rate",
+        "catalog_description": "H sectored count rate R1B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26A_H_SECT_Rate",
+        "catalog_description": "H sectored count rate R26A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26B_H_SECT_Rate",
+        "catalog_description": "H sectored count rate R26B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1A_H_SECT_Flux",
+        "catalog_description": "H sectored flux R1A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1B_H_SECT_Flux",
+        "catalog_description": "H sectored flux R1B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26A_H_SECT_Flux",
+        "catalog_description": "H sectored flux R26A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26B_H_SECT_Flux",
+        "catalog_description": "H sectored flux R26B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET1_A_HCI",
+        "catalog_description": "HCI flow direction LET1A",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_HCI",
+        "catalog_description": "HCI flow direction LET1B",
+        "display_type": "time_series"
       },
       {
         "variable_name": "HCI_Lat",
@@ -1158,6 +2138,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_He",
+        "catalog_description": "He counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_He",
+        "catalog_description": "He counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_He_Flux",
         "catalog_description": "He flux side A",
         "display_type": "spectrogram"
@@ -1165,6 +2155,46 @@
       {
         "variable_name": "B_He_Flux",
         "catalog_description": "He flux side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1A_He_SECT_Rate",
+        "catalog_description": "He sectored count rate R1A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1B_He_SECT_Rate",
+        "catalog_description": "He sectored count rate R1B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26A_He_SECT_Rate",
+        "catalog_description": "He sectored count rate R26A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26B_He_SECT_Rate",
+        "catalog_description": "He sectored count rate R26B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1A_He_SECT_Flux",
+        "catalog_description": "He sectored flux R1A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1B_He_SECT_Flux",
+        "catalog_description": "He sectored flux R1B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26A_He_SECT_Flux",
+        "catalog_description": "He sectored flux R26A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26B_He_SECT_Flux",
+        "catalog_description": "He sectored flux R26B",
         "display_type": "spectrogram"
       },
       {
@@ -1198,6 +2228,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Mg",
+        "catalog_description": "Mg counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Mg",
+        "catalog_description": "Mg counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_N_Rate",
         "catalog_description": "N count rate side A",
         "display_type": "spectrogram"
@@ -1205,6 +2245,16 @@
       {
         "variable_name": "B_N_Rate",
         "catalog_description": "N count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_N",
+        "catalog_description": "N counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_N",
+        "catalog_description": "N counts side B",
         "display_type": "spectrogram"
       },
       {
@@ -1218,6 +2268,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Na",
+        "catalog_description": "Na counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Na",
+        "catalog_description": "Na counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_Ne_Rate",
         "catalog_description": "Ne count rate side A",
         "display_type": "spectrogram"
@@ -1225,6 +2285,36 @@
       {
         "variable_name": "B_Ne_Rate",
         "catalog_description": "Ne count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ne",
+        "catalog_description": "Ne counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ne",
+        "catalog_description": "Ne counts side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1A_NetoSi_SECT_Rate",
+        "catalog_description": "NetoSi sectored count rate R1A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1B_NetoSi_SECT_Rate",
+        "catalog_description": "NetoSi sectored count rate R1B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26A_NetoSi_SECT_Rate",
+        "catalog_description": "NetoSi sectored count rate R26A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26B_NetoSi_SECT_Rate",
+        "catalog_description": "NetoSi sectored count rate R26B",
         "display_type": "spectrogram"
       },
       {
@@ -1238,13 +2328,43 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Ni",
+        "catalog_description": "Ni counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ni",
+        "catalog_description": "Ni counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "LET1_A_SA",
         "catalog_description": "Nominal Parker Spiral angle LET1A",
         "display_type": "time_series"
       },
       {
+        "variable_name": "LET1_A_R1_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1AR1SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_A_R26_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1AR26SECT",
+        "display_type": "time_series"
+      },
+      {
         "variable_name": "LET1_B_SA",
         "catalog_description": "Nominal Parker Spiral angle LET1B",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_R1_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1BR1SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_R26_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1BR26SECT",
         "display_type": "time_series"
       },
       {
@@ -1258,13 +2378,153 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_O",
+        "catalog_description": "O counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_O",
+        "catalog_description": "O counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "LET1_A_PA",
         "catalog_description": "Pitch angle LET1A",
         "display_type": "time_series"
       },
       {
+        "variable_name": "LET1_A_R1_SECT_PA",
+        "catalog_description": "Pitch angle LET1AR1SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_A_R26_SECT_PA",
+        "catalog_description": "Pitch angle LET1AR26SECT",
+        "display_type": "time_series"
+      },
+      {
         "variable_name": "LET1_B_PA",
         "catalog_description": "Pitch angle LET1B",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_R1_SECT_PA",
+        "catalog_description": "Pitch angle LET1BR1SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_R26_SECT_PA",
+        "catalog_description": "Pitch angle LET1BR26SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "R1A_He_BIN",
+        "catalog_description": "R1A He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1A_Ne_BIN",
+        "catalog_description": "R1A Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1B_He_BIN",
+        "catalog_description": "R1B He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1B_Ne_BIN",
+        "catalog_description": "R1B Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R2A_He_BIN",
+        "catalog_description": "R2A He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R2A_Ne_BIN",
+        "catalog_description": "R2A Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R2B_He_BIN",
+        "catalog_description": "R2B He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R2B_Ne_BIN",
+        "catalog_description": "R2B Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R3A_He_BIN",
+        "catalog_description": "R3A He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R3A_Ne_BIN",
+        "catalog_description": "R3A Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R3B_He_BIN",
+        "catalog_description": "R3B He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R3B_Ne_BIN",
+        "catalog_description": "R3B Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R45A_He_BIN",
+        "catalog_description": "R45A He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R45A_Ne_BIN",
+        "catalog_description": "R45A Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R45B_He_BIN",
+        "catalog_description": "R45B He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R45B_Ne_BIN",
+        "catalog_description": "R45B Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R6A_He_BIN",
+        "catalog_description": "R6A He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R6A_Ne_BIN",
+        "catalog_description": "R6A Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R6B_He_BIN",
+        "catalog_description": "R6B He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R6B_Ne_BIN",
+        "catalog_description": "R6B Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET1_A_RTN",
+        "catalog_description": "RTN flow direction LET1A",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_RTN",
+        "catalog_description": "RTN flow direction LET1B",
         "display_type": "time_series"
       },
       {
@@ -1278,6 +2538,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_S",
+        "catalog_description": "S counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_S",
+        "catalog_description": "S counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_Si_Rate",
         "catalog_description": "Si count rate side A",
         "display_type": "spectrogram"
@@ -1285,6 +2555,16 @@
       {
         "variable_name": "B_Si_Rate",
         "catalog_description": "Si count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Si",
+        "catalog_description": "Si counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Si",
+        "catalog_description": "Si counts side B",
         "display_type": "spectrogram"
       }
     ],
@@ -1420,6 +2700,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Al",
+        "catalog_description": "Al counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Al",
+        "catalog_description": "Al counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_Ar_Rate",
         "catalog_description": "Ar count rate side A",
         "display_type": "spectrogram"
@@ -1427,6 +2717,16 @@
       {
         "variable_name": "B_Ar_Rate",
         "catalog_description": "Ar count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ar",
+        "catalog_description": "Ar counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ar",
+        "catalog_description": "Ar counts side B",
         "display_type": "spectrogram"
       },
       {
@@ -1440,6 +2740,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_C",
+        "catalog_description": "C counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_C",
+        "catalog_description": "C counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_Ca_Rate",
         "catalog_description": "Ca count rate side A",
         "display_type": "spectrogram"
@@ -1447,6 +2757,16 @@
       {
         "variable_name": "B_Ca_Rate",
         "catalog_description": "Ca count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ca",
+        "catalog_description": "Ca counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ca",
+        "catalog_description": "Ca counts side B",
         "display_type": "spectrogram"
       },
       {
@@ -1460,6 +2780,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Cr",
+        "catalog_description": "Cr counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Cr",
+        "catalog_description": "Cr counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_Electrons_Rate",
         "catalog_description": "Electrons count rate side A",
         "display_type": "spectrogram"
@@ -1467,6 +2797,16 @@
       {
         "variable_name": "B_Electrons_Rate",
         "catalog_description": "Electrons count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Electrons",
+        "catalog_description": "Electrons counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Electrons",
+        "catalog_description": "Electrons counts side B",
         "display_type": "spectrogram"
       },
       {
@@ -1480,6 +2820,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Fe",
+        "catalog_description": "Fe counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Fe",
+        "catalog_description": "Fe counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_H_Rate",
         "catalog_description": "H count rate side A",
         "display_type": "spectrogram"
@@ -1487,6 +2837,16 @@
       {
         "variable_name": "B_H_Rate",
         "catalog_description": "H count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_H",
+        "catalog_description": "H counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_H",
+        "catalog_description": "H counts side B",
         "display_type": "spectrogram"
       },
       {
@@ -1498,6 +2858,56 @@
         "variable_name": "B_H_Flux",
         "catalog_description": "H flux side B",
         "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1A_H_SECT_Rate",
+        "catalog_description": "H sectored count rate R1A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1B_H_SECT_Rate",
+        "catalog_description": "H sectored count rate R1B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26A_H_SECT_Rate",
+        "catalog_description": "H sectored count rate R26A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26B_H_SECT_Rate",
+        "catalog_description": "H sectored count rate R26B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1A_H_SECT_Flux",
+        "catalog_description": "H sectored flux R1A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1B_H_SECT_Flux",
+        "catalog_description": "H sectored flux R1B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26A_H_SECT_Flux",
+        "catalog_description": "H sectored flux R26A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26B_H_SECT_Flux",
+        "catalog_description": "H sectored flux R26B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET1_A_HCI",
+        "catalog_description": "HCI flow direction LET1A",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_HCI",
+        "catalog_description": "HCI flow direction LET1B",
+        "display_type": "time_series"
       },
       {
         "variable_name": "HCI_Lat",
@@ -1520,6 +2930,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_He",
+        "catalog_description": "He counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_He",
+        "catalog_description": "He counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_He_Flux",
         "catalog_description": "He flux side A",
         "display_type": "spectrogram"
@@ -1527,6 +2947,46 @@
       {
         "variable_name": "B_He_Flux",
         "catalog_description": "He flux side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1A_He_SECT_Rate",
+        "catalog_description": "He sectored count rate R1A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1B_He_SECT_Rate",
+        "catalog_description": "He sectored count rate R1B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26A_He_SECT_Rate",
+        "catalog_description": "He sectored count rate R26A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26B_He_SECT_Rate",
+        "catalog_description": "He sectored count rate R26B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1A_He_SECT_Flux",
+        "catalog_description": "He sectored flux R1A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1B_He_SECT_Flux",
+        "catalog_description": "He sectored flux R1B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26A_He_SECT_Flux",
+        "catalog_description": "He sectored flux R26A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26B_He_SECT_Flux",
+        "catalog_description": "He sectored flux R26B",
         "display_type": "spectrogram"
       },
       {
@@ -1560,6 +3020,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Mg",
+        "catalog_description": "Mg counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Mg",
+        "catalog_description": "Mg counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_N_Rate",
         "catalog_description": "N count rate side A",
         "display_type": "spectrogram"
@@ -1567,6 +3037,16 @@
       {
         "variable_name": "B_N_Rate",
         "catalog_description": "N count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_N",
+        "catalog_description": "N counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_N",
+        "catalog_description": "N counts side B",
         "display_type": "spectrogram"
       },
       {
@@ -1580,6 +3060,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Na",
+        "catalog_description": "Na counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Na",
+        "catalog_description": "Na counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_Ne_Rate",
         "catalog_description": "Ne count rate side A",
         "display_type": "spectrogram"
@@ -1587,6 +3077,16 @@
       {
         "variable_name": "B_Ne_Rate",
         "catalog_description": "Ne count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Ne",
+        "catalog_description": "Ne counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ne",
+        "catalog_description": "Ne counts side B",
         "display_type": "spectrogram"
       },
       {
@@ -1600,13 +3100,43 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Ni",
+        "catalog_description": "Ni counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Ni",
+        "catalog_description": "Ni counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "LET1_A_SA",
         "catalog_description": "Nominal Parker Spiral angle LET1A",
         "display_type": "time_series"
       },
       {
+        "variable_name": "LET1_A_R1_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1AR1SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_A_R26_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1AR26SECT",
+        "display_type": "time_series"
+      },
+      {
         "variable_name": "LET1_B_SA",
         "catalog_description": "Nominal Parker Spiral angle LET1B",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_R1_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1BR1SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_R26_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1BR26SECT",
         "display_type": "time_series"
       },
       {
@@ -1620,13 +3150,53 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_O",
+        "catalog_description": "O counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_O",
+        "catalog_description": "O counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "LET1_A_PA",
         "catalog_description": "Pitch angle LET1A",
         "display_type": "time_series"
       },
       {
+        "variable_name": "LET1_A_R1_SECT_PA",
+        "catalog_description": "Pitch angle LET1AR1SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_A_R26_SECT_PA",
+        "catalog_description": "Pitch angle LET1AR26SECT",
+        "display_type": "time_series"
+      },
+      {
         "variable_name": "LET1_B_PA",
         "catalog_description": "Pitch angle LET1B",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_R1_SECT_PA",
+        "catalog_description": "Pitch angle LET1BR1SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_R26_SECT_PA",
+        "catalog_description": "Pitch angle LET1BR26SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_A_RTN",
+        "catalog_description": "RTN flow direction LET1A",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_RTN",
+        "catalog_description": "RTN flow direction LET1B",
         "display_type": "time_series"
       },
       {
@@ -1640,6 +3210,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_S",
+        "catalog_description": "S counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_S",
+        "catalog_description": "S counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_Si_Rate",
         "catalog_description": "Si count rate side A",
         "display_type": "spectrogram"
@@ -1647,6 +3227,16 @@
       {
         "variable_name": "B_Si_Rate",
         "catalog_description": "Si count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_Si",
+        "catalog_description": "Si counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Si",
+        "catalog_description": "Si counts side B",
         "display_type": "spectrogram"
       }
     ],
@@ -1736,6 +3326,56 @@
   {
     "variables": [
       {
+        "variable_name": "R1A_CNO_SECT_Rate",
+        "catalog_description": "CNO sectored count rate R1A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1B_CNO_SECT_Rate",
+        "catalog_description": "CNO sectored count rate R1B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26A_CNO_SECT_Rate",
+        "catalog_description": "CNO sectored count rate R26A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26B_CNO_SECT_Rate",
+        "catalog_description": "CNO sectored count rate R26B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1A_FeGroup_SECT_Rate",
+        "catalog_description": "FeGroup sectored count rate R1A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1B_FeGroup_SECT_Rate",
+        "catalog_description": "FeGroup sectored count rate R1B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26A_FeGroup_SECT_Rate",
+        "catalog_description": "FeGroup sectored count rate R26A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26B_FeGroup_SECT_Rate",
+        "catalog_description": "FeGroup sectored count rate R26B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET1_A_HCI",
+        "catalog_description": "HCI flow direction LET1A",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_HCI",
+        "catalog_description": "HCI flow direction LET1B",
+        "display_type": "time_series"
+      },
+      {
         "variable_name": "HCI_Lat",
         "catalog_description": "HCI latitude",
         "display_type": "time_series"
@@ -1766,8 +3406,38 @@
         "display_type": "time_series"
       },
       {
+        "variable_name": "R1A_NetoSi_SECT_Rate",
+        "catalog_description": "NetoSi sectored count rate R1A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1B_NetoSi_SECT_Rate",
+        "catalog_description": "NetoSi sectored count rate R1B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26A_NetoSi_SECT_Rate",
+        "catalog_description": "NetoSi sectored count rate R26A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R26B_NetoSi_SECT_Rate",
+        "catalog_description": "NetoSi sectored count rate R26B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "LET1_A_SA",
         "catalog_description": "Nominal Parker Spiral angle LET1A",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_A_R1_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1AR1SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_A_R26_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1AR26SECT",
         "display_type": "time_series"
       },
       {
@@ -1776,13 +3446,53 @@
         "display_type": "time_series"
       },
       {
+        "variable_name": "LET1_B_R1_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1BR1SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_R26_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1BR26SECT",
+        "display_type": "time_series"
+      },
+      {
         "variable_name": "LET1_A_PA",
         "catalog_description": "Pitch angle LET1A",
         "display_type": "time_series"
       },
       {
+        "variable_name": "LET1_A_R1_SECT_PA",
+        "catalog_description": "Pitch angle LET1AR1SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_A_R26_SECT_PA",
+        "catalog_description": "Pitch angle LET1AR26SECT",
+        "display_type": "time_series"
+      },
+      {
         "variable_name": "LET1_B_PA",
         "catalog_description": "Pitch angle LET1B",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_R1_SECT_PA",
+        "catalog_description": "Pitch angle LET1BR1SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_R26_SECT_PA",
+        "catalog_description": "Pitch angle LET1BR26SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_A_RTN",
+        "catalog_description": "RTN flow direction LET1A",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_RTN",
+        "catalog_description": "RTN flow direction LET1B",
         "display_type": "time_series"
       }
     ],
@@ -1918,6 +3628,16 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "A_Electrons",
+        "catalog_description": "Electrons counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_Electrons",
+        "catalog_description": "Electrons counts side B",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "A_H_Rate",
         "catalog_description": "H count rate side A",
         "display_type": "spectrogram"
@@ -1925,6 +3645,16 @@
       {
         "variable_name": "B_H_Rate",
         "catalog_description": "H count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_H",
+        "catalog_description": "H counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_H",
+        "catalog_description": "H counts side B",
         "display_type": "spectrogram"
       },
       {
@@ -1936,6 +3666,16 @@
         "variable_name": "B_H_Flux",
         "catalog_description": "H flux side B",
         "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET1_A_HCI",
+        "catalog_description": "HCI flow direction LET1A",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_HCI",
+        "catalog_description": "HCI flow direction LET1B",
+        "display_type": "time_series"
       },
       {
         "variable_name": "HCI_Lat",
@@ -1955,6 +3695,16 @@
       {
         "variable_name": "B_He_Rate",
         "catalog_description": "He count rate side B",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "A_He",
+        "catalog_description": "He counts side A",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "B_He",
+        "catalog_description": "He counts side B",
         "display_type": "spectrogram"
       },
       {
@@ -2005,6 +3755,16 @@
       {
         "variable_name": "LET1_B_PA",
         "catalog_description": "Pitch angle LET1B",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_A_RTN",
+        "catalog_description": "RTN flow direction LET1A",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_RTN",
+        "catalog_description": "RTN flow direction LET1B",
         "display_type": "time_series"
       }
     ],
@@ -2095,8 +3855,18 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "C_Al",
+        "catalog_description": "Al counts side C",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "C_Ar_Rate",
         "catalog_description": "Ar count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Ar",
+        "catalog_description": "Ar counts side C",
         "display_type": "spectrogram"
       },
       {
@@ -2105,8 +3875,28 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "C_C",
+        "catalog_description": "C counts side C",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "C_Ca_Rate",
         "catalog_description": "Ca count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Ca",
+        "catalog_description": "Ca counts side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1C_CNO_SECT_Rate",
+        "catalog_description": "CNO sectored count rate R1C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R25C_CNO_SECT_Rate",
+        "catalog_description": "CNO sectored count rate R25C",
         "display_type": "spectrogram"
       },
       {
@@ -2115,8 +3905,18 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "C_Cr",
+        "catalog_description": "Cr counts side C",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "C_Electrons_Rate",
         "catalog_description": "Electrons count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Electrons",
+        "catalog_description": "Electrons counts side C",
         "display_type": "spectrogram"
       },
       {
@@ -2125,14 +3925,59 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "C_Fe",
+        "catalog_description": "Fe counts side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1C_FeGroup_SECT_Rate",
+        "catalog_description": "FeGroup sectored count rate R1C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R25C_FeGroup_SECT_Rate",
+        "catalog_description": "FeGroup sectored count rate R25C",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "C_H_Rate",
         "catalog_description": "H count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_H",
+        "catalog_description": "H counts side C",
         "display_type": "spectrogram"
       },
       {
         "variable_name": "C_H_Flux",
         "catalog_description": "H flux side C",
         "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1C_H_SECT_Rate",
+        "catalog_description": "H sectored count rate R1C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R25C_H_SECT_Rate",
+        "catalog_description": "H sectored count rate R25C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1C_H_SECT_Flux",
+        "catalog_description": "H sectored flux R1C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R25C_H_SECT_Flux",
+        "catalog_description": "H sectored flux R25C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET2_C_HCI",
+        "catalog_description": "HCI flow direction LET2C",
+        "display_type": "time_series"
       },
       {
         "variable_name": "HCI_Lat",
@@ -2150,8 +3995,33 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "C_He",
+        "catalog_description": "He counts side C",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "C_He_Flux",
         "catalog_description": "He flux side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1C_He_SECT_Rate",
+        "catalog_description": "He sectored count rate R1C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R25C_He_SECT_Rate",
+        "catalog_description": "He sectored count rate R25C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1C_He_SECT_Flux",
+        "catalog_description": "He sectored flux R1C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R25C_He_SECT_Flux",
+        "catalog_description": "He sectored flux R25C",
         "display_type": "spectrogram"
       },
       {
@@ -2180,8 +4050,18 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "C_Mg",
+        "catalog_description": "Mg counts side C",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "C_N_Rate",
         "catalog_description": "N count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_N",
+        "catalog_description": "N counts side C",
         "display_type": "spectrogram"
       },
       {
@@ -2190,8 +4070,28 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "C_Na",
+        "catalog_description": "Na counts side C",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "C_Ne_Rate",
         "catalog_description": "Ne count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Ne",
+        "catalog_description": "Ne counts side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1C_NetoSi_SECT_Rate",
+        "catalog_description": "NetoSi sectored count rate R1C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R25C_NetoSi_SECT_Rate",
+        "catalog_description": "NetoSi sectored count rate R25C",
         "display_type": "spectrogram"
       },
       {
@@ -2200,8 +4100,23 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "C_Ni",
+        "catalog_description": "Ni counts side C",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "LET2_C_SA",
         "catalog_description": "Nominal Parker Spiral angle LET2C",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET2_C_R1_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET2CR1SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET2_C_R25_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET2CR25SECT",
         "display_type": "time_series"
       },
       {
@@ -2210,8 +4125,68 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "C_O",
+        "catalog_description": "O counts side C",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "LET2_C_PA",
         "catalog_description": "Pitch angle LET2C",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET2_C_R1_SECT_PA",
+        "catalog_description": "Pitch angle LET2CR1SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET2_C_R25_SECT_PA",
+        "catalog_description": "Pitch angle LET2CR25SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "R1C_He_BIN",
+        "catalog_description": "R1C He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1C_Ne_BIN",
+        "catalog_description": "R1C Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R2C_He_BIN",
+        "catalog_description": "R2C He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R2C_Ne_BIN",
+        "catalog_description": "R2C Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R3C_He_BIN",
+        "catalog_description": "R3C He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R3C_Ne_BIN",
+        "catalog_description": "R3C Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R45C_He_BIN",
+        "catalog_description": "R45C He Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R45C_Ne_BIN",
+        "catalog_description": "R45C Ne Rates",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET2_C_RTN",
+        "catalog_description": "RTN flow direction LET2C",
         "display_type": "time_series"
       },
       {
@@ -2220,8 +4195,18 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "C_S",
+        "catalog_description": "S counts side C",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "C_Si_Rate",
         "catalog_description": "Si count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Si",
+        "catalog_description": "Si counts side C",
         "display_type": "spectrogram"
       }
     ],
@@ -2352,8 +4337,18 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "C_Al",
+        "catalog_description": "Al counts side C",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "C_Ar_Rate",
         "catalog_description": "Ar count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Ar",
+        "catalog_description": "Ar counts side C",
         "display_type": "spectrogram"
       },
       {
@@ -2362,8 +4357,18 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "C_C",
+        "catalog_description": "C counts side C",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "C_Ca_Rate",
         "catalog_description": "Ca count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Ca",
+        "catalog_description": "Ca counts side C",
         "display_type": "spectrogram"
       },
       {
@@ -2372,8 +4377,18 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "C_Cr",
+        "catalog_description": "Cr counts side C",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "C_Electrons_Rate",
         "catalog_description": "Electrons count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Electrons",
+        "catalog_description": "Electrons counts side C",
         "display_type": "spectrogram"
       },
       {
@@ -2382,14 +4397,49 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "C_Fe",
+        "catalog_description": "Fe counts side C",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "C_H_Rate",
         "catalog_description": "H count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_H",
+        "catalog_description": "H counts side C",
         "display_type": "spectrogram"
       },
       {
         "variable_name": "C_H_Flux",
         "catalog_description": "H flux side C",
         "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1C_H_SECT_Rate",
+        "catalog_description": "H sectored count rate R1C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R25C_H_SECT_Rate",
+        "catalog_description": "H sectored count rate R25C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1C_H_SECT_Flux",
+        "catalog_description": "H sectored flux R1C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R25C_H_SECT_Flux",
+        "catalog_description": "H sectored flux R25C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET2_C_HCI",
+        "catalog_description": "HCI flow direction LET2C",
+        "display_type": "time_series"
       },
       {
         "variable_name": "HCI_Lat",
@@ -2407,8 +4457,33 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "C_He",
+        "catalog_description": "He counts side C",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "C_He_Flux",
         "catalog_description": "He flux side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1C_He_SECT_Rate",
+        "catalog_description": "He sectored count rate R1C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R25C_He_SECT_Rate",
+        "catalog_description": "He sectored count rate R25C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1C_He_SECT_Flux",
+        "catalog_description": "He sectored flux R1C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R25C_He_SECT_Flux",
+        "catalog_description": "He sectored flux R25C",
         "display_type": "spectrogram"
       },
       {
@@ -2437,8 +4512,18 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "C_Mg",
+        "catalog_description": "Mg counts side C",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "C_N_Rate",
         "catalog_description": "N count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_N",
+        "catalog_description": "N counts side C",
         "display_type": "spectrogram"
       },
       {
@@ -2447,8 +4532,18 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "C_Na",
+        "catalog_description": "Na counts side C",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "C_Ne_Rate",
         "catalog_description": "Ne count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Ne",
+        "catalog_description": "Ne counts side C",
         "display_type": "spectrogram"
       },
       {
@@ -2457,8 +4552,23 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "C_Ni",
+        "catalog_description": "Ni counts side C",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "LET2_C_SA",
         "catalog_description": "Nominal Parker Spiral angle LET2C",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET2_C_R1_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET2CR1SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET2_C_R25_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET2CR25SECT",
         "display_type": "time_series"
       },
       {
@@ -2467,8 +4577,28 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "C_O",
+        "catalog_description": "O counts side C",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "LET2_C_PA",
         "catalog_description": "Pitch angle LET2C",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET2_C_R1_SECT_PA",
+        "catalog_description": "Pitch angle LET2CR1SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET2_C_R25_SECT_PA",
+        "catalog_description": "Pitch angle LET2CR25SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET2_C_RTN",
+        "catalog_description": "RTN flow direction LET2C",
         "display_type": "time_series"
       },
       {
@@ -2477,8 +4607,18 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "C_S",
+        "catalog_description": "S counts side C",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "C_Si_Rate",
         "catalog_description": "Si count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Si",
+        "catalog_description": "Si counts side C",
         "display_type": "spectrogram"
       }
     ],
@@ -2572,6 +4712,31 @@
   {
     "variables": [
       {
+        "variable_name": "R1C_CNO_SECT_Rate",
+        "catalog_description": "CNO sectored count rate R1C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R25C_CNO_SECT_Rate",
+        "catalog_description": "CNO sectored count rate R25C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R1C_FeGroup_SECT_Rate",
+        "catalog_description": "FeGroup sectored count rate R1C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R25C_FeGroup_SECT_Rate",
+        "catalog_description": "FeGroup sectored count rate R25C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET2_C_HCI",
+        "catalog_description": "HCI flow direction LET2C",
+        "display_type": "time_series"
+      },
+      {
         "variable_name": "HCI_Lat",
         "catalog_description": "HCI latitude",
         "display_type": "time_series"
@@ -2602,13 +4767,48 @@
         "display_type": "time_series"
       },
       {
+        "variable_name": "R1C_NetoSi_SECT_Rate",
+        "catalog_description": "NetoSi sectored count rate R1C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "R25C_NetoSi_SECT_Rate",
+        "catalog_description": "NetoSi sectored count rate R25C",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "LET2_C_SA",
         "catalog_description": "Nominal Parker Spiral angle LET2C",
         "display_type": "time_series"
       },
       {
+        "variable_name": "LET2_C_R1_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET2CR1SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET2_C_R25_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET2CR25SECT",
+        "display_type": "time_series"
+      },
+      {
         "variable_name": "LET2_C_PA",
         "catalog_description": "Pitch angle LET2C",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET2_C_R1_SECT_PA",
+        "catalog_description": "Pitch angle LET2CR1SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET2_C_R25_SECT_PA",
+        "catalog_description": "Pitch angle LET2CR25SECT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET2_C_RTN",
+        "catalog_description": "RTN flow direction LET2C",
         "display_type": "time_series"
       }
     ],
@@ -2723,14 +4923,29 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "C_Electrons",
+        "catalog_description": "Electrons counts side C",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "C_H_Rate",
         "catalog_description": "H count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_H",
+        "catalog_description": "H counts side C",
         "display_type": "spectrogram"
       },
       {
         "variable_name": "C_H_Flux",
         "catalog_description": "H flux side C",
         "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "LET2_C_HCI",
+        "catalog_description": "HCI flow direction LET2C",
+        "display_type": "time_series"
       },
       {
         "variable_name": "HCI_Lat",
@@ -2745,6 +4960,11 @@
       {
         "variable_name": "C_He_Rate",
         "catalog_description": "He count rate side C",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_He",
+        "catalog_description": "He counts side C",
         "display_type": "spectrogram"
       },
       {
@@ -2780,6 +5000,11 @@
       {
         "variable_name": "LET2_C_PA",
         "catalog_description": "Pitch angle LET2C",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET2_C_RTN",
+        "catalog_description": "RTN flow direction LET2C",
         "display_type": "time_series"
       }
     ],
@@ -2915,6 +5140,31 @@
         "display_type": "spectrogram"
       },
       {
+        "variable_name": "HET_A_HCI",
+        "catalog_description": "HCI flow direction HETA",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_HCI",
+        "catalog_description": "HCI flow direction HETB",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_A_HCI",
+        "catalog_description": "HCI flow direction LET1A",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_HCI",
+        "catalog_description": "HCI flow direction LET1B",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET2_C_HCI",
+        "catalog_description": "HCI flow direction LET2C",
+        "display_type": "time_series"
+      },
+      {
         "variable_name": "HCI_Lat",
         "catalog_description": "HCI latitude",
         "display_type": "time_series"
@@ -3043,6 +5293,31 @@
         "variable_name": "LET2_C_PA",
         "catalog_description": "Pitch angle LET2C",
         "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_A_RTN",
+        "catalog_description": "RTN flow direction HETA",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "HET_B_RTN",
+        "catalog_description": "RTN flow direction HETB",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_A_RTN",
+        "catalog_description": "RTN flow direction LET1A",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET1_B_RTN",
+        "catalog_description": "RTN flow direction LET1B",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "LET2_C_RTN",
+        "catalog_description": "RTN flow direction LET2C",
+        "display_type": "time_series"
       }
     ],
     "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/merged_rates1s/%yyyy%/psp_isois-epihi_l2-second-rates_%yyyymmdd%_v15.cdf",
@@ -3127,6 +5402,71 @@
   {
     "variables": [
       {
+        "variable_name": "C_CountRate_ChanD",
+        "catalog_description": "C count rate channel D (Ions2)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "C_Counts_ChanD",
+        "catalog_description": "C counts channel D (Ions2)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "Fe_CountRate_ChanC",
+        "catalog_description": "Fe count rate channel C (Ions1)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "Fe_Counts_ChanC",
+        "catalog_description": "Fe counts channel C (Ions1)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "H_CountRate_ChanP",
+        "catalog_description": "H count rate channel P (HiResProtons)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "H_CountRate_ChanR",
+        "catalog_description": "H count rate channel R (HiTimeResProtons)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "H_CountRate_ChanT",
+        "catalog_description": "H count rate channel T (IonTOF)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "H_Counts_ChanP",
+        "catalog_description": "H counts channel P (HiResProtons)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "H_Counts_ChanR",
+        "catalog_description": "H counts channel R (HiTimeResProtons)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "H_Counts_ChanT",
+        "catalog_description": "H counts channel T (IonTOF)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "H_Flux_ChanP",
+        "catalog_description": "H flux channel P (HiResProtons)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "H_Flux_ChanR",
+        "catalog_description": "H flux channel R (HiTimeResProtons)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "H_Flux_ChanT",
+        "catalog_description": "H flux channel T (IonTOF)",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "HCI_Lat_ChanC",
         "catalog_description": "HCI latitude ChanC",
         "display_type": "time_series"
@@ -3175,6 +5515,31 @@
         "variable_name": "HCI_Lon_ChanT",
         "catalog_description": "HCI longitude ChanT",
         "display_type": "time_series"
+      },
+      {
+        "variable_name": "He3_CountRate_ChanC",
+        "catalog_description": "He3 count rate channel C (Ions1)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "He3_Counts_ChanC",
+        "catalog_description": "He3 counts channel C (Ions1)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "He4_CountRate_ChanC",
+        "catalog_description": "He4 count rate channel C (Ions1)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "He4_Counts_ChanC",
+        "catalog_description": "He4 counts channel C (Ions1)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "He4_Flux_ChanC",
+        "catalog_description": "He4 flux channel C (Ions1)",
+        "display_type": "spectrogram"
       },
       {
         "variable_name": "HCI_R_ChanC",
@@ -3275,6 +5640,106 @@
         "variable_name": "HGC_Lon_ChanT",
         "catalog_description": "HGC longitude ChanT",
         "display_type": "time_series"
+      },
+      {
+        "variable_name": "Mg_CountRate_ChanD",
+        "catalog_description": "Mg count rate channel D (Ions2)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "Mg_Counts_ChanD",
+        "catalog_description": "Mg counts channel D (Ions2)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "N_CountRate_ChanD",
+        "catalog_description": "N count rate channel D (Ions2)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "N_Counts_ChanD",
+        "catalog_description": "N counts channel D (Ions2)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "Ne_CountRate_ChanD",
+        "catalog_description": "Ne count rate channel D (Ions2)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "Ne_Counts_ChanD",
+        "catalog_description": "Ne counts channel D (Ions2)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "SA_ChanC",
+        "catalog_description": "Nominal Parker Spiral angle ChanC",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "SA_ChanD",
+        "catalog_description": "Nominal Parker Spiral angle ChanD",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "SA_ChanP",
+        "catalog_description": "Nominal Parker Spiral angle ChanP",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "SA_ChanR",
+        "catalog_description": "Nominal Parker Spiral angle ChanR",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "SA_ChanT",
+        "catalog_description": "Nominal Parker Spiral angle ChanT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "O_CountRate_ChanC",
+        "catalog_description": "O count rate channel C (Ions1)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "O_Counts_ChanC",
+        "catalog_description": "O counts channel C (Ions1)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "PA_ChanC",
+        "catalog_description": "Pitch angle ChanC",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "PA_ChanD",
+        "catalog_description": "Pitch angle ChanD",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "PA_ChanP",
+        "catalog_description": "Pitch angle ChanP",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "PA_ChanR",
+        "catalog_description": "Pitch angle ChanR",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "PA_ChanT",
+        "catalog_description": "Pitch angle ChanT",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "Si_CountRate_ChanD",
+        "catalog_description": "Si count rate channel D (Ions2)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "Si_Counts_ChanD",
+        "catalog_description": "Si counts channel D (Ions2)",
+        "display_type": "spectrogram"
       }
     ],
     "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epilo/l2/ic/%yyyy%/psp_isois-epilo_l2-ic_%yyyymmdd%_v15.cdf",
@@ -3407,6 +5872,66 @@
   {
     "variables": [
       {
+        "variable_name": "Electron_CountRate_ChanE",
+        "catalog_description": "Electron count rate channel E (HiResElectrons)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "Electron_CountRate_ChanF",
+        "catalog_description": "Electron count rate channel F (HiTimeResElectrons)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "Electron_CountRate_ChanG",
+        "catalog_description": "Electron count rate channel G (HiLookResElectrons)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "Electron_Counts_ChanE",
+        "catalog_description": "Electron counts channel E (HiResElectrons)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "Electron_Counts_ChanF",
+        "catalog_description": "Electron counts channel F (HiTimeResElectrons)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "Electron_Counts_ChanG",
+        "catalog_description": "Electron counts channel G (HiLookResElectrons)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "H_CountRate_ChanE",
+        "catalog_description": "H count rate channel E (HiResElectrons)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "H_CountRate_ChanF",
+        "catalog_description": "H count rate channel F (HiTimeResElectrons)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "H_CountRate_ChanG",
+        "catalog_description": "H count rate channel G (HiLookResElectrons)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "H_Counts_ChanE",
+        "catalog_description": "H counts channel E (HiResElectrons)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "H_Counts_ChanF",
+        "catalog_description": "H counts channel F (HiTimeResElectrons)",
+        "display_type": "spectrogram"
+      },
+      {
+        "variable_name": "H_Counts_ChanG",
+        "catalog_description": "H counts channel G (HiLookResElectrons)",
+        "display_type": "spectrogram"
+      },
+      {
         "variable_name": "HCI_Lat_ChanE",
         "catalog_description": "HCI latitude ChanE",
         "display_type": "time_series"
@@ -3495,10 +6020,40 @@
         "variable_name": "HGC_Lon_ChanG",
         "catalog_description": "HGC longitude ChanG",
         "display_type": "time_series"
+      },
+      {
+        "variable_name": "SA_ChanE",
+        "catalog_description": "Nominal Parker Spiral angle ChanE",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "SA_ChanF",
+        "catalog_description": "Nominal Parker Spiral angle ChanF",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "SA_ChanG",
+        "catalog_description": "Nominal Parker Spiral angle ChanG",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "PA_ChanE",
+        "catalog_description": "Pitch angle ChanE",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "PA_ChanF",
+        "catalog_description": "Pitch angle ChanF",
+        "display_type": "time_series"
+      },
+      {
+        "variable_name": "PA_ChanG",
+        "catalog_description": "Pitch angle ChanG",
+        "display_type": "time_series"
       }
     ],
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epilo/l2/pe/%yyyy%/psp_isois-epilo_l2-pe_%yyyymmdd%_v14.cdf",
-    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epilo/l2/pe/2018/psp_isois-epilo_l2-pe_20180928_v14.cdf",
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epilo/l2/pe/%yyyy%/psp_isois-epilo_l2-pe_%yyyymmdd%_v15.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epilo/l2/pe/2018/psp_isois-epilo_l2-pe_20180928_v15.cdf",
     "dates_available": [
       [
         "2018-09-28",
@@ -3679,8 +6234,8 @@
     ],
     "logical_source": "psp_isois-epilo_l2-pe",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Lo Level 2 Particle Energy",
-    "version": "14",
-    "generation_date": "2022-11-12",
+    "version": "15",
+    "generation_date": "2023-02-16",
     "instrument": "ISOIS-EPILo",
     "mission": "PSP"
   },
@@ -3762,8 +6317,8 @@
         "display_type": "time_series"
       }
     ],
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/ephemeris/%yyyy%/psp_isois_l2-ephem_%yyyymmdd%_v14.cdf",
-    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/ephemeris/2018/psp_isois_l2-ephem_20180928_v14.cdf",
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/ephemeris/%yyyy%/psp_isois_l2-ephem_%yyyymmdd%_v15.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/ephemeris/2018/psp_isois_l2-ephem_20180928_v15.cdf",
     "dates_available": [
       [
         "2018-09-28",
@@ -3772,8 +6327,8 @@
     ],
     "logical_source": "psp_isois_l2-ephem",
     "logical_source_description": "Parker Solar Probe ISOIS Level 2 ephem",
-    "version": "14",
-    "generation_date": "2022-11-12",
+    "version": "15",
+    "generation_date": "2023-02-16",
     "instrument": "ISOIS",
     "mission": "PSP"
   },
@@ -3810,8 +6365,8 @@
         "display_type": "time_series"
       }
     ],
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/summary/%yyyy%/psp_isois_l2-summary_%yyyymmdd%_v14.cdf",
-    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/summary/2018/psp_isois_l2-summary_20180928_v14.cdf",
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/summary/%yyyy%/psp_isois_l2-summary_%yyyymmdd%_v15.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/summary/2018/psp_isois_l2-summary_20180928_v15.cdf",
     "dates_available": [
       [
         "2018-09-28",
@@ -3912,8 +6467,8 @@
     ],
     "logical_source": "psp_isois_l2-summary",
     "logical_source_description": "Parker Solar Probe ISOIS level 2 summary",
-    "version": "14",
-    "generation_date": "2022-11-12",
+    "version": "15",
+    "generation_date": "2023-02-16",
     "instrument": "ISOIS",
     "mission": "PSP"
   }

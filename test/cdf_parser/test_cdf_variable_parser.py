@@ -44,7 +44,10 @@ class TestCdfVariableParser(unittest.TestCase):
             CdfVariableInfo("var0",'var_not_filtered','spectrogram'),
             CdfVariableInfo("var7","var_not_filtered_for_nonzero_min_and_log", 'spectrogram'),
             CdfVariableInfo("var9","var_not_filtered_for_scale", 'spectrogram'),
+            CdfVariableInfo("var8","var_not_filtered_for_scaletype_missing_and_scalemin_zero","spectrogram"),
+            CdfVariableInfo("var13","var_not_filtered_for_timeseries_shape_with_look_direction",'time_series'),
             CdfVariableInfo("var5","var_not_filtered_linear",'spectrogram'),
+            CdfVariableInfo("var12","var_that_is_not_filtered_three_dimensional_spectrogram",'spectrogram'),
             ]
 
         var_that_is_not_filtered = Mock()
@@ -59,6 +62,20 @@ class TestCdfVariableParser(unittest.TestCase):
         }
         var_that_is_not_filtered.shape = (1, 2)
 
+        var_that_is_not_filtered_three_dimensional_spectrogram = Mock()
+        var_that_is_not_filtered_three_dimensional_spectrogram.shape = (1,2,3)
+        var_that_is_not_filtered_three_dimensional_spectrogram.attrs = {
+            "CATDESC": "var_that_is_not_filtered_three_dimensional_spectrogram",
+            "VAR_TYPE": "data",
+            "FIELDNAM": "something",
+            "DEPEND_0": "time_col_good",
+            "DEPEND_1": "energy_col",
+            "DEPEND_2": "look_direction_col",
+            "SCALETYP": "linear",
+            "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'spectrogram'
+        }
+
         var_filtered_for_incorrect_shape = Mock()
         var_filtered_for_incorrect_shape.attrs = {
             "CATDESC": "var_filtered_for_incorrect_shape",
@@ -69,7 +86,7 @@ class TestCdfVariableParser(unittest.TestCase):
             "SCALEMIN": 1,
             "DISPLAY_TYPE": 'spectrogram'
         }
-        var_filtered_for_incorrect_shape.shape = (1, 2, 3)
+        var_filtered_for_incorrect_shape.shape = (1, 2, 3, 4)
 
         var_filtered_for_missing_fieldnam = Mock()
         var_filtered_for_missing_fieldnam.attrs = {
@@ -142,16 +159,16 @@ class TestCdfVariableParser(unittest.TestCase):
         }
         var_not_filtered_for_scaletype_log_and_scalemin_nonzero.shape = (1, 2)
 
-        var_filtered_for_scaletype_missing_and_scalemin_zero = Mock()
-        var_filtered_for_scaletype_missing_and_scalemin_zero.attrs = {
-            "CATDESC": "var_filtered",
+        var_not_filtered_for_scaletype_missing_and_scalemin_zero = Mock()
+        var_not_filtered_for_scaletype_missing_and_scalemin_zero.attrs = {
+            "CATDESC": "var_not_filtered_for_scaletype_missing_and_scalemin_zero",
             "VAR_TYPE": "data",
             "FIELDNAM": "something",
             "DEPEND_0": "time_col_good",
             "SCALEMIN": 0,
             "DISPLAY_TYPE": 'spectrogram'
         }
-        var_filtered_for_scaletype_missing_and_scalemin_zero.shape = (1, 2)
+        var_not_filtered_for_scaletype_missing_and_scalemin_zero.shape = (1, 2)
 
         var_not_filtered_for_scaletype_missing_and_scalemin_nonzero = Mock()
         var_not_filtered_for_scaletype_missing_and_scalemin_nonzero.attrs = {
@@ -178,7 +195,7 @@ class TestCdfVariableParser(unittest.TestCase):
 
         var_filtered_for_wrong_timeseries_shape = Mock()
         var_filtered_for_wrong_timeseries_shape.attrs = {
-            "CATDESC": "var_filtered_for_timeseries_shape",
+            "CATDESC": "var_filtered_for_wrong_timeseries_shape",
             "VAR_TYPE": "data",
             "FIELDNAM": "something",
             "DEPEND_0": "time_col_good",
@@ -186,7 +203,19 @@ class TestCdfVariableParser(unittest.TestCase):
             "SCALEMIN": 1,
             "DISPLAY_TYPE": 'time_series'
         }
-        var_filtered_for_wrong_timeseries_shape.shape = (1, 2)
+        var_filtered_for_wrong_timeseries_shape.shape = (1, 2, 3)
+
+        var_not_filtered_for_timeseries_shape_with_look_direction = Mock()
+        var_not_filtered_for_timeseries_shape_with_look_direction.attrs = {
+            "CATDESC": "var_not_filtered_for_timeseries_shape_with_look_direction",
+            "VAR_TYPE": "data",
+            "FIELDNAM": "something",
+            "DEPEND_0": "time_col_good",
+            "SCALETYP": "linear",
+            "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'time_series'
+        }
+        var_not_filtered_for_timeseries_shape_with_look_direction.shape = (1, 2)
 
         mock_cdf.items.return_value = {
             'var0': var_that_is_not_filtered,
@@ -197,10 +226,12 @@ class TestCdfVariableParser(unittest.TestCase):
             'var5': var_not_filtered_for_linear_scaletype_and_scalemin_nonzero,
             'var6': var_filtered_for_scaletype_log_and_scalemin_zero,
             'var7': var_not_filtered_for_scaletype_log_and_scalemin_nonzero,
-            'var8': var_filtered_for_scaletype_missing_and_scalemin_zero,
+            'var8': var_not_filtered_for_scaletype_missing_and_scalemin_zero,
             'var9': var_not_filtered_for_scaletype_missing_and_scalemin_nonzero,
             'var10': var_filtered_for_wrong_time_units,
-            'var11': var_filtered_for_wrong_timeseries_shape
+            'var11': var_filtered_for_wrong_timeseries_shape,
+            'var12': var_that_is_not_filtered_three_dimensional_spectrogram,
+            'var13':var_not_filtered_for_timeseries_shape_with_look_direction
         }.items()
 
         mock_time_column_good = Mock()
