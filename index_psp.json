@@ -412,8 +412,8 @@
         "display_type": "spectrogram"
       }
     ],
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates1h/%yyyy%/psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v15.cdf",
-    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates1h/2018/psp_isois-epihi_l2-het-rates3600_20180928_v15.cdf",
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates1h/%yyyy%/psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v16.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates1h/2018/psp_isois-epihi_l2-het-rates3600_20180928_v16.cdf",
     "dates_available": [
       [
         "2018-09-28",
@@ -521,13 +521,37 @@
       ],
       [
         "2022-11-04",
-        "2022-11-14"
+        "2023-01-13"
+      ],
+      [
+        "2023-01-15",
+        "2023-01-15"
+      ],
+      [
+        "2023-01-17",
+        "2023-01-19"
+      ],
+      [
+        "2023-01-21",
+        "2023-01-23"
+      ],
+      [
+        "2023-01-25",
+        "2023-01-27"
+      ],
+      [
+        "2023-01-30",
+        "2023-02-02"
+      ],
+      [
+        "2023-02-04",
+        "2023-02-09"
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-het-rates3600",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 HET Hourly Rates",
-    "version": "15",
-    "generation_date": "2023-02-16",
+    "version": "16",
+    "generation_date": "2023-05-13",
     "instrument": "ISOIS-EPIHi",
     "mission": "PSP"
   },
@@ -944,8 +968,8 @@
         "display_type": "spectrogram"
       }
     ],
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates1min/%yyyy%/psp_isois-epihi_l2-het-rates60_%yyyymmdd%_v15.cdf",
-    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates1min/2018/psp_isois-epihi_l2-het-rates60_20180928_v15.cdf",
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates1min/%yyyy%/psp_isois-epihi_l2-het-rates60_%yyyymmdd%_v16.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates1min/2018/psp_isois-epihi_l2-het-rates60_20180928_v16.cdf",
     "dates_available": [
       [
         "2018-09-28",
@@ -1021,13 +1045,37 @@
       ],
       [
         "2022-11-04",
-        "2022-11-14"
+        "2023-01-13"
+      ],
+      [
+        "2023-01-15",
+        "2023-01-15"
+      ],
+      [
+        "2023-01-17",
+        "2023-01-19"
+      ],
+      [
+        "2023-01-21",
+        "2023-01-23"
+      ],
+      [
+        "2023-01-25",
+        "2023-01-27"
+      ],
+      [
+        "2023-01-30",
+        "2023-02-02"
+      ],
+      [
+        "2023-02-04",
+        "2023-02-09"
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-het-rates60",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 HET 1-minute Rates",
-    "version": "15",
-    "generation_date": "2023-02-16",
+    "version": "16",
+    "generation_date": "2023-05-13",
     "instrument": "ISOIS-EPIHi",
     "mission": "PSP"
   },
@@ -1084,8 +1132,8 @@
         "display_type": "time_series"
       }
     ],
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates5min/%yyyy%/psp_isois-epihi_l2-het-rates300_%yyyymmdd%_v15.cdf",
-    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates5min/2018/psp_isois-epihi_l2-het-rates300_20180928_v15.cdf",
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates5min/%yyyy%/psp_isois-epihi_l2-het-rates300_%yyyymmdd%_v16.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates5min/2018/psp_isois-epihi_l2-het-rates300_20180928_v16.cdf",
     "dates_available": [
       [
         "2018-09-28",
@@ -1193,13 +1241,37 @@
       ],
       [
         "2022-11-04",
-        "2022-11-14"
+        "2023-01-13"
+      ],
+      [
+        "2023-01-15",
+        "2023-01-15"
+      ],
+      [
+        "2023-01-17",
+        "2023-01-19"
+      ],
+      [
+        "2023-01-21",
+        "2023-01-23"
+      ],
+      [
+        "2023-01-25",
+        "2023-01-27"
+      ],
+      [
+        "2023-01-30",
+        "2023-02-02"
+      ],
+      [
+        "2023-02-04",
+        "2023-02-09"
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-het-rates300",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 HET 5-minute Rates",
-    "version": "15",
-    "generation_date": "2023-02-16",
+    "version": "16",
+    "generation_date": "2023-05-13",
     "instrument": "ISOIS-EPIHi",
     "mission": "PSP"
   },
@@ -1336,8 +1408,8 @@
         "display_type": "time_series"
       }
     ],
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates10s/%yyyy%/psp_isois-epihi_l2-het-rates10_%yyyymmdd%_v15.cdf",
-    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates10s/2018/psp_isois-epihi_l2-het-rates10_20180928_v15.cdf",
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates10s/%yyyy%/psp_isois-epihi_l2-het-rates10_%yyyymmdd%_v16.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het_rates10s/2018/psp_isois-epihi_l2-het-rates10_20180928_v16.cdf",
     "dates_available": [
       [
         "2018-09-28",
@@ -1406,12 +1478,16 @@
       [
         "2022-09-01",
         "2022-09-11"
+      ],
+      [
+        "2022-12-06",
+        "2022-12-16"
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-het-rates10",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 HET 10-second Rates",
-    "version": "15",
-    "generation_date": "2023-02-16",
+    "version": "16",
+    "generation_date": "2023-05-13",
     "instrument": "ISOIS-EPIHi",
     "mission": "PSP"
   },
@@ -1828,8 +1904,8 @@
         "display_type": "spectrogram"
       }
     ],
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates1h/%yyyy%/psp_isois-epihi_l2-let1-rates3600_%yyyymmdd%_v15.cdf",
-    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates1h/2018/psp_isois-epihi_l2-let1-rates3600_20180928_v15.cdf",
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates1h/%yyyy%/psp_isois-epihi_l2-let1-rates3600_%yyyymmdd%_v16.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates1h/2018/psp_isois-epihi_l2-let1-rates3600_20180928_v16.cdf",
     "dates_available": [
       [
         "2018-09-28",
@@ -1937,13 +2013,37 @@
       ],
       [
         "2022-11-04",
-        "2022-11-14"
+        "2023-01-13"
+      ],
+      [
+        "2023-01-15",
+        "2023-01-15"
+      ],
+      [
+        "2023-01-17",
+        "2023-01-19"
+      ],
+      [
+        "2023-01-21",
+        "2023-01-23"
+      ],
+      [
+        "2023-01-25",
+        "2023-01-27"
+      ],
+      [
+        "2023-01-30",
+        "2023-02-02"
+      ],
+      [
+        "2023-02-04",
+        "2023-02-09"
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-let1-rates3600",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET1 Hourly Rates",
-    "version": "15",
-    "generation_date": "2023-02-16",
+    "version": "16",
+    "generation_date": "2023-05-13",
     "instrument": "ISOIS-EPIHi",
     "mission": "PSP"
   },
@@ -2360,8 +2460,8 @@
         "display_type": "spectrogram"
       }
     ],
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates1min/%yyyy%/psp_isois-epihi_l2-let1-rates60_%yyyymmdd%_v15.cdf",
-    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates1min/2018/psp_isois-epihi_l2-let1-rates60_20180928_v15.cdf",
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates1min/%yyyy%/psp_isois-epihi_l2-let1-rates60_%yyyymmdd%_v16.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates1min/2018/psp_isois-epihi_l2-let1-rates60_20180928_v16.cdf",
     "dates_available": [
       [
         "2018-09-28",
@@ -2433,13 +2533,37 @@
       ],
       [
         "2022-11-04",
-        "2022-11-14"
+        "2023-01-13"
+      ],
+      [
+        "2023-01-15",
+        "2023-01-15"
+      ],
+      [
+        "2023-01-17",
+        "2023-01-19"
+      ],
+      [
+        "2023-01-21",
+        "2023-01-23"
+      ],
+      [
+        "2023-01-25",
+        "2023-01-27"
+      ],
+      [
+        "2023-01-30",
+        "2023-02-02"
+      ],
+      [
+        "2023-02-04",
+        "2023-02-09"
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-let1-rates60",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET1 1-minute Rates",
-    "version": "15",
-    "generation_date": "2023-02-16",
+    "version": "16",
+    "generation_date": "2023-05-13",
     "instrument": "ISOIS-EPIHi",
     "mission": "PSP"
   },
@@ -2496,8 +2620,8 @@
         "display_type": "time_series"
       }
     ],
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates5min/%yyyy%/psp_isois-epihi_l2-let1-rates300_%yyyymmdd%_v15.cdf",
-    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates5min/2018/psp_isois-epihi_l2-let1-rates300_20180928_v15.cdf",
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates5min/%yyyy%/psp_isois-epihi_l2-let1-rates300_%yyyymmdd%_v16.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates5min/2018/psp_isois-epihi_l2-let1-rates300_20180928_v16.cdf",
     "dates_available": [
       [
         "2018-09-28",
@@ -2605,13 +2729,37 @@
       ],
       [
         "2022-11-04",
-        "2022-11-14"
+        "2023-01-13"
+      ],
+      [
+        "2023-01-15",
+        "2023-01-15"
+      ],
+      [
+        "2023-01-17",
+        "2023-01-19"
+      ],
+      [
+        "2023-01-21",
+        "2023-01-23"
+      ],
+      [
+        "2023-01-25",
+        "2023-01-27"
+      ],
+      [
+        "2023-01-30",
+        "2023-02-02"
+      ],
+      [
+        "2023-02-04",
+        "2023-02-09"
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-let1-rates300",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET1 5-minute Rates",
-    "version": "15",
-    "generation_date": "2023-02-16",
+    "version": "16",
+    "generation_date": "2023-05-13",
     "instrument": "ISOIS-EPIHi",
     "mission": "PSP"
   },
@@ -2748,8 +2896,8 @@
         "display_type": "time_series"
       }
     ],
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates10s/%yyyy%/psp_isois-epihi_l2-let1-rates10_%yyyymmdd%_v15.cdf",
-    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates10s/2018/psp_isois-epihi_l2-let1-rates10_20180928_v15.cdf",
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates10s/%yyyy%/psp_isois-epihi_l2-let1-rates10_%yyyymmdd%_v16.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let1_rates10s/2018/psp_isois-epihi_l2-let1-rates10_20180928_v16.cdf",
     "dates_available": [
       [
         "2018-09-28",
@@ -2818,12 +2966,16 @@
       [
         "2022-09-01",
         "2022-09-11"
+      ],
+      [
+        "2022-12-06",
+        "2022-12-16"
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-let1-rates10",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET1 10-second Rates",
-    "version": "15",
-    "generation_date": "2023-02-16",
+    "version": "16",
+    "generation_date": "2023-05-13",
     "instrument": "ISOIS-EPIHi",
     "mission": "PSP"
   },
@@ -3050,8 +3202,8 @@
         "display_type": "spectrogram"
       }
     ],
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates1h/%yyyy%/psp_isois-epihi_l2-let2-rates3600_%yyyymmdd%_v15.cdf",
-    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates1h/2018/psp_isois-epihi_l2-let2-rates3600_20180928_v15.cdf",
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates1h/%yyyy%/psp_isois-epihi_l2-let2-rates3600_%yyyymmdd%_v16.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates1h/2018/psp_isois-epihi_l2-let2-rates3600_20180928_v16.cdf",
     "dates_available": [
       [
         "2018-09-28",
@@ -3159,13 +3311,37 @@
       ],
       [
         "2022-11-04",
-        "2022-11-14"
+        "2023-01-13"
+      ],
+      [
+        "2023-01-15",
+        "2023-01-15"
+      ],
+      [
+        "2023-01-17",
+        "2023-01-19"
+      ],
+      [
+        "2023-01-21",
+        "2023-01-23"
+      ],
+      [
+        "2023-01-25",
+        "2023-01-27"
+      ],
+      [
+        "2023-01-30",
+        "2023-02-02"
+      ],
+      [
+        "2023-02-04",
+        "2023-02-09"
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-let2-rates3600",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET2 Hourly Rates",
-    "version": "15",
-    "generation_date": "2023-02-16",
+    "version": "16",
+    "generation_date": "2023-05-13",
     "instrument": "ISOIS-EPIHi",
     "mission": "PSP"
   },
@@ -3392,8 +3568,8 @@
         "display_type": "spectrogram"
       }
     ],
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates1min/%yyyy%/psp_isois-epihi_l2-let2-rates60_%yyyymmdd%_v15.cdf",
-    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates1min/2018/psp_isois-epihi_l2-let2-rates60_20180928_v15.cdf",
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates1min/%yyyy%/psp_isois-epihi_l2-let2-rates60_%yyyymmdd%_v16.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates1min/2018/psp_isois-epihi_l2-let2-rates60_20180928_v16.cdf",
     "dates_available": [
       [
         "2018-09-28",
@@ -3469,13 +3645,37 @@
       ],
       [
         "2022-11-04",
-        "2022-11-14"
+        "2023-01-13"
+      ],
+      [
+        "2023-01-15",
+        "2023-01-15"
+      ],
+      [
+        "2023-01-17",
+        "2023-01-19"
+      ],
+      [
+        "2023-01-21",
+        "2023-01-23"
+      ],
+      [
+        "2023-01-25",
+        "2023-01-27"
+      ],
+      [
+        "2023-01-30",
+        "2023-02-02"
+      ],
+      [
+        "2023-02-04",
+        "2023-02-09"
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-let2-rates60",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET2 1-minute Rates",
-    "version": "15",
-    "generation_date": "2023-02-16",
+    "version": "16",
+    "generation_date": "2023-05-13",
     "instrument": "ISOIS-EPIHi",
     "mission": "PSP"
   },
@@ -3522,8 +3722,8 @@
         "display_type": "time_series"
       }
     ],
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates5min/%yyyy%/psp_isois-epihi_l2-let2-rates300_%yyyymmdd%_v15.cdf",
-    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates5min/2018/psp_isois-epihi_l2-let2-rates300_20180928_v15.cdf",
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates5min/%yyyy%/psp_isois-epihi_l2-let2-rates300_%yyyymmdd%_v16.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates5min/2018/psp_isois-epihi_l2-let2-rates300_20180928_v16.cdf",
     "dates_available": [
       [
         "2018-09-28",
@@ -3615,13 +3815,37 @@
       ],
       [
         "2022-11-04",
-        "2022-11-14"
+        "2023-01-13"
+      ],
+      [
+        "2023-01-15",
+        "2023-01-15"
+      ],
+      [
+        "2023-01-17",
+        "2023-01-19"
+      ],
+      [
+        "2023-01-21",
+        "2023-01-23"
+      ],
+      [
+        "2023-01-25",
+        "2023-01-27"
+      ],
+      [
+        "2023-01-30",
+        "2023-02-02"
+      ],
+      [
+        "2023-02-04",
+        "2023-02-09"
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-let2-rates300",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET2 5-minute Rates",
-    "version": "15",
-    "generation_date": "2023-02-16",
+    "version": "16",
+    "generation_date": "2023-05-13",
     "instrument": "ISOIS-EPIHi",
     "mission": "PSP"
   },
@@ -3708,8 +3932,8 @@
         "display_type": "time_series"
       }
     ],
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates10s/%yyyy%/psp_isois-epihi_l2-let2-rates10_%yyyymmdd%_v15.cdf",
-    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates10s/2018/psp_isois-epihi_l2-let2-rates10_20180928_v15.cdf",
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates10s/%yyyy%/psp_isois-epihi_l2-let2-rates10_%yyyymmdd%_v16.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/let2_rates10s/2018/psp_isois-epihi_l2-let2-rates10_20180928_v16.cdf",
     "dates_available": [
       [
         "2018-09-28",
@@ -3778,12 +4002,16 @@
       [
         "2022-09-01",
         "2022-09-11"
+      ],
+      [
+        "2022-12-06",
+        "2022-12-16"
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-let2-rates10",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 LET2 10-second Rates",
-    "version": "15",
-    "generation_date": "2023-02-16",
+    "version": "16",
+    "generation_date": "2023-05-13",
     "instrument": "ISOIS-EPIHi",
     "mission": "PSP"
   },
@@ -3970,8 +4198,8 @@
         "display_type": "time_series"
       }
     ],
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/merged_rates1s/%yyyy%/psp_isois-epihi_l2-second-rates_%yyyymmdd%_v15.cdf",
-    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/merged_rates1s/2018/psp_isois-epihi_l2-second-rates_20180928_v15.cdf",
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/merged_rates1s/%yyyy%/psp_isois-epihi_l2-second-rates_%yyyymmdd%_v16.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/merged_rates1s/2018/psp_isois-epihi_l2-second-rates_20180928_v16.cdf",
     "dates_available": [
       [
         "2018-09-28",
@@ -4040,12 +4268,16 @@
       [
         "2022-09-01",
         "2022-09-11"
+      ],
+      [
+        "2022-12-06",
+        "2022-12-16"
       ]
     ],
     "logical_source": "psp_isois-epihi_l2-second-rates",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Hi Level 2 one-second Rates",
-    "version": "15",
-    "generation_date": "2023-02-16",
+    "version": "16",
+    "generation_date": "2023-05-13",
     "instrument": "ISOIS-EPIHi",
     "mission": "PSP"
   },
@@ -4392,8 +4624,8 @@
         "display_type": "spectrogram"
       }
     ],
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epilo/l2/ic/%yyyy%/psp_isois-epilo_l2-ic_%yyyymmdd%_v15.cdf",
-    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epilo/l2/ic/2018/psp_isois-epilo_l2-ic_20180928_v15.cdf",
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epilo/l2/ic/%yyyy%/psp_isois-epilo_l2-ic_%yyyymmdd%_v16.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epilo/l2/ic/2018/psp_isois-epilo_l2-ic_20180928_v16.cdf",
     "dates_available": [
       [
         "2018-09-28",
@@ -4509,13 +4741,33 @@
       ],
       [
         "2022-09-11",
-        "2022-11-14"
+        "2023-01-13"
+      ],
+      [
+        "2023-01-15",
+        "2023-01-15"
+      ],
+      [
+        "2023-01-17",
+        "2023-01-19"
+      ],
+      [
+        "2023-01-21",
+        "2023-01-23"
+      ],
+      [
+        "2023-01-25",
+        "2023-01-27"
+      ],
+      [
+        "2023-01-30",
+        "2023-02-09"
       ]
     ],
     "logical_source": "psp_isois-epilo_l2-ic",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Lo Level 2 Ion Composition",
-    "version": "15",
-    "generation_date": "2023-02-16",
+    "version": "16",
+    "generation_date": "2023-05-13",
     "instrument": "ISOIS-EPILo",
     "mission": "PSP"
   },
@@ -4702,8 +4954,8 @@
         "display_type": "time_series"
       }
     ],
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epilo/l2/pe/%yyyy%/psp_isois-epilo_l2-pe_%yyyymmdd%_v15.cdf",
-    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epilo/l2/pe/2018/psp_isois-epilo_l2-pe_20180928_v15.cdf",
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epilo/l2/pe/%yyyy%/psp_isois-epilo_l2-pe_%yyyymmdd%_v16.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epilo/l2/pe/2018/psp_isois-epilo_l2-pe_20180928_v16.cdf",
     "dates_available": [
       [
         "2018-09-28",
@@ -4879,13 +5131,37 @@
       ],
       [
         "2022-09-12",
-        "2022-11-14"
+        "2023-01-13"
+      ],
+      [
+        "2023-01-15",
+        "2023-01-15"
+      ],
+      [
+        "2023-01-17",
+        "2023-01-19"
+      ],
+      [
+        "2023-01-21",
+        "2023-01-23"
+      ],
+      [
+        "2023-01-25",
+        "2023-01-27"
+      ],
+      [
+        "2023-01-30",
+        "2023-02-02"
+      ],
+      [
+        "2023-02-04",
+        "2023-02-09"
       ]
     ],
     "logical_source": "psp_isois-epilo_l2-pe",
     "logical_source_description": "Parker Solar Probe ISOIS EPI-Lo Level 2 Particle Energy",
-    "version": "15",
-    "generation_date": "2023-02-16",
+    "version": "16",
+    "generation_date": "2023-05-13",
     "instrument": "ISOIS-EPILo",
     "mission": "PSP"
   },
@@ -4967,18 +5243,18 @@
         "display_type": "time_series"
       }
     ],
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/ephemeris/%yyyy%/psp_isois_l2-ephem_%yyyymmdd%_v15.cdf",
-    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/ephemeris/2018/psp_isois_l2-ephem_20180928_v15.cdf",
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/ephemeris/%yyyy%/psp_isois_l2-ephem_%yyyymmdd%_v16.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/ephemeris/2018/psp_isois_l2-ephem_20180928_v16.cdf",
     "dates_available": [
       [
         "2018-09-28",
-        "2022-11-14"
+        "2023-02-09"
       ]
     ],
     "logical_source": "psp_isois_l2-ephem",
     "logical_source_description": "Parker Solar Probe ISOIS Level 2 ephem",
-    "version": "15",
-    "generation_date": "2023-02-16",
+    "version": "16",
+    "generation_date": "2023-05-13",
     "instrument": "ISOIS",
     "mission": "PSP"
   },
@@ -5015,8 +5291,8 @@
         "display_type": "time_series"
       }
     ],
-    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/summary/%yyyy%/psp_isois_l2-summary_%yyyymmdd%_v15.cdf",
-    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/summary/2018/psp_isois_l2-summary_20180928_v15.cdf",
+    "source_file_format": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/summary/%yyyy%/psp_isois_l2-summary_%yyyymmdd%_v16.cdf",
+    "description_source_file": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/summary/2018/psp_isois_l2-summary_20180928_v16.cdf",
     "dates_available": [
       [
         "2018-09-28",
@@ -5112,13 +5388,33 @@
       ],
       [
         "2022-04-18",
-        "2022-11-14"
+        "2023-01-13"
+      ],
+      [
+        "2023-01-15",
+        "2023-01-15"
+      ],
+      [
+        "2023-01-17",
+        "2023-01-19"
+      ],
+      [
+        "2023-01-21",
+        "2023-01-23"
+      ],
+      [
+        "2023-01-25",
+        "2023-01-27"
+      ],
+      [
+        "2023-01-30",
+        "2023-02-09"
       ]
     ],
     "logical_source": "psp_isois_l2-summary",
     "logical_source_description": "Parker Solar Probe ISOIS level 2 summary",
-    "version": "15",
-    "generation_date": "2023-02-16",
+    "version": "16",
+    "generation_date": "2023-05-13",
     "instrument": "ISOIS",
     "mission": "PSP"
   }
