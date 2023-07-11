@@ -2,11 +2,11 @@ from pathlib import Path
 from unittest import TestCase
 from unittest.mock import patch, call, MagicMock
 
-from src.data_indexer.cdf_downloader.psp_file_parser import PspFileParser, PspFileInfo
+from data_indexer.cdf_downloader.psp_file_parser import PspFileParser, PspFileInfo
 
 
 class TestPspFileParser(TestCase):
-    @patch('src.data_indexer.cdf_downloader.psp_file_parser.urllib')
+    @patch('data_indexer.cdf_downloader.psp_file_parser.urllib')
     def test_retrieves_list_of_files_for_types(self, mock_urllib):
         mock_html_folder_path = Path(__file__).parent / 'mock_html/'
         file_path = mock_html_folder_path / 'l2.html'

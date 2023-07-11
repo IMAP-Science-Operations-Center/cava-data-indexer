@@ -1,7 +1,7 @@
 import unittest
 from datetime import date
 
-from src.data_indexer import dates_available
+from data_indexer import dates_available
 
 
 class TestDatesAvailable(unittest.TestCase):

@@ -5,8 +5,8 @@ from typing import List
 
 from spacepy import pycdf
 
-from src.data_indexer.cdf_parser.cdf_global_parser import CdfGlobalInfo, CdfGlobalParser
-from src.data_indexer.cdf_parser.cdf_variable_parser import CdfVariableParser, CdfVariableInfo
+from data_indexer.cdf_parser.cdf_global_parser import CdfGlobalInfo, CdfGlobalParser
+from data_indexer.cdf_parser.cdf_variable_parser import CdfVariableParser, CdfVariableInfo
 
 
 @dataclass

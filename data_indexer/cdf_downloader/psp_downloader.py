@@ -2,7 +2,7 @@ import urllib
 from dataclasses import dataclass
 from typing import List, Dict
 
-from src.data_indexer.cdf_downloader.psp_file_parser import PspFileParser, PspFileInfo
+from data_indexer.cdf_downloader.psp_file_parser import PspFileParser, PspFileInfo
 
 psp_cda_base_url = 'https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/{}/l2/'
 
