@@ -1,12 +1,12 @@
 from unittest import TestCase
 from unittest.mock import patch, Mock, call
 
-from src.cdf_downloader.psp_downloader import PspDownloader, PspDirectoryInfo
-from src.cdf_downloader.psp_file_parser import PspFileParser, PspFileInfo
+from src.data_indexer.cdf_downloader.psp_downloader import PspDownloader, PspDirectoryInfo
+from src.data_indexer.cdf_downloader.psp_file_parser import PspFileParser, PspFileInfo
 
 
 class TestPspDownloader(TestCase):
-    @patch('src.cdf_downloader.psp_downloader.PspFileParser')
+    @patch('src.data_indexer.cdf_downloader.psp_downloader.PspFileParser')
     def test_download_psp_data_from_cda_web(self, mock_psp_file_parser: PspFileParser):
         epihi_filenames = {"het_rate_1/": [PspFileInfo("psp_isois-epihi_l2-het-rate1_20220928_v13.cdf", "name", "1998"),
                                            PspFileInfo("psp_isois-epihi_l2-het-rate1_20220929_v13.cdf", "name", "1999")],
@@ -34,7 +34,7 @@ class TestPspDownloader(TestCase):
         mock_psp_file_parser.get_dictionary_of_files.assert_any_call(
             'https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/')
 
-    @patch('src.cdf_downloader.psp_downloader.urllib')
+    @patch('src.data_indexer.cdf_downloader.psp_downloader.urllib')
     def test_download_individual_file(self, mock_urllib):
         mock_file_download_response = Mock()
         mock_file_download_response.read.return_value = b'This is a PSP file'

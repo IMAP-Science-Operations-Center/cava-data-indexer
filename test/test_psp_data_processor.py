@@ -2,18 +2,18 @@ import unittest
 from datetime import date
 from unittest.mock import patch, call
 
-from src.cdf_downloader.psp_downloader import PspDirectoryInfo
-from src.cdf_downloader.psp_file_parser import PspFileInfo
-from src.cdf_parser.cdf_global_parser import CdfGlobalInfo
-from src.cdf_parser.cdf_parser import CdfFileInfo
-from src.cdf_parser.cdf_variable_parser import CdfVariableInfo
-from src.psp_data_processor import PspDataProcessor
+from src.data_indexer.cdf_downloader.psp_downloader import PspDirectoryInfo
+from src.data_indexer.cdf_downloader.psp_file_parser import PspFileInfo
+from src.data_indexer.cdf_parser.cdf_global_parser import CdfGlobalInfo
+from src.data_indexer.cdf_parser.cdf_parser import CdfFileInfo
+from src.data_indexer.cdf_parser.cdf_variable_parser import CdfVariableInfo
+from src.data_indexer.psp_data_processor import PspDataProcessor
 
 
 class TestPspDataProcessor(unittest.TestCase):
 
-    @patch('src.psp_data_processor.CdfParser')
-    @patch('src.psp_data_processor.PspDownloader')
+    @patch('src.data_indexer.psp_data_processor.CdfParser')
+    @patch('src.data_indexer.psp_data_processor.PspDownloader')
     def test_gets_filenames_and_downloads_the_first_file_in_list(self, mock_downloader, mock_cdf_parser):
         self.maxDiff = None
         mock_downloader.get_all_metadata.return_value = \

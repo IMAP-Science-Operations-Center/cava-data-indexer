@@ -2,15 +2,15 @@ import os
 import unittest
 from unittest.mock import patch
 
-from src.cdf_parser.cdf_parser import CdfParser, CdfFileInfo
+from src.data_indexer.cdf_parser.cdf_parser import CdfParser, CdfFileInfo
 
 
 class TestCdfParser(unittest.TestCase):
 
-    @patch('src.cdf_parser.cdf_parser.tempfile.TemporaryDirectory')
-    @patch('src.cdf_parser.cdf_parser.CdfGlobalParser')
-    @patch('src.cdf_parser.cdf_parser.CdfVariableParser')
-    @patch('src.cdf_parser.cdf_parser.pycdf')
+    @patch('src.data_indexer.cdf_parser.cdf_parser.tempfile.TemporaryDirectory')
+    @patch('src.data_indexer.cdf_parser.cdf_parser.CdfGlobalParser')
+    @patch('src.data_indexer.cdf_parser.cdf_parser.CdfVariableParser')
+    @patch('src.data_indexer.cdf_parser.cdf_parser.pycdf')
     def test_parses_global_info_and_variable_info(self, mock_pycdf, mock_variable_parser, mock_global_parser,
                                                   mock_temp_directory):
         mock_temp_directory_name = './test_data_for_cdf_parser/'

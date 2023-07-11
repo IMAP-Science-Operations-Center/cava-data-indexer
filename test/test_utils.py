@@ -1,10 +1,10 @@
 import unittest
 from datetime import date
 
-from src import utils
-from src.cdf_parser.cdf_global_parser import CdfGlobalInfo
-from src.cdf_parser.cdf_parser import CdfFileInfo
-from src.cdf_parser.cdf_variable_parser import CdfVariableInfo
+from src.data_indexer import utils
+from src.data_indexer.cdf_parser.cdf_global_parser import CdfGlobalInfo
+from src.data_indexer.cdf_parser.cdf_parser import CdfFileInfo
+from src.data_indexer.cdf_parser.cdf_variable_parser import CdfVariableInfo
 
 
 class TestUtils(unittest.TestCase):

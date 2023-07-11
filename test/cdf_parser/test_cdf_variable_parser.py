@@ -5,7 +5,7 @@ from unittest.mock import Mock
 from spacepy import pycdf
 
 import test
-from src.cdf_parser.cdf_variable_parser import CdfVariableParser, CdfVariableInfo
+from src.data_indexer.cdf_parser.cdf_variable_parser import CdfVariableParser, CdfVariableInfo
 
 
 class TestCdfVariableParser(unittest.TestCase):

@@ -5,7 +5,7 @@ from pathlib import Path
 from spacepy import pycdf
 
 import test
-from src.cdf_parser.cdf_global_parser import CdfGlobalParser, CdfGlobalInfo
+from src.data_indexer.cdf_parser.cdf_global_parser import CdfGlobalParser, CdfGlobalInfo
 
 
 class TestCdfGlobalParser(unittest.TestCase):

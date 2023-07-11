@@ -1,9 +1,9 @@
 from collections import defaultdict
 from datetime import datetime
 
-from src import dates_available, utils
-from src.cdf_downloader.imap_downloader import get_all_metadata, get_cdf_file
-from src.cdf_parser.cdf_parser import CdfParser
+from src.data_indexer import utils, dates_available
+from src.data_indexer.cdf_downloader.imap_downloader import get_all_metadata, get_cdf_file
+from src.data_indexer.cdf_parser.cdf_parser import CdfParser
 
 
 def group_metadata_by_file_names(metadata: [{}]) -> [{}]:

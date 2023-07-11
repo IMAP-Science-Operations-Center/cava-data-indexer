@@ -1,12 +1,12 @@
 from unittest import TestCase
 from unittest.mock import Mock, patch, call
 
-from src.cdf_downloader.imap_downloader import get_all_metadata, get_cdf_file
+from src.data_indexer.cdf_downloader.imap_downloader import get_all_metadata, get_cdf_file
 
 
 class TestDataDownloader(TestCase):
 
-    @patch('src.cdf_downloader.imap_downloader.urllib')
+    @patch('src.data_indexer.cdf_downloader.imap_downloader.urllib')
     def test_download_metadata_from_mock_server(self, mock_urllib):
         mock_response = Mock()
         mock_response.read.return_value = '[{"absolute_version": 127, "data_level": "l2", "descriptor": "vid", "directory_path": "fake://../cdf_files", "file_name": "psp_isois_l2-summary_20181102_v1.27.0.cdf", "file_root": "psp_isois_l2-summary_20181102_v1.27.0.cdf", "file_size": 403371422, "id": 3161, "instrument_id": "isois", "md5checksum": "0502a7e4a86e1d78ec7c73515f2dc7d5", "mod_date": "2022-11-02 17:21:19+00:00", "mode": "xos1", "pred_rec": "r", "released": true, "revision": 27, "timetag": "2018-11-02 00:00:00+00:00", "version": 1}]'
@@ -37,7 +37,7 @@ class TestDataDownloader(TestCase):
         self.assertEqual(expected_response, response)
         mock_urllib.request.urlopen.assert_called_with("http://3.139.73.210/dev/science-files-metadata")
 
-    @patch('src.cdf_downloader.imap_downloader.urllib')
+    @patch('src.data_indexer.cdf_downloader.imap_downloader.urllib')
     def test_download_individual_file(self, mock_urllib):
         mock_science_download_response = Mock()
         mock_science_download_response.read.return_value = b"/science_response"

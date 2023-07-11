@@ -1,12 +1,12 @@
 import os
 import tempfile
 from dataclasses import dataclass
-from typing import Dict, List
+from typing import List
 
 from spacepy import pycdf
 
-from src.cdf_parser.cdf_global_parser import CdfGlobalInfo, CdfGlobalParser
-from src.cdf_parser.cdf_variable_parser import CdfVariableParser, CdfVariableInfo
+from src.data_indexer.cdf_parser.cdf_global_parser import CdfGlobalInfo, CdfGlobalParser
+from src.data_indexer.cdf_parser.cdf_variable_parser import CdfVariableParser, CdfVariableInfo
 
 
 @dataclass

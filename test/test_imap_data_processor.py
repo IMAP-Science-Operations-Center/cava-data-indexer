@@ -2,10 +2,10 @@ from datetime import date
 from unittest import TestCase
 from unittest.mock import patch, call
 
-from src.cdf_parser.cdf_global_parser import CdfGlobalInfo
-from src.cdf_parser.cdf_parser import CdfFileInfo
-from src.cdf_parser.cdf_variable_parser import CdfVariableInfo
-from src.imap_data_processor import group_metadata_by_file_names, get_metadata_index
+from src.data_indexer.cdf_parser.cdf_global_parser import CdfGlobalInfo
+from src.data_indexer.cdf_parser.cdf_parser import CdfFileInfo
+from src.data_indexer.cdf_parser.cdf_variable_parser import CdfVariableInfo
+from src.data_indexer.imap_data_processor import group_metadata_by_file_names, get_metadata_index
 
 
 class TestImapDataProcessor(TestCase):
@@ -34,9 +34,9 @@ class TestImapDataProcessor(TestCase):
         actual_output = group_metadata_by_file_names(metadata)
         self.assertEqual(expected_output, actual_output)
 
-    @patch('src.imap_data_processor.CdfParser')
-    @patch('src.imap_data_processor.get_all_metadata')
-    @patch('src.imap_data_processor.get_cdf_file')
+    @patch('src.data_indexer.imap_data_processor.CdfParser')
+    @patch('src.data_indexer.imap_data_processor.get_all_metadata')
+    @patch('src.data_indexer.imap_data_processor.get_cdf_file')
     def test_get_metadata_index(self, mock_get_cdf_file, mock_get_all_metadata, mock_cdf_parser):
         mock_get_all_metadata.return_value = [
             {"absolute_version": 127, "data_level": "l2", "descriptor": "vid", "directory_path": "fake://../cdf_files",

@@ -2,7 +2,7 @@ import dataclasses
 from datetime import date
 from typing import Dict, List
 
-from src.cdf_parser.cdf_parser import CdfFileInfo
+from src.data_indexer.cdf_parser.cdf_parser import CdfFileInfo
 
 
 def get_index_entry(cdf_file_info: CdfFileInfo, source_file_format: str, description_source_file: str,

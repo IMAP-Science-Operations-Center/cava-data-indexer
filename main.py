@@ -1,8 +1,8 @@
 import json
 import sys
 
-from src import imap_data_processor
-from src.psp_data_processor import PspDataProcessor
+from src.data_indexer import imap_data_processor
+from src.data_indexer.psp_data_processor import PspDataProcessor
 
 
 def main():

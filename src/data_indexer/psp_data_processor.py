@@ -1,8 +1,8 @@
 from datetime import datetime
 
-from src import dates_available, utils
-from src.cdf_downloader.psp_downloader import PspDownloader
-from src.cdf_parser.cdf_parser import CdfParser
+from src.data_indexer import utils, dates_available
+from src.data_indexer.cdf_downloader.psp_downloader import PspDownloader
+from src.data_indexer.cdf_parser.cdf_parser import CdfParser
 
 
 class PspDataProcessor:
