@@ -1,6 +1,9 @@
+import ssl
 import urllib
 from dataclasses import dataclass
 from typing import List, Dict
+
+import certifi
 
 from data_indexer.cdf_downloader.psp_file_parser import PspFileParser, PspFileInfo
 
@@ -31,6 +34,8 @@ class PspDownloader:
 
     @staticmethod
     def get_cdf_file(filename: str, instrument: str, category: str, year: str):
+        context = ssl.create_default_context(cafile=certifi.where())
+
         instrument_base_url = psp_cda_base_url.format(instrument)
         file_url = f"{instrument_base_url}{category}{year}/{filename}"
-        return {"link": file_url, "data": urllib.request.urlopen(file_url).read()}
+        return {"link": file_url, "data": urllib.request.urlopen(file_url, context=context).read()}

@@ -2,12 +2,15 @@ from pathlib import Path
 from unittest import TestCase
 from unittest.mock import patch, call, MagicMock
 
+import certifi
+
 from data_indexer.cdf_downloader.psp_file_parser import PspFileParser, PspFileInfo
 
 
 class TestPspFileParser(TestCase):
+    @patch('data_indexer.cdf_downloader.psp_file_parser.ssl.create_default_context')
     @patch('data_indexer.cdf_downloader.psp_file_parser.urllib')
-    def test_retrieves_list_of_files_for_types(self, mock_urllib):
+    def test_retrieves_list_of_files_for_types(self, mock_urllib, mock_create_default_context):
         mock_html_folder_path = Path(__file__).parent / 'mock_html/'
         file_path = mock_html_folder_path / 'l2.html'
         with open(file_path, 'rb') as file:
@@ -56,13 +59,15 @@ class TestPspFileParser(TestCase):
 
         file_dictionary = PspFileParser.get_dictionary_of_files("https://url.site/l2/")
 
+        mock_create_default_context.assert_called_with(cafile=certifi.where())
+
         mock_urllib.request.urlopen.assert_has_calls([
-            call("https://url.site/l2/"),
-            call("https://url.site/l2/het_rate_1/"),
-            call("https://url.site/l2/het_rate_1/2022/"),
-            call("https://url.site/l2/het_rate_2/"),
-            call("https://url.site/l2/het_rate_2/2022_rate2/"),
-            call("https://url.site/l2/het_rate_2/2023/"),
+            call("https://url.site/l2/", context=mock_create_default_context.return_value),
+            call("https://url.site/l2/het_rate_1/", context=mock_create_default_context.return_value),
+            call("https://url.site/l2/het_rate_1/2022/", context=mock_create_default_context.return_value),
+            call("https://url.site/l2/het_rate_2/", context=mock_create_default_context.return_value),
+            call("https://url.site/l2/het_rate_2/2022_rate2/", context=mock_create_default_context.return_value),
+            call("https://url.site/l2/het_rate_2/2023/", context=mock_create_default_context.return_value),
         ])
 
         expected_file_dictionary = {

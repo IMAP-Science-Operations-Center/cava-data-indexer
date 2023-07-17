@@ -1,6 +1,8 @@
+import ssl
 import urllib.request
 from typing import Dict, List, Tuple, NamedTuple
 
+import certifi
 from bs4 import BeautifulSoup
 
 
@@ -37,8 +39,9 @@ class PspFileParser:
 
     @staticmethod
     def _get_all_links(url: str) -> List[Tuple[str, str]]:
+        context = ssl.create_default_context(cafile=certifi.where())
         list_of_links = []
-        with urllib.request.urlopen(url) as page:
+        with urllib.request.urlopen(url, context=context) as page:
             soup = BeautifulSoup(page, 'html.parser')
             for a_tag in soup.select("td > a")[1:]:
                 link = a_tag.get('href')

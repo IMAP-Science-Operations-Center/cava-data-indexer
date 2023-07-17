@@ -1,6 +1,8 @@
 from unittest import TestCase
 from unittest.mock import patch, Mock, call
 
+import certifi
+
 from data_indexer.cdf_downloader.psp_downloader import PspDownloader, PspDirectoryInfo
 from data_indexer.cdf_downloader.psp_file_parser import PspFileParser, PspFileInfo
 
@@ -34,8 +36,9 @@ class TestPspDownloader(TestCase):
         mock_psp_file_parser.get_dictionary_of_files.assert_any_call(
             'https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/')
 
+    @patch('data_indexer.cdf_downloader.psp_downloader.ssl.create_default_context')
     @patch('data_indexer.cdf_downloader.psp_downloader.urllib')
-    def test_download_individual_file(self, mock_urllib):
+    def test_download_individual_file(self, mock_urllib, mock_create_default_context):
         mock_file_download_response = Mock()
         mock_file_download_response.read.return_value = b'This is a PSP file'
         mock_urllib.request.urlopen.return_value = mock_file_download_response
@@ -43,8 +46,11 @@ class TestPspDownloader(TestCase):
         response = PspDownloader.get_cdf_file("psp_isois-epihi_l2-het-rate1_20220928_v13.cdf", "epihi", "het-rate1/",
                                               "2022")
 
+        mock_create_default_context.assert_called_with(cafile=certifi.where())
+
         self.assertEqual([call(
-            "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het-rate1/2022/psp_isois-epihi_l2-het-rate1_20220928_v13.cdf")],
+            "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het-rate1/2022/psp_isois-epihi_l2-het-rate1_20220928_v13.cdf",
+            context=mock_create_default_context.return_value)],
             mock_urllib.request.urlopen.call_args_list)
         self.assertEqual({
             "link": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het-rate1/2022/psp_isois-epihi_l2-het-rate1_20220928_v13.cdf",
