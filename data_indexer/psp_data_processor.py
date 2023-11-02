@@ -18,9 +18,9 @@ class PspDataProcessor:
                                 file_infos]
                 available_dates = dates_available.get_date_ranges(parsed_dates)
                 psp_file_info = file_infos[0]
-                cdf = PspDownloader.get_cdf_file(psp_file_info.name, psp_directory_info.instrument_url, category,
+                cdf = PspDownloader.get_cdf_file(psp_directory_info.base_url, psp_file_info.name, psp_directory_info.instrument_url, category,
                                                  psp_file_info.year)
-                cdf_info = CdfParser.parse_cdf_bytes(cdf["data"])
+                cdf_info = CdfParser.parse_cdf_bytes(cdf["data"], psp_directory_info.variable_selector)
                 split_link = cdf['link'].split('_')
                 rebuilt_link = '_'.join(split_link[:-2]) + '_%yyyymmdd%_' + split_link[-1]
                 rebuilt_link = rebuilt_link.replace(psp_file_info.year, '%yyyy%')

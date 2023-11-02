@@ -5,6 +5,7 @@ from unittest.mock import patch, call
 from data_indexer.cdf_parser.cdf_global_parser import CdfGlobalInfo
 from data_indexer.cdf_parser.cdf_parser import CdfFileInfo
 from data_indexer.cdf_parser.cdf_variable_parser import CdfVariableInfo
+from data_indexer.cdf_parser.variable_selector.default_variable_selector import DefaultVariableSelector
 from data_indexer.imap_data_processor import group_metadata_by_file_names, get_metadata_index
 
 
@@ -150,5 +151,5 @@ class TestImapDataProcessor(TestCase):
 
         self.assertEqual(expected_index, actual_index)
 
-        self.assertEqual([call(first_cdf_file_data), call(second_cdf_file_data)],
+        self.assertEqual([call(first_cdf_file_data, DefaultVariableSelector), call(second_cdf_file_data, DefaultVariableSelector)],
                          mock_cdf_parser.parse_cdf_bytes.call_args_list)

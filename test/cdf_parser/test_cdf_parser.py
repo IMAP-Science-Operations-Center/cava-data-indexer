@@ -1,6 +1,6 @@
 import os
 import unittest
-from unittest.mock import patch
+from unittest.mock import patch, Mock
 
 from data_indexer.cdf_parser.cdf_parser import CdfParser, CdfFileInfo
 
@@ -24,8 +24,9 @@ class TestCdfParser(unittest.TestCase):
         self.assertTrue(os.path.isdir(mock_temp_directory_name))
         self.assertFalse(os.path.exists(expected_temp_file_name))
         mock_cdf_bytes = b'cdf bytes'
+        mock_variable_selector = Mock()
 
-        output = CdfParser.parse_cdf_bytes(mock_cdf_bytes)
+        output = CdfParser.parse_cdf_bytes(mock_cdf_bytes, mock_variable_selector)
 
         self.assertIsInstance(output, CdfFileInfo)
         self.assertIs(mock_global_parser.parse_global_variables_from_cdf.return_value, output.global_info)
@@ -37,7 +38,7 @@ class TestCdfParser(unittest.TestCase):
         mock_pycdf.CDF.assert_called_with(expected_temp_file_name)
 
         mock_global_parser.parse_global_variables_from_cdf.assert_called_with(mock_cdf)
-        mock_variable_parser.parse_info_from_cdf.assert_called_with(mock_cdf)
+        mock_variable_parser.parse_info_from_cdf.assert_called_with(mock_cdf, mock_variable_selector)
 
         os.remove(expected_temp_file_name)
         os.removedirs(mock_temp_directory_name)

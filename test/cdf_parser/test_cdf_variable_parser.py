@@ -6,6 +6,8 @@ from spacepy import pycdf
 
 import test
 from data_indexer.cdf_parser.cdf_variable_parser import CdfVariableParser, CdfVariableInfo
+from data_indexer.cdf_parser.variable_selector.default_variable_selector import DefaultVariableSelector
+from data_indexer.cdf_parser.variable_selector.multi_dimension_variable_selector import MultiDimensionVariableSelector
 
 
 class TestCdfVariableParser(unittest.TestCase):
@@ -31,227 +33,183 @@ class TestCdfVariableParser(unittest.TestCase):
 
         cdf_path = str(Path(test.__file__).parent / 'test_data/test.cdf')
         with pycdf.CDF(cdf_path) as cdf:
-            parsed_info = CdfVariableParser.parse_info_from_cdf(cdf)
+            parsed_info = CdfVariableParser.parse_info_from_cdf(cdf, DefaultVariableSelector)
 
         self.assertEqual(expected_info, parsed_info)
 
-        def test_parse_info_from_epilo_cdf_filters_out_variables_that_are_missing_key_features(self):
-            mock_cdf = Mock()
+    def test_parse_info_from_epilo_cdf_filters_out_variables_that_are_missing_key_features(self):
+        mock_cdf = Mock()
 
-            mock_cdf.attrs = {'Data_version': "99", 'Logical_source': "lsource",
-                              "Descriptor": "ISOIS-EPILO>Integrated Science Investigation of the Sun, Energetic Particle Instrument Lo"}
-            expected_info = [
-                CdfVariableInfo("var0", 'var_not_filtered', 'spectrogram'),
-                CdfVariableInfo("var7", "var_not_filtered_for_nonzero_min_and_log", 'spectrogram'),
-                CdfVariableInfo("var9", "var_not_filtered_for_scale", 'spectrogram'),
-                CdfVariableInfo("var8", "var_not_filtered_for_scaletype_missing_and_scalemin_zero", "spectrogram"),
-                CdfVariableInfo("var13", "var_not_filtered_for_timeseries_shape_with_look_direction", 'time_series'),
-                CdfVariableInfo("var5", "var_not_filtered_linear", 'spectrogram'),
-                CdfVariableInfo("var12", "var_that_is_not_filtered_three_dimensional_spectrogram", 'spectrogram'),
-            ]
+        mock_cdf.attrs = {'Data_version': "99", 'Logical_source': "lsource",
+                          "Descriptor": "ISOIS-EPILO>Integrated Science Investigation of the Sun, Energetic Particle Instrument Lo"}
+        expected_info = [
+            CdfVariableInfo("var0", 'var_not_filtered', 'spectrogram'),
+            CdfVariableInfo("var7", "var_not_filtered_for_nonzero_min_and_log", 'spectrogram'),
+            CdfVariableInfo("var9", "var_not_filtered_for_scale", 'spectrogram'),
+            CdfVariableInfo("var8", "var_not_filtered_for_scaletype_missing_and_scalemin_zero", "spectrogram"),
+            CdfVariableInfo("var13", "var_not_filtered_for_timeseries_shape_with_look_direction", 'time_series'),
+            CdfVariableInfo("var5", "var_not_filtered_linear", 'spectrogram'),
+            CdfVariableInfo("var12", "var_that_is_not_filtered_three_dimensional_spectrogram", 'spectrogram'),
+        ]
 
-            var_that_is_not_filtered = Mock()
-            var_that_is_not_filtered.attrs = {
-                "CATDESC": "var_not_filtered",
-                "VAR_TYPE": "data",
-                "FIELDNAM": "something",
-                "DEPEND_0": "time_col_good",
-                "SCALETYP": "linear",
-                "SCALEMIN": 1,
-                "DISPLAY_TYPE": 'spectrogram'
-            }
-            var_that_is_not_filtered.shape = (1, 2)
+        var_that_is_not_filtered = Mock()
+        var_that_is_not_filtered.attrs = {
+            "CATDESC": "var_not_filtered",
+            "VAR_TYPE": "data",
+            "FIELDNAM": "something",
+            "DEPEND_0": "time_col_good",
+            "SCALETYP": "linear",
+            "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'spectrogram'
+        }
+        var_that_is_not_filtered.shape = (1, 2)
 
-            var_that_is_not_filtered_three_dimensional_spectrogram = Mock()
-            var_that_is_not_filtered_three_dimensional_spectrogram.shape = (1, 2, 3)
-            var_that_is_not_filtered_three_dimensional_spectrogram.attrs = {
-                "CATDESC": "var_that_is_not_filtered_three_dimensional_spectrogram",
-                "VAR_TYPE": "data",
-                "FIELDNAM": "something",
-                "DEPEND_0": "time_col_good",
-                "DEPEND_1": "energy_col",
-                "DEPEND_2": "look_direction_col",
-                "SCALETYP": "linear",
-                "SCALEMIN": 1,
-                "DISPLAY_TYPE": 'spectrogram'
-            }
+        var_that_is_not_filtered_three_dimensional_spectrogram = Mock()
+        var_that_is_not_filtered_three_dimensional_spectrogram.shape = (1, 2, 3)
+        var_that_is_not_filtered_three_dimensional_spectrogram.attrs = {
+            "CATDESC": "var_that_is_not_filtered_three_dimensional_spectrogram",
+            "VAR_TYPE": "data",
+            "FIELDNAM": "something",
+            "DEPEND_0": "time_col_good",
+            "DEPEND_1": "energy_col",
+            "DEPEND_2": "look_direction_col",
+            "SCALETYP": "linear",
+            "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'spectrogram'
+        }
 
-            var_filtered_for_incorrect_shape = Mock()
-            var_filtered_for_incorrect_shape.attrs = {
-                "CATDESC": "var_filtered_for_incorrect_shape",
-                "VAR_TYPE": "data",
-                "FIELDNAM": "something",
-                "DEPEND_0": "time_col_good",
-                "SCALETYP": "linear",
-                "SCALEMIN": 1,
-                "DISPLAY_TYPE": 'spectrogram'
-            }
-            var_filtered_for_incorrect_shape.shape = (1, 2, 3, 4)
+        var_filtered_for_incorrect_shape = Mock()
+        var_filtered_for_incorrect_shape.attrs = {
+            "CATDESC": "var_filtered_for_incorrect_shape",
+            "VAR_TYPE": "data",
+            "FIELDNAM": "something",
+            "DEPEND_0": "time_col_good",
+            "SCALETYP": "linear",
+            "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'spectrogram'
+        }
+        var_filtered_for_incorrect_shape.shape = (1, 2, 3, 4)
 
-            var_filtered_for_missing_fieldnam = Mock()
-            var_filtered_for_missing_fieldnam.attrs = {
-                "CATDESC": "var_not_filtered",
-                "VAR_TYPE": "data",
-                "DEPEND_0": "time_col_good",
-                "SCALETYP": "linear",
-                "SCALEMIN": 1,
-                "DISPLAY_TYPE": 'spectrogram'
-            }
-            var_filtered_for_missing_fieldnam.shape = (1, 2)
+        var_not_filtered_for_linear_scaletype_and_scalemin_nonzero = Mock()
+        var_not_filtered_for_linear_scaletype_and_scalemin_nonzero.attrs = {
+            "CATDESC": "var_not_filtered_linear",
+            "VAR_TYPE": "data",
+            "FIELDNAM": "something",
+            "DEPEND_0": "time_col_good",
+            "SCALETYP": "linear",
+            "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'spectrogram'
+        }
+        var_not_filtered_for_linear_scaletype_and_scalemin_nonzero.shape = (1, 2)
 
-            var_filtered_for_missing_delta_minus = Mock()
-            var_filtered_for_missing_delta_minus.attrs = {
-                "CATDESC": "var_filtered",
-                "VAR_TYPE": "data",
-                "FIELDNAM": "something",
-                "DEPEND_0": "time_col_no_delta_minus",
-                "SCALETYP": "linear",
-                "SCALEMIN": 1,
-                "DISPLAY_TYPE": 'spectrogram'
-            }
-            var_filtered_for_missing_delta_minus.shape = (1, 2)
+        var_filtered_for_scaletype_log_and_scalemin_zero = Mock()
+        var_filtered_for_scaletype_log_and_scalemin_zero.attrs = {
+            "CATDESC": "var_filtered",
+            "VAR_TYPE": "data",
+            "FIELDNAM": "something",
+            "DEPEND_0": "time_col_good",
+            "SCALETYP": "log",
+            "SCALEMIN": 0,
+            "DISPLAY_TYPE": 'spectrogram'
+        }
+        var_filtered_for_scaletype_log_and_scalemin_zero.shape = (1, 2)
 
-            var_filtered_for_missing_delta_plus = Mock()
-            var_filtered_for_missing_delta_plus.attrs = {
-                "CATDESC": "var_filtered",
-                "VAR_TYPE": "data",
-                "FIELDNAM": "something",
-                "DEPEND_0": "time_col_no_delta_plus",
-                "SCALETYP": "linear",
-                "SCALEMIN": 1,
-                "DISPLAY_TYPE": 'spectrogram'
-            }
-            var_filtered_for_missing_delta_plus.shape = (1, 2)
+        var_not_filtered_for_scaletype_log_and_scalemin_nonzero = Mock()
+        var_not_filtered_for_scaletype_log_and_scalemin_nonzero.attrs = {
+            "CATDESC": "var_not_filtered_for_nonzero_min_and_log",
+            "VAR_TYPE": "data",
+            "FIELDNAM": "something",
+            "DEPEND_0": "time_col_good",
+            "SCALETYP": "log",
+            "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'spectrogram'
+        }
+        var_not_filtered_for_scaletype_log_and_scalemin_nonzero.shape = (1, 2)
 
-            var_not_filtered_for_linear_scaletype_and_scalemin_nonzero = Mock()
-            var_not_filtered_for_linear_scaletype_and_scalemin_nonzero.attrs = {
-                "CATDESC": "var_not_filtered_linear",
-                "VAR_TYPE": "data",
-                "FIELDNAM": "something",
-                "DEPEND_0": "time_col_good",
-                "SCALETYP": "linear",
-                "SCALEMIN": 1,
-                "DISPLAY_TYPE": 'spectrogram'
-            }
-            var_not_filtered_for_linear_scaletype_and_scalemin_nonzero.shape = (1, 2)
+        var_not_filtered_for_scaletype_missing_and_scalemin_zero = Mock()
+        var_not_filtered_for_scaletype_missing_and_scalemin_zero.attrs = {
+            "CATDESC": "var_not_filtered_for_scaletype_missing_and_scalemin_zero",
+            "VAR_TYPE": "data",
+            "FIELDNAM": "something",
+            "DEPEND_0": "time_col_good",
+            "SCALEMIN": 0,
+            "DISPLAY_TYPE": 'spectrogram'
+        }
+        var_not_filtered_for_scaletype_missing_and_scalemin_zero.shape = (1, 2)
 
-            var_filtered_for_scaletype_log_and_scalemin_zero = Mock()
-            var_filtered_for_scaletype_log_and_scalemin_zero.attrs = {
-                "CATDESC": "var_filtered",
-                "VAR_TYPE": "data",
-                "FIELDNAM": "something",
-                "DEPEND_0": "time_col_good",
-                "SCALETYP": "log",
-                "SCALEMIN": 0,
-                "DISPLAY_TYPE": 'spectrogram'
-            }
-            var_filtered_for_scaletype_log_and_scalemin_zero.shape = (1, 2)
+        var_not_filtered_for_scaletype_missing_and_scalemin_nonzero = Mock()
+        var_not_filtered_for_scaletype_missing_and_scalemin_nonzero.attrs = {
+            "CATDESC": "var_not_filtered_for_scale",
+            "VAR_TYPE": "data",
+            "FIELDNAM": "something",
+            "DEPEND_0": "time_col_good",
+            "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'spectrogram'
+        }
+        var_not_filtered_for_scaletype_missing_and_scalemin_nonzero.shape = (1, 2)
 
-            var_not_filtered_for_scaletype_log_and_scalemin_nonzero = Mock()
-            var_not_filtered_for_scaletype_log_and_scalemin_nonzero.attrs = {
-                "CATDESC": "var_not_filtered_for_nonzero_min_and_log",
-                "VAR_TYPE": "data",
-                "FIELDNAM": "something",
-                "DEPEND_0": "time_col_good",
-                "SCALETYP": "log",
-                "SCALEMIN": 1,
-                "DISPLAY_TYPE": 'spectrogram'
-            }
-            var_not_filtered_for_scaletype_log_and_scalemin_nonzero.shape = (1, 2)
+        var_filtered_for_wrong_time_units = Mock()
+        var_filtered_for_wrong_time_units.attrs = {
+            "CATDESC": "var_filtered_for_wrong_time",
+            "VAR_TYPE": "data",
+            "FIELDNAM": "something",
+            "DEPEND_0": "time_col_unit_ms",
+            "SCALETYP": "linear",
+            "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'spectrogram'
+        }
+        var_filtered_for_wrong_time_units.shape = (1, 2)
 
-            var_not_filtered_for_scaletype_missing_and_scalemin_zero = Mock()
-            var_not_filtered_for_scaletype_missing_and_scalemin_zero.attrs = {
-                "CATDESC": "var_not_filtered_for_scaletype_missing_and_scalemin_zero",
-                "VAR_TYPE": "data",
-                "FIELDNAM": "something",
-                "DEPEND_0": "time_col_good",
-                "SCALEMIN": 0,
-                "DISPLAY_TYPE": 'spectrogram'
-            }
-            var_not_filtered_for_scaletype_missing_and_scalemin_zero.shape = (1, 2)
+        var_filtered_for_wrong_timeseries_shape = Mock()
+        var_filtered_for_wrong_timeseries_shape.attrs = {
+            "CATDESC": "var_filtered_for_wrong_timeseries_shape",
+            "VAR_TYPE": "data",
+            "FIELDNAM": "something",
+            "DEPEND_0": "time_col_good",
+            "SCALETYP": "linear",
+            "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'time_series'
+        }
+        var_filtered_for_wrong_timeseries_shape.shape = (1, 2, 3)
 
-            var_not_filtered_for_scaletype_missing_and_scalemin_nonzero = Mock()
-            var_not_filtered_for_scaletype_missing_and_scalemin_nonzero.attrs = {
-                "CATDESC": "var_not_filtered_for_scale",
-                "VAR_TYPE": "data",
-                "FIELDNAM": "something",
-                "DEPEND_0": "time_col_good",
-                "SCALEMIN": 1,
-                "DISPLAY_TYPE": 'spectrogram'
-            }
-            var_not_filtered_for_scaletype_missing_and_scalemin_nonzero.shape = (1, 2)
+        var_not_filtered_for_timeseries_shape_with_look_direction = Mock()
+        var_not_filtered_for_timeseries_shape_with_look_direction.attrs = {
+            "CATDESC": "var_not_filtered_for_timeseries_shape_with_look_direction",
+            "VAR_TYPE": "data",
+            "FIELDNAM": "something",
+            "DEPEND_0": "time_col_good",
+            "SCALETYP": "linear",
+            "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'time_series'
+        }
+        var_not_filtered_for_timeseries_shape_with_look_direction.shape = (1, 2)
 
-            var_filtered_for_wrong_time_units = Mock()
-            var_filtered_for_wrong_time_units.attrs = {
-                "CATDESC": "var_filtered_for_wrong_time",
-                "VAR_TYPE": "data",
-                "FIELDNAM": "something",
-                "DEPEND_0": "time_col_unit_ms",
-                "SCALETYP": "linear",
-                "SCALEMIN": 1,
-                "DISPLAY_TYPE": 'spectrogram'
-            }
-            var_filtered_for_wrong_time_units.shape = (1, 2)
+        mock_cdf.items.return_value = {
+            'var0': var_that_is_not_filtered,
+            'var1': var_filtered_for_incorrect_shape,
+            'var5': var_not_filtered_for_linear_scaletype_and_scalemin_nonzero,
+            'var6': var_filtered_for_scaletype_log_and_scalemin_zero,
+            'var7': var_not_filtered_for_scaletype_log_and_scalemin_nonzero,
+            'var8': var_not_filtered_for_scaletype_missing_and_scalemin_zero,
+            'var9': var_not_filtered_for_scaletype_missing_and_scalemin_nonzero,
+            'var10': var_filtered_for_wrong_time_units,
+            'var11': var_filtered_for_wrong_timeseries_shape,
+            'var12': var_that_is_not_filtered_three_dimensional_spectrogram,
+            'var13': var_not_filtered_for_timeseries_shape_with_look_direction
+        }.items()
 
-            var_filtered_for_wrong_timeseries_shape = Mock()
-            var_filtered_for_wrong_timeseries_shape.attrs = {
-                "CATDESC": "var_filtered_for_wrong_timeseries_shape",
-                "VAR_TYPE": "data",
-                "FIELDNAM": "something",
-                "DEPEND_0": "time_col_good",
-                "SCALETYP": "linear",
-                "SCALEMIN": 1,
-                "DISPLAY_TYPE": 'time_series'
-            }
-            var_filtered_for_wrong_timeseries_shape.shape = (1, 2, 3)
+        mock_time_column_good = Mock()
+        mock_time_column_good.attrs = {'DELTA_MINUS_VAR': '', 'DELTA_PLUS_VAR': '', 'UNITS': 'ns'}
+        mock_time_col_unit_ms = Mock()
+        mock_time_col_unit_ms.attrs = {'DELTA_MINUS_VAR': '', 'DELTA_PLUS_VAR': '', 'UNITS': 'ms'}
+        cdf_items = {'time_col_good': mock_time_column_good,
+                     'time_col_unit_ms': mock_time_col_unit_ms}
+        mock_cdf.__getitem__ = Mock()
+        mock_cdf.__getitem__.side_effect = lambda key: cdf_items[key]
 
-            var_not_filtered_for_timeseries_shape_with_look_direction = Mock()
-            var_not_filtered_for_timeseries_shape_with_look_direction.attrs = {
-                "CATDESC": "var_not_filtered_for_timeseries_shape_with_look_direction",
-                "VAR_TYPE": "data",
-                "FIELDNAM": "something",
-                "DEPEND_0": "time_col_good",
-                "SCALETYP": "linear",
-                "SCALEMIN": 1,
-                "DISPLAY_TYPE": 'time_series'
-            }
-            var_not_filtered_for_timeseries_shape_with_look_direction.shape = (1, 2)
+        returned_info = CdfVariableParser.parse_info_from_cdf(mock_cdf, MultiDimensionVariableSelector)
 
-            mock_cdf.items.return_value = {
-                'var0': var_that_is_not_filtered,
-                'var1': var_filtered_for_incorrect_shape,
-                'var2': var_filtered_for_missing_fieldnam,
-                'var3': var_filtered_for_missing_delta_minus,
-                'var4': var_filtered_for_missing_delta_plus,
-                'var5': var_not_filtered_for_linear_scaletype_and_scalemin_nonzero,
-                'var6': var_filtered_for_scaletype_log_and_scalemin_zero,
-                'var7': var_not_filtered_for_scaletype_log_and_scalemin_nonzero,
-                'var8': var_not_filtered_for_scaletype_missing_and_scalemin_zero,
-                'var9': var_not_filtered_for_scaletype_missing_and_scalemin_nonzero,
-                'var10': var_filtered_for_wrong_time_units,
-                'var11': var_filtered_for_wrong_timeseries_shape,
-                'var12': var_that_is_not_filtered_three_dimensional_spectrogram,
-                'var13': var_not_filtered_for_timeseries_shape_with_look_direction
-            }.items()
-
-            mock_time_column_good = Mock()
-            mock_time_column_good.attrs = {'DELTA_MINUS_VAR': '', 'DELTA_PLUS_VAR': '', 'UNITS': 'ns'}
-            mock_time_col_no_delta_minus = Mock()
-            mock_time_col_no_delta_minus.attrs = {'DELTA_PLUS_VAR': '', 'UNITS': 'ns'}
-            mock_time_col_no_delta_plus = Mock()
-            mock_time_col_no_delta_plus.attrs = {'DELTA_MINUS_VAR': '', 'UNITS': 'ns'}
-            mock_time_col_unit_ms = Mock()
-            mock_time_col_unit_ms.attrs = {'DELTA_MINUS_VAR': '', 'DELTA_PLUS_VAR': '', 'UNITS': 'ms'}
-            cdf_items = {'time_col_good': mock_time_column_good,
-                         'time_col_no_delta_minus': mock_time_col_no_delta_minus,
-                         'time_col_no_delta_plus': mock_time_col_no_delta_plus,
-                         'time_col_unit_ms': mock_time_col_unit_ms}
-            mock_cdf.__getitem__ = Mock()
-            mock_cdf.__getitem__.side_effect = lambda key: cdf_items[key]
-
-            returned_info = CdfVariableParser.parse_info_from_cdf(mock_cdf)
-
-            self.assertEqual(expected_info, returned_info)
+        self.assertEqual(expected_info, returned_info)
 
 
 
@@ -310,17 +268,12 @@ class TestCdfVariableParser(unittest.TestCase):
 
         mock_time_column_good = Mock()
         mock_time_column_good.attrs = {'DELTA_MINUS_VAR': '', 'DELTA_PLUS_VAR': '', 'UNITS': 'ns'}
-        mock_time_col_no_delta_minus = Mock()
-        mock_time_col_no_delta_minus.attrs = {'DELTA_PLUS_VAR': '', 'UNITS': 'ns'}
-        mock_time_col_no_delta_plus = Mock()
-        mock_time_col_no_delta_plus.attrs = {'DELTA_MINUS_VAR': '', 'UNITS': 'ns'}
         mock_time_col_unit_ms = Mock()
         mock_time_col_unit_ms.attrs = {'DELTA_MINUS_VAR': '', 'DELTA_PLUS_VAR': '', 'UNITS': 'ms'}
-        cdf_items = {'time_col_good': mock_time_column_good, 'time_col_no_delta_minus': mock_time_col_no_delta_minus,
-                     'time_col_no_delta_plus': mock_time_col_no_delta_plus, 'time_col_unit_ms': mock_time_col_unit_ms}
+        cdf_items = {'time_col_good': mock_time_column_good, 'time_col_unit_ms': mock_time_col_unit_ms}
         mock_cdf.__getitem__ = Mock()
         mock_cdf.__getitem__.side_effect = lambda key: cdf_items[key]
 
-        returned_info = CdfVariableParser.parse_info_from_cdf(mock_cdf)
+        returned_info = CdfVariableParser.parse_info_from_cdf(mock_cdf, DefaultVariableSelector)
 
         self.assertEqual(expected_info, returned_info)

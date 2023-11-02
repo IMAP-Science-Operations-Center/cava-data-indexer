@@ -13,7 +13,6 @@ class PspFileInfo(NamedTuple):
 
 
 class PspFileParser:
-
     @staticmethod
     def get_dictionary_of_files(url: str, file_infos_by_mode=None, top_level_link=None) -> Dict[str, List[PspFileInfo]]:
         if file_infos_by_mode is None:

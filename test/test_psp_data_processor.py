@@ -1,8 +1,8 @@
 import unittest
 from datetime import date
-from unittest.mock import patch, call
+from unittest.mock import patch, call, sentinel
 
-from data_indexer.cdf_downloader.psp_downloader import PspDirectoryInfo
+from data_indexer.cdf_downloader.psp_downloader import PspDirectoryInfo, psp_isois_cda_base_url
 from data_indexer.cdf_downloader.psp_file_parser import PspFileInfo
 from data_indexer.cdf_parser.cdf_global_parser import CdfGlobalInfo
 from data_indexer.cdf_parser.cdf_parser import CdfFileInfo
@@ -17,12 +17,12 @@ class TestPspDataProcessor(unittest.TestCase):
     def test_gets_filenames_and_downloads_the_first_file_in_list(self, mock_downloader, mock_cdf_parser):
         self.maxDiff = None
         mock_downloader.get_all_metadata.return_value = \
-            [PspDirectoryInfo('ISOIS-EPIHi', 'epihi', {
+            [PspDirectoryInfo(psp_isois_cda_base_url, 'ISOIS-EPIHi', 'epihi', {
                 'het_rate1': [PspFileInfo('link1', 'psp_isois-epihi_l2-het-rates3600_20190102_v10.cdf', '2022'),
                               PspFileInfo('link2', 'psp_isois-epihi_l2-het-rates3600_20190103_v10.cdf', '2022')],
                 'het_rate2': [PspFileInfo('link3', 'psp_isois-epihi_l2-het-rates60_20190102_v11.cdf', '2023'),
-                              PspFileInfo('link4', 'psp_isois-epihi_l2-het-rates60_20190105_v11.cdf', '2023')]}),
-             PspDirectoryInfo('ISOIS', 'merged',
+                              PspFileInfo('link4', 'psp_isois-epihi_l2-het-rates60_20190105_v11.cdf', '2023')]}, sentinel.variable_selector_1),
+             PspDirectoryInfo(psp_isois_cda_base_url, 'ISOIS', 'merged',
                               {
                                   'ephem': [
                                       PspFileInfo('linkfile_to_download5.cdf', 'psp_isois_l2-ephem_20181111_v12.cdf',
@@ -33,8 +33,8 @@ class TestPspDataProcessor(unittest.TestCase):
                                       PspFileInfo('linkfile_to_download7.cdf', 'psp_isois_l2-summary_20181114_v13.cdf',
                                                   '2023'),
                                       PspFileInfo('linkfile_to_download8.cdf', 'psp_isois_l2-summary_20181115_v13.cdf',
-                                                  '2023')]}
-                              )
+                                                  '2023')]},
+                              sentinel.variable_selector_2)
              ]
 
         mock_downloader.get_cdf_file.side_effect = [
@@ -62,10 +62,10 @@ class TestPspDataProcessor(unittest.TestCase):
 
         actual_index = PspDataProcessor.get_metadata_index()
 
-        self.assertEqual([call('psp_isois-epihi_l2-het-rates3600_20190102_v10.cdf', 'epihi', 'het_rate1', '2022'),
-                          call('psp_isois-epihi_l2-het-rates60_20190102_v11.cdf', 'epihi', 'het_rate2', '2023'),
-                          call('psp_isois_l2-ephem_20181111_v12.cdf', 'merged', 'ephem', '2022'),
-                          call('psp_isois_l2-summary_20181114_v13.cdf', 'merged', 'summary', '2023')],
+        self.assertEqual([call(psp_isois_cda_base_url, 'psp_isois-epihi_l2-het-rates3600_20190102_v10.cdf', 'epihi', 'het_rate1', '2022'),
+                          call(psp_isois_cda_base_url, 'psp_isois-epihi_l2-het-rates60_20190102_v11.cdf', 'epihi', 'het_rate2', '2023'),
+                          call(psp_isois_cda_base_url, 'psp_isois_l2-ephem_20181111_v12.cdf', 'merged', 'ephem', '2022'),
+                          call(psp_isois_cda_base_url, 'psp_isois_l2-summary_20181114_v13.cdf', 'merged', 'summary', '2023')],
                          mock_downloader.get_cdf_file.call_args_list)
 
         self.assertEqual([{"variables": [{'catalog_description': 'a description v1',
@@ -119,3 +119,9 @@ class TestPspDataProcessor(unittest.TestCase):
         self.assertEqual(b'some data 2', mock_cdf_parser.parse_cdf_bytes.call_args_list[1].args[0])
         self.assertEqual(b'some data 3', mock_cdf_parser.parse_cdf_bytes.call_args_list[2].args[0])
         self.assertEqual(b'some data 4', mock_cdf_parser.parse_cdf_bytes.call_args_list[3].args[0])
+
+        self.assertEqual(sentinel.variable_selector_1, mock_cdf_parser.parse_cdf_bytes.call_args_list[0].args[1])
+        self.assertEqual(sentinel.variable_selector_1, mock_cdf_parser.parse_cdf_bytes.call_args_list[1].args[1])
+
+        self.assertEqual(sentinel.variable_selector_2, mock_cdf_parser.parse_cdf_bytes.call_args_list[2].args[1])
+        self.assertEqual(sentinel.variable_selector_2, mock_cdf_parser.parse_cdf_bytes.call_args_list[3].args[1])
