@@ -30,6 +30,7 @@ class PspDownloader:
                          PspDownloader._get_metadata_for_isois(psp_isois_cda_base_url, 'ISOIS-EPILo', 'epilo', MultiDimensionVariableSelector),
                          PspDownloader._get_metadata_for_isois(psp_isois_cda_base_url, 'ISOIS', 'merged', DefaultVariableSelector),
                          PspDownloader._get_metadata_for_fields(psp_fields_cda_base_url, 'FIELDS', 'mag_rtn_4_per_cycle', MultiDimensionVariableSelector),
+                         PspDownloader._get_metadata_for_fields(psp_fields_cda_base_url, 'FIELDS', 'mag_rtn_1min', MultiDimensionVariableSelector),
                          ]
 
         return psp_filenames

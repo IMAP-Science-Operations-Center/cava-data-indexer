@@ -23,7 +23,7 @@ class TestPspDownloader(TestCase):
 
         merged_filenames = {"summary": [PspFileInfo("summary_1.cdf", "name7", "2004")]}
 
-        fields_filenames = {"": [
+        fields_4_per_cycle_filenames = {"": [
             PspFileInfo("psp_fld_l2_mag_rtn_4_sa_per_cyc_20230101_v02.cdf", "psp_fld_l2_mag_rtn_4_sa_per_cyc_20230101_v02", "2023"),
             PspFileInfo("psp_fld_l2_mag_rtn_4_sa_per_cyc_20230102_v02.cdf", "psp_fld_l2_mag_rtn_4_sa_per_cyc_20230102_v02", "2023"),
             PspFileInfo("psp_fld_l2_mag_rtn_4_sa_per_cyc_20220101_v02.cdf", "psp_fld_l2_mag_rtn_4_sa_per_cyc_20220101_v02", "2022"),
@@ -31,14 +31,20 @@ class TestPspDownloader(TestCase):
             PspFileInfo("psp_fld_l2_mag_rtn_4_sa_per_cyc_20210101_v02.cdf", "psp_fld_l2_mag_rtn_4_sa_per_cyc_20210101_v02", "2021")
         ]}
 
-        mock_psp_file_parser.get_dictionary_of_files.side_effect = [epihi_filenames, epilo_filenames, merged_filenames, fields_filenames]
+        fields_1min_filenames = {"": [
+            PspFileInfo("psp_fld_l2_mag_rtn_1min_20230101_v02.cdf", "psp_fld_l2_mag_rtn_1min_20230101_v02", "2023"),
+        ]}
+
+        mock_psp_file_parser.get_dictionary_of_files.side_effect = [
+            epihi_filenames, epilo_filenames, merged_filenames, fields_4_per_cycle_filenames, fields_1min_filenames]
 
         metadata = PspDownloader.get_all_metadata()
 
         expected_metadata = [PspDirectoryInfo(psp_isois_cda_base_url, "ISOIS-EPIHi", "epihi", epihi_filenames, DefaultVariableSelector),
                              PspDirectoryInfo(psp_isois_cda_base_url, "ISOIS-EPILo", "epilo", epilo_filenames, MultiDimensionVariableSelector),
                              PspDirectoryInfo(psp_isois_cda_base_url, "ISOIS", "merged", merged_filenames, DefaultVariableSelector),
-                             PspDirectoryInfo(psp_fields_cda_base_url, 'FIELDS', 'mag_rtn_4_per_cycle', fields_filenames, MultiDimensionVariableSelector)
+                             PspDirectoryInfo(psp_fields_cda_base_url, 'FIELDS', 'mag_rtn_4_per_cycle', fields_4_per_cycle_filenames, MultiDimensionVariableSelector),
+                             PspDirectoryInfo(psp_fields_cda_base_url, 'FIELDS', 'mag_rtn_1min', fields_1min_filenames, MultiDimensionVariableSelector),
                              ]
 
         self.assertEqual(expected_metadata, metadata)
@@ -50,6 +56,8 @@ class TestPspDownloader(TestCase):
             'https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/merged/l2/')
         mock_psp_file_parser.get_dictionary_of_files.assert_any_call(
             'https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/', top_level_link="")
+        mock_psp_file_parser.get_dictionary_of_files.assert_any_call(
+            'https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/', top_level_link="")
 
     @patch('data_indexer.cdf_downloader.psp_downloader.ssl.create_default_context')
     @patch('data_indexer.cdf_downloader.psp_downloader.urllib')
