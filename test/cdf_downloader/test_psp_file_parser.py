@@ -2,72 +2,62 @@ from pathlib import Path
 from unittest import TestCase
 from unittest.mock import patch, call, MagicMock
 
-import certifi
-
 from data_indexer.cdf_downloader.psp_file_parser import PspFileParser, PspFileInfo
 
 
 class TestPspFileParser(TestCase):
-    @patch('data_indexer.cdf_downloader.psp_file_parser.ssl.create_default_context')
-    @patch('data_indexer.cdf_downloader.psp_file_parser.urllib')
-    def test_retrieves_list_of_files_for_types(self, mock_urllib, mock_create_default_context):
+    @patch('data_indexer.cdf_downloader.psp_file_parser.http_client')
+    def test_retrieves_list_of_files_for_types(self, mock_http_client):
         mock_html_folder_path = Path(__file__).parent / 'mock_html/'
         file_path = mock_html_folder_path / 'l2.html'
-        with open(file_path, 'rb') as file:
+        with open(file_path, 'r') as file:
             l2_html = file.read()
         file_path = mock_html_folder_path / 'het_rate_1.html'
-        with open(file_path, 'rb') as file:
+        with open(file_path, 'r') as file:
             het_rate_1_html = file.read()
 
         file_path = mock_html_folder_path / 'het_rate_2.html'
-        with open(file_path, 'rb') as file:
+        with open(file_path, 'r') as file:
             het_rate_2_html = file.read()
 
         file_path = mock_html_folder_path / '2022.html'
-        with open(file_path, 'rb') as file:
+        with open(file_path, 'r') as file:
             twentytwo_html = file.read()
 
         file_path = mock_html_folder_path / '2022_rate2.html'
-        with open(file_path, 'rb') as file:
+        with open(file_path, 'r') as file:
             twentytwo_r2_html = file.read()
 
         file_path = mock_html_folder_path / '2023.html'
-        with open(file_path, 'rb') as file:
+        with open(file_path, 'r') as file:
             twentythree_html = file.read()
 
         mock_l2_response = MagicMock()
         mock_l2_response.__enter__.return_value = l2_html
-        mock_l2_response.read.return_value = l2_html
+        mock_l2_response.text = l2_html
         mock_het_rate_1_response = MagicMock()
-        mock_het_rate_1_response.__enter__.return_value = het_rate_1_html
-        mock_het_rate_1_response.read.return_value = het_rate_1_html
+        mock_het_rate_1_response.text = het_rate_1_html
         mock_het_rate_2_response = MagicMock()
-        mock_het_rate_2_response.__enter__.return_value = het_rate_2_html
-        mock_het_rate_2_response.read.return_value = het_rate_2_html
+        mock_het_rate_2_response.text = het_rate_2_html
         mock_2022_response = MagicMock()
-        mock_2022_response.__enter__.return_value = twentytwo_html
-        mock_2022_response.read.return_value = twentytwo_html
+        mock_2022_response.text = twentytwo_html
         mock_2022_r2_response = MagicMock()
-        mock_2022_r2_response.__enter__.return_value = twentytwo_r2_html
-        mock_2022_r2_response.read.return_value = twentytwo_r2_html
+        mock_2022_r2_response.text = twentytwo_r2_html
         mock_2023_response = MagicMock()
-        mock_2023_response.__enter__.return_value = twentythree_html
-        mock_2023_response.read.return_value = twentythree_html
+        mock_2023_response.text = twentythree_html
 
-        mock_urllib.request.urlopen.side_effect = [mock_l2_response, mock_het_rate_1_response, mock_2022_response,
-                                                   mock_het_rate_2_response, mock_2022_r2_response, mock_2023_response]
+        mock_http_client.get.side_effect = [mock_l2_response, mock_het_rate_1_response, mock_2022_response,
+                                            mock_het_rate_2_response, mock_2022_r2_response, mock_2023_response]
 
         file_dictionary = PspFileParser.get_dictionary_of_files("https://url.site/l2/")
 
-        mock_create_default_context.assert_called_with(cafile=certifi.where())
-
-        mock_urllib.request.urlopen.assert_has_calls([
-            call("https://url.site/l2/", context=mock_create_default_context.return_value),
-            call("https://url.site/l2/het_rate_1/", context=mock_create_default_context.return_value),
-            call("https://url.site/l2/het_rate_1/2022/", context=mock_create_default_context.return_value),
-            call("https://url.site/l2/het_rate_2/", context=mock_create_default_context.return_value),
-            call("https://url.site/l2/het_rate_2/2022_rate2/", context=mock_create_default_context.return_value),
-            call("https://url.site/l2/het_rate_2/2023/", context=mock_create_default_context.return_value),
+        mock_http_client.get.assert_has_calls([
+            call("https://url.site/l2/"),
+            call("https://url.site/l2/het_rate_1/"),
+            call("https://url.site/l2/het_rate_1/2022/"),
+            call("https://url.site/l2/het_rate_2/"),
+            call("https://url.site/l2/het_rate_2/2022_rate2/"),
+            call("https://url.site/l2/het_rate_2/2023/"),
         ])
 
         expected_file_dictionary = {
