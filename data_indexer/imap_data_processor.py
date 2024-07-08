@@ -3,6 +3,7 @@ from datetime import datetime
 
 from data_indexer import utils, dates_available
 from data_indexer.cdf_downloader.imap_downloader import get_all_metadata, get_cdf_file
+from data_indexer.cdf_downloader.psp_downloader import FileCadence
 from data_indexer.cdf_parser.cdf_parser import CdfParser
 from data_indexer.cdf_parser.variable_selector.default_variable_selector import DefaultVariableSelector
 
@@ -33,7 +34,7 @@ def get_metadata_index():
         link = cdf["link"].replace(first_file_metadata["file_name"], file_name_format)
         instrument = _capitalize_isois_instrument_name(first_file_metadata["instrument_id"])
         index.append(utils.get_index_entry(cdf_file_info, link, cdf["link"],
-                                           available_dates, instrument, "IMAP"))
+                                           available_dates, instrument, "IMAP",FileCadence.DAILY))
     return index
 
 def _capitalize_isois_instrument_name(instrument_name: str):

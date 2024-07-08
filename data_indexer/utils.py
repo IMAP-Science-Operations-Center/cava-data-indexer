@@ -2,11 +2,12 @@ import dataclasses
 from datetime import date
 from typing import Dict, List
 
+from data_indexer.cdf_downloader.psp_downloader import FileCadence
 from data_indexer.cdf_parser.cdf_parser import CdfFileInfo
 
 
 def get_index_entry(cdf_file_info: CdfFileInfo, source_file_format: str, description_source_file: str,
-                    available_dates: List[List[date]], instrument: str, mission: str) -> Dict:
+                    available_dates: List[List[date]], instrument: str, mission: str,file_cadence:FileCadence) -> Dict:
 
     return {"variables": [dataclasses.asdict(info) for info in cdf_file_info.variable_infos], "source_file_format": source_file_format,
             "description_source_file": description_source_file,
@@ -16,4 +17,6 @@ def get_index_entry(cdf_file_info: CdfFileInfo, source_file_format: str, descrip
             "version": cdf_file_info.global_info.data_version,
             "generation_date": str(cdf_file_info.global_info.generation_date),
             "instrument": instrument,
-            "mission": mission}
+            "mission": mission,
+            "file_cadence": file_cadence.value
+            }

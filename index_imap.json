@@ -90,7 +90,8 @@
     "version": "13",
     "generation_date": "2022-07-27",
     "instrument": "ISOIS",
-    "mission": "IMAP"
+    "mission": "IMAP",
+    "file_cadence": "daily"
   },
   {
     "variables": [
@@ -230,6 +231,7 @@
     "version": "13",
     "generation_date": "2022-07-27",
     "instrument": "ISOIS",
-    "mission": "IMAP"
+    "mission": "IMAP",
+    "file_cadence": "daily"
   }
 ]

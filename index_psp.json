@@ -581,7 +581,8 @@
     "version": "19",
     "generation_date": "2024-03-07",
     "instrument": "ISOIS-EPIHi",
-    "mission": "PSP"
+    "mission": "PSP",
+    "file_cadence": "daily"
   },
   {
     "variables": [
@@ -1133,7 +1134,8 @@
     "version": "19",
     "generation_date": "2024-03-07",
     "instrument": "ISOIS-EPIHi",
-    "mission": "PSP"
+    "mission": "PSP",
+    "file_cadence": "daily"
   },
   {
     "variables": [
@@ -1357,7 +1359,8 @@
     "version": "19",
     "generation_date": "2024-03-07",
     "instrument": "ISOIS-EPIHi",
-    "mission": "PSP"
+    "mission": "PSP",
+    "file_cadence": "daily"
   },
   {
     "variables": [
@@ -1585,7 +1588,8 @@
     "version": "19",
     "generation_date": "2024-03-07",
     "instrument": "ISOIS-EPIHi",
-    "mission": "PSP"
+    "mission": "PSP",
+    "file_cadence": "daily"
   },
   {
     "variables": [
@@ -2169,7 +2173,8 @@
     "version": "19",
     "generation_date": "2024-03-07",
     "instrument": "ISOIS-EPIHi",
-    "mission": "PSP"
+    "mission": "PSP",
+    "file_cadence": "daily"
   },
   {
     "variables": [
@@ -2717,7 +2722,8 @@
     "version": "19",
     "generation_date": "2024-03-07",
     "instrument": "ISOIS-EPIHi",
-    "mission": "PSP"
+    "mission": "PSP",
+    "file_cadence": "daily"
   },
   {
     "variables": [
@@ -2941,7 +2947,8 @@
     "version": "19",
     "generation_date": "2024-03-07",
     "instrument": "ISOIS-EPIHi",
-    "mission": "PSP"
+    "mission": "PSP",
+    "file_cadence": "daily"
   },
   {
     "variables": [
@@ -3169,7 +3176,8 @@
     "version": "19",
     "generation_date": "2024-03-07",
     "instrument": "ISOIS-EPIHi",
-    "mission": "PSP"
+    "mission": "PSP",
+    "file_cadence": "daily"
   },
   {
     "variables": [
@@ -3563,7 +3571,8 @@
     "version": "19",
     "generation_date": "2024-03-07",
     "instrument": "ISOIS-EPIHi",
-    "mission": "PSP"
+    "mission": "PSP",
+    "file_cadence": "daily"
   },
   {
     "variables": [
@@ -3925,7 +3934,8 @@
     "version": "19",
     "generation_date": "2024-03-07",
     "instrument": "ISOIS-EPIHi",
-    "mission": "PSP"
+    "mission": "PSP",
+    "file_cadence": "daily"
   },
   {
     "variables": [
@@ -4123,7 +4133,8 @@
     "version": "19",
     "generation_date": "2024-03-07",
     "instrument": "ISOIS-EPIHi",
-    "mission": "PSP"
+    "mission": "PSP",
+    "file_cadence": "daily"
   },
   {
     "variables": [
@@ -4301,7 +4312,8 @@
     "version": "19",
     "generation_date": "2024-03-07",
     "instrument": "ISOIS-EPIHi",
-    "mission": "PSP"
+    "mission": "PSP",
+    "file_cadence": "daily"
   },
   {
     "variables": [
@@ -4579,7 +4591,8 @@
     "version": "19",
     "generation_date": "2024-03-07",
     "instrument": "ISOIS-EPIHi",
-    "mission": "PSP"
+    "mission": "PSP",
+    "file_cadence": "daily"
   },
   {
     "variables": [
@@ -5089,7 +5102,8 @@
     "version": "19",
     "generation_date": "2024-03-07",
     "instrument": "ISOIS-EPILo",
-    "mission": "PSP"
+    "mission": "PSP",
+    "file_cadence": "daily"
   },
   {
     "variables": [
@@ -5507,7 +5521,8 @@
     "version": "19",
     "generation_date": "2024-03-08",
     "instrument": "ISOIS-EPILo",
-    "mission": "PSP"
+    "mission": "PSP",
+    "file_cadence": "daily"
   },
   {
     "variables": [
@@ -5600,7 +5615,8 @@
     "version": "19",
     "generation_date": "2024-03-08",
     "instrument": "ISOIS",
-    "mission": "PSP"
+    "mission": "PSP",
+    "file_cadence": "daily"
   },
   {
     "variables": [
@@ -5780,7 +5796,8 @@
     "version": "19",
     "generation_date": "2024-03-07",
     "instrument": "ISOIS",
-    "mission": "PSP"
+    "mission": "PSP",
+    "file_cadence": "daily"
   },
   {
     "variables": [
@@ -5947,7 +5964,8 @@
     "version": "02",
     "generation_date": "2021-06-23",
     "instrument": "FIELDS",
-    "mission": "PSP"
+    "mission": "PSP",
+    "file_cadence": "daily"
   },
   {
     "variables": [
@@ -6114,7 +6132,8 @@
     "version": "02",
     "generation_date": "2021-06-23",
     "instrument": "FIELDS",
-    "mission": "PSP"
+    "mission": "PSP",
+    "file_cadence": "daily"
   },
   {
     "variables": [
@@ -6860,6 +6879,7 @@
     "version": "1",
     "generation_date": "None",
     "instrument": "OMNI",
-    "mission": "OMNI"
+    "mission": "OMNI",
+    "file_cadence": "six_month"
   }
 ]
