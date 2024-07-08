@@ -14,17 +14,21 @@ class CdfGlobalInfo:
 
 
 class CdfGlobalParser:
+
     @staticmethod
     def parse_global_variables_from_cdf(cdf: pycdf.CDF) -> CdfGlobalInfo:
         logical_source = str(cdf.attrs['Logical_source'])
         logical_source_description = str(cdf.attrs['Logical_source_description'])
         data_version = str(cdf.attrs['Data_version'])
         generation_date_string = str(cdf.attrs['Generation_date'])
-        time = parse_time(generation_date_string)
-        if time is None:
-            filename = Path(cdf.pathname.decode()).name
-            raise ValueError(f"Failed to parse generation date `{generation_date_string}` from CDF `{filename}`")
-        generation_date = time.date()
+        if generation_date_string != 'Ongoing':
+            time = parse_time(generation_date_string)
+            if time is None:
+                filename = Path(cdf.pathname.decode()).name
+                raise ValueError(f"Failed to parse generation date `{generation_date_string}` from CDF `{filename}`")
+            generation_date = time.date()
+        else:
+            generation_date = None
         return CdfGlobalInfo(logical_source, logical_source_description, data_version, generation_date)
 
 def parse_time(time_string: str) -> datetime:

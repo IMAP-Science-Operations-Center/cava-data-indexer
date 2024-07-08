@@ -8,6 +8,7 @@ import test
 from data_indexer.cdf_parser.cdf_variable_parser import CdfVariableParser, CdfVariableInfo
 from data_indexer.cdf_parser.variable_selector.default_variable_selector import DefaultVariableSelector
 from data_indexer.cdf_parser.variable_selector.multi_dimension_variable_selector import MultiDimensionVariableSelector
+from data_indexer.cdf_parser.variable_selector.omni_variable_selector import OmniVariableSelector
 
 
 class TestCdfVariableParser(unittest.TestCase):
@@ -36,6 +37,15 @@ class TestCdfVariableParser(unittest.TestCase):
             parsed_info = CdfVariableParser.parse_info_from_cdf(cdf, DefaultVariableSelector)
 
         self.assertEqual(expected_info, parsed_info)
+
+    def test_parse_info_from_omni_data(self):
+        cdf_path = str(Path(test.__file__).parent / 'test_data/omni2_h0_mrg1hr_20240101_v01.cdf')
+        with pycdf.CDF(cdf_path) as cdf:
+            parsed_info = CdfVariableParser.parse_info_from_cdf(cdf, OmniVariableSelector)
+
+        variable_names = [variable.variable_name for variable in parsed_info]
+        self.assertNotIn('Epoch', variable_names)
+        self.assertEqual(48,len(variable_names))
 
     def test_parse_info_from_epilo_cdf_filters_out_variables_that_are_missing_key_features(self):
         mock_cdf = Mock()

@@ -34,6 +34,18 @@ class TestCdfGlobalParser(unittest.TestCase):
 
         self.assertEqual(expected_global_info, global_info)
 
+    def test_parse_global_variables_from_omni_cdf(self):
+        expected_global_info = CdfGlobalInfo(logical_source="omni2_h0_mrg1hr", data_version="1",
+                                             logical_source_description="OMNI Combined, Definitive, Hourly IMF and Plasma Data, and Energetic Proton Fluxes, Time-Shifted to the Nose of the Earth's Bow Shock, plus Solar and Magnetic Indices",
+                                             generation_date=None)
+
+        cdf_path = str(Path(test.__file__).parent / 'test_data/omni2_h0_mrg1hr_20240101_v01.cdf')
+
+        with pycdf.CDF(cdf_path) as cdf:
+            global_info = CdfGlobalParser.parse_global_variables_from_cdf(cdf)
+
+        self.assertEqual(expected_global_info, global_info)
+
     def test_raises_value_error_if_cdf_generation_date_fails_to_be_parsed(self):
         with self.assertRaises(ValueError) as err:
             cdf_path = str(Path(test.__file__).parent / 'test_data/unsupported_generation_date.cdf')

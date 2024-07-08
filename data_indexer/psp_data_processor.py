@@ -25,7 +25,7 @@ class PspDataProcessor:
                 rebuilt_link = '_'.join(split_link[:-2]) + '_%yyyymmdd%_' + split_link[-1]
                 rebuilt_link = rebuilt_link.replace(psp_file_info.year, '%yyyy%')
                 index.append(utils.get_index_entry(cdf_info, rebuilt_link, cdf['link'], available_dates,
-                                                   psp_directory_info.instrument_human_readable, 'PSP'))
+                                                   psp_directory_info.instrument_human_readable, psp_directory_info.mission))
         return index
 
 

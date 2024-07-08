@@ -2,10 +2,11 @@ from unittest import TestCase
 from unittest.mock import patch, Mock, call
 
 from data_indexer.cdf_downloader.psp_downloader import PspDownloader, PspDirectoryInfo, psp_isois_cda_base_url, \
-    psp_fields_cda_base_url
+    psp_fields_cda_base_url, omni_cda_base_url
 from data_indexer.cdf_downloader.psp_file_parser import PspFileParser, PspFileInfo
 from data_indexer.cdf_parser.variable_selector.default_variable_selector import DefaultVariableSelector
 from data_indexer.cdf_parser.variable_selector.multi_dimension_variable_selector import MultiDimensionVariableSelector
+from data_indexer.cdf_parser.variable_selector.omni_variable_selector import OmniVariableSelector
 
 
 class TestPspDownloader(TestCase):
@@ -40,20 +41,26 @@ class TestPspDownloader(TestCase):
             PspFileInfo("psp_fld_l2_mag_rtn_1min_20230101_v02.cdf", "psp_fld_l2_mag_rtn_1min_20230101_v02", "2023"),
         ]}
 
+        omni_filenames = {"": [
+            PspFileInfo("omni2_h0_mrg1hr_20240101_v01.cdf", "omni2_h0_mrg1hr_20240101_v01", "2024"),
+        ]}
+
         mock_psp_file_parser.get_dictionary_of_files.side_effect = [
-            epihi_filenames, epilo_filenames, merged_filenames, fields_4_per_cycle_filenames, fields_1min_filenames]
+            epihi_filenames, epilo_filenames, merged_filenames, fields_4_per_cycle_filenames, fields_1min_filenames, omni_filenames]
 
         metadata = PspDownloader.get_all_metadata()
 
         expected_metadata = [
-            PspDirectoryInfo(psp_isois_cda_base_url, "ISOIS-EPIHi", "epihi", epihi_filenames, DefaultVariableSelector),
+            PspDirectoryInfo(psp_isois_cda_base_url, "ISOIS-EPIHi", "epihi", epihi_filenames, DefaultVariableSelector, "PSP"),
             PspDirectoryInfo(psp_isois_cda_base_url, "ISOIS-EPILo", "epilo", epilo_filenames,
-                             MultiDimensionVariableSelector),
-            PspDirectoryInfo(psp_isois_cda_base_url, "ISOIS", "merged", merged_filenames, DefaultVariableSelector),
+                             MultiDimensionVariableSelector,"PSP"),
+            PspDirectoryInfo(psp_isois_cda_base_url, "ISOIS", "merged", merged_filenames, DefaultVariableSelector,"PSP"),
             PspDirectoryInfo(psp_fields_cda_base_url, 'FIELDS', 'mag_rtn_4_per_cycle', fields_4_per_cycle_filenames,
-                             MultiDimensionVariableSelector),
+                             MultiDimensionVariableSelector,"PSP"),
             PspDirectoryInfo(psp_fields_cda_base_url, 'FIELDS', 'mag_rtn_1min', fields_1min_filenames,
-                             MultiDimensionVariableSelector),
+                             MultiDimensionVariableSelector,"PSP"),
+        PspDirectoryInfo(omni_cda_base_url, 'OMNI', 'hourly', omni_filenames,
+                             OmniVariableSelector,"OMNI"),
         ]
 
         self.assertEqual(expected_metadata, metadata)
@@ -67,6 +74,8 @@ class TestPspDownloader(TestCase):
             'https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/', top_level_link="")
         mock_psp_file_parser.get_dictionary_of_files.assert_any_call(
             'https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/', top_level_link="")
+        mock_psp_file_parser.get_dictionary_of_files.assert_any_call(
+            'https://cdaweb.gsfc.nasa.gov/pub/data/omni/omni_cdaweb/hourly/', top_level_link="")
 
     @patch('data_indexer.cdf_downloader.psp_downloader.http_client')
     def test_download_individual_file(self, mock_http_client):
