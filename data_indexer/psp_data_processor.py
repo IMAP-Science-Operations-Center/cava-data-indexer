@@ -6,6 +6,7 @@ from data_indexer.cdf_parser.cdf_parser import CdfParser
 
 
 class PspDataProcessor:
+
     @staticmethod
     def get_metadata_index():
         index = []
@@ -14,9 +15,8 @@ class PspDataProcessor:
 
         for psp_directory_info in psp_directory_infos:
             for category, file_infos in psp_directory_info.file_infos_by_mode.items():
-                parsed_dates = [datetime.strptime(file_info.name.split('_')[-2], '%Y%m%d').date() for file_info in
-                                file_infos]
-                available_dates = dates_available.get_date_ranges(parsed_dates)
+
+                available_dates = dates_available.get_date_ranges_from_file_infos(file_infos,psp_directory_info.file_cadence)
                 psp_file_info = file_infos[0]
                 cdf = PspDownloader.get_cdf_file(psp_directory_info.base_url, psp_file_info.name, psp_directory_info.instrument_url, category,
                                                  psp_file_info.year)

@@ -7,15 +7,15 @@ from data_indexer.cdf_parser.variable_selector.default_variable_selector import 
 from data_indexer.cdf_parser.variable_selector.multi_dimension_variable_selector import MultiDimensionVariableSelector
 from data_indexer.cdf_parser.variable_selector.omni_variable_selector import OmniVariableSelector
 from data_indexer.cdf_parser.variable_selector.variable_selector import VariableSelector
+from data_indexer.file_cadence.daily_file_cadence import DailyFileCadence
+from data_indexer.file_cadence.file_cadence import FileCadence
+from data_indexer.file_cadence.six_month_file_cadence import SixMonthFileCadence
 from data_indexer.http_client import http_client
 
 psp_isois_cda_base_url = 'https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/{}/l2/'
 psp_fields_cda_base_url = 'https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/{}/'
 omni_cda_base_url = 'https://cdaweb.gsfc.nasa.gov/pub/data/omni/omni_cdaweb/{}/'
 
-class FileCadence(Enum):
-    DAILY = 'daily'
-    SIX_MONTH = 'six_month'
 
 @dataclass
 class PspDirectoryInfo:
@@ -25,7 +25,7 @@ class PspDirectoryInfo:
     file_infos_by_mode: Dict[str, List[PspFileInfo]]
     variable_selector: type[VariableSelector]
     mission: str
-    file_cadence: FileCadence
+    file_cadence: type[FileCadence]
 
 
 class PspDownloader:
@@ -33,22 +33,22 @@ class PspDownloader:
     def get_all_metadata() -> List[PspDirectoryInfo]:
         psp_filenames = [
             PspDownloader._get_metadata_for_multiple_data_sets(psp_isois_cda_base_url, 'ISOIS-EPIHi', 'epihi',
-                                                  DefaultVariableSelector,'PSP',FileCadence.DAILY),
+                                                  DefaultVariableSelector,'PSP',DailyFileCadence),
             PspDownloader._get_metadata_for_multiple_data_sets(psp_isois_cda_base_url, 'ISOIS-EPILo', 'epilo',
-                                                  MultiDimensionVariableSelector,'PSP',FileCadence.DAILY),
-            PspDownloader._get_metadata_for_multiple_data_sets(psp_isois_cda_base_url, 'ISOIS', 'merged', DefaultVariableSelector,'PSP',FileCadence.DAILY),
+                                                  MultiDimensionVariableSelector,'PSP',DailyFileCadence),
+            PspDownloader._get_metadata_for_multiple_data_sets(psp_isois_cda_base_url, 'ISOIS', 'merged', DefaultVariableSelector,'PSP',DailyFileCadence),
             PspDownloader._get_metadata_for_one_data_set(psp_fields_cda_base_url, 'FIELDS', 'mag_rtn_4_per_cycle',
-                                                   MultiDimensionVariableSelector,'PSP',FileCadence.DAILY),
+                                                   MultiDimensionVariableSelector,'PSP',DailyFileCadence),
             PspDownloader._get_metadata_for_one_data_set(psp_fields_cda_base_url, 'FIELDS', 'mag_rtn_1min',
-                                                   MultiDimensionVariableSelector,'PSP',FileCadence.DAILY),
-            PspDownloader._get_metadata_for_one_data_set(omni_cda_base_url,'OMNI','hourly',OmniVariableSelector,'OMNI',FileCadence.SIX_MONTH)
+                                                   MultiDimensionVariableSelector,'PSP',DailyFileCadence),
+            PspDownloader._get_metadata_for_one_data_set(omni_cda_base_url,'OMNI','hourly',OmniVariableSelector,'OMNI',SixMonthFileCadence)
         ]
 
         return psp_filenames
 
     @staticmethod
     def _get_metadata_for_multiple_data_sets(base_url: str, instrument_human_readable: str, detector_url: str,
-                                variable_selector: type[VariableSelector], mission: str,file_cadence:FileCadence) -> PspDirectoryInfo:
+                                variable_selector: type[VariableSelector], mission: str,file_cadence:type[FileCadence]) -> PspDirectoryInfo:
         url = base_url.format(detector_url)
         file_infos_by_mode = PspFileParser.get_dictionary_of_files(url)
         return PspDirectoryInfo(base_url, instrument_human_readable, detector_url, file_infos_by_mode,
@@ -56,7 +56,7 @@ class PspDownloader:
 
     @staticmethod
     def _get_metadata_for_one_data_set(base_url: str, instrument_human_readable: str, detector_url: str,
-                                 variable_selector: type[VariableSelector], mission: str,file_cadence:FileCadence) -> PspDirectoryInfo:
+                                 variable_selector: type[VariableSelector], mission: str,file_cadence:type[FileCadence]) -> PspDirectoryInfo:
         url = base_url.format(detector_url)
         file_infos_by_mode = PspFileParser.get_dictionary_of_files(url, top_level_link='')
         return PspDirectoryInfo(base_url, instrument_human_readable, detector_url, file_infos_by_mode,

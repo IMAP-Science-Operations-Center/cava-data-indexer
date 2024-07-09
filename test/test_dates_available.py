@@ -1,5 +1,5 @@
 import unittest
-from datetime import date
+from datetime import date, datetime
 
 from data_indexer import dates_available
 
@@ -31,6 +31,26 @@ class TestDatesAvailable(unittest.TestCase):
 
         self.assertEqual(expected_output, output)
 
+
+    def test_contiguous_range_from_ranges(self):
+        cases = [('with no gap',
+                  [(datetime(2008, 1, 31), datetime(2008, 2, 1)), (datetime(2008, 2, 1), datetime(2008, 2, 20))],
+                  [(datetime(2008, 1, 31), datetime(2008, 2, 20))]),
+                 ('with gap',
+                  [(datetime(2008, 1, 31), datetime(2008, 2, 1)), (datetime(2008, 2, 3), datetime(2008, 2, 20))],
+                  [(datetime(2008, 1, 31), datetime(2008, 2, 1)), (datetime(2008, 2, 3), datetime(2008, 2, 20))]),
+
+                 ('unsorted',
+                  [(datetime(2008, 2, 3), datetime(2008, 2, 20)), (datetime(2008, 1, 31), datetime(2008, 2, 1))],
+                  [(datetime(2008, 1, 31), datetime(2008, 2, 1)), (datetime(2008, 2, 3), datetime(2008, 2, 20))]),
+                 ('overlap',
+                  [(datetime(2008, 1, 31), datetime(2008, 2, 3)), (datetime(2008, 2, 1), datetime(2008, 2, 5))],
+                  [(datetime(2008, 1, 31), datetime(2008, 2, 5))])
+                 ]
+        for name, input, expected_output in cases:
+            with self.subTest(name):
+                output = dates_available.get_contiguous_ranges(input)
+                self.assertEqual(expected_output, output)
 
 if __name__ == '__main__':
     unittest.main()

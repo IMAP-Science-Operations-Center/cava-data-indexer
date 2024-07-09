@@ -7,6 +7,8 @@ from data_indexer.cdf_downloader.psp_file_parser import PspFileParser, PspFileIn
 from data_indexer.cdf_parser.variable_selector.default_variable_selector import DefaultVariableSelector
 from data_indexer.cdf_parser.variable_selector.multi_dimension_variable_selector import MultiDimensionVariableSelector
 from data_indexer.cdf_parser.variable_selector.omni_variable_selector import OmniVariableSelector
+from data_indexer.file_cadence.daily_file_cadence import DailyFileCadence
+from data_indexer.file_cadence.six_month_file_cadence import SixMonthFileCadence
 
 
 class TestPspDownloader(TestCase):
@@ -51,16 +53,16 @@ class TestPspDownloader(TestCase):
         metadata = PspDownloader.get_all_metadata()
 
         expected_metadata = [
-            PspDirectoryInfo(psp_isois_cda_base_url, "ISOIS-EPIHi", "epihi", epihi_filenames, DefaultVariableSelector, "PSP", FileCadence.DAILY),
+            PspDirectoryInfo(psp_isois_cda_base_url, "ISOIS-EPIHi", "epihi", epihi_filenames, DefaultVariableSelector, "PSP", DailyFileCadence),
             PspDirectoryInfo(psp_isois_cda_base_url, "ISOIS-EPILo", "epilo", epilo_filenames,
-                             MultiDimensionVariableSelector,"PSP", FileCadence.DAILY),
-            PspDirectoryInfo(psp_isois_cda_base_url, "ISOIS", "merged", merged_filenames, DefaultVariableSelector,"PSP", FileCadence.DAILY),
+                             MultiDimensionVariableSelector,"PSP", DailyFileCadence),
+            PspDirectoryInfo(psp_isois_cda_base_url, "ISOIS", "merged", merged_filenames, DefaultVariableSelector,"PSP", DailyFileCadence),
             PspDirectoryInfo(psp_fields_cda_base_url, 'FIELDS', 'mag_rtn_4_per_cycle', fields_4_per_cycle_filenames,
-                             MultiDimensionVariableSelector,"PSP", FileCadence.DAILY),
+                             MultiDimensionVariableSelector,"PSP", DailyFileCadence),
             PspDirectoryInfo(psp_fields_cda_base_url, 'FIELDS', 'mag_rtn_1min', fields_1min_filenames,
-                             MultiDimensionVariableSelector,"PSP", FileCadence.DAILY),
+                             MultiDimensionVariableSelector,"PSP", DailyFileCadence),
         PspDirectoryInfo(omni_cda_base_url, 'OMNI', 'hourly', omni_filenames,
-                             OmniVariableSelector,"OMNI", FileCadence.SIX_MONTH),
+                             OmniVariableSelector,"OMNI", SixMonthFileCadence),
         ]
 
         self.assertEqual(expected_metadata, metadata)

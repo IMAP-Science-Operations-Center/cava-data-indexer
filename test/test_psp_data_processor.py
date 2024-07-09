@@ -7,6 +7,8 @@ from data_indexer.cdf_downloader.psp_file_parser import PspFileInfo
 from data_indexer.cdf_parser.cdf_global_parser import CdfGlobalInfo
 from data_indexer.cdf_parser.cdf_parser import CdfFileInfo
 from data_indexer.cdf_parser.cdf_variable_parser import CdfVariableInfo
+from data_indexer.file_cadence.daily_file_cadence import DailyFileCadence
+from data_indexer.file_cadence.six_month_file_cadence import SixMonthFileCadence
 from data_indexer.psp_data_processor import PspDataProcessor
 
 
@@ -21,7 +23,7 @@ class TestPspDataProcessor(unittest.TestCase):
                 'het_rate1': [PspFileInfo('link1', 'psp_isois-epihi_l2-het-rates3600_20190102_v10.cdf', '2022'),
                               PspFileInfo('link2', 'psp_isois-epihi_l2-het-rates3600_20190103_v10.cdf', '2022')],
                 'het_rate2': [PspFileInfo('link3', 'psp_isois-epihi_l2-het-rates60_20190102_v11.cdf', '2023'),
-                              PspFileInfo('link4', 'psp_isois-epihi_l2-het-rates60_20190105_v11.cdf', '2023')]}, sentinel.variable_selector_1,'PSP',FileCadence.DAILY),
+                              PspFileInfo('link4', 'psp_isois-epihi_l2-het-rates60_20190105_v11.cdf', '2023')]}, sentinel.variable_selector_1,'PSP',DailyFileCadence),
              PspDirectoryInfo(psp_isois_cda_base_url, 'ISOIS', 'merged',
                               {
                                   'ephem': [
@@ -34,7 +36,7 @@ class TestPspDataProcessor(unittest.TestCase):
                                                   '2023'),
                                       PspFileInfo('linkfile_to_download8.cdf', 'psp_isois_l2-summary_20181115_v13.cdf',
                                                   '2023')]},
-                              sentinel.variable_selector_2,'Not PSP',FileCadence.SIX_MONTH)
+                              sentinel.variable_selector_2,'Not PSP',SixMonthFileCadence)
              ]
 
         mock_downloader.get_cdf_file.side_effect = [
@@ -100,7 +102,7 @@ class TestPspDataProcessor(unittest.TestCase):
                            "logical_source": "psp_isois-epihi_l2-het-rates3600",
                            "logical_source_description": "PSP Description 12",
                            "version": "12", "generation_date": "2022-11-16",
-                           "dates_available": [["2018-11-11", "2018-11-12"]],
+                           "dates_available": [["2018-07-01", "2018-12-31"]],
                            "instrument": "ISOIS",
                            "mission": "Not PSP",
                            "file_cadence":"six_month"},
@@ -112,7 +114,7 @@ class TestPspDataProcessor(unittest.TestCase):
                            "logical_source": "psp_isois-epihi_l2-het-rates3600",
                            "logical_source_description": "PSP Description 13",
                            "version": "13", "generation_date": "2022-11-17",
-                           "dates_available": [["2018-11-14", "2018-11-15"]],
+                           "dates_available": [["2018-07-01", "2018-12-31"]],
                            "instrument": "ISOIS",
                            "mission": "Not PSP",
                            "file_cadence":"six_month"}],
