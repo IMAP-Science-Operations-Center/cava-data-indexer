@@ -8,12 +8,12 @@ class TestDefaultVariableSelector(unittest.TestCase):
     def setUp(self) -> None:
         self.mock_cdf = Mock()
         self.mock_cdf.attrs = {'Data_version': "99", 'Logical_source': "lsource",
-                          "Descriptor": "ISOIS-EPILO>Integrated Science Investigation of the Sun, Energetic Particle Instrument Lo"}
+                               "Descriptor": "ISOIS-EPILO>Integrated Science Investigation of the Sun, Energetic Particle Instrument Lo"}
         mock_time_column_good = Mock()
         mock_time_column_good.attrs = {'UNITS': 'ns'}
         mock_time_column_unknown = Mock()
         mock_time_column_unknown.attrs = {'UNITS': 'unknown'}
-        cdf_items = {"time_col_good":mock_time_column_good, "time_col_unknown":mock_time_column_unknown}
+        cdf_items = {"time_col_good": mock_time_column_good, "time_col_unknown": mock_time_column_unknown}
         self.mock_cdf.__getitem__ = Mock()
         self.mock_cdf.__getitem__.side_effect = lambda key: cdf_items[key]
 
@@ -28,7 +28,7 @@ class TestDefaultVariableSelector(unittest.TestCase):
             "SCALEMIN": 1,
             "DISPLAY_TYPE": 'time_series'
         }
-        accepted_variable.shape = (1, )
+        accepted_variable.shape = (1,)
 
         self.assertTrue(DefaultVariableSelector.should_include(accepted_variable, self.mock_cdf))
 
@@ -43,7 +43,7 @@ class TestDefaultVariableSelector(unittest.TestCase):
             "SCALEMIN": 1,
             "DISPLAY_TYPE": 'spectrogram'
         }
-        accepted_variable.shape = (1,2)
+        accepted_variable.shape = (1, 2)
 
         self.assertTrue(DefaultVariableSelector.should_include(accepted_variable, self.mock_cdf))
 
@@ -62,7 +62,6 @@ class TestDefaultVariableSelector(unittest.TestCase):
 
         self.assertFalse(DefaultVariableSelector.should_include(bad_shape_variable_timeseries, self.mock_cdf))
 
-
     def test_does_not_accept_variable_with_bad_shape_for_spectrogram(self):
         bad_shape_variable_spectrogram = Mock()
         bad_shape_variable_spectrogram.attrs = {
@@ -74,9 +73,9 @@ class TestDefaultVariableSelector(unittest.TestCase):
             "SCALEMIN": 1,
             "DISPLAY_TYPE": 'spectrogram'
         }
-        bad_shape_variable_spectrogram.shape = (9,9,9)
+        bad_shape_variable_spectrogram.shape = (9, 9, 9)
 
-        self.assertFalse(DefaultVariableSelector.should_include(bad_shape_variable_spectrogram, self.mock_cdf))
+        self.assertTrue(DefaultVariableSelector.should_include(bad_shape_variable_spectrogram, self.mock_cdf))
 
     def test_does_not_accept_log_scale_axis_with_invalid_scalemin(self):
         var_with_invalid_log_scalemin = Mock()
@@ -107,7 +106,6 @@ class TestDefaultVariableSelector(unittest.TestCase):
         var_with_unknown_time_unit.shape = (1,)
 
         self.assertFalse(DefaultVariableSelector.should_include(var_with_unknown_time_unit, self.mock_cdf))
-
 
 
 if __name__ == '__main__':

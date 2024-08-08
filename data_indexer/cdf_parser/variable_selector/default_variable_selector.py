@@ -5,7 +5,7 @@ from data_indexer.cdf_parser.variable_selector.variable_selector import Variable
 
 class DefaultVariableSelector(VariableSelector):
     acceptable_dimensions = {
-        'spectrogram': (2,),
+        'spectrogram': (2, 3),
         'time_series': (1,)
     }
 
@@ -20,5 +20,3 @@ class DefaultVariableSelector(VariableSelector):
         zscale = var.attrs['SCALETYP'] if 'SCALETYP' in var.attrs else 'linear'
         scale_is_valid = zscale == 'linear' or var.attrs['SCALEMIN'] != 0
         return has_correct_shape and time_is_ns and scale_is_valid
-
-

@@ -45,7 +45,7 @@ class TestCdfVariableParser(unittest.TestCase):
 
         variable_names = [variable.variable_name for variable in parsed_info]
         self.assertNotIn('Epoch', variable_names)
-        self.assertEqual(48,len(variable_names))
+        self.assertEqual(48, len(variable_names))
 
     def test_parse_info_from_epilo_cdf_filters_out_variables_that_are_missing_key_features(self):
         mock_cdf = Mock()
@@ -221,16 +221,15 @@ class TestCdfVariableParser(unittest.TestCase):
 
         self.assertEqual(expected_info, returned_info)
 
-
-
     def test_parse_info_from_non_epilo_cdf_filters_out_variables_that_are_missing_key_features(self):
         mock_cdf = Mock()
 
         mock_cdf.attrs = {'Data_version': "99", 'Logical_source': "lsource",
-"Descriptor": "ISOIS-EPIHI>Integrated Science Investigation of the Sun, Energetic Particle Instrument Hi"}
+                          "Descriptor": "ISOIS-EPIHI>Integrated Science Investigation of the Sun, Energetic Particle Instrument Hi"}
         expected_info = [
-            CdfVariableInfo("var0",'var_not_filtered','spectrogram'),
-            ]
+            CdfVariableInfo("var0", 'var_not_filtered', 'spectrogram'),
+            CdfVariableInfo("var1", 'var_that_not_filtered_three_dimensional_spectrogram', 'spectrogram'),
+        ]
 
         var_that_is_not_filtered = Mock()
         var_that_is_not_filtered.attrs = {
@@ -244,10 +243,10 @@ class TestCdfVariableParser(unittest.TestCase):
         }
         var_that_is_not_filtered.shape = (1, 2)
 
-        var_that_is_filtered_three_dimensional_spectrogram = Mock()
-        var_that_is_filtered_three_dimensional_spectrogram.shape = (1,2,3)
-        var_that_is_filtered_three_dimensional_spectrogram.attrs = {
-            "CATDESC": "var_that_is_filtered_three_dimensional_spectrogram",
+        var_that_is_not_filtered_three_dimensional_spectrogram = Mock()
+        var_that_is_not_filtered_three_dimensional_spectrogram.shape = (1, 2, 3)
+        var_that_is_not_filtered_three_dimensional_spectrogram.attrs = {
+            "CATDESC": "var_that_not_filtered_three_dimensional_spectrogram",
             "VAR_TYPE": "data",
             "FIELDNAM": "something",
             "DEPEND_0": "time_col_good",
@@ -272,7 +271,7 @@ class TestCdfVariableParser(unittest.TestCase):
 
         mock_cdf.items.return_value = {
             'var0': var_that_is_not_filtered,
-            'var1': var_that_is_filtered_three_dimensional_spectrogram,
+            'var1': var_that_is_not_filtered_three_dimensional_spectrogram,
             'var2': var_filtered_for_timeseries_shape_with_too_many_dimensions,
         }.items()
 
