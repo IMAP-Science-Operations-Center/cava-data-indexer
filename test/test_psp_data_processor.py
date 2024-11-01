@@ -2,7 +2,7 @@ import unittest
 from datetime import date
 from unittest.mock import patch, call, sentinel
 
-from data_indexer.cdf_downloader.psp_downloader import PspDirectoryInfo, psp_isois_cda_base_url, FileCadence
+from data_indexer.cdf_downloader.psp_downloader import PspDirectoryInfo, psp_isois_cda_base_url
 from data_indexer.cdf_downloader.psp_file_parser import PspFileInfo
 from data_indexer.cdf_parser.cdf_global_parser import CdfGlobalInfo
 from data_indexer.cdf_parser.cdf_parser import CdfFileInfo
@@ -23,7 +23,8 @@ class TestPspDataProcessor(unittest.TestCase):
                 'het_rate1': [PspFileInfo('link1', 'psp_isois-epihi_l2-het-rates3600_20190102_v10.cdf', '2022'),
                               PspFileInfo('link2', 'psp_isois-epihi_l2-het-rates3600_20190103_v10.cdf', '2022')],
                 'het_rate2': [PspFileInfo('link3', 'psp_isois-epihi_l2-het-rates60_20190102_v11.cdf', '2023'),
-                              PspFileInfo('link4', 'psp_isois-epihi_l2-het-rates60_20190105_v11.cdf', '2023')]}, sentinel.variable_selector_1,'PSP',DailyFileCadence),
+                              PspFileInfo('link4', 'psp_isois-epihi_l2-het-rates60_20190105_v11.cdf', '2023')]},
+                              sentinel.variable_selector_1, 'PSP', DailyFileCadence),
              PspDirectoryInfo(psp_isois_cda_base_url, 'ISOIS', 'merged',
                               {
                                   'ephem': [
@@ -36,7 +37,7 @@ class TestPspDataProcessor(unittest.TestCase):
                                                   '2023'),
                                       PspFileInfo('linkfile_to_download8.cdf', 'psp_isois_l2-summary_20181115_v13.cdf',
                                                   '2023')]},
-                              sentinel.variable_selector_2,'Not PSP',SixMonthFileCadence)
+                              sentinel.variable_selector_2, 'Not PSP', SixMonthFileCadence)
              ]
 
         mock_downloader.get_cdf_file.side_effect = [
@@ -49,30 +50,34 @@ class TestPspDataProcessor(unittest.TestCase):
         mock_cdf_parser.parse_cdf_bytes.side_effect = [
             CdfFileInfo(
                 CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 10", "10", date(2022, 11, 14)),
-                [CdfVariableInfo('a key into the CDF 1', 'a description v1', 'time_series')]),
+                [CdfVariableInfo('a key into the CDF 1', 'a description v1', 'time_series', 'units')]),
             CdfFileInfo(
                 CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 11", "11", date(2022, 11, 15)),
-                [CdfVariableInfo('a key into the CDF 2', 'a description v2', 'time_series')]),
+                [CdfVariableInfo('a key into the CDF 2', 'a description v2', 'time_series', 'units')]),
             CdfFileInfo(
                 CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 12", "12", date(2022, 11, 16)),
-                [CdfVariableInfo('a key into the CDF 3', 'a description v3', 'time_series')]),
+                [CdfVariableInfo('a key into the CDF 3', 'a description v3', 'time_series', 'units')]),
             CdfFileInfo(
                 CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 13", "13", date(2022, 11, 17)),
-                [CdfVariableInfo('a key into the CDF 4', 'a description v4', 'time_series')]),
+                [CdfVariableInfo('a key into the CDF 4', 'a description v4', 'time_series', 'units')]),
 
         ]
 
         actual_index = PspDataProcessor.get_metadata_index()
 
-        self.assertEqual([call(psp_isois_cda_base_url, 'psp_isois-epihi_l2-het-rates3600_20190102_v10.cdf', 'epihi', 'het_rate1', '2022'),
-                          call(psp_isois_cda_base_url, 'psp_isois-epihi_l2-het-rates60_20190102_v11.cdf', 'epihi', 'het_rate2', '2023'),
-                          call(psp_isois_cda_base_url, 'psp_isois_l2-ephem_20181111_v12.cdf', 'merged', 'ephem', '2022'),
-                          call(psp_isois_cda_base_url, 'psp_isois_l2-summary_20181114_v13.cdf', 'merged', 'summary', '2023')],
+        self.assertEqual([call(psp_isois_cda_base_url, 'psp_isois-epihi_l2-het-rates3600_20190102_v10.cdf', 'epihi',
+                               'het_rate1', '2022'),
+                          call(psp_isois_cda_base_url, 'psp_isois-epihi_l2-het-rates60_20190102_v11.cdf', 'epihi',
+                               'het_rate2', '2023'),
+                          call(psp_isois_cda_base_url, 'psp_isois_l2-ephem_20181111_v12.cdf', 'merged', 'ephem',
+                               '2022'),
+                          call(psp_isois_cda_base_url, 'psp_isois_l2-summary_20181114_v13.cdf', 'merged', 'summary',
+                               '2023')],
                          mock_downloader.get_cdf_file.call_args_list)
 
         self.assertEqual([{"variables": [{'catalog_description': 'a description v1',
                                           'display_type': 'time_series',
-                                          'variable_name': 'a key into the CDF 1'}],
+                                          'variable_name': 'a key into the CDF 1', 'units': 'units'}],
                            "source_file_format": '/%yyyy%/psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v10.cdf',
                            "description_source_file": '/2022/psp_isois-epihi_l2-het-rates3600_20190102_v10.cdf',
                            "logical_source": "psp_isois-epihi_l2-het-rates3600",
@@ -81,10 +86,10 @@ class TestPspDataProcessor(unittest.TestCase):
                            "generation_date": "2022-11-14", "dates_available": [["2019-01-02", "2019-01-03"]],
                            "instrument": "ISOIS-EPIHi",
                            "mission": "PSP",
-                           "file_cadence":"daily"},
+                           "file_cadence": "daily"},
                           {"variables": [{'catalog_description': 'a description v2',
                                           'display_type': 'time_series',
-                                          'variable_name': 'a key into the CDF 2'}],
+                                          'variable_name': 'a key into the CDF 2', 'units': 'units'}],
                            "source_file_format": '/%yyyy%/psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v11.cdf',
                            "description_source_file": '/2023/psp_isois-epihi_l2-het-rates3600_20190102_v11.cdf',
                            "logical_source": "psp_isois-epihi_l2-het-rates3600",
@@ -93,10 +98,10 @@ class TestPspDataProcessor(unittest.TestCase):
                            "dates_available": [["2019-01-02", "2019-01-02"], ["2019-01-05", "2019-01-05"]],
                            "instrument": "ISOIS-EPIHi",
                            "mission": "PSP",
-                           "file_cadence":"daily"},
+                           "file_cadence": "daily"},
                           {"variables": [{'catalog_description': 'a description v3',
                                           'display_type': 'time_series',
-                                          'variable_name': 'a key into the CDF 3'}],
+                                          'variable_name': 'a key into the CDF 3', 'units': 'units'}],
                            "source_file_format": '/%yyyy%/psp_isois_l2-ephem_%yyyymmdd%_v12.cdf',
                            "description_source_file": '/2022/psp_isois_l2-ephem_20181111_v12.cdf',
                            "logical_source": "psp_isois-epihi_l2-het-rates3600",
@@ -105,10 +110,10 @@ class TestPspDataProcessor(unittest.TestCase):
                            "dates_available": [["2018-07-01", "2018-12-31"]],
                            "instrument": "ISOIS",
                            "mission": "Not PSP",
-                           "file_cadence":"six_month"},
+                           "file_cadence": "six_month"},
                           {"variables": [{'catalog_description': 'a description v4',
                                           'display_type': 'time_series',
-                                          'variable_name': 'a key into the CDF 4'}],
+                                          'variable_name': 'a key into the CDF 4', 'units': 'units'}],
                            "source_file_format": '/%yyyy%/psp_isois_l2-summary_%yyyymmdd%_v13.cdf',
                            "description_source_file": '/2023/psp_isois_l2-summary_20181114_v13.cdf',
                            "logical_source": "psp_isois-epihi_l2-het-rates3600",
@@ -117,7 +122,7 @@ class TestPspDataProcessor(unittest.TestCase):
                            "dates_available": [["2018-07-01", "2018-12-31"]],
                            "instrument": "ISOIS",
                            "mission": "Not PSP",
-                           "file_cadence":"six_month"}],
+                           "file_cadence": "six_month"}],
                          actual_index)
 
         self.assertEqual(4, mock_cdf_parser.parse_cdf_bytes.call_count)

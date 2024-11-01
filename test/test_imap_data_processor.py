@@ -95,12 +95,12 @@ class TestImapDataProcessor(TestCase):
         mock_cdf_parser.parse_cdf_bytes.side_effect = [
             CdfFileInfo(CdfGlobalInfo("psp_instrument1_l2-summary", "Parker Solar Probe Level 2 Summary", "1.27.0",
                                       date(2022, 11, 12)),
-                        [CdfVariableInfo("VAR1", "variable 1", "time-series"),
-                         CdfVariableInfo("VAR2", "variable 2", "spectrogram")]),
+                        [CdfVariableInfo("VAR1", "variable 1", "time-series", None),
+                         CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units")]),
             CdfFileInfo(CdfGlobalInfo("psp_instrument2_l2-ephem", "Parker Solar Probe Level 2 Ephemeris", "1.27.0",
                                       date(2022, 11, 13)),
-                        [CdfVariableInfo("VAR3", "variable 3", "time-series"),
-                         CdfVariableInfo("VAR4", "variable 4", "spectrogram")])
+                        [CdfVariableInfo("VAR3", "variable 3", "time-series", None),
+                         CdfVariableInfo("VAR4", "variable 4", "spectrogram", None)])
         ]
 
         actual_index = get_metadata_index()
@@ -120,10 +120,10 @@ class TestImapDataProcessor(TestCase):
                 "dates_available": [["2018-11-01", "2018-11-04"]],
                 "variables": [{'catalog_description': 'variable 1',
                                'display_type': 'time-series',
-                               'variable_name': 'VAR1'},
+                               'variable_name': 'VAR1', 'units': None},
                               {'catalog_description': 'variable 2',
                                'display_type': 'spectrogram',
-                               'variable_name': 'VAR2'}],
+                               'variable_name': 'VAR2', 'units': "Units"}],
                 "source_file_format": "http://wwww.youtube.com/psp_instrument1_l2-summary_%yyyymmdd%_v1.27.0.cdf",
                 "description_source_file": 'http://wwww.youtube.com/psp_instrument1_l2-summary_20181101_v1.27.0.cdf',
                 "generation_date": "2022-11-12",
@@ -138,10 +138,10 @@ class TestImapDataProcessor(TestCase):
                 "dates_available": [["2018-11-01", "2018-11-02"], ["2018-11-04", "2018-11-04"]],
                 "variables": [{'catalog_description': 'variable 3',
                                'display_type': 'time-series',
-                               'variable_name': 'VAR3'},
+                               'variable_name': 'VAR3', 'units': None},
                               {'catalog_description': 'variable 4',
                                'display_type': 'spectrogram',
-                               'variable_name': 'VAR4'}],
+                               'variable_name': 'VAR4', 'units': None}],
                 "source_file_format": "http://www.fbi.gov/psp_instrument2_l2-ephem_%yyyymmdd%_v1.27.0.cdf",
                 "description_source_file": 'http://www.fbi.gov/psp_instrument2_l2-ephem_20181101_v1.27.0.cdf',
                 "generation_date": "2022-11-13",
@@ -153,5 +153,6 @@ class TestImapDataProcessor(TestCase):
 
         self.assertEqual(expected_index, actual_index)
 
-        self.assertEqual([call(first_cdf_file_data, DefaultVariableSelector), call(second_cdf_file_data, DefaultVariableSelector)],
-                         mock_cdf_parser.parse_cdf_bytes.call_args_list)
+        self.assertEqual(
+            [call(first_cdf_file_data, DefaultVariableSelector), call(second_cdf_file_data, DefaultVariableSelector)],
+            mock_cdf_parser.parse_cdf_bytes.call_args_list)

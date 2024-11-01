@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from typing import List
+from typing import List, Optional
 
 from spacepy import pycdf
 
@@ -11,6 +11,7 @@ class CdfVariableInfo:
     variable_name: str
     catalog_description: str
     display_type: str
+    units: Optional[str]
 
 
 class CdfVariableParser:
@@ -22,7 +23,9 @@ class CdfVariableParser:
             if selector.should_include(var, cdf):
                 catalog_description = str(var.attrs["CATDESC"])
                 display_type = str(var.attrs['DISPLAY_TYPE'])
-                variable_infos.append(CdfVariableInfo(key, catalog_description, display_type))
+                units = str(var.attrs.get("UNITS"))
+                variable_infos.append(CdfVariableInfo(key, catalog_description, display_type, units))
             elif var.attrs["VAR_TYPE"] == "data":
                 print("Ignored variable", key, "from file", cdf.attrs["Logical_source"])
+
         return sorted(variable_infos, key=lambda i: i.catalog_description.lower())
