@@ -2,9 +2,8 @@ import re
 import urllib
 from collections import defaultdict
 from dataclasses import dataclass
-from datetime import datetime
 from functools import reduce
-from typing import TypeVar, Any
+from typing import TypeVar
 
 import imap_data_access
 
@@ -26,12 +25,9 @@ def flatten(l: list[list[T]]) -> list[T]:
 
 imap_dev_server = "https://api.dev.imap-mission.com/"
 
-def get_cdf_file_from_imap_server(file_path: str) -> (str, Any):
-    url = imap_dev_server + "download/" + file_path
-    return url, urllib.request.urlopen(url).read()
 
 def get_metadata_index() -> list[dict]:
-    uuid_matcher = re.compile("-fake-menlo-[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}|-[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}")
+    uuid_matcher = re.compile("[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}")
 
     l3_version_variants = ["l3", "l3a", "l3b"]
     l3_cdf_metadatas = flatten([imap_data_access.query(data_level=version) for version in l3_version_variants])
@@ -43,8 +39,6 @@ def get_metadata_index() -> list[dict]:
         if "log" in descriptor or re.search(uuid_matcher, descriptor) is not None:
             continue
 
-        print(cdf_metadata)
-
         data_product = Dataproduct(cdf_metadata["instrument"], cdf_metadata["data_level"], descriptor)
         data_products[data_product][cdf_metadata["version"]].append(cdf_metadata["file_path"])
 
@@ -54,16 +48,17 @@ def get_metadata_index() -> list[dict]:
         latest_files = versions_to_files[latest_version]
         description_source_file = latest_files[0]
 
-        description_source_file_url, cdf = get_cdf_file_from_imap_server(description_source_file)
+        source_file_url = imap_dev_server + "download/" + description_source_file
+        cdf = urllib.request.urlopen(source_file_url).read()
         cdf_file_info = CdfParser.parse_cdf_bytes(cdf, DefaultVariableSelector)
 
         date_in_url_path_regex = re.compile("/[0-9]{4}/[0-9]{2}/")
         date_in_file_name = re.compile("_[0-9]{8}_")
 
-        template_url = re.sub(date_in_url_path_regex, "/%yyyy%/%mm%/", description_source_file_url)
+        template_url = re.sub(date_in_url_path_regex, "/%yyyy%/%mm%/", source_file_url)
         template_url = re.sub(date_in_file_name, "_%yyyymmdd%_", template_url)
 
-        index.append(get_index_entry(cdf_file_info, template_url, description_source_file_url, [], data_product.instrument, "IMAP", DailyFileCadence))
+        index.append(get_index_entry(cdf_file_info, template_url, source_file_url, [], data_product.instrument, "IMAP", DailyFileCadence))
 
     return index
 
