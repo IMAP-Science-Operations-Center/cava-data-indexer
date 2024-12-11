@@ -37,57 +37,27 @@ class TestImapDataProcessor(TestCase):
 
     @patch('data_indexer.imap_data_processor.CdfParser')
     @patch('data_indexer.imap_data_processor.get_all_metadata')
-    @patch('data_indexer.imap_data_processor.get_cdf_file')
+    @patch('data_indexer.imap_data_processor.get_cdf_file_from_sdc')
     def test_get_metadata_index(self, mock_get_cdf_file, mock_get_all_metadata, mock_cdf_parser):
         mock_get_all_metadata.return_value = [
-            {"absolute_version": 127, "data_level": "l2", "descriptor": "vid", "directory_path": "fake://../cdf_files",
-             "file_name": "psp_instrument1_l2-summary_20181101_v1.27.0.cdf",
-             "file_root": "psp_instrument1_l2-summary_20181101_v1.27.0.cdf", "file_size": 403371422, "id": 3161,
-             "instrument_id": "instrument1", "md5checksum": "0502a7e4a86e1d78ec7c73515f2dc7d5",
-             "mod_date": "2022-11-01 17:21:19+00:00", "mode": "xos1", "pred_rec": "r", "released": True, "revision": 27,
-             "timetag": "2018-11-01 00:00:00+00:00", "version": 1},
-            {"absolute_version": 127, "data_level": "l2", "descriptor": "vid", "directory_path": "fake://../cdf_files",
-             "file_name": "psp_instrument1_l2-summary_20181102_v1.27.0.cdf",
-             "file_root": "psp_instrument1_l2-summary_20181102_v1.27.0.cdf", "file_size": 403371422, "id": 3161,
-             "instrument_id": "instrument1", "md5checksum": "0502a7e4a86e1d78ec7c73515f2dc7d5",
-             "mod_date": "2022-11-02 17:21:19+00:00", "mode": "xos1", "pred_rec": "r", "released": True, "revision": 27,
-             "timetag": "2018-11-02 00:00:00+00:00", "version": 1},
-            {"absolute_version": 127, "data_level": "l2", "descriptor": "vid", "directory_path": "fake://../cdf_files",
-             "file_name": "psp_instrument1_l2-summary_20181103_v1.27.0.cdf",
-             "file_root": "psp_instrument1_l2-summary_20181103_v1.27.0.cdf", "file_size": 403371422, "id": 3161,
-             "instrument_id": "instrument1", "md5checksum": "0502a7e4a86e1d78ec7c73515f2dc7d5",
-             "mod_date": "2022-11-03 17:21:19+00:00", "mode": "xos1", "pred_rec": "r", "released": True, "revision": 27,
-             "timetag": "2018-11-03 00:00:00+00:00", "version": 1},
-            {"absolute_version": 127, "data_level": "l2", "descriptor": "vid", "directory_path": "fake://../cdf_files",
-             "file_name": "psp_instrument1_l2-summary_20181104_v1.27.0.cdf",
-             "file_root": "psp_instrument1_l2-summary_20181104_v1.27.0.cdf", "file_size": 403371422, "id": 3161,
-             "instrument_id": "instrument1", "md5checksum": "0502a7e4a86e1d78ec7c73515f2dc7d5",
-             "mod_date": "2022-11-04 17:21:19+00:00", "mode": "xos1", "pred_rec": "r", "released": True, "revision": 27,
-             "timetag": "2018-11-04 00:00:00+00:00", "version": 1},
-            {"absolute_version": 127, "data_level": "l2", "descriptor": "vid", "directory_path": "fake://../cdf_files",
-             "file_name": "psp_instrument2_l2-ephem_20181101_v1.27.0.cdf",
-             "file_root": "psp_instrument2_l2-ephem_20181101_v1.27.0.cdf", "file_size": 403371422, "id": 3161,
-             "instrument_id": "isois", "md5checksum": "0502a7e4a86e1d78ec7c73515f2dc7d5",
-             "mod_date": "2022-11-01 17:21:19+00:00", "mode": "xos1", "pred_rec": "r", "released": True, "revision": 27,
-             "timetag": "2018-11-01 00:00:00+00:00", "version": 1},
-            {"absolute_version": 127, "data_level": "l2", "descriptor": "vid", "directory_path": "fake://../cdf_files",
-             "file_name": "psp_instrument2_l2-ephem_20181102_v1.27.0.cdf",
-             "file_root": "psp_instrument2_l2-ephem_20181102_v1.27.0.cdf", "file_size": 403371422, "id": 3161,
-             "instrument_id": "isois", "md5checksum": "0502a7e4a86e1d78ec7c73515f2dc7d5",
-             "mod_date": "2022-11-02 17:21:19+00:00", "mode": "xos1", "pred_rec": "r", "released": True, "revision": 27,
-             "timetag": "2018-11-02 00:00:00+00:00", "version": 1},
-            {"absolute_version": 127, "data_level": "l2", "descriptor": "vid", "directory_path": "fake://../cdf_files",
-             "file_name": "psp_instrument2_l2-ephem_20181104_v1.27.0.cdf",
-             "file_root": "psp_instrument2_l2-ephem_20181104_v1.27.0.cdf", "file_size": 403371422, "id": 3161,
-             "instrument_id": "isois", "md5checksum": "0502a7e4a86e1d78ec7c73515f2dc7d5",
-             "mod_date": "2022-11-04 17:21:19+00:00", "mode": "xos1", "pred_rec": "r", "released": True, "revision": 27,
-             "timetag": "2018-11-04 00:00:00+00:00", "version": 1}
+            {'file_path': 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_sw-particles_20250606_v003.cdf', 'instrument': 'fake-instrument',
+             'data_level': 'l3a', 'descriptor': 'sw-particles', 'start_date': '20250606', 'repointing': None,
+             'version': 'v003', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:09:59'},
+            {'file_path': 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_protons_20250606_v003.cdf', 'instrument': 'fake-instrument',
+             'data_level': 'l3a', 'descriptor': 'protons', 'start_date': '20250606', 'repointing': None,
+             'version': 'v003', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:09:58'},
+            {'file_path': 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_pui-he_20250606_v003.cdf', 'instrument': 'fake-instrument',
+             'data_level': 'l3a', 'descriptor': 'pui-he', 'start_date': '20250606', 'repointing': None,
+             'version': 'v003', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:09:59'},
+            {'file_path': 'fake-mission/fake-instrument/l3b/2025/06/fake-mission_fake-instrument_l3b_combined_20250606_v003.cdf', 'instrument': 'fake-instrument',
+             'data_level': 'l3b', 'descriptor': 'combined', 'start_date': '20250606', 'repointing': None,
+             'version': 'v003', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:12:40'}
         ]
 
         first_cdf_file_data = b'first cdf file'
         second_cdf_file_data = b'second cdf file'
         mock_get_cdf_file.side_effect = [
-            {"link": "http://wwww.youtube.com/psp_instrument1_l2-summary_20181101_v1.27.0.cdf",
+            {"link": "fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_sw-particles_20250606_v003.cdf",
              "data": first_cdf_file_data},
             {"link": "http://www.fbi.gov/psp_instrument2_l2-ephem_20181101_v1.27.0.cdf", "data": second_cdf_file_data}
         ]
