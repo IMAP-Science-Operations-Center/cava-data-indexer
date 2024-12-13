@@ -2,6 +2,26 @@
   {
     "variables": [
       {
+        "variable_name": "photon_flux",
+        "catalog_description": "Histogram of photon flux in scanning-circle bins",
+        "display_type": "spectrogram",
+        "units": "Rayleigh"
+      }
+    ],
+    "source_file_format": "https://api.dev.imap-mission.com/download/imap/glows/l3a/%yyyy%/%mm%/imap_glows_l3a_histogram-00001_%yyyymmdd%_v020.cdf",
+    "description_source_file": "https://api.dev.imap-mission.com/download/imap/glows/l3a/2025/07/imap_glows_l3a_histogram-00001_20250701_v020.cdf",
+    "dates_available": [],
+    "logical_source": "imap_glows_l3a_histogram-00001",
+    "logical_source_description": "IMAP Mission GLOWS Instrument Light Curve",
+    "version": "v020",
+    "generation_date": "2024-11-25",
+    "instrument": "glows",
+    "mission": "IMAP",
+    "file_cadence": "daily"
+  },
+  {
+    "variables": [
+      {
         "variable_name": "alpha_sw_density",
         "catalog_description": "Density of Alpha Solar Wind",
         "display_type": "time_series",

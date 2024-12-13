@@ -3,6 +3,9 @@ from datetime import date
 from unittest import TestCase
 from unittest.mock import patch, call, Mock
 
+import spacepy.pycdf.const
+from spacepy.pycdf import CDFError
+
 from data_indexer.cdf_parser.cdf_global_parser import CdfGlobalInfo
 from data_indexer.cdf_parser.cdf_parser import CdfFileInfo
 from data_indexer.cdf_parser.cdf_variable_parser import CdfVariableInfo
@@ -20,22 +23,26 @@ class TestImapDataProcessor(TestCase):
         expected_file_path_3 = 'fake-mission/fake-instrument2/l3a/2025/06/fake-mission_fake-instrument2_l3a_pui-he_20250607_v003.cdf'
         expected_file_path_4 = 'fake-mission/fake-instrument/l3b/2025/06/fake-mission_fake-instrument_l3b_pui-he_20250607_v003.cdf'
         mock_data_access_query.return_value = [
-            {'file_path': 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_protons_20250606_v002.cdf', 'instrument': 'fake-instrument',
-             'data_level': 'l3a', 'descriptor': 'protons', 'start_date': '20250606', 'repointing': None,
-             'version': 'v002', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:09:59'},
+            {
+                'file_path': 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_protons_20250606_v002.cdf',
+                'instrument': 'fake-instrument',
+                'data_level': 'l3a', 'descriptor': 'protons', 'start_date': '20250606', 'repointing': None,
+                'version': 'v002', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:09:59'},
             {'file_path': expected_file_path_1, 'instrument': 'fake-instrument',
              'data_level': 'l3a', 'descriptor': 'protons', 'start_date': '20250606', 'repointing': None,
              'version': 'v003', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:09:58'},
             {'file_path': expected_file_path_2, 'instrument': 'fake-instrument',
              'data_level': 'l3a', 'descriptor': 'pui-he', 'start_date': '20250606', 'repointing': None,
              'version': 'v003', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:09:59'},
-            {'file_path': 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_pui-he_20250607_v003.cdf', 'instrument': 'fake-instrument',
+            {
+                'file_path': 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_pui-he_20250607_v003.cdf',
+                'instrument': 'fake-instrument',
+                'data_level': 'l3a', 'descriptor': 'pui-he', 'start_date': '20250607', 'repointing': None,
+                'version': 'v003', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:12:40'},
+            {'file_path': expected_file_path_3,
+             'instrument': 'fake-instrument2',
              'data_level': 'l3a', 'descriptor': 'pui-he', 'start_date': '20250607', 'repointing': None,
              'version': 'v003', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:12:40'},
-            {'file_path': expected_file_path_3,
-            'instrument': 'fake-instrument2',
-            'data_level': 'l3a', 'descriptor': 'pui-he', 'start_date': '20250607', 'repointing': None,
-            'version': 'v003', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:12:40'},
             {'file_path': expected_file_path_4,
              'instrument': 'fake-instrument',
              'data_level': 'l3b', 'descriptor': 'pui-he', 'start_date': '20250607', 'repointing': None,
@@ -50,11 +57,13 @@ class TestImapDataProcessor(TestCase):
         mock_url_open.side_effect = [first_cdf_response, second_cdf_response, third_cdf_response, fourth_cdf_response]
 
         mock_cdf_parser.parse_cdf_bytes.side_effect = [
-            CdfFileInfo(CdfGlobalInfo("fake-mission_fake-instrument_l3a_protons", "Parker Solar Probe Level 2 Summary", "1.27.0",
+            CdfFileInfo(CdfGlobalInfo("fake-mission_fake-instrument_l3a_protons", "Parker Solar Probe Level 2 Summary",
+                                      "1.27.0",
                                       date(2022, 11, 12)),
                         [CdfVariableInfo("VAR1", "variable 1", "time-series", None),
                          CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units")]),
-            CdfFileInfo(CdfGlobalInfo("fake-mission_fake-instrument_l3a_pui-he", "Parker Solar Probe Level 2 Ephemeris", "1.27.0",
+            CdfFileInfo(CdfGlobalInfo("fake-mission_fake-instrument_l3a_pui-he", "Parker Solar Probe Level 2 Ephemeris",
+                                      "1.27.0",
                                       date(2022, 11, 13)),
                         [CdfVariableInfo("VAR3", "variable 3", "time-series", None),
                          CdfVariableInfo("VAR4", "variable 4", "spectrogram", None)]),
@@ -77,11 +86,10 @@ class TestImapDataProcessor(TestCase):
         expected_description_source_file_url_3 = imap_dev_server + f"download/{expected_file_path_3}"
         expected_description_source_file_url_4 = imap_dev_server + f"download/{expected_file_path_4}"
 
-
         mock_url_open.assert_has_calls([call(expected_description_source_file_url_1),
-                                        call(expected_description_source_file_url_2), call(expected_description_source_file_url_3), call(expected_description_source_file_url_4)])
-
-
+                                        call(expected_description_source_file_url_2),
+                                        call(expected_description_source_file_url_3),
+                                        call(expected_description_source_file_url_4)])
 
         expected_index = [
             {
@@ -161,8 +169,10 @@ class TestImapDataProcessor(TestCase):
         self.assertEqual(expected_index, actual_index)
 
         self.assertEqual([
-            call(first_cdf_response.read.return_value, DefaultVariableSelector), call(second_cdf_response.read.return_value, DefaultVariableSelector),
-             call(third_cdf_response.read.return_value, DefaultVariableSelector), call(fourth_cdf_response.read.return_value, DefaultVariableSelector)],
+            call(first_cdf_response.read.return_value, DefaultVariableSelector),
+            call(second_cdf_response.read.return_value, DefaultVariableSelector),
+            call(third_cdf_response.read.return_value, DefaultVariableSelector),
+            call(fourth_cdf_response.read.return_value, DefaultVariableSelector)],
             mock_cdf_parser.parse_cdf_bytes.call_args_list)
 
     @patch('data_indexer.imap_data_processor.imap_data_access.query')
@@ -186,3 +196,34 @@ class TestImapDataProcessor(TestCase):
         mock_data_access_query.assert_called()
         self.assertEqual([], actual_index)
 
+    @patch('data_indexer.imap_data_processor.CdfParser')
+    @patch('data_indexer.imap_data_processor.imap_data_access.query')
+    @patch('data_indexer.imap_data_processor.urllib.request.urlopen')
+    def test_ignores_poorly_formatted_cdfs(self, mock_url_open, mock_imap_query,
+                                           mock_cdf_parser):
+        expected_file_path_1 = 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_protons_20250606_v003.cdf'
+        expected_file_path_2 = 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_pui-he_20250606_v003.cdf'
+
+        mock_imap_query.return_value = [{'file_path': expected_file_path_1, 'instrument': 'fake-instrument',
+                                         'data_level': 'l3a', 'descriptor': 'protons', 'start_date': '20250606',
+                                         'repointing': None,
+                                         'version': 'v003', 'extension': 'cdf',
+                                         'ingestion_date': '2024-11-21 21:09:58'},
+                                        {'file_path': expected_file_path_2, 'instrument': 'fake-instrument',
+                                         'data_level': 'l3a', 'descriptor': 'pui-he', 'start_date': '20250606',
+                                         'repointing': None,
+                                         'version': 'v003', 'extension': 'cdf',
+                                         'ingestion_date': '2024-11-21 21:09:59'}, ]
+
+        mock_cdf_parser.parse_cdf_bytes.side_effect = [CDFError(spacepy.pycdf.const.NOT_A_CDF_OR_NOT_SUPPORTED),
+                                                       CdfFileInfo(
+                                                           CdfGlobalInfo("fake-mission_fake-instrument_l3a_protons",
+                                                                         "Parker Solar Probe Level 2 Summary",
+                                                                         "1.27.0",
+                                                                         date(2022, 11, 12)),
+                                                           [CdfVariableInfo("VAR1", "variable 1", "time-series", None),
+                                                            CdfVariableInfo("VAR2", "variable 2", "spectrogram",
+                                                                            "Units")]), ]
+        actual_index = get_metadata_index()
+
+        self.assertEqual(1, len(actual_index))
