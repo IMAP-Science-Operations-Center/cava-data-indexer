@@ -175,6 +175,39 @@ class TestImapDataProcessor(TestCase):
             call(fourth_cdf_response.read.return_value, DefaultVariableSelector)],
             mock_cdf_parser.parse_cdf_bytes.call_args_list)
 
+    @patch('data_indexer.imap_data_processor.CdfParser')
+    @patch('data_indexer.imap_data_processor.imap_data_access.query')
+    @patch('data_indexer.imap_data_processor.urllib.request.urlopen')
+    def test_get_metadata_index_returns_instrument_names_correctly(self, mock_url_open, mock_data_access_query, _):
+        lowercase_instruments = ["codice", "glows", "hi", "hit", "idex", "lo", "mag", "swapi", "swe", "ultra", ]
+        uppercase_instruments = [
+            "CoDICE",
+            "GLOWS",
+            "IMAP-Hi",
+            "HIT",
+            "IDEX",
+            "IMAP-Lo",
+            "MAG",
+            "SWAPI",
+            "SWE",
+            "IMAP-Ultra",
+        ]
+        mock_data_access_query.return_value = [
+            {'file_path': '', 'instrument': instrument,
+             'data_level': 'l3a', 'descriptor': 'protons', 'start_date': '20250606', 'repointing': None,
+             'version': 'v003', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:09:58'}
+            for instrument in lowercase_instruments
+        ]
+
+        mock_url_open.return_value = Mock()
+
+        actual_index = get_metadata_index()
+
+        self.assertEqual(10, len(actual_index))
+
+        for expected, actual in zip(uppercase_instruments, actual_index):
+            self.assertEqual(expected, actual["instrument"])
+
     @patch('data_indexer.imap_data_processor.imap_data_access.query')
     def test_get_metadata_index_excludes_log_files_and_files_with_uuids(self, mock_data_access_query):
         mock_data_access_query.return_value = [

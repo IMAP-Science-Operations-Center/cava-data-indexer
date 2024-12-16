@@ -30,6 +30,19 @@ def flatten(l: list[list[T]]) -> list[T]:
 
 imap_dev_server = "https://api.dev.imap-mission.com/"
 
+instrument_names = {
+    "codice": "CoDICE",
+    "glows": "GLOWS",
+    "hi": "IMAP-Hi",
+    "hit": "HIT",
+    "idex": "IDEX",
+    "lo": "IMAP-Lo",
+    "mag": "MAG",
+    "swapi": "SWAPI",
+    "swe": "SWE",
+    "ultra": "IMAP-Ultra",
+}
+
 
 def get_metadata_index() -> list[dict]:
     uuid_matcher = re.compile("[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}")
@@ -66,14 +79,11 @@ def get_metadata_index() -> list[dict]:
         template_url = re.sub(date_in_url_path_regex, "/%yyyy%/%mm%/", source_file_url)
         template_url = re.sub(date_in_file_name, "_%yyyymmdd%_", template_url)
 
-        index.append(get_index_entry(cdf_file_info, template_url, source_file_url, [], data_product.instrument, "IMAP",
+        index.append(get_index_entry(cdf_file_info, template_url, source_file_url, [],
+                                     instrument_names.get(data_product.instrument, data_product.instrument), "IMAP",
                                      DailyFileCadence))
 
     return index
-
-
-def _capitalize_isois_instrument_name(instrument_name: str):
-    return 'ISOIS' if instrument_name == 'isois' else instrument_name
 
 
 if __name__ == '__main__':

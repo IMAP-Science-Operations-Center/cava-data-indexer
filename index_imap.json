@@ -2,6 +2,98 @@
   {
     "variables": [
       {
+        "variable_name": "exposure_times",
+        "catalog_description": "Exposure time in seconds for GLOWS histogram",
+        "display_type": "spectrogram",
+        "units": "seconds"
+      },
+      {
+        "variable_name": "extra_heliospheric_bckgrd",
+        "catalog_description": "Extra-heliospheric background estimate",
+        "display_type": "spectrogram",
+        "units": "Rayleigh"
+      },
+      {
+        "variable_name": "photon_flux",
+        "catalog_description": "Histogram of photon flux in scanning-circle bins",
+        "display_type": "spectrogram",
+        "units": "Rayleigh"
+      },
+      {
+        "variable_name": "ecliptic_lat",
+        "catalog_description": "Latitude in ECLIPJ2000 at center of bin in Degrees",
+        "display_type": "spectrogram",
+        "units": "degrees"
+      },
+      {
+        "variable_name": "ecliptic_lon",
+        "catalog_description": "Longitude in ECLIPJ2000 at center of bin in Degrees",
+        "display_type": "spectrogram",
+        "units": "degrees"
+      },
+      {
+        "variable_name": "hv_voltage_average",
+        "catalog_description": "Observational-day-averaged channeltron voltage",
+        "display_type": "time_series",
+        "units": "V"
+      },
+      {
+        "variable_name": "filter_temperature_average",
+        "catalog_description": "Observational-day-averaged filter temperature",
+        "display_type": "time_series",
+        "units": "Celsius"
+      },
+      {
+        "variable_name": "position_angle_offset_average",
+        "catalog_description": "Observational-day-averaged GLOWS angular offset",
+        "display_type": "time_series",
+        "units": "degrees"
+      },
+      {
+        "variable_name": "pulse_length_average",
+        "catalog_description": "Observational-day-averaged pulse length",
+        "display_type": "time_series",
+        "units": "microsecond"
+      },
+      {
+        "variable_name": "spin_period_average",
+        "catalog_description": "Observational-day-averaged spin period",
+        "display_type": "time_series",
+        "units": "s"
+      },
+      {
+        "variable_name": "spin_period_ground_average",
+        "catalog_description": "Observational-day-averaged spin period (ground value)",
+        "display_type": "time_series",
+        "units": "s"
+      },
+      {
+        "variable_name": "raw_histogram",
+        "catalog_description": "Raw daily counts in lightcurve bins",
+        "display_type": "spectrogram",
+        "units": "counts"
+      },
+      {
+        "variable_name": "time_dependent_bckgrd",
+        "catalog_description": "Time-dependent background estimate",
+        "display_type": "spectrogram",
+        "units": "Rayleigh"
+      }
+    ],
+    "source_file_format": "https://api.dev.imap-mission.com/download/imap/glows/l3a/%yyyy%/%mm%/imap_glows_l3a_histogram-0001_%yyyymmdd%_v022.cdf",
+    "description_source_file": "https://api.dev.imap-mission.com/download/imap/glows/l3a/2013/09/imap_glows_l3a_histogram-0001_20130908_v022.cdf",
+    "dates_available": [],
+    "logical_source": "imap_glows_l3a_histogram-0001",
+    "logical_source_description": "IMAP Mission GLOWS Instrument Light Curve",
+    "version": "v001",
+    "generation_date": "2024-12-13",
+    "instrument": "GLOWS",
+    "mission": "IMAP",
+    "file_cadence": "daily"
+  },
+  {
+    "variables": [
+      {
         "variable_name": "photon_flux",
         "catalog_description": "Histogram of photon flux in scanning-circle bins",
         "display_type": "spectrogram",
@@ -15,7 +107,7 @@
     "logical_source_description": "IMAP Mission GLOWS Instrument Light Curve",
     "version": "v020",
     "generation_date": "2024-11-25",
-    "instrument": "glows",
+    "instrument": "GLOWS",
     "mission": "IMAP",
     "file_cadence": "daily"
   },
@@ -47,7 +139,7 @@
     "logical_source_description": "SWAPI Instrument Alpha Solar Wind Parameters",
     "version": "v003",
     "generation_date": "2024-11-21",
-    "instrument": "swapi",
+    "instrument": "SWAPI",
     "mission": "IMAP",
     "file_cadence": "daily"
   },
@@ -91,7 +183,7 @@
     "logical_source_description": "SWAPI Instrument Proton Solar Wind Parameters",
     "version": "v003",
     "generation_date": "2024-11-21",
-    "instrument": "swapi",
+    "instrument": "SWAPI",
     "mission": "IMAP",
     "file_cadence": "daily"
   },
@@ -141,7 +233,7 @@
     "logical_source_description": "SWAPI Instrument Pickup Ion Parameters",
     "version": "v003",
     "generation_date": "2024-11-21",
-    "instrument": "swapi",
+    "instrument": "SWAPI",
     "mission": "IMAP",
     "file_cadence": "daily"
   },
@@ -179,7 +271,7 @@
     "logical_source_description": "SWAPI Instrument Combined VDF and Differential Flux",
     "version": "v003",
     "generation_date": "2024-11-21",
-    "instrument": "swapi",
+    "instrument": "SWAPI",
     "mission": "IMAP",
     "file_cadence": "daily"
   }
