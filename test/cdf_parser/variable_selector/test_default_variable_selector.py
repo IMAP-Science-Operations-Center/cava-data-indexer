@@ -77,6 +77,21 @@ class TestDefaultVariableSelector(unittest.TestCase):
 
         self.assertTrue(DefaultVariableSelector.should_include(bad_shape_variable_spectrogram, self.mock_cdf))
 
+    def test_does_not_accept_variable_with_no_plot_display_type(self):
+        no_plot_variable = Mock()
+        no_plot_variable.attrs = {
+            "CATDESC": "no_plot_variable",
+            "VAR_TYPE": "data",
+            "FIELDNAM": "something",
+            "DEPEND_0": "time_col_good",
+            "SCALETYP": "linear",
+            "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'no_plot'
+        }
+        no_plot_variable.shape = (1,2)
+
+        self.assertFalse(DefaultVariableSelector.should_include(no_plot_variable, self.mock_cdf))
+
     def test_does_not_accept_log_scale_axis_with_invalid_scalemin(self):
         var_with_invalid_log_scalemin = Mock()
         var_with_invalid_log_scalemin.attrs = {

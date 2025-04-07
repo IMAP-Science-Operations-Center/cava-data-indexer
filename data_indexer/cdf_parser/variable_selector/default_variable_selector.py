@@ -13,8 +13,8 @@ class DefaultVariableSelector(VariableSelector):
     def should_include(cls, var: pycdf.Var, cdf: pycdf.CDF) -> bool:
         if var.attrs["VAR_TYPE"] != "data":
             return False
-        display_type = var.attrs['DISPLAY_TYPE']
-        has_correct_shape = len(var.shape) in cls.acceptable_dimensions[display_type]
+        display_type = var.attrs.get('DISPLAY_TYPE')
+        has_correct_shape = len(var.shape) in cls.acceptable_dimensions.get(display_type,[])
         time_col = var.attrs['DEPEND_0']
         time_is_ns = cdf[time_col].attrs['UNITS'] == 'ns'
         zscale = var.attrs['SCALETYP'] if 'SCALETYP' in var.attrs else 'linear'

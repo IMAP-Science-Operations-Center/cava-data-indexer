@@ -69,7 +69,7 @@ def get_metadata_index() -> list[dict]:
         cdf = urllib.request.urlopen(source_file_url).read()
         try:
             cdf_file_info = CdfParser.parse_cdf_bytes(cdf, DefaultVariableSelector)
-        except CDFError:
+        except:
             print("failed to parse CDF, skipping:", description_source_file)
             continue
 
