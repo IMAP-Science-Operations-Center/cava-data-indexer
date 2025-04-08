@@ -166,6 +166,13 @@ class TestImapDataProcessor(TestCase):
             }
         ]
 
+        mock_data_access_query.assert_has_calls([
+            call(data_level="l3"),
+            call(data_level="l3a"),
+            call(data_level="l3b"),
+            call(data_level="l3c"),
+            call(data_level="l3d"),
+        ])
         self.assertEqual(expected_index, actual_index)
 
         self.assertEqual([

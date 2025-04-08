@@ -47,7 +47,7 @@ instrument_names = {
 def get_metadata_index() -> list[dict]:
     uuid_matcher = re.compile("[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}")
 
-    l3_version_variants = ["l3", "l3a", "l3b"]
+    l3_version_variants = ["l3", "l3a", "l3b", "l3c", "l3d"]
     l3_cdf_metadatas = flatten([imap_data_access.query(data_level=version) for version in l3_version_variants])
 
     data_products = defaultdict(lambda: defaultdict(list))

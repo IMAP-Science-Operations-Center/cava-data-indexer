@@ -54,5 +54,69 @@
     "instrument": "GLOWS",
     "mission": "IMAP",
     "file_cadence": "daily"
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "cx_rate",
+        "catalog_description": "averaged charge exchange rate profile (stationary atom approximation)",
+        "display_type": "spectrogram",
+        "units": "s^-1"
+      },
+      {
+        "variable_name": "ph_rate",
+        "catalog_description": "averaged photoionization rate profile",
+        "display_type": "spectrogram",
+        "units": "s^-1"
+      },
+      {
+        "variable_name": "sum_rate",
+        "catalog_description": "L3c Test Variable",
+        "display_type": "spectrogram",
+        "units": "s^-1"
+      }
+    ],
+    "source_file_format": "https://api.dev.imap-mission.com/download/imap/glows/l3c/%yyyy%/%mm%/imap_glows_l3c_ion-rate-profile_%yyyymmdd%_v001.cdf",
+    "description_source_file": "https://api.dev.imap-mission.com/download/imap/glows/l3c/2025/04/imap_glows_l3c_ion-rate-profile_20250403_v001.cdf",
+    "dates_available": [],
+    "logical_source": "imap_glows_l3c_ion-rate-profile",
+    "logical_source_description": "IMAP Mission GLOWS Carrington averaged ionization rate profiles",
+    "version": "001",
+    "generation_date": "2025-04-07",
+    "instrument": "GLOWS",
+    "mission": "IMAP",
+    "file_cadence": "daily"
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "cx_rate",
+        "catalog_description": "averaged charge exchange rate profile (stationary atom approximation)",
+        "display_type": "spectrogram",
+        "units": "s^-1"
+      },
+      {
+        "variable_name": "ph_rate",
+        "catalog_description": "averaged photoionization rate profile",
+        "display_type": "spectrogram",
+        "units": "s^-1"
+      },
+      {
+        "variable_name": "sum_rate",
+        "catalog_description": "L3d Test Variable",
+        "display_type": "spectrogram",
+        "units": "s^-1"
+      }
+    ],
+    "source_file_format": "https://api.dev.imap-mission.com/download/imap/glows/l3d/%yyyy%/%mm%/imap_glows_l3d_ion-rate-profile_%yyyymmdd%_v001.cdf",
+    "description_source_file": "https://api.dev.imap-mission.com/download/imap/glows/l3d/2025/04/imap_glows_l3d_ion-rate-profile_20250403_v001.cdf",
+    "dates_available": [],
+    "logical_source": "imap_glows_l3d_ion-rate-profile",
+    "logical_source_description": "IMAP Mission GLOWS Carrington averaged ionization rate profiles",
+    "version": "001",
+    "generation_date": "2025-04-07",
+    "instrument": "GLOWS",
+    "mission": "IMAP",
+    "file_cadence": "daily"
   }
 ]
