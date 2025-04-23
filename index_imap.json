@@ -2,10 +2,434 @@
   {
     "variables": [
       {
+        "variable_name": "charge",
+        "catalog_description": "charge",
+        "display_type": "time_series",
+        "units": "MeV"
+      },
+      {
+        "variable_name": "delta_e",
+        "catalog_description": "delta_e",
+        "display_type": "time_series",
+        "units": "MeV"
+      },
+      {
+        "variable_name": "e_prime",
+        "catalog_description": "e_prime",
+        "display_type": "time_series",
+        "units": "MeV"
+      },
+      {
+        "variable_name": "energy",
+        "catalog_description": "energy",
+        "display_type": "time_series",
+        "units": "MeV"
+      },
+      {
+        "variable_name": "pha_value",
+        "catalog_description": "pha_value",
+        "display_type": "spectrogram",
+        "units": ""
+      }
+    ],
+    "source_file_format": "https://api.dev.imap-mission.com/download/imap/hit/l3/%yyyy%/%mm%/imap_hit_l3_direct-events_%yyyymmdd%_v010.cdf",
+    "description_source_file": "https://api.dev.imap-mission.com/download/imap/hit/l3/2010/01/imap_hit_l3_direct-events_20100105_v010.cdf",
+    "dates_available": [],
+    "logical_source": "imap_hit_l3_direct-events",
+    "logical_source_description": "HIT Instrument Level-3 Direct Event Science Data",
+    "version": "v010",
+    "generation_date": "2025-03-20",
+    "instrument": "HIT",
+    "mission": "IMAP",
+    "file_cadence": "daily"
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "core_t_perpendicular_integrated",
+        "catalog_description": "Average of perpendicular core temperature eigenvalues",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "halo_t_perpendicular_integrated",
+        "catalog_description": "Average of perpendicular halo temperature eigenvalues",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "total_t_perpendicular_integrated",
+        "catalog_description": "Average of perpendicular total temperature eigenvalues",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "core_chisq",
+        "catalog_description": "Chi Square Error for core moment fitting",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_chisq",
+        "catalog_description": "Chi Square Error for halo moment fitting",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "core_heat_flux_magnitude_integrated",
+        "catalog_description": "Core Heat Flux Magnitude Integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "core_heat_flux_phi_integrated",
+        "catalog_description": "Core Heat Flux Phi Integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "core_heat_flux_theta_integrated",
+        "catalog_description": "Core Heat Flux Theta Integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "core_speed_fit",
+        "catalog_description": "Core Speed Fit",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "core_speed_integrated",
+        "catalog_description": "Core Speed Integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "core_t_parallel_integrated",
+        "catalog_description": "Core T Parallel Integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "core_temperature_parallel_to_mag",
+        "catalog_description": "Core Temperature Parallel To Mag",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "core_temperature_perpendicular_to_mag",
+        "catalog_description": "Core Temperature Perpendicular To Mag",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "core_temperature_phi_rtn_integrated",
+        "catalog_description": "Core Temperature Phi Rtn Integrated",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "core_temperature_theta_rtn_integrated",
+        "catalog_description": "Core Temperature Theta Rtn Integrated",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "core_t_perpendicular_fit",
+        "catalog_description": "core_t_perpendicular_fit",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "core_density_integrated",
+        "catalog_description": "Density Halo/suprathermal Electrons (high Energy) Integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "core_density_fit",
+        "catalog_description": "Density of Core Electrons found through Maxwellian fitting",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_density_fit",
+        "catalog_description": "Density of Halo Electrons found through Maxwellian fitting",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "intensity",
+        "catalog_description": "Electon Intensity",
+        "display_type": "spectrogram",
+        "units": "cm^-2 sr^-1 s^-1 eV^-1"
+      },
+      {
+        "variable_name": "intensity_inward",
+        "catalog_description": "Electron Intensity (Inward)",
+        "display_type": "spectrogram",
+        "units": "cm^-2 sr^-1 s^-1 eV^-1"
+      },
+      {
+        "variable_name": "intensity_outward",
+        "catalog_description": "Electron Intensity (Outward)",
+        "display_type": "spectrogram",
+        "units": "cm^-2 sr^-1 s^-1 eV^-1"
+      },
+      {
+        "variable_name": "core_t_parallel_fit",
+        "catalog_description": "Fitted t_parallel",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_density_integrated",
+        "catalog_description": "Halo Density Integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_heat_flux_magnitude_integrated",
+        "catalog_description": "Halo Heat Flux Magnitude Integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_heat_flux_phi_integrated",
+        "catalog_description": "Halo Heat Flux Phi Integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_heat_flux_theta_integrated",
+        "catalog_description": "Halo Heat Flux Theta Integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_speed_fit",
+        "catalog_description": "Halo Speed Fit",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_speed_integrated",
+        "catalog_description": "Halo Speed Integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_t_parallel_integrated",
+        "catalog_description": "Halo T Parallel Integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_temperature_parallel_to_mag",
+        "catalog_description": "Halo Temperature Parallel To Mag",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "halo_temperature_perpendicular_to_mag",
+        "catalog_description": "Halo Temperature Perpendicular To Mag",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "halo_temperature_phi_rtn_integrated",
+        "catalog_description": "Halo Temperature Phi Rtn Integrated",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "halo_temperature_theta_rtn_integrated",
+        "catalog_description": "Halo Temperature Theta Rtn Integrated",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "halo_t_parallel_fit",
+        "catalog_description": "halo_t_parallel_fit",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_t_perpendicular_fit",
+        "catalog_description": "halo_t_perpendicular_fit",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "spacecraft_potential",
+        "catalog_description": "IMAP Spacecraft potential",
+        "display_type": "time_series",
+        "units": "V"
+      },
+      {
+        "variable_name": "intensity_by_pitch_angle",
+        "catalog_description": "Intensity by pitch angle",
+        "display_type": "spectrogram",
+        "units": "cm^-2 sr^-1 s^-1 eV^-1"
+      },
+      {
+        "variable_name": "phase_space_density_by_pitch_angle",
+        "catalog_description": "Phase space density by pitch angle",
+        "display_type": "spectrogram",
+        "units": "s^3 cm^-6"
+      },
+      {
+        "variable_name": "core_temperature_ratio_perpendicular_to_mag",
+        "catalog_description": "Ratio of Core Temperatures Perpendicular To Mag",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_temperature_ratio_perpendicular_to_mag",
+        "catalog_description": "Ratio of Halo Temperatures Perpendicular To Mag",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "core_t_ratio_perpendicular_integrated",
+        "catalog_description": "Ratio of perpendicular core temperature eigenvalues",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_t_ratio_perpendicular_integrated",
+        "catalog_description": "Ratio of perpendicular halo temperature eigenvalues",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "total_t_ratio_perpendicular_integrated",
+        "catalog_description": "Ratio of perpendicular total temperature eigenvalues",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "total_temperature_ratio_perpendicular_to_mag",
+        "catalog_description": "Ratio of Total Temperatures Perpendicular To Mag",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "core_temperature_phi_rtn_fit",
+        "catalog_description": "should match heritage",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "halo_temperature_phi_rtn_fit",
+        "catalog_description": "should match heritage",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "core_temperature_theta_rtn_fit",
+        "catalog_description": "should match heritage",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "halo_temperature_theta_rtn_fit",
+        "catalog_description": "should match heritage",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "core_halo_breakpoint",
+        "catalog_description": "SW Electron Core/Halo breakpoint",
+        "display_type": "time_series",
+        "units": "eV"
+      },
+      {
+        "variable_name": "total_density_integrated",
+        "catalog_description": "Total Density Integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "total_heat_flux_magnitude_integrated",
+        "catalog_description": "Total Heat Flux Magnitude Integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "total_heat_flux_phi_integrated",
+        "catalog_description": "Total Heat Flux Phi Integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "total_heat_flux_theta_integrated",
+        "catalog_description": "Total Heat Flux Theta Integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "total_speed_integrated",
+        "catalog_description": "Total Speed Integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "total_t_parallel_integrated",
+        "catalog_description": "Total T Parallel Integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "total_temperature_parallel_to_mag",
+        "catalog_description": "Total Temperature Parallel To Mag",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "total_temperature_perpendicular_to_mag",
+        "catalog_description": "Total Temperature Perpendicular To Mag",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "total_temperature_phi_rtn_integrated",
+        "catalog_description": "Total Temperature Phi Rtn Integrated",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "total_temperature_theta_rtn_integrated",
+        "catalog_description": "Total Temperature Theta Rtn Integrated",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "intensity_uncertainty_by_pitch_angle",
+        "catalog_description": "Uncertainty of Intensity by pitch angle",
+        "display_type": "spectrogram",
+        "units": "cm^-2 sr^-1 s^-1 eV^-1"
+      }
+    ],
+    "source_file_format": "https://api.dev.imap-mission.com/download/imap/swe/l3/%yyyy%/%mm%/imap_swe_l3_sci_%yyyymmdd%_v009.cdf",
+    "description_source_file": "https://api.dev.imap-mission.com/download/imap/swe/l3/2025/06/imap_swe_l3_sci_20250606_v009.cdf",
+    "dates_available": [],
+    "logical_source": "imap_swe_l3_sci",
+    "logical_source_description": "SWE Instrument Level-3 Science Data",
+    "version": "009",
+    "generation_date": "2025-04-22",
+    "instrument": "SWE",
+    "mission": "IMAP",
+    "file_cadence": "daily"
+  },
+  {
+    "variables": [
+      {
         "variable_name": "exposure_times",
         "catalog_description": "Exposure time in seconds for GLOWS histogram",
         "display_type": "spectrogram",
-        "units": "seconds"
+        "units": "s"
       },
       {
         "variable_name": "extra_heliospheric_bckgrd",
@@ -15,7 +439,7 @@
       },
       {
         "variable_name": "photon_flux",
-        "catalog_description": "Histogram of photon flux in scanning-circle bins",
+        "catalog_description": "Histogram of photon flux density in scanning-circle bins",
         "display_type": "spectrogram",
         "units": "Rayleigh"
       },
@@ -44,13 +468,153 @@
         "units": "Rayleigh"
       }
     ],
-    "source_file_format": "https://api.dev.imap-mission.com/download/imap/glows/l3a/%yyyy%/%mm%/imap_glows_l3a_hist_%yyyymmdd%_v001.cdf",
-    "description_source_file": "https://api.dev.imap-mission.com/download/imap/glows/l3a/2010/01/imap_glows_l3a_hist_20100101_v001.cdf",
+    "source_file_format": "https://api.dev.imap-mission.com/download/imap/glows/l3a/%yyyy%/%mm%/imap_glows_l3a_hist_20100928-repoint00271_v014.cdf",
+    "description_source_file": "https://api.dev.imap-mission.com/download/imap/glows/l3a/2010/09/imap_glows_l3a_hist_20100928-repoint00271_v014.cdf",
     "dates_available": [],
     "logical_source": "imap_glows_l3a_hist",
     "logical_source_description": "IMAP Mission GLOWS Instrument Light Curve",
-    "version": "v001",
-    "generation_date": "2025-04-02",
+    "version": "001",
+    "generation_date": "2025-04-11",
+    "instrument": "GLOWS",
+    "mission": "IMAP",
+    "file_cadence": "daily"
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "proton_sw_clock_angle",
+        "catalog_description": "Clock Angle of Proton Solar Wind",
+        "display_type": "time_series",
+        "units": "Degrees"
+      },
+      {
+        "variable_name": "proton_sw_deflection_angle",
+        "catalog_description": "Deflection Angle of Proton Solar Wind",
+        "display_type": "time_series",
+        "units": "Degrees"
+      },
+      {
+        "variable_name": "proton_sw_density",
+        "catalog_description": "Density of Proton Solar Wind",
+        "display_type": "time_series",
+        "units": "cm!E-3!N"
+      },
+      {
+        "variable_name": "proton_sw_speed",
+        "catalog_description": "Speed of Proton Solar Wind",
+        "display_type": "time_series",
+        "units": "km/s"
+      },
+      {
+        "variable_name": "proton_sw_temperature",
+        "catalog_description": "Temperature of Proton Solar Wind",
+        "display_type": "time_series",
+        "units": "K"
+      }
+    ],
+    "source_file_format": "https://api.dev.imap-mission.com/download/imap/swapi/l3a/%yyyy%/%mm%/imap_swapi_l3a_proton-sw_%yyyymmdd%_v009.cdf",
+    "description_source_file": "https://api.dev.imap-mission.com/download/imap/swapi/l3a/2025/06/imap_swapi_l3a_proton-sw_20250606_v009.cdf",
+    "dates_available": [],
+    "logical_source": "imap_swapi_l3a_proton-sw",
+    "logical_source_description": "SWAPI Instrument Proton Solar Wind Parameters",
+    "version": "009",
+    "generation_date": "2025-04-22",
+    "instrument": "SWAPI",
+    "mission": "IMAP",
+    "file_cadence": "daily"
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "cx_rate",
+        "catalog_description": "averaged charge exchange rate profile (stationary atom approximation)",
+        "display_type": "spectrogram",
+        "units": "s^-1"
+      },
+      {
+        "variable_name": "sum_rate",
+        "catalog_description": "averaged ionization rate profile obtained from lightcurve",
+        "display_type": "spectrogram",
+        "units": "s^-1"
+      },
+      {
+        "variable_name": "ph_rate",
+        "catalog_description": "averaged photoionization rate profile",
+        "display_type": "spectrogram",
+        "units": "s^-1"
+      }
+    ],
+    "source_file_format": "https://api.dev.imap-mission.com/download/imap/glows/l3b/%yyyy%/%mm%/imap_glows_l3b_ion-rate-profile_%yyyymmdd%_v012.cdf",
+    "description_source_file": "https://api.dev.imap-mission.com/download/imap/glows/l3b/2010/03/imap_glows_l3b_ion-rate-profile_20100326_v012.cdf",
+    "dates_available": [],
+    "logical_source": "imap_glows_l3b_ion-rate-profile",
+    "logical_source_description": "IMAP Mission GLOWS Carrington averaged ionization rate profiles",
+    "version": "012",
+    "generation_date": "2025-04-15",
+    "instrument": "GLOWS",
+    "mission": "IMAP",
+    "file_cadence": "daily"
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "combined_differential_flux",
+        "catalog_description": "Combined Differential Flux",
+        "display_type": "spectrogram",
+        "units": "cm!E-2!N sr!E-1!N s!E-1!N (eV/q)!E-1!N'"
+      }
+    ],
+    "source_file_format": "https://api.dev.imap-mission.com/download/imap/swapi/l3b/%yyyy%/%mm%/imap_swapi_l3b_combined_%yyyymmdd%_v009.cdf",
+    "description_source_file": "https://api.dev.imap-mission.com/download/imap/swapi/l3b/2025/06/imap_swapi_l3b_combined_20250606_v009.cdf",
+    "dates_available": [],
+    "logical_source": "imap_swapi_l3b_combined",
+    "logical_source_description": "SWAPI Instrument Combined VDF and Differential Flux",
+    "version": "009",
+    "generation_date": "2025-04-22",
+    "instrument": "SWAPI",
+    "mission": "IMAP",
+    "file_cadence": "daily"
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "alpha_abundance_ecliptic",
+        "catalog_description": "Averaged alpha-particles to protons ratio in the ecliptic plane",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "proton_density_profile",
+        "catalog_description": "Averaged profile of proton density adjusted to 1 au",
+        "display_type": "spectrogram",
+        "units": "cm^-3"
+      },
+      {
+        "variable_name": "plasma_speed_profile",
+        "catalog_description": "Averaged profile of solar wind plasma speed",
+        "display_type": "spectrogram",
+        "units": "km/s"
+      },
+      {
+        "variable_name": "proton_density_ecliptic",
+        "catalog_description": "Averaged proton density in the ecliptic plane adjusted to 1 au",
+        "display_type": "time_series",
+        "units": "cm^-3"
+      },
+      {
+        "variable_name": "plasma_speed_ecliptic",
+        "catalog_description": "Averaged solar wind plasma speed in the ecliptic plane",
+        "display_type": "time_series",
+        "units": "km/s"
+      }
+    ],
+    "source_file_format": "https://api.dev.imap-mission.com/download/imap/glows/l3c/%yyyy%/%mm%/imap_glows_l3c_sw-profile_%yyyymmdd%_v012.cdf",
+    "description_source_file": "https://api.dev.imap-mission.com/download/imap/glows/l3c/2010/03/imap_glows_l3c_sw-profile_20100326_v012.cdf",
+    "dates_available": [],
+    "logical_source": "imap_glows_l3c_sw-profile",
+    "logical_source_description": "IMAP Mission GLOWS Carrington period-averaged solar wind plasma speed and proton density profiles",
+    "version": "012",
+    "generation_date": "2025-04-15",
     "instrument": "GLOWS",
     "mission": "IMAP",
     "file_cadence": "daily"
@@ -115,6 +679,59 @@
     "logical_source_description": "IMAP Mission GLOWS Carrington averaged ionization rate profiles",
     "version": "001",
     "generation_date": "2025-04-07",
+    "instrument": "GLOWS",
+    "mission": "IMAP",
+    "file_cadence": "daily"
+  },
+  {
+    "variables": [],
+    "source_file_format": "https://api.dev.imap-mission.com/download/imap/glows/l3e/%yyyy%/%mm%/imap_glows_l3e_survival-probability-hi-45_%yyyymmdd%_v001.cdf",
+    "description_source_file": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2015/04/imap_glows_l3e_survival-probability-hi-45_20150410_v001.cdf",
+    "dates_available": [],
+    "logical_source": "imap_glows_l3e_survival-probability-hi-45",
+    "logical_source_description": "IMAP Mission GLOWS Hi 45",
+    "version": "001",
+    "generation_date": "2025-04-22",
+    "instrument": "GLOWS",
+    "mission": "IMAP",
+    "file_cadence": "daily"
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "probability_of_survival",
+        "catalog_description": "Survival probabilities for IMAP-Hi",
+        "display_type": "spectrogram",
+        "units": " "
+      }
+    ],
+    "source_file_format": "https://api.dev.imap-mission.com/download/imap/glows/l3e/%yyyy%/%mm%/imap_glows_l3e_survival-probability-hi-90_%yyyymmdd%_v001.cdf",
+    "description_source_file": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2015/04/imap_glows_l3e_survival-probability-hi-90_20150410_v001.cdf",
+    "dates_available": [],
+    "logical_source": "imap_glows_l3e_survival-probability-hi-90",
+    "logical_source_description": "IMAP Mission GLOWS Hi 90",
+    "version": "001",
+    "generation_date": "2025-04-22",
+    "instrument": "GLOWS",
+    "mission": "IMAP",
+    "file_cadence": "daily"
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "probability_of_survival",
+        "catalog_description": "Survival probabilities for IMAP-Lo",
+        "display_type": "spectrogram",
+        "units": " "
+      }
+    ],
+    "source_file_format": "https://api.dev.imap-mission.com/download/imap/glows/l3e/%yyyy%/%mm%/imap_glows_l3e_survival-probability-lo_%yyyymmdd%_v002.cdf",
+    "description_source_file": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2015/04/imap_glows_l3e_survival-probability-lo_20150410_v002.cdf",
+    "dates_available": [],
+    "logical_source": "imap_glows_l3e_survival-probability-lo",
+    "logical_source_description": "IMAP Mission GLOWS Lo",
+    "version": "001",
+    "generation_date": "2025-04-22",
     "instrument": "GLOWS",
     "mission": "IMAP",
     "file_cadence": "daily"

@@ -172,6 +172,7 @@ class TestImapDataProcessor(TestCase):
             call(data_level="l3b"),
             call(data_level="l3c"),
             call(data_level="l3d"),
+            call(data_level="l3e"),
         ])
         self.assertEqual(expected_index, actual_index)
 
