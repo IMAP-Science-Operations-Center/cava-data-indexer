@@ -46,6 +46,80 @@
   {
     "variables": [
       {
+        "variable_name": "cno_intensity_pa",
+        "catalog_description": "CNO intensity by pitch angle",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)"
+      },
+      {
+        "variable_name": "cno_intensity",
+        "catalog_description": "CNO intensity by pitch angle and gyrophase",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)"
+      },
+      {
+        "variable_name": "fe_intensity_pa",
+        "catalog_description": "Fe intensity by pitch angle",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)"
+      },
+      {
+        "variable_name": "fe_intensity",
+        "catalog_description": "Fe intensity by pitch angle and gyrophase",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)"
+      },
+      {
+        "variable_name": "h_intensity_pa",
+        "catalog_description": "H intensity by pitch angle",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)"
+      },
+      {
+        "variable_name": "h_intensity",
+        "catalog_description": "H intensity by pitch angle and gyrophase",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)"
+      },
+      {
+        "variable_name": "he4_intensity_pa",
+        "catalog_description": "He4 intensity by pitch angle",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)"
+      },
+      {
+        "variable_name": "he4_intensity",
+        "catalog_description": "He4 intensity by pitch angle and gyrophase",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)"
+      },
+      {
+        "variable_name": "nemgsi_intensity_pa",
+        "catalog_description": "NeMgSi intensity by pitch angle",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)"
+      },
+      {
+        "variable_name": "nemgsi_intensity",
+        "catalog_description": "NeMgSi intensity by pitch angle and gyrophase",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)"
+      }
+    ],
+    "source_file_format": "https://api.dev.imap-mission.com/download/imap/hit/l3/%yyyy%/%mm%/imap_hit_l3_macropixel_%yyyymmdd%_v000.cdf",
+    "description_source_file": "https://api.dev.imap-mission.com/download/imap/hit/l3/2025/01/imap_hit_l3_macropixel_20250101_v000.cdf",
+    "dates_available": [],
+    "logical_source": "imap_hit_l3_macropixel",
+    "logical_source_description": "HIT Instrument Level-3 Macropixel Intensity Science Data",
+    "version": "000",
+    "generation_date": "2025-04-21",
+    "instrument": "HIT",
+    "mission": "IMAP",
+    "file_cadence": "daily"
+  },
+  {
+    "variables": [
+      {
         "variable_name": "core_t_perpendicular_integrated",
         "catalog_description": "Average of perpendicular core temperature eigenvalues",
         "display_type": "time_series",
@@ -274,8 +348,20 @@
         "units": "cm^-2 sr^-1 s^-1 eV^-1"
       },
       {
+        "variable_name": "intensity_by_pitch_angle_and_gyrophase",
+        "catalog_description": "Intensity by pitch angle and gyrophase",
+        "display_type": "spectrogram",
+        "units": "cm^-2 sr^-1 s^-1 eV^-1"
+      },
+      {
         "variable_name": "phase_space_density_by_pitch_angle",
         "catalog_description": "Phase space density by pitch angle",
+        "display_type": "spectrogram",
+        "units": "s^3 cm^-6"
+      },
+      {
+        "variable_name": "phase_space_density_by_pitch_angle_and_gyrophase",
+        "catalog_description": "Phase space density by pitch angle and gyrophase",
         "display_type": "spectrogram",
         "units": "s^3 cm^-6"
       },
@@ -410,6 +496,12 @@
         "catalog_description": "Uncertainty of Intensity by pitch angle",
         "display_type": "spectrogram",
         "units": "cm^-2 sr^-1 s^-1 eV^-1"
+      },
+      {
+        "variable_name": "intensity_uncertainty_by_pitch_angle_and_gyrophase",
+        "catalog_description": "Uncertainty of Intensity by pitch angle and gyrophase",
+        "display_type": "spectrogram",
+        "units": "cm^-2 sr^-1 s^-1 eV^-1"
       }
     ],
     "source_file_format": "https://api.dev.imap-mission.com/download/imap/swe/l3/%yyyy%/%mm%/imap_swe_l3_sci_%yyyymmdd%_v009.cdf",
@@ -519,6 +611,88 @@
     "logical_source_description": "SWAPI Instrument Proton Solar Wind Parameters",
     "version": "009",
     "generation_date": "2025-04-22",
+    "instrument": "SWAPI",
+    "mission": "IMAP",
+    "file_cadence": "daily"
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "alpha_sw_density",
+        "catalog_description": "Density of Alpha Solar Wind",
+        "display_type": "time_series",
+        "units": "cm!E-3!N"
+      },
+      {
+        "variable_name": "alpha_sw_speed",
+        "catalog_description": "Speed of Alpha Solar Wind",
+        "display_type": "time_series",
+        "units": "km/s"
+      },
+      {
+        "variable_name": "alpha_sw_temperature",
+        "catalog_description": "Temperature of Alpha Solar Wind",
+        "display_type": "time_series",
+        "units": "K"
+      }
+    ],
+    "source_file_format": "https://api.dev.imap-mission.com/download/imap/swapi/l3a/%yyyy%/%mm%/imap_swapi_l3a_alpha-sw_%yyyymmdd%_v008.cdf",
+    "description_source_file": "https://api.dev.imap-mission.com/download/imap/swapi/l3a/2025/06/imap_swapi_l3a_alpha-sw_20250606_v008.cdf",
+    "dates_available": [],
+    "logical_source": "imap_swapi_l3a_alpha-sw",
+    "logical_source_description": "SWAPI Instrument Alpha Solar Wind Parameters",
+    "version": "008",
+    "generation_date": "2025-04-23",
+    "instrument": "SWAPI",
+    "mission": "IMAP",
+    "file_cadence": "daily"
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "pui_background_count_rate",
+        "catalog_description": "Pickup Ion Background Count Rate",
+        "display_type": "time_series",
+        "units": "s!E-1!N"
+      },
+      {
+        "variable_name": "pui_cooling_index",
+        "catalog_description": "Pickup Ion Cooling Index",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "pui_cutoff_speed",
+        "catalog_description": "Pickup Ion Cutoff Speed",
+        "display_type": "time_series",
+        "units": "km/s"
+      },
+      {
+        "variable_name": "pui_density",
+        "catalog_description": "Pickup Ion Density",
+        "display_type": "time_series",
+        "units": "cm!E-3!N"
+      },
+      {
+        "variable_name": "pui_ionization_rate",
+        "catalog_description": "Pickup Ion Ionization Rate",
+        "display_type": "time_series",
+        "units": "s!E-1!N"
+      },
+      {
+        "variable_name": "pui_temperature",
+        "catalog_description": "Pickup Ion Temperature",
+        "display_type": "time_series",
+        "units": "K"
+      }
+    ],
+    "source_file_format": "https://api.dev.imap-mission.com/download/imap/swapi/l3a/%yyyy%/%mm%/imap_swapi_l3a_pui-he_%yyyymmdd%_v002.cdf",
+    "description_source_file": "https://api.dev.imap-mission.com/download/imap/swapi/l3a/2025/06/imap_swapi_l3a_pui-he_20250606_v002.cdf",
+    "dates_available": [],
+    "logical_source": "imap_swapi_l3a_pui-he",
+    "logical_source_description": "SWAPI Instrument Pickup Ion Parameters",
+    "version": "002",
+    "generation_date": "2025-04-24",
     "instrument": "SWAPI",
     "mission": "IMAP",
     "file_cadence": "daily"
@@ -684,14 +858,21 @@
     "file_cadence": "daily"
   },
   {
-    "variables": [],
-    "source_file_format": "https://api.dev.imap-mission.com/download/imap/glows/l3e/%yyyy%/%mm%/imap_glows_l3e_survival-probability-hi-45_%yyyymmdd%_v001.cdf",
-    "description_source_file": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2015/04/imap_glows_l3e_survival-probability-hi-45_20150410_v001.cdf",
+    "variables": [
+      {
+        "variable_name": "probability_of_survival",
+        "catalog_description": "Survival probabilities for IMAP-Hi",
+        "display_type": "spectrogram",
+        "units": " "
+      }
+    ],
+    "source_file_format": "https://api.dev.imap-mission.com/download/imap/glows/l3e/%yyyy%/%mm%/imap_glows_l3e_survival-probability-hi-45_%yyyymmdd%_v007.cdf",
+    "description_source_file": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2015/04/imap_glows_l3e_survival-probability-hi-45_20150410_v007.cdf",
     "dates_available": [],
     "logical_source": "imap_glows_l3e_survival-probability-hi-45",
-    "logical_source_description": "IMAP Mission GLOWS Hi 45",
-    "version": "001",
-    "generation_date": "2025-04-22",
+    "logical_source_description": "IMAP Mission GLOWS L3e Hi 45 Survival Probability",
+    "version": "007",
+    "generation_date": "2025-04-24",
     "instrument": "GLOWS",
     "mission": "IMAP",
     "file_cadence": "daily"
@@ -705,13 +886,13 @@
         "units": " "
       }
     ],
-    "source_file_format": "https://api.dev.imap-mission.com/download/imap/glows/l3e/%yyyy%/%mm%/imap_glows_l3e_survival-probability-hi-90_%yyyymmdd%_v001.cdf",
-    "description_source_file": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2015/04/imap_glows_l3e_survival-probability-hi-90_20150410_v001.cdf",
+    "source_file_format": "https://api.dev.imap-mission.com/download/imap/glows/l3e/%yyyy%/%mm%/imap_glows_l3e_survival-probability-hi-90_%yyyymmdd%_v007.cdf",
+    "description_source_file": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2015/04/imap_glows_l3e_survival-probability-hi-90_20150410_v007.cdf",
     "dates_available": [],
     "logical_source": "imap_glows_l3e_survival-probability-hi-90",
-    "logical_source_description": "IMAP Mission GLOWS Hi 90",
-    "version": "001",
-    "generation_date": "2025-04-22",
+    "logical_source_description": "IMAP Mission GLOWS L3e Hi 90 Survival Probability",
+    "version": "007",
+    "generation_date": "2025-04-24",
     "instrument": "GLOWS",
     "mission": "IMAP",
     "file_cadence": "daily"
@@ -725,13 +906,33 @@
         "units": " "
       }
     ],
-    "source_file_format": "https://api.dev.imap-mission.com/download/imap/glows/l3e/%yyyy%/%mm%/imap_glows_l3e_survival-probability-lo_%yyyymmdd%_v002.cdf",
-    "description_source_file": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2015/04/imap_glows_l3e_survival-probability-lo_20150410_v002.cdf",
+    "source_file_format": "https://api.dev.imap-mission.com/download/imap/glows/l3e/%yyyy%/%mm%/imap_glows_l3e_survival-probability-lo_%yyyymmdd%_v007.cdf",
+    "description_source_file": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2015/04/imap_glows_l3e_survival-probability-lo_20150410_v007.cdf",
     "dates_available": [],
     "logical_source": "imap_glows_l3e_survival-probability-lo",
-    "logical_source_description": "IMAP Mission GLOWS Lo",
-    "version": "001",
-    "generation_date": "2025-04-22",
+    "logical_source_description": "IMAP Mission GLOWS L3e Lo Survival Probability",
+    "version": "007",
+    "generation_date": "2025-04-24",
+    "instrument": "GLOWS",
+    "mission": "IMAP",
+    "file_cadence": "daily"
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "probability_of_survival",
+        "catalog_description": "Survival probabilities for IMAP-Ultra",
+        "display_type": "spectrogram",
+        "units": " "
+      }
+    ],
+    "source_file_format": "https://api.dev.imap-mission.com/download/imap/glows/l3e/%yyyy%/%mm%/imap_glows_l3e_survival-probability-ul_%yyyymmdd%_v007.cdf",
+    "description_source_file": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2015/04/imap_glows_l3e_survival-probability-ul_20150410_v007.cdf",
+    "dates_available": [],
+    "logical_source": "imap_glows_l3e_survival-probability-ul",
+    "logical_source_description": "IMAP Mission GLOWS L3e Ultra Survival Probability",
+    "version": "007",
+    "generation_date": "2025-04-24",
     "instrument": "GLOWS",
     "mission": "IMAP",
     "file_cadence": "daily"

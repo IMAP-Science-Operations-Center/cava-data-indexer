@@ -5,7 +5,7 @@ from data_indexer.cdf_parser.variable_selector.variable_selector import Variable
 
 class DefaultVariableSelector(VariableSelector):
     acceptable_dimensions = {
-        'spectrogram': (2, 3),
+        'spectrogram': (2, 3, 4),
         'time_series': (1,)
     }
 

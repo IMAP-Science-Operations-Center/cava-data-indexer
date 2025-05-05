@@ -32,7 +32,7 @@ class TestDefaultVariableSelector(unittest.TestCase):
 
         self.assertTrue(DefaultVariableSelector.should_include(accepted_variable, self.mock_cdf))
 
-    def test_accepts_expected_spectrogram_variable(self):
+    def test_accepts_expected_2_dimensional_spectrogram_variable(self):
         accepted_variable = Mock()
         accepted_variable.attrs = {
             "CATDESC": "accepted_variable",
@@ -44,6 +44,36 @@ class TestDefaultVariableSelector(unittest.TestCase):
             "DISPLAY_TYPE": 'spectrogram'
         }
         accepted_variable.shape = (1, 2)
+
+        self.assertTrue(DefaultVariableSelector.should_include(accepted_variable, self.mock_cdf))
+
+    def test_accepts_expected_3_dimensional_spectrogram_variable(self):
+        accepted_variable = Mock()
+        accepted_variable.attrs = {
+            "CATDESC": "accepted_variable_with_3",
+            "VAR_TYPE": "data",
+            "FIELDNAM": "now in 3D",
+            "DEPEND_0": "time_col_good",
+            "SCALETYP": "log",
+            "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'spectrogram'
+        }
+        accepted_variable.shape = (1, 2, 3)
+
+        self.assertTrue(DefaultVariableSelector.should_include(accepted_variable, self.mock_cdf))
+
+    def test_accepts_expected_4_dimensional_spectrogram_variable(self):
+        accepted_variable = Mock()
+        accepted_variable.attrs = {
+            "CATDESC": "a 4 dimensional spectrogram",
+            "VAR_TYPE": "data",
+            "FIELDNAM": "now in 4D!!!!",
+            "DEPEND_0": "time_col_good",
+            "SCALETYP": "log",
+            "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'spectrogram'
+        }
+        accepted_variable.shape = (1, 2, 3, 4)
 
         self.assertTrue(DefaultVariableSelector.should_include(accepted_variable, self.mock_cdf))
 
@@ -73,9 +103,9 @@ class TestDefaultVariableSelector(unittest.TestCase):
             "SCALEMIN": 1,
             "DISPLAY_TYPE": 'spectrogram'
         }
-        bad_shape_variable_spectrogram.shape = (9, 9, 9)
+        bad_shape_variable_spectrogram.shape = (9,)
 
-        self.assertTrue(DefaultVariableSelector.should_include(bad_shape_variable_spectrogram, self.mock_cdf))
+        self.assertFalse(DefaultVariableSelector.should_include(bad_shape_variable_spectrogram, self.mock_cdf))
 
     def test_does_not_accept_variable_with_no_plot_display_type(self):
         no_plot_variable = Mock()
