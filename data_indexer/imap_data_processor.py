@@ -69,8 +69,8 @@ def get_metadata_index() -> list[dict]:
         cdf = urllib.request.urlopen(source_file_url).read()
         try:
             cdf_file_info = CdfParser.parse_cdf_bytes(cdf, DefaultVariableSelector)
-        except:
-            print("failed to parse CDF, skipping:", description_source_file)
+        except Exception as e:
+            print("failed to parse CDF, skipping:", description_source_file, e)
             continue
 
         date_in_url_path_regex = re.compile("/[0-9]{4}/[0-9]{2}/")

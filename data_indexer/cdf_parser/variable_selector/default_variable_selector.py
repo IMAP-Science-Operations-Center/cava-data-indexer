@@ -5,6 +5,7 @@ from data_indexer.cdf_parser.variable_selector.variable_selector import Variable
 
 class DefaultVariableSelector(VariableSelector):
     acceptable_dimensions = {
+        'image': (4,),
         'spectrogram': (2, 3, 4),
         'time_series': (1,)
     }
@@ -15,8 +16,10 @@ class DefaultVariableSelector(VariableSelector):
             return False
         display_type = var.attrs.get('DISPLAY_TYPE')
         has_correct_shape = len(var.shape) in cls.acceptable_dimensions.get(display_type,[])
-        time_col = var.attrs['DEPEND_0']
-        time_is_ns = cdf[time_col].attrs['UNITS'] == 'ns'
+        time_col = var.attrs.get('DEPEND_0')
+        time_is_ns = False
+        if time_col is not None:
+            time_is_ns = cdf[time_col].attrs['UNITS'] == 'ns'
         zscale = var.attrs['SCALETYP'] if 'SCALETYP' in var.attrs else 'linear'
         scale_is_valid = zscale == 'linear' or var.attrs['SCALEMIN'] != 0
         return has_correct_shape and time_is_ns and scale_is_valid
