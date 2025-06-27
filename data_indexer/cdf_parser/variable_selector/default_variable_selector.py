@@ -20,6 +20,10 @@ class DefaultVariableSelector(VariableSelector):
         time_is_ns = False
         if time_col is not None:
             time_is_ns = cdf[time_col].attrs['UNITS'] == 'ns'
+
+        if var.type() == pycdf.const.CDF_TIME_TT2000.value:
+            return False
+
         zscale = var.attrs['SCALETYP'] if 'SCALETYP' in var.attrs else 'linear'
         scale_is_valid = zscale == 'linear' or var.attrs['SCALEMIN'] != 0
         return has_correct_shape and time_is_ns and scale_is_valid

@@ -1,6 +1,8 @@
 import unittest
 from unittest.mock import Mock
 
+from spacepy import pycdf
+
 from data_indexer.cdf_parser.variable_selector.default_variable_selector import DefaultVariableSelector
 
 
@@ -167,7 +169,7 @@ class TestDefaultVariableSelector(unittest.TestCase):
 
         self.assertTrue(DefaultVariableSelector.should_include(map_variable, self.mock_cdf))
 
-    def test_does_accepts_variable_with_no_time_var(self):
+    def test_does_not_accept_variable_with_no_time_var(self):
         missing_depend_0_variable = Mock()
         missing_depend_0_variable.attrs = {
             "CATDESC": "Does not depend on time",
@@ -177,6 +179,23 @@ class TestDefaultVariableSelector(unittest.TestCase):
             "SCALEMIN": 1,
             "DISPLAY_TYPE": 'image'
         }
+        missing_depend_0_variable.shape = (1, 2, 3, 4)
+
+        self.assertFalse(DefaultVariableSelector.should_include(missing_depend_0_variable, self.mock_cdf))
+
+    def test_does_not_include_map_variables_with_time_data_type(self):
+        missing_depend_0_variable = Mock()
+        missing_depend_0_variable.attrs = {
+            "CATDESC": "Observation date",
+            "VAR_TYPE": "data",
+            "DEPEND_0": "time_col_good",
+            "FIELDNAM": "something",
+            "SCALETYP": "linear",
+            "SCALEMIN": 1,
+            "DISPLAY_TYPE": 'image',
+            "UNITS": "ns"
+        }
+        missing_depend_0_variable.type.return_value = pycdf.const.CDF_TIME_TT2000.value
         missing_depend_0_variable.shape = (1, 2, 3, 4)
 
         self.assertFalse(DefaultVariableSelector.should_include(missing_depend_0_variable, self.mock_cdf))
