@@ -11,7 +11,7 @@ from data_indexer.file_cadence.daily_file_cadence import DailyFileCadence
 class TestUtils(unittest.TestCase):
     def test_get_index(self):
         cdf_file_info = CdfFileInfo(CdfGlobalInfo("source", "source in human", "123", date(2022, 7, 28)),
-                                    [CdfVariableInfo("cdf_var_1", "Variable 1", "spectrogram", "units")])
+                                    [CdfVariableInfo("cdf_var_1", "Variable 1", "spectrogram", "units","axis_label_1"),])
         output = utils.get_index_entry(
             cdf_file_info,
             "source_url_%yyyymmdd%.cdf",
@@ -24,7 +24,7 @@ class TestUtils(unittest.TestCase):
         expected = {'dates_available': [['1900-01-01', '2022-12-01'], ['2022-12-03', '2045-06-07']],
                     'description_source_file': 'link_to_example_file.cdf',
                     'variables': [{'catalog_description': 'Variable 1', 'variable_name': 'cdf_var_1',
-                                   'display_type': 'spectrogram', 'units': 'units'}],
+                                   'display_type': 'spectrogram', 'units': 'units', 'axis_label': 'axis_label_1',}],
                     'logical_source': 'source',
                     'logical_source_description': 'source in human',
                     'source_file_format': 'source_url_%yyyymmdd%.cdf',

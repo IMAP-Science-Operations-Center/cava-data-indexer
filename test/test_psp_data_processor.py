@@ -50,16 +50,16 @@ class TestPspDataProcessor(unittest.TestCase):
         mock_cdf_parser.parse_cdf_bytes.side_effect = [
             CdfFileInfo(
                 CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 10", "10", date(2022, 11, 14)),
-                [CdfVariableInfo('a key into the CDF 1', 'a description v1', 'time_series', 'units')]),
+                [CdfVariableInfo('a key into the CDF 1', 'a description v1', 'time_series', 'units', "axis_1")]),
             CdfFileInfo(
                 CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 11", "11", date(2022, 11, 15)),
-                [CdfVariableInfo('a key into the CDF 2', 'a description v2', 'time_series', 'units')]),
+                [CdfVariableInfo('a key into the CDF 2', 'a description v2', 'time_series', 'units', "axis_2")]),
             CdfFileInfo(
                 CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 12", "12", date(2022, 11, 16)),
-                [CdfVariableInfo('a key into the CDF 3', 'a description v3', 'time_series', 'units')]),
+                [CdfVariableInfo('a key into the CDF 3', 'a description v3', 'time_series', 'units', "axis_3")]),
             CdfFileInfo(
                 CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 13", "13", date(2022, 11, 17)),
-                [CdfVariableInfo('a key into the CDF 4', 'a description v4', 'time_series', 'units')]),
+                [CdfVariableInfo('a key into the CDF 4', 'a description v4', 'time_series', 'units', "axis_4")]),
 
         ]
 
@@ -77,7 +77,7 @@ class TestPspDataProcessor(unittest.TestCase):
 
         self.assertEqual([{"variables": [{'catalog_description': 'a description v1',
                                           'display_type': 'time_series',
-                                          'variable_name': 'a key into the CDF 1', 'units': 'units'}],
+                                          'variable_name': 'a key into the CDF 1', 'units': 'units', 'axis_label':'axis_1'}],
                            "source_file_format": '/%yyyy%/psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v10.cdf',
                            "description_source_file": '/2022/psp_isois-epihi_l2-het-rates3600_20190102_v10.cdf',
                            "logical_source": "psp_isois-epihi_l2-het-rates3600",
@@ -89,7 +89,7 @@ class TestPspDataProcessor(unittest.TestCase):
                            "file_cadence": "daily"},
                           {"variables": [{'catalog_description': 'a description v2',
                                           'display_type': 'time_series',
-                                          'variable_name': 'a key into the CDF 2', 'units': 'units'}],
+                                          'variable_name': 'a key into the CDF 2', 'units': 'units','axis_label':'axis_2'}],
                            "source_file_format": '/%yyyy%/psp_isois-epihi_l2-het-rates3600_%yyyymmdd%_v11.cdf',
                            "description_source_file": '/2023/psp_isois-epihi_l2-het-rates3600_20190102_v11.cdf',
                            "logical_source": "psp_isois-epihi_l2-het-rates3600",
@@ -101,7 +101,7 @@ class TestPspDataProcessor(unittest.TestCase):
                            "file_cadence": "daily"},
                           {"variables": [{'catalog_description': 'a description v3',
                                           'display_type': 'time_series',
-                                          'variable_name': 'a key into the CDF 3', 'units': 'units'}],
+                                          'variable_name': 'a key into the CDF 3', 'units': 'units','axis_label':'axis_3'}],
                            "source_file_format": '/%yyyy%/psp_isois_l2-ephem_%yyyymmdd%_v12.cdf',
                            "description_source_file": '/2022/psp_isois_l2-ephem_20181111_v12.cdf',
                            "logical_source": "psp_isois-epihi_l2-het-rates3600",
@@ -113,7 +113,7 @@ class TestPspDataProcessor(unittest.TestCase):
                            "file_cadence": "six_month"},
                           {"variables": [{'catalog_description': 'a description v4',
                                           'display_type': 'time_series',
-                                          'variable_name': 'a key into the CDF 4', 'units': 'units'}],
+                                          'variable_name': 'a key into the CDF 4', 'units': 'units','axis_label':'axis_4'}],
                            "source_file_format": '/%yyyy%/psp_isois_l2-summary_%yyyymmdd%_v13.cdf',
                            "description_source_file": '/2023/psp_isois_l2-summary_20181114_v13.cdf',
                            "logical_source": "psp_isois-epihi_l2-het-rates3600",

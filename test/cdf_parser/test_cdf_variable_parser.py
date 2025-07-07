@@ -15,22 +15,22 @@ class TestCdfVariableParser(unittest.TestCase):
     def test_parse_info_from_cdf_returns_expected_info(self):
         expected_info = [
             CdfVariableInfo('Roll_Angle', 'Angle between nominal ram and actual ram, 0 in encounter', 'time_series',
-                            'degrees'),
-            CdfVariableInfo('Sun_Angle', 'Angle between TPS and Sun, 0 in encounter', 'time_series', 'degrees'),
+                            'degrees', 'Roll Angle'),
+            CdfVariableInfo('Sun_Angle', 'Angle between TPS and Sun, 0 in encounter', 'time_series', 'degrees', "Sun Angle"),
             CdfVariableInfo('Clock_Angle', 'angle of off-pointing from ecliptic north when not in encounter',
-                            'time_series', 'degrees'),
-            CdfVariableInfo('HCI_Lat', 'HCI latitude', 'time_series', 'degrees'),
-            CdfVariableInfo('HCI_Lon', 'HCI longitude', 'time_series', 'degrees'),
-            CdfVariableInfo('HCI_R', 'Heliocentric distance', 'time_series', 'AU'),
-            CdfVariableInfo('HGC_R', 'Heliocentric distance', 'time_series', 'AU'),
-            CdfVariableInfo('Spiral_HETA', 'HETA look angle with nominal parker spiral', 'time_series', 'degrees'),
-            CdfVariableInfo('HGC_Lat', 'HGC latitude', 'time_series', 'degrees'),
-            CdfVariableInfo('HGC_Lon', 'HGC longitude', 'time_series', 'degrees'),
-            CdfVariableInfo('Spiral_LET1A', 'LET1A look angle with nominal parker spiral', 'time_series', 'degrees'),
-            CdfVariableInfo('Spiral_LET2C', 'LET2C look angle with nominal parker spiral', 'time_series', 'degrees'),
-            CdfVariableInfo('Spiral_Lo', 'Lo look angle with nominal parker spiral', 'time_series', 'degrees'),
-            CdfVariableInfo('Ram_Pointing', 'Spacecraft is ram pointing', 'time_series', ''),
-            CdfVariableInfo('Umbra_Pointing', 'Spacecraft is umbra pointing', 'time_series', ''),
+                            'time_series', 'degrees', "Clock Angle"),
+            CdfVariableInfo('HCI_Lat', 'HCI latitude', 'time_series', 'degrees', "HCI latitude"),
+            CdfVariableInfo('HCI_Lon', 'HCI longitude', 'time_series', 'degrees', "HCI longitude"),
+            CdfVariableInfo('HCI_R', 'Heliocentric distance', 'time_series', 'AU', "R"),
+            CdfVariableInfo('HGC_R', 'Heliocentric distance', 'time_series', 'AU', "R"),
+            CdfVariableInfo('Spiral_HETA', 'HETA look angle with nominal parker spiral', 'time_series', 'degrees', "HETA Angle"),
+            CdfVariableInfo('HGC_Lat', 'HGC latitude', 'time_series', 'degrees', "HGC latitude"),
+            CdfVariableInfo('HGC_Lon', 'HGC longitude', 'time_series', 'degrees', "HGC longitude"),
+            CdfVariableInfo('Spiral_LET1A', 'LET1A look angle with nominal parker spiral', 'time_series', 'degrees', "LET1A Angle"),
+            CdfVariableInfo('Spiral_LET2C', 'LET2C look angle with nominal parker spiral', 'time_series', 'degrees', "LET2C Angle"),
+            CdfVariableInfo('Spiral_Lo', 'Lo look angle with nominal parker spiral', 'time_series', 'degrees', "Lo Angle"),
+            CdfVariableInfo('Ram_Pointing', 'Spacecraft is ram pointing', 'time_series', '', "Ram Pointing"),
+            CdfVariableInfo('Umbra_Pointing', 'Spacecraft is umbra pointing', 'time_series', '', "Umbra Pointing"),
         ]
 
         cdf_path = str(Path(test.__file__).parent / 'test_data/test.cdf')
@@ -54,16 +54,16 @@ class TestCdfVariableParser(unittest.TestCase):
         mock_cdf.attrs = {'Data_version': "99", 'Logical_source': "lsource",
                           "Descriptor": "ISOIS-EPILO>Integrated Science Investigation of the Sun, Energetic Particle Instrument Lo"}
         expected_info = [
-            CdfVariableInfo("var0", 'var_not_filtered', 'spectrogram', 'degrees'),
-            CdfVariableInfo("var7", "var_not_filtered_for_nonzero_min_and_log", 'spectrogram', 'degrees'),
-            CdfVariableInfo("var9", "var_not_filtered_for_scale", 'spectrogram', 'degrees'),
+            CdfVariableInfo("var0", 'var_not_filtered', 'spectrogram', 'degrees',""),
+            CdfVariableInfo("var7", "var_not_filtered_for_nonzero_min_and_log", 'spectrogram', 'degrees',""),
+            CdfVariableInfo("var9", "var_not_filtered_for_scale", 'spectrogram', 'degrees',""),
             CdfVariableInfo("var8", "var_not_filtered_for_scaletype_missing_and_scalemin_zero", "spectrogram",
-                            'degrees'),
+                            'degrees',""),
             CdfVariableInfo("var13", "var_not_filtered_for_timeseries_shape_with_look_direction", 'time_series',
-                            'degrees'),
-            CdfVariableInfo("var5", "var_not_filtered_linear", 'spectrogram', 'degrees'),
+                            'degrees',""),
+            CdfVariableInfo("var5", "var_not_filtered_linear", 'spectrogram', 'degrees',""),
             CdfVariableInfo("var12", "var_that_is_not_filtered_three_dimensional_spectrogram", 'spectrogram',
-                            'degrees'),
+                            'degrees',""),
         ]
 
         var_that_is_not_filtered = Mock()
@@ -242,8 +242,8 @@ class TestCdfVariableParser(unittest.TestCase):
         mock_cdf.attrs = {'Data_version': "99", 'Logical_source': "lsource",
                           "Descriptor": "ISOIS-EPIHI>Integrated Science Investigation of the Sun, Energetic Particle Instrument Hi"}
         expected_info = [
-            CdfVariableInfo("var0", 'var_not_filtered', 'spectrogram', 'degrees'),
-            CdfVariableInfo("var1", 'var_that_not_filtered_three_dimensional_spectrogram', 'spectrogram', 'degrees'),
+            CdfVariableInfo("var0", 'var_not_filtered', 'spectrogram', 'degrees',""),
+            CdfVariableInfo("var1", 'var_that_not_filtered_three_dimensional_spectrogram', 'spectrogram', 'degrees',""),
         ]
 
         var_that_is_not_filtered = Mock()

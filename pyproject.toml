@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 [project]
 name = "data_indexer"
-version = "0.0.17"
+version = "0.0.18"
 dependencies = [
     "beautifulsoup4 == 4.11.1",
     "spacepy==0.4.1",

@@ -12,6 +12,7 @@ class CdfVariableInfo:
     catalog_description: str
     display_type: str
     units: Optional[str]
+    axis_label: Optional[str]
 
 
 class CdfVariableParser:
@@ -24,7 +25,8 @@ class CdfVariableParser:
                 catalog_description = str(var.attrs["CATDESC"])
                 display_type = str(var.attrs['DISPLAY_TYPE'])
                 units = str(var.attrs.get("UNITS"))
-                variable_infos.append(CdfVariableInfo(key, catalog_description, display_type, units))
+                axis_label = str(var.attrs.get("LABLAXIS", ""))
+                variable_infos.append(CdfVariableInfo(key, catalog_description, display_type, units, axis_label))
             elif var.attrs["VAR_TYPE"] == "data":
                 print("Ignored variable", key, "from file", cdf.attrs["Logical_source"])
 
