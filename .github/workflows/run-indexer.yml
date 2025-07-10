@@ -3,6 +3,8 @@ name: Run Indexer
 on:
   push:
     branches: [ "main" ]
+  schedule:
+  - cron: '0 20 * * *'
 
 permissions:
   contents: write
