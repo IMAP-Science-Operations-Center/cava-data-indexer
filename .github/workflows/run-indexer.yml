@@ -10,7 +10,12 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  run_indexer:
+    strategy:
+      matrix:
+        indexer_type: [imap, test_failure, psp]
+      fail-fast: false
+      max-parallel: 1
 
     runs-on: ubuntu-latest
 
@@ -24,12 +29,9 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Run IMAP Index
+    - name: Run Index
       run: |
-        python main.py imap
-    - name: Run PSP Index
-      run: |
-        python main.py psp
+        python main.py ${{indexer_type}}
     - name: Commit and Push
       run: |
         git config --global user.name 'github-actions[bot]'
