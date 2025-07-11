@@ -31,7 +31,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run Index
       run: |
-        python main.py ${{indexer_type}}
+        python main.py ${{matrix.indexer_type}}
     - name: Commit and Push
       run: |
         git config --global user.name 'github-actions[bot]'
