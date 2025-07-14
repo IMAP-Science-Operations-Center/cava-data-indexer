@@ -16,8 +16,8 @@ from data_indexer.imap_data_processor import get_metadata_index, imap_dev_server
 class TestImapDataProcessor(TestCase):
     @patch('data_indexer.imap_data_processor.CdfParser')
     @patch('data_indexer.imap_data_processor.imap_data_access.query')
-    @patch('data_indexer.imap_data_processor.urllib.request.urlopen')
-    def test_get_metadata_index(self, mock_url_open, mock_data_access_query, mock_cdf_parser):
+    @patch('data_indexer.imap_data_processor.get_with_retry')
+    def test_get_metadata_index(self, mock_get_with_retry, mock_data_access_query, mock_cdf_parser):
         expected_file_path_1 = 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_protons_20250606_v003.cdf'
         expected_file_path_2 = 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_pui-he_20250606_v003.cdf'
         expected_file_path_3 = 'fake-mission/fake-instrument2/l3a/2025/06/fake-mission_fake-instrument2_l3a_pui-he_20250607_v003.cdf'
@@ -54,7 +54,7 @@ class TestImapDataProcessor(TestCase):
         third_cdf_response = Mock()
         fourth_cdf_response = Mock()
 
-        mock_url_open.side_effect = [first_cdf_response, second_cdf_response, third_cdf_response, fourth_cdf_response]
+        mock_get_with_retry.side_effect = [first_cdf_response, second_cdf_response, third_cdf_response, fourth_cdf_response]
 
         mock_cdf_parser.parse_cdf_bytes.side_effect = [
             CdfFileInfo(CdfGlobalInfo("fake-mission_fake-instrument_l3a_protons", "Parker Solar Probe Level 2 Summary",
@@ -86,7 +86,7 @@ class TestImapDataProcessor(TestCase):
         expected_description_source_file_url_3 = imap_dev_server + f"download/{expected_file_path_3}"
         expected_description_source_file_url_4 = imap_dev_server + f"download/{expected_file_path_4}"
 
-        mock_url_open.assert_has_calls([call(expected_description_source_file_url_1),
+        mock_get_with_retry.assert_has_calls([call(expected_description_source_file_url_1),
                                         call(expected_description_source_file_url_2),
                                         call(expected_description_source_file_url_3),
                                         call(expected_description_source_file_url_4)])
@@ -177,16 +177,16 @@ class TestImapDataProcessor(TestCase):
         self.assertEqual(expected_index, actual_index)
 
         self.assertEqual([
-            call(first_cdf_response.read.return_value, DefaultVariableSelector),
-            call(second_cdf_response.read.return_value, DefaultVariableSelector),
-            call(third_cdf_response.read.return_value, DefaultVariableSelector),
-            call(fourth_cdf_response.read.return_value, DefaultVariableSelector)],
+            call(first_cdf_response.content, DefaultVariableSelector),
+            call(second_cdf_response.content, DefaultVariableSelector),
+            call(third_cdf_response.content, DefaultVariableSelector),
+            call(fourth_cdf_response.content, DefaultVariableSelector)],
             mock_cdf_parser.parse_cdf_bytes.call_args_list)
 
     @patch('data_indexer.imap_data_processor.CdfParser')
     @patch('data_indexer.imap_data_processor.imap_data_access.query')
-    @patch('data_indexer.imap_data_processor.urllib.request.urlopen')
-    def test_get_metadata_index_returns_instrument_names_correctly(self, mock_url_open, mock_data_access_query, _):
+    @patch('data_indexer.imap_data_processor.get_with_retry')
+    def test_get_metadata_index_returns_instrument_names_correctly(self, _mock_get_with_retry, mock_data_access_query, _):
         lowercase_instruments = ["codice", "glows", "hi", "hit", "idex", "lo", "mag", "swapi", "swe", "ultra", ]
         uppercase_instruments = [
             "CoDICE",
@@ -206,8 +206,6 @@ class TestImapDataProcessor(TestCase):
              'version': 'v003', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:09:58'}
             for instrument in lowercase_instruments
         ]
-
-        mock_url_open.return_value = Mock()
 
         actual_index = get_metadata_index()
 
@@ -239,8 +237,8 @@ class TestImapDataProcessor(TestCase):
 
     @patch('data_indexer.imap_data_processor.CdfParser')
     @patch('data_indexer.imap_data_processor.imap_data_access.query')
-    @patch('data_indexer.imap_data_processor.urllib.request.urlopen')
-    def test_ignores_poorly_formatted_cdfs(self, mock_url_open, mock_imap_query,
+    @patch('data_indexer.imap_data_processor.get_with_retry')
+    def test_ignores_poorly_formatted_cdfs(self, _, mock_imap_query,
                                            mock_cdf_parser):
         expected_file_path_1 = 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_protons_20250606_v003.cdf'
         expected_file_path_2 = 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_pui-he_20250606_v003.cdf'

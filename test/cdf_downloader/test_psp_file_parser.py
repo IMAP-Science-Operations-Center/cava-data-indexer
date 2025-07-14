@@ -6,8 +6,8 @@ from data_indexer.cdf_downloader.psp_file_parser import PspFileParser, PspFileIn
 
 
 class TestPspFileParser(TestCase):
-    @patch('data_indexer.cdf_downloader.psp_file_parser.http_client')
-    def test_retrieves_list_of_files_for_types(self, mock_http_client):
+    @patch('data_indexer.cdf_downloader.psp_file_parser.get_with_retry')
+    def test_retrieves_list_of_files_for_types(self, mock_get_with_retry):
         mock_html_folder_path = Path(__file__).parent / 'mock_html/'
         file_path = mock_html_folder_path / 'l2.html'
         with open(file_path, 'r') as file:
@@ -46,12 +46,12 @@ class TestPspFileParser(TestCase):
         mock_2023_response = MagicMock()
         mock_2023_response.text = twentythree_html
 
-        mock_http_client.get.side_effect = [mock_l2_response, mock_het_rate_1_response, mock_2022_response,
-                                            mock_het_rate_2_response, mock_2022_r2_response, mock_2023_response]
+        mock_get_with_retry.side_effect = [mock_l2_response, mock_het_rate_1_response, mock_2022_response,
+                                               mock_het_rate_2_response, mock_2022_r2_response, mock_2023_response]
 
         file_dictionary = PspFileParser.get_dictionary_of_files("https://url.site/l2/")
 
-        mock_http_client.get.assert_has_calls([
+        mock_get_with_retry.assert_has_calls([
             call("https://url.site/l2/"),
             call("https://url.site/l2/het_rate_1/"),
             call("https://url.site/l2/het_rate_1/2022/"),

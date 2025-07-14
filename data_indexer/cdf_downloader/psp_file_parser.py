@@ -2,7 +2,7 @@ from typing import Dict, List, Tuple, NamedTuple
 
 from bs4 import BeautifulSoup
 
-from data_indexer.http_client import http_client
+from data_indexer.http_client import http_client, get_with_retry
 
 
 class PspFileInfo(NamedTuple):
@@ -37,7 +37,7 @@ class PspFileParser:
 
     @staticmethod
     def _get_all_links(url: str) -> List[Tuple[str, str]]:
-        response = http_client.get(url)
+        response = get_with_retry(url)
         text = response.text
         list_of_links = []
 

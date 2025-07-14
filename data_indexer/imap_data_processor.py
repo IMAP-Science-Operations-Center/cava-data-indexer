@@ -11,6 +11,7 @@ from spacepy.pycdf import CDFError
 from data_indexer.cdf_parser.cdf_parser import CdfParser
 from data_indexer.cdf_parser.variable_selector.default_variable_selector import DefaultVariableSelector
 from data_indexer.file_cadence.daily_file_cadence import DailyFileCadence
+from data_indexer.http_client import get_with_retry
 from data_indexer.utils import get_index_entry
 
 
@@ -66,7 +67,7 @@ def get_metadata_index() -> list[dict]:
         description_source_file = latest_files[0]
 
         source_file_url = imap_dev_server + "download/" + description_source_file
-        cdf = urllib.request.urlopen(source_file_url).read()
+        cdf = get_with_retry(source_file_url).content
         try:
             cdf_file_info = CdfParser.parse_cdf_bytes(cdf, DefaultVariableSelector)
         except Exception as e:

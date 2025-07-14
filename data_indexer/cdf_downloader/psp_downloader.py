@@ -10,7 +10,7 @@ from data_indexer.cdf_parser.variable_selector.variable_selector import Variable
 from data_indexer.file_cadence.daily_file_cadence import DailyFileCadence
 from data_indexer.file_cadence.file_cadence import FileCadence
 from data_indexer.file_cadence.six_month_file_cadence import SixMonthFileCadence
-from data_indexer.http_client import http_client
+from data_indexer.http_client import http_client, get_with_retry
 
 psp_isois_cda_base_url = 'https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/{}/l2/'
 psp_fields_cda_base_url = 'https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/{}/'
@@ -66,4 +66,4 @@ class PspDownloader:
     def get_cdf_file(base_url: str, filename: str, instrument: str, category: str, year: str):
         instrument_base_url = base_url.format(instrument)
         file_url = f"{instrument_base_url}{category}{year}/{filename}"
-        return {"link": file_url, "data": http_client.get(file_url).content}
+        return {"link": file_url, "data": get_with_retry(file_url).content}
