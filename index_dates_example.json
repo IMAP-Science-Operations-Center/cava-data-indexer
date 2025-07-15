@@ -1,0 +1,30 @@
+[
+  {
+    "variables": [
+      {
+        "variable_name": "probability_of_survival",
+        "catalog_description": "Survival probabilities for IMAP-Lo",
+        "display_type": "spectrogram",
+        "units": " "
+      }
+    ],
+    "file_timeranges": [
+      {
+        "start_time": "2025-05-30T00:00:00+00:00",
+        "end_time": "2025-05-31T00:00:00+00:00",
+        "filename":  "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-lo_20250530_v007.cdf"
+      },
+      {
+        "start_time": "2025-05-31T00:00:00+00:00",
+        "end_time": "2025-06-01T00:00:00+00:00",
+        "filename":  "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-lo_20250531_v003.cdf"
+      }
+    ],
+    "logical_source": "imap_glows_l3e_survival-probability-lo",
+    "logical_source_description": "IMAP Mission GLOWS L3e Lo Survival Probability",
+    "generation_date": "2025-04-24",
+    "instrument": "GLOWS",
+    "mission": "IMAP",
+    "file_cadence": "daily"
+  }
+]
