@@ -18,35 +18,49 @@ class TestImapDataProcessor(TestCase):
     @patch('data_indexer.imap_data_processor.imap_data_access.query')
     @patch('data_indexer.imap_data_processor.get_with_retry')
     def test_get_metadata_index(self, mock_get_with_retry, mock_data_access_query, mock_cdf_parser):
-        expected_file_path_1 = 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_protons_20250606_v003.cdf'
-        expected_file_path_2 = 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_pui-he_20250606_v003.cdf'
-        expected_file_path_3 = 'fake-mission/fake-instrument2/l3a/2025/06/fake-mission_fake-instrument2_l3a_pui-he_20250607_v003.cdf'
-        expected_file_path_4 = 'fake-mission/fake-instrument/l3b/2025/06/fake-mission_fake-instrument_l3b_pui-he_20250607_v003.cdf'
+
+        l3a_protons_data_product_v3 = 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_protons_20250606_v003.cdf'
+        l3a_protons_data_product_v2_outdated = 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_protons_20250606_v002.cdf'
+
+        l3a_pui_data_product_20250606_v3 = 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_pui-he_20250606_v003.cdf'
+        l3a_pui_data_product_20250607_v2 = 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_pui-he_20250607_v002.cdf'
+
+        l3a_pui_diff_instrument_product = 'fake-mission/fake-instrument2/l3a/2025/06/fake-mission_fake-instrument2_l3a_pui-he_20250607_v003.cdf'
+        l3b_pui_data_product = 'fake-mission/fake-instrument/l3b/2025/06/fake-mission_fake-instrument_l3b_pui-he_20250607_v003.cdf'
+
         mock_data_access_query.return_value = [
             {
-                'file_path': 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_protons_20250606_v002.cdf',
+                'file_path': l3a_protons_data_product_v2_outdated,
                 'instrument': 'fake-instrument',
                 'data_level': 'l3a', 'descriptor': 'protons', 'start_date': '20250606', 'repointing': None,
                 'version': 'v002', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:09:59'},
-            {'file_path': expected_file_path_1, 'instrument': 'fake-instrument',
-             'data_level': 'l3a', 'descriptor': 'protons', 'start_date': '20250606', 'repointing': None,
-             'version': 'v003', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:09:58'},
-            {'file_path': expected_file_path_2, 'instrument': 'fake-instrument',
-             'data_level': 'l3a', 'descriptor': 'pui-he', 'start_date': '20250606', 'repointing': None,
-             'version': 'v003', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:09:59'},
+
             {
-                'file_path': 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_pui-he_20250607_v003.cdf',
-                'instrument': 'fake-instrument',
+                'file_path': l3a_protons_data_product_v3, 'instrument': 'fake-instrument',
+                'data_level': 'l3a', 'descriptor': 'protons', 'start_date': '20250606', 'repointing': None,
+                'version': 'v003', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:09:58'
+            },
+            {
+                'file_path': l3a_pui_data_product_20250607_v2, 'instrument': 'fake-instrument',
                 'data_level': 'l3a', 'descriptor': 'pui-he', 'start_date': '20250607', 'repointing': None,
-                'version': 'v003', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:12:40'},
-            {'file_path': expected_file_path_3,
-             'instrument': 'fake-instrument2',
-             'data_level': 'l3a', 'descriptor': 'pui-he', 'start_date': '20250607', 'repointing': None,
-             'version': 'v003', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:12:40'},
-            {'file_path': expected_file_path_4,
-             'instrument': 'fake-instrument',
-             'data_level': 'l3b', 'descriptor': 'pui-he', 'start_date': '20250607', 'repointing': None,
-             'version': 'v003', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:12:40'}
+                'version': 'v002', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:12:40'
+            },
+            {
+                'file_path': l3a_pui_data_product_20250606_v3, 'instrument': 'fake-instrument',
+                'data_level': 'l3a', 'descriptor': 'pui-he', 'start_date': '20250606', 'repointing': None,
+                'version': 'v003', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:09:59'
+            },
+
+            {
+                'file_path': l3a_pui_diff_instrument_product, 'instrument': 'fake-instrument2',
+                'data_level': 'l3a', 'descriptor': 'pui-he', 'start_date': '20250607', 'repointing': None,
+                'version': 'v003', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:12:40'
+             },
+            {
+                'file_path': l3b_pui_data_product, 'instrument': 'fake-instrument',
+                'data_level': 'l3b', 'descriptor': 'pui-he', 'start_date': '20250607', 'repointing': None,
+                'version': 'v003', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:12:40'
+            }
         ]
 
         first_cdf_response = Mock()
@@ -81,84 +95,102 @@ class TestImapDataProcessor(TestCase):
 
         actual_index = get_metadata_index()
 
-        expected_description_source_file_url_1 = imap_dev_server + f"download/{expected_file_path_1}"
-        expected_description_source_file_url_2 = imap_dev_server + f"download/{expected_file_path_2}"
-        expected_description_source_file_url_3 = imap_dev_server + f"download/{expected_file_path_3}"
-        expected_description_source_file_url_4 = imap_dev_server + f"download/{expected_file_path_4}"
+        l3a_protons_data_product_v3_url = imap_dev_server + f"download/{l3a_protons_data_product_v3}"
+        l3a_pui_data_product_20250606_v3_url = imap_dev_server + f"download/{l3a_pui_data_product_20250606_v3}"
+        l3a_pui_data_product_20250607_v2_url = imap_dev_server + f"download/{l3a_pui_data_product_20250607_v2}"
+        l3a_pui_diff_instrument_product_url = imap_dev_server + f"download/{l3a_pui_diff_instrument_product}"
+        l3b_pui_data_product_url = imap_dev_server + f"download/{l3b_pui_data_product}"
 
-        mock_get_with_retry.assert_has_calls([call(expected_description_source_file_url_1),
-                                        call(expected_description_source_file_url_2),
-                                        call(expected_description_source_file_url_3),
-                                        call(expected_description_source_file_url_4)])
+        mock_get_with_retry.assert_has_calls([
+            call(l3a_protons_data_product_v3_url),
+            call(l3a_pui_data_product_20250607_v2_url),
+            call(l3a_pui_diff_instrument_product_url),
+            call(l3b_pui_data_product_url)
+        ])
 
         expected_index = [
             {
+                "file_timeranges": [{
+                    "start_time": "2025-06-06T00:00:00+00:00",
+                    "end_time": "2025-06-07T00:00:00+00:00",
+                    "url": l3a_protons_data_product_v3_url
+                }],
                 "logical_source": "fake-mission_fake-instrument_l3a_protons",
                 "logical_source_description": "Parker Solar Probe Level 2 Summary",
-                "version": "1.27.0",
-                "dates_available": [],
                 "variables": [{'catalog_description': 'variable 1',
                                'display_type': 'time-series',
                                'variable_name': 'VAR1', 'units': None},
                               {'catalog_description': 'variable 2',
                                'display_type': 'spectrogram',
                                'variable_name': 'VAR2', 'units': "Units"}],
-                "source_file_format": "https://api.dev.imap-mission.com/download/fake-mission/fake-instrument/l3a/%yyyy%/%mm%/fake-mission_fake-instrument_l3a_protons_%yyyymmdd%_v003.cdf",
-                "description_source_file": expected_description_source_file_url_1,
                 "generation_date": "2022-11-12",
                 "instrument": "fake-instrument",
                 "mission": "IMAP",
                 "file_cadence": "daily",
             },
             {
+                "file_timeranges": [
+                    {
+                        "start_time": "2025-06-06T00:00:00+00:00",
+                        "end_time": "2025-06-07T00:00:00+00:00",
+                        "url": l3a_pui_data_product_20250606_v3_url
+                    },
+                    {
+                        "start_time": "2025-06-07T00:00:00+00:00",
+                        "end_time": "2025-06-08T00:00:00+00:00",
+                        "url": l3a_pui_data_product_20250607_v2_url
+                    }
+                ],
                 "logical_source": "fake-mission_fake-instrument_l3a_pui-he",
                 "logical_source_description": "Parker Solar Probe Level 2 Ephemeris",
-                "version": "1.27.0",
-                "dates_available": [],
                 "variables": [{'catalog_description': 'variable 3',
                                'display_type': 'time-series',
                                'variable_name': 'VAR3', 'units': None},
                               {'catalog_description': 'variable 4',
                                'display_type': 'spectrogram',
                                'variable_name': 'VAR4', 'units': None}],
-                "source_file_format": "https://api.dev.imap-mission.com/download/fake-mission/fake-instrument/l3a/%yyyy%/%mm%/fake-mission_fake-instrument_l3a_pui-he_%yyyymmdd%_v003.cdf",
-                "description_source_file": expected_description_source_file_url_2,
                 "generation_date": "2022-11-13",
                 "instrument": "fake-instrument",
                 "mission": "IMAP",
                 "file_cadence": "daily",
             },
             {
+                "file_timeranges": [
+                    {
+                        "start_time": "2025-06-07T00:00:00+00:00",
+                        "end_time": "2025-06-08T00:00:00+00:00",
+                        "url": l3a_pui_diff_instrument_product_url
+                    },
+                ],
                 "logical_source": "fake-mission_fake-instrument2_l3a_pui-he",
                 "logical_source_description": "Parker Solar Probe Level 2 Summary",
-                "version": "1.27.0",
-                "dates_available": [],
                 "variables": [{'catalog_description': 'variable 1',
                                'display_type': 'time-series',
                                'variable_name': 'VAR1', 'units': None},
                               {'catalog_description': 'variable 2',
                                'display_type': 'spectrogram',
                                'variable_name': 'VAR2', 'units': "Units"}],
-                "source_file_format": "https://api.dev.imap-mission.com/download/fake-mission/fake-instrument2/l3a/%yyyy%/%mm%/fake-mission_fake-instrument2_l3a_pui-he_%yyyymmdd%_v003.cdf",
-                "description_source_file": expected_description_source_file_url_3,
                 "generation_date": "2022-11-12",
                 "instrument": "fake-instrument2",
                 "mission": "IMAP",
                 "file_cadence": "daily",
             },
             {
+                "file_timeranges": [
+                    {
+                        "start_time": "2025-06-07T00:00:00+00:00",
+                        "end_time": "2025-06-08T00:00:00+00:00",
+                        "url": l3b_pui_data_product_url
+                    },
+                ],
                 "logical_source": "fake-mission_fake-instrument_l3b_pui-he",
                 "logical_source_description": "Parker Solar Probe Level 2 Ephemeris",
-                "version": "1.27.0",
-                "dates_available": [],
                 "variables": [{'catalog_description': 'variable 3',
                                'display_type': 'time-series',
                                'variable_name': 'VAR3', 'units': None},
                               {'catalog_description': 'variable 4',
                                'display_type': 'spectrogram',
                                'variable_name': 'VAR4', 'units': None}],
-                "source_file_format": "https://api.dev.imap-mission.com/download/fake-mission/fake-instrument/l3b/%yyyy%/%mm%/fake-mission_fake-instrument_l3b_pui-he_%yyyymmdd%_v003.cdf",
-                "description_source_file": expected_description_source_file_url_4,
                 "generation_date": "2022-11-13",
                 "instrument": "fake-instrument",
                 "mission": "IMAP",

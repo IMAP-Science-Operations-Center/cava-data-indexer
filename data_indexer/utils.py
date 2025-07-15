@@ -1,22 +1,32 @@
 import dataclasses
-from datetime import date
+from dataclasses import dataclass
+from datetime import date, datetime
 from typing import Dict, List
 
 from data_indexer.cdf_parser.cdf_parser import CdfFileInfo
 from data_indexer.file_cadence.file_cadence import FileCadence
 
 
-def get_index_entry(cdf_file_info: CdfFileInfo, source_file_format: str, description_source_file: str,
-                    available_dates: List[List[date]], instrument: str, mission: str,file_cadence:type[FileCadence]) -> Dict:
+@dataclass
+class DataProductSource:
+    url: str
+    start_time: datetime
+    end_time: datetime
 
-    return {"variables": [dataclasses.asdict(info) for info in cdf_file_info.variable_infos], "source_file_format": source_file_format,
-            "description_source_file": description_source_file,
-            "dates_available": [[str(date_range[0]), str(date_range[1])] for date_range in available_dates],
+
+def get_index_entry(cdf_file_info: CdfFileInfo, file_timeranges: list[DataProductSource], instrument: str, mission: str, file_cadence: type[FileCadence]) -> Dict:
+
+    return {"variables": [dataclasses.asdict(info) for info in cdf_file_info.variable_infos],
             "logical_source": cdf_file_info.global_info.logical_source,
             "logical_source_description": cdf_file_info.global_info.logical_source_description,
-            "version": cdf_file_info.global_info.data_version,
             "generation_date": str(cdf_file_info.global_info.generation_date),
             "instrument": instrument,
             "mission": mission,
-            "file_cadence": file_cadence.name
+            "file_cadence": file_cadence.name,
+            "file_timeranges": [
+                {
+                    "start_time": file_timerange.start_time.isoformat(),
+                    "end_time": file_timerange.end_time.isoformat(),
+                    "url": file_timerange.url,
+                } for file_timerange in file_timeranges]
             }

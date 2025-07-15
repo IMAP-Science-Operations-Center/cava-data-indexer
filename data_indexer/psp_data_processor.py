@@ -1,8 +1,10 @@
-from datetime import datetime
+from datetime import datetime, timezone
 
 from data_indexer import utils, dates_available
 from data_indexer.cdf_downloader.psp_downloader import PspDownloader, FileCadence
 from data_indexer.cdf_parser.cdf_parser import CdfParser
+from data_indexer.http_client import get_with_retry
+from data_indexer.utils import DataProductSource
 
 
 class PspDataProcessor:
@@ -16,16 +18,33 @@ class PspDataProcessor:
         for psp_directory_info in psp_directory_infos:
             for category, file_infos in psp_directory_info.file_infos_by_mode.items():
 
-                available_dates = dates_available.get_date_ranges_from_file_infos(file_infos,psp_directory_info.file_cadence)
-                psp_file_info = file_infos[0]
-                cdf = PspDownloader.get_cdf_file(psp_directory_info.base_url, psp_file_info.name, psp_directory_info.instrument_url, category,
-                                                 psp_file_info.year)
-                cdf_info = CdfParser.parse_cdf_bytes(cdf["data"], psp_directory_info.variable_selector)
-                split_link = cdf['link'].split('_')
-                rebuilt_link = '_'.join(split_link[:-2]) + '_%yyyymmdd%_' + split_link[-1]
-                rebuilt_link = rebuilt_link.replace(psp_file_info.year, '%yyyy%')
-                index.append(utils.get_index_entry(cdf_info, rebuilt_link, cdf['link'], available_dates,
-                                                   psp_directory_info.instrument_human_readable, psp_directory_info.mission,psp_directory_info.file_cadence))
+                file_urls = [PspDownloader.get_url(
+                    psp_directory_info.base_url,
+                    file_info.name,
+                    psp_directory_info.instrument_url,
+                    category,
+                    file_info.year
+                ) for file_info in file_infos]
+
+                cdf_data = get_with_retry(file_urls[-1]).content
+                cdf_info = CdfParser.parse_cdf_bytes(cdf_data, psp_directory_info.variable_selector)
+
+                data_product_sources = []
+                for url in file_urls:
+                    file_name = url.split('/')[-1]
+                    file_date = datetime.strptime(file_name.split('_')[-2], "%Y%m%d").replace(tzinfo=timezone.utc)
+                    file_start, file_end = psp_directory_info.file_cadence.get_file_time_range(file_date)
+
+                    data_product_sources.append(DataProductSource(start_time=file_start, end_time=file_end, url=url))
+
+                index.append(utils.get_index_entry(
+                    cdf_file_info=cdf_info,
+                    file_timeranges=data_product_sources,
+                    instrument=psp_directory_info.instrument_human_readable,
+                    mission=psp_directory_info.mission,
+                    file_cadence=psp_directory_info.file_cadence
+                ))
+
         return index
 
 

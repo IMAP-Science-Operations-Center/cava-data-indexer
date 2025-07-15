@@ -48,7 +48,7 @@ class PspDownloader:
 
     @staticmethod
     def _get_metadata_for_multiple_data_sets(base_url: str, instrument_human_readable: str, detector_url: str,
-                                variable_selector: type[VariableSelector], mission: str,file_cadence:type[FileCadence]) -> PspDirectoryInfo:
+                                variable_selector: type[VariableSelector], mission: str, file_cadence: type[FileCadence]) -> PspDirectoryInfo:
         url = base_url.format(detector_url)
         file_infos_by_mode = PspFileParser.get_dictionary_of_files(url)
         return PspDirectoryInfo(base_url, instrument_human_readable, detector_url, file_infos_by_mode,
@@ -61,6 +61,11 @@ class PspDownloader:
         file_infos_by_mode = PspFileParser.get_dictionary_of_files(url, top_level_link='')
         return PspDirectoryInfo(base_url, instrument_human_readable, detector_url, file_infos_by_mode,
                                 variable_selector,mission,file_cadence)
+
+    @staticmethod
+    def get_url(base_url: str, filename: str, instrument: str, category: str, year: str):
+        instrument_base_url = base_url.format(instrument)
+        return f"{instrument_base_url}{category}{year}/{filename}"
 
     @staticmethod
     def get_cdf_file(base_url: str, filename: str, instrument: str, category: str, year: str):
