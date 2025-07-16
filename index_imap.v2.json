@@ -3205,88 +3205,88 @@
     "file_cadence": "carrington_rotation",
     "file_timeranges": [
       {
-        "start_time": "2000-01-01T15:20:09.600000+00:00",
-        "end_time": "2000-01-28T21:56:35.520000+00:00",
+        "start_time": "2000-01-01T14:11:11.039992+00:00",
+        "end_time": "2000-01-28T20:47:36.959992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3b/2000/01/imap_glows_l3b_ion-rate-profile_20000101_v008.cdf"
       },
       {
-        "start_time": "2000-04-19T17:45:53.280000+00:00",
-        "end_time": "2000-05-17T00:22:19.200000+00:00",
+        "start_time": "2000-04-19T16:36:54.719992+00:00",
+        "end_time": "2000-05-16T23:13:20.639992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3b/2000/04/imap_glows_l3b_ion-rate-profile_20000419_v011.cdf"
       },
       {
-        "start_time": "2000-04-19T17:45:53.280000+00:00",
-        "end_time": "2000-05-17T00:22:19.200000+00:00",
+        "start_time": "2000-05-16T23:13:20.639992+00:00",
+        "end_time": "2000-06-13T05:49:46.559992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3b/2000/05/imap_glows_l3b_ion-rate-profile_20000516_v011.cdf"
       },
       {
-        "start_time": "2009-12-07T06:05:36.960000+00:00",
-        "end_time": "2010-01-03T12:42:02.880000+00:00",
+        "start_time": "2009-12-07T04:56:38.399992+00:00",
+        "end_time": "2010-01-03T11:33:04.319992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3b/2009/12/imap_glows_l3b_ion-rate-profile_20091207_v008.cdf"
       },
       {
-        "start_time": "2010-01-03T12:42:02.880000+00:00",
-        "end_time": "2010-01-30T19:18:28.800000+00:00",
+        "start_time": "2010-01-03T11:33:04.319992+00:00",
+        "end_time": "2010-01-30T18:09:30.239992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3b/2010/01/imap_glows_l3b_ion-rate-profile_20100103_v030.cdf"
       },
       {
-        "start_time": "2010-01-30T19:18:28.800000+00:00",
-        "end_time": "2010-02-27T01:54:54.720000+00:00",
+        "start_time": "2010-01-30T18:09:30.239992+00:00",
+        "end_time": "2010-02-27T00:45:56.159992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3b/2010/01/imap_glows_l3b_ion-rate-profile_20100130_v008.cdf"
       },
       {
-        "start_time": "2010-02-27T01:54:54.720000+00:00",
-        "end_time": "2010-03-26T08:31:20.640000+00:00",
+        "start_time": "2010-02-27T00:45:56.159992+00:00",
+        "end_time": "2010-03-26T07:22:22.079992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3b/2010/02/imap_glows_l3b_ion-rate-profile_20100227_v008.cdf"
       },
       {
-        "start_time": "2010-03-26T08:31:20.640000+00:00",
-        "end_time": "2010-04-22T15:07:46.560000+00:00",
+        "start_time": "2010-03-26T07:22:22.079992+00:00",
+        "end_time": "2010-04-22T13:58:47.999992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3b/2010/03/imap_glows_l3b_ion-rate-profile_20100326_v012.cdf"
       },
       {
-        "start_time": "2010-04-22T15:07:46.560000+00:00",
-        "end_time": "2010-05-19T21:44:12.480000+00:00",
+        "start_time": "2010-04-22T13:58:47.999992+00:00",
+        "end_time": "2010-05-19T20:35:13.919992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3b/2010/04/imap_glows_l3b_ion-rate-profile_20100422_v015.cdf"
       },
       {
-        "start_time": "2010-05-19T21:44:12.480000+00:00",
-        "end_time": "2010-06-16T04:20:38.400000+00:00",
+        "start_time": "2010-05-19T20:35:13.919992+00:00",
+        "end_time": "2010-06-16T03:11:39.839992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3b/2010/05/imap_glows_l3b_ion-rate-profile_20100519_v030.cdf"
       },
       {
-        "start_time": "2010-06-16T04:20:38.400000+00:00",
-        "end_time": "2010-07-13T10:57:04.320000+00:00",
+        "start_time": "2010-06-16T03:11:39.839992+00:00",
+        "end_time": "2010-07-13T09:48:05.759992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3b/2010/06/imap_glows_l3b_ion-rate-profile_20100616_v008.cdf"
       },
       {
-        "start_time": "2010-07-13T10:57:04.320000+00:00",
-        "end_time": "2010-08-09T17:33:30.240000+00:00",
+        "start_time": "2010-07-13T09:48:05.759992+00:00",
+        "end_time": "2010-08-09T16:24:31.679992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3b/2010/07/imap_glows_l3b_ion-rate-profile_20100713_v008.cdf"
       },
       {
-        "start_time": "2010-08-09T17:33:30.240000+00:00",
-        "end_time": "2010-09-06T00:09:56.160000+00:00",
+        "start_time": "2010-08-09T16:24:31.679992+00:00",
+        "end_time": "2010-09-05T23:00:57.599992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3b/2010/08/imap_glows_l3b_ion-rate-profile_20100809_v008.cdf"
       },
       {
-        "start_time": "2010-08-09T17:33:30.240000+00:00",
-        "end_time": "2010-09-06T00:09:56.160000+00:00",
+        "start_time": "2010-09-05T23:00:57.599992+00:00",
+        "end_time": "2010-10-03T05:37:23.519992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3b/2010/09/imap_glows_l3b_ion-rate-profile_20100905_v008.cdf"
       },
       {
-        "start_time": "2010-10-03T06:46:22.080000+00:00",
-        "end_time": "2010-10-30T13:22:48+00:00",
+        "start_time": "2010-10-03T05:37:23.519992+00:00",
+        "end_time": "2010-10-30T12:13:49.439992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3b/2010/10/imap_glows_l3b_ion-rate-profile_20101003_v008.cdf"
       },
       {
-        "start_time": "2010-10-30T13:22:48+00:00",
-        "end_time": "2010-11-26T19:59:13.920000+00:00",
+        "start_time": "2010-10-30T12:13:49.439992+00:00",
+        "end_time": "2010-11-26T18:50:15.359992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3b/2010/10/imap_glows_l3b_ion-rate-profile_20101030_v008.cdf"
       },
       {
-        "start_time": "2024-12-10T14:08:26.880000+00:00",
-        "end_time": "2025-01-06T20:44:52.800000+00:00",
+        "start_time": "2024-12-10T12:59:28.319992+00:00",
+        "end_time": "2025-01-06T19:35:54.239992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3b/2025/01/imap_glows_l3b_ion-rate-profile_20250101-cr02292_v005.cdf"
       }
     ]
@@ -3360,83 +3360,83 @@
     "file_cadence": "carrington_rotation",
     "file_timeranges": [
       {
-        "start_time": "2000-01-01T15:20:09.600000+00:00",
-        "end_time": "2000-01-28T21:56:35.520000+00:00",
+        "start_time": "2000-01-01T14:11:11.039992+00:00",
+        "end_time": "2000-01-28T20:47:36.959992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3c/2000/01/imap_glows_l3c_sw-profile_20000101_v008.cdf"
       },
       {
-        "start_time": "2000-04-19T17:45:53.280000+00:00",
-        "end_time": "2000-05-17T00:22:19.200000+00:00",
+        "start_time": "2000-04-19T16:36:54.719992+00:00",
+        "end_time": "2000-05-16T23:13:20.639992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3c/2000/04/imap_glows_l3c_sw-profile_20000419_v011.cdf"
       },
       {
-        "start_time": "2000-04-19T17:45:53.280000+00:00",
-        "end_time": "2000-05-17T00:22:19.200000+00:00",
+        "start_time": "2000-05-16T23:13:20.639992+00:00",
+        "end_time": "2000-06-13T05:49:46.559992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3c/2000/05/imap_glows_l3c_sw-profile_20000516_v011.cdf"
       },
       {
-        "start_time": "2009-12-07T06:05:36.960000+00:00",
-        "end_time": "2010-01-03T12:42:02.880000+00:00",
+        "start_time": "2009-12-07T04:56:38.399992+00:00",
+        "end_time": "2010-01-03T11:33:04.319992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3c/2009/12/imap_glows_l3c_sw-profile_20091207_v008.cdf"
       },
       {
-        "start_time": "2010-01-03T12:42:02.880000+00:00",
-        "end_time": "2010-01-30T19:18:28.800000+00:00",
+        "start_time": "2010-01-03T11:33:04.319992+00:00",
+        "end_time": "2010-01-30T18:09:30.239992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3c/2010/01/imap_glows_l3c_sw-profile_20100103_v030.cdf"
       },
       {
-        "start_time": "2010-01-30T19:18:28.800000+00:00",
-        "end_time": "2010-02-27T01:54:54.720000+00:00",
+        "start_time": "2010-01-30T18:09:30.239992+00:00",
+        "end_time": "2010-02-27T00:45:56.159992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3c/2010/01/imap_glows_l3c_sw-profile_20100130_v008.cdf"
       },
       {
-        "start_time": "2010-02-27T01:54:54.720000+00:00",
-        "end_time": "2010-03-26T08:31:20.640000+00:00",
+        "start_time": "2010-02-27T00:45:56.159992+00:00",
+        "end_time": "2010-03-26T07:22:22.079992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3c/2010/02/imap_glows_l3c_sw-profile_20100227_v008.cdf"
       },
       {
-        "start_time": "2010-03-26T08:31:20.640000+00:00",
-        "end_time": "2010-04-22T15:07:46.560000+00:00",
+        "start_time": "2010-03-26T07:22:22.079992+00:00",
+        "end_time": "2010-04-22T13:58:47.999992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3c/2010/03/imap_glows_l3c_sw-profile_20100326_v012.cdf"
       },
       {
-        "start_time": "2010-04-22T15:07:46.560000+00:00",
-        "end_time": "2010-05-19T21:44:12.480000+00:00",
+        "start_time": "2010-04-22T13:58:47.999992+00:00",
+        "end_time": "2010-05-19T20:35:13.919992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3c/2010/04/imap_glows_l3c_sw-profile_20100422_v015.cdf"
       },
       {
-        "start_time": "2010-05-19T21:44:12.480000+00:00",
-        "end_time": "2010-06-16T04:20:38.400000+00:00",
+        "start_time": "2010-05-19T20:35:13.919992+00:00",
+        "end_time": "2010-06-16T03:11:39.839992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3c/2010/05/imap_glows_l3c_sw-profile_20100519_v030.cdf"
       },
       {
-        "start_time": "2010-06-16T04:20:38.400000+00:00",
-        "end_time": "2010-07-13T10:57:04.320000+00:00",
+        "start_time": "2010-06-16T03:11:39.839992+00:00",
+        "end_time": "2010-07-13T09:48:05.759992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3c/2010/06/imap_glows_l3c_sw-profile_20100616_v008.cdf"
       },
       {
-        "start_time": "2010-07-13T10:57:04.320000+00:00",
-        "end_time": "2010-08-09T17:33:30.240000+00:00",
+        "start_time": "2010-07-13T09:48:05.759992+00:00",
+        "end_time": "2010-08-09T16:24:31.679992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3c/2010/07/imap_glows_l3c_sw-profile_20100713_v008.cdf"
       },
       {
-        "start_time": "2010-08-09T17:33:30.240000+00:00",
-        "end_time": "2010-09-06T00:09:56.160000+00:00",
+        "start_time": "2010-08-09T16:24:31.679992+00:00",
+        "end_time": "2010-09-05T23:00:57.599992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3c/2010/08/imap_glows_l3c_sw-profile_20100809_v008.cdf"
       },
       {
-        "start_time": "2010-08-09T17:33:30.240000+00:00",
-        "end_time": "2010-09-06T00:09:56.160000+00:00",
+        "start_time": "2010-09-05T23:00:57.599992+00:00",
+        "end_time": "2010-10-03T05:37:23.519992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3c/2010/09/imap_glows_l3c_sw-profile_20100905_v008.cdf"
       },
       {
-        "start_time": "2010-10-03T06:46:22.080000+00:00",
-        "end_time": "2010-10-30T13:22:48+00:00",
+        "start_time": "2010-10-03T05:37:23.519992+00:00",
+        "end_time": "2010-10-30T12:13:49.439992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3c/2010/10/imap_glows_l3c_sw-profile_20101003_v008.cdf"
       },
       {
-        "start_time": "2010-10-30T13:22:48+00:00",
-        "end_time": "2010-11-26T19:59:13.920000+00:00",
+        "start_time": "2010-10-30T12:13:49.439992+00:00",
+        "end_time": "2010-11-26T18:50:15.359992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3c/2010/10/imap_glows_l3c_sw-profile_20101030_v008.cdf"
       }
     ]
@@ -3470,8 +3470,8 @@
     "file_cadence": "carrington_rotation",
     "file_timeranges": [
       {
-        "start_time": "2025-03-29T16:34:10.560000+00:00",
-        "end_time": "2025-04-25T23:10:36.480000+00:00",
+        "start_time": "2025-03-29T15:25:11.999992+00:00",
+        "end_time": "2025-04-25T22:01:37.919992+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3c/2025/04/imap_glows_l3c_ion-rate-profile_20250403_v001.cdf"
       }
     ]
