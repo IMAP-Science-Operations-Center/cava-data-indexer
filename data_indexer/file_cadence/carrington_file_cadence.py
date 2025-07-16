@@ -3,7 +3,7 @@ from datetime import datetime, timedelta, timezone
 from data_indexer.file_cadence.file_cadence import FileCadence
 
 CARRINGTON_ROTATION_IN_DAYS = timedelta(days=27.2753)
-FIRST_CARRINGTON_ROTATION = datetime(1853, 10, 13, tzinfo=timezone.utc) + timedelta(days=0.6016)
+FIRST_CARRINGTON_ROTATION = datetime(1853, 10, 13, 13, 17, 19, 679992, tzinfo=timezone.utc)
 
 
 class CarringtonFileCadence(FileCadence):
