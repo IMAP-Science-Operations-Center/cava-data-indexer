@@ -19,11 +19,11 @@
     "generation_date": "2025-05-22",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
-    "file_cadence": "daily",
+    "file_cadence": "six_month_map",
     "file_timeranges": [
       {
         "start_time": "2025-04-15T00:00:00+00:00",
-        "end_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-10-14T15:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/hi/l3/2025/04/imap_hi_l3_h90-ena-h-sf-sp-full-hae-4deg-6mo_20250415_v004.cdf"
       }
     ]
@@ -48,11 +48,11 @@
     "generation_date": "2025-04-23",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
-    "file_cadence": "daily",
+    "file_cadence": "six_month_map",
     "file_timeranges": [
       {
         "start_time": "2025-04-15T00:00:00+00:00",
-        "end_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-10-14T15:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/hi/l3/2025/04/imap_hi_l3_h90-sf-anti-hae-4deg-6mo_20250415_v002.cdf"
       }
     ]
@@ -77,11 +77,11 @@
     "generation_date": "2025-04-23",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
-    "file_cadence": "daily",
+    "file_cadence": "six_month_map",
     "file_timeranges": [
       {
         "start_time": "2025-04-15T00:00:00+00:00",
-        "end_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-10-14T15:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/hi/l3/2025/04/imap_hi_l3_h90-sf-sp-hae-4deg-6mo_20250415_v003.cdf"
       }
     ]
@@ -106,16 +106,16 @@
     "generation_date": "2025-05-27",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
-    "file_cadence": "daily",
+    "file_cadence": "six_month_map",
     "file_timeranges": [
       {
         "start_time": "2025-04-15T00:00:00+00:00",
-        "end_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-10-14T15:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/hi/l3/2025/04/imap_hi_l3_h90-spx-h-hf-sp-full-hae-4deg-6mo_20250415_v003.cdf"
       },
       {
         "start_time": "2025-06-01T00:00:00+00:00",
-        "end_time": "2025-06-02T00:00:00+00:00",
+        "end_time": "2025-11-30T15:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/hi/l3/2025/06/imap_hi_l3_h90-spx-h-hf-sp-full-hae-4deg-6mo_20250601_v001.cdf"
       }
     ]
@@ -140,11 +140,11 @@
     "generation_date": "2025-05-02",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
-    "file_cadence": "daily",
+    "file_cadence": "one_year_map",
     "file_timeranges": [
       {
         "start_time": "2025-04-15T00:00:00+00:00",
-        "end_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2026-04-15T06:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/hi/l3/2025/04/imap_hi_l3_hic-ena-h-hf-nsp-full-hae-4deg-1yr_20250415_v004.cdf"
       }
     ]
@@ -318,11 +318,11 @@
     "generation_date": "2025-05-30",
     "instrument": "IMAP-Lo",
     "mission": "IMAP",
-    "file_cadence": "daily",
+    "file_cadence": "six_month_map",
     "file_timeranges": [
       {
         "start_time": "2025-04-15T00:00:00+00:00",
-        "end_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-10-14T15:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/lo/l3/2025/04/imap_lo_l3_l090-ena-h-sf-sp-ram-hae-4deg-6mo_20250415_v002.cdf"
       }
     ]
@@ -347,11 +347,11 @@
     "generation_date": "2025-05-30",
     "instrument": "IMAP-Lo",
     "mission": "IMAP",
-    "file_cadence": "daily",
+    "file_cadence": "six_month_map",
     "file_timeranges": [
       {
         "start_time": "2025-04-15T00:00:00+00:00",
-        "end_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-10-14T15:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/lo/l3/2025/04/imap_lo_l3_l090-spx-h-sf-sp-ram-hae-4deg-6mo_20250415_v001.cdf"
       }
     ]
@@ -376,11 +376,11 @@
     "generation_date": "2025-06-04",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
-    "file_cadence": "daily",
+    "file_cadence": "three_month_map",
     "file_timeranges": [
       {
         "start_time": "2025-04-15T00:00:00+00:00",
-        "end_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-07-15T07:30:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/ultra/l3/2025/04/imap_ultra_l3_u90-ena-h-sf-sp-full-hae-4deg-3mo_20250415_v011.cdf"
       }
     ]
@@ -405,11 +405,11 @@
     "generation_date": "2025-05-29",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
-    "file_cadence": "daily",
+    "file_cadence": "six_month_map",
     "file_timeranges": [
       {
         "start_time": "2025-04-15T00:00:00+00:00",
-        "end_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-10-14T15:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/ultra/l3/2025/04/imap_ultra_l3_u90-ena-h-sf-sp-full-hae-4deg-6mo_20250415_v013.cdf"
       }
     ]
@@ -434,11 +434,11 @@
     "generation_date": "2025-06-04",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
-    "file_cadence": "daily",
+    "file_cadence": "three_month_map",
     "file_timeranges": [
       {
         "start_time": "2025-04-15T00:00:00+00:00",
-        "end_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-07-15T07:30:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/ultra/l3/2025/04/imap_ultra_l3_u90-spx-h-sf-sp-full-hae-4deg-3mo_20250415_v001.cdf"
       }
     ]
