@@ -12,6 +12,7 @@ from data_indexer.cdf_parser.cdf_parser import CdfParser
 from data_indexer.cdf_parser.variable_selector.default_variable_selector import DefaultVariableSelector
 from data_indexer.file_cadence.carrington_file_cadence import CarringtonFileCadence
 from data_indexer.file_cadence.daily_file_cadence import DailyFileCadence
+from data_indexer.file_cadence.map_file_cadence import MapFileCadence, BadFileNameException
 from data_indexer.http_client import get_with_retry
 from data_indexer.utils import get_index_entry, DataProductSource
 
@@ -78,19 +79,23 @@ def get_metadata_index() -> list[dict]:
             print("failed to parse CDF, skipping:", description_source_file, e)
             continue
 
-        data_product_sources = []
-        for file_metadata in sorted_file_metadata:
-            url = imap_dev_server + "download/" + file_metadata['file_path']
-            start_time, end_time, cadence = determine_start_and_end_for_file(file_metadata)
-            data_product_sources.append(DataProductSource(url=url,
-                                                          start_time=start_time,
-                                                          end_time=end_time))
+        try:
+            data_product_sources = []
+            for file_metadata in sorted_file_metadata:
+                url = imap_dev_server + "download/" + file_metadata['file_path']
+                start_time, end_time, cadence = determine_start_and_end_for_file(file_metadata)
+                data_product_sources.append(DataProductSource(url=url,
+                                                              start_time=start_time,
+                                                              end_time=end_time))
 
-        index.append(get_index_entry(cdf_file_info=cdf_file_info,
-                                     file_timeranges=data_product_sources,
-                                     instrument=instrument_names.get(data_product.instrument, data_product.instrument),
-                                     mission="IMAP",
-                                     file_cadence=cadence))
+            index.append(get_index_entry(cdf_file_info=cdf_file_info,
+                                         file_timeranges=data_product_sources,
+                                         instrument=instrument_names.get(data_product.instrument, data_product.instrument),
+                                         mission="IMAP",
+                                         file_cadence=cadence))
+        except BadFileNameException as e:
+            print("failed to parse CDF, skipping:", description_source_file, e)
+            continue
 
     return index
 
@@ -100,14 +105,17 @@ def determine_start_and_end_for_file(file_metadata):
 
     match file_metadata:
         case {'cr': cr} if cr is not None:
-            start_time, end_time = CarringtonFileCadence.get_file_time_range_with_cr(cr)
-            cadence = CarringtonFileCadence
+            cadence = CarringtonFileCadence()
+            start_time, end_time = cadence.get_file_time_range_with_cr(cr)
         case {'instrument': "glows", 'data_level': 'l3b' | 'l3c'}:
-            start_time, end_time = CarringtonFileCadence.get_file_time_range(start_time)
-            cadence = CarringtonFileCadence
+            cadence = CarringtonFileCadence()
+            start_time, end_time = cadence.get_file_time_range(start_time)
+        case {'instrument': 'hi' | 'lo' | 'ultra'}:
+            cadence = MapFileCadence(file_metadata['descriptor'].split('-')[-1])
+            start_time, end_time = cadence.get_file_time_range(start_time)
         case _:
-            start_time, end_time = DailyFileCadence.get_file_time_range(start_time)
-            cadence = DailyFileCadence
+            cadence = DailyFileCadence()
+            start_time, end_time = cadence.get_file_time_range(start_time)
 
     return start_time, end_time, cadence
 

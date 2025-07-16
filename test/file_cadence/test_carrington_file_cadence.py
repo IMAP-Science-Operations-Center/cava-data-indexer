@@ -13,7 +13,7 @@ class TestCarringtonFileCadence(unittest.TestCase):
 
         for start_date, expected_start, expected_end in cases:
             with self.subTest(start_date):
-                actual_start, actual_end = CarringtonFileCadence.get_file_time_range(start_date)
+                actual_start, actual_end = CarringtonFileCadence().get_file_time_range(start_date)
 
                 difference_between_starts = actual_start - expected_start
                 self.assertLess(abs(difference_between_starts), timedelta(hours=2))
@@ -29,7 +29,7 @@ class TestCarringtonFileCadence(unittest.TestCase):
 
         for cr, expected_start, expected_end in cases:
             with self.subTest(cr):
-                actual_start, actual_end = CarringtonFileCadence.get_file_time_range_with_cr(cr)
+                actual_start, actual_end = CarringtonFileCadence().get_file_time_range_with_cr(cr)
 
                 difference_between_starts = actual_start - expected_start
                 self.assertLess(abs(difference_between_starts), timedelta(hours=2))

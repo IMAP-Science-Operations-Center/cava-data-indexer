@@ -1,7 +1,7 @@
 from datetime import datetime, timezone
 
-from data_indexer import utils, dates_available
-from data_indexer.cdf_downloader.psp_downloader import PspDownloader, FileCadence
+from data_indexer import utils
+from data_indexer.cdf_downloader.psp_downloader import PspDownloader
 from data_indexer.cdf_parser.cdf_parser import CdfParser
 from data_indexer.http_client import get_with_retry
 from data_indexer.utils import DataProductSource

@@ -235,7 +235,7 @@ class TestImapDataProcessor(TestCase):
         ]
         mock_data_access_query.return_value = [
             {'file_path': '', 'instrument': instrument,
-             'data_level': 'l3a', 'descriptor': 'protons', 'start_date': '20250606', 'repointing': None,
+             'data_level': 'l3a', 'descriptor': 'protons-3mo', 'start_date': '20250606', 'repointing': None,
              'version': 'v003', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:09:58'}
             for instrument in lowercase_instruments
         ]
@@ -346,10 +346,12 @@ class TestImapDataProcessor(TestCase):
                               date(2022, 11, 12)),
                 [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units")]), ]
 
+        expected_start_time = '2024-12-10T12:59:28.319992+00:00'
+        expected_end_time = '2025-01-06T19:35:54.239992+00:00'
         expected_index = [
             {'file_cadence': 'carrington_rotation',
               'file_timeranges': [{'end_time': '2025-01-06T19:35:54.239992+00:00',
-                                   'start_time': '2024-12-10T12:59:28.319992+00:00',
+                                   'start_time': expected_start_time,
                                    'url': 'https://api.dev.imap-mission.com/download/some/path/on/server/imap_glows_l3b_glows-descriptor_20250101_v000.cdf'}],
               'generation_date': '2022-11-12',
               'instrument': 'GLOWS',
@@ -361,8 +363,8 @@ class TestImapDataProcessor(TestCase):
                              'units': 'Units',
                              'variable_name': 'VAR2'}]},
              {'file_cadence': 'carrington_rotation',
-              'file_timeranges': [{'end_time': '2025-01-06T19:35:54.239992+00:00',
-                                   'start_time': '2024-12-10T12:59:28.319992+00:00',
+              'file_timeranges': [{'end_time': expected_end_time,
+                                   'start_time': expected_start_time,
                                    'url': 'https://api.dev.imap-mission.com/download/some/path/on/server/imap_glows_l3c_glows-descriptor_20250101_v001.cdf'}],
               'generation_date': '2022-11-12',
               'instrument': 'GLOWS',
@@ -375,7 +377,7 @@ class TestImapDataProcessor(TestCase):
                              'variable_name': 'VAR2'}]},
              {'file_cadence': 'carrington_rotation',
               'file_timeranges': [{'end_time': '2025-01-06T19:35:54.239992+00:00',
-                                   'start_time': '2024-12-10T12:59:28.319992+00:00',
+                                   'start_time': expected_start_time,
                                    'url': 'https://api.dev.imap-mission.com/download/some/path/on/server/imap_glows_l3d_glows-descriptor_19470101-cr2292_v000.cdf'}],
               'generation_date': '2022-11-12',
               'instrument': 'GLOWS',
@@ -386,6 +388,89 @@ class TestImapDataProcessor(TestCase):
                              'display_type': 'spectrogram',
                              'units': 'Units',
                              'variable_name': 'VAR2'}]}
+        ]
+
+        self.assertEqual(expected_index, get_metadata_index())
+
+    @patch('data_indexer.imap_data_processor.CdfParser')
+    @patch('data_indexer.imap_data_processor.imap_data_access.query')
+    @patch('data_indexer.imap_data_processor.get_with_retry')
+    def test_handles_map_cadences(self, _, mock_imap_query,
+                                                   mock_cdf_parser):
+        hi_3month_file_path = "some/path/on/server/imap_hi_l3_intensity-3mo_20250101_v000.cdf"
+        hi_6month_file_path = "some/path/on/server/imap_hi_l3_intensity-6mo_20250101_v000.cdf"
+        map_with_bad_cadence = "some/path/on/server/imap_hi_l3_intensity-3yr_20250101_v000.cdf"
+
+        mock_imap_query.return_value = [{'file_path': hi_3month_file_path, 'instrument': 'hi',
+                                         'data_level': 'l3', 'descriptor': 'intensity-3mo',
+                                         'start_date': '20250101',
+                                         'repointing': None, 'cr': None,
+                                         'version': 'v000', 'extension': 'cdf',
+                                         'ingestion_date': '2024-11-21 21:09:58'},
+                                        {'file_path': hi_6month_file_path, 'instrument': 'hi',
+                                         'data_level': 'l3', 'descriptor': 'intensity-6mo',
+                                         'start_date': '20250101',
+                                         'repointing': None, 'cr': None,
+                                         'version': 'v003', 'extension': 'cdf',
+                                         'ingestion_date': '2024-11-21 21:09:59'},
+                                        {'file_path': map_with_bad_cadence, 'instrument': 'hi',
+                                         'data_level': 'l3', 'descriptor': 'intensity-3yr',
+                                         'start_date': '20250101',
+                                         'repointing': None, 'cr': None,
+                                         'version': 'v003', 'extension': 'cdf',
+                                         'ingestion_date': '2024-11-21 21:09:59'},
+                                        ]
+
+        mock_cdf_parser.parse_cdf_bytes.side_effect = [CdfFileInfo(
+            CdfGlobalInfo("imap_hi_l3_intensity-3mo",
+                          "imap hi l3 intensity-3mo",
+                          "v000",
+                          date(2022, 11, 12)),
+            [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units")]),
+            CdfFileInfo(
+                CdfGlobalInfo("imap_hi_l3_intensity-6mo",
+                              "imap hi l3 intensity-6mo",
+                              "v000",
+                              date(2022, 11, 12)),
+                [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units")]),
+            CdfFileInfo(
+                CdfGlobalInfo("imap_hi_l3_intensity-3yr",
+                              "imap hi l3 intensity-3yr",
+                              "v000",
+                              date(2022, 11, 12)),
+                [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units")]),
+        ]
+
+        expected_start_time = '2025-01-01T00:00:00+00:00'
+        expected_3mo_end_time = '2025-04-02T07:30:00+00:00'
+        expected_6mo_end_time = '2025-07-02T15:00:00+00:00'
+        expected_index = [
+            {'file_cadence': 'three_month_map',
+             'file_timeranges': [{'end_time': expected_3mo_end_time,
+                                  'start_time': expected_start_time,
+                                  'url': f'https://api.dev.imap-mission.com/download/{hi_3month_file_path}'}],
+             'generation_date': '2022-11-12',
+             'instrument': 'IMAP-Hi',
+             'logical_source': 'imap_hi_l3_intensity-3mo',
+             'logical_source_description': 'imap hi l3 intensity-3mo',
+             'mission': 'IMAP',
+             'variables': [{'catalog_description': 'variable 2',
+                            'display_type': 'spectrogram',
+                            'units': 'Units',
+                            'variable_name': 'VAR2'}]},
+            {'file_cadence': 'six_month_map',
+             'file_timeranges': [{'end_time': expected_6mo_end_time,
+                                  'start_time': expected_start_time,
+                                  'url': f'https://api.dev.imap-mission.com/download/{hi_6month_file_path}'}],
+             'generation_date': '2022-11-12',
+             'instrument': 'IMAP-Hi',
+             'logical_source': 'imap_hi_l3_intensity-6mo',
+             'logical_source_description': 'imap hi l3 intensity-6mo',
+             'mission': 'IMAP',
+             'variables': [{'catalog_description': 'variable 2',
+                            'display_type': 'spectrogram',
+                            'units': 'Units',
+                            'variable_name': 'VAR2'}]}
         ]
 
         self.assertEqual(expected_index, get_metadata_index())

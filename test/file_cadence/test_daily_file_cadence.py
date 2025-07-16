@@ -13,4 +13,4 @@ class TestDailyFileCadence(TestCase):
         ]
         for time, expected_range in cases:
             with self.subTest(time):
-                self.assertEqual(expected_range, DailyFileCadence.get_file_time_range(time))
+                self.assertEqual(expected_range, DailyFileCadence().get_file_time_range(time))

@@ -24,7 +24,7 @@ class TestUtils(unittest.TestCase):
             cdf_file_info=cdf_file_info,
             instrument="isois",
             mission="PSP",
-            file_cadence=DailyFileCadence,
+            file_cadence=DailyFileCadence(),
             file_timeranges=[data_product_source_1, data_product_source_2]
         )
         expected = {
