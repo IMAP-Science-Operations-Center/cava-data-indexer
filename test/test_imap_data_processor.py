@@ -18,7 +18,6 @@ class TestImapDataProcessor(TestCase):
     @patch('data_indexer.imap_data_processor.imap_data_access.query')
     @patch('data_indexer.imap_data_processor.get_with_retry')
     def test_get_metadata_index(self, mock_get_with_retry, mock_data_access_query, mock_cdf_parser):
-
         l3a_protons_data_product_v3 = 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_protons_20250606_v003.cdf'
         l3a_protons_data_product_v2_outdated = 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_protons_20250606_v002.cdf'
 
@@ -55,7 +54,7 @@ class TestImapDataProcessor(TestCase):
                 'file_path': l3a_pui_diff_instrument_product, 'instrument': 'fake-instrument2',
                 'data_level': 'l3a', 'descriptor': 'pui-he', 'start_date': '20250607', 'repointing': None,
                 'version': 'v003', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:12:40'
-             },
+            },
             {
                 'file_path': l3b_pui_data_product, 'instrument': 'fake-instrument',
                 'data_level': 'l3b', 'descriptor': 'pui-he', 'start_date': '20250607', 'repointing': None,
@@ -68,7 +67,8 @@ class TestImapDataProcessor(TestCase):
         third_cdf_response = Mock()
         fourth_cdf_response = Mock()
 
-        mock_get_with_retry.side_effect = [first_cdf_response, second_cdf_response, third_cdf_response, fourth_cdf_response]
+        mock_get_with_retry.side_effect = [first_cdf_response, second_cdf_response, third_cdf_response,
+                                           fourth_cdf_response]
 
         mock_cdf_parser.parse_cdf_bytes.side_effect = [
             CdfFileInfo(CdfGlobalInfo("fake-mission_fake-instrument_l3a_protons", "Parker Solar Probe Level 2 Summary",
@@ -218,7 +218,8 @@ class TestImapDataProcessor(TestCase):
     @patch('data_indexer.imap_data_processor.CdfParser')
     @patch('data_indexer.imap_data_processor.imap_data_access.query')
     @patch('data_indexer.imap_data_processor.get_with_retry')
-    def test_get_metadata_index_returns_instrument_names_correctly(self, _mock_get_with_retry, mock_data_access_query, _):
+    def test_get_metadata_index_returns_instrument_names_correctly(self, _mock_get_with_retry, mock_data_access_query,
+                                                                   _):
         lowercase_instruments = ["codice", "glows", "hi", "hit", "idex", "lo", "mag", "swapi", "swe", "ultra", ]
         uppercase_instruments = [
             "CoDICE",
@@ -298,3 +299,102 @@ class TestImapDataProcessor(TestCase):
         actual_index = get_metadata_index()
 
         self.assertEqual(1, len(actual_index))
+
+    @patch('data_indexer.imap_data_processor.CdfParser')
+    @patch('data_indexer.imap_data_processor.imap_data_access.query')
+    @patch('data_indexer.imap_data_processor.get_with_retry')
+    def test_handles_files_with_carrington_cadence(self, _, mock_imap_query,
+                                                   mock_cdf_parser):
+        glows_l3b_file_path = "some/path/on/server/imap_glows_l3b_glows-descriptor_20250101_v000.cdf"
+        glows_l3c_file_path = "some/path/on/server/imap_glows_l3c_glows-descriptor_20250101_v001.cdf"
+        glows_l3d_file_path = "some/path/on/server/imap_glows_l3d_glows-descriptor_19470101-cr2292_v000.cdf"
+
+        mock_imap_query.return_value = [{'file_path': glows_l3b_file_path, 'instrument': 'glows',
+                                         'data_level': 'l3b', 'descriptor': 'glows-descriptor',
+                                         'start_date': '20250101',
+                                         'repointing': None, 'cr': None,
+                                         'version': 'v000', 'extension': 'cdf',
+                                         'ingestion_date': '2024-11-21 21:09:58'},
+                                        {'file_path': glows_l3c_file_path, 'instrument': 'glows',
+                                         'data_level': 'l3c', 'descriptor': 'glows-descriptor',
+                                         'start_date': '20250101',
+                                         'repointing': None, 'cr': None,
+                                         'version': 'v001', 'extension': 'cdf',
+                                         'ingestion_date': '2024-11-21 21:09:58'},
+                                        {'file_path': glows_l3d_file_path, 'instrument': 'glows',
+                                         'data_level': 'l3d', 'descriptor': 'glows-descriptor',
+                                         'start_date': '19470101',
+                                         'repointing': None, 'cr': 2292,
+                                         'version': 'v003', 'extension': 'cdf',
+                                         'ingestion_date': '2024-11-21 21:09:59'}, ]
+
+        mock_cdf_parser.parse_cdf_bytes.side_effect = [CdfFileInfo(
+            CdfGlobalInfo("imap_glows_l3b_glows-descriptor",
+                          "imap glows l3b glows-descriptor",
+                          "v000",
+                          date(2022, 11, 12)),
+            [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units")]),
+            CdfFileInfo(CdfGlobalInfo("imap_glows_l3c_glows-descriptor",
+                                      "imap glows l3c glows-descriptor",
+                                      "v001",
+                                      date(2022, 11, 12)),
+            [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units")]),
+            CdfFileInfo(
+                CdfGlobalInfo("imap_glows_l3d_glows-descriptor",
+                              "imap glows l3d glows-descriptor",
+                              "v000",
+                              date(2022, 11, 12)),
+                [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units")]), ]
+
+        expected_index = [
+            {
+                "file_timeranges": [{
+                    "start_time": "2024-12-10T14:08:26.880000+00:00",
+                    "end_time": "2025-01-06T20:44:52.800000+00:00",
+                    "url": f"{imap_dev_server}download/{glows_l3b_file_path}"
+                }],
+                "logical_source": "imap_glows_l3b_glows-descriptor",
+                "logical_source_description": "imap glows l3b glows-descriptor",
+                "variables": [{'catalog_description': 'variable 2',
+                               'display_type': 'spectrogram',
+                               'variable_name': 'VAR2', 'units': "Units"}],
+                "generation_date": "2022-11-12",
+                "instrument": "GLOWS",
+                "mission": "IMAP",
+                "file_cadence": "carrington_rotation",
+            },
+            {
+                "file_timeranges": [{
+                    "start_time": "2024-12-10T14:08:26.880000+00:00",
+                    "end_time": "2025-01-06T20:44:52.800000+00:00",
+                    "url": f"{imap_dev_server}download/{glows_l3c_file_path}"
+                }],
+                "logical_source": "imap_glows_l3c_glows-descriptor",
+                "logical_source_description": "imap glows l3c glows-descriptor",
+                "variables": [{'catalog_description': 'variable 2',
+                               'display_type': 'spectrogram',
+                               'variable_name': 'VAR2', 'units': "Units"}],
+                "generation_date": "2022-11-12",
+                "instrument": "GLOWS",
+                "mission": "IMAP",
+                "file_cadence": "carrington_rotation",
+            },
+            {
+                "file_timeranges": [{
+                    "start_time": "2024-12-10T14:08:26.880000+00:00",
+                    "end_time": "2025-01-06T20:44:52.800000+00:00",
+                    "url": f"{imap_dev_server}download/{glows_l3d_file_path}"
+                }],
+                "logical_source": "imap_glows_l3d_glows-descriptor",
+                "logical_source_description": "imap glows l3d glows-descriptor",
+                "variables": [{'catalog_description': 'variable 2',
+                               'display_type': 'spectrogram',
+                               'variable_name': 'VAR2', 'units': "Units"}],
+                "generation_date": "2022-11-12",
+                "instrument": "GLOWS",
+                "mission": "IMAP",
+                "file_cadence": "carrington_rotation",
+            },
+        ]
+
+        self.assertEqual(expected_index, get_metadata_index())

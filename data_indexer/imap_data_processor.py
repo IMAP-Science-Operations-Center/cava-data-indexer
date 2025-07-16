@@ -10,6 +10,7 @@ import imap_data_access
 
 from data_indexer.cdf_parser.cdf_parser import CdfParser
 from data_indexer.cdf_parser.variable_selector.default_variable_selector import DefaultVariableSelector
+from data_indexer.file_cadence.carrington_file_cadence import CarringtonFileCadence
 from data_indexer.file_cadence.daily_file_cadence import DailyFileCadence
 from data_indexer.http_client import get_with_retry
 from data_indexer.utils import get_index_entry, DataProductSource
@@ -66,8 +67,8 @@ def get_metadata_index() -> list[dict]:
 
     index = []
     for data_product, dates_to_metadata in data_products.items():
-        sorted_dates = sorted(dates_to_metadata.values(), key=lambda x: x['start_date'])
-        description_source_file = sorted_dates[-1]['file_path']
+        sorted_file_metadata = sorted(dates_to_metadata.values(), key=lambda x: x['start_date'])
+        description_source_file = sorted_file_metadata[-1]['file_path']
 
         source_file_url = imap_dev_server + "download/" + description_source_file
         cdf = get_with_retry(source_file_url).content
@@ -78,10 +79,9 @@ def get_metadata_index() -> list[dict]:
             continue
 
         data_product_sources = []
-        for available_date in sorted_dates:
-            start_time = (datetime.strptime(available_date['start_date'], '%Y%m%d')).replace(tzinfo=timezone.utc)
-            end_time = start_time + timedelta(days=1)
-            url = imap_dev_server + "download/" + available_date['file_path']
+        for file_metadata in sorted_file_metadata:
+            url = imap_dev_server + "download/" + file_metadata['file_path']
+            start_time, end_time, cadence = determine_start_and_end_for_file(file_metadata)
             data_product_sources.append(DataProductSource(url=url,
                                                           start_time=start_time,
                                                           end_time=end_time))
@@ -90,9 +90,26 @@ def get_metadata_index() -> list[dict]:
                                      file_timeranges=data_product_sources,
                                      instrument=instrument_names.get(data_product.instrument, data_product.instrument),
                                      mission="IMAP",
-                                     file_cadence=DailyFileCadence))
+                                     file_cadence=cadence))
 
     return index
+
+
+def determine_start_and_end_for_file(file_metadata):
+    start_time = (datetime.strptime(file_metadata['start_date'], '%Y%m%d')).replace(tzinfo=timezone.utc)
+
+    match file_metadata:
+        case {'cr': cr} if cr is not None:
+            start_time, end_time = CarringtonFileCadence.get_file_time_range_with_cr(cr)
+            cadence = CarringtonFileCadence
+        case {'instrument': "glows", 'data_level': 'l3b' | 'l3c'}:
+            start_time, end_time = CarringtonFileCadence.get_file_time_range(start_time)
+            cadence = CarringtonFileCadence
+        case _:
+            start_time, end_time = DailyFileCadence.get_file_time_range(start_time)
+            cadence = DailyFileCadence
+
+    return start_time, end_time, cadence
 
 
 if __name__ == '__main__':
