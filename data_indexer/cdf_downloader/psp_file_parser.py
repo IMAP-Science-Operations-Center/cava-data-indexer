@@ -1,3 +1,4 @@
+from datetime import datetime, timezone
 from typing import Dict, List, Tuple, NamedTuple
 
 from bs4 import BeautifulSoup
@@ -9,6 +10,14 @@ class PspFileInfo(NamedTuple):
     link: str
     name: str
     year: str
+
+    @property
+    def version(self) -> int:
+        return int(self.name.split('_v')[-1].split('.')[0])
+
+    @property
+    def start_date(self) -> datetime:
+        return datetime.strptime(self.name.split('_')[-2], "%Y%m%d").replace(tzinfo=timezone.utc)
 
 
 class PspFileParser:

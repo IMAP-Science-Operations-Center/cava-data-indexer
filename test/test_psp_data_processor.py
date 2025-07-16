@@ -22,7 +22,8 @@ class TestPspDataProcessor(unittest.TestCase):
         self.maxDiff = None
         mock_downloader.get_all_metadata.return_value = \
             [PspDirectoryInfo(psp_isois_cda_base_url, 'ISOIS-EPIHi', 'epihi', {
-                'het_rate1': [PspFileInfo('link1', 'psp_isois-epihi_l2-het-rates3600_20190102_v10.cdf', '2022'),
+                'het_rate1': [PspFileInfo('link1', 'psp_isois-epihi_l2-het-rates3600_20190102_v9.cdf', '2022'),
+                              PspFileInfo('link1', 'psp_isois-epihi_l2-het-rates3600_20190102_v10.cdf', '2022'),
                               PspFileInfo('link2', 'psp_isois-epihi_l2-het-rates3600_20190103_v10.cdf', '2022')],
                 'het_rate2': [PspFileInfo('link3', 'psp_isois-epihi_l2-het-rates60_20190102_v11.cdf', '2023'),
                               PspFileInfo('link4', 'psp_isois-epihi_l2-het-rates60_20190105_v11.cdf', '2023')]},
