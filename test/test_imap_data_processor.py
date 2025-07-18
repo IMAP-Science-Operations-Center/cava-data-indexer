@@ -127,6 +127,7 @@ class TestImapDataProcessor(TestCase):
                 "instrument": "fake-instrument",
                 "mission": "IMAP",
                 "file_cadence": "daily",
+                "version": ""
             },
             {
                 "file_timeranges": [
@@ -153,6 +154,7 @@ class TestImapDataProcessor(TestCase):
                 "instrument": "fake-instrument",
                 "mission": "IMAP",
                 "file_cadence": "daily",
+                "version": ""
             },
             {
                 "file_timeranges": [
@@ -174,6 +176,7 @@ class TestImapDataProcessor(TestCase):
                 "instrument": "fake-instrument2",
                 "mission": "IMAP",
                 "file_cadence": "daily",
+                "version": ""
             },
             {
                 "file_timeranges": [
@@ -195,6 +198,7 @@ class TestImapDataProcessor(TestCase):
                 "instrument": "fake-instrument",
                 "mission": "IMAP",
                 "file_cadence": "daily",
+                "version": ""
             }
         ]
 
@@ -350,15 +354,16 @@ class TestImapDataProcessor(TestCase):
         expected_end_time = '2025-01-06T19:35:54.239992+00:00'
         expected_index = [
             {'file_cadence': 'carrington_rotation',
-              'file_timeranges': [{'end_time': '2025-01-06T19:35:54.239992+00:00',
-                                   'start_time': expected_start_time,
-                                   'url': 'https://api.dev.imap-mission.com/download/some/path/on/server/imap_glows_l3b_glows-descriptor_20250101_v000.cdf'}],
-              'generation_date': '2022-11-12',
-              'instrument': 'GLOWS',
-              'logical_source': 'imap_glows_l3b_glows-descriptor',
-              'logical_source_description': 'imap glows l3b glows-descriptor',
-              'mission': 'IMAP',
-              'variables': [{'catalog_description': 'variable 2',
+             'file_timeranges': [{'end_time': '2025-01-06T19:35:54.239992+00:00',
+                                  'start_time': expected_start_time,
+                                  'url': 'https://api.dev.imap-mission.com/download/some/path/on/server/imap_glows_l3b_glows-descriptor_20250101_v000.cdf'}],
+             'generation_date': '2022-11-12',
+             'instrument': 'GLOWS',
+             'logical_source': 'imap_glows_l3b_glows-descriptor',
+             'logical_source_description': 'imap glows l3b glows-descriptor',
+             'mission': 'IMAP',
+             'version': '',
+             'variables': [{'catalog_description': 'variable 2',
                              'display_type': 'spectrogram',
                              'units': 'Units',
                              'variable_name': 'VAR2'}]},
@@ -371,6 +376,7 @@ class TestImapDataProcessor(TestCase):
               'logical_source': 'imap_glows_l3c_glows-descriptor',
               'logical_source_description': 'imap glows l3c glows-descriptor',
               'mission': 'IMAP',
+              'version': '',
               'variables': [{'catalog_description': 'variable 2',
                              'display_type': 'spectrogram',
                              'units': 'Units',
@@ -384,6 +390,7 @@ class TestImapDataProcessor(TestCase):
               'logical_source': 'imap_glows_l3d_glows-descriptor',
               'logical_source_description': 'imap glows l3d glows-descriptor',
               'mission': 'IMAP',
+              'version': '',
               'variables': [{'catalog_description': 'variable 2',
                              'display_type': 'spectrogram',
                              'units': 'Units',
@@ -454,6 +461,7 @@ class TestImapDataProcessor(TestCase):
              'logical_source': 'imap_hi_l3_intensity-3mo',
              'logical_source_description': 'imap hi l3 intensity-3mo',
              'mission': 'IMAP',
+             'version': '',
              'variables': [{'catalog_description': 'variable 2',
                             'display_type': 'spectrogram',
                             'units': 'Units',
@@ -467,6 +475,7 @@ class TestImapDataProcessor(TestCase):
              'logical_source': 'imap_hi_l3_intensity-6mo',
              'logical_source_description': 'imap hi l3 intensity-6mo',
              'mission': 'IMAP',
+             'version': '',
              'variables': [{'catalog_description': 'variable 2',
                             'display_type': 'spectrogram',
                             'units': 'Units',

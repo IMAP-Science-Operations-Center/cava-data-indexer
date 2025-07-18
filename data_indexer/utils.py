@@ -14,7 +14,8 @@ class DataProductSource:
     end_time: datetime
 
 
-def get_index_entry(cdf_file_info: CdfFileInfo, file_timeranges: list[DataProductSource], instrument: str, mission: str, file_cadence: FileCadence) -> Dict:
+def get_index_entry(cdf_file_info: CdfFileInfo, file_timeranges: list[DataProductSource], instrument: str, mission: str,
+                    file_cadence: FileCadence, version: str = "") -> Dict:
 
     return {"variables": [dataclasses.asdict(info) for info in cdf_file_info.variable_infos],
             "logical_source": cdf_file_info.global_info.logical_source,
@@ -23,6 +24,7 @@ def get_index_entry(cdf_file_info: CdfFileInfo, file_timeranges: list[DataProduc
             "instrument": instrument,
             "mission": mission,
             "file_cadence": file_cadence.name,
+            "version": version,
             "file_timeranges": [
                 {
                     "start_time": file_timerange.start_time.isoformat(),

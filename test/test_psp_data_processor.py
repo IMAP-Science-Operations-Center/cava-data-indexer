@@ -119,6 +119,7 @@ class TestPspDataProcessor(unittest.TestCase):
                            "instrument": "ISOIS-EPIHi",
                            "mission": "PSP",
                            "file_cadence": "daily",
+                           "version": "10",
                            "file_timeranges": [
                                {
                                    "start_time": "2019-01-02T00:00:00+00:00",
@@ -141,6 +142,7 @@ class TestPspDataProcessor(unittest.TestCase):
                            "instrument": "ISOIS-EPIHi",
                            "mission": "PSP",
                            "file_cadence": "daily",
+                           "version": "11",
                            "file_timeranges": [
                                {
                                    "start_time": "2019-01-02T00:00:00+00:00",
@@ -163,6 +165,7 @@ class TestPspDataProcessor(unittest.TestCase):
                            "instrument": "ISOIS",
                            "mission": "Not PSP",
                            "file_cadence": "six_month",
+                           "version": "12",
                            "file_timeranges": [
                                {
                                    "start_time": "2018-07-01T00:00:00+00:00",
@@ -185,6 +188,7 @@ class TestPspDataProcessor(unittest.TestCase):
                            "instrument": "ISOIS",
                            "mission": "Not PSP",
                            "file_cadence": "six_month",
+                           "version": "13",
                            "file_timeranges": [
                                {
                                    "start_time": "2018-07-01T00:00:00+00:00",

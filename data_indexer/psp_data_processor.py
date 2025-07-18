@@ -50,7 +50,8 @@ class PspDataProcessor:
                     file_timeranges=data_product_sources,
                     instrument=psp_directory_info.instrument_human_readable,
                     mission=psp_directory_info.mission,
-                    file_cadence=psp_directory_info.file_cadence
+                    file_cadence=psp_directory_info.file_cadence,
+                    version=cdf_info.global_info.data_version,
                 ))
 
         return index

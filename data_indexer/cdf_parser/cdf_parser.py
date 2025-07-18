@@ -19,7 +19,7 @@ class CdfFileInfo:
 class CdfParser:
 
     @staticmethod
-    def parse_cdf_bytes(cdf_bytes: bytes, variable_selector: type[VariableSelector]):
+    def parse_cdf_bytes(cdf_bytes: bytes, variable_selector: type[VariableSelector]) -> CdfFileInfo:
         with tempfile.TemporaryDirectory() as tmp_dir:
             with open(os.path.join(tmp_dir, 'temp.cdf'), 'wb') as tmp_file:
                 tmp_file.write(cdf_bytes)

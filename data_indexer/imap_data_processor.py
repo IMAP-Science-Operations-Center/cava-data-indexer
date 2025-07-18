@@ -75,6 +75,7 @@ def get_metadata_index() -> list[dict]:
         cdf = get_with_retry(source_file_url).content
         try:
             cdf_file_info = CdfParser.parse_cdf_bytes(cdf, DefaultVariableSelector)
+
         except Exception as e:
             print("failed to parse CDF, skipping:", description_source_file, e)
             continue
