@@ -26,7 +26,7 @@ class TestPspDataProcessor(unittest.TestCase):
                               PspFileInfo('link1', 'psp_isois-epihi_l2-het-rates3600_20190102_v10.cdf', '2022'),
                               PspFileInfo('link2', 'psp_isois-epihi_l2-het-rates3600_20190103_v10.cdf', '2022')],
                 'het_rate2': [PspFileInfo('link3', 'psp_isois-epihi_l2-het-rates60_20190102_v11.cdf', '2023'),
-                              PspFileInfo('link4', 'psp_isois-epihi_l2-het-rates60_20190105_v11.cdf', '2023')]},
+                              PspFileInfo('link4', 'psp_isois-epihi_l2-het-rates60_20190105_v12.cdf', '2023')]},
                               sentinel.variable_selector_1, 'PSP', DailyFileCadence()),
              PspDirectoryInfo(psp_isois_cda_base_url, 'ISOIS', 'merged',
                               {
@@ -95,7 +95,7 @@ class TestPspDataProcessor(unittest.TestCase):
                  '2022'),
             call(psp_isois_cda_base_url, 'psp_isois-epihi_l2-het-rates60_20190102_v11.cdf', 'epihi', 'het_rate2',
                  '2023'),
-            call(psp_isois_cda_base_url, 'psp_isois-epihi_l2-het-rates60_20190105_v11.cdf', 'epihi', 'het_rate2',
+            call(psp_isois_cda_base_url, 'psp_isois-epihi_l2-het-rates60_20190105_v12.cdf', 'epihi', 'het_rate2',
                  '2023'),
             call(psp_isois_cda_base_url, 'psp_isois_l2-ephem_20181111_v12.cdf', 'merged', 'ephem', '2022'),
             call(psp_isois_cda_base_url, 'psp_isois_l2-ephem_20181112_v12.cdf', 'merged', 'ephem', '2022'),
@@ -142,7 +142,7 @@ class TestPspDataProcessor(unittest.TestCase):
                            "instrument": "ISOIS-EPIHi",
                            "mission": "PSP",
                            "file_cadence": "daily",
-                           "version": "11",
+                           "version": "",
                            "file_timeranges": [
                                {
                                    "start_time": "2019-01-02T00:00:00+00:00",

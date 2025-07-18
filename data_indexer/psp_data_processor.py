@@ -30,6 +30,7 @@ class PspDataProcessor:
 
                 file_url = None
                 data_product_sources = []
+                consistent_version_based_on_filenames = len(set(finfo.version for finfo in file_info_per_date.values())) == 1
                 for file_info in file_info_per_date.values():
                     file_url = PspDownloader.get_url(
                         psp_directory_info.base_url,
@@ -44,14 +45,17 @@ class PspDataProcessor:
 
                 cdf_data = get_with_retry(file_url).content
                 cdf_info = CdfParser.parse_cdf_bytes(cdf_data, psp_directory_info.variable_selector)
-
+                if consistent_version_based_on_filenames:
+                    version = cdf_info.global_info.data_version
+                else:
+                    version = ""
                 index.append(utils.get_index_entry(
                     cdf_file_info=cdf_info,
                     file_timeranges=data_product_sources,
                     instrument=psp_directory_info.instrument_human_readable,
                     mission=psp_directory_info.mission,
                     file_cadence=psp_directory_info.file_cadence,
-                    version=cdf_info.global_info.data_version,
+                    version=version,
                 ))
 
         return index
