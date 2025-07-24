@@ -2,6 +2,51 @@
   {
     "variables": [
       {
+        "variable_name": "obs_date_range",
+        "catalog_description": "Standard deviation of the observation date",
+        "display_type": "image",
+        "units": "ns"
+      },
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Survival Probability Corrected ENA intensity.",
+        "display_type": "image",
+        "units": "cm -2 s -1 sr -1 keV -1"
+      }
+    ],
+    "logical_source": "imap_hi_l3_hic-ena-h-hf-nsp-full-hae-4deg-1yr",
+    "logical_source_description": "IMAP-Hi Instrument Level-3 Combined Sensor Full 4 degree",
+    "generation_date": "2025-05-02",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2015-01-01T00:00:00+00:00",
+        "end_time": "2016-01-01T06:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l3/2015/01/imap_hi_l3_hic-ena-h-hf-nsp-full-hae-4deg-1yr_20150101_v001.cdf"
+      },
+      {
+        "start_time": "2016-01-01T00:00:00+00:00",
+        "end_time": "2016-12-31T06:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l3/2016/01/imap_hi_l3_hic-ena-h-hf-nsp-full-hae-4deg-1yr_20160101_v002.cdf"
+      },
+      {
+        "start_time": "2017-01-01T00:00:00+00:00",
+        "end_time": "2018-01-01T06:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l3/2017/01/imap_hi_l3_hic-ena-h-hf-nsp-full-hae-4deg-1yr_20170101_v003.cdf"
+      },
+      {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2026-04-15T06:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l3/2025/04/imap_hi_l3_hic-ena-h-hf-nsp-full-hae-4deg-1yr_20250415_v004.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
         "variable_name": "ena_intensity",
         "catalog_description": "ENA intensity",
         "display_type": "image",
@@ -126,36 +171,6 @@
         "start_time": "2025-06-01T00:00:00+00:00",
         "end_time": "2025-11-30T15:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/hi/l3/2025/06/imap_hi_l3_h90-spx-h-hf-sp-full-hae-4deg-6mo_20250601_v001.cdf"
-      }
-    ]
-  },
-  {
-    "variables": [
-      {
-        "variable_name": "obs_date_range",
-        "catalog_description": "Standard deviation of the observation date",
-        "display_type": "image",
-        "units": "ns"
-      },
-      {
-        "variable_name": "ena_intensity",
-        "catalog_description": "Survival Probability Corrected ENA intensity.",
-        "display_type": "image",
-        "units": "cm -2 s -1 sr -1 keV -1"
-      }
-    ],
-    "logical_source": "imap_hi_l3_hic-ena-h-hf-nsp-full-hae-4deg-1yr",
-    "logical_source_description": "IMAP-Hi Instrument Level-3 Combined Sensor Full 4 degree",
-    "generation_date": "2025-05-02",
-    "instrument": "IMAP-Hi",
-    "mission": "IMAP",
-    "file_cadence": "one_year_map",
-    "version": "",
-    "file_timeranges": [
-      {
-        "start_time": "2025-04-15T00:00:00+00:00",
-        "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l3/2025/04/imap_hi_l3_hic-ena-h-hf-nsp-full-hae-4deg-1yr_20250415_v004.cdf"
       }
     ]
   },
