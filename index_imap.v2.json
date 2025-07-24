@@ -373,6 +373,383 @@
   {
     "variables": [
       {
+        "variable_name": "core_t_perpendicular_integrated",
+        "catalog_description": "Average of perpendicular core temperature eigenvalues",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "halo_t_perpendicular_integrated",
+        "catalog_description": "Average of perpendicular halo temperature eigenvalues",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "total_t_perpendicular_integrated",
+        "catalog_description": "Average of perpendicular total temperature eigenvalues",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "core_chisq",
+        "catalog_description": "Chi square error for core moment fitting",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_chisq",
+        "catalog_description": "Chi square error for halo moment fitting",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "core_heat_flux_magnitude_integrated",
+        "catalog_description": "Core heat flux magnitude integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "core_heat_flux_phi_integrated",
+        "catalog_description": "Core heat flux phi integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "core_heat_flux_theta_integrated",
+        "catalog_description": "Core heat flux theta integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "core_speed_fit",
+        "catalog_description": "Core speed fit",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "core_speed_integrated",
+        "catalog_description": "Core speed integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "core_t_parallel_fit",
+        "catalog_description": "Core t_parallel fit",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "core_t_parallel_integrated",
+        "catalog_description": "Core t_parallel integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "core_t_perpendicular_fit",
+        "catalog_description": "Core t_perpendicular fit",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "core_temperature_parallel_to_mag",
+        "catalog_description": "Core temperature parallel to mag",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "core_temperature_perpendicular_to_mag",
+        "catalog_description": "Core temperature perpendicular to mag",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "core_temperature_phi_rtn_fit",
+        "catalog_description": "Core temperature phi RTN fit",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "core_temperature_phi_rtn_integrated",
+        "catalog_description": "Core temperature phi RTN integrated",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "core_temperature_theta_rtn_fit",
+        "catalog_description": "Core temperature theta RTN fit",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "core_temperature_theta_rtn_integrated",
+        "catalog_description": "Core temperature theta RTN integrated",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "core_density_integrated",
+        "catalog_description": "Density halo/suprathermal electrons (high energy) integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "core_density_fit",
+        "catalog_description": "Density of core electrons found through Maxwellian fitting",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_density_fit",
+        "catalog_description": "Density of halo electrons found through Maxwellian fitting",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_density_integrated",
+        "catalog_description": "Halo density integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_heat_flux_magnitude_integrated",
+        "catalog_description": "Halo heat flux magnitude integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_heat_flux_phi_integrated",
+        "catalog_description": "Halo heat flux phi integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_heat_flux_theta_integrated",
+        "catalog_description": "Halo heat flux theta integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_speed_fit",
+        "catalog_description": "Halo speed fit",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_speed_integrated",
+        "catalog_description": "Halo speed integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_t_parallel_fit",
+        "catalog_description": "Halo t_parallel fit",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_t_parallel_integrated",
+        "catalog_description": "Halo t_parallel integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_t_perpendicular_fit",
+        "catalog_description": "Halo t_perpendicular fit",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_temperature_parallel_to_mag",
+        "catalog_description": "Halo temperature parallel to mag",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "halo_temperature_perpendicular_to_mag",
+        "catalog_description": "Halo temperature perpendicular to mag",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "halo_temperature_phi_rtn_fit",
+        "catalog_description": "Halo temperature phi RTN fit",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "halo_temperature_phi_rtn_integrated",
+        "catalog_description": "Halo temperature phi RTN integrated",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "halo_temperature_theta_rtn_fit",
+        "catalog_description": "Halo temperature theta RTN fit",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "halo_temperature_theta_rtn_integrated",
+        "catalog_description": "Halo temperature theta RTN integrated",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "spacecraft_potential",
+        "catalog_description": "IMAP spacecraft potential",
+        "display_type": "time_series",
+        "units": "V"
+      },
+      {
+        "variable_name": "intensity_by_pitch_angle",
+        "catalog_description": "Intensity by pitch angle",
+        "display_type": "spectrogram",
+        "units": "cm^-2 sr^-1 s^-1 eV^-1"
+      },
+      {
+        "variable_name": "intensity_by_pitch_angle_and_gyrophase",
+        "catalog_description": "Intensity by pitch angle and gyrophase",
+        "display_type": "spectrogram",
+        "units": "cm^-2 sr^-1 s^-1 eV^-1"
+      },
+      {
+        "variable_name": "core_temperature_ratio_perpendicular_to_mag",
+        "catalog_description": "Ratio of core temperatures perpendicular to mag",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_temperature_ratio_perpendicular_to_mag",
+        "catalog_description": "Ratio of halo temperatures perpendicular to mag",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "core_t_ratio_perpendicular_integrated",
+        "catalog_description": "Ratio of perpendicular core temperature eigenvalues",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "halo_t_ratio_perpendicular_integrated",
+        "catalog_description": "Ratio of perpendicular halo temperature eigenvalues",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "total_t_ratio_perpendicular_integrated",
+        "catalog_description": "Ratio of perpendicular total temperature eigenvalues",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "total_temperature_ratio_perpendicular_to_mag",
+        "catalog_description": "Ratio of total temperatures perpendicular to mag",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "core_halo_breakpoint",
+        "catalog_description": "SW electron core/halo breakpoint",
+        "display_type": "time_series",
+        "units": "eV"
+      },
+      {
+        "variable_name": "total_density_integrated",
+        "catalog_description": "Total density integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "total_heat_flux_magnitude_integrated",
+        "catalog_description": "Total heat flux magnitude integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "total_heat_flux_phi_integrated",
+        "catalog_description": "Total heat flux phi integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "total_heat_flux_theta_integrated",
+        "catalog_description": "Total heat flux theta integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "total_speed_integrated",
+        "catalog_description": "Total speed integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "total_t_parallel_integrated",
+        "catalog_description": "Total t_parallel integrated",
+        "display_type": "time_series",
+        "units": " "
+      },
+      {
+        "variable_name": "total_temperature_parallel_to_mag",
+        "catalog_description": "Total temperature parallel to mag",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "total_temperature_perpendicular_to_mag",
+        "catalog_description": "Total temperature perpendicular to mag",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "total_temperature_phi_rtn_integrated",
+        "catalog_description": "Total temperature phi RTN integrated",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "total_temperature_theta_rtn_integrated",
+        "catalog_description": "Total temperature theta RTN integrated",
+        "display_type": "time_series",
+        "units": "K"
+      },
+      {
+        "variable_name": "intensity_uncertainty_by_pitch_angle",
+        "catalog_description": "Uncertainty of intensity by pitch angle",
+        "display_type": "spectrogram",
+        "units": "cm^-2 sr^-1 s^-1 eV^-1"
+      },
+      {
+        "variable_name": "intensity_uncertainty_by_pitch_angle_and_gyrophase",
+        "catalog_description": "Uncertainty of intensity by pitch angle and gyrophase",
+        "display_type": "spectrogram",
+        "units": "cm^-2 sr^-1 s^-1 eV^-1"
+      }
+    ],
+    "logical_source": "imap_swe_l3_sci",
+    "logical_source_description": "SWE Instrument Level-3 Science Data",
+    "generation_date": "2025-06-11",
+    "instrument": "SWE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-06-06T00:00:00+00:00",
+        "end_time": "2025-06-07T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/swe/l3/2025/06/imap_swe_l3_sci_20250606_v009.cdf"
+      },
+      {
+        "start_time": "2025-06-30T00:00:00+00:00",
+        "end_time": "2025-07-01T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/swe/l3/2025/06/imap_swe_l3_sci_20250630_v009.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
         "variable_name": "ena_intensity",
         "catalog_description": "ENA intensity",
         "display_type": "image",
