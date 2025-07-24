@@ -25,5 +25,6 @@ class DefaultVariableSelector(VariableSelector):
             return False
 
         zscale = var.attrs['SCALETYP'] if 'SCALETYP' in var.attrs else 'linear'
-        scale_is_valid = zscale == 'linear' or var.attrs['SCALEMIN'] != 0
+        var_min = var.attrs.get('SCALEMIN') if 'SCALEMIN' in var.attrs else var.attrs.get('VALIDMIN')
+        scale_is_valid = zscale == 'linear' or var_min != 0
         return has_correct_shape and time_is_ns and scale_is_valid

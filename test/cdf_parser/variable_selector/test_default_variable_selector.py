@@ -139,6 +139,20 @@ class TestDefaultVariableSelector(unittest.TestCase):
 
         self.assertFalse(DefaultVariableSelector.should_include(var_with_invalid_log_scalemin, self.mock_cdf))
 
+    def test_handles_missing_scalemin(self):
+        var_with_missing_scalemin = Mock()
+        var_with_missing_scalemin.attrs = {
+            "CATDESC": "var_with_unknown_time_unit",
+            "VAR_TYPE": "data",
+            "FIELDNAM": "something",
+            "DEPEND_0": "time_col_unknown",
+            "SCALETYP": "linear",
+            "DISPLAY_TYPE": 'time_series'
+        }
+        var_with_missing_scalemin.shape = (1,)
+
+        self.assertFalse(DefaultVariableSelector.should_include(var_with_missing_scalemin, self.mock_cdf))
+
     def test_does_not_accept_variable_with_unknown_time_unit(self):
         var_with_unknown_time_unit = Mock()
         var_with_unknown_time_unit.attrs = {
