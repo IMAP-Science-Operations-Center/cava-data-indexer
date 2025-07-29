@@ -337,18 +337,18 @@ class TestImapDataProcessor(TestCase):
                           "imap glows l3b glows-descriptor",
                           "v000",
                           date(2022, 11, 12)),
-            [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units")]),
+            [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units", "axis_label")]),
             CdfFileInfo(CdfGlobalInfo("imap_glows_l3c_glows-descriptor",
                                       "imap glows l3c glows-descriptor",
                                       "v001",
                                       date(2022, 11, 12)),
-            [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units")]),
+            [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units", "axis_label")]),
             CdfFileInfo(
                 CdfGlobalInfo("imap_glows_l3d_glows-descriptor",
                               "imap glows l3d glows-descriptor",
                               "v000",
                               date(2022, 11, 12)),
-                [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units")]), ]
+                [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units", "axis_label")]), ]
 
         expected_start_time = '2024-12-10T12:59:28.319992+00:00'
         expected_end_time = '2025-01-06T19:35:54.239992+00:00'
@@ -366,7 +366,7 @@ class TestImapDataProcessor(TestCase):
              'variables': [{'catalog_description': 'variable 2',
                              'display_type': 'spectrogram',
                              'units': 'Units',
-                             'variable_name': 'VAR2'}]},
+                             'variable_name': 'VAR2', 'axis_label': "axis_label"}]},
              {'file_cadence': 'carrington_rotation',
               'file_timeranges': [{'end_time': expected_end_time,
                                    'start_time': expected_start_time,
@@ -380,7 +380,7 @@ class TestImapDataProcessor(TestCase):
               'variables': [{'catalog_description': 'variable 2',
                              'display_type': 'spectrogram',
                              'units': 'Units',
-                             'variable_name': 'VAR2'}]},
+                             'variable_name': 'VAR2', "axis_label": "axis_label"}]},
              {'file_cadence': 'carrington_rotation',
               'file_timeranges': [{'end_time': '2025-01-06T19:35:54.239992+00:00',
                                    'start_time': expected_start_time,
@@ -394,7 +394,7 @@ class TestImapDataProcessor(TestCase):
               'variables': [{'catalog_description': 'variable 2',
                              'display_type': 'spectrogram',
                              'units': 'Units',
-                             'variable_name': 'VAR2'}]}
+                             'variable_name': 'VAR2', "axis_label": "axis_label"}]}
         ]
 
         self.assertEqual(expected_index, get_metadata_index())
@@ -433,19 +433,19 @@ class TestImapDataProcessor(TestCase):
                           "imap hi l3 intensity-3mo",
                           "v000",
                           date(2022, 11, 12)),
-            [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units")]),
+            [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units", "axis_label")]),
             CdfFileInfo(
                 CdfGlobalInfo("imap_hi_l3_intensity-6mo",
                               "imap hi l3 intensity-6mo",
                               "v000",
                               date(2022, 11, 12)),
-                [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units")]),
+                [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units", "axis_label")]),
             CdfFileInfo(
                 CdfGlobalInfo("imap_hi_l3_intensity-3yr",
                               "imap hi l3 intensity-3yr",
                               "v000",
                               date(2022, 11, 12)),
-                [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units")]),
+                [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units", "axis_label")]),
         ]
 
         expected_start_time = '2025-01-01T00:00:00+00:00'
@@ -465,7 +465,7 @@ class TestImapDataProcessor(TestCase):
              'variables': [{'catalog_description': 'variable 2',
                             'display_type': 'spectrogram',
                             'units': 'Units',
-                            'variable_name': 'VAR2'}]},
+                            'variable_name': 'VAR2', "axis_label": "axis_label"}]},
             {'file_cadence': 'six_month_map',
              'file_timeranges': [{'end_time': expected_6mo_end_time,
                                   'start_time': expected_start_time,
@@ -479,7 +479,7 @@ class TestImapDataProcessor(TestCase):
              'variables': [{'catalog_description': 'variable 2',
                             'display_type': 'spectrogram',
                             'units': 'Units',
-                            'variable_name': 'VAR2'}]}
+                            'variable_name': 'VAR2', "axis_label": "axis_label"}]}
         ]
 
         self.assertEqual(expected_index, get_metadata_index())
