@@ -2,13 +2,13 @@ from abc import ABC, abstractmethod
 from datetime import datetime
 
 
-
 class FileCadence(ABC):
-    name = ''
-    @staticmethod
+
+    @property
     @abstractmethod
-    def get_file_time_range(t: datetime) -> tuple[datetime,datetime]:
+    def name(self):
+        raise NotImplementedError
+
+    @abstractmethod
+    def get_file_time_range(self, t: datetime) -> tuple[datetime,datetime]:
         pass
-
-
-

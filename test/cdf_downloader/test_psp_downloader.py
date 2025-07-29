@@ -53,16 +53,16 @@ class TestPspDownloader(TestCase):
         metadata = PspDownloader.get_all_metadata()
 
         expected_metadata = [
-            PspDirectoryInfo(psp_isois_cda_base_url, "ISOIS-EPIHi", "epihi", epihi_filenames, DefaultVariableSelector, "PSP", DailyFileCadence),
+            PspDirectoryInfo(psp_isois_cda_base_url, "ISOIS-EPIHi", "epihi", epihi_filenames, DefaultVariableSelector, "PSP", DailyFileCadence()),
             PspDirectoryInfo(psp_isois_cda_base_url, "ISOIS-EPILo", "epilo", epilo_filenames,
-                             MultiDimensionVariableSelector,"PSP", DailyFileCadence),
-            PspDirectoryInfo(psp_isois_cda_base_url, "ISOIS", "merged", merged_filenames, DefaultVariableSelector,"PSP", DailyFileCadence),
+                             MultiDimensionVariableSelector, "PSP", DailyFileCadence()),
+            PspDirectoryInfo(psp_isois_cda_base_url, "ISOIS", "merged", merged_filenames, DefaultVariableSelector,"PSP", DailyFileCadence()),
             PspDirectoryInfo(psp_fields_cda_base_url, 'FIELDS', 'mag_rtn_4_per_cycle', fields_4_per_cycle_filenames,
-                             MultiDimensionVariableSelector,"PSP", DailyFileCadence),
+                             MultiDimensionVariableSelector, "PSP", DailyFileCadence()),
             PspDirectoryInfo(psp_fields_cda_base_url, 'FIELDS', 'mag_rtn_1min', fields_1min_filenames,
-                             MultiDimensionVariableSelector,"PSP", DailyFileCadence),
-        PspDirectoryInfo(omni_cda_base_url, 'OMNI', 'hourly', omni_filenames,
-                             OmniVariableSelector,"OMNI", SixMonthFileCadence),
+                             MultiDimensionVariableSelector,"PSP", DailyFileCadence()),
+            PspDirectoryInfo(omni_cda_base_url, 'OMNI', 'hourly', omni_filenames,
+                             OmniVariableSelector, "OMNI", SixMonthFileCadence()),
         ]
 
         self.assertEqual(expected_metadata, metadata)
@@ -79,11 +79,11 @@ class TestPspDownloader(TestCase):
         mock_psp_file_parser.get_dictionary_of_files.assert_any_call(
             'https://cdaweb.gsfc.nasa.gov/pub/data/omni/omni_cdaweb/hourly/', top_level_link="")
 
-    @patch('data_indexer.cdf_downloader.psp_downloader.http_client')
-    def test_download_individual_file(self, mock_http_client):
+    @patch('data_indexer.cdf_downloader.psp_downloader.get_with_retry')
+    def test_download_individual_file(self, mock_get_with_retry):
         mock_file_download_response = Mock()
         mock_file_download_response.content = b'This is a PSP file'
-        mock_http_client.get.return_value = mock_file_download_response
+        mock_get_with_retry.return_value = mock_file_download_response
 
         response = PspDownloader.get_cdf_file(psp_isois_cda_base_url, "psp_isois-epihi_l2-het-rate1_20220928_v13.cdf",
                                               "epihi", "het-rate1/",
@@ -91,7 +91,7 @@ class TestPspDownloader(TestCase):
 
         self.assertEqual([call(
             "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het-rate1/2022/psp_isois-epihi_l2-het-rate1_20220928_v13.cdf")],
-            mock_http_client.get.call_args_list)
+            mock_get_with_retry.call_args_list)
         self.assertEqual({
             "link": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/isois/epihi/l2/het-rate1/2022/psp_isois-epihi_l2-het-rate1_20220928_v13.cdf",
             "data": b'This is a PSP file'}, response)

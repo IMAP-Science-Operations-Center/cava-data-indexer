@@ -1,14 +1,23 @@
+from datetime import datetime, timezone
 from typing import Dict, List, Tuple, NamedTuple
 
 from bs4 import BeautifulSoup
 
-from data_indexer.http_client import http_client
+from data_indexer.http_client import http_client, get_with_retry
 
 
 class PspFileInfo(NamedTuple):
     link: str
     name: str
     year: str
+
+    @property
+    def version(self) -> int:
+        return int(self.name.split('_v')[-1].split('.')[0])
+
+    @property
+    def start_date(self) -> datetime:
+        return datetime.strptime(self.name.split('_')[-2], "%Y%m%d").replace(tzinfo=timezone.utc)
 
 
 class PspFileParser:
@@ -37,7 +46,7 @@ class PspFileParser:
 
     @staticmethod
     def _get_all_links(url: str) -> List[Tuple[str, str]]:
-        response = http_client.get(url)
+        response = get_with_retry(url)
         text = response.text
         list_of_links = []
 
