@@ -133587,7 +133587,7 @@
     ],
     "logical_source": "psp_fld_l2_mag_RTN_4_Sa_per_Cyc",
     "logical_source_description": "PSP FIELDS 4 samples per cycle cadence Fluxgate Magnetometer (MAG) data in RTN coordinates",
-    "generation_date": "2025-05-05",
+    "generation_date": "2025-08-26",
     "instrument": "FIELDS",
     "mission": "PSP",
     "file_cadence": "daily",
@@ -144117,6 +144117,836 @@
         "start_time": "2024-10-31T00:00:00+00:00",
         "end_time": "2024-11-01T00:00:00+00:00",
         "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241031_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-01T00:00:00+00:00",
+        "end_time": "2024-11-02T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241101_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-02T00:00:00+00:00",
+        "end_time": "2024-11-03T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241102_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-03T00:00:00+00:00",
+        "end_time": "2024-11-04T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241103_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-04T00:00:00+00:00",
+        "end_time": "2024-11-05T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241104_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-05T00:00:00+00:00",
+        "end_time": "2024-11-06T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241105_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-06T00:00:00+00:00",
+        "end_time": "2024-11-07T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241106_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-07T00:00:00+00:00",
+        "end_time": "2024-11-08T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241107_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-09T00:00:00+00:00",
+        "end_time": "2024-11-10T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241109_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-10T00:00:00+00:00",
+        "end_time": "2024-11-11T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241110_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-11T00:00:00+00:00",
+        "end_time": "2024-11-12T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241111_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-12T00:00:00+00:00",
+        "end_time": "2024-11-13T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241112_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-13T00:00:00+00:00",
+        "end_time": "2024-11-14T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241113_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-14T00:00:00+00:00",
+        "end_time": "2024-11-15T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241114_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-15T00:00:00+00:00",
+        "end_time": "2024-11-16T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241115_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-16T00:00:00+00:00",
+        "end_time": "2024-11-17T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241116_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-17T00:00:00+00:00",
+        "end_time": "2024-11-18T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241117_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-18T00:00:00+00:00",
+        "end_time": "2024-11-19T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241118_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-19T00:00:00+00:00",
+        "end_time": "2024-11-20T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241119_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-20T00:00:00+00:00",
+        "end_time": "2024-11-21T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241120_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-21T00:00:00+00:00",
+        "end_time": "2024-11-22T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241121_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-22T00:00:00+00:00",
+        "end_time": "2024-11-23T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241122_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-23T00:00:00+00:00",
+        "end_time": "2024-11-24T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241123_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-25T00:00:00+00:00",
+        "end_time": "2024-11-26T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241125_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-26T00:00:00+00:00",
+        "end_time": "2024-11-27T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241126_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-27T00:00:00+00:00",
+        "end_time": "2024-11-28T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241127_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-28T00:00:00+00:00",
+        "end_time": "2024-11-29T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241128_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-29T00:00:00+00:00",
+        "end_time": "2024-11-30T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241129_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-30T00:00:00+00:00",
+        "end_time": "2024-12-01T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241130_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-01T00:00:00+00:00",
+        "end_time": "2024-12-02T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241201_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-02T00:00:00+00:00",
+        "end_time": "2024-12-03T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241202_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-03T00:00:00+00:00",
+        "end_time": "2024-12-04T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241203_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-04T00:00:00+00:00",
+        "end_time": "2024-12-05T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241204_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-05T00:00:00+00:00",
+        "end_time": "2024-12-06T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241205_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-06T00:00:00+00:00",
+        "end_time": "2024-12-07T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241206_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-07T00:00:00+00:00",
+        "end_time": "2024-12-08T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241207_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-09T00:00:00+00:00",
+        "end_time": "2024-12-10T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241209_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-10T00:00:00+00:00",
+        "end_time": "2024-12-11T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241210_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-11T00:00:00+00:00",
+        "end_time": "2024-12-12T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241211_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-12T00:00:00+00:00",
+        "end_time": "2024-12-13T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241212_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-13T00:00:00+00:00",
+        "end_time": "2024-12-14T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241213_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-14T00:00:00+00:00",
+        "end_time": "2024-12-15T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241214_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-15T00:00:00+00:00",
+        "end_time": "2024-12-16T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241215_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-16T00:00:00+00:00",
+        "end_time": "2024-12-17T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241216_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-17T00:00:00+00:00",
+        "end_time": "2024-12-18T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241217_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-18T00:00:00+00:00",
+        "end_time": "2024-12-19T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241218_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-19T00:00:00+00:00",
+        "end_time": "2024-12-20T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241219_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-20T00:00:00+00:00",
+        "end_time": "2024-12-21T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241220_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-21T00:00:00+00:00",
+        "end_time": "2024-12-22T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241221_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-22T00:00:00+00:00",
+        "end_time": "2024-12-23T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241222_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-23T00:00:00+00:00",
+        "end_time": "2024-12-24T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241223_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-24T00:00:00+00:00",
+        "end_time": "2024-12-25T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241224_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-25T00:00:00+00:00",
+        "end_time": "2024-12-26T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241225_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-26T00:00:00+00:00",
+        "end_time": "2024-12-27T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241226_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-27T00:00:00+00:00",
+        "end_time": "2024-12-28T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241227_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-28T00:00:00+00:00",
+        "end_time": "2024-12-29T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241228_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-29T00:00:00+00:00",
+        "end_time": "2024-12-30T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241229_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-30T00:00:00+00:00",
+        "end_time": "2024-12-31T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241230_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-31T00:00:00+00:00",
+        "end_time": "2025-01-01T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2024/psp_fld_l2_mag_rtn_4_sa_per_cyc_20241231_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-01T00:00:00+00:00",
+        "end_time": "2025-01-02T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250101_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-02T00:00:00+00:00",
+        "end_time": "2025-01-03T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250102_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-03T00:00:00+00:00",
+        "end_time": "2025-01-04T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250103_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-04T00:00:00+00:00",
+        "end_time": "2025-01-05T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250104_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-05T00:00:00+00:00",
+        "end_time": "2025-01-06T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250105_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-06T00:00:00+00:00",
+        "end_time": "2025-01-07T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250106_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-07T00:00:00+00:00",
+        "end_time": "2025-01-08T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250107_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-08T00:00:00+00:00",
+        "end_time": "2025-01-09T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250108_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-09T00:00:00+00:00",
+        "end_time": "2025-01-10T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250109_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-10T00:00:00+00:00",
+        "end_time": "2025-01-11T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250110_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-11T00:00:00+00:00",
+        "end_time": "2025-01-12T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250111_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-12T00:00:00+00:00",
+        "end_time": "2025-01-13T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250112_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-13T00:00:00+00:00",
+        "end_time": "2025-01-14T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250113_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-14T00:00:00+00:00",
+        "end_time": "2025-01-15T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250114_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-15T00:00:00+00:00",
+        "end_time": "2025-01-16T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250115_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-16T00:00:00+00:00",
+        "end_time": "2025-01-17T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250116_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-17T00:00:00+00:00",
+        "end_time": "2025-01-18T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250117_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-18T00:00:00+00:00",
+        "end_time": "2025-01-19T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250118_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-19T00:00:00+00:00",
+        "end_time": "2025-01-20T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250119_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-20T00:00:00+00:00",
+        "end_time": "2025-01-21T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250120_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-21T00:00:00+00:00",
+        "end_time": "2025-01-22T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250121_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-22T00:00:00+00:00",
+        "end_time": "2025-01-23T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250122_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-23T00:00:00+00:00",
+        "end_time": "2025-01-24T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250123_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-24T00:00:00+00:00",
+        "end_time": "2025-01-25T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250124_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-25T00:00:00+00:00",
+        "end_time": "2025-01-26T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250125_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-26T00:00:00+00:00",
+        "end_time": "2025-01-27T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250126_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-04T00:00:00+00:00",
+        "end_time": "2025-02-05T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250204_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-05T00:00:00+00:00",
+        "end_time": "2025-02-06T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250205_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-06T00:00:00+00:00",
+        "end_time": "2025-02-07T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250206_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-07T00:00:00+00:00",
+        "end_time": "2025-02-08T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250207_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-08T00:00:00+00:00",
+        "end_time": "2025-02-09T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250208_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-09T00:00:00+00:00",
+        "end_time": "2025-02-10T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250209_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-10T00:00:00+00:00",
+        "end_time": "2025-02-11T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250210_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-11T00:00:00+00:00",
+        "end_time": "2025-02-12T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250211_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-12T00:00:00+00:00",
+        "end_time": "2025-02-13T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250212_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-13T00:00:00+00:00",
+        "end_time": "2025-02-14T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250213_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-14T00:00:00+00:00",
+        "end_time": "2025-02-15T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250214_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-15T00:00:00+00:00",
+        "end_time": "2025-02-16T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250215_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-16T00:00:00+00:00",
+        "end_time": "2025-02-17T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250216_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-17T00:00:00+00:00",
+        "end_time": "2025-02-18T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250217_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-18T00:00:00+00:00",
+        "end_time": "2025-02-19T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250218_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-19T00:00:00+00:00",
+        "end_time": "2025-02-20T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250219_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-20T00:00:00+00:00",
+        "end_time": "2025-02-21T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250220_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-21T00:00:00+00:00",
+        "end_time": "2025-02-22T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250221_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-22T00:00:00+00:00",
+        "end_time": "2025-02-23T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250222_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-23T00:00:00+00:00",
+        "end_time": "2025-02-24T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250223_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-24T00:00:00+00:00",
+        "end_time": "2025-02-25T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250224_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-25T00:00:00+00:00",
+        "end_time": "2025-02-26T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250225_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-26T00:00:00+00:00",
+        "end_time": "2025-02-27T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250226_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-27T00:00:00+00:00",
+        "end_time": "2025-02-28T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250227_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-28T00:00:00+00:00",
+        "end_time": "2025-03-01T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250228_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-01T00:00:00+00:00",
+        "end_time": "2025-03-02T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250301_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-02T00:00:00+00:00",
+        "end_time": "2025-03-03T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250302_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-03T00:00:00+00:00",
+        "end_time": "2025-03-04T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250303_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-04T00:00:00+00:00",
+        "end_time": "2025-03-05T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250304_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-05T00:00:00+00:00",
+        "end_time": "2025-03-06T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250305_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-06T00:00:00+00:00",
+        "end_time": "2025-03-07T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250306_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-07T00:00:00+00:00",
+        "end_time": "2025-03-08T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250307_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-08T00:00:00+00:00",
+        "end_time": "2025-03-09T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250308_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-09T00:00:00+00:00",
+        "end_time": "2025-03-10T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250309_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-10T00:00:00+00:00",
+        "end_time": "2025-03-11T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250310_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-11T00:00:00+00:00",
+        "end_time": "2025-03-12T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250311_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-12T00:00:00+00:00",
+        "end_time": "2025-03-13T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250312_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-13T00:00:00+00:00",
+        "end_time": "2025-03-14T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250313_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-14T00:00:00+00:00",
+        "end_time": "2025-03-15T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250314_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-15T00:00:00+00:00",
+        "end_time": "2025-03-16T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250315_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-16T00:00:00+00:00",
+        "end_time": "2025-03-17T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250316_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-17T00:00:00+00:00",
+        "end_time": "2025-03-18T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250317_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-18T00:00:00+00:00",
+        "end_time": "2025-03-19T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250318_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-19T00:00:00+00:00",
+        "end_time": "2025-03-20T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250319_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-20T00:00:00+00:00",
+        "end_time": "2025-03-21T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250320_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-21T00:00:00+00:00",
+        "end_time": "2025-03-22T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250321_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-22T00:00:00+00:00",
+        "end_time": "2025-03-23T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250322_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-23T00:00:00+00:00",
+        "end_time": "2025-03-24T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250323_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-24T00:00:00+00:00",
+        "end_time": "2025-03-25T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250324_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-25T00:00:00+00:00",
+        "end_time": "2025-03-26T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250325_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-26T00:00:00+00:00",
+        "end_time": "2025-03-27T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250326_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-27T00:00:00+00:00",
+        "end_time": "2025-03-28T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250327_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-28T00:00:00+00:00",
+        "end_time": "2025-03-29T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250328_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-29T00:00:00+00:00",
+        "end_time": "2025-03-30T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250329_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-31T00:00:00+00:00",
+        "end_time": "2025-04-01T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250331_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-02T00:00:00+00:00",
+        "end_time": "2025-04-03T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250402_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-03T00:00:00+00:00",
+        "end_time": "2025-04-04T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250403_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-04T00:00:00+00:00",
+        "end_time": "2025-04-05T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250404_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-05T00:00:00+00:00",
+        "end_time": "2025-04-06T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250405_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-06T00:00:00+00:00",
+        "end_time": "2025-04-07T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250406_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-07T00:00:00+00:00",
+        "end_time": "2025-04-08T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250407_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-08T00:00:00+00:00",
+        "end_time": "2025-04-09T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250408_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-09T00:00:00+00:00",
+        "end_time": "2025-04-10T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250409_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-10T00:00:00+00:00",
+        "end_time": "2025-04-11T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250410_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-11T00:00:00+00:00",
+        "end_time": "2025-04-12T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250411_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-12T00:00:00+00:00",
+        "end_time": "2025-04-13T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250412_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-14T00:00:00+00:00",
+        "end_time": "2025-04-15T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250414_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-04-17T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250416_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-17T00:00:00+00:00",
+        "end_time": "2025-04-18T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250417_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-18T00:00:00+00:00",
+        "end_time": "2025-04-19T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250418_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-19T00:00:00+00:00",
+        "end_time": "2025-04-20T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250419_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-20T00:00:00+00:00",
+        "end_time": "2025-04-21T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250420_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-21T00:00:00+00:00",
+        "end_time": "2025-04-22T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250421_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-22T00:00:00+00:00",
+        "end_time": "2025-04-23T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250422_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-23T00:00:00+00:00",
+        "end_time": "2025-04-24T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250423_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-24T00:00:00+00:00",
+        "end_time": "2025-04-25T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250424_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-25T00:00:00+00:00",
+        "end_time": "2025-04-26T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250425_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-26T00:00:00+00:00",
+        "end_time": "2025-04-27T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250426_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-27T00:00:00+00:00",
+        "end_time": "2025-04-28T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250427_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-28T00:00:00+00:00",
+        "end_time": "2025-04-29T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250428_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-29T00:00:00+00:00",
+        "end_time": "2025-04-30T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250429_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-30T00:00:00+00:00",
+        "end_time": "2025-05-01T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_4_per_cycle/2025/psp_fld_l2_mag_rtn_4_sa_per_cyc_20250430_v02.cdf"
       }
     ]
   },
@@ -144132,7 +144962,7 @@
     ],
     "logical_source": "psp_fld_l2_mag_RTN_1min",
     "logical_source_description": "PSP FIELDS 1 minute cadence Fluxgate Magnetometer (MAG) data in RTN coordinates",
-    "generation_date": "2025-05-05",
+    "generation_date": "2025-08-26",
     "instrument": "FIELDS",
     "mission": "PSP",
     "file_cadence": "daily",
@@ -154657,6 +155487,836 @@
         "start_time": "2024-10-31T00:00:00+00:00",
         "end_time": "2024-11-01T00:00:00+00:00",
         "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241031_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-01T00:00:00+00:00",
+        "end_time": "2024-11-02T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241101_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-02T00:00:00+00:00",
+        "end_time": "2024-11-03T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241102_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-03T00:00:00+00:00",
+        "end_time": "2024-11-04T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241103_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-04T00:00:00+00:00",
+        "end_time": "2024-11-05T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241104_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-05T00:00:00+00:00",
+        "end_time": "2024-11-06T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241105_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-06T00:00:00+00:00",
+        "end_time": "2024-11-07T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241106_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-07T00:00:00+00:00",
+        "end_time": "2024-11-08T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241107_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-09T00:00:00+00:00",
+        "end_time": "2024-11-10T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241109_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-10T00:00:00+00:00",
+        "end_time": "2024-11-11T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241110_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-11T00:00:00+00:00",
+        "end_time": "2024-11-12T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241111_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-12T00:00:00+00:00",
+        "end_time": "2024-11-13T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241112_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-13T00:00:00+00:00",
+        "end_time": "2024-11-14T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241113_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-14T00:00:00+00:00",
+        "end_time": "2024-11-15T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241114_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-15T00:00:00+00:00",
+        "end_time": "2024-11-16T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241115_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-16T00:00:00+00:00",
+        "end_time": "2024-11-17T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241116_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-17T00:00:00+00:00",
+        "end_time": "2024-11-18T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241117_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-18T00:00:00+00:00",
+        "end_time": "2024-11-19T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241118_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-19T00:00:00+00:00",
+        "end_time": "2024-11-20T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241119_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-20T00:00:00+00:00",
+        "end_time": "2024-11-21T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241120_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-21T00:00:00+00:00",
+        "end_time": "2024-11-22T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241121_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-22T00:00:00+00:00",
+        "end_time": "2024-11-23T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241122_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-23T00:00:00+00:00",
+        "end_time": "2024-11-24T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241123_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-25T00:00:00+00:00",
+        "end_time": "2024-11-26T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241125_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-26T00:00:00+00:00",
+        "end_time": "2024-11-27T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241126_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-27T00:00:00+00:00",
+        "end_time": "2024-11-28T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241127_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-28T00:00:00+00:00",
+        "end_time": "2024-11-29T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241128_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-29T00:00:00+00:00",
+        "end_time": "2024-11-30T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241129_v02.cdf"
+      },
+      {
+        "start_time": "2024-11-30T00:00:00+00:00",
+        "end_time": "2024-12-01T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241130_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-01T00:00:00+00:00",
+        "end_time": "2024-12-02T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241201_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-02T00:00:00+00:00",
+        "end_time": "2024-12-03T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241202_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-03T00:00:00+00:00",
+        "end_time": "2024-12-04T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241203_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-04T00:00:00+00:00",
+        "end_time": "2024-12-05T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241204_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-05T00:00:00+00:00",
+        "end_time": "2024-12-06T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241205_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-06T00:00:00+00:00",
+        "end_time": "2024-12-07T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241206_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-07T00:00:00+00:00",
+        "end_time": "2024-12-08T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241207_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-09T00:00:00+00:00",
+        "end_time": "2024-12-10T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241209_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-10T00:00:00+00:00",
+        "end_time": "2024-12-11T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241210_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-11T00:00:00+00:00",
+        "end_time": "2024-12-12T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241211_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-12T00:00:00+00:00",
+        "end_time": "2024-12-13T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241212_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-13T00:00:00+00:00",
+        "end_time": "2024-12-14T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241213_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-14T00:00:00+00:00",
+        "end_time": "2024-12-15T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241214_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-15T00:00:00+00:00",
+        "end_time": "2024-12-16T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241215_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-16T00:00:00+00:00",
+        "end_time": "2024-12-17T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241216_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-17T00:00:00+00:00",
+        "end_time": "2024-12-18T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241217_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-18T00:00:00+00:00",
+        "end_time": "2024-12-19T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241218_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-19T00:00:00+00:00",
+        "end_time": "2024-12-20T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241219_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-20T00:00:00+00:00",
+        "end_time": "2024-12-21T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241220_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-21T00:00:00+00:00",
+        "end_time": "2024-12-22T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241221_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-22T00:00:00+00:00",
+        "end_time": "2024-12-23T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241222_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-23T00:00:00+00:00",
+        "end_time": "2024-12-24T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241223_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-24T00:00:00+00:00",
+        "end_time": "2024-12-25T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241224_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-25T00:00:00+00:00",
+        "end_time": "2024-12-26T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241225_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-26T00:00:00+00:00",
+        "end_time": "2024-12-27T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241226_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-27T00:00:00+00:00",
+        "end_time": "2024-12-28T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241227_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-28T00:00:00+00:00",
+        "end_time": "2024-12-29T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241228_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-29T00:00:00+00:00",
+        "end_time": "2024-12-30T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241229_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-30T00:00:00+00:00",
+        "end_time": "2024-12-31T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241230_v02.cdf"
+      },
+      {
+        "start_time": "2024-12-31T00:00:00+00:00",
+        "end_time": "2025-01-01T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2024/psp_fld_l2_mag_rtn_1min_20241231_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-01T00:00:00+00:00",
+        "end_time": "2025-01-02T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250101_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-02T00:00:00+00:00",
+        "end_time": "2025-01-03T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250102_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-03T00:00:00+00:00",
+        "end_time": "2025-01-04T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250103_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-04T00:00:00+00:00",
+        "end_time": "2025-01-05T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250104_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-05T00:00:00+00:00",
+        "end_time": "2025-01-06T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250105_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-06T00:00:00+00:00",
+        "end_time": "2025-01-07T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250106_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-07T00:00:00+00:00",
+        "end_time": "2025-01-08T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250107_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-08T00:00:00+00:00",
+        "end_time": "2025-01-09T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250108_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-09T00:00:00+00:00",
+        "end_time": "2025-01-10T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250109_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-10T00:00:00+00:00",
+        "end_time": "2025-01-11T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250110_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-11T00:00:00+00:00",
+        "end_time": "2025-01-12T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250111_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-12T00:00:00+00:00",
+        "end_time": "2025-01-13T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250112_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-13T00:00:00+00:00",
+        "end_time": "2025-01-14T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250113_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-14T00:00:00+00:00",
+        "end_time": "2025-01-15T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250114_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-15T00:00:00+00:00",
+        "end_time": "2025-01-16T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250115_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-16T00:00:00+00:00",
+        "end_time": "2025-01-17T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250116_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-17T00:00:00+00:00",
+        "end_time": "2025-01-18T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250117_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-18T00:00:00+00:00",
+        "end_time": "2025-01-19T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250118_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-19T00:00:00+00:00",
+        "end_time": "2025-01-20T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250119_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-20T00:00:00+00:00",
+        "end_time": "2025-01-21T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250120_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-21T00:00:00+00:00",
+        "end_time": "2025-01-22T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250121_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-22T00:00:00+00:00",
+        "end_time": "2025-01-23T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250122_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-23T00:00:00+00:00",
+        "end_time": "2025-01-24T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250123_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-24T00:00:00+00:00",
+        "end_time": "2025-01-25T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250124_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-25T00:00:00+00:00",
+        "end_time": "2025-01-26T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250125_v02.cdf"
+      },
+      {
+        "start_time": "2025-01-26T00:00:00+00:00",
+        "end_time": "2025-01-27T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250126_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-04T00:00:00+00:00",
+        "end_time": "2025-02-05T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250204_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-05T00:00:00+00:00",
+        "end_time": "2025-02-06T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250205_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-06T00:00:00+00:00",
+        "end_time": "2025-02-07T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250206_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-07T00:00:00+00:00",
+        "end_time": "2025-02-08T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250207_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-08T00:00:00+00:00",
+        "end_time": "2025-02-09T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250208_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-09T00:00:00+00:00",
+        "end_time": "2025-02-10T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250209_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-10T00:00:00+00:00",
+        "end_time": "2025-02-11T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250210_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-11T00:00:00+00:00",
+        "end_time": "2025-02-12T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250211_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-12T00:00:00+00:00",
+        "end_time": "2025-02-13T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250212_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-13T00:00:00+00:00",
+        "end_time": "2025-02-14T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250213_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-14T00:00:00+00:00",
+        "end_time": "2025-02-15T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250214_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-15T00:00:00+00:00",
+        "end_time": "2025-02-16T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250215_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-16T00:00:00+00:00",
+        "end_time": "2025-02-17T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250216_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-17T00:00:00+00:00",
+        "end_time": "2025-02-18T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250217_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-18T00:00:00+00:00",
+        "end_time": "2025-02-19T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250218_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-19T00:00:00+00:00",
+        "end_time": "2025-02-20T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250219_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-20T00:00:00+00:00",
+        "end_time": "2025-02-21T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250220_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-21T00:00:00+00:00",
+        "end_time": "2025-02-22T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250221_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-22T00:00:00+00:00",
+        "end_time": "2025-02-23T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250222_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-23T00:00:00+00:00",
+        "end_time": "2025-02-24T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250223_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-24T00:00:00+00:00",
+        "end_time": "2025-02-25T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250224_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-25T00:00:00+00:00",
+        "end_time": "2025-02-26T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250225_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-26T00:00:00+00:00",
+        "end_time": "2025-02-27T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250226_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-27T00:00:00+00:00",
+        "end_time": "2025-02-28T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250227_v02.cdf"
+      },
+      {
+        "start_time": "2025-02-28T00:00:00+00:00",
+        "end_time": "2025-03-01T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250228_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-01T00:00:00+00:00",
+        "end_time": "2025-03-02T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250301_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-02T00:00:00+00:00",
+        "end_time": "2025-03-03T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250302_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-03T00:00:00+00:00",
+        "end_time": "2025-03-04T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250303_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-04T00:00:00+00:00",
+        "end_time": "2025-03-05T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250304_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-05T00:00:00+00:00",
+        "end_time": "2025-03-06T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250305_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-06T00:00:00+00:00",
+        "end_time": "2025-03-07T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250306_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-07T00:00:00+00:00",
+        "end_time": "2025-03-08T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250307_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-08T00:00:00+00:00",
+        "end_time": "2025-03-09T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250308_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-09T00:00:00+00:00",
+        "end_time": "2025-03-10T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250309_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-10T00:00:00+00:00",
+        "end_time": "2025-03-11T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250310_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-11T00:00:00+00:00",
+        "end_time": "2025-03-12T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250311_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-12T00:00:00+00:00",
+        "end_time": "2025-03-13T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250312_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-13T00:00:00+00:00",
+        "end_time": "2025-03-14T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250313_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-14T00:00:00+00:00",
+        "end_time": "2025-03-15T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250314_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-15T00:00:00+00:00",
+        "end_time": "2025-03-16T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250315_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-16T00:00:00+00:00",
+        "end_time": "2025-03-17T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250316_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-17T00:00:00+00:00",
+        "end_time": "2025-03-18T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250317_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-18T00:00:00+00:00",
+        "end_time": "2025-03-19T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250318_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-19T00:00:00+00:00",
+        "end_time": "2025-03-20T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250319_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-20T00:00:00+00:00",
+        "end_time": "2025-03-21T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250320_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-21T00:00:00+00:00",
+        "end_time": "2025-03-22T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250321_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-22T00:00:00+00:00",
+        "end_time": "2025-03-23T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250322_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-23T00:00:00+00:00",
+        "end_time": "2025-03-24T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250323_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-24T00:00:00+00:00",
+        "end_time": "2025-03-25T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250324_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-25T00:00:00+00:00",
+        "end_time": "2025-03-26T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250325_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-26T00:00:00+00:00",
+        "end_time": "2025-03-27T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250326_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-27T00:00:00+00:00",
+        "end_time": "2025-03-28T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250327_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-28T00:00:00+00:00",
+        "end_time": "2025-03-29T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250328_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-29T00:00:00+00:00",
+        "end_time": "2025-03-30T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250329_v02.cdf"
+      },
+      {
+        "start_time": "2025-03-31T00:00:00+00:00",
+        "end_time": "2025-04-01T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250331_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-02T00:00:00+00:00",
+        "end_time": "2025-04-03T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250402_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-03T00:00:00+00:00",
+        "end_time": "2025-04-04T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250403_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-04T00:00:00+00:00",
+        "end_time": "2025-04-05T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250404_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-05T00:00:00+00:00",
+        "end_time": "2025-04-06T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250405_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-06T00:00:00+00:00",
+        "end_time": "2025-04-07T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250406_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-07T00:00:00+00:00",
+        "end_time": "2025-04-08T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250407_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-08T00:00:00+00:00",
+        "end_time": "2025-04-09T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250408_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-09T00:00:00+00:00",
+        "end_time": "2025-04-10T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250409_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-10T00:00:00+00:00",
+        "end_time": "2025-04-11T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250410_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-11T00:00:00+00:00",
+        "end_time": "2025-04-12T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250411_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-12T00:00:00+00:00",
+        "end_time": "2025-04-13T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250412_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-14T00:00:00+00:00",
+        "end_time": "2025-04-15T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250414_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-04-17T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250416_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-17T00:00:00+00:00",
+        "end_time": "2025-04-18T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250417_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-18T00:00:00+00:00",
+        "end_time": "2025-04-19T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250418_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-19T00:00:00+00:00",
+        "end_time": "2025-04-20T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250419_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-20T00:00:00+00:00",
+        "end_time": "2025-04-21T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250420_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-21T00:00:00+00:00",
+        "end_time": "2025-04-22T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250421_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-22T00:00:00+00:00",
+        "end_time": "2025-04-23T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250422_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-23T00:00:00+00:00",
+        "end_time": "2025-04-24T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250423_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-24T00:00:00+00:00",
+        "end_time": "2025-04-25T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250424_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-25T00:00:00+00:00",
+        "end_time": "2025-04-26T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250425_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-26T00:00:00+00:00",
+        "end_time": "2025-04-27T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250426_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-27T00:00:00+00:00",
+        "end_time": "2025-04-28T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250427_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-28T00:00:00+00:00",
+        "end_time": "2025-04-29T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250428_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-29T00:00:00+00:00",
+        "end_time": "2025-04-30T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250429_v02.cdf"
+      },
+      {
+        "start_time": "2025-04-30T00:00:00+00:00",
+        "end_time": "2025-05-01T00:00:00+00:00",
+        "url": "https://cdaweb.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_rtn_1min/2025/psp_fld_l2_mag_rtn_1min_20250430_v02.cdf"
       }
     ]
   },
