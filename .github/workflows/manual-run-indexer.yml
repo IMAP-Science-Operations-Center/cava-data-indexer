@@ -4,9 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       environment:
-        description: 'Environment to create indices for'
-        required: true
-        type: string
+        type: choice
+        description: Environment to create index file for
+        options: 
+        - dev
+        - prod
 
 permissions:
   contents: write
