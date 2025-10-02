@@ -13,6 +13,6 @@ jobs:
       imap_api_download_url: ${{vars.IMAP_API_DOWNLOAD_URL}}
       data_access_url: ${{vars.DATA_ACCESS_URL}}
       index_file_descriptor: ${{vars.INDEX_FILE_DESCRIPTOR}}
-      environment: ${{github.job.environment}}
+      environment: Development
     secrets:
       imap_api_key: ${{secrets.IMAP_API_KEY}}
