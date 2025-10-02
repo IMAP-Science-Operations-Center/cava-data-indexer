@@ -1,3 +1,4 @@
+import os
 import uuid
 from datetime import date
 from unittest import TestCase
@@ -10,14 +11,18 @@ from data_indexer.cdf_parser.cdf_global_parser import CdfGlobalInfo
 from data_indexer.cdf_parser.cdf_parser import CdfFileInfo
 from data_indexer.cdf_parser.cdf_variable_parser import CdfVariableInfo
 from data_indexer.cdf_parser.variable_selector.default_variable_selector import DefaultVariableSelector
-from data_indexer.imap_data_processor import get_metadata_index, imap_dev_server
+from data_indexer.imap_data_processor import get_metadata_index
 
 
 class TestImapDataProcessor(TestCase):
+    def setUp(self):
+        os.environ['IMAP_API_DOWNLOAD_URL'] = 'https://api.dev.imap-mission.com/download/'
+
     @patch('data_indexer.imap_data_processor.CdfParser')
     @patch('data_indexer.imap_data_processor.imap_data_access.query')
     @patch('data_indexer.imap_data_processor.get_with_retry')
     def test_get_metadata_index(self, mock_get_with_retry, mock_data_access_query, mock_cdf_parser):
+
         l3a_protons_data_product_v3 = 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_protons_20250606_v003.cdf'
         l3a_protons_data_product_v2_outdated = 'fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_protons_20250606_v002.cdf'
 
@@ -70,7 +75,7 @@ class TestImapDataProcessor(TestCase):
         mock_get_with_retry.side_effect = [first_cdf_response, second_cdf_response, third_cdf_response,
                                            fourth_cdf_response]
 
-        mock_cdf_parser.parse_cdf_bytes.side_effect = [
+        mock_cdf_parser.parse_cdf.side_effect = [
             CdfFileInfo(CdfGlobalInfo("fake-mission_fake-instrument_l3a_protons", "Parker Solar Probe Level 2 Summary",
                                       "1.27.0",
                                       date(2022, 11, 12)),
@@ -95,17 +100,17 @@ class TestImapDataProcessor(TestCase):
 
         actual_index = get_metadata_index()
 
-        l3a_protons_data_product_v3_url = imap_dev_server + f"download/{l3a_protons_data_product_v3}"
-        l3a_pui_data_product_20250606_v3_url = imap_dev_server + f"download/{l3a_pui_data_product_20250606_v3}"
-        l3a_pui_data_product_20250607_v2_url = imap_dev_server + f"download/{l3a_pui_data_product_20250607_v2}"
-        l3a_pui_diff_instrument_product_url = imap_dev_server + f"download/{l3a_pui_diff_instrument_product}"
-        l3b_pui_data_product_url = imap_dev_server + f"download/{l3b_pui_data_product}"
+        l3a_protons_data_product_v3_url = f"https://api.dev.imap-mission.com/download/{l3a_protons_data_product_v3}"
+        l3a_pui_data_product_20250606_v3_url = f"https://api.dev.imap-mission.com/download/{l3a_pui_data_product_20250606_v3}"
+        l3a_pui_data_product_20250607_v2_url = f"https://api.dev.imap-mission.com/download/{l3a_pui_data_product_20250607_v2}"
+        l3a_pui_diff_instrument_product_url = f"https://api.dev.imap-mission.com/download/{l3a_pui_diff_instrument_product}"
+        l3b_pui_data_product_url = f"https://api.dev.imap-mission.com/download/{l3b_pui_data_product}"
 
         mock_get_with_retry.assert_has_calls([
-            call(l3a_protons_data_product_v3_url),
-            call(l3a_pui_data_product_20250607_v2_url),
-            call(l3a_pui_diff_instrument_product_url),
-            call(l3b_pui_data_product_url)
+            call(l3a_protons_data_product_v3),
+            call(l3a_pui_data_product_20250607_v2),
+            call(l3a_pui_diff_instrument_product),
+            call(l3b_pui_data_product)
         ])
 
         expected_index = [
@@ -213,11 +218,11 @@ class TestImapDataProcessor(TestCase):
         self.assertEqual(expected_index, actual_index)
 
         self.assertEqual([
-            call(first_cdf_response.content, DefaultVariableSelector),
-            call(second_cdf_response.content, DefaultVariableSelector),
-            call(third_cdf_response.content, DefaultVariableSelector),
-            call(fourth_cdf_response.content, DefaultVariableSelector)],
-            mock_cdf_parser.parse_cdf_bytes.call_args_list)
+            call(first_cdf_response, DefaultVariableSelector),
+            call(second_cdf_response, DefaultVariableSelector),
+            call(third_cdf_response, DefaultVariableSelector),
+            call(fourth_cdf_response, DefaultVariableSelector)],
+            mock_cdf_parser.parse_cdf.call_args_list)
 
     @patch('data_indexer.imap_data_processor.CdfParser')
     @patch('data_indexer.imap_data_processor.imap_data_access.query')
@@ -291,7 +296,7 @@ class TestImapDataProcessor(TestCase):
                                          'version': 'v003', 'extension': 'cdf',
                                          'ingestion_date': '2024-11-21 21:09:59'}, ]
 
-        mock_cdf_parser.parse_cdf_bytes.side_effect = [CDFError(spacepy.pycdf.const.NOT_A_CDF_OR_NOT_SUPPORTED),
+        mock_cdf_parser.parse_cdf.side_effect = [CDFError(spacepy.pycdf.const.NOT_A_CDF_OR_NOT_SUPPORTED),
                                                        CdfFileInfo(
                                                            CdfGlobalInfo("fake-mission_fake-instrument_l3a_protons",
                                                                          "Parker Solar Probe Level 2 Summary",
@@ -332,7 +337,7 @@ class TestImapDataProcessor(TestCase):
                                          'version': 'v003', 'extension': 'cdf',
                                          'ingestion_date': '2024-11-21 21:09:59'}, ]
 
-        mock_cdf_parser.parse_cdf_bytes.side_effect = [CdfFileInfo(
+        mock_cdf_parser.parse_cdf.side_effect = [CdfFileInfo(
             CdfGlobalInfo("imap_glows_l3b_glows-descriptor",
                           "imap glows l3b glows-descriptor",
                           "v000",
@@ -428,7 +433,7 @@ class TestImapDataProcessor(TestCase):
                                          'ingestion_date': '2024-11-21 21:09:59'},
                                         ]
 
-        mock_cdf_parser.parse_cdf_bytes.side_effect = [CdfFileInfo(
+        mock_cdf_parser.parse_cdf.side_effect = [CdfFileInfo(
             CdfGlobalInfo("imap_hi_l3_intensity-3mo",
                           "imap hi l3 intensity-3mo",
                           "v000",

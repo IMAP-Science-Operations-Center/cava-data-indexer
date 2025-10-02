@@ -1,6 +1,7 @@
 import os
 import tempfile
 from dataclasses import dataclass
+from pathlib import Path
 from typing import List
 
 from spacepy import pycdf
@@ -23,7 +24,11 @@ class CdfParser:
         with tempfile.TemporaryDirectory() as tmp_dir:
             with open(os.path.join(tmp_dir, 'temp.cdf'), 'wb') as tmp_file:
                 tmp_file.write(cdf_bytes)
-            with pycdf.CDF(tmp_file.name) as cdf:
-                cdf_global_info = CdfGlobalParser.parse_global_variables_from_cdf(cdf)
-                cdf_variable_info = CdfVariableParser.parse_info_from_cdf(cdf, variable_selector)
-                return CdfFileInfo(cdf_global_info, cdf_variable_info)
+            return CdfParser.parse_cdf(tmp_file.name, variable_selector)
+
+    @staticmethod
+    def parse_cdf(cdf_path: Path, variable_selector: type[VariableSelector]):
+        with pycdf.CDF(str(cdf_path)) as cdf:
+            cdf_global_info = CdfGlobalParser.parse_global_variables_from_cdf(cdf)
+            cdf_variable_info = CdfVariableParser.parse_info_from_cdf(cdf, variable_selector)
+            return CdfFileInfo(cdf_global_info, cdf_variable_info)
