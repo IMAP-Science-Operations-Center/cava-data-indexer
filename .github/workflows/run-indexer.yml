@@ -34,6 +34,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run Index
       run: |
+        echo "imap_download_url : $IMAP_API_DOWNLOAD_URL"
         python main.py ${{matrix.indexer_type}}
     - name: Commit and Push
       run: |
