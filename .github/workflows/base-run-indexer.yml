@@ -3,21 +3,9 @@ name: Run Indexer Base
 on:
   workflow_call:
     inputs:
-      imap_api_download_url:
-        required: true
-        type: string
-      data_access_url:
-        required: true
-        type: string
-      index_file_descriptor:
-        required: true
-        type: string
       environment:
         required: true
         type: string
-    secrets:
-      imap_api_key:
-        required: true
 
 permissions:
   contents: write
@@ -34,10 +22,10 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      IMAP_API_DOWNLOAD_URL : ${{inputs.IMAP_API_DOWNLOAD_URL}}
-      DATA_ACCESS_URL : ${{inputs.DATA_ACCESS_URL}}
+      IMAP_API_DOWNLOAD_URL : ${{vars.IMAP_API_DOWNLOAD_URL}}
+      DATA_ACCESS_URL : ${{vars.DATA_ACCESS_URL}}
       IMAP_API_KEY : ${{secrets.IMAP_API_KEY}}
-      INDEX_FILE_DESCRIPTOR : ${{inputs.INDEX_FILE_DESCRIPTOR}}
+      INDEX_FILE_DESCRIPTOR : ${{vars.INDEX_FILE_DESCRIPTOR}}
 
     steps:
     - uses: actions/checkout@v4

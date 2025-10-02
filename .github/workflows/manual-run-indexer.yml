@@ -2,6 +2,13 @@ name: Manually Run Indexer
 
 on:
   workflow_dispatch:
+    inputs:
+      environment:
+        type: choice
+        description: Environment to create index file for
+        options:
+          - Development
+          - Production
 
 permissions:
   contents: write
@@ -10,9 +17,4 @@ jobs:
   run_indexer:
     uses: ./.github/workflows/base-run-indexer.yml
     with:
-      imap_api_download_url: ${{vars.IMAP_API_DOWNLOAD_URL}}
-      data_access_url: ${{vars.DATA_ACCESS_URL}}
-      index_file_descriptor: ${{vars.INDEX_FILE_DESCRIPTOR}}
-      environment: Development
-    secrets:
-      imap_api_key: ${{secrets.IMAP_API_KEY}}
+      environment: ${{inputs.environment}}
