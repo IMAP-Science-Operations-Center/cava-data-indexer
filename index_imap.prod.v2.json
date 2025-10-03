@@ -1,0 +1,1416 @@
+[
+  {
+    "variables": [
+      {
+        "variable_name": "ena_spectral_index",
+        "catalog_description": "ENA spectral index",
+        "display_type": "image",
+        "units": " ",
+        "axis_label": "ENA spectral index"
+      },
+      {
+        "variable_name": "obs_date_range",
+        "catalog_description": "Standard deviation of the observation date",
+        "display_type": "image",
+        "units": "ns",
+        "axis_label": "Epoch"
+      }
+    ],
+    "logical_source": "imap_hi_l3_h90-spx-h-hf-sp-full-hae-4deg-6mo",
+    "logical_source_description": "IMAP-Hi Instrument Level-3 Spectral Index, Hi-90 sensor, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, 4 Degree Rectangular Pixels, 6 Month Map",
+    "generation_date": "2025-09-18",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "six_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2025-10-14T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h90-spx-h-hf-sp-full-hae-4deg-6mo_20250415_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "delta_e",
+        "catalog_description": "Delta E (energy deposited in detector that particle fully penetrates)",
+        "display_type": "time_series",
+        "units": "MeV",
+        "axis_label": "Delta E"
+      },
+      {
+        "variable_name": "e_prime",
+        "catalog_description": "E prime (energy deposited in stopping detector)",
+        "display_type": "time_series",
+        "units": "MeV",
+        "axis_label": "E prime"
+      },
+      {
+        "variable_name": "energy",
+        "catalog_description": "Energy (sum of all delta-Es with cosine correction)",
+        "display_type": "time_series",
+        "units": "MeV",
+        "axis_label": "Energy"
+      },
+      {
+        "variable_name": "charge",
+        "catalog_description": "Particle atomic charge (element) estimate (float)",
+        "display_type": "time_series",
+        "units": "MeV",
+        "axis_label": "Charge"
+      },
+      {
+        "variable_name": "pha_value",
+        "catalog_description": "Pha value (raw pulse height value)",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "PHA value"
+      }
+    ],
+    "logical_source": "imap_hit_l3_direct-events",
+    "logical_source_description": "HIT Instrument Level-3 Direct Event Science Data",
+    "generation_date": "2025-09-12",
+    "instrument": "HIT",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2010-01-05T00:00:00+00:00",
+        "end_time": "2010-01-06T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2010/01/imap_hit_l3_direct-events_20100105_v001.cdf"
+      },
+      {
+        "start_time": "2025-10-17T00:00:00+00:00",
+        "end_time": "2025-10-18T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2025/10/imap_hit_l3_direct-events_20251017_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "cno_macropixel_intensity_pa",
+        "catalog_description": "CNO intensity by energy and pitch angle",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "CNO intensity PA"
+      },
+      {
+        "variable_name": "cno_macropixel_intensity",
+        "catalog_description": "CNO intensity by energy, pitch angle, and gyrophase",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "CNO intensity"
+      },
+      {
+        "variable_name": "fe_macropixel_intensity_pa",
+        "catalog_description": "Fe intensity by energy and pitch angle",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "Fe intensity PA"
+      },
+      {
+        "variable_name": "fe_macropixel_intensity",
+        "catalog_description": "Fe intensity by energy, pitch angle, and gyrophase",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "Fe intensity"
+      },
+      {
+        "variable_name": "h_macropixel_intensity_pa",
+        "catalog_description": "H intensity by energy and pitch angle",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "H intensity PA"
+      },
+      {
+        "variable_name": "h_macropixel_intensity",
+        "catalog_description": "H intensity by energy, pitch angle, and gyrophase",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "H intensity"
+      },
+      {
+        "variable_name": "he4_macropixel_intensity_pa",
+        "catalog_description": "He4 intensity by energy and pitch angle",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "He4 intensity PA"
+      },
+      {
+        "variable_name": "he4_macropixel_intensity",
+        "catalog_description": "He4 intensity by energy, pitch angle, and gyrophase",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "He4 intensity"
+      },
+      {
+        "variable_name": "nemgsi_macropixel_intensity_pa",
+        "catalog_description": "NeMgSi intensity by energy and pitch angle",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "NeMgSi intensity PA"
+      },
+      {
+        "variable_name": "nemgsi_macropixel_intensity",
+        "catalog_description": "NeMgSi intensity by energy, pitch angle, and gyrophase",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "NeMgSi intensity"
+      }
+    ],
+    "logical_source": "imap_hit_l3_macropixel",
+    "logical_source_description": "HIT Instrument Level-3 Macropixel Intensity Science Data",
+    "generation_date": "2025-09-15",
+    "instrument": "HIT",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2010-01-05T00:00:00+00:00",
+        "end_time": "2010-01-06T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2010/01/imap_hit_l3_macropixel_20100105_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "data_quality",
+        "catalog_description": "Data quality flags",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Quality flag"
+      },
+      {
+        "variable_name": "num_events",
+        "catalog_description": "Number of events",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Num. events"
+      }
+    ],
+    "logical_source": "imap_codice_l3a_hi-direct-events",
+    "logical_source_description": "IMAP Mission CoDICE Hi Instrument Direct Events",
+    "generation_date": "2025-09-12",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2024-11-10T00:00:00+00:00",
+        "end_time": "2024-11-11T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2024/11/imap_codice_l3a_hi-direct-events_20241110_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [],
+    "logical_source": "imap_codice_l3a_lo-direct-events",
+    "logical_source_description": "IMAP Mission CoDICE Lo Instrument Direct Events",
+    "generation_date": "2025-09-12",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2024-11-10T00:00:00+00:00",
+        "end_time": "2024-11-11T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2024/11/imap_codice_l3a_lo-direct-events_20241110_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "heplus2",
+        "catalog_description": "He++ Intensity 3d distribution",
+        "display_type": "spectrogram",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "He++ Intensity"
+      }
+    ],
+    "logical_source": "imap_codice_l3a_lo-heplus2-3d-distribution",
+    "logical_source_description": "IMAP Mission CoDICE Lo He++ 3d Instrument Frame Distributions",
+    "generation_date": "2025-09-12",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2024-11-10T00:00:00+00:00",
+        "end_time": "2024-11-11T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2024/11/imap_codice_l3a_lo-heplus2-3d-distribution_20241110_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "heplus",
+        "catalog_description": "He+ Intensity 3d distribution",
+        "display_type": "spectrogram",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "He+ Intensity"
+      }
+    ],
+    "logical_source": "imap_codice_l3a_lo-heplus-3d-distribution",
+    "logical_source_description": "IMAP Mission CoDICE Lo He+ 3d Instrument Frame Distributions",
+    "generation_date": "2025-09-12",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2024-11-10T00:00:00+00:00",
+        "end_time": "2024-11-11T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2024/11/imap_codice_l3a_lo-heplus-3d-distribution_20241110_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "hplus",
+        "catalog_description": "H+ Intensity 3d distribution",
+        "display_type": "spectrogram",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "H+ Intensity"
+      }
+    ],
+    "logical_source": "imap_codice_l3a_lo-hplus-3d-distribution",
+    "logical_source_description": "IMAP Mission CoDICE Lo H+ 3d Instrument Frame Distributions",
+    "generation_date": "2025-09-12",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2024-11-10T00:00:00+00:00",
+        "end_time": "2024-11-11T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2024/11/imap_codice_l3a_lo-hplus-3d-distribution_20241110_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "oplus6",
+        "catalog_description": "0+6 Intensity 3d distribution",
+        "display_type": "spectrogram",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "0+6 Intensity"
+      }
+    ],
+    "logical_source": "imap_codice_l3a_lo-oplus6-3d-distribution",
+    "logical_source_description": "IMAP Mission CoDICE Lo O+6 3d Instrument Frame Distributions",
+    "generation_date": "2025-09-12",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2024-11-10T00:00:00+00:00",
+        "end_time": "2024-11-11T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2024/11/imap_codice_l3a_lo-oplus6-3d-distribution_20241110_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "cplus4_partial_density",
+        "catalog_description": "Partial density of C+4",
+        "display_type": "time_series",
+        "units": "?",
+        "axis_label": "C+4 N"
+      },
+      {
+        "variable_name": "cplus5_partial_density",
+        "catalog_description": "Partial density of C+5",
+        "display_type": "time_series",
+        "units": "?",
+        "axis_label": "C+5 N"
+      },
+      {
+        "variable_name": "cplus6_partial_density",
+        "catalog_description": "Partial density of C+6",
+        "display_type": "time_series",
+        "units": "?",
+        "axis_label": "C+6 N"
+      },
+      {
+        "variable_name": "fe_hiq_partial_density",
+        "catalog_description": "Partial density of Fe (high Q)",
+        "display_type": "time_series",
+        "units": "?",
+        "axis_label": "Fe (high Q) N"
+      },
+      {
+        "variable_name": "fe_loq_partial_density",
+        "catalog_description": "Partial density of Fe (low Q)",
+        "display_type": "time_series",
+        "units": "?",
+        "axis_label": "Fe (low Q) N"
+      },
+      {
+        "variable_name": "hplus_partial_density",
+        "catalog_description": "Partial density of H+",
+        "display_type": "time_series",
+        "units": "?",
+        "axis_label": "H+ N"
+      },
+      {
+        "variable_name": "heplusplus_partial_density",
+        "catalog_description": "Partial density of He++",
+        "display_type": "time_series",
+        "units": "?",
+        "axis_label": "He++ N"
+      },
+      {
+        "variable_name": "mg_partial_density",
+        "catalog_description": "Partial density of Mg",
+        "display_type": "time_series",
+        "units": "?",
+        "axis_label": "Mg N"
+      },
+      {
+        "variable_name": "ne_partial_density",
+        "catalog_description": "Partial density of Ne",
+        "display_type": "time_series",
+        "units": "?",
+        "axis_label": "Ne N"
+      },
+      {
+        "variable_name": "oplus5_partial_density",
+        "catalog_description": "Partial density of O+5",
+        "display_type": "time_series",
+        "units": "?",
+        "axis_label": "O+5 N"
+      },
+      {
+        "variable_name": "oplus6_partial_density",
+        "catalog_description": "Partial density of O+6",
+        "display_type": "time_series",
+        "units": "?",
+        "axis_label": "O+6 N"
+      },
+      {
+        "variable_name": "oplus7_partial_density",
+        "catalog_description": "Partial density of O+7",
+        "display_type": "time_series",
+        "units": "?",
+        "axis_label": "O+7 N"
+      },
+      {
+        "variable_name": "oplus8_partial_density",
+        "catalog_description": "Partial density of O+8",
+        "display_type": "time_series",
+        "units": "?",
+        "axis_label": "O+8 N"
+      },
+      {
+        "variable_name": "si_partial_density",
+        "catalog_description": "Partial density of Si",
+        "display_type": "time_series",
+        "units": "?",
+        "axis_label": "Si N"
+      }
+    ],
+    "logical_source": "imap_codice_l3a_lo-partial-densities",
+    "logical_source_description": "IMAP Mission CoDICE Lo Instrument Partial Densities",
+    "generation_date": "2025-09-12",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2024-11-10T00:00:00+00:00",
+        "end_time": "2024-11-11T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2024/11/imap_codice_l3a_lo-partial-densities_20241110_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "carbon_charge_state_distribution",
+        "catalog_description": "Carbon charge state relative abundances",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "C dist."
+      },
+      {
+        "variable_name": "oxygen_charge_state_distribution",
+        "catalog_description": "Oxygen charge state relative abundances",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "O dist."
+      }
+    ],
+    "logical_source": "imap_codice_l3a_lo-sw-abundances",
+    "logical_source_description": "IMAP Mission CoDICE Instrument Charge State Relative Abundances",
+    "generation_date": "2025-09-12",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2024-11-10T00:00:00+00:00",
+        "end_time": "2024-11-11T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2024/11/imap_codice_l3a_lo-sw-abundances_20241110_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "c6_to_c4_ratio",
+        "catalog_description": "Charge State Ratio C6 to C4",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "C6/C4"
+      },
+      {
+        "variable_name": "c6_to_c5_ratio",
+        "catalog_description": "Charge State Ratio C6 to C5",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "C6/C5"
+      },
+      {
+        "variable_name": "felo_to_fehi_ratio",
+        "catalog_description": "Charge State Ratio Fe(lo) to Fe(hi)",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "FeLo/FeHi"
+      },
+      {
+        "variable_name": "o7_to_o6_ratio",
+        "catalog_description": "Charge State Ratio O7 to O6",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "O7/O6"
+      },
+      {
+        "variable_name": "c_to_o_ratio",
+        "catalog_description": "Elemental Abundance Ratio C to O",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "C/O"
+      },
+      {
+        "variable_name": "fe_to_o_ratio",
+        "catalog_description": "Elemental Abundance Ratio Fe to O",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Fe/O"
+      },
+      {
+        "variable_name": "mg_to_o_ratio",
+        "catalog_description": "Elemental Abundance Ratio Mg to O",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Mg/O"
+      }
+    ],
+    "logical_source": "imap_codice_l3a_lo-sw-ratios",
+    "logical_source_description": "IMAP Mission CoDICE Lo Instrument SW Ratios",
+    "generation_date": "2025-09-12",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2024-11-10T00:00:00+00:00",
+        "end_time": "2024-11-11T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2024/11/imap_codice_l3a_lo-sw-ratios_20241110_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "exposure_times",
+        "catalog_description": "Exposure times for histogram bins for observational day",
+        "display_type": "spectrogram",
+        "units": "s",
+        "axis_label": "Bin exposure"
+      },
+      {
+        "variable_name": "raw_histogram",
+        "catalog_description": "Histogram of counts for observational day",
+        "display_type": "spectrogram",
+        "units": "#",
+        "axis_label": "Counts"
+      },
+      {
+        "variable_name": "photon_flux",
+        "catalog_description": "Photon flux in scanning-circle bins averaged over observational day",
+        "display_type": "spectrogram",
+        "units": "Rayleigh",
+        "axis_label": "Flux"
+      }
+    ],
+    "logical_source": "imap_glows_l3a_hist",
+    "logical_source_description": "IMAP Mission GLOWS Instrument Light Curve",
+    "generation_date": "2025-09-17",
+    "instrument": "GLOWS",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-28T00:00:00+00:00",
+        "end_time": "2025-04-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3a/2025/04/imap_glows_l3a_hist_20250428-repoint01013_v002.cdf"
+      },
+      {
+        "start_time": "2025-04-29T00:00:00+00:00",
+        "end_time": "2025-04-30T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3a/2025/04/imap_glows_l3a_hist_20250429-repoint01014_v003.cdf"
+      },
+      {
+        "start_time": "2025-05-10T00:00:00+00:00",
+        "end_time": "2025-05-11T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3a/2025/05/imap_glows_l3a_hist_20250510-repoint01025_v002.cdf"
+      },
+      {
+        "start_time": "2025-05-11T00:00:00+00:00",
+        "end_time": "2025-05-12T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3a/2025/05/imap_glows_l3a_hist_20250511-repoint01026_v002.cdf"
+      },
+      {
+        "start_time": "2025-05-25T00:00:00+00:00",
+        "end_time": "2025-05-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3a/2025/05/imap_glows_l3a_hist_20250525-repoint01040_v002.cdf"
+      },
+      {
+        "start_time": "2025-05-26T00:00:00+00:00",
+        "end_time": "2025-05-27T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3a/2025/05/imap_glows_l3a_hist_20250526-repoint01041_v002.cdf"
+      },
+      {
+        "start_time": "2025-06-06T00:00:00+00:00",
+        "end_time": "2025-06-07T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3a/2025/06/imap_glows_l3a_hist_20250606-repoint01053_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-07T00:00:00+00:00",
+        "end_time": "2025-06-08T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3a/2025/06/imap_glows_l3a_hist_20250607-repoint01053_v002.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "alpha_sw_density",
+        "catalog_description": "Alpha solar wind density",
+        "display_type": "time_series",
+        "units": "cm!E-3!N",
+        "axis_label": "Alpha SW density"
+      },
+      {
+        "variable_name": "alpha_sw_speed",
+        "catalog_description": "Alpha solar wind speed",
+        "display_type": "time_series",
+        "units": "km/s",
+        "axis_label": "Alpha solar wind speed"
+      },
+      {
+        "variable_name": "alpha_sw_temperature",
+        "catalog_description": "Alpha solar wind temperature",
+        "display_type": "time_series",
+        "units": "K",
+        "axis_label": "Alpha SW temperature"
+      }
+    ],
+    "logical_source": "imap_swapi_l3a_alpha-sw",
+    "logical_source_description": "SWAPI Instrument Alpha Solar Wind Parameters",
+    "generation_date": "2025-09-18",
+    "instrument": "SWAPI",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-06-06T00:00:00+00:00",
+        "end_time": "2025-06-07T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2025/06/imap_swapi_l3a_alpha-sw_20250606_v001.cdf"
+      },
+      {
+        "start_time": "2026-09-20T00:00:00+00:00",
+        "end_time": "2026-09-21T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_alpha-sw_20260920_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "proton_sw_clock_angle",
+        "catalog_description": "Clock angle of proton solar wind",
+        "display_type": "time_series",
+        "units": "degrees",
+        "axis_label": "Clock angle of H+ SW"
+      },
+      {
+        "variable_name": "proton_sw_deflection_angle",
+        "catalog_description": "Deflection angle of proton solar wind",
+        "display_type": "time_series",
+        "units": "degrees",
+        "axis_label": "H+ SW deflection angle"
+      },
+      {
+        "variable_name": "proton_sw_density",
+        "catalog_description": "Density of proton solar wind",
+        "display_type": "time_series",
+        "units": "cm!E-3!N",
+        "axis_label": "H+ SW density"
+      },
+      {
+        "variable_name": "proton_sw_speed",
+        "catalog_description": "Speed of proton solar wind",
+        "display_type": "time_series",
+        "units": "km/s",
+        "axis_label": "Proton solar wind speed"
+      },
+      {
+        "variable_name": "proton_sw_temperature",
+        "catalog_description": "Temperature of proton solar wind",
+        "display_type": "time_series",
+        "units": "K",
+        "axis_label": "Proton solar wind T"
+      }
+    ],
+    "logical_source": "imap_swapi_l3a_proton-sw",
+    "logical_source_description": "SWAPI Instrument Proton Solar Wind Parameters",
+    "generation_date": "2025-09-18",
+    "instrument": "SWAPI",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-06-06T00:00:00+00:00",
+        "end_time": "2025-06-07T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2025/06/imap_swapi_l3a_proton-sw_20250606_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "pui_background_count_rate",
+        "catalog_description": "Pickup ion background count rate",
+        "display_type": "time_series",
+        "units": "s!E-1!N",
+        "axis_label": "PUI background count rate"
+      },
+      {
+        "variable_name": "pui_cooling_index",
+        "catalog_description": "Pickup ion cooling index",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "PUI cooling idx"
+      },
+      {
+        "variable_name": "pui_cutoff_speed",
+        "catalog_description": "Pickup ion cutoff speed",
+        "display_type": "time_series",
+        "units": "km/s",
+        "axis_label": "PUI cutoff speed"
+      },
+      {
+        "variable_name": "pui_density",
+        "catalog_description": "Pickup ion density",
+        "display_type": "time_series",
+        "units": "cm!E-3!N",
+        "axis_label": "PUI density"
+      },
+      {
+        "variable_name": "pui_ionization_rate",
+        "catalog_description": "Pickup ion ionization rate",
+        "display_type": "time_series",
+        "units": "s!E-1!N",
+        "axis_label": "PUI IR"
+      },
+      {
+        "variable_name": "pui_temperature",
+        "catalog_description": "Pickup ion temperature",
+        "display_type": "time_series",
+        "units": "K",
+        "axis_label": "PUI temperature"
+      }
+    ],
+    "logical_source": "imap_swapi_l3a_pui-he",
+    "logical_source_description": "SWAPI Instrument Pickup Ion Parameters",
+    "generation_date": "2025-09-18",
+    "instrument": "SWAPI",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-06-06T00:00:00+00:00",
+        "end_time": "2025-06-07T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2025/06/imap_swapi_l3a_pui-he_20250606_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "cno_intensity_by_pitch_angle",
+        "catalog_description": "CNO intensity binned by pitch angle",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "CNO Intensity"
+      },
+      {
+        "variable_name": "cno_intensity_by_pitch_angle_and_gyrophase",
+        "catalog_description": "CNO intensity binned by pitch angle and gyrophase",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "CNO Intensity"
+      },
+      {
+        "variable_name": "fe_intensity_by_pitch_angle",
+        "catalog_description": "Fe intensity binned by pitch angle",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "Fe Intensity"
+      },
+      {
+        "variable_name": "fe_intensity_by_pitch_angle_and_gyrophase",
+        "catalog_description": "Fe intensity binned by pitch angle and gyrophase",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "Fe Intensity"
+      },
+      {
+        "variable_name": "h_intensity_by_pitch_angle",
+        "catalog_description": "H intensity binned by pitch angle",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "H Intensity"
+      },
+      {
+        "variable_name": "h_intensity_by_pitch_angle_and_gyrophase",
+        "catalog_description": "H intensity binned by pitch angle and gyrophase",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "H Intensity"
+      },
+      {
+        "variable_name": "he4_intensity_by_pitch_angle",
+        "catalog_description": "He3He4 intensity binned by pitch angle",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "He3He4 Intensity"
+      },
+      {
+        "variable_name": "he4_intensity_by_pitch_angle_and_gyrophase",
+        "catalog_description": "He3He4 intensity binned by pitch angle and gyrophase",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "He3He4 Intensity"
+      }
+    ],
+    "logical_source": "imap_codice_l3b_hi-pitch-angle",
+    "logical_source_description": "IMAP Mission CoDICE Hi Instrument Pitch Angle",
+    "generation_date": "2025-09-12",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-06-30T00:00:00+00:00",
+        "end_time": "2025-07-01T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3b/2025/06/imap_codice_l3b_hi-pitch-angle_20250630_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "cx_rate",
+        "catalog_description": "Averaged charge exchange rate profile (stationary atom approximation)",
+        "display_type": "spectrogram",
+        "units": "s^-1",
+        "axis_label": "Charge exchange rate"
+      },
+      {
+        "variable_name": "sum_rate",
+        "catalog_description": "Averaged ionization rate profile obtained from lightcurve",
+        "display_type": "spectrogram",
+        "units": "s^-1",
+        "axis_label": "Sum rate"
+      },
+      {
+        "variable_name": "ph_rate",
+        "catalog_description": "Averaged photoionization rate profile",
+        "display_type": "spectrogram",
+        "units": "s^-1",
+        "axis_label": "Photoionization rate"
+      }
+    ],
+    "logical_source": "imap_glows_l3b_ion-rate-profile",
+    "logical_source_description": "IMAP Mission GLOWS Carrington averaged ionization rate profiles",
+    "generation_date": "2025-09-17",
+    "instrument": "GLOWS",
+    "mission": "IMAP",
+    "file_cadence": "carrington_rotation",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-25T22:01:37.919992+00:00",
+        "end_time": "2025-05-23T04:38:03.839992+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3b/2025/04/imap_glows_l3b_ion-rate-profile_20250425-cr02297_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-23T04:38:03.839992+00:00",
+        "end_time": "2025-06-19T11:14:29.759992+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3b/2025/05/imap_glows_l3b_ion-rate-profile_20250523-cr02298_v003.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "combined_differential_flux",
+        "catalog_description": "Combined differential flux",
+        "display_type": "spectrogram",
+        "units": "cm!E-2!N s!E-1!N sr!E-1!N (eV/q)!E-1!N",
+        "axis_label": "Combined differential flux"
+      }
+    ],
+    "logical_source": "imap_swapi_l3b_combined",
+    "logical_source_description": "SWAPI Instrument Combined VDF and Differential Flux",
+    "generation_date": "2025-09-18",
+    "instrument": "SWAPI",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-06-06T00:00:00+00:00",
+        "end_time": "2025-06-07T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3b/2025/06/imap_swapi_l3b_combined_20250606_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "alpha_abundance_ecliptic",
+        "catalog_description": "Averaged alpha-particles to protons ratio in the ecliptic plane",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Abundance"
+      },
+      {
+        "variable_name": "proton_density_profile",
+        "catalog_description": "Averaged profile of proton density adjusted to 1 au",
+        "display_type": "spectrogram",
+        "units": "cm^-3",
+        "axis_label": "Density"
+      },
+      {
+        "variable_name": "plasma_speed_profile",
+        "catalog_description": "Averaged profile of solar wind plasma speed",
+        "display_type": "spectrogram",
+        "units": "km/s",
+        "axis_label": "Speed"
+      },
+      {
+        "variable_name": "proton_density_ecliptic",
+        "catalog_description": "Averaged proton density in the ecliptic plane adjusted to 1 au",
+        "display_type": "time_series",
+        "units": "cm^-3",
+        "axis_label": "Density"
+      },
+      {
+        "variable_name": "plasma_speed_ecliptic",
+        "catalog_description": "Averaged solar wind plasma speed in the ecliptic plane",
+        "display_type": "time_series",
+        "units": "km/s",
+        "axis_label": "Speed"
+      }
+    ],
+    "logical_source": "imap_glows_l3c_sw-profile",
+    "logical_source_description": "IMAP Mission GLOWS Carrington period-averaged solar wind plasma speed and proton density profiles",
+    "generation_date": "2025-09-17",
+    "instrument": "GLOWS",
+    "mission": "IMAP",
+    "file_cadence": "carrington_rotation",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-25T22:01:37.919992+00:00",
+        "end_time": "2025-05-23T04:38:03.839992+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3c/2025/04/imap_glows_l3c_sw-profile_20250425-cr02297_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-23T04:38:03.839992+00:00",
+        "end_time": "2025-06-19T11:14:29.759992+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3c/2025/05/imap_glows_l3c_sw-profile_20250523-cr02298_v003.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "electron_density",
+        "catalog_description": "Electron density",
+        "display_type": "time_series",
+        "units": "#/cm^3",
+        "axis_label": "Electron density"
+      },
+      {
+        "variable_name": "lyman_alpha",
+        "catalog_description": "Lyman alpha",
+        "display_type": "time_series",
+        "units": "#/cm^2/s",
+        "axis_label": "Lyman alpha"
+      },
+      {
+        "variable_name": "phion",
+        "catalog_description": "Photoionization rate in the ecliptic plane",
+        "display_type": "time_series",
+        "units": "#/s",
+        "axis_label": "Photoionization rate"
+      },
+      {
+        "variable_name": "plasma_speed",
+        "catalog_description": "Solar wind plasma speed",
+        "display_type": "spectrogram",
+        "units": "km/s",
+        "axis_label": "Plasma speed"
+      },
+      {
+        "variable_name": "proton_density",
+        "catalog_description": "Solar wind proton density",
+        "display_type": "spectrogram",
+        "units": "#/cm^3",
+        "axis_label": "Proton density"
+      },
+      {
+        "variable_name": "uv_anisotropy",
+        "catalog_description": "Ultraviolet anisotropy",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Ultraviolet Anisotropy"
+      }
+    ],
+    "logical_source": "imap_glows_l3d_solar-hist",
+    "logical_source_description": "IMAP Mission GLOWS Carrington period-averaged solar history",
+    "generation_date": "2025-09-17",
+    "instrument": "GLOWS",
+    "mission": "IMAP",
+    "file_cadence": "carrington_rotation",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-25T22:01:37.919992+00:00",
+        "end_time": "2025-05-23T04:38:03.839992+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3d/1947/03/imap_glows_l3d_solar-hist_19470303-cr02297_v004.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "surv_prob",
+        "catalog_description": "Survival probabilities for IMAP-Hi",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Probability of survival"
+      }
+    ],
+    "logical_source": "imap_glows_l3e_survival-probability-hi-45",
+    "logical_source_description": "IMAP Mission GLOWS L3e Hi 45 Survival Probability",
+    "generation_date": "2025-09-17",
+    "instrument": "GLOWS",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-25T00:00:00+00:00",
+        "end_time": "2025-04-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-hi-45_20250425-repoint01010_v004.cdf"
+      },
+      {
+        "start_time": "2025-04-26T00:00:00+00:00",
+        "end_time": "2025-04-27T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-hi-45_20250426-repoint01011_v004.cdf"
+      },
+      {
+        "start_time": "2025-04-27T00:00:00+00:00",
+        "end_time": "2025-04-28T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-hi-45_20250427-repoint01012_v004.cdf"
+      },
+      {
+        "start_time": "2025-04-28T00:00:00+00:00",
+        "end_time": "2025-04-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-hi-45_20250428-repoint01013_v004.cdf"
+      },
+      {
+        "start_time": "2025-04-29T00:00:00+00:00",
+        "end_time": "2025-04-30T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-hi-45_20250429-repoint01014_v004.cdf"
+      },
+      {
+        "start_time": "2025-04-30T00:00:00+00:00",
+        "end_time": "2025-05-01T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-hi-45_20250430-repoint01015_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-01T00:00:00+00:00",
+        "end_time": "2025-05-02T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-hi-45_20250501-repoint01016_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-02T00:00:00+00:00",
+        "end_time": "2025-05-03T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-hi-45_20250502-repoint01017_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-03T00:00:00+00:00",
+        "end_time": "2025-05-04T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-hi-45_20250503-repoint01018_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-04T00:00:00+00:00",
+        "end_time": "2025-05-05T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-hi-45_20250504-repoint01019_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-05T00:00:00+00:00",
+        "end_time": "2025-05-06T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-hi-45_20250505-repoint01020_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-06T00:00:00+00:00",
+        "end_time": "2025-05-07T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-hi-45_20250506-repoint01021_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-07T00:00:00+00:00",
+        "end_time": "2025-05-08T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-hi-45_20250507-repoint01022_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-08T00:00:00+00:00",
+        "end_time": "2025-05-09T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-hi-45_20250508-repoint01023_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-09T00:00:00+00:00",
+        "end_time": "2025-05-10T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-hi-45_20250509-repoint01024_v004.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "surv_prob",
+        "catalog_description": "Survival probabilities for IMAP-Hi",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "probability_of_survival"
+      }
+    ],
+    "logical_source": "imap_glows_l3e_survival-probability-hi-90",
+    "logical_source_description": "IMAP Mission GLOWS L3e Hi 90 Survival Probability",
+    "generation_date": "2025-09-17",
+    "instrument": "GLOWS",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-25T00:00:00+00:00",
+        "end_time": "2025-04-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-hi-90_20250425-repoint01010_v004.cdf"
+      },
+      {
+        "start_time": "2025-04-26T00:00:00+00:00",
+        "end_time": "2025-04-27T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-hi-90_20250426-repoint01011_v004.cdf"
+      },
+      {
+        "start_time": "2025-04-27T00:00:00+00:00",
+        "end_time": "2025-04-28T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-hi-90_20250427-repoint01012_v004.cdf"
+      },
+      {
+        "start_time": "2025-04-28T00:00:00+00:00",
+        "end_time": "2025-04-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-hi-90_20250428-repoint01013_v004.cdf"
+      },
+      {
+        "start_time": "2025-04-29T00:00:00+00:00",
+        "end_time": "2025-04-30T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-hi-90_20250429-repoint01014_v004.cdf"
+      },
+      {
+        "start_time": "2025-04-30T00:00:00+00:00",
+        "end_time": "2025-05-01T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-hi-90_20250430-repoint01015_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-01T00:00:00+00:00",
+        "end_time": "2025-05-02T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-hi-90_20250501-repoint01016_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-02T00:00:00+00:00",
+        "end_time": "2025-05-03T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-hi-90_20250502-repoint01017_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-03T00:00:00+00:00",
+        "end_time": "2025-05-04T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-hi-90_20250503-repoint01018_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-04T00:00:00+00:00",
+        "end_time": "2025-05-05T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-hi-90_20250504-repoint01019_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-05T00:00:00+00:00",
+        "end_time": "2025-05-06T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-hi-90_20250505-repoint01020_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-06T00:00:00+00:00",
+        "end_time": "2025-05-07T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-hi-90_20250506-repoint01021_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-07T00:00:00+00:00",
+        "end_time": "2025-05-08T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-hi-90_20250507-repoint01022_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-08T00:00:00+00:00",
+        "end_time": "2025-05-09T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-hi-90_20250508-repoint01023_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-09T00:00:00+00:00",
+        "end_time": "2025-05-10T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-hi-90_20250509-repoint01024_v004.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "surv_prob",
+        "catalog_description": "Survival probabilities for IMAP-Lo",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "probability of survival"
+      }
+    ],
+    "logical_source": "imap_glows_l3e_survival-probability-lo",
+    "logical_source_description": "IMAP Mission GLOWS L3e Lo Survival Probability",
+    "generation_date": "2025-09-17",
+    "instrument": "GLOWS",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-25T00:00:00+00:00",
+        "end_time": "2025-04-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-lo_20250425-repoint01010_v004.cdf"
+      },
+      {
+        "start_time": "2025-04-26T00:00:00+00:00",
+        "end_time": "2025-04-27T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-lo_20250426-repoint01011_v004.cdf"
+      },
+      {
+        "start_time": "2025-04-27T00:00:00+00:00",
+        "end_time": "2025-04-28T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-lo_20250427-repoint01012_v004.cdf"
+      },
+      {
+        "start_time": "2025-04-28T00:00:00+00:00",
+        "end_time": "2025-04-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-lo_20250428-repoint01013_v004.cdf"
+      },
+      {
+        "start_time": "2025-04-29T00:00:00+00:00",
+        "end_time": "2025-04-30T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-lo_20250429-repoint01014_v004.cdf"
+      },
+      {
+        "start_time": "2025-04-30T00:00:00+00:00",
+        "end_time": "2025-05-01T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-lo_20250430-repoint01015_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-01T00:00:00+00:00",
+        "end_time": "2025-05-02T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-lo_20250501-repoint01016_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-02T00:00:00+00:00",
+        "end_time": "2025-05-03T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-lo_20250502-repoint01017_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-03T00:00:00+00:00",
+        "end_time": "2025-05-04T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-lo_20250503-repoint01018_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-04T00:00:00+00:00",
+        "end_time": "2025-05-05T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-lo_20250504-repoint01019_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-05T00:00:00+00:00",
+        "end_time": "2025-05-06T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-lo_20250505-repoint01020_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-06T00:00:00+00:00",
+        "end_time": "2025-05-07T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-lo_20250506-repoint01021_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-07T00:00:00+00:00",
+        "end_time": "2025-05-08T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-lo_20250507-repoint01022_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-08T00:00:00+00:00",
+        "end_time": "2025-05-09T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-lo_20250508-repoint01023_v004.cdf"
+      },
+      {
+        "start_time": "2025-05-09T00:00:00+00:00",
+        "end_time": "2025-05-10T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-lo_20250509-repoint01024_v004.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "surv_prob",
+        "catalog_description": "Survival probabilities for IMAP-Ultra",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Survival prob."
+      }
+    ],
+    "logical_source": "imap_glows_l3e_survival-probability-ul",
+    "logical_source_description": "IMAP Mission GLOWS L3e Ultra Survival Probability",
+    "generation_date": "2025-09-15",
+    "instrument": "GLOWS",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-25T00:00:00+00:00",
+        "end_time": "2025-04-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-ul_20250425-repoint01010_v001.cdf"
+      },
+      {
+        "start_time": "2025-04-26T00:00:00+00:00",
+        "end_time": "2025-04-27T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-ul_20250426-repoint01011_v001.cdf"
+      },
+      {
+        "start_time": "2025-04-27T00:00:00+00:00",
+        "end_time": "2025-04-28T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-ul_20250427-repoint01012_v001.cdf"
+      },
+      {
+        "start_time": "2025-04-28T00:00:00+00:00",
+        "end_time": "2025-04-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-ul_20250428-repoint01013_v001.cdf"
+      },
+      {
+        "start_time": "2025-04-29T00:00:00+00:00",
+        "end_time": "2025-04-30T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-ul_20250429-repoint01014_v001.cdf"
+      },
+      {
+        "start_time": "2025-04-30T00:00:00+00:00",
+        "end_time": "2025-05-01T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-ul_20250430-repoint01015_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-01T00:00:00+00:00",
+        "end_time": "2025-05-02T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-ul_20250501-repoint01016_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-02T00:00:00+00:00",
+        "end_time": "2025-05-03T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-ul_20250502-repoint01017_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-03T00:00:00+00:00",
+        "end_time": "2025-05-04T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-ul_20250503-repoint01018_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-04T00:00:00+00:00",
+        "end_time": "2025-05-05T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-ul_20250504-repoint01019_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-05T00:00:00+00:00",
+        "end_time": "2025-05-06T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-ul_20250505-repoint01020_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-06T00:00:00+00:00",
+        "end_time": "2025-05-07T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-ul_20250506-repoint01021_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-07T00:00:00+00:00",
+        "end_time": "2025-05-08T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-ul_20250507-repoint01022_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-08T00:00:00+00:00",
+        "end_time": "2025-05-09T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-ul_20250508-repoint01023_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-09T00:00:00+00:00",
+        "end_time": "2025-05-10T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-ul_20250509-repoint01024_v001.cdf"
+      }
+    ]
+  }
+]
