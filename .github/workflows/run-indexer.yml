@@ -21,7 +21,10 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
+      IMAP_API_DOWNLOAD_URL: ${{vars.IMAP_API_DOWNLOAD_URL}}
+      IMAP_DATA_ACCESS_URL: ${{vars.DATA_ACCESS_URL}}
       IMAP_API_KEY: ${{secrets.IMAP_API_KEY}}
+      INDEX_FILE_DESCRIPTOR: ${{vars.INDEX_FILE_DESCRIPTOR}}
 
     steps:
     - uses: actions/checkout@v4
