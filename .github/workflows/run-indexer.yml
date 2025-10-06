@@ -14,6 +14,9 @@ jobs:
     environment: Development
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v4
+      with:
+        ref: main
     - uses: ./.github/workflows/base-run-indexer.yml
       with:
         environment: Development
