@@ -11,9 +11,9 @@ permissions:
 
 jobs:
   run_indexer:
-    environment: Development
     strategy:
       matrix:
+        environment: [Development, Production]
         indexer_type: [imap, psp]
       fail-fast: false
       max-parallel: 1
