@@ -20,6 +20,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    environment: ${{matrix.environment}}
     env:
       IMAP_API_DOWNLOAD_URL: ${{vars.IMAP_API_DOWNLOAD_URL}}
       IMAP_DATA_ACCESS_URL: ${{vars.DATA_ACCESS_URL}}
