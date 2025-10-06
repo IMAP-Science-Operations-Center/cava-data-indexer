@@ -11,6 +11,11 @@ permissions:
 
 jobs:
   run_indexer:
-    uses: ./.github/workflows/base-run-indexer.yml
-    with:
-      environment: Development
+    environment: Development
+    runs-on: ubuntu-latest
+    steps:
+    - uses: ./.github/workflows/base-run-indexer.yml
+      with:
+        environment: Development
+        api_key: ${{secrets.IMAP_API_KEY}}
+
