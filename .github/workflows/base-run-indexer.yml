@@ -6,9 +6,6 @@ on:
       environment:
         required: true
         type: string
-      api_key:
-        required: true
-        type: string
 
 permissions:
   contents: write
@@ -27,7 +24,7 @@ jobs:
     env:
       IMAP_API_DOWNLOAD_URL : ${{vars.IMAP_API_DOWNLOAD_URL}}
       IMAP_DATA_ACCESS_URL : ${{vars.DATA_ACCESS_URL}}
-      IMAP_API_KEY : ${{inputs.api_key}}
+      IMAP_API_KEY : ${{secrets.IMAP_API_KEY}}
       INDEX_FILE_DESCRIPTOR : ${{vars.INDEX_FILE_DESCRIPTOR}}
 
     steps:
