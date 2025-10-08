@@ -32,6 +32,23 @@
     ]
   },
   {
+    "variables": [],
+    "logical_source": "imap_hi_l3_h45-ena-h-sf-sp-ram-hae-4deg-1yr",
+    "logical_source_description": "IMAP Hi Instrument Level 3 Hi-45 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Ram, HAE, Rectangular 4 degree, 12 Month Map",
+    "generation_date": "2025-10-08",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2026-04-15T06:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l3/2025/04/imap_hi_l3_h45-ena-h-sf-sp-ram-hae-4deg-1yr_20250415_v001.cdf"
+      }
+    ]
+  },
+  {
     "variables": [
       {
         "variable_name": "ena_spectral_index",
@@ -5007,6 +5024,11 @@
         "start_time": "2025-05-09T00:00:00+00:00",
         "end_time": "2025-05-10T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-hi-45_20250509-repoint01024_v006.cdf"
+      },
+      {
+        "start_time": "2026-04-18T00:00:00+00:00",
+        "end_time": "2026-04-19T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2026/04/imap_glows_l3e_survival-probability-hi-45_20260418-repoint02000_v001.cdf"
       }
     ]
   },
