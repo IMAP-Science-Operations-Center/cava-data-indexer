@@ -1,6 +1,7 @@
 import os
 import uuid
 from datetime import date
+from pathlib import Path
 from unittest import TestCase
 from unittest.mock import patch, call, Mock
 
@@ -208,6 +209,11 @@ class TestImapDataProcessor(TestCase):
         ]
 
         mock_data_access_query.assert_has_calls([
+            call(data_level="l1d", instrument="mag"),
+            call(data_level="l2"),
+            call(data_level="l2a"),
+            call(data_level="l2b"),
+            call(data_level="l2c"),
             call(data_level="l3"),
             call(data_level="l3a"),
             call(data_level="l3b"),
@@ -223,6 +229,40 @@ class TestImapDataProcessor(TestCase):
             call(third_cdf_response, DefaultVariableSelector),
             call(fourth_cdf_response, DefaultVariableSelector)],
             mock_cdf_parser.parse_cdf.call_args_list)
+
+    @patch('data_indexer.imap_data_processor.CdfParser')
+    @patch('data_indexer.imap_data_processor.imap_data_access.query')
+    @patch('data_indexer.imap_data_processor.get_with_retry')
+    def test_get_metadata_index_gets_l1d_l2_l3_data(self, mock_get_with_retry, mock_data_access_query, _):
+        imap_dev_server = "https://api.dev.imap-mission.com/download/"
+        os.environ["IMAP_API_DOWNLOAD_URL"] = imap_dev_server
+        expected_data_levels = {"l1d", "l2", "l2a", "l2b", "l2c", "l3", "l3a", "l3b", "l3c", "l3d", "l3e"}
+        expected_data_levels_and_response = {data_level: self.create_cdf_metadata_query_response(data_level) for
+                                             data_level in expected_data_levels}
+        expected_parse_cdf_files = [Path(value["file_path"]) for value in expected_data_levels_and_response.values()]
+
+        mock_data_access_query.side_effect = [[v] for v in list(expected_data_levels_and_response.values())]
+        mock_get_with_retry.side_effect = expected_parse_cdf_files
+
+        get_metadata_index()
+
+        mock_data_access_query.assert_has_calls([
+            call(data_level="l1d", instrument="mag"),
+            call(data_level="l2"),
+            call(data_level="l2a"),
+            call(data_level="l2b"),
+            call(data_level="l2c"),
+            call(data_level="l3"),
+            call(data_level="l3a"),
+            call(data_level="l3b"),
+            call(data_level="l3c"),
+            call(data_level="l3d"),
+            call(data_level="l3e"),
+        ])
+
+        mock_get_with_retry.assert_has_calls([
+            call(value["file_path"]) for value in expected_data_levels_and_response.values()
+        ])
 
     @patch('data_indexer.imap_data_processor.CdfParser')
     @patch('data_indexer.imap_data_processor.imap_data_access.query')
@@ -488,3 +528,11 @@ class TestImapDataProcessor(TestCase):
         ]
 
         self.assertEqual(expected_index, get_metadata_index())
+
+    def create_cdf_metadata_query_response(self, data_level, ) -> dict[str, str | None]:
+        random_file_path = uuid.uuid4()
+        return {
+            'file_path': f'fake-mission/fake-instrument/{data_level}/2025/06/{random_file_path}.cdf',
+            'instrument': 'fake-instrument',
+            'data_level': data_level, 'descriptor': 'protons', 'start_date': '20250606', 'repointing': None,
+            'version': 'v002', 'extension': 'cdf', 'ingestion_date': '2024-11-21 21:09:59'}

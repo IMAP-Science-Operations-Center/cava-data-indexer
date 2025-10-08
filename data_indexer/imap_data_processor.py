@@ -1,14 +1,12 @@
 import os
 import re
-import urllib
 from collections import defaultdict
 from dataclasses import dataclass
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 from functools import reduce
 from typing import TypeVar
 
 import imap_data_access
-from spacepy.pycdf import CDFError
 
 from data_indexer.cdf_parser.cdf_parser import CdfParser
 from data_indexer.cdf_parser.variable_selector.default_variable_selector import DefaultVariableSelector
@@ -51,11 +49,13 @@ instrument_names = {
 def get_metadata_index() -> list[dict]:
     uuid_matcher = re.compile("[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}")
 
-    l3_version_variants = ["l3", "l3a", "l3b", "l3c", "l3d", "l3e"]
-    l3_cdf_metadatas = flatten([imap_data_access.query(data_level=version) for version in l3_version_variants])
+    mag_l1d_cdf_metadatas = imap_data_access.query(instrument="mag", data_level="l1d")
+    version_variants = ["l2", "l2a", "l2b", "l2c", "l3", "l3a", "l3b", "l3c", "l3d", "l3e"]
+    l2_l3_cdf_metadatas = flatten([imap_data_access.query(data_level=version) for version in version_variants])
+    cdf_metadatas = mag_l1d_cdf_metadatas + l2_l3_cdf_metadatas
 
     data_products = defaultdict(lambda: dict())
-    for cdf_metadata in l3_cdf_metadatas:
+    for cdf_metadata in cdf_metadatas:
         descriptor = cdf_metadata["descriptor"]
         if "log" in descriptor or re.search(uuid_matcher, descriptor) is not None:
             continue
