@@ -1,1 +1,455 @@
-[]
+[
+  {
+    "variables": [
+      {
+        "variable_name": "cno_macropixel_intensity",
+        "catalog_description": "C, N, O Macropixel Intensity",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "fe_macropixel_intensity",
+        "catalog_description": "Fe Macropixel Intensity",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "h_macropixel_intensity",
+        "catalog_description": "H Macropixel Intensity",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "he4_macropixel_intensity",
+        "catalog_description": "He4 Macropixel Intensity",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "nemgsi_macropixel_intensity",
+        "catalog_description": "NeMgSi Macropixel Intensity",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "dynamic_threshold_state",
+        "catalog_description": "Raw dynamic threshold state per integration",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "State"
+      }
+    ],
+    "logical_source": "imap_hit_l2_macropixel-intensity",
+    "logical_source_description": "IMAP Mission HIT Instrument Level-2 Macro Pixel Intensity Data.",
+    "generation_date": "None",
+    "instrument": "HIT",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-09-28T00:00:00+00:00",
+        "end_time": "2025-09-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/09/imap_hit_l2_macropixel-intensity_20250928_v001.cdf"
+      },
+      {
+        "start_time": "2025-09-29T00:00:00+00:00",
+        "end_time": "2025-09-30T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/09/imap_hit_l2_macropixel-intensity_20250929_v001.cdf"
+      },
+      {
+        "start_time": "2025-09-30T00:00:00+00:00",
+        "end_time": "2025-10-01T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/09/imap_hit_l2_macropixel-intensity_20250930_v001.cdf"
+      },
+      {
+        "start_time": "2025-10-01T00:00:00+00:00",
+        "end_time": "2025-10-02T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_macropixel-intensity_20251001_v001.cdf"
+      },
+      {
+        "start_time": "2025-10-02T00:00:00+00:00",
+        "end_time": "2025-10-03T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_macropixel-intensity_20251002_v001.cdf"
+      },
+      {
+        "start_time": "2025-10-07T00:00:00+00:00",
+        "end_time": "2025-10-08T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_macropixel-intensity_20251007_v001.cdf"
+      },
+      {
+        "start_time": "2025-10-08T00:00:00+00:00",
+        "end_time": "2025-10-09T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_macropixel-intensity_20251008_v002.cdf"
+      },
+      {
+        "start_time": "2025-10-09T00:00:00+00:00",
+        "end_time": "2025-10-10T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_macropixel-intensity_20251009_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "al_standard_intensity",
+        "catalog_description": "Al Standard Omnidirectional Intensity in 9 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "al_energy_mean_label"
+      },
+      {
+        "variable_name": "ar_standard_intensity",
+        "catalog_description": "Ar Standard Omnidirectional Intensity in 13 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "ar_energy_mean_label"
+      },
+      {
+        "variable_name": "c_standard_intensity",
+        "catalog_description": "C Standard Omnidirectional Intensity in 12 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "c_energy_mean_label"
+      },
+      {
+        "variable_name": "ca_standard_intensity",
+        "catalog_description": "Ca Standard Omnidirectional Intensity in 13 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "ca_energy_mean_label"
+      },
+      {
+        "variable_name": "fe_standard_intensity",
+        "catalog_description": "Fe Standard Omnidirectional Intensity in 16 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "fe_energy_mean_label"
+      },
+      {
+        "variable_name": "h_standard_intensity",
+        "catalog_description": "H Standard Omnidirectional Intensity in 12 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "h_energy_mean_label"
+      },
+      {
+        "variable_name": "he_standard_intensity",
+        "catalog_description": "He (total) Standard Omnidirectional Intensity in 11 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "he_energy_mean_label"
+      },
+      {
+        "variable_name": "he3_standard_intensity",
+        "catalog_description": "He3 Standard Omnidirectional Intensity in 11 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "he3_energy_mean_label"
+      },
+      {
+        "variable_name": "he4_standard_intensity",
+        "catalog_description": "He4 Standard Omnidirectional Intensity in 12 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "he4_energy_mean_label"
+      },
+      {
+        "variable_name": "mg_standard_intensity",
+        "catalog_description": "Mg Standard Omnidirectional Intensity in 14 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "mg_energy_mean_label"
+      },
+      {
+        "variable_name": "n_standard_intensity",
+        "catalog_description": "N Standard Omnidirectional Intensity in 12 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "n_energy_mean_label"
+      },
+      {
+        "variable_name": "na_standard_intensity",
+        "catalog_description": "Na Standard Omnidirectional Intensity in 8 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "na_energy_mean_label"
+      },
+      {
+        "variable_name": "ne_standard_intensity",
+        "catalog_description": "Ne Standard Omnidirectional Intensity in 13 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "ne_energy_mean_label"
+      },
+      {
+        "variable_name": "ni_standard_intensity",
+        "catalog_description": "Ni Standard Omnidirectional Intensity in 9 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "ni_energy_mean_label"
+      },
+      {
+        "variable_name": "o_standard_intensity",
+        "catalog_description": "O Standard Omnidirectional Intensity in 12 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "o_energy_mean_label"
+      },
+      {
+        "variable_name": "dynamic_threshold_state",
+        "catalog_description": "Raw dynamic threshold state per integration",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "State"
+      },
+      {
+        "variable_name": "s_standard_intensity",
+        "catalog_description": "S Standard Omnidirectional Intensity in 13 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "s_energy_mean_label"
+      },
+      {
+        "variable_name": "si_standard_intensity",
+        "catalog_description": "Si Standard Omnidirectional Intensity in 14 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "si_energy_mean_label"
+      }
+    ],
+    "logical_source": "imap_hit_l2_standard-intensity",
+    "logical_source_description": "IMAP Mission HIT Instrument Level-2 Standard Intensity Data.",
+    "generation_date": "None",
+    "instrument": "HIT",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-09-28T00:00:00+00:00",
+        "end_time": "2025-09-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/09/imap_hit_l2_standard-intensity_20250928_v001.cdf"
+      },
+      {
+        "start_time": "2025-09-29T00:00:00+00:00",
+        "end_time": "2025-09-30T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/09/imap_hit_l2_standard-intensity_20250929_v001.cdf"
+      },
+      {
+        "start_time": "2025-09-30T00:00:00+00:00",
+        "end_time": "2025-10-01T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/09/imap_hit_l2_standard-intensity_20250930_v001.cdf"
+      },
+      {
+        "start_time": "2025-10-01T00:00:00+00:00",
+        "end_time": "2025-10-02T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_standard-intensity_20251001_v001.cdf"
+      },
+      {
+        "start_time": "2025-10-02T00:00:00+00:00",
+        "end_time": "2025-10-03T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_standard-intensity_20251002_v001.cdf"
+      },
+      {
+        "start_time": "2025-10-07T00:00:00+00:00",
+        "end_time": "2025-10-08T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_standard-intensity_20251007_v001.cdf"
+      },
+      {
+        "start_time": "2025-10-08T00:00:00+00:00",
+        "end_time": "2025-10-09T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_standard-intensity_20251008_v002.cdf"
+      },
+      {
+        "start_time": "2025-10-09T00:00:00+00:00",
+        "end_time": "2025-10-10T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_standard-intensity_20251009_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "al_summed_intensity",
+        "catalog_description": "Al Summed Omnidirectional Intensity in 3 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "al_energy_mean_label"
+      },
+      {
+        "variable_name": "ar_summed_intensity",
+        "catalog_description": "Ar Summed Omnidirectional Intensity in 5 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "ar_energy_mean_label"
+      },
+      {
+        "variable_name": "c_summed_intensity",
+        "catalog_description": "C Summed Omnidirectional Intensity in 4 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "c_energy_mean_label"
+      },
+      {
+        "variable_name": "ca_summed_intensity",
+        "catalog_description": "Ca Summed Omnidirectional Intensity in 5 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "ca_energy_mean_label"
+      },
+      {
+        "variable_name": "fe_summed_intensity",
+        "catalog_description": "Fe Summed Omnidirectional Intensity in 5 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "fe_energy_mean_label"
+      },
+      {
+        "variable_name": "h_summed_intensity",
+        "catalog_description": "H Summed Omnidirectional Intensity in 4 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "h_energy_mean_label"
+      },
+      {
+        "variable_name": "he_summed_intensity",
+        "catalog_description": "He (total) Summed Omnidirectional Intensity in 3 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "he_energy_mean_label"
+      },
+      {
+        "variable_name": "he3_summed_intensity",
+        "catalog_description": "He3 Summed Omnidirectional Intensity in 3 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "he3_energy_mean_label"
+      },
+      {
+        "variable_name": "he4_summed_intensity",
+        "catalog_description": "He4 Summed Omnidirectional Intensity in 4 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "he4_energy_mean_label"
+      },
+      {
+        "variable_name": "mg_summed_intensity",
+        "catalog_description": "Mg Summed Omnidirectional Intensity in 4 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "mg_energy_mean_label"
+      },
+      {
+        "variable_name": "n_summed_intensity",
+        "catalog_description": "N Summed Omnidirectional Intensity in 4 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "n_energy_mean_label"
+      },
+      {
+        "variable_name": "na_summed_intensity",
+        "catalog_description": "Na Summed Omnidirectional Intensity in 2 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "na_energy_mean_label"
+      },
+      {
+        "variable_name": "ne_summed_intensity",
+        "catalog_description": "Ne Summed Omnidirectional Intensity in 4 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "ne_energy_mean_label"
+      },
+      {
+        "variable_name": "ni_summed_intensity",
+        "catalog_description": "Ni Summed Omnidirectional Intensity in 3 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "ni_energy_mean_label"
+      },
+      {
+        "variable_name": "o_summed_intensity",
+        "catalog_description": "O Summed Omnidirectional Intensity in 4 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "o_energy_mean_label"
+      },
+      {
+        "variable_name": "dynamic_threshold_state",
+        "catalog_description": "Raw dynamic threshold state per integration",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "State"
+      },
+      {
+        "variable_name": "s_summed_intensity",
+        "catalog_description": "S Summed Omnidirectional Intensity in 5 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "s_energy_mean_label"
+      },
+      {
+        "variable_name": "si_summed_intensity",
+        "catalog_description": "Si Summed Omnidirectional Intensity in 5 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "si_energy_mean_label"
+      }
+    ],
+    "logical_source": "imap_hit_l2_summed-intensity",
+    "logical_source_description": "IMAP Mission HIT Instrument Level-2 Summed Intensity Data.",
+    "generation_date": "None",
+    "instrument": "HIT",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-09-28T00:00:00+00:00",
+        "end_time": "2025-09-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/09/imap_hit_l2_summed-intensity_20250928_v001.cdf"
+      },
+      {
+        "start_time": "2025-09-29T00:00:00+00:00",
+        "end_time": "2025-09-30T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/09/imap_hit_l2_summed-intensity_20250929_v001.cdf"
+      },
+      {
+        "start_time": "2025-09-30T00:00:00+00:00",
+        "end_time": "2025-10-01T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/09/imap_hit_l2_summed-intensity_20250930_v001.cdf"
+      },
+      {
+        "start_time": "2025-10-01T00:00:00+00:00",
+        "end_time": "2025-10-02T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_summed-intensity_20251001_v001.cdf"
+      },
+      {
+        "start_time": "2025-10-02T00:00:00+00:00",
+        "end_time": "2025-10-03T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_summed-intensity_20251002_v001.cdf"
+      },
+      {
+        "start_time": "2025-10-07T00:00:00+00:00",
+        "end_time": "2025-10-08T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_summed-intensity_20251007_v001.cdf"
+      },
+      {
+        "start_time": "2025-10-08T00:00:00+00:00",
+        "end_time": "2025-10-09T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_summed-intensity_20251008_v002.cdf"
+      },
+      {
+        "start_time": "2025-10-09T00:00:00+00:00",
+        "end_time": "2025-10-10T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_summed-intensity_20251009_v001.cdf"
+      }
+    ]
+  }
+]
