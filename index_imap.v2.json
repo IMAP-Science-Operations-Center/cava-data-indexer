@@ -32,6 +32,57 @@
     ]
   },
   {
+    "variables": [],
+    "logical_source": "imap_hi_l3_h45-ena-h-sf-sp-anti-hae-4deg-1yr",
+    "logical_source_description": "IMAP Hi Instrument Level 3 Hi-45 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Anti-Ram, HAE, Rectangular 4 degree, 12 Month Map",
+    "generation_date": "2025-10-08",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2026-04-15T06:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l3/2025/04/imap_hi_l3_h45-ena-h-sf-sp-anti-hae-4deg-1yr_20250415_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [],
+    "logical_source": "imap_hi_l3_h45-ena-h-sf-sp-full-hae-4deg-6mo",
+    "logical_source_description": "IMAP Hi Instrument Level 3 Hi-45 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 6 Month Map",
+    "generation_date": "2025-10-08",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "six_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2025-10-14T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l3/2025/04/imap_hi_l3_h45-ena-h-sf-sp-full-hae-4deg-6mo_20250415_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [],
+    "logical_source": "imap_hi_l3_h45-ena-h-sf-sp-ram-hae-4deg-1yr",
+    "logical_source_description": "IMAP Hi Instrument Level 3 Hi-45 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Ram, HAE, Rectangular 4 degree, 12 Month Map",
+    "generation_date": "2025-10-08",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2026-04-15T06:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l3/2025/04/imap_hi_l3_h45-ena-h-sf-sp-ram-hae-4deg-1yr_20250415_v001.cdf"
+      }
+    ]
+  },
+  {
     "variables": [
       {
         "variable_name": "ena_spectral_index",
@@ -145,6 +196,16 @@
         "url": "https://api.dev.imap-mission.com/download/imap/hit/l3/2025/10/imap_hit_l3_direct-events_20251007_v004.cdf"
       },
       {
+        "start_time": "2025-10-08T00:00:00+00:00",
+        "end_time": "2025-10-09T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hit/l3/2025/10/imap_hit_l3_direct-events_20251008_v002.cdf"
+      },
+      {
+        "start_time": "2025-10-09T00:00:00+00:00",
+        "end_time": "2025-10-10T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hit/l3/2025/10/imap_hit_l3_direct-events_20251009_v001.cdf"
+      },
+      {
         "start_time": "2025-10-17T00:00:00+00:00",
         "end_time": "2025-10-18T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/hit/l3/2025/10/imap_hit_l3_direct-events_20251017_v004.cdf"
@@ -236,6 +297,23 @@
         "start_time": "2010-01-05T00:00:00+00:00",
         "end_time": "2010-01-06T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/hit/l3/2010/01/imap_hit_l3_macropixel_20100105_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [],
+    "logical_source": "imap_ultra_l3_u90-ena-h-sf-sp-full-hae-4deg-6mo",
+    "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra-90 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 6 Month Map",
+    "generation_date": "2025-10-08",
+    "instrument": "IMAP-Ultra",
+    "mission": "IMAP",
+    "file_cadence": "six_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2025-10-14T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/ultra/l3/2025/04/imap_ultra_l3_u90-ena-h-sf-sp-full-hae-4deg-6mo_20250415_v001.cdf"
       }
     ]
   },
@@ -5007,6 +5085,11 @@
         "start_time": "2025-05-09T00:00:00+00:00",
         "end_time": "2025-05-10T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-hi-45_20250509-repoint01024_v006.cdf"
+      },
+      {
+        "start_time": "2026-04-18T00:00:00+00:00",
+        "end_time": "2026-04-19T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2026/04/imap_glows_l3e_survival-probability-hi-45_20260418-repoint02000_v001.cdf"
       }
     ]
   },
@@ -5297,151 +5380,11 @@
         "start_time": "2025-05-09T00:00:00+00:00",
         "end_time": "2025-05-10T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-lo_20250509-repoint01024_v006.cdf"
-      }
-    ]
-  },
-  {
-    "variables": [
-      {
-        "variable_name": "surv_prob",
-        "catalog_description": "Survival probabilities for IMAP-Ultra",
-        "display_type": "spectrogram",
-        "units": " ",
-        "axis_label": "Survival prob."
-      }
-    ],
-    "logical_source": "imap_glows_l3e_survival-probability-ul",
-    "logical_source_description": "IMAP Mission GLOWS L3e Ultra Survival Probability",
-    "generation_date": "2025-09-30",
-    "instrument": "GLOWS",
-    "mission": "IMAP",
-    "file_cadence": "daily",
-    "version": "",
-    "file_timeranges": [
-      {
-        "start_time": "2025-04-15T00:00:00+00:00",
-        "end_time": "2025-04-16T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-ul_20250415-repoint01000_v002.cdf"
       },
       {
-        "start_time": "2025-04-16T00:00:00+00:00",
-        "end_time": "2025-04-17T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-ul_20250416-repoint01001_v002.cdf"
-      },
-      {
-        "start_time": "2025-04-17T00:00:00+00:00",
-        "end_time": "2025-04-18T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-ul_20250417-repoint01002_v002.cdf"
-      },
-      {
-        "start_time": "2025-04-18T00:00:00+00:00",
-        "end_time": "2025-04-19T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-ul_20250418-repoint01003_v002.cdf"
-      },
-      {
-        "start_time": "2025-04-19T00:00:00+00:00",
-        "end_time": "2025-04-20T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-ul_20250419-repoint01004_v002.cdf"
-      },
-      {
-        "start_time": "2025-04-20T00:00:00+00:00",
-        "end_time": "2025-04-21T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-ul_20250420-repoint01005_v002.cdf"
-      },
-      {
-        "start_time": "2025-04-21T00:00:00+00:00",
-        "end_time": "2025-04-22T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-ul_20250421-repoint01006_v002.cdf"
-      },
-      {
-        "start_time": "2025-04-22T00:00:00+00:00",
-        "end_time": "2025-04-23T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-ul_20250422-repoint01007_v002.cdf"
-      },
-      {
-        "start_time": "2025-04-23T00:00:00+00:00",
-        "end_time": "2025-04-24T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-ul_20250423-repoint01008_v002.cdf"
-      },
-      {
-        "start_time": "2025-04-24T00:00:00+00:00",
-        "end_time": "2025-04-25T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-ul_20250424-repoint01009_v002.cdf"
-      },
-      {
-        "start_time": "2025-04-25T00:00:00+00:00",
-        "end_time": "2025-04-26T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-ul_20250425-repoint01010_v003.cdf"
-      },
-      {
-        "start_time": "2025-04-26T00:00:00+00:00",
-        "end_time": "2025-04-27T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-ul_20250426-repoint01011_v003.cdf"
-      },
-      {
-        "start_time": "2025-04-27T00:00:00+00:00",
-        "end_time": "2025-04-28T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-ul_20250427-repoint01012_v003.cdf"
-      },
-      {
-        "start_time": "2025-04-28T00:00:00+00:00",
-        "end_time": "2025-04-29T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-ul_20250428-repoint01013_v003.cdf"
-      },
-      {
-        "start_time": "2025-04-29T00:00:00+00:00",
-        "end_time": "2025-04-30T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-ul_20250429-repoint01014_v003.cdf"
-      },
-      {
-        "start_time": "2025-04-30T00:00:00+00:00",
-        "end_time": "2025-05-01T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/04/imap_glows_l3e_survival-probability-ul_20250430-repoint01015_v003.cdf"
-      },
-      {
-        "start_time": "2025-05-01T00:00:00+00:00",
-        "end_time": "2025-05-02T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-ul_20250501-repoint01016_v003.cdf"
-      },
-      {
-        "start_time": "2025-05-02T00:00:00+00:00",
-        "end_time": "2025-05-03T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-ul_20250502-repoint01017_v003.cdf"
-      },
-      {
-        "start_time": "2025-05-03T00:00:00+00:00",
-        "end_time": "2025-05-04T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-ul_20250503-repoint01018_v003.cdf"
-      },
-      {
-        "start_time": "2025-05-04T00:00:00+00:00",
-        "end_time": "2025-05-05T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-ul_20250504-repoint01019_v003.cdf"
-      },
-      {
-        "start_time": "2025-05-05T00:00:00+00:00",
-        "end_time": "2025-05-06T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-ul_20250505-repoint01020_v003.cdf"
-      },
-      {
-        "start_time": "2025-05-06T00:00:00+00:00",
-        "end_time": "2025-05-07T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-ul_20250506-repoint01021_v003.cdf"
-      },
-      {
-        "start_time": "2025-05-07T00:00:00+00:00",
-        "end_time": "2025-05-08T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-ul_20250507-repoint01022_v003.cdf"
-      },
-      {
-        "start_time": "2025-05-08T00:00:00+00:00",
-        "end_time": "2025-05-09T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-ul_20250508-repoint01023_v003.cdf"
-      },
-      {
-        "start_time": "2025-05-09T00:00:00+00:00",
-        "end_time": "2025-05-10T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2025/05/imap_glows_l3e_survival-probability-ul_20250509-repoint01024_v003.cdf"
+        "start_time": "2026-04-18T00:00:00+00:00",
+        "end_time": "2026-04-19T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/glows/l3e/2026/04/imap_glows_l3e_survival-probability-lo_20260418-repoint02003_v001.cdf"
       }
     ]
   }
