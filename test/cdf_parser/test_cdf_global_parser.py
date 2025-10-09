@@ -10,16 +10,23 @@ from data_indexer.cdf_parser.cdf_global_parser import CdfGlobalParser, CdfGlobal
 
 class TestCdfGlobalParser(unittest.TestCase):
     def test_parse_global_variables_from_isois_cdf(self):
-        expected_global_info = CdfGlobalInfo(logical_source="psp_isois_l2-ephem", data_version="13",
-                                             logical_source_description="Parker Solar Probe ISOIS Level 2 ephem",
-                                             generation_date=date(2022, 7, 27))
 
-        cdf_path = str(Path(test.__file__).parent / 'test_data/test.cdf')
+        cases = [
+            (date(2022, 7, 27), 'test_data/test.cdf'),
+            (None, 'test_data/test_no_generation_date.cdf')
+        ]
+        for generation_date, relative_cdf_path in cases:
 
-        with pycdf.CDF(cdf_path) as cdf:
-            global_info = CdfGlobalParser.parse_global_variables_from_cdf(cdf)
+            expected_global_info = CdfGlobalInfo(logical_source="psp_isois_l2-ephem", data_version="13",
+                                                 logical_source_description="Parker Solar Probe ISOIS Level 2 ephem",
+                                                 generation_date=generation_date)
 
-        self.assertEqual(expected_global_info, global_info)
+            cdf_path = str(Path(test.__file__).parent / relative_cdf_path)
+
+            with pycdf.CDF(cdf_path) as cdf:
+                global_info = CdfGlobalParser.parse_global_variables_from_cdf(cdf)
+
+            self.assertEqual(expected_global_info, global_info)
 
 
     def test_parse_global_variables_from_fields_cdf(self):

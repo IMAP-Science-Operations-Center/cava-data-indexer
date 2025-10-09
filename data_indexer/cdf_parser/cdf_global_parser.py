@@ -20,8 +20,10 @@ class CdfGlobalParser:
         logical_source = str(cdf.attrs['Logical_source'])
         logical_source_description = str(cdf.attrs['Logical_source_description'])
         data_version = str(cdf.attrs['Data_version'])
-        generation_date_string = str(cdf.attrs['Generation_date'])
-        if generation_date_string != 'Ongoing':
+        generation_date = cdf.attrs.get('Generation_date', None)
+        generation_date_string = str(generation_date) if generation_date else None
+
+        if generation_date_string and generation_date_string != 'Ongoing':
             time = parse_time(generation_date_string)
             if time is None:
                 filename = Path(cdf.pathname.decode()).name
