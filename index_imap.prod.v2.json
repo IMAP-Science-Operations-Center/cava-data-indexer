@@ -96,6 +96,11 @@
         "start_time": "2025-10-10T00:00:00+00:00",
         "end_time": "2025-10-11T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_macropixel-intensity_20251010_v002.cdf"
+      },
+      {
+        "start_time": "2025-10-11T00:00:00+00:00",
+        "end_time": "2025-10-12T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_macropixel-intensity_20251011_v001.cdf"
       }
     ]
   },
@@ -280,6 +285,11 @@
         "start_time": "2025-10-10T00:00:00+00:00",
         "end_time": "2025-10-11T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_standard-intensity_20251010_v002.cdf"
+      },
+      {
+        "start_time": "2025-10-11T00:00:00+00:00",
+        "end_time": "2025-10-12T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_standard-intensity_20251011_v001.cdf"
       }
     ]
   },
@@ -464,6 +474,11 @@
         "start_time": "2025-10-10T00:00:00+00:00",
         "end_time": "2025-10-11T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_summed-intensity_20251010_v002.cdf"
+      },
+      {
+        "start_time": "2025-10-11T00:00:00+00:00",
+        "end_time": "2025-10-12T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_summed-intensity_20251011_v001.cdf"
       }
     ]
   }
