@@ -46,7 +46,7 @@
     ],
     "logical_source": "imap_hit_l2_macropixel-intensity",
     "logical_source_description": "IMAP Mission HIT Instrument Level-2 Macro Pixel Intensity Data.",
-    "generation_date": "None",
+    "generation_date": "2025-10-18",
     "instrument": "HIT",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -120,7 +120,7 @@
       {
         "start_time": "2025-10-17T00:00:00+00:00",
         "end_time": "2025-10-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_macropixel-intensity_20251017_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_macropixel-intensity_20251017_v002.cdf"
       }
     ]
   },
@@ -255,7 +255,7 @@
     ],
     "logical_source": "imap_hit_l2_standard-intensity",
     "logical_source_description": "IMAP Mission HIT Instrument Level-2 Standard Intensity Data.",
-    "generation_date": "None",
+    "generation_date": "2025-10-18",
     "instrument": "HIT",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -334,7 +334,7 @@
       {
         "start_time": "2025-10-17T00:00:00+00:00",
         "end_time": "2025-10-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_standard-intensity_20251017_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_standard-intensity_20251017_v002.cdf"
       }
     ]
   },
@@ -469,7 +469,7 @@
     ],
     "logical_source": "imap_hit_l2_summed-intensity",
     "logical_source_description": "IMAP Mission HIT Instrument Level-2 Summed Intensity Data.",
-    "generation_date": "None",
+    "generation_date": "2025-10-18",
     "instrument": "HIT",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -548,7 +548,7 @@
       {
         "start_time": "2025-10-17T00:00:00+00:00",
         "end_time": "2025-10-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_summed-intensity_20251017_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_summed-intensity_20251017_v002.cdf"
       }
     ]
   },
