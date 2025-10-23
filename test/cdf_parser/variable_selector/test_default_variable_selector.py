@@ -169,19 +169,22 @@ class TestDefaultVariableSelector(unittest.TestCase):
         self.assertFalse(DefaultVariableSelector.should_include(var_with_unknown_time_unit, self.mock_cdf))
 
     def test_does_accepts_map_variable(self):
-        map_variable = Mock()
-        map_variable.attrs = {
-            "CATDESC": "Map of Intensity of ENAs",
-            "VAR_TYPE": "data",
-            "FIELDNAM": "something",
-            "DEPEND_0": "time_col_good",
-            "SCALETYP": "linear",
-            "SCALEMIN": 1,
-            "DISPLAY_TYPE": 'image'
-        }
-        map_variable.shape = (1, 2, 3, 4)
+        cases = ['image', 'map_image', 'plasmagram']
+        for display_type in cases:
+            with self.subTest(display_type=display_type):
+                map_variable = Mock()
+                map_variable.attrs = {
+                    "CATDESC": "Map of Intensity of ENAs",
+                    "VAR_TYPE": "data",
+                    "FIELDNAM": "something",
+                    "DEPEND_0": "time_col_good",
+                    "SCALETYP": "linear",
+                    "SCALEMIN": 1,
+                    "DISPLAY_TYPE": f'{display_type}'
+                }
+                map_variable.shape = (1, 2, 3, 4)
 
-        self.assertTrue(DefaultVariableSelector.should_include(map_variable, self.mock_cdf))
+                self.assertTrue(DefaultVariableSelector.should_include(map_variable, self.mock_cdf))
 
     def test_does_not_accept_variable_with_no_time_var(self):
         missing_depend_0_variable = Mock()
