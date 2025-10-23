@@ -630,6 +630,78 @@
   {
     "variables": [
       {
+        "variable_name": "flux_stat_uncert",
+        "catalog_description": "Flux statistical uncertainty",
+        "display_type": "spectrogram",
+        "units": "counts",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "flux",
+        "catalog_description": "Number flux organized by energy (eV), spin angle, CEM angle",
+        "display_type": "spectrogram",
+        "units": "1 / (2 * eV * cm^2 * s * ster)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "flux_spin_sector",
+        "catalog_description": "Number flux organized by ESA step and spin sector and CEM",
+        "display_type": "spectrogram",
+        "units": "1 / (2 * eV * cm^2 * s * ster)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "phase_space_density",
+        "catalog_description": "Phase space density organized by energy (eV), spin angle, CEM angle",
+        "display_type": "spectrogram",
+        "units": "s^3 / cm^6",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "phase_space_density_spin_sector",
+        "catalog_description": "Phase space density organized by ESA step and spin sector and CEM",
+        "display_type": "spectrogram",
+        "units": "s^3 / cm^6",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "psd_stat_uncert",
+        "catalog_description": "Phase space density statistical uncertainty",
+        "display_type": "spectrogram",
+        "units": "counts",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "inst_az_spin_sector",
+        "catalog_description": "Spin angle organized by ESA step and spin sector",
+        "display_type": "spectrogram",
+        "units": "Degree",
+        "axis_label": ""
+      }
+    ],
+    "logical_source": "imap_swe_l2_sci",
+    "logical_source_description": "IMAP SWE Instrument Level-2 Science Data",
+    "generation_date": "2025-10-23",
+    "instrument": "SWE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-10-21T00:00:00+00:00",
+        "end_time": "2025-10-22T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swe/l2/2025/10/imap_swe_l2_sci_20251021_v001.cdf"
+      },
+      {
+        "start_time": "2025-10-22T00:00:00+00:00",
+        "end_time": "2025-10-23T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swe/l2/2025/10/imap_swe_l2_sci_20251022_v002.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
         "variable_name": "tof_peak_area_under_fit",
         "catalog_description": "Area under the EMG curve for each mass peak.",
         "display_type": "spectrogram",
