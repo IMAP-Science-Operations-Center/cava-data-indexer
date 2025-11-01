@@ -46,7 +46,7 @@
     ],
     "logical_source": "imap_hit_l2_macropixel-intensity",
     "logical_source_description": "IMAP Mission HIT Instrument Level-2 Macro Pixel Intensity Data.",
-    "generation_date": "2025-10-31",
+    "generation_date": "2025-11-01",
     "instrument": "HIT",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -180,7 +180,17 @@
       {
         "start_time": "2025-10-29T00:00:00+00:00",
         "end_time": "2025-10-30T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_macropixel-intensity_20251029_v003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_macropixel-intensity_20251029_v004.cdf"
+      },
+      {
+        "start_time": "2025-10-30T00:00:00+00:00",
+        "end_time": "2025-10-31T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_macropixel-intensity_20251030_v001.cdf"
+      },
+      {
+        "start_time": "2025-10-31T00:00:00+00:00",
+        "end_time": "2025-11-01T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_macropixel-intensity_20251031_v001.cdf"
       }
     ]
   },
@@ -315,7 +325,7 @@
     ],
     "logical_source": "imap_hit_l2_standard-intensity",
     "logical_source_description": "IMAP Mission HIT Instrument Level-2 Standard Intensity Data.",
-    "generation_date": "2025-10-31",
+    "generation_date": "2025-11-01",
     "instrument": "HIT",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -454,7 +464,17 @@
       {
         "start_time": "2025-10-29T00:00:00+00:00",
         "end_time": "2025-10-30T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_standard-intensity_20251029_v003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_standard-intensity_20251029_v004.cdf"
+      },
+      {
+        "start_time": "2025-10-30T00:00:00+00:00",
+        "end_time": "2025-10-31T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_standard-intensity_20251030_v001.cdf"
+      },
+      {
+        "start_time": "2025-10-31T00:00:00+00:00",
+        "end_time": "2025-11-01T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_standard-intensity_20251031_v001.cdf"
       }
     ]
   },
@@ -589,7 +609,7 @@
     ],
     "logical_source": "imap_hit_l2_summed-intensity",
     "logical_source_description": "IMAP Mission HIT Instrument Level-2 Summed Intensity Data.",
-    "generation_date": "2025-10-31",
+    "generation_date": "2025-11-01",
     "instrument": "HIT",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -723,7 +743,17 @@
       {
         "start_time": "2025-10-29T00:00:00+00:00",
         "end_time": "2025-10-30T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_summed-intensity_20251029_v003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_summed-intensity_20251029_v004.cdf"
+      },
+      {
+        "start_time": "2025-10-30T00:00:00+00:00",
+        "end_time": "2025-10-31T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_summed-intensity_20251030_v001.cdf"
+      },
+      {
+        "start_time": "2025-10-31T00:00:00+00:00",
+        "end_time": "2025-11-01T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2025/10/imap_hit_l2_summed-intensity_20251031_v001.cdf"
       }
     ]
   },
