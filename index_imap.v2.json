@@ -4009,13 +4009,13 @@
         "variable_name": "ena_intensity",
         "catalog_description": "Mono-energetic ENA intensity.",
         "display_type": "map_image",
-        "units": "counts/(s * cm^2 * Sr * KeV)",
+        "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
       }
     ],
     "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-4deg-1yr",
-    "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45sensor on rectangular tiling.",
-    "generation_date": "2025-10-03",
+    "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
+    "generation_date": "2025-11-03",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "one_year_map",
@@ -4024,7 +4024,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-4deg-1yr_20250415_v004.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-4deg-1yr_20250415_v005.cdf"
       }
     ]
   },
@@ -4034,22 +4034,27 @@
         "variable_name": "ena_intensity",
         "catalog_description": "Mono-energetic ENA intensity.",
         "display_type": "map_image",
-        "units": "counts/(s * cm^2 * Sr * KeV)",
+        "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
       }
     ],
-    "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-4deg-1yr",
-    "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45sensor on rectangular tiling.",
-    "generation_date": "2025-10-03",
+    "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-4deg-6mo",
+    "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
+    "generation_date": "2025-11-03",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
-    "file_cadence": "one_year_map",
+    "file_cadence": "six_month_map",
     "version": "",
     "file_timeranges": [
       {
         "start_time": "2025-04-15T00:00:00+00:00",
-        "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-6deg-1yr_20250415_v001.cdf"
+        "end_time": "2025-10-14T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-4deg-6mo_20250415_v002.cdf"
+      },
+      {
+        "start_time": "2025-10-14T00:00:00+00:00",
+        "end_time": "2026-04-14T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-4deg-6mo_20251014_v001.cdf"
       }
     ]
   },
@@ -4059,13 +4064,923 @@
         "variable_name": "ena_intensity",
         "catalog_description": "Mono-energetic ENA intensity.",
         "display_type": "map_image",
-        "units": "counts/(s * cm^2 * Sr * KeV)",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-6deg-1yr",
+    "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
+    "generation_date": "2025-11-03",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2026-04-15T06:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-6deg-1yr_20250415_v002.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-6deg-6mo",
+    "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
+    "generation_date": "2025-11-03",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "six_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2025-10-14T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-6deg-6mo_20250415_v001.cdf"
+      },
+      {
+        "start_time": "2025-10-14T00:00:00+00:00",
+        "end_time": "2026-04-14T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-6deg-6mo_20251014_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-full-hae-4deg-6mo",
+    "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
+    "generation_date": "2025-11-03",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "six_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2025-10-14T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-4deg-6mo_20250415_v001.cdf"
+      },
+      {
+        "start_time": "2025-10-14T00:00:00+00:00",
+        "end_time": "2026-04-14T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-4deg-6mo_20251014_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo",
+    "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
+    "generation_date": "2025-11-03",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "three_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2025-07-15T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250415-repoint01000_v001.cdf"
+      },
+      {
+        "start_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-07-16T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250416-repoint01001_v001.cdf"
+      },
+      {
+        "start_time": "2025-04-17T00:00:00+00:00",
+        "end_time": "2025-07-17T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250417-repoint01002_v001.cdf"
+      },
+      {
+        "start_time": "2025-04-18T00:00:00+00:00",
+        "end_time": "2025-07-18T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250418-repoint01003_v001.cdf"
+      },
+      {
+        "start_time": "2025-04-19T00:00:00+00:00",
+        "end_time": "2025-07-19T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250419-repoint01004_v001.cdf"
+      },
+      {
+        "start_time": "2025-04-20T00:00:00+00:00",
+        "end_time": "2025-07-20T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250420-repoint01005_v001.cdf"
+      },
+      {
+        "start_time": "2025-04-21T00:00:00+00:00",
+        "end_time": "2025-07-21T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250421-repoint01006_v001.cdf"
+      },
+      {
+        "start_time": "2025-04-22T00:00:00+00:00",
+        "end_time": "2025-07-22T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250422-repoint01007_v001.cdf"
+      },
+      {
+        "start_time": "2025-04-23T00:00:00+00:00",
+        "end_time": "2025-07-23T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250423-repoint01008_v001.cdf"
+      },
+      {
+        "start_time": "2025-04-24T00:00:00+00:00",
+        "end_time": "2025-07-24T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250424-repoint01009_v001.cdf"
+      },
+      {
+        "start_time": "2025-04-25T00:00:00+00:00",
+        "end_time": "2025-07-25T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250425-repoint01010_v001.cdf"
+      },
+      {
+        "start_time": "2025-04-26T00:00:00+00:00",
+        "end_time": "2025-07-26T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250426-repoint01011_v001.cdf"
+      },
+      {
+        "start_time": "2025-04-27T00:00:00+00:00",
+        "end_time": "2025-07-27T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250427-repoint01012_v001.cdf"
+      },
+      {
+        "start_time": "2025-04-28T00:00:00+00:00",
+        "end_time": "2025-07-28T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250428-repoint01013_v001.cdf"
+      },
+      {
+        "start_time": "2025-04-29T00:00:00+00:00",
+        "end_time": "2025-07-29T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250429-repoint01014_v001.cdf"
+      },
+      {
+        "start_time": "2025-04-30T00:00:00+00:00",
+        "end_time": "2025-07-30T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250430-repoint01015_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-01T00:00:00+00:00",
+        "end_time": "2025-07-31T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250501-repoint01016_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-02T00:00:00+00:00",
+        "end_time": "2025-08-01T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250502-repoint01017_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-03T00:00:00+00:00",
+        "end_time": "2025-08-02T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250503-repoint01018_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-04T00:00:00+00:00",
+        "end_time": "2025-08-03T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250504-repoint01019_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-05T00:00:00+00:00",
+        "end_time": "2025-08-04T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250505-repoint01020_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-06T00:00:00+00:00",
+        "end_time": "2025-08-05T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250506-repoint01021_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-07T00:00:00+00:00",
+        "end_time": "2025-08-06T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250507-repoint01022_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-08T00:00:00+00:00",
+        "end_time": "2025-08-07T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250508-repoint01023_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-09T00:00:00+00:00",
+        "end_time": "2025-08-08T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250509-repoint01024_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-10T00:00:00+00:00",
+        "end_time": "2025-08-09T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250510-repoint01025_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-11T00:00:00+00:00",
+        "end_time": "2025-08-10T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250511-repoint01026_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-12T00:00:00+00:00",
+        "end_time": "2025-08-11T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250512-repoint01027_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-13T00:00:00+00:00",
+        "end_time": "2025-08-12T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250513-repoint01028_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-14T00:00:00+00:00",
+        "end_time": "2025-08-13T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250514-repoint01029_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-15T00:00:00+00:00",
+        "end_time": "2025-08-14T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250515-repoint01030_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-16T00:00:00+00:00",
+        "end_time": "2025-08-15T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250516-repoint01031_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-17T00:00:00+00:00",
+        "end_time": "2025-08-16T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250517-repoint01032_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-18T00:00:00+00:00",
+        "end_time": "2025-08-17T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250518-repoint01033_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-19T00:00:00+00:00",
+        "end_time": "2025-08-18T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250519-repoint01034_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-20T00:00:00+00:00",
+        "end_time": "2025-08-19T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250520-repoint01035_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-21T00:00:00+00:00",
+        "end_time": "2025-08-20T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250521-repoint01036_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-22T00:00:00+00:00",
+        "end_time": "2025-08-21T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250522-repoint01037_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-23T00:00:00+00:00",
+        "end_time": "2025-08-22T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250523-repoint01038_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-24T00:00:00+00:00",
+        "end_time": "2025-08-23T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250524-repoint01039_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-25T00:00:00+00:00",
+        "end_time": "2025-08-24T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250525-repoint01040_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-26T00:00:00+00:00",
+        "end_time": "2025-08-25T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250526-repoint01041_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-27T00:00:00+00:00",
+        "end_time": "2025-08-26T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250527-repoint01042_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-28T00:00:00+00:00",
+        "end_time": "2025-08-27T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250528-repoint01043_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-29T00:00:00+00:00",
+        "end_time": "2025-08-28T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250529-repoint01044_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-30T00:00:00+00:00",
+        "end_time": "2025-08-29T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250530-repoint01045_v001.cdf"
+      },
+      {
+        "start_time": "2025-05-31T00:00:00+00:00",
+        "end_time": "2025-08-30T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/05/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250531-repoint01046_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-01T00:00:00+00:00",
+        "end_time": "2025-08-31T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250601-repoint01047_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-02T00:00:00+00:00",
+        "end_time": "2025-09-01T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250602-repoint01048_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-03T00:00:00+00:00",
+        "end_time": "2025-09-02T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250603-repoint01049_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-04T00:00:00+00:00",
+        "end_time": "2025-09-03T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250604-repoint01050_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-05T00:00:00+00:00",
+        "end_time": "2025-09-04T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250605-repoint01051_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-06T00:00:00+00:00",
+        "end_time": "2025-09-05T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250606-repoint01052_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-07T00:00:00+00:00",
+        "end_time": "2025-09-06T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250607-repoint01053_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-08T00:00:00+00:00",
+        "end_time": "2025-09-07T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250608-repoint01054_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-09T00:00:00+00:00",
+        "end_time": "2025-09-08T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250609-repoint01055_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-10T00:00:00+00:00",
+        "end_time": "2025-09-09T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250610-repoint01056_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-11T00:00:00+00:00",
+        "end_time": "2025-09-10T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250611-repoint01057_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-12T00:00:00+00:00",
+        "end_time": "2025-09-11T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250612-repoint01058_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-13T00:00:00+00:00",
+        "end_time": "2025-09-12T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250613-repoint01059_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-14T00:00:00+00:00",
+        "end_time": "2025-09-13T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250614-repoint01060_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-15T00:00:00+00:00",
+        "end_time": "2025-09-14T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250615-repoint01061_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-16T00:00:00+00:00",
+        "end_time": "2025-09-15T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250616-repoint01062_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-17T00:00:00+00:00",
+        "end_time": "2025-09-16T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250617-repoint01063_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-18T00:00:00+00:00",
+        "end_time": "2025-09-17T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250618-repoint01064_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-19T00:00:00+00:00",
+        "end_time": "2025-09-18T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250619-repoint01065_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-20T00:00:00+00:00",
+        "end_time": "2025-09-19T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250620-repoint01066_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-21T00:00:00+00:00",
+        "end_time": "2025-09-20T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250621-repoint01067_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-22T00:00:00+00:00",
+        "end_time": "2025-09-21T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250622-repoint01068_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-23T00:00:00+00:00",
+        "end_time": "2025-09-22T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250623-repoint01069_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-24T00:00:00+00:00",
+        "end_time": "2025-09-23T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250624-repoint01070_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-25T00:00:00+00:00",
+        "end_time": "2025-09-24T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250625-repoint01071_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-26T00:00:00+00:00",
+        "end_time": "2025-09-25T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250626-repoint01072_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-27T00:00:00+00:00",
+        "end_time": "2025-09-26T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250627-repoint01073_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-28T00:00:00+00:00",
+        "end_time": "2025-09-27T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250628-repoint01074_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-29T00:00:00+00:00",
+        "end_time": "2025-09-28T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250629-repoint01075_v001.cdf"
+      },
+      {
+        "start_time": "2025-06-30T00:00:00+00:00",
+        "end_time": "2025-09-29T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/06/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250630-repoint01076_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-01T00:00:00+00:00",
+        "end_time": "2025-09-30T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250701-repoint01077_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-02T00:00:00+00:00",
+        "end_time": "2025-10-01T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250702-repoint01078_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-03T00:00:00+00:00",
+        "end_time": "2025-10-02T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250703-repoint01079_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-04T00:00:00+00:00",
+        "end_time": "2025-10-03T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250704-repoint01080_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-05T00:00:00+00:00",
+        "end_time": "2025-10-04T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250705-repoint01081_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-06T00:00:00+00:00",
+        "end_time": "2025-10-05T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250706-repoint01082_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-07T00:00:00+00:00",
+        "end_time": "2025-10-06T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250707-repoint01083_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-08T00:00:00+00:00",
+        "end_time": "2025-10-07T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250708-repoint01084_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-09T00:00:00+00:00",
+        "end_time": "2025-10-08T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250709-repoint01085_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-10T00:00:00+00:00",
+        "end_time": "2025-10-09T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250710-repoint01086_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-11T00:00:00+00:00",
+        "end_time": "2025-10-10T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250711-repoint01087_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-12T00:00:00+00:00",
+        "end_time": "2025-10-11T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250712-repoint01088_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-13T00:00:00+00:00",
+        "end_time": "2025-10-12T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250713-repoint01089_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-14T00:00:00+00:00",
+        "end_time": "2025-10-13T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250714-repoint01090_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-15T00:00:00+00:00",
+        "end_time": "2025-10-14T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250715-repoint01091_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-16T00:00:00+00:00",
+        "end_time": "2025-10-15T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250716-repoint01092_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-17T00:00:00+00:00",
+        "end_time": "2025-10-16T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250717-repoint01093_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-18T00:00:00+00:00",
+        "end_time": "2025-10-17T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250718-repoint01094_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-19T00:00:00+00:00",
+        "end_time": "2025-10-18T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250719-repoint01095_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-21T00:00:00+00:00",
+        "end_time": "2025-10-20T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250721-repoint01097_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-22T00:00:00+00:00",
+        "end_time": "2025-10-21T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250722-repoint01098_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-23T00:00:00+00:00",
+        "end_time": "2025-10-22T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250723-repoint01099_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-24T00:00:00+00:00",
+        "end_time": "2025-10-23T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250724-repoint01100_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-25T00:00:00+00:00",
+        "end_time": "2025-10-24T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250725-repoint01101_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-26T00:00:00+00:00",
+        "end_time": "2025-10-25T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250726-repoint01102_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-27T00:00:00+00:00",
+        "end_time": "2025-10-26T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250727-repoint01103_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-28T00:00:00+00:00",
+        "end_time": "2025-10-27T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250728-repoint01104_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-29T00:00:00+00:00",
+        "end_time": "2025-10-28T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250729-repoint01105_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-30T00:00:00+00:00",
+        "end_time": "2025-10-29T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250730-repoint01106_v001.cdf"
+      },
+      {
+        "start_time": "2025-07-31T00:00:00+00:00",
+        "end_time": "2025-10-30T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/07/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250731-repoint01107_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-01T00:00:00+00:00",
+        "end_time": "2025-10-31T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250801-repoint01108_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-02T00:00:00+00:00",
+        "end_time": "2025-11-01T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250802-repoint01109_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-03T00:00:00+00:00",
+        "end_time": "2025-11-02T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250803-repoint01110_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-04T00:00:00+00:00",
+        "end_time": "2025-11-03T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250804-repoint01111_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-05T00:00:00+00:00",
+        "end_time": "2025-11-04T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250805-repoint01112_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-06T00:00:00+00:00",
+        "end_time": "2025-11-05T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250806-repoint01113_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-07T00:00:00+00:00",
+        "end_time": "2025-11-06T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250807-repoint01114_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-08T00:00:00+00:00",
+        "end_time": "2025-11-07T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250808-repoint01115_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-09T00:00:00+00:00",
+        "end_time": "2025-11-08T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250809-repoint01116_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-10T00:00:00+00:00",
+        "end_time": "2025-11-09T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250810-repoint01117_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-11T00:00:00+00:00",
+        "end_time": "2025-11-10T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250811-repoint01118_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-12T00:00:00+00:00",
+        "end_time": "2025-11-11T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250812-repoint01119_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-13T00:00:00+00:00",
+        "end_time": "2025-11-12T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250813-repoint01120_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-14T00:00:00+00:00",
+        "end_time": "2025-11-13T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250814-repoint01121_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-15T00:00:00+00:00",
+        "end_time": "2025-11-14T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250815-repoint01122_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-16T00:00:00+00:00",
+        "end_time": "2025-11-15T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250816-repoint01123_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-17T00:00:00+00:00",
+        "end_time": "2025-11-16T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250817-repoint01124_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-18T00:00:00+00:00",
+        "end_time": "2025-11-17T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250818-repoint01125_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-19T00:00:00+00:00",
+        "end_time": "2025-11-18T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250819-repoint01126_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-20T00:00:00+00:00",
+        "end_time": "2025-11-19T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250820-repoint01127_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-21T00:00:00+00:00",
+        "end_time": "2025-11-20T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250821-repoint01128_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-22T00:00:00+00:00",
+        "end_time": "2025-11-21T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250822-repoint01129_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-23T00:00:00+00:00",
+        "end_time": "2025-11-22T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250823-repoint01130_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-24T00:00:00+00:00",
+        "end_time": "2025-11-23T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250824-repoint01131_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-25T00:00:00+00:00",
+        "end_time": "2025-11-24T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250825-repoint01132_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-26T00:00:00+00:00",
+        "end_time": "2025-11-25T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250826-repoint01133_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-27T00:00:00+00:00",
+        "end_time": "2025-11-26T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250827-repoint01134_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-28T00:00:00+00:00",
+        "end_time": "2025-11-27T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250828-repoint01135_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-29T00:00:00+00:00",
+        "end_time": "2025-11-28T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250829-repoint01136_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-30T00:00:00+00:00",
+        "end_time": "2025-11-29T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250830-repoint01137_v001.cdf"
+      },
+      {
+        "start_time": "2025-08-31T00:00:00+00:00",
+        "end_time": "2025-11-30T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/08/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250831-repoint01138_v001.cdf"
+      },
+      {
+        "start_time": "2025-09-01T00:00:00+00:00",
+        "end_time": "2025-12-01T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/09/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250901-repoint01139_v001.cdf"
+      },
+      {
+        "start_time": "2025-09-02T00:00:00+00:00",
+        "end_time": "2025-12-02T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/09/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250902-repoint01140_v001.cdf"
+      },
+      {
+        "start_time": "2025-09-03T00:00:00+00:00",
+        "end_time": "2025-12-03T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/09/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250903-repoint01141_v001.cdf"
+      },
+      {
+        "start_time": "2025-09-04T00:00:00+00:00",
+        "end_time": "2025-12-04T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/09/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250904-repoint01142_v001.cdf"
+      },
+      {
+        "start_time": "2025-09-05T00:00:00+00:00",
+        "end_time": "2025-12-05T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/09/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250905-repoint01143_v001.cdf"
+      },
+      {
+        "start_time": "2025-09-06T00:00:00+00:00",
+        "end_time": "2025-12-06T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/09/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250906-repoint01144_v001.cdf"
+      },
+      {
+        "start_time": "2025-09-07T00:00:00+00:00",
+        "end_time": "2025-12-07T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/09/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250907-repoint01145_v001.cdf"
+      },
+      {
+        "start_time": "2025-09-08T00:00:00+00:00",
+        "end_time": "2025-12-08T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/09/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250908-repoint01146_v001.cdf"
+      },
+      {
+        "start_time": "2025-09-09T00:00:00+00:00",
+        "end_time": "2025-12-09T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/09/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250909-repoint01147_v001.cdf"
+      },
+      {
+        "start_time": "2025-09-10T00:00:00+00:00",
+        "end_time": "2025-12-10T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/09/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250910-repoint01148_v001.cdf"
+      },
+      {
+        "start_time": "2025-09-11T00:00:00+00:00",
+        "end_time": "2025-12-11T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/09/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250911-repoint01149_v001.cdf"
+      },
+      {
+        "start_time": "2025-09-12T00:00:00+00:00",
+        "end_time": "2025-12-12T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/09/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250912-repoint01150_v001.cdf"
+      },
+      {
+        "start_time": "2025-09-13T00:00:00+00:00",
+        "end_time": "2025-12-13T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/09/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250913-repoint01151_v001.cdf"
+      },
+      {
+        "start_time": "2025-09-14T00:00:00+00:00",
+        "end_time": "2025-12-14T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/09/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250914-repoint01152_v001.cdf"
+      },
+      {
+        "start_time": "2025-09-15T00:00:00+00:00",
+        "end_time": "2025-12-15T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/09/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250915-repoint01153_v001.cdf"
+      },
+      {
+        "start_time": "2025-09-16T00:00:00+00:00",
+        "end_time": "2025-12-16T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/09/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250916-repoint01154_v001.cdf"
+      },
+      {
+        "start_time": "2025-09-17T00:00:00+00:00",
+        "end_time": "2025-12-17T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/09/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20250917-repoint01155_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-6mo",
+    "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
+    "generation_date": "2025-11-03",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "six_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2025-10-14T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-6mo_20250415_v001.cdf"
+      },
+      {
+        "start_time": "2025-10-14T00:00:00+00:00",
+        "end_time": "2026-04-14T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-6mo_20251014_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
       }
     ],
     "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-4deg-1yr",
-    "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45sensor on rectangular tiling.",
-    "generation_date": "2025-10-03",
+    "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
+    "generation_date": "2025-11-03",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "one_year_map",
@@ -4074,7 +4989,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-4deg-1yr_20250415_v009.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-4deg-1yr_20250415_v010.cdf"
       }
     ]
   },
@@ -4084,13 +4999,43 @@
         "variable_name": "ena_intensity",
         "catalog_description": "Mono-energetic ENA intensity.",
         "display_type": "map_image",
-        "units": "counts/(s * cm^2 * Sr * KeV)",
+        "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
       }
     ],
-    "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-4deg-1yr",
-    "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45sensor on rectangular tiling.",
-    "generation_date": "2025-10-03",
+    "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-4deg-6mo",
+    "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
+    "generation_date": "2025-11-03",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "six_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2025-10-14T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-4deg-6mo_20250415_v003.cdf"
+      },
+      {
+        "start_time": "2025-10-14T00:00:00+00:00",
+        "end_time": "2026-04-14T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-4deg-6mo_20251014_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-6deg-1yr",
+    "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
+    "generation_date": "2025-11-03",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "one_year_map",
@@ -4099,7 +5044,37 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-6deg-1yr_20250415_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-6deg-1yr_20250415_v002.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-6deg-6mo",
+    "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
+    "generation_date": "2025-11-03",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "six_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2025-10-14T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-6deg-6mo_20250415_v001.cdf"
+      },
+      {
+        "start_time": "2025-10-14T00:00:00+00:00",
+        "end_time": "2026-04-14T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-6deg-6mo_20251014_v001.cdf"
       }
     ]
   },
@@ -4124,7 +5099,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-4deg-1yr_20250415_v005.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-4deg-1yr_20250415_v006.cdf"
       }
     ]
   },
@@ -4149,7 +5124,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-4deg-6mo_20250415_v003.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-4deg-6mo_20250415_v004.cdf"
       },
       {
         "start_time": "2025-05-06T00:00:00+00:00",
@@ -4159,7 +5134,7 @@
       {
         "start_time": "2025-10-14T00:00:00+00:00",
         "end_time": "2026-04-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-4deg-6mo_20251014_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-4deg-6mo_20251014_v002.cdf"
       }
     ]
   },
@@ -4184,7 +5159,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-6deg-1yr_20250415_v002.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-6deg-1yr_20250415_v003.cdf"
       }
     ]
   },
@@ -4209,7 +5184,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-6deg-6mo_20250415_v003.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-6deg-6mo_20250415_v004.cdf"
       },
       {
         "start_time": "2025-05-06T00:00:00+00:00",
@@ -4219,7 +5194,7 @@
       {
         "start_time": "2025-10-14T00:00:00+00:00",
         "end_time": "2026-04-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-6deg-6mo_20251014_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-6deg-6mo_20251014_v002.cdf"
       }
     ]
   },
@@ -4244,7 +5219,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-full-hae-4deg-6mo_20250415_v003.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-full-hae-4deg-6mo_20250415_v004.cdf"
       },
       {
         "start_time": "2025-05-06T00:00:00+00:00",
@@ -4254,7 +5229,7 @@
       {
         "start_time": "2025-10-14T00:00:00+00:00",
         "end_time": "2026-04-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-sf-nsp-full-hae-4deg-6mo_20251014_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-sf-nsp-full-hae-4deg-6mo_20251014_v002.cdf"
       }
     ]
   },
@@ -4279,7 +5254,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-full-hae-6deg-6mo_20250415_v003.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-full-hae-6deg-6mo_20250415_v004.cdf"
       },
       {
         "start_time": "2025-05-06T00:00:00+00:00",
@@ -4289,7 +5264,7 @@
       {
         "start_time": "2025-10-14T00:00:00+00:00",
         "end_time": "2026-04-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-sf-nsp-full-hae-6deg-6mo_20251014_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-sf-nsp-full-hae-6deg-6mo_20251014_v002.cdf"
       }
     ]
   },
@@ -4314,7 +5289,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-4deg-1yr_20250415_v005.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-4deg-1yr_20250415_v006.cdf"
       }
     ]
   },
@@ -4339,7 +5314,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-4deg-6mo_20250415_v006.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-4deg-6mo_20250415_v007.cdf"
       },
       {
         "start_time": "2025-05-06T00:00:00+00:00",
@@ -4349,7 +5324,7 @@
       {
         "start_time": "2025-10-14T00:00:00+00:00",
         "end_time": "2026-04-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-4deg-6mo_20251014_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-4deg-6mo_20251014_v002.cdf"
       }
     ]
   },
@@ -4374,7 +5349,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-6deg-1yr_20250415_v002.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-6deg-1yr_20250415_v003.cdf"
       }
     ]
   },
@@ -4399,7 +5374,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-6deg-6mo_20250415_v003.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-6deg-6mo_20250415_v004.cdf"
       },
       {
         "start_time": "2025-05-06T00:00:00+00:00",
@@ -4409,7 +5384,7 @@
       {
         "start_time": "2025-10-14T00:00:00+00:00",
         "end_time": "2026-04-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-6deg-6mo_20251014_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-6deg-6mo_20251014_v002.cdf"
       }
     ]
   },
