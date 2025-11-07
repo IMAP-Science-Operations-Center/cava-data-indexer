@@ -2,6 +2,134 @@
   {
     "variables": [
       {
+        "variable_name": "data_quality",
+        "catalog_description": "Indicates whether data quality is suspect (1).",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Data Quality"
+      },
+      {
+        "variable_name": "rgfo_half_spin",
+        "catalog_description": "When Reduced Gain Factor Operation (RGFO) was activated",
+        "display_type": "time_series",
+        "units": "half spin number",
+        "axis_label": "RGFO Half Spin"
+      }
+    ],
+    "logical_source": "imap_codice_l2_lo-nsw-angular",
+    "logical_source_description": "IMAP Mission CoDICE Lo Level-2 Non-Sunward Angular Intensity Data.",
+    "generation_date": "2025-11-06",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-08-14T00:00:00+00:00",
+        "end_time": "2025-08-15T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/codice/l2/2025/08/imap_codice_l2_lo-nsw-angular_20250814_v002.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "data_quality",
+        "catalog_description": "Indicates whether data quality is suspect (1).",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Data Quality"
+      },
+      {
+        "variable_name": "rgfo_half_spin",
+        "catalog_description": "When Reduced Gain Factor Operation (RGFO) was activated",
+        "display_type": "time_series",
+        "units": "half spin number",
+        "axis_label": "RGFO Half Spin"
+      }
+    ],
+    "logical_source": "imap_codice_l2_lo-nsw-species",
+    "logical_source_description": "IMAP Mission CoDICE Lo Level-2 Non-Sunward Species Intensity Data.",
+    "generation_date": "2025-11-06",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-08-14T00:00:00+00:00",
+        "end_time": "2025-08-15T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/codice/l2/2025/08/imap_codice_l2_lo-nsw-species_20250814_v002.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "data_quality",
+        "catalog_description": "Indicates whether data quality is suspect (1).",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Data Quality"
+      },
+      {
+        "variable_name": "rgfo_half_spin",
+        "catalog_description": "When Reduced Gain Factor Operation (RGFO) was activated",
+        "display_type": "time_series",
+        "units": "half spin number",
+        "axis_label": "RGFO Half Spin"
+      }
+    ],
+    "logical_source": "imap_codice_l2_lo-sw-angular",
+    "logical_source_description": "IMAP Mission CoDICE Lo Level-2 Sunward Angular Intensity Data.",
+    "generation_date": "2025-11-06",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-08-14T00:00:00+00:00",
+        "end_time": "2025-08-15T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/codice/l2/2025/08/imap_codice_l2_lo-sw-angular_20250814_v002.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "data_quality",
+        "catalog_description": "Indicates whether data quality is suspect (1).",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Data Quality"
+      },
+      {
+        "variable_name": "rgfo_half_spin",
+        "catalog_description": "When Reduced Gain Factor Operation (RGFO) was activated",
+        "display_type": "time_series",
+        "units": "half spin number",
+        "axis_label": "RGFO Half Spin"
+      }
+    ],
+    "logical_source": "imap_codice_l2_lo-sw-species",
+    "logical_source_description": "IMAP Mission CoDICE Lo Level-2 Sunward Species Intensity Data.",
+    "generation_date": "2025-11-06",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-08-14T00:00:00+00:00",
+        "end_time": "2025-08-15T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/codice/l2/2025/08/imap_codice_l2_lo-sw-species_20250814_v002.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
         "variable_name": "exposure_times",
         "catalog_description": "Exposure times for histogram bins for observational day",
         "display_type": "spectrogram",
