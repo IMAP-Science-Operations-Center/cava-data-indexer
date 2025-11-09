@@ -880,6 +880,99 @@
   {
     "variables": [
       {
+        "variable_name": "swp_l1a_flags",
+        "catalog_description": "Bitwise flag. There are 13 flags. See VAR_NOTES for more details.",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Flags"
+      },
+      {
+        "variable_name": "swp_coin_rate_stat_uncert_plus",
+        "catalog_description": "Coincidence rate uncertainty",
+        "display_type": "spectrogram",
+        "units": "counts",
+        "axis_label": "coin_rate_stat_unc"
+      },
+      {
+        "variable_name": "swp_coin_rate_stat_uncert_minus",
+        "catalog_description": "Coincidence rate uncertainty",
+        "display_type": "spectrogram",
+        "units": "counts",
+        "axis_label": "coin_rate_stat_unc"
+      },
+      {
+        "variable_name": "swp_coin_rate",
+        "catalog_description": "Coincidence Rates",
+        "display_type": "spectrogram",
+        "units": "counts",
+        "axis_label": "coin_rate"
+      },
+      {
+        "variable_name": "swp_pcem_rate_stat_uncert_plus",
+        "catalog_description": "Primary Channel Electron Multiplier (CEM) rate uncertainty",
+        "display_type": "spectrogram",
+        "units": "counts",
+        "axis_label": "pcem_rate_stat_unc"
+      },
+      {
+        "variable_name": "swp_pcem_rate_stat_uncert_minus",
+        "catalog_description": "Primary Channel Electron Multiplier (CEM) rate uncertainty",
+        "display_type": "spectrogram",
+        "units": "counts",
+        "axis_label": "pcem_rate_stat_unc"
+      },
+      {
+        "variable_name": "swp_pcem_rate",
+        "catalog_description": "Primary Channel Electron Multiplier (CEM) Rates",
+        "display_type": "spectrogram",
+        "units": "counts",
+        "axis_label": "pcem_rate"
+      },
+      {
+        "variable_name": "swp_scem_rate_stat_uncert_plus",
+        "catalog_description": "Secondary Channel Electron Multiplier (CEM) rate uncertainty",
+        "display_type": "spectrogram",
+        "units": "counts",
+        "axis_label": "scem_rate_stat_unc"
+      },
+      {
+        "variable_name": "swp_scem_rate_stat_uncert_minus",
+        "catalog_description": "Secondary Channel Electron Multiplier (CEM) rate uncertainty",
+        "display_type": "spectrogram",
+        "units": "counts",
+        "axis_label": "scem_rate_stat_unc"
+      },
+      {
+        "variable_name": "swp_scem_rate",
+        "catalog_description": "Secondary Channel Electron Multiplier (CEM) Rates",
+        "display_type": "spectrogram",
+        "units": "counts",
+        "axis_label": "scem_rate"
+      }
+    ],
+    "logical_source": "imap_swapi_l2_sci",
+    "logical_source_description": "IMAP SWAPI Instrument Level-2 Science Data",
+    "generation_date": "2025-11-09",
+    "instrument": "SWAPI",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-11-08T00:00:00+00:00",
+        "end_time": "2025-11-09T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l2/2025/11/imap_swapi_l2_sci_20251108_v001.cdf"
+      },
+      {
+        "start_time": "2025-11-09T00:00:00+00:00",
+        "end_time": "2025-11-10T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l2/2025/11/imap_swapi_l2_sci_20251109_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
         "variable_name": "flux_stat_uncert",
         "catalog_description": "Flux statistical uncertainty",
         "display_type": "spectrogram",
