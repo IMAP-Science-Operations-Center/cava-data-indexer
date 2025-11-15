@@ -1067,7 +1067,7 @@
     ],
     "logical_source": "imap_swapi_l2_sci",
     "logical_source_description": "IMAP SWAPI Instrument Level-2 Science Data",
-    "generation_date": "2025-11-14",
+    "generation_date": "2025-11-15",
     "instrument": "SWAPI",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -1106,7 +1106,7 @@
       {
         "start_time": "2025-11-14T00:00:00+00:00",
         "end_time": "2025-11-15T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l2/2025/11/imap_swapi_l2_sci_20251114_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l2/2025/11/imap_swapi_l2_sci_20251114_v002.cdf"
       }
     ]
   },
