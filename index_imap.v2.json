@@ -1,6 +1,28 @@
 [
   {
     "variables": [],
+    "logical_source": "imap_mag_l1d_norm-dsrf",
+    "logical_source_description": "IMAP Mission Normal Rate Instrument Level-1D Data in Despun Spacecraft Reference Frame.",
+    "generation_date": "2025-11-12",
+    "instrument": "MAG",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-08-14T00:00:00+00:00",
+        "end_time": "2025-08-15T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/mag/l1d/2025/08/imap_mag_l1d_norm-dsrf_20250814_v003.cdf"
+      },
+      {
+        "start_time": "2025-11-02T00:00:00+00:00",
+        "end_time": "2025-11-03T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/mag/l1d/2025/11/imap_mag_l1d_norm-dsrf_20251102_v002.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [],
     "logical_source": "imap_mag_l1c_norm-mago",
     "logical_source_description": "IMAP Mission MAGo Normal Rate Instrument Level-1C Data.",
     "generation_date": "2025-11-07",
@@ -207,7 +229,7 @@
       {
         "start_time": "2025-08-14T00:00:00+00:00",
         "end_time": "2025-08-15T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/codice/l2/2025/08/imap_codice_l2_lo-sw-species_20250814_v003.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/codice/l2/2025/08/imap_codice_l2_lo-sw-species_20250814_v005.cdf"
       }
     ]
   },
@@ -7856,6 +7878,123 @@
     ]
   },
   {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "ena_count_rate",
+        "catalog_description": "Mono-energetic ENA Rate.",
+        "display_type": "map_image",
+        "units": "counts/s",
+        "axis_label": "Rate"
+      },
+      {
+        "variable_name": "bg_intensity",
+        "catalog_description": "Total background intensity from non-ENA (non-heliospheric) sources",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_lo_l2_l90-ena-h-sf-nsp-ram-hae-6deg-1yr",
+    "logical_source_description": "IMAP-Lo Instrument Level-2 Intensity Map Data for Lo",
+    "generation_date": "2025-11-17",
+    "instrument": "IMAP-Lo",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-01-01T00:00:00+00:00",
+        "end_time": "2027-01-01T06:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/lo/l2/2026/01/imap_lo_l2_l90-ena-h-sf-nsp-ram-hae-6deg-1yr_20260101_v900.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "ena_count_rate",
+        "catalog_description": "Mono-energetic ENA Rate.",
+        "display_type": "map_image",
+        "units": "counts/s",
+        "axis_label": "Rate"
+      },
+      {
+        "variable_name": "bg_intensity",
+        "catalog_description": "Total background intensity from non-ENA (non-heliospheric) sources",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_lo_l2_l90-enanbs-h-sf-nsp-ram-hae-6deg-1yr",
+    "logical_source_description": "IMAP-Lo Instrument Level-2 Intensity Map Data for Lo",
+    "generation_date": "2025-11-17",
+    "instrument": "IMAP-Lo",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-01-01T00:00:00+00:00",
+        "end_time": "2027-01-01T06:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/lo/l2/2026/01/imap_lo_l2_l90-enanbs-h-sf-nsp-ram-hae-6deg-1yr_20260101_v900.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "ena_count_rate",
+        "catalog_description": "Mono-energetic ENA Rate.",
+        "display_type": "map_image",
+        "units": "counts/s",
+        "axis_label": "Rate"
+      },
+      {
+        "variable_name": "bg_intensity",
+        "catalog_description": "Total background intensity from non-ENA (non-heliospheric) sources",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_lo_l2_l90-ena-o-sf-nsp-ram-hae-6deg-1yr",
+    "logical_source_description": "IMAP-Lo Instrument Level-2 Intensity Map Data for Lo",
+    "generation_date": "2025-11-17",
+    "instrument": "IMAP-Lo",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-01-01T00:00:00+00:00",
+        "end_time": "2027-01-01T06:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/lo/l2/2026/01/imap_lo_l2_l90-ena-o-sf-nsp-ram-hae-6deg-1yr_20260101_v900.cdf"
+      }
+    ]
+  },
+  {
     "variables": [],
     "logical_source": "imap_mag_l2_norm-dsrf",
     "logical_source_description": "IMAP Mission Normal Rate Instrument Level-2 Data in Despun Spacecraft Reference Frame.",
@@ -9659,7 +9798,7 @@
     ],
     "logical_source": "imap_codice_l3a_lo-partial-densities",
     "logical_source_description": "IMAP Mission CoDICE Lo Instrument Partial Densities",
-    "generation_date": "2025-11-07",
+    "generation_date": "2025-11-17",
     "instrument": "CoDICE",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -9673,7 +9812,7 @@
       {
         "start_time": "2025-08-14T00:00:00+00:00",
         "end_time": "2025-08-15T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/codice/l3a/2025/08/imap_codice_l3a_lo-partial-densities_20250814_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/codice/l3a/2025/08/imap_codice_l3a_lo-partial-densities_20250814_v003.cdf"
       }
     ]
   },
@@ -9768,7 +9907,7 @@
     ],
     "logical_source": "imap_codice_l3a_lo-sw-ratios",
     "logical_source_description": "IMAP Mission CoDICE Lo Instrument SW Ratios",
-    "generation_date": "2025-11-07",
+    "generation_date": "2025-11-17",
     "instrument": "CoDICE",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -9782,7 +9921,39 @@
       {
         "start_time": "2025-08-14T00:00:00+00:00",
         "end_time": "2025-08-15T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/codice/l3a/2025/08/imap_codice_l3a_lo-sw-ratios_20250814_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/codice/l3a/2025/08/imap_codice_l3a_lo-sw-ratios_20250814_v003.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "carbon_charge_state_distribution",
+        "catalog_description": "Carbon charge state relative abundances",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "C dist."
+      },
+      {
+        "variable_name": "oxygen_charge_state_distribution",
+        "catalog_description": "Oxygen charge state relative abundances",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "O dist."
+      }
+    ],
+    "logical_source": "imap_codice_l3a_lo-sw-charge-state-distributions",
+    "logical_source_description": "IMAP Mission CoDICE Instrument Charge State Distributions",
+    "generation_date": "2025-11-17",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-08-14T00:00:00+00:00",
+        "end_time": "2025-08-15T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/codice/l3a/2025/08/imap_codice_l3a_lo-sw-charge-state-distributions_20250814_v001.cdf"
       }
     ]
   },
@@ -13768,7 +13939,7 @@
     ],
     "logical_source": "imap_codice_l3b_hi-pitch-angle",
     "logical_source_description": "IMAP Mission CoDICE Hi Instrument Pitch Angle",
-    "generation_date": "2025-11-07",
+    "generation_date": "2025-11-17",
     "instrument": "CoDICE",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -13782,7 +13953,7 @@
       {
         "start_time": "2025-08-14T00:00:00+00:00",
         "end_time": "2025-08-15T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/codice/l3b/2025/08/imap_codice_l3b_hi-pitch-angle_20250814_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/codice/l3b/2025/08/imap_codice_l3b_hi-pitch-angle_20250814_v002.cdf"
       }
     ]
   },
