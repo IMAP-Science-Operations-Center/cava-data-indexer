@@ -908,7 +908,15 @@
     ]
   },
   {
-    "variables": [],
+    "variables": [
+      {
+        "variable_name": "vectors",
+        "catalog_description": "Magnetic field vectors with x y z varying by time",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": ""
+      }
+    ],
     "logical_source": "imap_mag_l2_norm-dsrf",
     "logical_source_description": "IMAP Mission Normal Rate Instrument Level-2 Data in Despun Spacecraft Reference Frame.",
     "generation_date": "2025-11-11",
@@ -1000,7 +1008,15 @@
     ]
   },
   {
-    "variables": [],
+    "variables": [
+      {
+        "variable_name": "vectors",
+        "catalog_description": "Magnetic field vectors with x y z varying by time",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": ""
+      }
+    ],
     "logical_source": "imap_mag_l2_norm-gse",
     "logical_source_description": "IMAP Mission Normal Rate Instrument Level-2 Data in Geocentric Solar Ecliptic Reference Frame.",
     "generation_date": "2025-11-11",
@@ -1092,7 +1108,15 @@
     ]
   },
   {
-    "variables": [],
+    "variables": [
+      {
+        "variable_name": "vectors",
+        "catalog_description": "Magnetic field vectors with x y z varying by time",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": ""
+      }
+    ],
     "logical_source": "imap_mag_l2_norm-gsm",
     "logical_source_description": "IMAP Mission Normal Rate Instrument Level-2 Data in Geocentric Solar Magnetospheric Reference Frame.",
     "generation_date": "2025-11-11",
@@ -1184,7 +1208,15 @@
     ]
   },
   {
-    "variables": [],
+    "variables": [
+      {
+        "variable_name": "vectors",
+        "catalog_description": "Magnetic field vectors with x y z varying by time",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": ""
+      }
+    ],
     "logical_source": "imap_mag_l2_norm-rtn",
     "logical_source_description": "IMAP Mission Normal Rate Instrument Level-2 Data in Radial-Tangential-Normal Reference Frame.",
     "generation_date": "2025-11-11",
@@ -1276,7 +1308,15 @@
     ]
   },
   {
-    "variables": [],
+    "variables": [
+      {
+        "variable_name": "vectors",
+        "catalog_description": "Magnetic field vectors with x y z varying by time",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": ""
+      }
+    ],
     "logical_source": "imap_mag_l2_norm-srf",
     "logical_source_description": "IMAP Mission Normal Rate Instrument Level-2 Data in Spacecraft Reference Frame.",
     "generation_date": "2025-11-11",
