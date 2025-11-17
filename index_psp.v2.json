@@ -310,6 +310,20 @@
         "axis_label": "H flux B"
       },
       {
+        "variable_name": "HET_A_HCI",
+        "catalog_description": "HCI flow direction HETA",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "HET_B_HCI",
+        "catalog_description": "HCI flow direction HETB",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "HCI_Lat",
         "catalog_description": "HCI latitude",
         "display_type": "time_series",
@@ -583,8 +597,22 @@
         "axis_label": "SA"
       },
       {
+        "variable_name": "HET_A_R17_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle HETAR17SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
         "variable_name": "HET_B_SA",
         "catalog_description": "Nominal Parker Spiral angle HETB",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
+        "variable_name": "HET_B_R17_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle HETBR17SECT",
         "display_type": "time_series",
         "units": "degree",
         "axis_label": "SA"
@@ -625,8 +653,22 @@
         "axis_label": "PA"
       },
       {
+        "variable_name": "HET_A_R17_SECT_PA",
+        "catalog_description": "Pitch angle HETAR17SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
         "variable_name": "HET_B_PA",
         "catalog_description": "Pitch angle HETB",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
+        "variable_name": "HET_B_R17_SECT_PA",
+        "catalog_description": "Pitch angle HETBR17SECT",
         "display_type": "time_series",
         "units": "degree",
         "axis_label": "PA"
@@ -826,6 +868,20 @@
         "display_type": "spectrogram",
         "units": "counts",
         "axis_label": "R7B Ne BIN"
+      },
+      {
+        "variable_name": "HET_A_RTN",
+        "catalog_description": "RTN flow direction HETA",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "HET_B_RTN",
+        "catalog_description": "RTN flow direction HETB",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
       },
       {
         "variable_name": "A_S_Rate",
@@ -11957,6 +12013,20 @@
         "axis_label": "H flux B"
       },
       {
+        "variable_name": "HET_A_HCI",
+        "catalog_description": "HCI flow direction HETA",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "HET_B_HCI",
+        "catalog_description": "HCI flow direction HETB",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "HCI_Lat",
         "catalog_description": "HCI latitude",
         "display_type": "time_series",
@@ -12216,8 +12286,22 @@
         "axis_label": "SA"
       },
       {
+        "variable_name": "HET_A_R17_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle HETAR17SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
         "variable_name": "HET_B_SA",
         "catalog_description": "Nominal Parker Spiral angle HETB",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
+        "variable_name": "HET_B_R17_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle HETBR17SECT",
         "display_type": "time_series",
         "units": "degree",
         "axis_label": "SA"
@@ -12258,11 +12342,39 @@
         "axis_label": "PA"
       },
       {
+        "variable_name": "HET_A_R17_SECT_PA",
+        "catalog_description": "Pitch angle HETAR17SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
         "variable_name": "HET_B_PA",
         "catalog_description": "Pitch angle HETB",
         "display_type": "time_series",
         "units": "degree",
         "axis_label": "PA"
+      },
+      {
+        "variable_name": "HET_B_R17_SECT_PA",
+        "catalog_description": "Pitch angle HETBR17SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
+        "variable_name": "HET_A_RTN",
+        "catalog_description": "RTN flow direction HETA",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "HET_B_RTN",
+        "catalog_description": "RTN flow direction HETB",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
       },
       {
         "variable_name": "A_S_Rate",
@@ -19992,6 +20104,20 @@
         "axis_label": "FeGroup rate B"
       },
       {
+        "variable_name": "HET_A_HCI",
+        "catalog_description": "HCI flow direction HETA",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "HET_B_HCI",
+        "catalog_description": "HCI flow direction HETB",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "HCI_Lat",
         "catalog_description": "HCI latitude",
         "display_type": "time_series",
@@ -20055,8 +20181,22 @@
         "axis_label": "SA"
       },
       {
+        "variable_name": "HET_A_R17_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle HETAR17SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
         "variable_name": "HET_B_SA",
         "catalog_description": "Nominal Parker Spiral angle HETB",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
+        "variable_name": "HET_B_R17_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle HETBR17SECT",
         "display_type": "time_series",
         "units": "degree",
         "axis_label": "SA"
@@ -20069,11 +20209,39 @@
         "axis_label": "PA"
       },
       {
+        "variable_name": "HET_A_R17_SECT_PA",
+        "catalog_description": "Pitch angle HETAR17SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
         "variable_name": "HET_B_PA",
         "catalog_description": "Pitch angle HETB",
         "display_type": "time_series",
         "units": "degree",
         "axis_label": "PA"
+      },
+      {
+        "variable_name": "HET_B_R17_SECT_PA",
+        "catalog_description": "Pitch angle HETBR17SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
+        "variable_name": "HET_A_RTN",
+        "catalog_description": "RTN flow direction HETA",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "HET_B_RTN",
+        "catalog_description": "RTN flow direction HETB",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
       }
     ],
     "logical_source": "psp_isois-epihi_l2-het-rates300",
@@ -30954,6 +31122,20 @@
         "axis_label": "H flux B"
       },
       {
+        "variable_name": "HET_A_HCI",
+        "catalog_description": "HCI flow direction HETA",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "HET_B_HCI",
+        "catalog_description": "HCI flow direction HETB",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "HCI_Lat",
         "catalog_description": "HCI latitude",
         "display_type": "time_series",
@@ -31064,6 +31246,20 @@
         "display_type": "time_series",
         "units": "degree",
         "axis_label": "PA"
+      },
+      {
+        "variable_name": "HET_A_RTN",
+        "catalog_description": "RTN flow direction HETA",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "HET_B_RTN",
+        "catalog_description": "RTN flow direction HETB",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
       }
     ],
     "logical_source": "psp_isois-epihi_l2-het-rates10",
@@ -32754,6 +32950,20 @@
         "axis_label": "H flux R26B"
       },
       {
+        "variable_name": "LET1_A_HCI",
+        "catalog_description": "HCI flow direction LET1A",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "LET1_B_HCI",
+        "catalog_description": "HCI flow direction LET1B",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "HCI_Lat",
         "catalog_description": "HCI latitude",
         "display_type": "time_series",
@@ -33069,8 +33279,36 @@
         "axis_label": "SA"
       },
       {
+        "variable_name": "LET1_A_R1_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1AR1SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
+        "variable_name": "LET1_A_R26_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1AR26SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
         "variable_name": "LET1_B_SA",
         "catalog_description": "Nominal Parker Spiral angle LET1B",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
+        "variable_name": "LET1_B_R1_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1BR1SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
+        "variable_name": "LET1_B_R26_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1BR26SECT",
         "display_type": "time_series",
         "units": "degree",
         "axis_label": "SA"
@@ -33111,8 +33349,36 @@
         "axis_label": "PA"
       },
       {
+        "variable_name": "LET1_A_R1_SECT_PA",
+        "catalog_description": "Pitch angle LET1AR1SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
+        "variable_name": "LET1_A_R26_SECT_PA",
+        "catalog_description": "Pitch angle LET1AR26SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
         "variable_name": "LET1_B_PA",
         "catalog_description": "Pitch angle LET1B",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
+        "variable_name": "LET1_B_R1_SECT_PA",
+        "catalog_description": "Pitch angle LET1BR1SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
+        "variable_name": "LET1_B_R26_SECT_PA",
+        "catalog_description": "Pitch angle LET1BR26SECT",
         "display_type": "time_series",
         "units": "degree",
         "axis_label": "PA"
@@ -33256,6 +33522,20 @@
         "display_type": "spectrogram",
         "units": "counts",
         "axis_label": "R6B Ne BIN"
+      },
+      {
+        "variable_name": "LET1_A_RTN",
+        "catalog_description": "RTN flow direction LET1A",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "LET1_B_RTN",
+        "catalog_description": "RTN flow direction LET1B",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
       },
       {
         "variable_name": "A_S_Rate",
@@ -44406,6 +44686,20 @@
         "axis_label": "H flux R26B"
       },
       {
+        "variable_name": "LET1_A_HCI",
+        "catalog_description": "HCI flow direction LET1A",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "LET1_B_HCI",
+        "catalog_description": "HCI flow direction LET1B",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "HCI_Lat",
         "catalog_description": "HCI latitude",
         "display_type": "time_series",
@@ -44693,8 +44987,36 @@
         "axis_label": "SA"
       },
       {
+        "variable_name": "LET1_A_R1_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1AR1SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
+        "variable_name": "LET1_A_R26_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1AR26SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
         "variable_name": "LET1_B_SA",
         "catalog_description": "Nominal Parker Spiral angle LET1B",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
+        "variable_name": "LET1_B_R1_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1BR1SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
+        "variable_name": "LET1_B_R26_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1BR26SECT",
         "display_type": "time_series",
         "units": "degree",
         "axis_label": "SA"
@@ -44735,11 +45057,53 @@
         "axis_label": "PA"
       },
       {
+        "variable_name": "LET1_A_R1_SECT_PA",
+        "catalog_description": "Pitch angle LET1AR1SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
+        "variable_name": "LET1_A_R26_SECT_PA",
+        "catalog_description": "Pitch angle LET1AR26SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
         "variable_name": "LET1_B_PA",
         "catalog_description": "Pitch angle LET1B",
         "display_type": "time_series",
         "units": "degree",
         "axis_label": "PA"
+      },
+      {
+        "variable_name": "LET1_B_R1_SECT_PA",
+        "catalog_description": "Pitch angle LET1BR1SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
+        "variable_name": "LET1_B_R26_SECT_PA",
+        "catalog_description": "Pitch angle LET1BR26SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
+        "variable_name": "LET1_A_RTN",
+        "catalog_description": "RTN flow direction LET1A",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "LET1_B_RTN",
+        "catalog_description": "RTN flow direction LET1B",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
       },
       {
         "variable_name": "A_S_Rate",
@@ -52497,6 +52861,20 @@
         "axis_label": "FeGroup rate R26B"
       },
       {
+        "variable_name": "LET1_A_HCI",
+        "catalog_description": "HCI flow direction LET1A",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "LET1_B_HCI",
+        "catalog_description": "HCI flow direction LET1B",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "HCI_Lat",
         "catalog_description": "HCI latitude",
         "display_type": "time_series",
@@ -52574,8 +52952,36 @@
         "axis_label": "SA"
       },
       {
+        "variable_name": "LET1_A_R1_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1AR1SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
+        "variable_name": "LET1_A_R26_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1AR26SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
         "variable_name": "LET1_B_SA",
         "catalog_description": "Nominal Parker Spiral angle LET1B",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
+        "variable_name": "LET1_B_R1_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1BR1SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
+        "variable_name": "LET1_B_R26_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET1BR26SECT",
         "display_type": "time_series",
         "units": "degree",
         "axis_label": "SA"
@@ -52588,11 +52994,53 @@
         "axis_label": "PA"
       },
       {
+        "variable_name": "LET1_A_R1_SECT_PA",
+        "catalog_description": "Pitch angle LET1AR1SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
+        "variable_name": "LET1_A_R26_SECT_PA",
+        "catalog_description": "Pitch angle LET1AR26SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
         "variable_name": "LET1_B_PA",
         "catalog_description": "Pitch angle LET1B",
         "display_type": "time_series",
         "units": "degree",
         "axis_label": "PA"
+      },
+      {
+        "variable_name": "LET1_B_R1_SECT_PA",
+        "catalog_description": "Pitch angle LET1BR1SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
+        "variable_name": "LET1_B_R26_SECT_PA",
+        "catalog_description": "Pitch angle LET1BR26SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
+        "variable_name": "LET1_A_RTN",
+        "catalog_description": "RTN flow direction LET1A",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "LET1_B_RTN",
+        "catalog_description": "RTN flow direction LET1B",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
       }
     ],
     "logical_source": "psp_isois-epihi_l2-let1-rates300",
@@ -63478,6 +63926,20 @@
         "axis_label": "H flux B"
       },
       {
+        "variable_name": "LET1_A_HCI",
+        "catalog_description": "HCI flow direction LET1A",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "LET1_B_HCI",
+        "catalog_description": "HCI flow direction LET1B",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "HCI_Lat",
         "catalog_description": "HCI latitude",
         "display_type": "time_series",
@@ -63588,6 +64050,20 @@
         "display_type": "time_series",
         "units": "degree",
         "axis_label": "PA"
+      },
+      {
+        "variable_name": "LET1_A_RTN",
+        "catalog_description": "RTN flow direction LET1A",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "LET1_B_RTN",
+        "catalog_description": "RTN flow direction LET1B",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
       }
     ],
     "logical_source": "psp_isois-epihi_l2-let1-rates10",
@@ -65103,6 +65579,13 @@
         "axis_label": "H flux R25C"
       },
       {
+        "variable_name": "LET2_C_HCI",
+        "catalog_description": "HCI flow direction LET2C",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "HCI_Lat",
         "catalog_description": "HCI latitude",
         "display_type": "time_series",
@@ -65285,6 +65768,20 @@
         "axis_label": "SA"
       },
       {
+        "variable_name": "LET2_C_R1_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET2CR1SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
+        "variable_name": "LET2_C_R25_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET2CR25SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
         "variable_name": "C_O_Rate",
         "catalog_description": "O count rate side C",
         "display_type": "spectrogram",
@@ -65301,6 +65798,20 @@
       {
         "variable_name": "LET2_C_PA",
         "catalog_description": "Pitch angle LET2C",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
+        "variable_name": "LET2_C_R1_SECT_PA",
+        "catalog_description": "Pitch angle LET2CR1SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
+        "variable_name": "LET2_C_R25_SECT_PA",
+        "catalog_description": "Pitch angle LET2CR25SECT",
         "display_type": "time_series",
         "units": "degree",
         "axis_label": "PA"
@@ -65360,6 +65871,13 @@
         "display_type": "spectrogram",
         "units": "counts",
         "axis_label": "R45C Ne BIN"
+      },
+      {
+        "variable_name": "LET2_C_RTN",
+        "catalog_description": "RTN flow direction LET2C",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
       },
       {
         "variable_name": "C_S_Rate",
@@ -76335,6 +76853,13 @@
         "axis_label": "H flux R25C"
       },
       {
+        "variable_name": "LET2_C_HCI",
+        "catalog_description": "HCI flow direction LET2C",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "HCI_Lat",
         "catalog_description": "HCI latitude",
         "display_type": "time_series",
@@ -76503,6 +77028,20 @@
         "axis_label": "SA"
       },
       {
+        "variable_name": "LET2_C_R1_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET2CR1SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
+        "variable_name": "LET2_C_R25_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET2CR25SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
         "variable_name": "C_O_Rate",
         "catalog_description": "O count rate side C",
         "display_type": "spectrogram",
@@ -76522,6 +77061,27 @@
         "display_type": "time_series",
         "units": "degree",
         "axis_label": "PA"
+      },
+      {
+        "variable_name": "LET2_C_R1_SECT_PA",
+        "catalog_description": "Pitch angle LET2CR1SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
+        "variable_name": "LET2_C_R25_SECT_PA",
+        "catalog_description": "Pitch angle LET2CR25SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
+        "variable_name": "LET2_C_RTN",
+        "catalog_description": "RTN flow direction LET2C",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
       },
       {
         "variable_name": "C_S_Rate",
@@ -84228,6 +84788,13 @@
         "axis_label": "FeGroup rate R25C"
       },
       {
+        "variable_name": "LET2_C_HCI",
+        "catalog_description": "HCI flow direction LET2C",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "HCI_Lat",
         "catalog_description": "HCI latitude",
         "display_type": "time_series",
@@ -84291,11 +84858,46 @@
         "axis_label": "SA"
       },
       {
+        "variable_name": "LET2_C_R1_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET2CR1SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
+        "variable_name": "LET2_C_R25_SECT_SA",
+        "catalog_description": "Nominal Parker Spiral angle LET2CR25SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "SA"
+      },
+      {
         "variable_name": "LET2_C_PA",
         "catalog_description": "Pitch angle LET2C",
         "display_type": "time_series",
         "units": "degree",
         "axis_label": "PA"
+      },
+      {
+        "variable_name": "LET2_C_R1_SECT_PA",
+        "catalog_description": "Pitch angle LET2CR1SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
+        "variable_name": "LET2_C_R25_SECT_PA",
+        "catalog_description": "Pitch angle LET2CR25SECT",
+        "display_type": "time_series",
+        "units": "degree",
+        "axis_label": "PA"
+      },
+      {
+        "variable_name": "LET2_C_RTN",
+        "catalog_description": "RTN flow direction LET2C",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
       }
     ],
     "logical_source": "psp_isois-epihi_l2-let2-rates300",
@@ -93596,6 +94198,13 @@
         "axis_label": "H flux C"
       },
       {
+        "variable_name": "LET2_C_HCI",
+        "catalog_description": "HCI flow direction LET2C",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "HCI_Lat",
         "catalog_description": "HCI latitude",
         "display_type": "time_series",
@@ -93671,6 +94280,13 @@
         "display_type": "time_series",
         "units": "degree",
         "axis_label": "PA"
+      },
+      {
+        "variable_name": "LET2_C_RTN",
+        "catalog_description": "RTN flow direction LET2C",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
       }
     ],
     "logical_source": "psp_isois-epihi_l2-let2-rates10",
@@ -95081,6 +95697,41 @@
         "axis_label": "H rate LET2 C"
       },
       {
+        "variable_name": "HET_A_HCI",
+        "catalog_description": "HCI flow direction HETA",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "HET_B_HCI",
+        "catalog_description": "HCI flow direction HETB",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "LET1_A_HCI",
+        "catalog_description": "HCI flow direction LET1A",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "LET1_B_HCI",
+        "catalog_description": "HCI flow direction LET1B",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "LET2_C_HCI",
+        "catalog_description": "HCI flow direction LET2C",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "HCI_Lat",
         "catalog_description": "HCI latitude",
         "display_type": "time_series",
@@ -95261,6 +95912,41 @@
         "display_type": "time_series",
         "units": "degree",
         "axis_label": "PA"
+      },
+      {
+        "variable_name": "HET_A_RTN",
+        "catalog_description": "RTN flow direction HETA",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "HET_B_RTN",
+        "catalog_description": "RTN flow direction HETB",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "LET1_A_RTN",
+        "catalog_description": "RTN flow direction LET1A",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "LET1_B_RTN",
+        "catalog_description": "RTN flow direction LET1B",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "LET2_C_RTN",
+        "catalog_description": "RTN flow direction LET2C",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
       }
     ],
     "logical_source": "psp_isois-epihi_l2-second-rates",
