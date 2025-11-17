@@ -285,7 +285,7 @@ class TestCdfVariableParser(unittest.TestCase):
             "DISPLAY_TYPE": 'time_series',
             "UNITS": 'degrees'
         }
-        var_filtered_for_timeseries_shape_with_too_many_dimensions.shape = (1, 2)
+        var_filtered_for_timeseries_shape_with_too_many_dimensions.shape = (1, 2, 3)
 
         mock_cdf.items.return_value = {
             'var0': var_that_is_not_filtered,

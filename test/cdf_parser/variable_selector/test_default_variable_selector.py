@@ -30,9 +30,12 @@ class TestDefaultVariableSelector(unittest.TestCase):
             "SCALEMIN": 1,
             "DISPLAY_TYPE": 'time_series'
         }
-        accepted_variable.shape = (1,)
 
-        self.assertTrue(DefaultVariableSelector.should_include(accepted_variable, self.mock_cdf))
+        shapes = [(1,), (1,2)]
+        for shape in shapes:
+            with self.subTest(shape):
+                accepted_variable.shape = shape
+                self.assertTrue(DefaultVariableSelector.should_include(accepted_variable, self.mock_cdf))
 
     def test_accepts_expected_2_dimensional_spectrogram_variable(self):
         accepted_variable = Mock()
@@ -78,21 +81,6 @@ class TestDefaultVariableSelector(unittest.TestCase):
         accepted_variable.shape = (1, 2, 3, 4)
 
         self.assertTrue(DefaultVariableSelector.should_include(accepted_variable, self.mock_cdf))
-
-    def test_does_not_accept_variable_with_bad_shape_for_timeseries(self):
-        bad_shape_variable_timeseries = Mock()
-        bad_shape_variable_timeseries.attrs = {
-            "CATDESC": "bad_shape_variable_timeseries",
-            "VAR_TYPE": "data",
-            "FIELDNAM": "something",
-            "DEPEND_0": "time_col_good",
-            "SCALETYP": "linear",
-            "SCALEMIN": 1,
-            "DISPLAY_TYPE": 'time_series'
-        }
-        bad_shape_variable_timeseries.shape = (1, 2)
-
-        self.assertFalse(DefaultVariableSelector.should_include(bad_shape_variable_timeseries, self.mock_cdf))
 
     def test_does_not_accept_variable_with_bad_shape_for_spectrogram(self):
         bad_shape_variable_spectrogram = Mock()

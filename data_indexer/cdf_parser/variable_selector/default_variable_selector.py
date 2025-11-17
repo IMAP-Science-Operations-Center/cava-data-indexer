@@ -9,7 +9,7 @@ class DefaultVariableSelector(VariableSelector):
         'map_image': (4,),
         'plasmagram': (4,),
         'spectrogram': (2, 3, 4),
-        'time_series': (1,)
+        'time_series': (1,2)
     }
 
     @classmethod
