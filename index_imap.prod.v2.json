@@ -2437,7 +2437,7 @@
     ],
     "logical_source": "imap_idex_l2a_sci-1week",
     "logical_source_description": "IMAP Mission IDEX Instrument Level-2A Weekly Data",
-    "generation_date": "2025-11-09",
+    "generation_date": "2025-11-18",
     "instrument": "IDEX",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -2446,17 +2446,17 @@
       {
         "start_time": "2025-10-01T00:00:00+00:00",
         "end_time": "2025-10-02T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/10/imap_idex_l2a_sci-1week_20251001_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/10/imap_idex_l2a_sci-1week_20251001_v002.cdf"
       },
       {
         "start_time": "2025-11-04T00:00:00+00:00",
         "end_time": "2025-11-05T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/11/imap_idex_l2a_sci-1week_20251104_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/11/imap_idex_l2a_sci-1week_20251104_v002.cdf"
       },
       {
         "start_time": "2025-11-06T00:00:00+00:00",
         "end_time": "2025-11-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/11/imap_idex_l2a_sci-1week_20251106_v002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/11/imap_idex_l2a_sci-1week_20251106_v003.cdf"
       }
     ]
   }
