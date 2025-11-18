@@ -292,7 +292,7 @@
       {
         "start_time": "2025-08-14T00:00:00+00:00",
         "end_time": "2025-08-15T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/codice/l2/2025/08/imap_codice_l2_hi-sectored_20250814_v003.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/codice/l2/2025/08/imap_codice_l2_hi-sectored_20250814_v004.cdf"
       }
     ]
   },
@@ -14183,14 +14183,14 @@
         "axis_label": "H Intensity"
       },
       {
-        "variable_name": "he4_intensity_by_pitch_angle",
+        "variable_name": "he3he4_intensity_by_pitch_angle",
         "catalog_description": "He3He4 intensity binned by pitch angle",
         "display_type": "spectrogram",
         "units": "1/(cm^2 s MeV/nuc sr)",
         "axis_label": "He3He4 Intensity"
       },
       {
-        "variable_name": "he4_intensity_by_pitch_angle_and_gyrophase",
+        "variable_name": "he3he4_intensity_by_pitch_angle_and_gyrophase",
         "catalog_description": "He3He4 intensity binned by pitch angle and gyrophase",
         "display_type": "spectrogram",
         "units": "1/(cm^2 s MeV/nuc sr)",
@@ -14213,7 +14213,7 @@
       {
         "start_time": "2025-08-14T00:00:00+00:00",
         "end_time": "2025-08-15T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/codice/l3b/2025/08/imap_codice_l3b_hi-pitch-angle_20250814_v003.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/codice/l3b/2025/08/imap_codice_l3b_hi-pitch-angle_20250814_v004.cdf"
       }
     ]
   },
