@@ -292,7 +292,7 @@
       {
         "start_time": "2025-08-14T00:00:00+00:00",
         "end_time": "2025-08-15T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/codice/l2/2025/08/imap_codice_l2_hi-sectored_20250814_v002.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/codice/l2/2025/08/imap_codice_l2_hi-sectored_20250814_v003.cdf"
       }
     ]
   },
@@ -14199,7 +14199,7 @@
     ],
     "logical_source": "imap_codice_l3b_hi-pitch-angle",
     "logical_source_description": "IMAP Mission CoDICE Hi Instrument Pitch Angle",
-    "generation_date": "2025-11-17",
+    "generation_date": "2025-11-18",
     "instrument": "CoDICE",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -14213,7 +14213,7 @@
       {
         "start_time": "2025-08-14T00:00:00+00:00",
         "end_time": "2025-08-15T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/codice/l3b/2025/08/imap_codice_l3b_hi-pitch-angle_20250814_v002.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/codice/l3b/2025/08/imap_codice_l3b_hi-pitch-angle_20250814_v003.cdf"
       }
     ]
   },
