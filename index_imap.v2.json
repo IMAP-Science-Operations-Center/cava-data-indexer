@@ -20,7 +20,7 @@
       {
         "start_time": "2025-08-14T00:00:00+00:00",
         "end_time": "2025-08-15T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/mag/l1d/2025/08/imap_mag_l1d_norm-dsrf_20250814_v003.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/mag/l1d/2025/08/imap_mag_l1d_norm-dsrf_20250814_v004.cdf"
       },
       {
         "start_time": "2025-11-02T00:00:00+00:00",
@@ -7374,7 +7374,12 @@
       {
         "start_time": "2025-11-30T00:00:00+00:00",
         "end_time": "2025-12-01T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hit/l2/2025/11/imap_hit_l2_macropixel-intensity_20251130_v002.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hit/l2/2025/11/imap_hit_l2_macropixel-intensity_20251130_v003.cdf"
+      },
+      {
+        "start_time": "2025-12-01T00:00:00+00:00",
+        "end_time": "2025-12-02T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hit/l2/2025/12/imap_hit_l2_macropixel-intensity_20251201_v001.cdf"
       }
     ]
   },
@@ -7733,7 +7738,12 @@
       {
         "start_time": "2025-11-30T00:00:00+00:00",
         "end_time": "2025-12-01T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hit/l2/2025/11/imap_hit_l2_standard-intensity_20251130_v002.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hit/l2/2025/11/imap_hit_l2_standard-intensity_20251130_v003.cdf"
+      },
+      {
+        "start_time": "2025-12-01T00:00:00+00:00",
+        "end_time": "2025-12-02T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hit/l2/2025/12/imap_hit_l2_standard-intensity_20251201_v001.cdf"
       }
     ]
   },
@@ -8092,7 +8102,12 @@
       {
         "start_time": "2025-11-30T00:00:00+00:00",
         "end_time": "2025-12-01T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hit/l2/2025/11/imap_hit_l2_summed-intensity_20251130_v002.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hit/l2/2025/11/imap_hit_l2_summed-intensity_20251130_v003.cdf"
+      },
+      {
+        "start_time": "2025-12-01T00:00:00+00:00",
+        "end_time": "2025-12-02T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hit/l2/2025/12/imap_hit_l2_summed-intensity_20251201_v001.cdf"
       }
     ]
   },
@@ -9949,7 +9964,12 @@
       {
         "start_time": "2025-11-30T00:00:00+00:00",
         "end_time": "2025-12-01T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hit/l3/2025/11/imap_hit_l3_direct-events_20251130_v002.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hit/l3/2025/11/imap_hit_l3_direct-events_20251130_v003.cdf"
+      },
+      {
+        "start_time": "2025-12-01T00:00:00+00:00",
+        "end_time": "2025-12-02T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hit/l3/2025/12/imap_hit_l3_direct-events_20251201_v001.cdf"
       }
     ]
   },
@@ -14499,7 +14519,7 @@
     ],
     "logical_source": "imap_codice_l3b_hi-pitch-angle",
     "logical_source_description": "IMAP Mission CoDICE Hi Instrument Pitch Angle",
-    "generation_date": "2025-11-18",
+    "generation_date": "2025-12-01",
     "instrument": "CoDICE",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -14513,7 +14533,7 @@
       {
         "start_time": "2025-08-14T00:00:00+00:00",
         "end_time": "2025-08-15T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/codice/l3b/2025/08/imap_codice_l3b_hi-pitch-angle_20250814_v004.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/codice/l3b/2025/08/imap_codice_l3b_hi-pitch-angle_20250814_v005.cdf"
       }
     ]
   },
