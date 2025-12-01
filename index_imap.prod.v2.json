@@ -1429,7 +1429,7 @@
     ],
     "logical_source": "imap_mag_l2_norm-dsrf",
     "logical_source_description": "IMAP Mission Normal Rate Instrument Level-2 Data in Despun Spacecraft Reference Frame.",
-    "generation_date": "2025-11-21",
+    "generation_date": "2025-12-01",
     "instrument": "MAG",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -1514,6 +1514,16 @@
         "start_time": "2025-11-03T00:00:00+00:00",
         "end_time": "2025-11-04T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-dsrf_20251103_v002.cdf"
+      },
+      {
+        "start_time": "2025-11-11T00:00:00+00:00",
+        "end_time": "2025-11-12T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-dsrf_20251111_v001.cdf"
+      },
+      {
+        "start_time": "2025-11-12T00:00:00+00:00",
+        "end_time": "2025-11-13T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-dsrf_20251112_v001.cdf"
       }
     ]
   },
@@ -1529,7 +1539,7 @@
     ],
     "logical_source": "imap_mag_l2_norm-gse",
     "logical_source_description": "IMAP Mission Normal Rate Instrument Level-2 Data in Geocentric Solar Ecliptic Reference Frame.",
-    "generation_date": "2025-11-21",
+    "generation_date": "2025-12-01",
     "instrument": "MAG",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -1614,6 +1624,16 @@
         "start_time": "2025-11-03T00:00:00+00:00",
         "end_time": "2025-11-04T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-gse_20251103_v002.cdf"
+      },
+      {
+        "start_time": "2025-11-11T00:00:00+00:00",
+        "end_time": "2025-11-12T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-gse_20251111_v001.cdf"
+      },
+      {
+        "start_time": "2025-11-12T00:00:00+00:00",
+        "end_time": "2025-11-13T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-gse_20251112_v001.cdf"
       }
     ]
   },
@@ -1629,7 +1649,7 @@
     ],
     "logical_source": "imap_mag_l2_norm-gsm",
     "logical_source_description": "IMAP Mission Normal Rate Instrument Level-2 Data in Geocentric Solar Magnetospheric Reference Frame.",
-    "generation_date": "2025-11-21",
+    "generation_date": "2025-12-01",
     "instrument": "MAG",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -1714,6 +1734,16 @@
         "start_time": "2025-11-03T00:00:00+00:00",
         "end_time": "2025-11-04T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-gsm_20251103_v002.cdf"
+      },
+      {
+        "start_time": "2025-11-11T00:00:00+00:00",
+        "end_time": "2025-11-12T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-gsm_20251111_v001.cdf"
+      },
+      {
+        "start_time": "2025-11-12T00:00:00+00:00",
+        "end_time": "2025-11-13T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-gsm_20251112_v001.cdf"
       }
     ]
   },
@@ -1729,7 +1759,7 @@
     ],
     "logical_source": "imap_mag_l2_norm-rtn",
     "logical_source_description": "IMAP Mission Normal Rate Instrument Level-2 Data in Radial-Tangential-Normal Reference Frame.",
-    "generation_date": "2025-11-21",
+    "generation_date": "2025-12-01",
     "instrument": "MAG",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -1814,6 +1844,16 @@
         "start_time": "2025-11-03T00:00:00+00:00",
         "end_time": "2025-11-04T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-rtn_20251103_v002.cdf"
+      },
+      {
+        "start_time": "2025-11-11T00:00:00+00:00",
+        "end_time": "2025-11-12T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-rtn_20251111_v001.cdf"
+      },
+      {
+        "start_time": "2025-11-12T00:00:00+00:00",
+        "end_time": "2025-11-13T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-rtn_20251112_v001.cdf"
       }
     ]
   },
@@ -1829,7 +1869,7 @@
     ],
     "logical_source": "imap_mag_l2_norm-srf",
     "logical_source_description": "IMAP Mission Normal Rate Instrument Level-2 Data in Spacecraft Reference Frame.",
-    "generation_date": "2025-11-21",
+    "generation_date": "2025-12-01",
     "instrument": "MAG",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -1914,6 +1954,16 @@
         "start_time": "2025-11-03T00:00:00+00:00",
         "end_time": "2025-11-04T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-srf_20251103_v002.cdf"
+      },
+      {
+        "start_time": "2025-11-11T00:00:00+00:00",
+        "end_time": "2025-11-12T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-srf_20251111_v001.cdf"
+      },
+      {
+        "start_time": "2025-11-12T00:00:00+00:00",
+        "end_time": "2025-11-13T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-srf_20251112_v001.cdf"
       }
     ]
   },
