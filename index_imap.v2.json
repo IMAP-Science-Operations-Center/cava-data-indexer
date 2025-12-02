@@ -400,18 +400,11 @@
         "display_type": "time_series",
         "units": " ",
         "axis_label": "Data Quality"
-      },
-      {
-        "variable_name": "rgfo_half_spin",
-        "catalog_description": "When Reduced Gain Factor Operation (RGFO) was activated",
-        "display_type": "time_series",
-        "units": "half spin number",
-        "axis_label": "RGFO Half Spin"
       }
     ],
     "logical_source": "imap_codice_l2_lo-sw-species",
-    "logical_source_description": "IMAP Mission CoDICE Lo Level-2 Sunward Species Intensity Data.",
-    "generation_date": "2025-11-06",
+    "logical_source_description": "Level l2> LO-SW-SPECIES",
+    "generation_date": "2025-11-28",
     "instrument": "CoDICE",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -421,6 +414,11 @@
         "start_time": "2025-08-14T00:00:00+00:00",
         "end_time": "2025-08-15T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/codice/l2/2025/08/imap_codice_l2_lo-sw-species_20250814_v006.cdf"
+      },
+      {
+        "start_time": "2025-11-27T00:00:00+00:00",
+        "end_time": "2025-11-28T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/codice/l2/2025/11/imap_codice_l2_lo-sw-species_20251127_v008.cdf"
       }
     ]
   },
@@ -10378,7 +10376,7 @@
     ],
     "logical_source": "imap_codice_l3a_lo-partial-densities",
     "logical_source_description": "IMAP Mission CoDICE Lo Instrument Partial Densities",
-    "generation_date": "2025-11-18",
+    "generation_date": "2025-12-02",
     "instrument": "CoDICE",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -10393,6 +10391,11 @@
         "start_time": "2025-08-14T00:00:00+00:00",
         "end_time": "2025-08-15T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/codice/l3a/2025/08/imap_codice_l3a_lo-partial-densities_20250814_v004.cdf"
+      },
+      {
+        "start_time": "2025-11-27T00:00:00+00:00",
+        "end_time": "2025-11-28T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/codice/l3a/2025/11/imap_codice_l3a_lo-partial-densities_20251127_v001.cdf"
       }
     ]
   },
@@ -10487,7 +10490,7 @@
     ],
     "logical_source": "imap_codice_l3a_lo-sw-ratios",
     "logical_source_description": "IMAP Mission CoDICE Lo Instrument SW Ratios",
-    "generation_date": "2025-11-18",
+    "generation_date": "2025-12-02",
     "instrument": "CoDICE",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -10502,6 +10505,11 @@
         "start_time": "2025-08-14T00:00:00+00:00",
         "end_time": "2025-08-15T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/codice/l3a/2025/08/imap_codice_l3a_lo-sw-ratios_20250814_v004.cdf"
+      },
+      {
+        "start_time": "2025-11-27T00:00:00+00:00",
+        "end_time": "2025-11-28T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/codice/l3a/2025/11/imap_codice_l3a_lo-sw-ratios_20251127_v001.cdf"
       }
     ]
   },
@@ -10524,7 +10532,7 @@
     ],
     "logical_source": "imap_codice_l3a_lo-sw-charge-state-distributions",
     "logical_source_description": "IMAP Mission CoDICE Instrument Charge State Distributions",
-    "generation_date": "2025-11-18",
+    "generation_date": "2025-12-02",
     "instrument": "CoDICE",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -10534,6 +10542,11 @@
         "start_time": "2025-08-14T00:00:00+00:00",
         "end_time": "2025-08-15T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/codice/l3a/2025/08/imap_codice_l3a_lo-sw-charge-state-distributions_20250814_v002.cdf"
+      },
+      {
+        "start_time": "2025-11-27T00:00:00+00:00",
+        "end_time": "2025-11-28T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/codice/l3a/2025/11/imap_codice_l3a_lo-sw-charge-state-distributions_20251127_v001.cdf"
       }
     ]
   },
