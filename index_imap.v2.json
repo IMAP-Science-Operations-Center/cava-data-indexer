@@ -10587,9 +10587,234 @@
         "axis_label": "Intensity"
       }
     ],
+    "logical_source": "imap_ultra_l3_u45-ena-h-sf-sp-full-hae-2deg-3mo",
+    "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra-45 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 2 degree, 3 Month Map",
+    "generation_date": "2025-12-02",
+    "instrument": "IMAP-Ultra",
+    "mission": "IMAP",
+    "file_cadence": "three_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-07-16T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/ultra/l3/2025/04/imap_ultra_l3_u45-ena-h-sf-sp-full-hae-2deg-3mo_20250416_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_ultra_l3_u45-ena-h-sf-sp-full-hae-2deg-6mo",
+    "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra-45 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 2 degree, 6 Month Map",
+    "generation_date": "2025-12-02",
+    "instrument": "IMAP-Ultra",
+    "mission": "IMAP",
+    "file_cadence": "six_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-10-15T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/ultra/l3/2025/04/imap_ultra_l3_u45-ena-h-sf-sp-full-hae-2deg-6mo_20250416_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_ultra_l3_u45-ena-h-sf-sp-full-hae-4deg-3mo",
+    "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra-45 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 3 Month Map",
+    "generation_date": "2025-12-02",
+    "instrument": "IMAP-Ultra",
+    "mission": "IMAP",
+    "file_cadence": "three_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-07-16T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/ultra/l3/2025/04/imap_ultra_l3_u45-ena-h-sf-sp-full-hae-4deg-3mo_20250416_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_ultra_l3_u45-ena-h-sf-sp-full-hae-4deg-6mo",
+    "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra-45 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 6 Month Map",
+    "generation_date": "2025-12-02",
+    "instrument": "IMAP-Ultra",
+    "mission": "IMAP",
+    "file_cadence": "six_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-10-15T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/ultra/l3/2025/04/imap_ultra_l3_u45-ena-h-sf-sp-full-hae-4deg-6mo_20250416_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_ultra_l3_u45-ena-h-sf-sp-full-hae-6deg-3mo",
+    "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra-45 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 3 Month Map",
+    "generation_date": "2025-12-02",
+    "instrument": "IMAP-Ultra",
+    "mission": "IMAP",
+    "file_cadence": "three_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-07-16T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/ultra/l3/2025/04/imap_ultra_l3_u45-ena-h-sf-sp-full-hae-6deg-3mo_20250416_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_ultra_l3_u45-ena-h-sf-sp-full-hae-6deg-6mo",
+    "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra-45 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 6 Month Map",
+    "generation_date": "2025-12-02",
+    "instrument": "IMAP-Ultra",
+    "mission": "IMAP",
+    "file_cadence": "six_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-10-15T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/ultra/l3/2025/04/imap_ultra_l3_u45-ena-h-sf-sp-full-hae-6deg-6mo_20250416_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_ultra_l3_u90-ena-h-sf-sp-full-hae-2deg-3mo",
+    "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra-90 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 2 degree, 3 Month Map",
+    "generation_date": "2025-12-02",
+    "instrument": "IMAP-Ultra",
+    "mission": "IMAP",
+    "file_cadence": "three_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-07-16T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/ultra/l3/2025/04/imap_ultra_l3_u90-ena-h-sf-sp-full-hae-2deg-3mo_20250416_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_ultra_l3_u90-ena-h-sf-sp-full-hae-2deg-6mo",
+    "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra-90 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 2 degree, 6 Month Map",
+    "generation_date": "2025-12-02",
+    "instrument": "IMAP-Ultra",
+    "mission": "IMAP",
+    "file_cadence": "six_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-10-15T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/ultra/l3/2025/04/imap_ultra_l3_u90-ena-h-sf-sp-full-hae-2deg-6mo_20250416_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_ultra_l3_u90-ena-h-sf-sp-full-hae-4deg-3mo",
+    "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra-90 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 3 Month Map",
+    "generation_date": "2025-12-02",
+    "instrument": "IMAP-Ultra",
+    "mission": "IMAP",
+    "file_cadence": "three_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-07-16T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/ultra/l3/2025/04/imap_ultra_l3_u90-ena-h-sf-sp-full-hae-4deg-3mo_20250416_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
     "logical_source": "imap_ultra_l3_u90-ena-h-sf-sp-full-hae-4deg-6mo",
     "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra-90 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 6 Month Map",
-    "generation_date": "2025-11-19",
+    "generation_date": "2025-12-02",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -10599,6 +10824,61 @@
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/ultra/l3/2025/04/imap_ultra_l3_u90-ena-h-sf-sp-full-hae-4deg-6mo_20250415_v002.cdf"
+      },
+      {
+        "start_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-10-15T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/ultra/l3/2025/04/imap_ultra_l3_u90-ena-h-sf-sp-full-hae-4deg-6mo_20250416_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_ultra_l3_u90-ena-h-sf-sp-full-hae-6deg-3mo",
+    "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra-90 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 3 Month Map",
+    "generation_date": "2025-12-02",
+    "instrument": "IMAP-Ultra",
+    "mission": "IMAP",
+    "file_cadence": "three_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-07-16T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/ultra/l3/2025/04/imap_ultra_l3_u90-ena-h-sf-sp-full-hae-6deg-3mo_20250416_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_ultra_l3_u90-ena-h-sf-sp-full-hae-6deg-6mo",
+    "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra-90 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 6 Month Map",
+    "generation_date": "2025-12-02",
+    "instrument": "IMAP-Ultra",
+    "mission": "IMAP",
+    "file_cadence": "six_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-16T00:00:00+00:00",
+        "end_time": "2025-10-15T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/ultra/l3/2025/04/imap_ultra_l3_u90-ena-h-sf-sp-full-hae-6deg-6mo_20250416_v001.cdf"
       }
     ]
   },
