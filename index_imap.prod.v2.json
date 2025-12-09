@@ -2,6 +2,326 @@
   {
     "variables": [
       {
+        "variable_name": "vectors",
+        "catalog_description": "Magnetic field vectors with x y z varying by time in Despun Spacecraft Reference Frame",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": ""
+      }
+    ],
+    "logical_source": "imap_mag_l1d_burst-dsrf",
+    "logical_source_description": "IMAP Mission Burst Rate Instrument Level-1D Data in Despun Spacecraft Reference Frame.",
+    "generation_date": "2025-12-09",
+    "instrument": "MAG",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-12-03T00:00:00+00:00",
+        "end_time": "2025-12-04T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_burst-dsrf_20251203_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-04T00:00:00+00:00",
+        "end_time": "2025-12-05T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_burst-dsrf_20251204_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-05T00:00:00+00:00",
+        "end_time": "2025-12-06T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_burst-dsrf_20251205_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-06T00:00:00+00:00",
+        "end_time": "2025-12-07T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_burst-dsrf_20251206_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "vectors",
+        "catalog_description": "Magnetic field vectors with x y z varying by time in Geocentric Solar Ecliptic Reference Frame",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": ""
+      }
+    ],
+    "logical_source": "imap_mag_l1d_burst-gse",
+    "logical_source_description": "IMAP Mission Burst Rate Instrument Level-1D Data in Geocentric Solar Ecliptic Reference Frame.",
+    "generation_date": "2025-12-09",
+    "instrument": "MAG",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-12-03T00:00:00+00:00",
+        "end_time": "2025-12-04T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_burst-gse_20251203_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-04T00:00:00+00:00",
+        "end_time": "2025-12-05T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_burst-gse_20251204_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-05T00:00:00+00:00",
+        "end_time": "2025-12-06T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_burst-gse_20251205_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-06T00:00:00+00:00",
+        "end_time": "2025-12-07T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_burst-gse_20251206_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "vectors",
+        "catalog_description": "Magnetic field vectors with r t n varying by time in Radial-Tangential-Normal Reference Frame",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": ""
+      }
+    ],
+    "logical_source": "imap_mag_l1d_burst-rtn",
+    "logical_source_description": "IMAP Mission Burst Rate Instrument Level-1D Data in Radial-Tangential-Normal Reference Frame.",
+    "generation_date": "2025-12-09",
+    "instrument": "MAG",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-12-03T00:00:00+00:00",
+        "end_time": "2025-12-04T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_burst-rtn_20251203_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-04T00:00:00+00:00",
+        "end_time": "2025-12-05T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_burst-rtn_20251204_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-05T00:00:00+00:00",
+        "end_time": "2025-12-06T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_burst-rtn_20251205_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-06T00:00:00+00:00",
+        "end_time": "2025-12-07T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_burst-rtn_20251206_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "vectors",
+        "catalog_description": "Magnetic field vectors with x y z varying by time in Spacecraft Reference Frame",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": ""
+      }
+    ],
+    "logical_source": "imap_mag_l1d_burst-srf",
+    "logical_source_description": "IMAP Mission Burst Rate Instrument Level-1D Data in Spacecraft Reference Frame.",
+    "generation_date": "2025-12-09",
+    "instrument": "MAG",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-12-03T00:00:00+00:00",
+        "end_time": "2025-12-04T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_burst-srf_20251203_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-04T00:00:00+00:00",
+        "end_time": "2025-12-05T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_burst-srf_20251204_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-05T00:00:00+00:00",
+        "end_time": "2025-12-06T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_burst-srf_20251205_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-06T00:00:00+00:00",
+        "end_time": "2025-12-07T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_burst-srf_20251206_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "vectors",
+        "catalog_description": "Magnetic field vectors with x y z varying by time in Despun Spacecraft Reference Frame",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": ""
+      }
+    ],
+    "logical_source": "imap_mag_l1d_norm-dsrf",
+    "logical_source_description": "IMAP Mission Normal Rate Instrument Level-1D Data in Despun Spacecraft Reference Frame.",
+    "generation_date": "2025-12-09",
+    "instrument": "MAG",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-12-03T00:00:00+00:00",
+        "end_time": "2025-12-04T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_norm-dsrf_20251203_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-04T00:00:00+00:00",
+        "end_time": "2025-12-05T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_norm-dsrf_20251204_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-05T00:00:00+00:00",
+        "end_time": "2025-12-06T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_norm-dsrf_20251205_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-06T00:00:00+00:00",
+        "end_time": "2025-12-07T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_norm-dsrf_20251206_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "vectors",
+        "catalog_description": "Magnetic field vectors with x y z varying by time in Geocentric Solar Ecliptic Reference Frame",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": ""
+      }
+    ],
+    "logical_source": "imap_mag_l1d_norm-gse",
+    "logical_source_description": "IMAP Mission Normal Rate Instrument Level-1D Data in Geocentric Solar Ecliptic Reference Frame.",
+    "generation_date": "2025-12-09",
+    "instrument": "MAG",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-12-03T00:00:00+00:00",
+        "end_time": "2025-12-04T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_norm-gse_20251203_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-04T00:00:00+00:00",
+        "end_time": "2025-12-05T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_norm-gse_20251204_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-05T00:00:00+00:00",
+        "end_time": "2025-12-06T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_norm-gse_20251205_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-06T00:00:00+00:00",
+        "end_time": "2025-12-07T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_norm-gse_20251206_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "vectors",
+        "catalog_description": "Magnetic field vectors with r t n varying by time in Radial-Tangential-Normal Reference Frame",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": ""
+      }
+    ],
+    "logical_source": "imap_mag_l1d_norm-rtn",
+    "logical_source_description": "IMAP Mission Normal Rate Instrument Level-1D Data in Radial-Tangential-Normal Reference Frame.",
+    "generation_date": "2025-12-09",
+    "instrument": "MAG",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-12-03T00:00:00+00:00",
+        "end_time": "2025-12-04T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_norm-rtn_20251203_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-04T00:00:00+00:00",
+        "end_time": "2025-12-05T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_norm-rtn_20251204_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-05T00:00:00+00:00",
+        "end_time": "2025-12-06T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_norm-rtn_20251205_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-06T00:00:00+00:00",
+        "end_time": "2025-12-07T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_norm-rtn_20251206_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "vectors",
+        "catalog_description": "Magnetic field vectors with x y z varying by time in Spacecraft Reference Frame",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": ""
+      }
+    ],
+    "logical_source": "imap_mag_l1d_norm-srf",
+    "logical_source_description": "IMAP Mission Normal Rate Instrument Level-1D Data in Spacecraft Reference Frame.",
+    "generation_date": "2025-12-09",
+    "instrument": "MAG",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-12-03T00:00:00+00:00",
+        "end_time": "2025-12-04T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_norm-srf_20251203_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-04T00:00:00+00:00",
+        "end_time": "2025-12-05T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_norm-srf_20251204_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-05T00:00:00+00:00",
+        "end_time": "2025-12-06T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_norm-srf_20251205_v001.cdf"
+      },
+      {
+        "start_time": "2025-12-06T00:00:00+00:00",
+        "end_time": "2025-12-07T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2025/12/imap_mag_l1d_norm-srf_20251206_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
         "variable_name": "exposure_times",
         "catalog_description": "Exposure times for histogram bins for observational day",
         "display_type": "spectrogram",
