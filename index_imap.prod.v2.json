@@ -3276,6 +3276,11 @@
         "start_time": "2025-12-09T00:00:00+00:00",
         "end_time": "2025-12-10T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l2/2025/12/imap_swapi_l2_sci_20251209_v002.cdf"
+      },
+      {
+        "start_time": "2025-12-11T00:00:00+00:00",
+        "end_time": "2025-12-12T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l2/2025/12/imap_swapi_l2_sci_20251211_v001.cdf"
       }
     ]
   },
@@ -4920,6 +4925,11 @@
         "start_time": "2025-12-09T00:00:00+00:00",
         "end_time": "2025-12-10T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2025/12/imap_swapi_l3a_alpha-sw_20251209_v002.cdf"
+      },
+      {
+        "start_time": "2025-12-11T00:00:00+00:00",
+        "end_time": "2025-12-12T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2025/12/imap_swapi_l3a_alpha-sw_20251211_v001.cdf"
       }
     ]
   },
@@ -5263,6 +5273,31 @@
         "start_time": "2025-12-01T00:00:00+00:00",
         "end_time": "2025-12-02T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2025/12/imap_swapi_l3a_pui-he_20251201_v002.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "combined_differential_flux",
+        "catalog_description": "Combined differential flux",
+        "display_type": "spectrogram",
+        "units": "cm!E-2!N s!E-1!N sr!E-1!N (eV/q)!E-1!N",
+        "axis_label": "Combined differential flux"
+      }
+    ],
+    "logical_source": "imap_swapi_l3b_combined",
+    "logical_source_description": "SWAPI Instrument Combined VDF and Differential Flux",
+    "generation_date": "2025-12-11",
+    "instrument": "SWAPI",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-12-11T00:00:00+00:00",
+        "end_time": "2025-12-12T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3b/2025/12/imap_swapi_l3b_combined_20251211_v001.cdf"
       }
     ]
   }
