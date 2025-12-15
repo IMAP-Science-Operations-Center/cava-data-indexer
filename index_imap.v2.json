@@ -4478,7 +4478,7 @@
     ],
     "logical_source": "imap_hi_l2_h45-ena-h-hf-nsp-anti-hae-4deg-1yr",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
-    "generation_date": "2025-11-10",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "one_year_map",
@@ -4487,7 +4487,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-hf-nsp-anti-hae-4deg-1yr_20250415_v970.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-hf-nsp-anti-hae-4deg-1yr_20250415_v971.cdf"
       }
     ]
   },
@@ -4503,7 +4503,7 @@
     ],
     "logical_source": "imap_hi_l2_h45-ena-h-hf-nsp-anti-hae-4deg-6mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
-    "generation_date": "2025-11-10",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -4512,7 +4512,12 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-hf-nsp-anti-hae-4deg-6mo_20250415_v970.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-hf-nsp-anti-hae-4deg-6mo_20250415_v971.cdf"
+      },
+      {
+        "start_time": "2025-10-15T00:00:00+00:00",
+        "end_time": "2026-04-15T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-hf-nsp-anti-hae-4deg-6mo_20251015_v001.cdf"
       }
     ]
   },
@@ -4528,7 +4533,7 @@
     ],
     "logical_source": "imap_hi_l2_h45-ena-h-hf-nsp-anti-hae-6deg-1yr",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
-    "generation_date": "2025-11-11",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "one_year_map",
@@ -4537,7 +4542,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-hf-nsp-anti-hae-6deg-1yr_20250415_v971.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-hf-nsp-anti-hae-6deg-1yr_20250415_v972.cdf"
       }
     ]
   },
@@ -4553,7 +4558,7 @@
     ],
     "logical_source": "imap_hi_l2_h45-ena-h-hf-nsp-anti-hae-6deg-6mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
-    "generation_date": "2025-11-11",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -4562,7 +4567,12 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-hf-nsp-anti-hae-6deg-6mo_20250415_v971.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-hf-nsp-anti-hae-6deg-6mo_20250415_v972.cdf"
+      },
+      {
+        "start_time": "2025-10-15T00:00:00+00:00",
+        "end_time": "2026-04-15T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-hf-nsp-anti-hae-6deg-6mo_20251015_v001.cdf"
       }
     ]
   },
@@ -4578,7 +4588,7 @@
     ],
     "logical_source": "imap_hi_l2_h45-ena-h-hf-nsp-full-hae-4deg-6mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
-    "generation_date": "2025-11-11",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -4587,7 +4597,12 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-hf-nsp-full-hae-4deg-6mo_20250415_v971.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-hf-nsp-full-hae-4deg-6mo_20250415_v972.cdf"
+      },
+      {
+        "start_time": "2025-10-15T00:00:00+00:00",
+        "end_time": "2026-04-15T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-hf-nsp-full-hae-4deg-6mo_20251015_v001.cdf"
       }
     ]
   },
@@ -4603,7 +4618,7 @@
     ],
     "logical_source": "imap_hi_l2_h45-ena-h-hf-nsp-full-hae-6deg-6mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
-    "generation_date": "2025-11-11",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -4612,7 +4627,12 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-hf-nsp-full-hae-6deg-6mo_20250415_v971.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-hf-nsp-full-hae-6deg-6mo_20250415_v972.cdf"
+      },
+      {
+        "start_time": "2025-10-15T00:00:00+00:00",
+        "end_time": "2026-04-15T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-hf-nsp-full-hae-6deg-6mo_20251015_v001.cdf"
       }
     ]
   },
@@ -4628,7 +4648,7 @@
     ],
     "logical_source": "imap_hi_l2_h45-ena-h-hf-nsp-ram-hae-4deg-1yr",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
-    "generation_date": "2025-11-11",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "one_year_map",
@@ -4637,7 +4657,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-hf-nsp-ram-hae-4deg-1yr_20250415_v971.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-hf-nsp-ram-hae-4deg-1yr_20250415_v972.cdf"
       }
     ]
   },
@@ -4653,7 +4673,7 @@
     ],
     "logical_source": "imap_hi_l2_h45-ena-h-hf-nsp-ram-hae-4deg-6mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
-    "generation_date": "2025-11-11",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -4662,7 +4682,12 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-hf-nsp-ram-hae-4deg-6mo_20250415_v971.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-hf-nsp-ram-hae-4deg-6mo_20250415_v972.cdf"
+      },
+      {
+        "start_time": "2025-10-15T00:00:00+00:00",
+        "end_time": "2026-04-15T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-hf-nsp-ram-hae-4deg-6mo_20251015_v001.cdf"
       }
     ]
   },
@@ -4678,7 +4703,7 @@
     ],
     "logical_source": "imap_hi_l2_h45-ena-h-hf-nsp-ram-hae-6deg-1yr",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
-    "generation_date": "2025-11-11",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "one_year_map",
@@ -4687,7 +4712,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-hf-nsp-ram-hae-6deg-1yr_20250415_v971.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-hf-nsp-ram-hae-6deg-1yr_20250415_v972.cdf"
       }
     ]
   },
@@ -4703,7 +4728,7 @@
     ],
     "logical_source": "imap_hi_l2_h45-ena-h-hf-nsp-ram-hae-6deg-6mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
-    "generation_date": "2025-11-11",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -4712,7 +4737,12 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-hf-nsp-ram-hae-6deg-6mo_20250415_v971.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-hf-nsp-ram-hae-6deg-6mo_20250415_v972.cdf"
+      },
+      {
+        "start_time": "2025-10-15T00:00:00+00:00",
+        "end_time": "2026-04-15T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-hf-nsp-ram-hae-6deg-6mo_20251015_v001.cdf"
       }
     ]
   },
@@ -4728,7 +4758,7 @@
     ],
     "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-4deg-1yr",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
-    "generation_date": "2025-12-05",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "one_year_map",
@@ -4737,7 +4767,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-4deg-1yr_20250415_v972.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-4deg-1yr_20250415_v973.cdf"
       }
     ]
   },
@@ -4753,7 +4783,7 @@
     ],
     "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-4deg-6mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
-    "generation_date": "2025-11-06",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -4762,7 +4792,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-4deg-6mo_20250415_v005.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-4deg-6mo_20250415_v006.cdf"
       },
       {
         "start_time": "2025-10-14T00:00:00+00:00",
@@ -4772,7 +4802,7 @@
       {
         "start_time": "2025-10-15T00:00:00+00:00",
         "end_time": "2026-04-15T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-4deg-6mo_20251015_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-4deg-6mo_20251015_v002.cdf"
       }
     ]
   },
@@ -4788,7 +4818,7 @@
     ],
     "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-6deg-1yr",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
-    "generation_date": "2025-12-05",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "one_year_map",
@@ -4797,7 +4827,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-6deg-1yr_20250415_v972.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-6deg-1yr_20250415_v973.cdf"
       }
     ]
   },
@@ -4813,7 +4843,7 @@
     ],
     "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-6deg-6mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
-    "generation_date": "2025-11-06",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -4822,7 +4852,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-6deg-6mo_20250415_v004.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-6deg-6mo_20250415_v005.cdf"
       },
       {
         "start_time": "2025-10-14T00:00:00+00:00",
@@ -4832,7 +4862,7 @@
       {
         "start_time": "2025-10-15T00:00:00+00:00",
         "end_time": "2026-04-15T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-6deg-6mo_20251015_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-sf-nsp-anti-hae-6deg-6mo_20251015_v002.cdf"
       }
     ]
   },
@@ -4848,7 +4878,7 @@
     ],
     "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-full-hae-4deg-6mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
-    "generation_date": "2025-11-06",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -4857,7 +4887,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-4deg-6mo_20250415_v971.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-4deg-6mo_20250415_v972.cdf"
       },
       {
         "start_time": "2025-10-14T00:00:00+00:00",
@@ -4867,7 +4897,7 @@
       {
         "start_time": "2025-10-15T00:00:00+00:00",
         "end_time": "2026-04-15T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-4deg-6mo_20251015_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-4deg-6mo_20251015_v002.cdf"
       }
     ]
   },
@@ -5693,7 +5723,7 @@
     ],
     "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-6mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
-    "generation_date": "2025-11-06",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -5702,7 +5732,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-6mo_20250415_v971.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-6mo_20250415_v972.cdf"
       },
       {
         "start_time": "2025-10-14T00:00:00+00:00",
@@ -5712,7 +5742,7 @@
       {
         "start_time": "2025-10-15T00:00:00+00:00",
         "end_time": "2026-04-15T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-6mo_20251015_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-6mo_20251015_v002.cdf"
       }
     ]
   },
@@ -5728,7 +5758,7 @@
     ],
     "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-4deg-1yr",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
-    "generation_date": "2025-12-05",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "one_year_map",
@@ -5737,7 +5767,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-4deg-1yr_20250415_v972.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-4deg-1yr_20250415_v973.cdf"
       }
     ]
   },
@@ -5753,7 +5783,7 @@
     ],
     "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-4deg-6mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
-    "generation_date": "2025-11-06",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -5762,7 +5792,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-4deg-6mo_20250415_v006.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-4deg-6mo_20250415_v007.cdf"
       },
       {
         "start_time": "2025-10-14T00:00:00+00:00",
@@ -5772,7 +5802,7 @@
       {
         "start_time": "2025-10-15T00:00:00+00:00",
         "end_time": "2026-04-15T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-4deg-6mo_20251015_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-4deg-6mo_20251015_v002.cdf"
       }
     ]
   },
@@ -5788,7 +5818,7 @@
     ],
     "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-6deg-1yr",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
-    "generation_date": "2025-12-05",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "one_year_map",
@@ -5797,7 +5827,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-6deg-1yr_20250415_v972.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-6deg-1yr_20250415_v973.cdf"
       }
     ]
   },
@@ -5813,7 +5843,7 @@
     ],
     "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-6deg-6mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
-    "generation_date": "2025-11-06",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -5822,7 +5852,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-6deg-6mo_20250415_v004.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-6deg-6mo_20250415_v005.cdf"
       },
       {
         "start_time": "2025-10-14T00:00:00+00:00",
@@ -5832,7 +5862,7 @@
       {
         "start_time": "2025-10-15T00:00:00+00:00",
         "end_time": "2026-04-15T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-6deg-6mo_20251015_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h45-ena-h-sf-nsp-ram-hae-6deg-6mo_20251015_v002.cdf"
       }
     ]
   },
@@ -5848,7 +5878,7 @@
     ],
     "logical_source": "imap_hi_l2_h90-ena-h-hf-nsp-anti-hae-4deg-1yr",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi90 on rectangular tiling.",
-    "generation_date": "2025-11-10",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "one_year_map",
@@ -5857,7 +5887,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-hf-nsp-anti-hae-4deg-1yr_20250415_v970.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-hf-nsp-anti-hae-4deg-1yr_20250415_v971.cdf"
       }
     ]
   },
@@ -5873,7 +5903,7 @@
     ],
     "logical_source": "imap_hi_l2_h90-ena-h-hf-nsp-anti-hae-4deg-6mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi90 on rectangular tiling.",
-    "generation_date": "2025-11-10",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -5882,7 +5912,12 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-hf-nsp-anti-hae-4deg-6mo_20250415_v970.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-hf-nsp-anti-hae-4deg-6mo_20250415_v971.cdf"
+      },
+      {
+        "start_time": "2025-10-15T00:00:00+00:00",
+        "end_time": "2026-04-15T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-hf-nsp-anti-hae-4deg-6mo_20251015_v001.cdf"
       }
     ]
   },
@@ -5898,7 +5933,7 @@
     ],
     "logical_source": "imap_hi_l2_h90-ena-h-hf-nsp-anti-hae-6deg-1yr",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi90 on rectangular tiling.",
-    "generation_date": "2025-11-11",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "one_year_map",
@@ -5907,7 +5942,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-hf-nsp-anti-hae-6deg-1yr_20250415_v971.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-hf-nsp-anti-hae-6deg-1yr_20250415_v972.cdf"
       }
     ]
   },
@@ -5923,7 +5958,7 @@
     ],
     "logical_source": "imap_hi_l2_h90-ena-h-hf-nsp-anti-hae-6deg-6mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi90 on rectangular tiling.",
-    "generation_date": "2025-11-11",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -5932,7 +5967,12 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-hf-nsp-anti-hae-6deg-6mo_20250415_v971.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-hf-nsp-anti-hae-6deg-6mo_20250415_v972.cdf"
+      },
+      {
+        "start_time": "2025-10-15T00:00:00+00:00",
+        "end_time": "2026-04-15T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-hf-nsp-anti-hae-6deg-6mo_20251015_v001.cdf"
       }
     ]
   },
@@ -5948,7 +5988,7 @@
     ],
     "logical_source": "imap_hi_l2_h90-ena-h-hf-nsp-full-hae-4deg-6mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi90 on rectangular tiling.",
-    "generation_date": "2025-11-11",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -5957,7 +5997,12 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-hf-nsp-full-hae-4deg-6mo_20250415_v971.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-hf-nsp-full-hae-4deg-6mo_20250415_v972.cdf"
+      },
+      {
+        "start_time": "2025-10-15T00:00:00+00:00",
+        "end_time": "2026-04-15T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-hf-nsp-full-hae-4deg-6mo_20251015_v001.cdf"
       }
     ]
   },
@@ -5973,7 +6018,7 @@
     ],
     "logical_source": "imap_hi_l2_h90-ena-h-hf-nsp-full-hae-6deg-6mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi90 on rectangular tiling.",
-    "generation_date": "2025-11-11",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -5982,7 +6027,12 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-hf-nsp-full-hae-6deg-6mo_20250415_v971.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-hf-nsp-full-hae-6deg-6mo_20250415_v972.cdf"
+      },
+      {
+        "start_time": "2025-10-15T00:00:00+00:00",
+        "end_time": "2026-04-15T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-hf-nsp-full-hae-6deg-6mo_20251015_v001.cdf"
       }
     ]
   },
@@ -5998,7 +6048,7 @@
     ],
     "logical_source": "imap_hi_l2_h90-ena-h-hf-nsp-ram-hae-4deg-1yr",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi90 on rectangular tiling.",
-    "generation_date": "2025-11-11",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "one_year_map",
@@ -6007,7 +6057,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-hf-nsp-ram-hae-4deg-1yr_20250415_v971.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-hf-nsp-ram-hae-4deg-1yr_20250415_v972.cdf"
       }
     ]
   },
@@ -6023,7 +6073,7 @@
     ],
     "logical_source": "imap_hi_l2_h90-ena-h-hf-nsp-ram-hae-4deg-6mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi90 on rectangular tiling.",
-    "generation_date": "2025-11-11",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -6032,7 +6082,12 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-hf-nsp-ram-hae-4deg-6mo_20250415_v971.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-hf-nsp-ram-hae-4deg-6mo_20250415_v972.cdf"
+      },
+      {
+        "start_time": "2025-10-15T00:00:00+00:00",
+        "end_time": "2026-04-15T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-hf-nsp-ram-hae-4deg-6mo_20251015_v001.cdf"
       }
     ]
   },
@@ -6048,7 +6103,7 @@
     ],
     "logical_source": "imap_hi_l2_h90-ena-h-hf-nsp-ram-hae-6deg-1yr",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi90 on rectangular tiling.",
-    "generation_date": "2025-11-11",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "one_year_map",
@@ -6057,7 +6112,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-hf-nsp-ram-hae-6deg-1yr_20250415_v971.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-hf-nsp-ram-hae-6deg-1yr_20250415_v972.cdf"
       }
     ]
   },
@@ -6073,7 +6128,7 @@
     ],
     "logical_source": "imap_hi_l2_h90-ena-h-hf-nsp-ram-hae-6deg-6mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi90 on rectangular tiling.",
-    "generation_date": "2025-11-11",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -6082,7 +6137,12 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-hf-nsp-ram-hae-6deg-6mo_20250415_v971.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-hf-nsp-ram-hae-6deg-6mo_20250415_v972.cdf"
+      },
+      {
+        "start_time": "2025-10-15T00:00:00+00:00",
+        "end_time": "2026-04-15T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-hf-nsp-ram-hae-6deg-6mo_20251015_v001.cdf"
       }
     ]
   },
@@ -6098,7 +6158,7 @@
     ],
     "logical_source": "imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-4deg-1yr",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi90 on rectangular tiling.",
-    "generation_date": "2025-12-05",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "one_year_map",
@@ -6107,7 +6167,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-4deg-1yr_20250415_v972.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-4deg-1yr_20250415_v973.cdf"
       }
     ]
   },
@@ -6132,7 +6192,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-4deg-6mo_20250415_v972.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-4deg-6mo_20250415_v973.cdf"
       },
       {
         "start_time": "2025-05-06T00:00:00+00:00",
@@ -6163,7 +6223,7 @@
     ],
     "logical_source": "imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-6deg-1yr",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi90 on rectangular tiling.",
-    "generation_date": "2025-12-05",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "one_year_map",
@@ -6172,7 +6232,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-6deg-1yr_20250415_v972.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-6deg-1yr_20250415_v973.cdf"
       }
     ]
   },
@@ -6188,7 +6248,7 @@
     ],
     "logical_source": "imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-6deg-6mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi90 on rectangular tiling.",
-    "generation_date": "2025-11-06",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -6197,7 +6257,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-6deg-6mo_20250415_v972.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-6deg-6mo_20250415_v973.cdf"
       },
       {
         "start_time": "2025-05-06T00:00:00+00:00",
@@ -6212,7 +6272,7 @@
       {
         "start_time": "2025-10-15T00:00:00+00:00",
         "end_time": "2026-04-15T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-6deg-6mo_20251015_v002.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-sf-nsp-anti-hae-6deg-6mo_20251015_v003.cdf"
       }
     ]
   },
@@ -6228,7 +6288,7 @@
     ],
     "logical_source": "imap_hi_l2_h90-ena-h-sf-nsp-full-hae-4deg-6mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi90 on rectangular tiling.",
-    "generation_date": "2025-11-06",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -6237,7 +6297,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-full-hae-4deg-6mo_20250415_v971.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-full-hae-4deg-6mo_20250415_v972.cdf"
       },
       {
         "start_time": "2025-05-06T00:00:00+00:00",
@@ -6252,7 +6312,7 @@
       {
         "start_time": "2025-10-15T00:00:00+00:00",
         "end_time": "2026-04-15T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-sf-nsp-full-hae-4deg-6mo_20251015_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-sf-nsp-full-hae-4deg-6mo_20251015_v002.cdf"
       }
     ]
   },
@@ -6998,7 +7058,7 @@
     ],
     "logical_source": "imap_hi_l2_h90-ena-h-sf-nsp-full-hae-6deg-6mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi90 on rectangular tiling.",
-    "generation_date": "2025-11-06",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -7007,7 +7067,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-full-hae-6deg-6mo_20250415_v971.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-full-hae-6deg-6mo_20250415_v972.cdf"
       },
       {
         "start_time": "2025-05-06T00:00:00+00:00",
@@ -7022,7 +7082,7 @@
       {
         "start_time": "2025-10-15T00:00:00+00:00",
         "end_time": "2026-04-15T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-sf-nsp-full-hae-6deg-6mo_20251015_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-sf-nsp-full-hae-6deg-6mo_20251015_v002.cdf"
       }
     ]
   },
@@ -7038,7 +7098,7 @@
     ],
     "logical_source": "imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-4deg-1yr",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi90 on rectangular tiling.",
-    "generation_date": "2025-12-05",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "one_year_map",
@@ -7047,7 +7107,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-4deg-1yr_20250415_v972.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-4deg-1yr_20250415_v973.cdf"
       }
     ]
   },
@@ -7063,7 +7123,7 @@
     ],
     "logical_source": "imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-4deg-6mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi90 on rectangular tiling.",
-    "generation_date": "2025-11-06",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -7072,7 +7132,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-4deg-6mo_20250415_v972.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-4deg-6mo_20250415_v973.cdf"
       },
       {
         "start_time": "2025-05-06T00:00:00+00:00",
@@ -7087,7 +7147,7 @@
       {
         "start_time": "2025-10-15T00:00:00+00:00",
         "end_time": "2026-04-15T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-4deg-6mo_20251015_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-4deg-6mo_20251015_v002.cdf"
       }
     ]
   },
@@ -7103,7 +7163,7 @@
     ],
     "logical_source": "imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-6deg-1yr",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi90 on rectangular tiling.",
-    "generation_date": "2025-12-05",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "one_year_map",
@@ -7112,7 +7172,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-6deg-1yr_20250415_v972.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-6deg-1yr_20250415_v973.cdf"
       }
     ]
   },
@@ -7128,7 +7188,7 @@
     ],
     "logical_source": "imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-6deg-6mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi90 on rectangular tiling.",
-    "generation_date": "2025-11-06",
+    "generation_date": "2025-12-15",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
     "file_cadence": "six_month_map",
@@ -7137,7 +7197,7 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2025-10-14T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-6deg-6mo_20250415_v972.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/04/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-6deg-6mo_20250415_v973.cdf"
       },
       {
         "start_time": "2025-05-06T00:00:00+00:00",
@@ -7152,7 +7212,7 @@
       {
         "start_time": "2025-10-15T00:00:00+00:00",
         "end_time": "2026-04-15T15:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-6deg-6mo_20251015_v002.cdf"
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l2/2025/10/imap_hi_l2_h90-ena-h-sf-nsp-ram-hae-6deg-6mo_20251015_v003.cdf"
       }
     ]
   },
@@ -9050,6 +9110,11 @@
     "version": "",
     "file_timeranges": [
       {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2025-10-14T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/ultra/l2/2025/04/imap_ultra_l2_u45-ena-h-hf-nsp-full-hae-2deg-6mo_20250415_v001.cdf"
+      },
+      {
         "start_time": "2025-04-16T00:00:00+00:00",
         "end_time": "2025-10-15T15:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/ultra/l2/2025/04/imap_ultra_l2_u45-ena-h-hf-nsp-full-hae-2deg-6mo_20250416_v000.cdf"
@@ -9128,6 +9193,11 @@
     "version": "",
     "file_timeranges": [
       {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2025-10-14T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/ultra/l2/2025/04/imap_ultra_l2_u45-ena-h-hf-nsp-full-hae-4deg-6mo_20250415_v001.cdf"
+      },
+      {
         "start_time": "2025-04-16T00:00:00+00:00",
         "end_time": "2025-10-15T15:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/ultra/l2/2025/04/imap_ultra_l2_u45-ena-h-hf-nsp-full-hae-4deg-6mo_20250416_v000.cdf"
@@ -9205,6 +9275,11 @@
     "file_cadence": "six_month_map",
     "version": "",
     "file_timeranges": [
+      {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2025-10-14T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/ultra/l2/2025/04/imap_ultra_l2_u45-ena-h-hf-nsp-full-hae-6deg-6mo_20250415_v001.cdf"
+      },
       {
         "start_time": "2025-04-16T00:00:00+00:00",
         "end_time": "2025-10-15T15:00:00+00:00",
@@ -9518,6 +9593,11 @@
     "version": "",
     "file_timeranges": [
       {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2025-10-14T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/ultra/l2/2025/04/imap_ultra_l2_u90-ena-h-hf-nsp-full-hae-2deg-6mo_20250415_v001.cdf"
+      },
+      {
         "start_time": "2025-04-16T00:00:00+00:00",
         "end_time": "2025-10-15T15:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/ultra/l2/2025/04/imap_ultra_l2_u90-ena-h-hf-nsp-full-hae-2deg-6mo_20250416_v000.cdf"
@@ -9596,6 +9676,11 @@
     "version": "",
     "file_timeranges": [
       {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2025-10-14T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/ultra/l2/2025/04/imap_ultra_l2_u90-ena-h-hf-nsp-full-hae-4deg-6mo_20250415_v001.cdf"
+      },
+      {
         "start_time": "2025-04-16T00:00:00+00:00",
         "end_time": "2025-10-15T15:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/download/imap/ultra/l2/2025/04/imap_ultra_l2_u90-ena-h-hf-nsp-full-hae-4deg-6mo_20250416_v000.cdf"
@@ -9673,6 +9758,11 @@
     "file_cadence": "six_month_map",
     "version": "",
     "file_timeranges": [
+      {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2025-10-14T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/ultra/l2/2025/04/imap_ultra_l2_u90-ena-h-hf-nsp-full-hae-6deg-6mo_20250415_v001.cdf"
+      },
       {
         "start_time": "2025-04-16T00:00:00+00:00",
         "end_time": "2025-10-15T15:00:00+00:00",
