@@ -13584,7 +13584,7 @@
     ],
     "logical_source": "imap_codice_l3a_lo-partial-densities",
     "logical_source_description": "IMAP Mission CoDICE Lo Instrument Partial Densities",
-    "generation_date": "2025-12-02",
+    "generation_date": "2025-12-16",
     "instrument": "CoDICE",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -13598,12 +13598,12 @@
       {
         "start_time": "2025-08-14T00:00:00+00:00",
         "end_time": "2025-08-15T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2025/08/imap_codice_l3a_lo-partial-densities_20250814_v004.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2025/08/imap_codice_l3a_lo-partial-densities_20250814_v005.cdf"
       },
       {
         "start_time": "2025-11-27T00:00:00+00:00",
         "end_time": "2025-11-28T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2025/11/imap_codice_l3a_lo-partial-densities_20251127_v003.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2025/11/imap_codice_l3a_lo-partial-densities_20251127_v004.cdf"
       }
     ]
   },
@@ -13698,7 +13698,7 @@
     ],
     "logical_source": "imap_codice_l3a_lo-sw-ratios",
     "logical_source_description": "IMAP Mission CoDICE Lo Instrument SW Ratios",
-    "generation_date": "2025-12-12",
+    "generation_date": "2025-12-16",
     "instrument": "CoDICE",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -13712,12 +13712,12 @@
       {
         "start_time": "2025-08-14T00:00:00+00:00",
         "end_time": "2025-08-15T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2025/08/imap_codice_l3a_lo-sw-ratios_20250814_v004.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2025/08/imap_codice_l3a_lo-sw-ratios_20250814_v005.cdf"
       },
       {
         "start_time": "2025-11-27T00:00:00+00:00",
         "end_time": "2025-11-28T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2025/11/imap_codice_l3a_lo-sw-ratios_20251127_v003.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2025/11/imap_codice_l3a_lo-sw-ratios_20251127_v004.cdf"
       }
     ]
   },
@@ -13740,7 +13740,7 @@
     ],
     "logical_source": "imap_codice_l3a_lo-sw-charge-state-distributions",
     "logical_source_description": "IMAP Mission CoDICE Instrument Charge State Distributions",
-    "generation_date": "2025-12-12",
+    "generation_date": "2025-12-16",
     "instrument": "CoDICE",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -13749,12 +13749,12 @@
       {
         "start_time": "2025-08-14T00:00:00+00:00",
         "end_time": "2025-08-15T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2025/08/imap_codice_l3a_lo-sw-charge-state-distributions_20250814_v002.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2025/08/imap_codice_l3a_lo-sw-charge-state-distributions_20250814_v003.cdf"
       },
       {
         "start_time": "2025-11-27T00:00:00+00:00",
         "end_time": "2025-11-28T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2025/11/imap_codice_l3a_lo-sw-charge-state-distributions_20251127_v003.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2025/11/imap_codice_l3a_lo-sw-charge-state-distributions_20251127_v004.cdf"
       }
     ]
   },
