@@ -11374,6 +11374,56 @@
   {
     "variables": [
       {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_hi_l3_hic-ena-h-hf-nsp-full-hae-4deg-1yr",
+    "logical_source_description": "IMAP Hi Instrument Level 3 Hi Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 12 Month Map",
+    "generation_date": "2025-12-16",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2026-04-15T06:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l3/2025/04/imap_hi_l3_hic-ena-h-hf-nsp-full-hae-4deg-1yr_20250415_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_hi_l3_hic-ena-h-hf-nsp-full-hae-6deg-1yr",
+    "logical_source_description": "IMAP Hi Instrument Level 3 Hi Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 12 Month Map",
+    "generation_date": "2025-12-16",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2026-04-15T06:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/download/imap/hi/l3/2025/04/imap_hi_l3_hic-ena-h-hf-nsp-full-hae-6deg-1yr_20250415_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
         "variable_name": "delta_e",
         "catalog_description": "Delta E (energy deposited in detector that particle fully penetrates)",
         "display_type": "time_series",
