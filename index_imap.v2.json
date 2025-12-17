@@ -8781,8 +8781,8 @@
   {
     "variables": [
       {
-        "variable_name": "vectors",
-        "catalog_description": "Magnetic field vectors with x y z varying by time",
+        "variable_name": "b_dsrf",
+        "catalog_description": "Magnetic field vectors with x y z varying by time in Despun Spacecraft Reference Frame",
         "display_type": "time_series",
         "units": " ",
         "axis_label": ""
@@ -8790,7 +8790,7 @@
     ],
     "logical_source": "imap_mag_l2_norm-dsrf",
     "logical_source_description": "IMAP Mission Normal Rate Instrument Level-2 Data in Despun Spacecraft Reference Frame.",
-    "generation_date": "2025-11-11",
+    "generation_date": "2025-12-17",
     "instrument": "MAG",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -8800,14 +8800,19 @@
         "start_time": "2025-11-02T00:00:00+00:00",
         "end_time": "2025-11-03T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-dsrf_20251102_v002.cdf"
+      },
+      {
+        "start_time": "2025-11-16T00:00:00+00:00",
+        "end_time": "2025-11-17T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-dsrf_20251116_v001.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "vectors",
-        "catalog_description": "Magnetic field vectors with x y z varying by time",
+        "variable_name": "b_gse",
+        "catalog_description": "Magnetic field vectors with x y z varying by time in Geocentric Solar Ecliptic Reference Frame",
         "display_type": "time_series",
         "units": " ",
         "axis_label": ""
@@ -8815,7 +8820,7 @@
     ],
     "logical_source": "imap_mag_l2_norm-gse",
     "logical_source_description": "IMAP Mission Normal Rate Instrument Level-2 Data in Geocentric Solar Ecliptic Reference Frame.",
-    "generation_date": "2025-11-11",
+    "generation_date": "2025-12-17",
     "instrument": "MAG",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -8825,14 +8830,19 @@
         "start_time": "2025-11-02T00:00:00+00:00",
         "end_time": "2025-11-03T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-gse_20251102_v002.cdf"
+      },
+      {
+        "start_time": "2025-11-16T00:00:00+00:00",
+        "end_time": "2025-11-17T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-gse_20251116_v001.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "vectors",
-        "catalog_description": "Magnetic field vectors with x y z varying by time",
+        "variable_name": "b_gsm",
+        "catalog_description": "Magnetic field vectors with x y z varying by time in Geocentric Solar Magnetospheric Reference Frame",
         "display_type": "time_series",
         "units": " ",
         "axis_label": ""
@@ -8840,7 +8850,7 @@
     ],
     "logical_source": "imap_mag_l2_norm-gsm",
     "logical_source_description": "IMAP Mission Normal Rate Instrument Level-2 Data in Geocentric Solar Magnetospheric Reference Frame.",
-    "generation_date": "2025-11-11",
+    "generation_date": "2025-12-17",
     "instrument": "MAG",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -8850,14 +8860,19 @@
         "start_time": "2025-11-02T00:00:00+00:00",
         "end_time": "2025-11-03T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-gsm_20251102_v002.cdf"
+      },
+      {
+        "start_time": "2025-11-16T00:00:00+00:00",
+        "end_time": "2025-11-17T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-gsm_20251116_v001.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "vectors",
-        "catalog_description": "Magnetic field vectors with x y z varying by time",
+        "variable_name": "b_rtn",
+        "catalog_description": "Magnetic field vectors with r t n varying by time in Radial-Tangential-Normal Reference Frame",
         "display_type": "time_series",
         "units": " ",
         "axis_label": ""
@@ -8865,7 +8880,7 @@
     ],
     "logical_source": "imap_mag_l2_norm-rtn",
     "logical_source_description": "IMAP Mission Normal Rate Instrument Level-2 Data in Radial-Tangential-Normal Reference Frame.",
-    "generation_date": "2025-11-11",
+    "generation_date": "2025-12-17",
     "instrument": "MAG",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -8875,14 +8890,19 @@
         "start_time": "2025-11-02T00:00:00+00:00",
         "end_time": "2025-11-03T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-rtn_20251102_v002.cdf"
+      },
+      {
+        "start_time": "2025-11-16T00:00:00+00:00",
+        "end_time": "2025-11-17T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-rtn_20251116_v001.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "vectors",
-        "catalog_description": "Magnetic field vectors with x y z varying by time",
+        "variable_name": "b_srf",
+        "catalog_description": "Magnetic field vectors with x y z varying by time in Spacecraft Reference Frame",
         "display_type": "time_series",
         "units": " ",
         "axis_label": ""
@@ -8890,7 +8910,7 @@
     ],
     "logical_source": "imap_mag_l2_norm-srf",
     "logical_source_description": "IMAP Mission Normal Rate Instrument Level-2 Data in Spacecraft Reference Frame.",
-    "generation_date": "2025-11-11",
+    "generation_date": "2025-12-17",
     "instrument": "MAG",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -8900,6 +8920,11 @@
         "start_time": "2025-11-02T00:00:00+00:00",
         "end_time": "2025-11-03T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-srf_20251102_v002.cdf"
+      },
+      {
+        "start_time": "2025-11-16T00:00:00+00:00",
+        "end_time": "2025-11-17T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/mag/l2/2025/11/imap_mag_l2_norm-srf_20251116_v001.cdf"
       }
     ]
   },
