@@ -4221,7 +4221,7 @@
     ],
     "logical_source": "imap_idex_l2a_sci-1week",
     "logical_source_description": "IMAP Mission IDEX Instrument Level-2A Weekly Data",
-    "generation_date": "2025-12-17",
+    "generation_date": "2025-12-18",
     "instrument": "IDEX",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -4255,7 +4255,7 @@
       {
         "start_time": "2025-12-17T00:00:00+00:00",
         "end_time": "2025-12-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/12/imap_idex_l2a_sci-1week_20251217_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/12/imap_idex_l2a_sci-1week_20251217_v002.cdf"
       }
     ]
   },
