@@ -880,6 +880,23 @@
     ]
   },
   {
+    "variables": [],
+    "logical_source": "imap_codice_l2_hi-direct-events",
+    "logical_source_description": "IMAP Mission CoDICE Hi Level-2 Event Data.",
+    "generation_date": "2025-12-17",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-08-14T00:00:00+00:00",
+        "end_time": "2025-08-15T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2025/08/imap_codice_l2_hi-direct-events_20250814_v003.cdf"
+      }
+    ]
+  },
+  {
     "variables": [
       {
         "variable_name": "exposure_times",
