@@ -8750,6 +8750,45 @@
         "axis_label": "Intensity"
       }
     ],
+    "logical_source": "imap_lo_l2_l090-ena-h-sf-nsp-ram-hae-6deg-1yr",
+    "logical_source_description": "IMAP-Lo Instrument Level-2 Intensity Map Data for Lo",
+    "generation_date": "2025-12-23",
+    "instrument": "IMAP-Lo",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2026-04-15T06:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/lo/l2/2025/04/imap_lo_l2_l090-ena-h-sf-nsp-ram-hae-6deg-1yr_20250415_v007.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "Mono-energetic ENA intensity.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "ena_count_rate",
+        "catalog_description": "Mono-energetic ENA Rate.",
+        "display_type": "map_image",
+        "units": "counts/s",
+        "axis_label": "Rate"
+      },
+      {
+        "variable_name": "bg_intensity",
+        "catalog_description": "Total background intensity from non-ENA (non-heliospheric) sources",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
     "logical_source": "imap_lo_l2_l090-ena-o-sf-nsp-ram-hae-6deg-1yr",
     "logical_source_description": "IMAP-Lo Instrument Level-2 Intensity Map Data for Lo",
     "generation_date": "2025-11-20",
@@ -12254,7 +12293,71 @@
       {
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/lo/l3/2025/04/imap_lo_l3_l090-ena-h-sf-sp-ram-hae-6deg-1yr_20250415_v003.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/lo/l3/2025/04/imap_lo_l3_l090-ena-h-sf-sp-ram-hae-6deg-1yr_20250415_v005.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_spectral_index_stat_uncert",
+        "catalog_description": "ENA spectral index statistical uncertainty.",
+        "display_type": "map_image",
+        "units": " ",
+        "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_spectral_index",
+        "catalog_description": "ENA spectral index.",
+        "display_type": "map_image",
+        "units": " ",
+        "axis_label": "spectral index"
+      }
+    ],
+    "logical_source": "imap_lo_l3_l090-spx-h-sf-nsp-ram-hae-6deg-1yr",
+    "logical_source_description": "IMAP-lo Level-3 Spectral Fit Index Map",
+    "generation_date": "2025-12-29",
+    "instrument": "IMAP-Lo",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2026-04-15T06:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/lo/l3/2025/04/imap_lo_l3_l090-spx-h-sf-nsp-ram-hae-6deg-1yr_20250415_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_spectral_index_stat_uncert",
+        "catalog_description": "ENA spectral index statistical uncertainty.",
+        "display_type": "map_image",
+        "units": " ",
+        "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_spectral_index",
+        "catalog_description": "ENA spectral index.",
+        "display_type": "map_image",
+        "units": " ",
+        "axis_label": "spectral index"
+      }
+    ],
+    "logical_source": "imap_lo_l3_l090-spx-h-sf-sp-ram-hae-6deg-1yr",
+    "logical_source_description": "IMAP-lo Level-3 Spectral Fit Index Map",
+    "generation_date": "2025-12-29",
+    "instrument": "IMAP-Lo",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-15T00:00:00+00:00",
+        "end_time": "2026-04-15T06:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/lo/l3/2025/04/imap_lo_l3_l090-spx-h-sf-sp-ram-hae-6deg-1yr_20250415_v002.cdf"
       }
     ]
   },
