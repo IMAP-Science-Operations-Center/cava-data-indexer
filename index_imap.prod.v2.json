@@ -11,7 +11,7 @@
     ],
     "logical_source": "imap_mag_l1d_burst-dsrf",
     "logical_source_description": "IMAP Mission Burst Rate Instrument Level-1D Data in Despun Spacecraft Reference Frame.",
-    "generation_date": "2026-01-29",
+    "generation_date": "2026-01-30",
     "instrument": "MAG",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -600,7 +600,12 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_burst-dsrf_20260127_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_burst-dsrf_20260127_v006.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_burst-dsrf_20260128_v003.cdf"
       }
     ]
   },
@@ -616,7 +621,7 @@
     ],
     "logical_source": "imap_mag_l1d_burst-gse",
     "logical_source_description": "IMAP Mission Burst Rate Instrument Level-1D Data in Geocentric Solar Ecliptic Reference Frame.",
-    "generation_date": "2026-01-29",
+    "generation_date": "2026-01-30",
     "instrument": "MAG",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -1205,7 +1210,12 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_burst-gse_20260127_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_burst-gse_20260127_v006.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_burst-gse_20260128_v003.cdf"
       }
     ]
   },
@@ -1221,7 +1231,7 @@
     ],
     "logical_source": "imap_mag_l1d_burst-rtn",
     "logical_source_description": "IMAP Mission Burst Rate Instrument Level-1D Data in Radial-Tangential-Normal Reference Frame.",
-    "generation_date": "2026-01-29",
+    "generation_date": "2026-01-30",
     "instrument": "MAG",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -1805,7 +1815,12 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_burst-rtn_20260127_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_burst-rtn_20260127_v006.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_burst-rtn_20260128_v003.cdf"
       }
     ]
   },
@@ -1821,7 +1836,7 @@
     ],
     "logical_source": "imap_mag_l1d_burst-srf",
     "logical_source_description": "IMAP Mission Burst Rate Instrument Level-1D Data in Spacecraft Reference Frame.",
-    "generation_date": "2026-01-29",
+    "generation_date": "2026-01-30",
     "instrument": "MAG",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -2410,7 +2425,12 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_burst-srf_20260127_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_burst-srf_20260127_v006.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_burst-srf_20260128_v003.cdf"
       }
     ]
   },
@@ -2426,7 +2446,7 @@
     ],
     "logical_source": "imap_mag_l1d_norm-dsrf",
     "logical_source_description": "IMAP Mission Normal Rate Instrument Level-1D Data in Despun Spacecraft Reference Frame.",
-    "generation_date": "2026-01-29",
+    "generation_date": "2026-01-30",
     "instrument": "MAG",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -3015,7 +3035,12 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_norm-dsrf_20260127_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_norm-dsrf_20260127_v006.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_norm-dsrf_20260128_v003.cdf"
       }
     ]
   },
@@ -3031,7 +3056,7 @@
     ],
     "logical_source": "imap_mag_l1d_norm-gse",
     "logical_source_description": "IMAP Mission Normal Rate Instrument Level-1D Data in Geocentric Solar Ecliptic Reference Frame.",
-    "generation_date": "2026-01-29",
+    "generation_date": "2026-01-30",
     "instrument": "MAG",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -3620,7 +3645,12 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_norm-gse_20260127_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_norm-gse_20260127_v006.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_norm-gse_20260128_v003.cdf"
       }
     ]
   },
@@ -3636,7 +3666,7 @@
     ],
     "logical_source": "imap_mag_l1d_norm-rtn",
     "logical_source_description": "IMAP Mission Normal Rate Instrument Level-1D Data in Radial-Tangential-Normal Reference Frame.",
-    "generation_date": "2026-01-29",
+    "generation_date": "2026-01-30",
     "instrument": "MAG",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -4220,7 +4250,12 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_norm-rtn_20260127_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_norm-rtn_20260127_v006.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_norm-rtn_20260128_v003.cdf"
       }
     ]
   },
@@ -4236,7 +4271,7 @@
     ],
     "logical_source": "imap_mag_l1d_norm-srf",
     "logical_source_description": "IMAP Mission Normal Rate Instrument Level-1D Data in Spacecraft Reference Frame.",
-    "generation_date": "2026-01-29",
+    "generation_date": "2026-01-30",
     "instrument": "MAG",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -4825,7 +4860,12 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_norm-srf_20260127_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_norm-srf_20260127_v006.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/01/imap_mag_l1d_norm-srf_20260128_v003.cdf"
       }
     ]
   },
@@ -4833,7 +4873,7 @@
     "variables": [],
     "logical_source": "imap_codice_l2_hi-direct-events",
     "logical_source_description": "IMAP Mission CoDICE Hi Level-2 Event Data.",
-    "generation_date": "2026-01-29",
+    "generation_date": "2026-01-30",
     "instrument": "CoDICE",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -5157,7 +5197,12 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/01/imap_codice_l2_hi-direct-events_20260127_v004.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/01/imap_codice_l2_hi-direct-events_20260127_v006.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/01/imap_codice_l2_hi-direct-events_20260128_v002.cdf"
       }
     ]
   },
@@ -5229,7 +5274,7 @@
     ],
     "logical_source": "imap_codice_l2_hi-omni",
     "logical_source_description": "IMAP Mission CoDICE Hi Level-2 Omnidirectional Species Intensity Data.",
-    "generation_date": "2026-01-29",
+    "generation_date": "2026-01-30",
     "instrument": "CoDICE",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -5548,7 +5593,12 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/01/imap_codice_l2_hi-omni_20260127_v002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/01/imap_codice_l2_hi-omni_20260127_v004.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/01/imap_codice_l2_hi-omni_20260128_v002.cdf"
       }
     ]
   },
@@ -5606,7 +5656,7 @@
     ],
     "logical_source": "imap_codice_l2_hi-sectored",
     "logical_source_description": "IMAP Mission CoDICE Hi Level-2 Sectored Species Intensity Data.",
-    "generation_date": "2026-01-29",
+    "generation_date": "2026-01-30",
     "instrument": "CoDICE",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -5925,7 +5975,12 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/01/imap_codice_l2_hi-sectored_20260127_v002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/01/imap_codice_l2_hi-sectored_20260127_v004.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/01/imap_codice_l2_hi-sectored_20260128_v002.cdf"
       }
     ]
   },
@@ -5941,7 +5996,7 @@
     ],
     "logical_source": "imap_codice_l2_lo-nsw-angular",
     "logical_source_description": "IMAP Mission CoDICE Lo Level-2 Non-Sunward Angular Intensity Data.",
-    "generation_date": "2026-01-29",
+    "generation_date": "2026-01-30",
     "instrument": "CoDICE",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -6255,7 +6310,12 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/01/imap_codice_l2_lo-nsw-angular_20260127_v003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/01/imap_codice_l2_lo-nsw-angular_20260127_v005.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/01/imap_codice_l2_lo-nsw-angular_20260128_v002.cdf"
       }
     ]
   },
@@ -6271,7 +6331,7 @@
     ],
     "logical_source": "imap_codice_l2_lo-nsw-species",
     "logical_source_description": "IMAP Mission CoDICE Lo Level-2 Non-Sunward Species Intensity Data.",
-    "generation_date": "2026-01-29",
+    "generation_date": "2026-01-30",
     "instrument": "CoDICE",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -6585,7 +6645,12 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/01/imap_codice_l2_lo-nsw-species_20260127_v003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/01/imap_codice_l2_lo-nsw-species_20260127_v005.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/01/imap_codice_l2_lo-nsw-species_20260128_v002.cdf"
       }
     ]
   },
@@ -6601,7 +6666,7 @@
     ],
     "logical_source": "imap_codice_l2_lo-sw-angular",
     "logical_source_description": "IMAP Mission CoDICE Lo Level-2 Sunward Angular Intensity Data.",
-    "generation_date": "2026-01-29",
+    "generation_date": "2026-01-30",
     "instrument": "CoDICE",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -6915,7 +6980,12 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/01/imap_codice_l2_lo-sw-angular_20260127_v003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/01/imap_codice_l2_lo-sw-angular_20260127_v005.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/01/imap_codice_l2_lo-sw-angular_20260128_v002.cdf"
       }
     ]
   },
@@ -6931,7 +7001,7 @@
     ],
     "logical_source": "imap_codice_l2_lo-sw-species",
     "logical_source_description": "IMAP Mission CoDICE Lo Level-2 Sunward Species Intensity Data.",
-    "generation_date": "2026-01-29",
+    "generation_date": "2026-01-30",
     "instrument": "CoDICE",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -7245,7 +7315,12 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/01/imap_codice_l2_lo-sw-species_20260127_v003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/01/imap_codice_l2_lo-sw-species_20260127_v005.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/01/imap_codice_l2_lo-sw-species_20260128_v002.cdf"
       }
     ]
   },
@@ -7845,7 +7920,7 @@
     ],
     "logical_source": "imap_hit_l2_macropixel-intensity",
     "logical_source_description": "IMAP Mission HIT Instrument Level-2 Macro Pixel Intensity Data.",
-    "generation_date": "2026-01-28",
+    "generation_date": "2026-01-30",
     "instrument": "HIT",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -8414,7 +8489,17 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/01/imap_hit_l2_macropixel-intensity_20260127_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/01/imap_hit_l2_macropixel-intensity_20260127_v003.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/01/imap_hit_l2_macropixel-intensity_20260128_v002.cdf"
+      },
+      {
+        "start_time": "2026-01-29T00:00:00+00:00",
+        "end_time": "2026-01-30T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/01/imap_hit_l2_macropixel-intensity_20260129_v001.cdf"
       }
     ]
   },
@@ -8549,7 +8634,7 @@
     ],
     "logical_source": "imap_hit_l2_standard-intensity",
     "logical_source_description": "IMAP Mission HIT Instrument Level-2 Standard Intensity Data.",
-    "generation_date": "2026-01-28",
+    "generation_date": "2026-01-30",
     "instrument": "HIT",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -9133,7 +9218,17 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/01/imap_hit_l2_standard-intensity_20260127_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/01/imap_hit_l2_standard-intensity_20260127_v003.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/01/imap_hit_l2_standard-intensity_20260128_v002.cdf"
+      },
+      {
+        "start_time": "2026-01-29T00:00:00+00:00",
+        "end_time": "2026-01-30T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/01/imap_hit_l2_standard-intensity_20260129_v002.cdf"
       }
     ]
   },
@@ -9268,7 +9363,7 @@
     ],
     "logical_source": "imap_hit_l2_summed-intensity",
     "logical_source_description": "IMAP Mission HIT Instrument Level-2 Summed Intensity Data.",
-    "generation_date": "2026-01-28",
+    "generation_date": "2026-01-30",
     "instrument": "HIT",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -9852,7 +9947,17 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/01/imap_hit_l2_summed-intensity_20260127_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/01/imap_hit_l2_summed-intensity_20260127_v003.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/01/imap_hit_l2_summed-intensity_20260128_v002.cdf"
+      },
+      {
+        "start_time": "2026-01-29T00:00:00+00:00",
+        "end_time": "2026-01-30T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/01/imap_hit_l2_summed-intensity_20260129_v002.cdf"
       }
     ]
   },
@@ -11081,7 +11186,7 @@
     ],
     "logical_source": "imap_swapi_l2_sci",
     "logical_source_description": "IMAP SWAPI Instrument Level-2 Science Data",
-    "generation_date": "2026-01-28",
+    "generation_date": "2026-01-30",
     "instrument": "SWAPI",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -11460,7 +11565,17 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l2/2026/01/imap_swapi_l2_sci_20260127_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l2/2026/01/imap_swapi_l2_sci_20260127_v003.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l2/2026/01/imap_swapi_l2_sci_20260128_v002.cdf"
+      },
+      {
+        "start_time": "2026-01-29T00:00:00+00:00",
+        "end_time": "2026-01-30T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l2/2026/01/imap_swapi_l2_sci_20260129_v002.cdf"
       }
     ]
   },
@@ -11518,7 +11633,7 @@
     ],
     "logical_source": "imap_swe_l2_sci",
     "logical_source_description": "IMAP SWE Instrument Level-2 Science Data",
-    "generation_date": "2026-01-29",
+    "generation_date": "2026-01-30",
     "instrument": "SWE",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -11982,7 +12097,12 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swe/l2/2026/01/imap_swe_l2_sci_20260127_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swe/l2/2026/01/imap_swe_l2_sci_20260127_v003.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swe/l2/2026/01/imap_swe_l2_sci_20260128_v002.cdf"
       }
     ]
   },
@@ -12339,7 +12459,7 @@
     ],
     "logical_source": "imap_hit_l3_direct-events",
     "logical_source_description": "HIT Instrument Level-3 Direct Event Science Data",
-    "generation_date": "2026-01-28",
+    "generation_date": "2026-01-30",
     "instrument": "HIT",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -12923,7 +13043,17 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/01/imap_hit_l3_direct-events_20260127_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/01/imap_hit_l3_direct-events_20260127_v003.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/01/imap_hit_l3_direct-events_20260128_v002.cdf"
+      },
+      {
+        "start_time": "2026-01-29T00:00:00+00:00",
+        "end_time": "2026-01-30T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/01/imap_hit_l3_direct-events_20260129_v002.cdf"
       }
     ]
   },
@@ -13002,7 +13132,7 @@
     ],
     "logical_source": "imap_hit_l3_macropixel",
     "logical_source_description": "HIT Instrument Level-3 Macropixel Intensity Science Data",
-    "generation_date": "2026-01-29",
+    "generation_date": "2026-01-30",
     "instrument": "HIT",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -13406,7 +13536,12 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/01/imap_hit_l3_macropixel_20260127_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/01/imap_hit_l3_macropixel_20260127_v008.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/01/imap_hit_l3_macropixel_20260128_v003.cdf"
       }
     ]
   },
@@ -14070,6 +14205,43 @@
   {
     "variables": [
       {
+        "variable_name": "data_quality",
+        "catalog_description": "Data quality flags",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Quality flag"
+      },
+      {
+        "variable_name": "num_events",
+        "catalog_description": "Number of events",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Num. events"
+      }
+    ],
+    "logical_source": "imap_codice_l3a_hi-direct-events",
+    "logical_source_description": "IMAP Mission CoDICE Hi Instrument Direct Events",
+    "generation_date": "2026-01-30",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-01-27T00:00:00+00:00",
+        "end_time": "2026-01-28T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/01/imap_codice_l3a_hi-direct-events_20260127_v002.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/01/imap_codice_l3a_hi-direct-events_20260128_v002.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
         "variable_name": "alpha_sw_density",
         "catalog_description": "Alpha solar wind density",
         "display_type": "time_series",
@@ -14093,7 +14265,7 @@
     ],
     "logical_source": "imap_swapi_l3a_alpha-sw",
     "logical_source_description": "SWAPI Instrument Alpha Solar Wind Parameters",
-    "generation_date": "2026-01-28",
+    "generation_date": "2026-01-30",
     "instrument": "SWAPI",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -14472,7 +14644,17 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/01/imap_swapi_l3a_alpha-sw_20260127_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/01/imap_swapi_l3a_alpha-sw_20260127_v003.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/01/imap_swapi_l3a_alpha-sw_20260128_v002.cdf"
+      },
+      {
+        "start_time": "2026-01-29T00:00:00+00:00",
+        "end_time": "2026-01-30T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/01/imap_swapi_l3a_alpha-sw_20260129_v002.cdf"
       }
     ]
   },
@@ -14516,7 +14698,7 @@
     ],
     "logical_source": "imap_swapi_l3a_proton-sw",
     "logical_source_description": "SWAPI Instrument Proton Solar Wind Parameters",
-    "generation_date": "2026-01-22",
+    "generation_date": "2026-01-30",
     "instrument": "SWAPI",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -14721,6 +14903,11 @@
         "start_time": "2026-01-20T00:00:00+00:00",
         "end_time": "2026-01-21T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/01/imap_swapi_l3a_proton-sw_20260120_v002.cdf"
+      },
+      {
+        "start_time": "2026-01-27T00:00:00+00:00",
+        "end_time": "2026-01-28T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/01/imap_swapi_l3a_proton-sw_20260127_v002.cdf"
       }
     ]
   },
@@ -14771,7 +14958,7 @@
     ],
     "logical_source": "imap_swapi_l3a_pui-he",
     "logical_source_description": "SWAPI Instrument Pickup Ion Parameters",
-    "generation_date": "2026-01-22",
+    "generation_date": "2026-01-30",
     "instrument": "SWAPI",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -15076,6 +15263,11 @@
         "start_time": "2026-01-20T00:00:00+00:00",
         "end_time": "2026-01-21T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/01/imap_swapi_l3a_pui-he_20260120_v002.cdf"
+      },
+      {
+        "start_time": "2026-01-27T00:00:00+00:00",
+        "end_time": "2026-01-28T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/01/imap_swapi_l3a_pui-he_20260127_v002.cdf"
       }
     ]
   },
@@ -15091,7 +15283,7 @@
     ],
     "logical_source": "imap_swapi_l3b_combined",
     "logical_source_description": "SWAPI Instrument Combined VDF and Differential Flux",
-    "generation_date": "2026-01-28",
+    "generation_date": "2026-01-30",
     "instrument": "SWAPI",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -15470,7 +15662,17 @@
       {
         "start_time": "2026-01-27T00:00:00+00:00",
         "end_time": "2026-01-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3b/2026/01/imap_swapi_l3b_combined_20260127_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3b/2026/01/imap_swapi_l3b_combined_20260127_v003.cdf"
+      },
+      {
+        "start_time": "2026-01-28T00:00:00+00:00",
+        "end_time": "2026-01-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3b/2026/01/imap_swapi_l3b_combined_20260128_v002.cdf"
+      },
+      {
+        "start_time": "2026-01-29T00:00:00+00:00",
+        "end_time": "2026-01-30T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3b/2026/01/imap_swapi_l3b_combined_20260129_v002.cdf"
       }
     ]
   }
