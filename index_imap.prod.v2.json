@@ -840,7 +840,7 @@
       {
         "start_time": "2026-03-21T00:00:00+00:00",
         "end_time": "2026-03-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/03/imap_mag_l1d_burst-dsrf_20260321_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/03/imap_mag_l1d_burst-dsrf_20260321_v004.cdf"
       }
     ]
   },
@@ -1685,7 +1685,7 @@
       {
         "start_time": "2026-03-21T00:00:00+00:00",
         "end_time": "2026-03-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/03/imap_mag_l1d_burst-gse_20260321_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/03/imap_mag_l1d_burst-gse_20260321_v004.cdf"
       }
     ]
   },
@@ -2530,7 +2530,7 @@
       {
         "start_time": "2026-03-21T00:00:00+00:00",
         "end_time": "2026-03-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/03/imap_mag_l1d_burst-rtn_20260321_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/03/imap_mag_l1d_burst-rtn_20260321_v004.cdf"
       }
     ]
   },
@@ -3375,7 +3375,7 @@
       {
         "start_time": "2026-03-21T00:00:00+00:00",
         "end_time": "2026-03-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/03/imap_mag_l1d_burst-srf_20260321_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/03/imap_mag_l1d_burst-srf_20260321_v004.cdf"
       }
     ]
   },
@@ -4220,7 +4220,7 @@
       {
         "start_time": "2026-03-21T00:00:00+00:00",
         "end_time": "2026-03-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/03/imap_mag_l1d_norm-dsrf_20260321_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/03/imap_mag_l1d_norm-dsrf_20260321_v004.cdf"
       }
     ]
   },
@@ -5065,7 +5065,7 @@
       {
         "start_time": "2026-03-21T00:00:00+00:00",
         "end_time": "2026-03-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/03/imap_mag_l1d_norm-gse_20260321_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/03/imap_mag_l1d_norm-gse_20260321_v004.cdf"
       }
     ]
   },
@@ -5910,7 +5910,7 @@
       {
         "start_time": "2026-03-21T00:00:00+00:00",
         "end_time": "2026-03-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/03/imap_mag_l1d_norm-rtn_20260321_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/03/imap_mag_l1d_norm-rtn_20260321_v004.cdf"
       }
     ]
   },
@@ -6755,7 +6755,7 @@
       {
         "start_time": "2026-03-21T00:00:00+00:00",
         "end_time": "2026-03-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/03/imap_mag_l1d_norm-srf_20260321_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/03/imap_mag_l1d_norm-srf_20260321_v004.cdf"
       }
     ]
   },
@@ -7342,7 +7342,12 @@
       {
         "start_time": "2026-03-22T00:00:00+00:00",
         "end_time": "2026-03-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_hi-direct-events_20260322_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_hi-direct-events_20260322_v002.cdf"
+      },
+      {
+        "start_time": "2026-03-23T00:00:00+00:00",
+        "end_time": "2026-03-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_hi-direct-events_20260323_v001.cdf"
       }
     ]
   },
@@ -7988,7 +7993,12 @@
       {
         "start_time": "2026-03-22T00:00:00+00:00",
         "end_time": "2026-03-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_hi-omni_20260322_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_hi-omni_20260322_v002.cdf"
+      },
+      {
+        "start_time": "2026-03-23T00:00:00+00:00",
+        "end_time": "2026-03-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_hi-omni_20260323_v001.cdf"
       }
     ]
   },
@@ -8620,7 +8630,12 @@
       {
         "start_time": "2026-03-22T00:00:00+00:00",
         "end_time": "2026-03-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_hi-sectored_20260322_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_hi-sectored_20260322_v002.cdf"
+      },
+      {
+        "start_time": "2026-03-23T00:00:00+00:00",
+        "end_time": "2026-03-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_hi-sectored_20260323_v001.cdf"
       }
     ]
   },
@@ -9202,7 +9217,12 @@
       {
         "start_time": "2026-03-22T00:00:00+00:00",
         "end_time": "2026-03-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_lo-direct-events_20260322_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_lo-direct-events_20260322_v002.cdf"
+      },
+      {
+        "start_time": "2026-03-23T00:00:00+00:00",
+        "end_time": "2026-03-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_lo-direct-events_20260323_v001.cdf"
       }
     ]
   },
@@ -9787,7 +9807,12 @@
       {
         "start_time": "2026-03-22T00:00:00+00:00",
         "end_time": "2026-03-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_lo-nsw-angular_20260322_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_lo-nsw-angular_20260322_v002.cdf"
+      },
+      {
+        "start_time": "2026-03-23T00:00:00+00:00",
+        "end_time": "2026-03-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_lo-nsw-angular_20260323_v001.cdf"
       }
     ]
   },
@@ -10386,7 +10411,12 @@
       {
         "start_time": "2026-03-22T00:00:00+00:00",
         "end_time": "2026-03-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_lo-nsw-species_20260322_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_lo-nsw-species_20260322_v002.cdf"
+      },
+      {
+        "start_time": "2026-03-23T00:00:00+00:00",
+        "end_time": "2026-03-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_lo-nsw-species_20260323_v001.cdf"
       }
     ]
   },
@@ -10971,7 +11001,12 @@
       {
         "start_time": "2026-03-22T00:00:00+00:00",
         "end_time": "2026-03-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_lo-sw-angular_20260322_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_lo-sw-angular_20260322_v002.cdf"
+      },
+      {
+        "start_time": "2026-03-23T00:00:00+00:00",
+        "end_time": "2026-03-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_lo-sw-angular_20260323_v001.cdf"
       }
     ]
   },
@@ -11570,7 +11605,12 @@
       {
         "start_time": "2026-03-22T00:00:00+00:00",
         "end_time": "2026-03-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_lo-sw-species_20260322_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_lo-sw-species_20260322_v002.cdf"
+      },
+      {
+        "start_time": "2026-03-23T00:00:00+00:00",
+        "end_time": "2026-03-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/03/imap_codice_l2_lo-sw-species_20260323_v001.cdf"
       }
     ]
   },
@@ -13299,7 +13339,12 @@
       {
         "start_time": "2026-03-22T00:00:00+00:00",
         "end_time": "2026-03-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/03/imap_hit_l2_macropixel-intensity_20260322_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/03/imap_hit_l2_macropixel-intensity_20260322_v002.cdf"
+      },
+      {
+        "start_time": "2026-03-23T00:00:00+00:00",
+        "end_time": "2026-03-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/03/imap_hit_l2_macropixel-intensity_20260323_v001.cdf"
       }
     ]
   },
@@ -14278,7 +14323,12 @@
       {
         "start_time": "2026-03-22T00:00:00+00:00",
         "end_time": "2026-03-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/03/imap_hit_l2_standard-intensity_20260322_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/03/imap_hit_l2_standard-intensity_20260322_v002.cdf"
+      },
+      {
+        "start_time": "2026-03-23T00:00:00+00:00",
+        "end_time": "2026-03-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/03/imap_hit_l2_standard-intensity_20260323_v001.cdf"
       }
     ]
   },
@@ -15257,7 +15307,12 @@
       {
         "start_time": "2026-03-22T00:00:00+00:00",
         "end_time": "2026-03-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/03/imap_hit_l2_summed-intensity_20260322_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/03/imap_hit_l2_summed-intensity_20260322_v002.cdf"
+      },
+      {
+        "start_time": "2026-03-23T00:00:00+00:00",
+        "end_time": "2026-03-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/03/imap_hit_l2_summed-intensity_20260323_v001.cdf"
       }
     ]
   },
@@ -17125,7 +17180,12 @@
       {
         "start_time": "2026-03-22T00:00:00+00:00",
         "end_time": "2026-03-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l2/2026/03/imap_swapi_l2_sci_20260322_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l2/2026/03/imap_swapi_l2_sci_20260322_v002.cdf"
+      },
+      {
+        "start_time": "2026-03-23T00:00:00+00:00",
+        "end_time": "2026-03-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l2/2026/03/imap_swapi_l2_sci_20260323_v001.cdf"
       }
     ]
   },
@@ -19221,7 +19281,12 @@
       {
         "start_time": "2026-03-22T00:00:00+00:00",
         "end_time": "2026-03-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/03/imap_hit_l3_direct-events_20260322_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/03/imap_hit_l3_direct-events_20260322_v002.cdf"
+      },
+      {
+        "start_time": "2026-03-23T00:00:00+00:00",
+        "end_time": "2026-03-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/03/imap_hit_l3_direct-events_20260323_v001.cdf"
       }
     ]
   },
@@ -19914,7 +19979,7 @@
       {
         "start_time": "2026-03-21T00:00:00+00:00",
         "end_time": "2026-03-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/03/imap_hit_l3_macropixel_20260321_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/03/imap_hit_l3_macropixel_20260321_v004.cdf"
       }
     ]
   },
@@ -21554,7 +21619,12 @@
       {
         "start_time": "2026-03-22T00:00:00+00:00",
         "end_time": "2026-03-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/03/imap_codice_l3a_hi-direct-events_20260322_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/03/imap_codice_l3a_hi-direct-events_20260322_v002.cdf"
+      },
+      {
+        "start_time": "2026-03-23T00:00:00+00:00",
+        "end_time": "2026-03-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/03/imap_codice_l3a_hi-direct-events_20260323_v001.cdf"
       }
     ]
   },
@@ -21564,98 +21634,98 @@
         "variable_name": "cplus4_partial_density",
         "catalog_description": "Partial density of C+4",
         "display_type": "time_series",
-        "units": "?",
+        "units": "#/cm^3",
         "axis_label": "C+4 N"
       },
       {
         "variable_name": "cplus5_partial_density",
         "catalog_description": "Partial density of C+5",
         "display_type": "time_series",
-        "units": "?",
+        "units": "#/cm^3",
         "axis_label": "C+5 N"
       },
       {
         "variable_name": "cplus6_partial_density",
         "catalog_description": "Partial density of C+6",
         "display_type": "time_series",
-        "units": "?",
+        "units": "#/cm^3",
         "axis_label": "C+6 N"
       },
       {
         "variable_name": "fe_hiq_partial_density",
         "catalog_description": "Partial density of Fe (high Q)",
         "display_type": "time_series",
-        "units": "?",
+        "units": "#/cm^3",
         "axis_label": "Fe (high Q) N"
       },
       {
         "variable_name": "fe_loq_partial_density",
         "catalog_description": "Partial density of Fe (low Q)",
         "display_type": "time_series",
-        "units": "?",
+        "units": "#/cm^3",
         "axis_label": "Fe (low Q) N"
       },
       {
         "variable_name": "hplus_partial_density",
         "catalog_description": "Partial density of H+",
         "display_type": "time_series",
-        "units": "?",
+        "units": "#/cm^3",
         "axis_label": "H+ N"
       },
       {
         "variable_name": "heplusplus_partial_density",
         "catalog_description": "Partial density of He++",
         "display_type": "time_series",
-        "units": "?",
+        "units": "#/cm^3",
         "axis_label": "He++ N"
       },
       {
         "variable_name": "mg_partial_density",
         "catalog_description": "Partial density of Mg",
         "display_type": "time_series",
-        "units": "?",
+        "units": "#/cm^3",
         "axis_label": "Mg N"
       },
       {
         "variable_name": "ne_partial_density",
         "catalog_description": "Partial density of Ne",
         "display_type": "time_series",
-        "units": "?",
+        "units": "#/cm^3",
         "axis_label": "Ne N"
       },
       {
         "variable_name": "oplus5_partial_density",
         "catalog_description": "Partial density of O+5",
         "display_type": "time_series",
-        "units": "?",
+        "units": "#/cm^3",
         "axis_label": "O+5 N"
       },
       {
         "variable_name": "oplus6_partial_density",
         "catalog_description": "Partial density of O+6",
         "display_type": "time_series",
-        "units": "?",
+        "units": "#/cm^3",
         "axis_label": "O+6 N"
       },
       {
         "variable_name": "oplus7_partial_density",
         "catalog_description": "Partial density of O+7",
         "display_type": "time_series",
-        "units": "?",
+        "units": "#/cm^3",
         "axis_label": "O+7 N"
       },
       {
         "variable_name": "oplus8_partial_density",
         "catalog_description": "Partial density of O+8",
         "display_type": "time_series",
-        "units": "?",
+        "units": "#/cm^3",
         "axis_label": "O+8 N"
       },
       {
         "variable_name": "si_partial_density",
         "catalog_description": "Partial density of Si",
         "display_type": "time_series",
-        "units": "?",
+        "units": "#/cm^3",
         "axis_label": "Si N"
       }
     ],
@@ -22230,7 +22300,12 @@
       {
         "start_time": "2026-03-22T00:00:00+00:00",
         "end_time": "2026-03-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/03/imap_codice_l3a_lo-partial-densities_20260322_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/03/imap_codice_l3a_lo-partial-densities_20260322_v002.cdf"
+      },
+      {
+        "start_time": "2026-03-23T00:00:00+00:00",
+        "end_time": "2026-03-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/03/imap_codice_l3a_lo-partial-densities_20260323_v001.cdf"
       }
     ]
   },
@@ -22822,7 +22897,12 @@
       {
         "start_time": "2026-03-22T00:00:00+00:00",
         "end_time": "2026-03-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/03/imap_codice_l3a_lo-sw-charge-state-distributions_20260322_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/03/imap_codice_l3a_lo-sw-charge-state-distributions_20260322_v002.cdf"
+      },
+      {
+        "start_time": "2026-03-23T00:00:00+00:00",
+        "end_time": "2026-03-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/03/imap_codice_l3a_lo-sw-charge-state-distributions_20260323_v001.cdf"
       }
     ]
   },
@@ -23449,7 +23529,230 @@
       {
         "start_time": "2026-03-22T00:00:00+00:00",
         "end_time": "2026-03-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/03/imap_codice_l3a_lo-sw-ratios_20260322_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/03/imap_codice_l3a_lo-sw-ratios_20260322_v002.cdf"
+      },
+      {
+        "start_time": "2026-03-23T00:00:00+00:00",
+        "end_time": "2026-03-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/03/imap_codice_l3a_lo-sw-ratios_20260323_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "apd_id",
+        "catalog_description": "APD ID",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "APD ID"
+      },
+      {
+        "variable_name": "apd_energy",
+        "catalog_description": "Deposited energy at APD",
+        "display_type": "spectrogram",
+        "units": "keV",
+        "axis_label": "APD Energy"
+      },
+      {
+        "variable_name": "energy_step",
+        "catalog_description": "Energy Step Index",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Energy Step"
+      },
+      {
+        "variable_name": "nso_esa_step",
+        "catalog_description": "Energy Step When No Scan Operation (NSO) was activated",
+        "display_type": "time_series",
+        "units": "energy step",
+        "axis_label": "NSO Energy Step"
+      },
+      {
+        "variable_name": "rgfo_esa_step",
+        "catalog_description": "Energy Step When Reduced Gain Factor Operation (RGFO) was activated",
+        "display_type": "time_series",
+        "units": "energy step",
+        "axis_label": "RGFO Energy Step"
+      },
+      {
+        "variable_name": "gain",
+        "catalog_description": "Gain",
+        "display_type": "spectrogram",
+        "units": "",
+        "axis_label": "Gain"
+      },
+      {
+        "variable_name": "mass",
+        "catalog_description": "Mass of event",
+        "display_type": "spectrogram",
+        "units": "amu",
+        "axis_label": "m"
+      },
+      {
+        "variable_name": "mass_per_charge",
+        "catalog_description": "Mass per charge of event",
+        "display_type": "spectrogram",
+        "units": "amu/q",
+        "axis_label": "m/q"
+      },
+      {
+        "variable_name": "multi_flag",
+        "catalog_description": "Multi flag",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Multi flag"
+      },
+      {
+        "variable_name": "normalization",
+        "catalog_description": "Normalization factor",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Normalization"
+      },
+      {
+        "variable_name": "normalization_per_event",
+        "catalog_description": "Normalization per event",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Normalization"
+      },
+      {
+        "variable_name": "num_events",
+        "catalog_description": "Number of events",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Num. events"
+      },
+      {
+        "variable_name": "nso_spin_sector",
+        "catalog_description": "Spin Sector When No Scan Operation (NSO) was activated",
+        "display_type": "time_series",
+        "units": "spin sector",
+        "axis_label": "NSO Spin Sector"
+      },
+      {
+        "variable_name": "rgfo_spin_sector",
+        "catalog_description": "Spin Sector When Reduced Gain Factor Operation (RGFO) was activated",
+        "display_type": "time_series",
+        "units": "spin sector",
+        "axis_label": "RGFO Spin Sector"
+      },
+      {
+        "variable_name": "tof",
+        "catalog_description": "Time of flight",
+        "display_type": "spectrogram",
+        "units": "ns",
+        "axis_label": "TOF"
+      }
+    ],
+    "logical_source": "imap_codice_l3a_lo-direct-events",
+    "logical_source_description": "IMAP Mission CoDICE Lo Instrument Direct Events",
+    "generation_date": "2026-03-23",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-03-22T00:00:00+00:00",
+        "end_time": "2026-03-23T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/03/imap_codice_l3a_lo-direct-events_20260322_v001.cdf"
+      },
+      {
+        "start_time": "2026-03-23T00:00:00+00:00",
+        "end_time": "2026-03-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/03/imap_codice_l3a_lo-direct-events_20260323_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "heplus",
+        "catalog_description": "He+ Intensity 3d distribution",
+        "display_type": "spectrogram",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "He+ Intensity"
+      }
+    ],
+    "logical_source": "imap_codice_l3a_lo-heplus-3d-distribution",
+    "logical_source_description": "IMAP Mission CoDICE Lo He+ 3d Instrument Frame Distributions",
+    "generation_date": "2026-03-23",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-03-22T00:00:00+00:00",
+        "end_time": "2026-03-23T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/03/imap_codice_l3a_lo-heplus-3d-distribution_20260322_v001.cdf"
+      },
+      {
+        "start_time": "2026-03-23T00:00:00+00:00",
+        "end_time": "2026-03-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/03/imap_codice_l3a_lo-heplus-3d-distribution_20260323_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "hplus",
+        "catalog_description": "H+ Intensity 3d distribution",
+        "display_type": "spectrogram",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "H+ Intensity"
+      }
+    ],
+    "logical_source": "imap_codice_l3a_lo-hplus-3d-distribution",
+    "logical_source_description": "IMAP Mission CoDICE Lo H+ 3d Instrument Frame Distributions",
+    "generation_date": "2026-03-23",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-03-22T00:00:00+00:00",
+        "end_time": "2026-03-23T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/03/imap_codice_l3a_lo-hplus-3d-distribution_20260322_v001.cdf"
+      },
+      {
+        "start_time": "2026-03-23T00:00:00+00:00",
+        "end_time": "2026-03-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/03/imap_codice_l3a_lo-hplus-3d-distribution_20260323_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "oplus6",
+        "catalog_description": "0+6 Intensity 3d distribution",
+        "display_type": "spectrogram",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "0+6 Intensity"
+      }
+    ],
+    "logical_source": "imap_codice_l3a_lo-oplus6-3d-distribution",
+    "logical_source_description": "IMAP Mission CoDICE Lo O+6 3d Instrument Frame Distributions",
+    "generation_date": "2026-03-23",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-03-22T00:00:00+00:00",
+        "end_time": "2026-03-23T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/03/imap_codice_l3a_lo-oplus6-3d-distribution_20260322_v001.cdf"
+      },
+      {
+        "start_time": "2026-03-23T00:00:00+00:00",
+        "end_time": "2026-03-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/03/imap_codice_l3a_lo-oplus6-3d-distribution_20260323_v001.cdf"
       }
     ]
   },
@@ -24118,7 +24421,12 @@
       {
         "start_time": "2026-03-22T00:00:00+00:00",
         "end_time": "2026-03-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/03/imap_swapi_l3a_alpha-sw_20260322_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/03/imap_swapi_l3a_alpha-sw_20260322_v002.cdf"
+      },
+      {
+        "start_time": "2026-03-23T00:00:00+00:00",
+        "end_time": "2026-03-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/03/imap_swapi_l3a_alpha-sw_20260323_v001.cdf"
       }
     ]
   },
@@ -24801,7 +25109,7 @@
       {
         "start_time": "2026-03-22T00:00:00+00:00",
         "end_time": "2026-03-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/03/imap_swapi_l3a_proton-sw_20260322_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/03/imap_swapi_l3a_proton-sw_20260322_v002.cdf"
       }
     ]
   },
@@ -25491,7 +25799,7 @@
       {
         "start_time": "2026-03-22T00:00:00+00:00",
         "end_time": "2026-03-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/03/imap_swapi_l3a_pui-he_20260322_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/03/imap_swapi_l3a_pui-he_20260322_v002.cdf"
       }
     ]
   },
@@ -26080,7 +26388,7 @@
       {
         "start_time": "2026-03-21T00:00:00+00:00",
         "end_time": "2026-03-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3b/2026/03/imap_codice_l3b_hi-pitch-angle_20260321_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3b/2026/03/imap_codice_l3b_hi-pitch-angle_20260321_v004.cdf"
       }
     ]
   },
@@ -26735,7 +27043,12 @@
       {
         "start_time": "2026-03-22T00:00:00+00:00",
         "end_time": "2026-03-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3b/2026/03/imap_swapi_l3b_combined_20260322_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3b/2026/03/imap_swapi_l3b_combined_20260322_v002.cdf"
+      },
+      {
+        "start_time": "2026-03-23T00:00:00+00:00",
+        "end_time": "2026-03-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3b/2026/03/imap_swapi_l3b_combined_20260323_v001.cdf"
       }
     ]
   }
