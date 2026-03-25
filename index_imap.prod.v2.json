@@ -18371,7 +18371,7 @@
     ],
     "logical_source": "imap_idex_l2b_sci-1mo",
     "logical_source_description": "IMAP Mission IDEX Instrument Level-2B Monthly Data",
-    "generation_date": "2026-03-02",
+    "generation_date": "2026-03-25",
     "instrument": "IDEX",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -18381,6 +18381,11 @@
         "start_time": "2025-12-24T00:00:00+00:00",
         "end_time": "2025-12-25T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2b/2025/12/imap_idex_l2b_sci-1mo_20251224_v001.cdf"
+      },
+      {
+        "start_time": "2026-01-24T00:00:00+00:00",
+        "end_time": "2026-01-25T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2b/2026/01/imap_idex_l2b_sci-1mo_20260124_v001.cdf"
       }
     ]
   },
@@ -18424,7 +18429,7 @@
     ],
     "logical_source": "imap_idex_l2c_rectangular-map-1mo",
     "logical_source_description": "IMAP Mission IDEX Instrument Level-2C Rectangular Map Monthly Data",
-    "generation_date": "2026-03-02",
+    "generation_date": "2026-03-25",
     "instrument": "IDEX",
     "mission": "IMAP",
     "file_cadence": "daily",
@@ -18434,6 +18439,11 @@
         "start_time": "2025-12-24T00:00:00+00:00",
         "end_time": "2025-12-25T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2c/2025/12/imap_idex_l2c_rectangular-map-1mo_20251224_v001.cdf"
+      },
+      {
+        "start_time": "2026-01-24T00:00:00+00:00",
+        "end_time": "2026-01-25T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2c/2026/01/imap_idex_l2c_rectangular-map-1mo_20260124_v001.cdf"
       }
     ]
   },
