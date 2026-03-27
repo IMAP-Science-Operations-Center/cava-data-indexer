@@ -34,17 +34,13 @@ jobs:
     - uses: actions/checkout@v4
       with:
         ref: main
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v3
+    - name: Set up uv
+      uses: astral-sh/setup-uv@v5
       with:
-        python-version: "3.10"
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        python-version: "3.13"
     - name: Run Index
       run: |
-        python main.py ${{matrix.indexer_type}}
+        uv run main.py ${{matrix.indexer_type}}
     - name: Commit and Push
       run: |
         git pull

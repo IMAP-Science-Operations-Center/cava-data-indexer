@@ -1,7 +1,7 @@
 import unittest
 from datetime import datetime, timezone
 
-from data_indexer.file_cadence.map_file_cadence import MapFileCadence, BadFileNameException
+from data_indexer.file_cadence.map_file_cadence import BadFileNameError, MapFileCadence
 
 
 class TestMapFileCadence(unittest.TestCase):
@@ -10,7 +10,7 @@ class TestMapFileCadence(unittest.TestCase):
             (MapFileCadence("6mo"), "six_month_map"),
             (MapFileCadence("1yr"), "one_year_map"),
             (MapFileCadence("1mo"), "one_month_map"),
-            (MapFileCadence("3mo"), "three_month_map")
+            (MapFileCadence("3mo"), "three_month_map"),
         ]
 
         for cadence, expected_name in cases:
@@ -19,10 +19,26 @@ class TestMapFileCadence(unittest.TestCase):
 
     def test_get_file_time_range(self):
         cases = [
-            (MapFileCadence("6mo"), datetime(2025, 7, 1, tzinfo=timezone.utc), datetime(2025, 12, 30, 15, tzinfo=timezone.utc)),
-            (MapFileCadence("1mo"), datetime(2025, 1, 1, tzinfo=timezone.utc), datetime(2025, 1, 31, 10, 30, tzinfo=timezone.utc)),
-            (MapFileCadence("3mo"), datetime(2025, 1, 1, tzinfo=timezone.utc), datetime(2025, 4, 2, 7, 30, tzinfo=timezone.utc)),
-            (MapFileCadence("1yr"), datetime(2025, 1, 1, tzinfo=timezone.utc), datetime(2026, 1, 1, 6, tzinfo=timezone.utc)),
+            (
+                MapFileCadence("6mo"),
+                datetime(2025, 7, 1, tzinfo=timezone.utc),
+                datetime(2025, 12, 30, 15, tzinfo=timezone.utc),
+            ),
+            (
+                MapFileCadence("1mo"),
+                datetime(2025, 1, 1, tzinfo=timezone.utc),
+                datetime(2025, 1, 31, 10, 30, tzinfo=timezone.utc),
+            ),
+            (
+                MapFileCadence("3mo"),
+                datetime(2025, 1, 1, tzinfo=timezone.utc),
+                datetime(2025, 4, 2, 7, 30, tzinfo=timezone.utc),
+            ),
+            (
+                MapFileCadence("1yr"),
+                datetime(2025, 1, 1, tzinfo=timezone.utc),
+                datetime(2026, 1, 1, 6, tzinfo=timezone.utc),
+            ),
         ]
 
         for cadence, start_time, expected_end_time in cases:
@@ -33,6 +49,6 @@ class TestMapFileCadence(unittest.TestCase):
                 self.assertEqual(expected_end_time, actual_end_time)
 
     def test_throws_exception_on_bad_cadence(self):
-        with self.assertRaises(BadFileNameException) as context:
+        with self.assertRaises(BadFileNameError) as context:
             MapFileCadence("bad")
         self.assertIn("Cannot parse map with cadence: bad", str(context.exception))

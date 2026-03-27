@@ -8,15 +8,19 @@ from data_indexer.cdf_parser.variable_selector.variable_selector import Variable
 class TestMultiDimensionVariableSelector(TestCase):
     def setUp(self) -> None:
         self.mock_cdf = Mock()
-        self.mock_cdf.attrs = {'Data_version': "99", 'Logical_source': "lsource",
-                               "Descriptor": "ISOIS-EPILO>Integrated Science Investigation of the Sun, Energetic Particle Instrument Lo"}
+        self.mock_cdf.attrs = {
+            "Data_version": "99",
+            "Logical_source": "lsource",
+            "Descriptor": "ISOIS-EPILO>Integrated Science Investigation of the Sun, Energetic Particle Instrument Lo",
+        }
         mock_time_column_good = Mock()
-        mock_time_column_good.attrs = {'UNITS': 'ns'}
+        mock_time_column_good.attrs = {"UNITS": "ns"}
         mock_time_column_unknown = Mock()
-        mock_time_column_unknown.attrs = {'UNITS': 'unknown'}
+        mock_time_column_unknown.attrs = {"UNITS": "unknown"}
         cdf_items = {"time_col_good": mock_time_column_good, "time_col_unknown": mock_time_column_unknown}
         self.mock_cdf.__getitem__ = Mock()
         self.mock_cdf.__getitem__.side_effect = lambda key: cdf_items[key]
+
     def test_is_subclass_of_variable_selector(self):
         self.assertTrue(issubclass(MultiDimensionVariableSelector, VariableSelector))
 
@@ -29,7 +33,7 @@ class TestMultiDimensionVariableSelector(TestCase):
             "DEPEND_0": "time_col_good",
             "SCALETYP": "linear",
             "SCALEMIN": 1,
-            "DISPLAY_TYPE": 'time_series'
+            "DISPLAY_TYPE": "time_series",
         }
         accepted_variable.shape = (1,)
 
@@ -44,9 +48,9 @@ class TestMultiDimensionVariableSelector(TestCase):
             "DEPEND_0": "time_col_good",
             "SCALETYP": "linear",
             "SCALEMIN": 1,
-            "DISPLAY_TYPE": 'time_series'
+            "DISPLAY_TYPE": "time_series",
         }
-        accepted_variable.shape = (1,2)
+        accepted_variable.shape = (1, 2)
 
         self.assertTrue(MultiDimensionVariableSelector.should_include(accepted_variable, self.mock_cdf))
 
@@ -59,12 +63,11 @@ class TestMultiDimensionVariableSelector(TestCase):
             "DEPEND_0": "time_col_good",
             "SCALETYP": "linear",
             "SCALEMIN": 1,
-            "DISPLAY_TYPE": 'time_series'
+            "DISPLAY_TYPE": "time_series",
         }
         variable.shape = (1, 2, 1)
 
         self.assertFalse(MultiDimensionVariableSelector.should_include(variable, self.mock_cdf))
-
 
     def test_accepts_two_dimensional_spectrogram(self):
         accepted_variable = Mock()
@@ -75,9 +78,9 @@ class TestMultiDimensionVariableSelector(TestCase):
             "DEPEND_0": "time_col_good",
             "SCALETYP": "linear",
             "SCALEMIN": 1,
-            "DISPLAY_TYPE": 'spectrogram'
+            "DISPLAY_TYPE": "spectrogram",
         }
-        accepted_variable.shape = (999,23)
+        accepted_variable.shape = (999, 23)
 
         self.assertTrue(MultiDimensionVariableSelector.should_include(accepted_variable, self.mock_cdf))
 
@@ -90,9 +93,9 @@ class TestMultiDimensionVariableSelector(TestCase):
             "DEPEND_0": "time_col_good",
             "SCALETYP": "linear",
             "SCALEMIN": 1,
-            "DISPLAY_TYPE": 'spectrogram'
+            "DISPLAY_TYPE": "spectrogram",
         }
-        accepted_variable.shape = (8,999,23)
+        accepted_variable.shape = (8, 999, 23)
 
         self.assertTrue(MultiDimensionVariableSelector.should_include(accepted_variable, self.mock_cdf))
 
@@ -105,9 +108,9 @@ class TestMultiDimensionVariableSelector(TestCase):
             "DEPEND_0": "time_col_good",
             "SCALETYP": "linear",
             "SCALEMIN": 1,
-            "DISPLAY_TYPE": 'spectrogram'
+            "DISPLAY_TYPE": "spectrogram",
         }
-        variable.shape = (5,6,7,8)
+        variable.shape = (5, 6, 7, 8)
 
         self.assertFalse(MultiDimensionVariableSelector.should_include(variable, self.mock_cdf))
 
@@ -120,7 +123,7 @@ class TestMultiDimensionVariableSelector(TestCase):
             "DEPEND_0": "time_col_good",
             "SCALETYP": "log",
             "SCALEMIN": 0,
-            "DISPLAY_TYPE": 'time_series'
+            "DISPLAY_TYPE": "time_series",
         }
         var_with_invalid_log_scalemin.shape = (1,)
 
@@ -135,7 +138,7 @@ class TestMultiDimensionVariableSelector(TestCase):
             "DEPEND_0": "time_col_unknown",
             "SCALETYP": "linear",
             "SCALEMIN": 1,
-            "DISPLAY_TYPE": 'time_series'
+            "DISPLAY_TYPE": "time_series",
         }
         var_with_unknown_time_unit.shape = (1,)
 

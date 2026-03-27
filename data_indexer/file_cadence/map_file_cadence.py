@@ -1,9 +1,9 @@
-from datetime import timedelta, datetime
+from datetime import datetime, timedelta
 
 from data_indexer.file_cadence.file_cadence import FileCadence
 
 
-class BadFileNameException(Exception):
+class BadFileNameError(Exception):
     pass
 
 
@@ -18,7 +18,7 @@ class MapFileCadence(FileCadence):
             "1yr": ("one_year_map", one_year),
         }
         if duration not in duration_to_name_and_timedelta:
-            raise BadFileNameException(f"Cannot parse map with cadence: {duration}")
+            raise BadFileNameError(f"Cannot parse map with cadence: {duration}")
 
         self._name, self._duration = duration_to_name_and_timedelta.get(duration)
 

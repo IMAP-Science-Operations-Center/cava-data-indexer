@@ -7,7 +7,7 @@ from typing import List
 from spacepy import pycdf
 
 from data_indexer.cdf_parser.cdf_global_parser import CdfGlobalInfo, CdfGlobalParser
-from data_indexer.cdf_parser.cdf_variable_parser import CdfVariableParser, CdfVariableInfo
+from data_indexer.cdf_parser.cdf_variable_parser import CdfVariableInfo, CdfVariableParser
 from data_indexer.cdf_parser.variable_selector.variable_selector import VariableSelector
 
 
@@ -18,11 +18,10 @@ class CdfFileInfo:
 
 
 class CdfParser:
-
     @staticmethod
     def parse_cdf_bytes(cdf_bytes: bytes, variable_selector: type[VariableSelector]) -> CdfFileInfo:
         with tempfile.TemporaryDirectory() as tmp_dir:
-            with open(os.path.join(tmp_dir, 'temp.cdf'), 'wb') as tmp_file:
+            with open(os.path.join(tmp_dir, "temp.cdf"), "wb") as tmp_file:
                 tmp_file.write(cdf_bytes)
             return CdfParser.parse_cdf(tmp_file.name, variable_selector)
 

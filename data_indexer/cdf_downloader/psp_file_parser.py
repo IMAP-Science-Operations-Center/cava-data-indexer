@@ -1,9 +1,9 @@
 from datetime import datetime, timezone
-from typing import Dict, List, Tuple, NamedTuple
+from typing import Dict, List, NamedTuple, Tuple
 
 from bs4 import BeautifulSoup
 
-from data_indexer.http_client import http_client, get_with_retry
+from data_indexer.http_client import get_with_retry
 
 
 class PspFileInfo(NamedTuple):
@@ -13,11 +13,11 @@ class PspFileInfo(NamedTuple):
 
     @property
     def version(self) -> int:
-        return int(self.name.split('_v')[-1].split('.')[0])
+        return int(self.name.split("_v")[-1].split(".")[0])
 
     @property
     def start_date(self) -> datetime:
-        return datetime.strptime(self.name.split('_')[-2], "%Y%m%d").replace(tzinfo=timezone.utc)
+        return datetime.strptime(self.name.split("_")[-2], "%Y%m%d").replace(tzinfo=timezone.utc)
 
 
 class PspFileParser:
@@ -27,17 +27,19 @@ class PspFileParser:
             file_infos_by_mode = {}
         list_of_links = PspFileParser._get_all_links(url)
         for link, element_text in list_of_links:
-            if element_text.strip().endswith('.cdf'):
-                year = url.split('/')[-2]
+            if element_text.strip().endswith(".cdf"):
+                year = url.split("/")[-2]
                 PspFileParser._add_cdf_link_to_file_infos(element_text, link, file_infos_by_mode, top_level_link, year)
             else:
-                file_infos_by_mode = PspFileParser.get_dictionary_of_files(url + link, file_infos_by_mode,
-                                                                           link if top_level_link is None else top_level_link)
+                file_infos_by_mode = PspFileParser.get_dictionary_of_files(
+                    url + link, file_infos_by_mode, link if top_level_link is None else top_level_link
+                )
         return file_infos_by_mode
 
     @staticmethod
-    def _add_cdf_link_to_file_infos(element_text: str, link: str, file_infos_by_mode: Dict[str, List[PspFileInfo]],
-                                    top_level_link: str, year: str):
+    def _add_cdf_link_to_file_infos(
+        element_text: str, link: str, file_infos_by_mode: Dict[str, List[PspFileInfo]], top_level_link: str, year: str
+    ):
         new_link = PspFileInfo(link, element_text, year)
         if top_level_link in file_infos_by_mode:
             file_infos_by_mode[top_level_link].append(new_link)
@@ -50,9 +52,9 @@ class PspFileParser:
         text = response.text
         list_of_links = []
 
-        soup = BeautifulSoup(text, 'html.parser')
+        soup = BeautifulSoup(text, "html.parser")
         for a_tag in soup.select("td > a")[1:]:
-            link = a_tag.get('href')
+            link = a_tag.get("href")
             element_text = a_tag.text
             list_of_links.append((link, element_text))
         return list_of_links

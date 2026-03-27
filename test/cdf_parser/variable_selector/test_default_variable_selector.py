@@ -9,12 +9,15 @@ from data_indexer.cdf_parser.variable_selector.default_variable_selector import 
 class TestDefaultVariableSelector(unittest.TestCase):
     def setUp(self) -> None:
         self.mock_cdf = Mock()
-        self.mock_cdf.attrs = {'Data_version': "99", 'Logical_source': "lsource",
-                               "Descriptor": "ISOIS-EPILO>Integrated Science Investigation of the Sun, Energetic Particle Instrument Lo"}
+        self.mock_cdf.attrs = {
+            "Data_version": "99",
+            "Logical_source": "lsource",
+            "Descriptor": "ISOIS-EPILO>Integrated Science Investigation of the Sun, Energetic Particle Instrument Lo",
+        }
         mock_time_column_good = Mock()
-        mock_time_column_good.attrs = {'UNITS': 'ns'}
+        mock_time_column_good.attrs = {"UNITS": "ns"}
         mock_time_column_unknown = Mock()
-        mock_time_column_unknown.attrs = {'UNITS': 'unknown'}
+        mock_time_column_unknown.attrs = {"UNITS": "unknown"}
         cdf_items = {"time_col_good": mock_time_column_good, "time_col_unknown": mock_time_column_unknown}
         self.mock_cdf.__getitem__ = Mock()
         self.mock_cdf.__getitem__.side_effect = lambda key: cdf_items[key]
@@ -28,10 +31,10 @@ class TestDefaultVariableSelector(unittest.TestCase):
             "DEPEND_0": "time_col_good",
             "SCALETYP": "linear",
             "SCALEMIN": 1,
-            "DISPLAY_TYPE": 'time_series'
+            "DISPLAY_TYPE": "time_series",
         }
 
-        shapes = [(1,), (1,2)]
+        shapes = [(1,), (1, 2)]
         for shape in shapes:
             with self.subTest(shape):
                 accepted_variable.shape = shape
@@ -46,7 +49,7 @@ class TestDefaultVariableSelector(unittest.TestCase):
             "DEPEND_0": "time_col_good",
             "SCALETYP": "log",
             "SCALEMIN": 1,
-            "DISPLAY_TYPE": 'spectrogram'
+            "DISPLAY_TYPE": "spectrogram",
         }
         accepted_variable.shape = (1, 2)
 
@@ -61,7 +64,7 @@ class TestDefaultVariableSelector(unittest.TestCase):
             "DEPEND_0": "time_col_good",
             "SCALETYP": "log",
             "SCALEMIN": 1,
-            "DISPLAY_TYPE": 'spectrogram'
+            "DISPLAY_TYPE": "spectrogram",
         }
         accepted_variable.shape = (1, 2, 3)
 
@@ -76,7 +79,7 @@ class TestDefaultVariableSelector(unittest.TestCase):
             "DEPEND_0": "time_col_good",
             "SCALETYP": "log",
             "SCALEMIN": 1,
-            "DISPLAY_TYPE": 'spectrogram'
+            "DISPLAY_TYPE": "spectrogram",
         }
         accepted_variable.shape = (1, 2, 3, 4)
 
@@ -91,7 +94,7 @@ class TestDefaultVariableSelector(unittest.TestCase):
             "DEPEND_0": "time_col_good",
             "SCALETYP": "linear",
             "SCALEMIN": 1,
-            "DISPLAY_TYPE": 'spectrogram'
+            "DISPLAY_TYPE": "spectrogram",
         }
         bad_shape_variable_spectrogram.shape = (9,)
 
@@ -106,9 +109,9 @@ class TestDefaultVariableSelector(unittest.TestCase):
             "DEPEND_0": "time_col_good",
             "SCALETYP": "linear",
             "SCALEMIN": 1,
-            "DISPLAY_TYPE": 'no_plot'
+            "DISPLAY_TYPE": "no_plot",
         }
-        no_plot_variable.shape = (1,2)
+        no_plot_variable.shape = (1, 2)
 
         self.assertFalse(DefaultVariableSelector.should_include(no_plot_variable, self.mock_cdf))
 
@@ -121,7 +124,7 @@ class TestDefaultVariableSelector(unittest.TestCase):
             "DEPEND_0": "time_col_good",
             "SCALETYP": "log",
             "SCALEMIN": 0,
-            "DISPLAY_TYPE": 'time_series'
+            "DISPLAY_TYPE": "time_series",
         }
         var_with_invalid_log_scalemin.shape = (1,)
 
@@ -135,7 +138,7 @@ class TestDefaultVariableSelector(unittest.TestCase):
             "FIELDNAM": "something",
             "DEPEND_0": "time_col_unknown",
             "SCALETYP": "linear",
-            "DISPLAY_TYPE": 'time_series'
+            "DISPLAY_TYPE": "time_series",
         }
         var_with_missing_scalemin.shape = (1,)
 
@@ -150,14 +153,14 @@ class TestDefaultVariableSelector(unittest.TestCase):
             "DEPEND_0": "time_col_unknown",
             "SCALETYP": "linear",
             "SCALEMIN": 1,
-            "DISPLAY_TYPE": 'time_series'
+            "DISPLAY_TYPE": "time_series",
         }
         var_with_unknown_time_unit.shape = (1,)
 
         self.assertFalse(DefaultVariableSelector.should_include(var_with_unknown_time_unit, self.mock_cdf))
 
     def test_does_accepts_map_variable(self):
-        cases = ['image', 'map_image', 'plasmagram']
+        cases = ["image", "map_image", "plasmagram"]
         for display_type in cases:
             with self.subTest(display_type=display_type):
                 map_variable = Mock()
@@ -168,7 +171,7 @@ class TestDefaultVariableSelector(unittest.TestCase):
                     "DEPEND_0": "time_col_good",
                     "SCALETYP": "linear",
                     "SCALEMIN": 1,
-                    "DISPLAY_TYPE": f'{display_type}'
+                    "DISPLAY_TYPE": f"{display_type}",
                 }
                 map_variable.shape = (1, 2, 3, 4)
 
@@ -182,7 +185,7 @@ class TestDefaultVariableSelector(unittest.TestCase):
             "FIELDNAM": "something",
             "SCALETYP": "linear",
             "SCALEMIN": 1,
-            "DISPLAY_TYPE": 'image'
+            "DISPLAY_TYPE": "image",
         }
         missing_depend_0_variable.shape = (1, 2, 3, 4)
 
@@ -197,13 +200,14 @@ class TestDefaultVariableSelector(unittest.TestCase):
             "FIELDNAM": "something",
             "SCALETYP": "linear",
             "SCALEMIN": 1,
-            "DISPLAY_TYPE": 'image',
-            "UNITS": "ns"
+            "DISPLAY_TYPE": "image",
+            "UNITS": "ns",
         }
         missing_depend_0_variable.type.return_value = pycdf.const.CDF_TIME_TT2000.value
         missing_depend_0_variable.shape = (1, 2, 3, 4)
 
         self.assertFalse(DefaultVariableSelector.should_include(missing_depend_0_variable, self.mock_cdf))
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()

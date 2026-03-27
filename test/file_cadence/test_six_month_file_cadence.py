@@ -1,12 +1,10 @@
 from datetime import datetime
 from unittest import TestCase
 
-
 from data_indexer.file_cadence.six_month_file_cadence import SixMonthFileCadence
 
 
 class TestSixMonthFileCadence(TestCase):
-
     def test_get_file_time_range(self):
         cases = [
             (datetime(2023, 1, 1, 0, 0, 0), (datetime(2023, 1, 1), datetime(2023, 7, 1))),

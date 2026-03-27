@@ -1,32 +1,31 @@
 import os
 import unittest
 from pathlib import Path
-from unittest.mock import patch, Mock
+from unittest.mock import Mock, patch
 
-from data_indexer.cdf_parser.cdf_parser import CdfParser, CdfFileInfo
+from data_indexer.cdf_parser.cdf_parser import CdfFileInfo, CdfParser
 from data_indexer.cdf_parser.variable_selector.default_variable_selector import DefaultVariableSelector
-from data_indexer.cdf_parser.variable_selector.variable_selector import VariableSelector
 
 
 class TestCdfParser(unittest.TestCase):
-
-    @patch('data_indexer.cdf_parser.cdf_parser.tempfile.TemporaryDirectory')
-    @patch('data_indexer.cdf_parser.cdf_parser.CdfGlobalParser')
-    @patch('data_indexer.cdf_parser.cdf_parser.CdfVariableParser')
-    @patch('data_indexer.cdf_parser.cdf_parser.pycdf')
-    def test_parses_global_info_and_variable_info(self, mock_pycdf, mock_variable_parser, mock_global_parser,
-                                                  mock_temp_directory):
-        mock_temp_directory_name = './test_data_for_cdf_parser/'
+    @patch("data_indexer.cdf_parser.cdf_parser.tempfile.TemporaryDirectory")
+    @patch("data_indexer.cdf_parser.cdf_parser.CdfGlobalParser")
+    @patch("data_indexer.cdf_parser.cdf_parser.CdfVariableParser")
+    @patch("data_indexer.cdf_parser.cdf_parser.pycdf")
+    def test_parses_global_info_and_variable_info(
+        self, mock_pycdf, mock_variable_parser, mock_global_parser, mock_temp_directory
+    ):
+        mock_temp_directory_name = "./test_data_for_cdf_parser/"
         os.makedirs(mock_temp_directory_name, exist_ok=True)
         mock_temp_directory.return_value.__enter__.return_value = mock_temp_directory_name
 
         mock_cdf = mock_pycdf.CDF.return_value.__enter__.return_value
 
-        expected_temp_file_name = './test_data_for_cdf_parser/temp.cdf'
+        expected_temp_file_name = "./test_data_for_cdf_parser/temp.cdf"
 
         self.assertTrue(os.path.isdir(mock_temp_directory_name))
         self.assertFalse(os.path.exists(expected_temp_file_name))
-        mock_cdf_bytes = b'cdf bytes'
+        mock_cdf_bytes = b"cdf bytes"
         mock_variable_selector = Mock()
 
         output = CdfParser.parse_cdf_bytes(mock_cdf_bytes, mock_variable_selector)
@@ -35,7 +34,7 @@ class TestCdfParser(unittest.TestCase):
         self.assertIs(mock_global_parser.parse_global_variables_from_cdf.return_value, output.global_info)
         self.assertIs(mock_variable_parser.parse_info_from_cdf.return_value, output.variable_infos)
 
-        with open(expected_temp_file_name, 'rb') as f:
+        with open(expected_temp_file_name, "rb") as f:
             temp_file_contents = f.read()
         self.assertEqual(mock_cdf_bytes, temp_file_contents)
         mock_pycdf.CDF.assert_called_with(expected_temp_file_name)
@@ -46,10 +45,12 @@ class TestCdfParser(unittest.TestCase):
         os.remove(expected_temp_file_name)
         os.removedirs(mock_temp_directory_name)
 
-    @patch('data_indexer.cdf_parser.cdf_parser.CdfGlobalParser')
-    @patch('data_indexer.cdf_parser.cdf_parser.CdfVariableParser')
-    @patch('data_indexer.cdf_parser.cdf_parser.pycdf')
-    def test_parses_global_info_and_variable_info_from_file_path(self, mock_pycdf, mock_variable_parser, mock_global_parser):
+    @patch("data_indexer.cdf_parser.cdf_parser.CdfGlobalParser")
+    @patch("data_indexer.cdf_parser.cdf_parser.CdfVariableParser")
+    @patch("data_indexer.cdf_parser.cdf_parser.pycdf")
+    def test_parses_global_info_and_variable_info_from_file_path(
+        self, mock_pycdf, mock_variable_parser, mock_global_parser
+    ):
         mock_cdf = mock_pycdf.CDF.return_value.__enter__.return_value
 
         expected_cdf_path = Path("path")
@@ -64,5 +65,5 @@ class TestCdfParser(unittest.TestCase):
         mock_variable_parser.parse_info_from_cdf.assert_called_with(mock_cdf, DefaultVariableSelector)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

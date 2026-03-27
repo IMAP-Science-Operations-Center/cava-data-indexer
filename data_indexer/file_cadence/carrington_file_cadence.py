@@ -9,7 +9,7 @@ FIRST_CARRINGTON_ROTATION = datetime(1853, 10, 13, 13, 17, 19, 679992, tzinfo=ti
 class CarringtonFileCadence(FileCadence):
     @property
     def name(self):
-        return 'carrington_rotation'
+        return "carrington_rotation"
 
     def get_file_time_range_with_cr(self, cr: int) -> tuple[datetime, datetime]:
         start_time = cr * CARRINGTON_ROTATION_IN_DAYS + FIRST_CARRINGTON_ROTATION
