@@ -211,6 +211,7 @@ class TestImapDataProcessor(TestCase):
                 ],
                 "logical_source": "fake-mission_fake-instrument_l3a_protons",
                 "logical_source_description": "Parker Solar Probe Level 2 Summary",
+                "data_level": "l3a",
                 "variables": [
                     {
                         "catalog_description": "variable 1",
@@ -248,6 +249,7 @@ class TestImapDataProcessor(TestCase):
                 ],
                 "logical_source": "fake-mission_fake-instrument_l3a_pui-he",
                 "logical_source_description": "Parker Solar Probe Level 2 Ephemeris",
+                "data_level": "l3a",
                 "variables": [
                     {
                         "catalog_description": "variable 3",
@@ -280,6 +282,7 @@ class TestImapDataProcessor(TestCase):
                 ],
                 "logical_source": "fake-mission_fake-instrument2_l3a_pui-he",
                 "logical_source_description": "Parker Solar Probe Level 2 Summary",
+                "data_level": "l3a",
                 "variables": [
                     {
                         "catalog_description": "variable 1",
@@ -312,6 +315,7 @@ class TestImapDataProcessor(TestCase):
                 ],
                 "logical_source": "fake-mission_fake-instrument_l3b_pui-he",
                 "logical_source_description": "Parker Solar Probe Level 2 Ephemeris",
+                "data_level": "l3b",
                 "variables": [
                     {
                         "catalog_description": "variable 3",
@@ -627,6 +631,7 @@ class TestImapDataProcessor(TestCase):
                 "instrument": "GLOWS",
                 "logical_source": "imap_glows_l3b_glows-descriptor",
                 "logical_source_description": "imap glows l3b glows-descriptor",
+                "data_level": "l3b",
                 "mission": "IMAP",
                 "version": "",
                 "variables": [
@@ -652,6 +657,7 @@ class TestImapDataProcessor(TestCase):
                 "instrument": "GLOWS",
                 "logical_source": "imap_glows_l3c_glows-descriptor",
                 "logical_source_description": "imap glows l3c glows-descriptor",
+                "data_level": "l3c",
                 "mission": "IMAP",
                 "version": "",
                 "variables": [
@@ -677,6 +683,7 @@ class TestImapDataProcessor(TestCase):
                 "instrument": "GLOWS",
                 "logical_source": "imap_glows_l3d_glows-descriptor",
                 "logical_source_description": "imap glows l3d glows-descriptor",
+                "data_level": "l3d",
                 "mission": "IMAP",
                 "version": "",
                 "variables": [
@@ -772,6 +779,7 @@ class TestImapDataProcessor(TestCase):
                 "instrument": "IMAP-Hi",
                 "logical_source": "imap_hi_l3_intensity-3mo",
                 "logical_source_description": "imap hi l3 intensity-3mo",
+                "data_level": "l3",
                 "mission": "IMAP",
                 "version": "",
                 "variables": [
@@ -797,6 +805,7 @@ class TestImapDataProcessor(TestCase):
                 "instrument": "IMAP-Hi",
                 "logical_source": "imap_hi_l3_intensity-6mo",
                 "logical_source_description": "imap hi l3 intensity-6mo",
+                "data_level": "l3",
                 "mission": "IMAP",
                 "version": "",
                 "variables": [

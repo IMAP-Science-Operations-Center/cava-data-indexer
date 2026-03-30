@@ -86,13 +86,9 @@ def get_metadata_index() -> list[dict]:
                 data_product_sources.append(DataProductSource(url=url, start_time=start_time, end_time=end_time))
 
             index.append(
-                get_index_entry(
-                    cdf_file_info=cdf_file_info,
-                    file_timeranges=data_product_sources,
-                    instrument=instrument_names.get(data_product.instrument, data_product.instrument),
-                    mission="IMAP",
-                    file_cadence=cadence,
-                )
+                get_index_entry(cdf_file_info=cdf_file_info, file_timeranges=data_product_sources,
+                                instrument=instrument_names.get(data_product.instrument, data_product.instrument),
+                                mission="IMAP", file_cadence=cadence, data_level=data_product.data_level)
             )
         except BadFileNameError as e:
             print("failed to parse CDF, skipping:", description_source_file, e)

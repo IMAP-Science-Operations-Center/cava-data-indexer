@@ -58,6 +58,7 @@ class PspDataProcessor:
                         mission=psp_directory_info.mission,
                         file_cadence=psp_directory_info.file_cadence,
                         version=version,
+                        data_level="l2",
                     )
                 )
 

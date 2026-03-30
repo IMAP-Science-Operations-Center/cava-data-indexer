@@ -22,14 +22,10 @@ class TestUtils(unittest.TestCase):
             "url_2", datetime(2025, 1, 2, tzinfo=timezone.utc), datetime(2025, 1, 3, tzinfo=timezone.utc)
         )
 
-        output = utils.get_index_entry(
-            cdf_file_info=cdf_file_info,
-            instrument="isois",
-            mission="PSP",
-            file_cadence=DailyFileCadence(),
-            file_timeranges=[data_product_source_1, data_product_source_2],
-            version="v123",
-        )
+        output = utils.get_index_entry(cdf_file_info=cdf_file_info,
+                                       file_timeranges=[data_product_source_1, data_product_source_2],
+                                       instrument="isois", mission="PSP", file_cadence=DailyFileCadence(),
+                                       data_level="l2", version="v123")
         expected = {
             "file_timeranges": [
                 {"start_time": "2025-01-01T00:00:00+00:00", "end_time": "2025-01-02T00:00:00+00:00", "url": "url_1"},
@@ -51,6 +47,7 @@ class TestUtils(unittest.TestCase):
             "mission": "PSP",
             "file_cadence": "daily",
             "version": "v123",
+            "data_level": "l2",
         }
         self.assertEqual(expected, output)
 
@@ -66,13 +63,10 @@ class TestUtils(unittest.TestCase):
             "url_2", datetime(2025, 1, 2, tzinfo=timezone.utc), datetime(2025, 1, 3, tzinfo=timezone.utc)
         )
 
-        output = utils.get_index_entry(
-            cdf_file_info=cdf_file_info,
-            instrument="isois",
-            mission="PSP",
-            file_cadence=DailyFileCadence(),
-            file_timeranges=[data_product_source_1, data_product_source_2],
-        )
+        output = utils.get_index_entry(cdf_file_info=cdf_file_info,
+                                       file_timeranges=[data_product_source_1, data_product_source_2],
+                                       instrument="isois", mission="PSP", file_cadence=DailyFileCadence(),
+                                       data_level="l3")
         expected = {
             "file_timeranges": [
                 {"start_time": "2025-01-01T00:00:00+00:00", "end_time": "2025-01-02T00:00:00+00:00", "url": "url_1"},
@@ -94,6 +88,7 @@ class TestUtils(unittest.TestCase):
             "mission": "PSP",
             "file_cadence": "daily",
             "version": "",
+            "data_level": "l3",
         }
         self.assertEqual(expected, output)
 
