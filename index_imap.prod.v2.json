@@ -18082,7 +18082,7 @@
     ],
     "logical_source": "imap_mag_l2_burst-dsrf",
     "logical_source_description": "IMAP Mission Burst Rate Instrument Level-2 Data in Despun Spacecraft Reference Frame.",
-    "generation_date": "2026-01-20",
+    "generation_date": "2026-04-01",
     "data_level": "l2",
     "instrument": "MAG",
     "mission": "IMAP",
@@ -18143,6 +18143,11 @@
         "start_time": "2025-12-27T00:00:00+00:00",
         "end_time": "2025-12-28T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2025/12/imap_mag_l2_burst-dsrf_20251227_v001.cdf"
+      },
+      {
+        "start_time": "2026-01-01T00:00:00+00:00",
+        "end_time": "2026-01-02T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2026/01/imap_mag_l2_burst-dsrf_20260101_v001.cdf"
       }
     ]
   },
@@ -18158,7 +18163,7 @@
     ],
     "logical_source": "imap_mag_l2_burst-gse",
     "logical_source_description": "IMAP Mission Burst Rate Instrument Level-2 Data in Geocentric Solar Ecliptic Reference Frame.",
-    "generation_date": "2026-01-20",
+    "generation_date": "2026-04-01",
     "data_level": "l2",
     "instrument": "MAG",
     "mission": "IMAP",
@@ -18219,6 +18224,11 @@
         "start_time": "2025-12-27T00:00:00+00:00",
         "end_time": "2025-12-28T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2025/12/imap_mag_l2_burst-gse_20251227_v001.cdf"
+      },
+      {
+        "start_time": "2026-01-01T00:00:00+00:00",
+        "end_time": "2026-01-02T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2026/01/imap_mag_l2_burst-gse_20260101_v001.cdf"
       }
     ]
   },
@@ -18234,7 +18244,7 @@
     ],
     "logical_source": "imap_mag_l2_burst-gsm",
     "logical_source_description": "IMAP Mission Burst Rate Instrument Level-2 Data in Geocentric Solar Magnetospheric Reference Frame.",
-    "generation_date": "2026-01-20",
+    "generation_date": "2026-04-01",
     "data_level": "l2",
     "instrument": "MAG",
     "mission": "IMAP",
@@ -18295,6 +18305,11 @@
         "start_time": "2025-12-27T00:00:00+00:00",
         "end_time": "2025-12-28T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2025/12/imap_mag_l2_burst-gsm_20251227_v001.cdf"
+      },
+      {
+        "start_time": "2026-01-01T00:00:00+00:00",
+        "end_time": "2026-01-02T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2026/01/imap_mag_l2_burst-gsm_20260101_v001.cdf"
       }
     ]
   },
@@ -18310,7 +18325,7 @@
     ],
     "logical_source": "imap_mag_l2_burst-rtn",
     "logical_source_description": "IMAP Mission Burst Rate Instrument Level-2 Data in Radial-Tangential-Normal Reference Frame.",
-    "generation_date": "2026-01-20",
+    "generation_date": "2026-04-01",
     "data_level": "l2",
     "instrument": "MAG",
     "mission": "IMAP",
@@ -18371,6 +18386,11 @@
         "start_time": "2025-12-27T00:00:00+00:00",
         "end_time": "2025-12-28T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2025/12/imap_mag_l2_burst-rtn_20251227_v001.cdf"
+      },
+      {
+        "start_time": "2026-01-01T00:00:00+00:00",
+        "end_time": "2026-01-02T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2026/01/imap_mag_l2_burst-rtn_20260101_v001.cdf"
       }
     ]
   },
@@ -18386,7 +18406,7 @@
     ],
     "logical_source": "imap_mag_l2_burst-srf",
     "logical_source_description": "IMAP Mission Burst Rate Instrument Level-2 Data in Spacecraft Reference Frame.",
-    "generation_date": "2026-01-20",
+    "generation_date": "2026-04-01",
     "data_level": "l2",
     "instrument": "MAG",
     "mission": "IMAP",
@@ -18447,6 +18467,11 @@
         "start_time": "2025-12-27T00:00:00+00:00",
         "end_time": "2025-12-28T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2025/12/imap_mag_l2_burst-srf_20251227_v001.cdf"
+      },
+      {
+        "start_time": "2026-01-01T00:00:00+00:00",
+        "end_time": "2026-01-02T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l2/2026/01/imap_mag_l2_burst-srf_20260101_v001.cdf"
       }
     ]
   },
