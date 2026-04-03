@@ -8056,7 +8056,71 @@
     ]
   },
   {
-    "variables": [],
+    "variables": [
+      {
+        "variable_name": "c",
+        "catalog_description": "c (Root 2 spacing)",
+        "display_type": "time_series",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "fe",
+        "catalog_description": "fe (Root 2 spacing)",
+        "display_type": "time_series",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "h",
+        "catalog_description": "h (Root 2 spacing)",
+        "display_type": "time_series",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "he3",
+        "catalog_description": "he3 (Root 2 spacing)",
+        "display_type": "time_series",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "he4",
+        "catalog_description": "he4 (Root 2 spacing)",
+        "display_type": "time_series",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "junk",
+        "catalog_description": "junk (Root 2 spacing)",
+        "display_type": "time_series",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "ne_mg_si",
+        "catalog_description": "ne-mg-si (Root 2 spacing)",
+        "display_type": "time_series",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "o",
+        "catalog_description": "o (Root 2 spacing)",
+        "display_type": "time_series",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "uh",
+        "catalog_description": "uh (Root 2 spacing)",
+        "display_type": "time_series",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": ""
+      }
+    ],
     "logical_source": "imap_codice_l2_hi-omni",
     "logical_source_description": "IMAP Mission CoDICE Hi Level-2 Omnidirectional Species Intensity Data.",
     "generation_date": "2026-04-03",
@@ -8699,7 +8763,64 @@
     ]
   },
   {
-    "variables": [],
+    "variables": [
+      {
+        "variable_name": "cno",
+        "catalog_description": "cno (x2 spacing)",
+        "display_type": "spectrogram",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "fe",
+        "catalog_description": "fe (x2 spacing)",
+        "display_type": "spectrogram",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "h",
+        "catalog_description": "h (x2 spacing)",
+        "display_type": "spectrogram",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "he3he4",
+        "catalog_description": "he3he4 (x2 spacing)",
+        "display_type": "spectrogram",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_cno",
+        "catalog_description": "Uncertainties for cno (x2 spacing)",
+        "display_type": "spectrogram",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_fe",
+        "catalog_description": "Uncertainties for fe (x2 spacing)",
+        "display_type": "spectrogram",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_h",
+        "catalog_description": "Uncertainties for h (x2 spacing)",
+        "display_type": "spectrogram",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_he3he4",
+        "catalog_description": "Uncertainties for he3he4 (x2 spacing)",
+        "display_type": "spectrogram",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": ""
+      }
+    ],
     "logical_source": "imap_codice_l2_hi-sectored",
     "logical_source_description": "IMAP Mission CoDICE Hi Level-2 Sectored Species Intensity Data.",
     "generation_date": "2026-04-03",
@@ -10633,11 +10754,53 @@
   {
     "variables": [
       {
+        "variable_name": "c",
+        "catalog_description": "c Non-sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "cnoplus",
+        "catalog_description": "cnoplus Non-sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
         "variable_name": "nso_esa_step",
         "catalog_description": "Energy Step When No Scan Operation (NSO) was activated",
         "display_type": "time_series",
         "units": "energy step",
         "axis_label": "NSO Energy Step"
+      },
+      {
+        "variable_name": "fe",
+        "catalog_description": "fe Non-sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "heplus",
+        "catalog_description": "heplus Non-sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "heplusplus",
+        "catalog_description": "heplusplus Non-sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "hplus",
+        "catalog_description": "hplus Non-sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
       },
       {
         "variable_name": "data_quality",
@@ -10647,11 +10810,81 @@
         "axis_label": "Data Quality"
       },
       {
+        "variable_name": "ne_si_mg",
+        "catalog_description": "ne_si_mg Non-sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "o",
+        "catalog_description": "o Non-sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
         "variable_name": "nso_spin_sector",
         "catalog_description": "Spin Sector When No Scan Operation (NSO) was activated",
         "display_type": "time_series",
         "units": "spin sector",
         "axis_label": "NSO Spin Sector"
+      },
+      {
+        "variable_name": "unc_c",
+        "catalog_description": "unc_c Non-sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_cnoplus",
+        "catalog_description": "unc_cnoplus Non-sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_fe",
+        "catalog_description": "unc_fe Non-sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_heplus",
+        "catalog_description": "unc_heplus Non-sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_heplusplus",
+        "catalog_description": "unc_heplusplus Non-sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_hplus",
+        "catalog_description": "unc_hplus Non-sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_ne_si_mg",
+        "catalog_description": "unc_ne_si_mg Non-sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_o",
+        "catalog_description": "unc_o Non-sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
       }
     ],
     "logical_source": "imap_codice_l2_lo-nsw-species",
@@ -11939,11 +12172,74 @@
   {
     "variables": [
       {
+        "variable_name": "cnoplus",
+        "catalog_description": "cnoplus Pickup Ion Sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "cplus4",
+        "catalog_description": "cplus4 Solar Wind Sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "cplus5",
+        "catalog_description": "cplus5 Solar Wind Sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "cplus6",
+        "catalog_description": "cplus6 Solar Wind Sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
         "variable_name": "nso_esa_step",
         "catalog_description": "Energy Step When No Scan Operation (NSO) was activated",
         "display_type": "time_series",
         "units": "energy step",
         "axis_label": "NSO Energy Step"
+      },
+      {
+        "variable_name": "fe_hiq",
+        "catalog_description": "fe_hiq Solar Wind Sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "fe_loq",
+        "catalog_description": "fe_loq Solar Wind Sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "heplus",
+        "catalog_description": "heplus Pickup Ion Sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "heplusplus",
+        "catalog_description": "heplusplus Solar Wind Sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "hplus",
+        "catalog_description": "hplus Solar Wind Sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
       },
       {
         "variable_name": "data_quality",
@@ -11953,11 +12249,172 @@
         "axis_label": "Data Quality"
       },
       {
+        "variable_name": "mg",
+        "catalog_description": "mg Solar Wind Sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "ne",
+        "catalog_description": "ne Solar Wind Sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "oplus5",
+        "catalog_description": "oplus5 Solar Wind Sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "oplus6",
+        "catalog_description": "oplus6 Solar Wind Sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "oplus7",
+        "catalog_description": "oplus7 Solar Wind Sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "oplus8",
+        "catalog_description": "oplus8 Solar Wind Sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "si",
+        "catalog_description": "si Solar Wind Sunward Species",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
         "variable_name": "nso_spin_sector",
         "catalog_description": "Spin Sector When No Scan Operation (NSO) was activated",
         "display_type": "time_series",
         "units": "spin sector",
         "axis_label": "NSO Spin Sector"
+      },
+      {
+        "variable_name": "unc_cnoplus",
+        "catalog_description": "unc_cnoplus Pickup Ion Sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_cplus4",
+        "catalog_description": "unc_cplus4 Solar Wind Sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_cplus5",
+        "catalog_description": "unc_cplus5 Solar Wind Sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_cplus6",
+        "catalog_description": "unc_cplus6 Solar Wind Sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_fe_hiq",
+        "catalog_description": "unc_fe_hiq Solar Wind Sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_fe_loq",
+        "catalog_description": "unc_fe_loq Solar Wind Sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_heplus",
+        "catalog_description": "unc_heplus Pickup Ion Sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_heplusplus",
+        "catalog_description": "unc_heplusplus Solar Wind Sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_hplus",
+        "catalog_description": "unc_hplus Solar Wind Sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_mg",
+        "catalog_description": "unc_mg Solar Wind Sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_ne",
+        "catalog_description": "unc_ne Solar Wind Sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_oplus5",
+        "catalog_description": "unc_oplus5 Solar Wind Sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_oplus6",
+        "catalog_description": "unc_oplus6 Solar Wind Sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_oplus7",
+        "catalog_description": "unc_oplus7 Solar Wind Sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_oplus8",
+        "catalog_description": "unc_oplus8 Solar Wind Sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_si",
+        "catalog_description": "unc_si Solar Wind Sunward Species uncertainty",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
       }
     ],
     "logical_source": "imap_codice_l2_lo-sw-species",
