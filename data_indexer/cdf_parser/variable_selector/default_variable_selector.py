@@ -26,7 +26,4 @@ class DefaultVariableSelector(VariableSelector):
         if var.type() == pycdf.const.CDF_TIME_TT2000.value:
             return False
 
-        zscale = var.attrs["SCALETYP"] if "SCALETYP" in var.attrs else "linear"
-        var_min = var.attrs.get("SCALEMIN") if "SCALEMIN" in var.attrs else var.attrs.get("VALIDMIN")
-        scale_is_valid = zscale == "linear" or var_min != 0
-        return has_correct_shape and time_is_ns and scale_is_valid
+        return has_correct_shape and time_is_ns

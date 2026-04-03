@@ -115,7 +115,7 @@ class TestDefaultVariableSelector(unittest.TestCase):
 
         self.assertFalse(DefaultVariableSelector.should_include(no_plot_variable, self.mock_cdf))
 
-    def test_does_not_accept_log_scale_axis_with_invalid_scalemin(self):
+    def test_does_accept_log_scale_axis_with_invalid_scalemin(self):
         var_with_invalid_log_scalemin = Mock()
         var_with_invalid_log_scalemin.attrs = {
             "CATDESC": "var_with_unknown_time_unit",
@@ -128,7 +128,7 @@ class TestDefaultVariableSelector(unittest.TestCase):
         }
         var_with_invalid_log_scalemin.shape = (1,)
 
-        self.assertFalse(DefaultVariableSelector.should_include(var_with_invalid_log_scalemin, self.mock_cdf))
+        self.assertTrue(DefaultVariableSelector.should_include(var_with_invalid_log_scalemin, self.mock_cdf))
 
     def test_handles_missing_scalemin(self):
         var_with_missing_scalemin = Mock()

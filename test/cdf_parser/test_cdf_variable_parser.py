@@ -80,6 +80,7 @@ class TestCdfVariableParser(unittest.TestCase):
             CdfVariableInfo("var0", "var_not_filtered", "spectrogram", "degrees", ""),
             CdfVariableInfo("var7", "var_not_filtered_for_nonzero_min_and_log", "spectrogram", "degrees", ""),
             CdfVariableInfo("var9", "var_not_filtered_for_scale", "spectrogram", "degrees", ""),
+            CdfVariableInfo("var6", "var_not_filtered_for_scaletype_log_and_scalemin_zero", "spectrogram", "degrees", ""),
             CdfVariableInfo(
                 "var8", "var_not_filtered_for_scaletype_missing_and_scalemin_zero", "spectrogram", "degrees", ""
             ),
@@ -146,9 +147,9 @@ class TestCdfVariableParser(unittest.TestCase):
         }
         var_not_filtered_for_linear_scaletype_and_scalemin_nonzero.shape = (1, 2)
 
-        var_filtered_for_scaletype_log_and_scalemin_zero = Mock()
-        var_filtered_for_scaletype_log_and_scalemin_zero.attrs = {
-            "CATDESC": "var_filtered",
+        var_not_filtered_for_scaletype_log_and_scalemin_zero = Mock()
+        var_not_filtered_for_scaletype_log_and_scalemin_zero.attrs = {
+            "CATDESC": "var_not_filtered_for_scaletype_log_and_scalemin_zero",
             "VAR_TYPE": "data",
             "FIELDNAM": "something",
             "DEPEND_0": "time_col_good",
@@ -157,7 +158,7 @@ class TestCdfVariableParser(unittest.TestCase):
             "DISPLAY_TYPE": "spectrogram",
             "UNITS": "degrees",
         }
-        var_filtered_for_scaletype_log_and_scalemin_zero.shape = (1, 2)
+        var_not_filtered_for_scaletype_log_and_scalemin_zero.shape = (1, 2)
 
         var_not_filtered_for_scaletype_log_and_scalemin_nonzero = Mock()
         var_not_filtered_for_scaletype_log_and_scalemin_nonzero.attrs = {
@@ -239,7 +240,7 @@ class TestCdfVariableParser(unittest.TestCase):
             "var0": var_that_is_not_filtered,
             "var1": var_filtered_for_incorrect_shape,
             "var5": var_not_filtered_for_linear_scaletype_and_scalemin_nonzero,
-            "var6": var_filtered_for_scaletype_log_and_scalemin_zero,
+            "var6": var_not_filtered_for_scaletype_log_and_scalemin_zero,
             "var7": var_not_filtered_for_scaletype_log_and_scalemin_nonzero,
             "var8": var_not_filtered_for_scaletype_missing_and_scalemin_zero,
             "var9": var_not_filtered_for_scaletype_missing_and_scalemin_nonzero,
