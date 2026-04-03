@@ -14868,6 +14868,13 @@
   {
     "variables": [
       {
+        "variable_name": "ena_spectral_scalar",
+        "catalog_description": "ENA spectral index scalar coefficient.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Spectral scalar"
+      },
+      {
         "variable_name": "ena_spectral_index_stat_uncert",
         "catalog_description": "ENA spectral index statistical uncertainty.",
         "display_type": "map_image",
@@ -14900,6 +14907,13 @@
   },
   {
     "variables": [
+      {
+        "variable_name": "ena_spectral_scalar",
+        "catalog_description": "ENA spectral index scalar coefficient.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Spectral scalar"
+      },
       {
         "variable_name": "ena_spectral_index_stat_uncert",
         "catalog_description": "ENA spectral index statistical uncertainty.",
