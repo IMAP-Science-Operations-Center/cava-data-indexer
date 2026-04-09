@@ -7119,7 +7119,7 @@
     "variables": [
       {
         "variable_name": "ena_intensity",
-        "catalog_description": "Mono-energetic ENA intensity.",
+        "catalog_description": "IMAP Hi45 H Inten, HAE SC Frame, No Surv Corr, Full Spin, 6 deg, 3 Mon",
         "display_type": "map_image",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
@@ -7127,7 +7127,7 @@
     ],
     "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
-    "generation_date": "2025-11-10",
+    "generation_date": "2026-04-09",
     "data_level": "l2",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -7923,6 +7923,11 @@
         "start_time": "2025-11-10T00:00:00+00:00",
         "end_time": "2026-02-09T07:30:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/hi/l2/2025/11/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20251110-repoint01209_v001.cdf"
+      },
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-04-18T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hi/l2/2026/01/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-6deg-3mo_20260117_v001.cdf"
       }
     ]
   },
@@ -8555,7 +8560,7 @@
     "variables": [
       {
         "variable_name": "ena_intensity",
-        "catalog_description": "Mono-energetic ENA intensity.",
+        "catalog_description": "IMAP Hi90 H Inten, HAE SC Frame, No Surv Corr, Full Spin, 6 deg, 3 Mon",
         "display_type": "map_image",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
@@ -8563,7 +8568,7 @@
     ],
     "logical_source": "imap_hi_l2_h90-ena-h-sf-nsp-full-hae-6deg-3mo",
     "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi90 on rectangular tiling.",
-    "generation_date": "2025-11-10",
+    "generation_date": "2026-04-09",
     "data_level": "l2",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -9279,6 +9284,11 @@
         "start_time": "2025-11-10T00:00:00+00:00",
         "end_time": "2026-02-09T07:30:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/hi/l2/2025/11/imap_hi_l2_h90-ena-h-sf-nsp-full-hae-6deg-3mo_20251110-repoint01209_v001.cdf"
+      },
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-04-18T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hi/l2/2026/01/imap_hi_l2_h90-ena-h-sf-nsp-full-hae-6deg-3mo_20260117_v001.cdf"
       }
     ]
   },
@@ -9460,6 +9470,162 @@
   {
     "variables": [
       {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Hi45 H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 4 deg, 3 Mon",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_hi_l2_h45-ena-h-hf-nsp-full-hae-4deg-3mo",
+    "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
+    "generation_date": "2026-04-09",
+    "data_level": "l2",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "three_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-04-18T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hi/l2/2026/01/imap_hi_l2_h45-ena-h-hf-nsp-full-hae-4deg-3mo_20260117_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Hi45 H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 6 deg, 3 Mon",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_hi_l2_h45-ena-h-hf-nsp-full-hae-6deg-3mo",
+    "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
+    "generation_date": "2026-04-09",
+    "data_level": "l2",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "three_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-04-18T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hi/l2/2026/01/imap_hi_l2_h45-ena-h-hf-nsp-full-hae-6deg-3mo_20260117_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Hi45 H Inten, HAE SC Frame, No Surv Corr, Full Spin, 4 deg, 3 Mon",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_hi_l2_h45-ena-h-sf-nsp-full-hae-4deg-3mo",
+    "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
+    "generation_date": "2026-04-09",
+    "data_level": "l2",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "three_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-04-18T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hi/l2/2026/01/imap_hi_l2_h45-ena-h-sf-nsp-full-hae-4deg-3mo_20260117_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Hi90 H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 4 deg, 3 Mon",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_hi_l2_h90-ena-h-hf-nsp-full-hae-4deg-3mo",
+    "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi90 on rectangular tiling.",
+    "generation_date": "2026-04-09",
+    "data_level": "l2",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "three_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-04-18T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hi/l2/2026/01/imap_hi_l2_h90-ena-h-hf-nsp-full-hae-4deg-3mo_20260117_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Hi90 H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 6 deg, 3 Mon",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_hi_l2_h90-ena-h-hf-nsp-full-hae-6deg-3mo",
+    "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi90 on rectangular tiling.",
+    "generation_date": "2026-04-09",
+    "data_level": "l2",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "three_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-04-18T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hi/l2/2026/01/imap_hi_l2_h90-ena-h-hf-nsp-full-hae-6deg-3mo_20260117_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Hi90 H Inten, HAE SC Frame, No Surv Corr, Full Spin, 4 deg, 3 Mon",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_hi_l2_h90-ena-h-sf-nsp-full-hae-4deg-3mo",
+    "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi90 on rectangular tiling.",
+    "generation_date": "2026-04-09",
+    "data_level": "l2",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "three_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-04-18T07:30:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hi/l2/2026/01/imap_hi_l2_h90-ena-h-sf-nsp-full-hae-4deg-3mo_20260117_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
         "variable_name": "cno_macropixel_intensity",
         "catalog_description": "C, N, O Macropixel Intensity",
         "display_type": "spectrogram",
@@ -9504,7 +9670,7 @@
     ],
     "logical_source": "imap_hit_l2_macropixel-intensity",
     "logical_source_description": "IMAP Mission HIT Instrument Level-2 Macro Pixel Intensity Data.",
-    "generation_date": "2026-04-08",
+    "generation_date": "2026-04-09",
     "data_level": "l2",
     "instrument": "HIT",
     "mission": "IMAP",
@@ -10149,7 +10315,12 @@
       {
         "start_time": "2026-04-08T00:00:00+00:00",
         "end_time": "2026-04-09T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_macropixel-intensity_20260408_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_macropixel-intensity_20260408_v002.cdf"
+      },
+      {
+        "start_time": "2026-04-09T00:00:00+00:00",
+        "end_time": "2026-04-10T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_macropixel-intensity_20260409_v001.cdf"
       }
     ]
   },
@@ -10284,7 +10455,7 @@
     ],
     "logical_source": "imap_hit_l2_standard-intensity",
     "logical_source_description": "IMAP Mission HIT Instrument Level-2 Standard Intensity Data.",
-    "generation_date": "2026-04-08",
+    "generation_date": "2026-04-09",
     "data_level": "l2",
     "instrument": "HIT",
     "mission": "IMAP",
@@ -10944,7 +11115,12 @@
       {
         "start_time": "2026-04-08T00:00:00+00:00",
         "end_time": "2026-04-09T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_standard-intensity_20260408_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_standard-intensity_20260408_v002.cdf"
+      },
+      {
+        "start_time": "2026-04-09T00:00:00+00:00",
+        "end_time": "2026-04-10T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_standard-intensity_20260409_v001.cdf"
       }
     ]
   },
@@ -11079,7 +11255,7 @@
     ],
     "logical_source": "imap_hit_l2_summed-intensity",
     "logical_source_description": "IMAP Mission HIT Instrument Level-2 Summed Intensity Data.",
-    "generation_date": "2026-04-08",
+    "generation_date": "2026-04-09",
     "data_level": "l2",
     "instrument": "HIT",
     "mission": "IMAP",
@@ -11739,7 +11915,12 @@
       {
         "start_time": "2026-04-08T00:00:00+00:00",
         "end_time": "2026-04-09T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_summed-intensity_20260408_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_summed-intensity_20260408_v002.cdf"
+      },
+      {
+        "start_time": "2026-04-09T00:00:00+00:00",
+        "end_time": "2026-04-10T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_summed-intensity_20260409_v001.cdf"
       }
     ]
   },
@@ -15045,7 +15226,7 @@
     ],
     "logical_source": "imap_hit_l3_direct-events",
     "logical_source_description": "HIT Instrument Level-3 Direct Event Science Data",
-    "generation_date": "2026-04-08",
+    "generation_date": "2026-04-09",
     "data_level": "l3",
     "instrument": "HIT",
     "mission": "IMAP",
@@ -15705,7 +15886,12 @@
       {
         "start_time": "2026-04-08T00:00:00+00:00",
         "end_time": "2026-04-09T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l3/2026/04/imap_hit_l3_direct-events_20260408_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l3/2026/04/imap_hit_l3_direct-events_20260408_v002.cdf"
+      },
+      {
+        "start_time": "2026-04-09T00:00:00+00:00",
+        "end_time": "2026-04-10T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l3/2026/04/imap_hit_l3_direct-events_20260409_v001.cdf"
       }
     ]
   },
