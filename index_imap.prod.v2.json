@@ -24661,7 +24661,7 @@
     ],
     "logical_source": "imap_hit_l3_direct-events",
     "logical_source_description": "HIT Instrument Level-3 Direct Event Science Data",
-    "generation_date": "2026-04-15",
+    "generation_date": "2026-04-16",
     "data_level": "l3",
     "instrument": "HIT",
     "mission": "IMAP",
@@ -25621,7 +25621,17 @@
       {
         "start_time": "2026-04-14T00:00:00+00:00",
         "end_time": "2026-04-15T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/04/imap_hit_l3_direct-events_20260414_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/04/imap_hit_l3_direct-events_20260414_v002.cdf"
+      },
+      {
+        "start_time": "2026-04-15T00:00:00+00:00",
+        "end_time": "2026-04-16T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/04/imap_hit_l3_direct-events_20260415_v001.cdf"
+      },
+      {
+        "start_time": "2026-04-16T00:00:00+00:00",
+        "end_time": "2026-04-17T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/04/imap_hit_l3_direct-events_20260416_v001.cdf"
       }
     ]
   },
