@@ -1174,6 +1174,13 @@
         "axis_label": ""
       },
       {
+        "variable_name": "unc_cno",
+        "catalog_description": "Uncertainties for cno (x2 spacing)",
+        "display_type": "time_series",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": ""
+      },
+      {
         "variable_name": "unc_fe",
         "catalog_description": "Uncertainties for fe (x2 spacing)",
         "display_type": "spectrogram",
@@ -1499,11 +1506,25 @@
   {
     "variables": [
       {
+        "variable_name": "heplusplus",
+        "catalog_description": "heplusplus Non-Sunward species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
         "variable_name": "data_quality",
         "catalog_description": "Indicates whether data quality is suspect (1).",
         "display_type": "time_series",
         "units": " ",
         "axis_label": "Data Quality"
+      },
+      {
+        "variable_name": "unc_heplusplus",
+        "catalog_description": "unc_heplusplus Non-Sunward species uncertainty",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
       }
     ],
     "logical_source": "imap_codice_l2_lo-nsw-angular",
@@ -1810,11 +1831,123 @@
   {
     "variables": [
       {
+        "variable_name": "c",
+        "catalog_description": "c Non-sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_c",
+        "catalog_description": "c Non-Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "cnoplus",
+        "catalog_description": "cnoplus Non-sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_cnoplus",
+        "catalog_description": "cnoplus Non-Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "fe",
+        "catalog_description": "fe Non-sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_fe",
+        "catalog_description": "fe Non-Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "heplus",
+        "catalog_description": "heplus Non-sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_heplus",
+        "catalog_description": "heplus Non-Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "heplusplus",
+        "catalog_description": "heplusplus Non-sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_heplusplus",
+        "catalog_description": "heplusplus Non-Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "hplus",
+        "catalog_description": "hplus Non-sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_hplus",
+        "catalog_description": "hplus Non-Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
+      },
+      {
         "variable_name": "data_quality",
         "catalog_description": "Indicates whether data quality is suspect (1).",
         "display_type": "time_series",
         "units": " ",
         "axis_label": "Data Quality"
+      },
+      {
+        "variable_name": "ne_si_mg",
+        "catalog_description": "ne_si_mg Non-sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_ne_si_mg",
+        "catalog_description": "ne_si_mg Non-Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "o",
+        "catalog_description": "o Non-sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_o",
+        "catalog_description": "o Non-Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
       }
     ],
     "logical_source": "imap_codice_l2_lo-nsw-species",
@@ -2121,11 +2254,67 @@
   {
     "variables": [
       {
+        "variable_name": "fe_loq",
+        "catalog_description": "fe_loq Sunward species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "heplusplus",
+        "catalog_description": "heplusplus Sunward species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "hplus",
+        "catalog_description": "hplus Sunward species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
         "variable_name": "data_quality",
         "catalog_description": "Indicates whether data quality is suspect (1).",
         "display_type": "time_series",
         "units": " ",
         "axis_label": "Data Quality"
+      },
+      {
+        "variable_name": "oplus6",
+        "catalog_description": "oplus6 Sunward species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_fe_loq",
+        "catalog_description": "unc_fe_loq Sunward species uncertainty",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_heplusplus",
+        "catalog_description": "unc_heplusplus Sunward species uncertainty",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_hplus",
+        "catalog_description": "unc_hplus Sunward species uncertainty",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_oplus6",
+        "catalog_description": "unc_oplus6 Sunward species uncertainty",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
       }
     ],
     "logical_source": "imap_codice_l2_lo-sw-angular",
@@ -2432,11 +2621,235 @@
   {
     "variables": [
       {
+        "variable_name": "cnoplus",
+        "catalog_description": "cnoplus Pickup Ion Sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_cnoplus",
+        "catalog_description": "cnoplus Pickup Ion Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "cplus4",
+        "catalog_description": "cplus4 Solar Wind Sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_cplus4",
+        "catalog_description": "cplus4 Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "cplus5",
+        "catalog_description": "cplus5 Solar Wind Sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_cplus5",
+        "catalog_description": "cplus5 Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "cplus6",
+        "catalog_description": "cplus6 Solar Wind Sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_cplus6",
+        "catalog_description": "cplus6 Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "fe_hiq",
+        "catalog_description": "fe_hiq Solar Wind Sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_fe_hiq",
+        "catalog_description": "fe_hiq Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "fe_loq",
+        "catalog_description": "fe_loq Solar Wind Sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_fe_loq",
+        "catalog_description": "fe_loq Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "heplus",
+        "catalog_description": "heplus Pickup Ion Sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_heplus",
+        "catalog_description": "heplus Pickup Ion Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "heplusplus",
+        "catalog_description": "heplusplus Solar Wind Sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_heplusplus",
+        "catalog_description": "heplusplus Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "hplus",
+        "catalog_description": "hplus Solar Wind Sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_hplus",
+        "catalog_description": "hplus Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
+      },
+      {
         "variable_name": "data_quality",
         "catalog_description": "Indicates whether data quality is suspect (1).",
         "display_type": "time_series",
         "units": " ",
         "axis_label": "Data Quality"
+      },
+      {
+        "variable_name": "mg",
+        "catalog_description": "mg Solar Wind Sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_mg",
+        "catalog_description": "mg Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "ne",
+        "catalog_description": "ne Solar Wind Sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_ne",
+        "catalog_description": "ne Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "oplus5",
+        "catalog_description": "oplus5 Solar Wind Sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_oplus5",
+        "catalog_description": "oplus5 Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "oplus6",
+        "catalog_description": "oplus6 Solar Wind Sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_oplus6",
+        "catalog_description": "oplus6 Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "oplus7",
+        "catalog_description": "oplus7 Solar Wind Sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_oplus7",
+        "catalog_description": "oplus7 Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "oplus8",
+        "catalog_description": "oplus8 Solar Wind Sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_oplus8",
+        "catalog_description": "oplus8 Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "si",
+        "catalog_description": "si Solar Wind Sunward Species",
+        "display_type": "time_series",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_si",
+        "catalog_description": "si Sunward Species uncertainty",
+        "display_type": "time_series",
+        "units": "1/s",
+        "axis_label": ""
       }
     ],
     "logical_source": "imap_codice_l2_lo-sw-species",
@@ -9750,7 +10163,7 @@
     ],
     "logical_source": "imap_hit_l2_macropixel-intensity",
     "logical_source_description": "IMAP Mission HIT Instrument Level-2 Macro Pixel Intensity Data.",
-    "generation_date": "2026-04-15",
+    "generation_date": "2026-04-16",
     "data_level": "l2",
     "instrument": "HIT",
     "mission": "IMAP",
@@ -10425,7 +10838,17 @@
       {
         "start_time": "2026-04-14T00:00:00+00:00",
         "end_time": "2026-04-15T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_macropixel-intensity_20260414_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_macropixel-intensity_20260414_v002.cdf"
+      },
+      {
+        "start_time": "2026-04-15T00:00:00+00:00",
+        "end_time": "2026-04-16T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_macropixel-intensity_20260415_v001.cdf"
+      },
+      {
+        "start_time": "2026-04-16T00:00:00+00:00",
+        "end_time": "2026-04-17T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_macropixel-intensity_20260416_v001.cdf"
       }
     ]
   },
@@ -10560,7 +10983,7 @@
     ],
     "logical_source": "imap_hit_l2_standard-intensity",
     "logical_source_description": "IMAP Mission HIT Instrument Level-2 Standard Intensity Data.",
-    "generation_date": "2026-04-15",
+    "generation_date": "2026-04-16",
     "data_level": "l2",
     "instrument": "HIT",
     "mission": "IMAP",
@@ -11250,7 +11673,17 @@
       {
         "start_time": "2026-04-14T00:00:00+00:00",
         "end_time": "2026-04-15T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_standard-intensity_20260414_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_standard-intensity_20260414_v002.cdf"
+      },
+      {
+        "start_time": "2026-04-15T00:00:00+00:00",
+        "end_time": "2026-04-16T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_standard-intensity_20260415_v001.cdf"
+      },
+      {
+        "start_time": "2026-04-16T00:00:00+00:00",
+        "end_time": "2026-04-17T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_standard-intensity_20260416_v001.cdf"
       }
     ]
   },
@@ -11385,7 +11818,7 @@
     ],
     "logical_source": "imap_hit_l2_summed-intensity",
     "logical_source_description": "IMAP Mission HIT Instrument Level-2 Summed Intensity Data.",
-    "generation_date": "2026-04-15",
+    "generation_date": "2026-04-16",
     "data_level": "l2",
     "instrument": "HIT",
     "mission": "IMAP",
@@ -12075,7 +12508,17 @@
       {
         "start_time": "2026-04-14T00:00:00+00:00",
         "end_time": "2026-04-15T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_summed-intensity_20260414_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_summed-intensity_20260414_v002.cdf"
+      },
+      {
+        "start_time": "2026-04-15T00:00:00+00:00",
+        "end_time": "2026-04-16T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_summed-intensity_20260415_v001.cdf"
+      },
+      {
+        "start_time": "2026-04-16T00:00:00+00:00",
+        "end_time": "2026-04-17T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_summed-intensity_20260416_v001.cdf"
       }
     ]
   },
@@ -15386,7 +15829,7 @@
     ],
     "logical_source": "imap_hit_l3_direct-events",
     "logical_source_description": "HIT Instrument Level-3 Direct Event Science Data",
-    "generation_date": "2026-04-15",
+    "generation_date": "2026-04-16",
     "data_level": "l3",
     "instrument": "HIT",
     "mission": "IMAP",
@@ -16076,7 +16519,17 @@
       {
         "start_time": "2026-04-14T00:00:00+00:00",
         "end_time": "2026-04-15T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l3/2026/04/imap_hit_l3_direct-events_20260414_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l3/2026/04/imap_hit_l3_direct-events_20260414_v002.cdf"
+      },
+      {
+        "start_time": "2026-04-15T00:00:00+00:00",
+        "end_time": "2026-04-16T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l3/2026/04/imap_hit_l3_direct-events_20260415_v001.cdf"
+      },
+      {
+        "start_time": "2026-04-16T00:00:00+00:00",
+        "end_time": "2026-04-17T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l3/2026/04/imap_hit_l3_direct-events_20260416_v001.cdf"
       }
     ]
   },
@@ -17931,11 +18384,74 @@
         "axis_label": "Quality flag"
       },
       {
+        "variable_name": "ssd_id",
+        "catalog_description": "Elevation angle of event in despun pointing set frame",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Elevation angle"
+      },
+      {
+        "variable_name": "energy_per_nuc",
+        "catalog_description": "Energy per nuc",
+        "display_type": "time_series",
+        "units": "MeV/nuc",
+        "axis_label": "Energy per nuc"
+      },
+      {
+        "variable_name": "estimated_mass",
+        "catalog_description": "Estimated mass",
+        "display_type": "time_series",
+        "units": "amu",
+        "axis_label": "Mass Estimate"
+      },
+      {
+        "variable_name": "multi_flag",
+        "catalog_description": "Multi flag",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Multi flag"
+      },
+      {
         "variable_name": "num_events",
         "catalog_description": "Number of events",
         "display_type": "spectrogram",
         "units": " ",
         "axis_label": "Num. events"
+      },
+      {
+        "variable_name": "type",
+        "catalog_description": "PHA Type",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "PHA Type"
+      },
+      {
+        "variable_name": "spin_angle",
+        "catalog_description": "Spin angle when event was observed in despun pointing set frame",
+        "display_type": "time_series",
+        "units": "degrees",
+        "axis_label": "Spin angle"
+      },
+      {
+        "variable_name": "spin_number",
+        "catalog_description": "Spin number",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Spin number"
+      },
+      {
+        "variable_name": "ssd_energy",
+        "catalog_description": "SSD energy",
+        "display_type": "time_series",
+        "units": "MeV",
+        "axis_label": "SSD energy"
+      },
+      {
+        "variable_name": "tof",
+        "catalog_description": "Time of Flight of Event",
+        "display_type": "time_series",
+        "units": "ns",
+        "axis_label": "TOF"
       }
     ],
     "logical_source": "imap_codice_l3a_hi-direct-events",
@@ -18247,6 +18763,13 @@
   {
     "variables": [
       {
+        "variable_name": "apd_id",
+        "catalog_description": "APD ID",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "APD ID"
+      },
+      {
         "variable_name": "data_quality",
         "catalog_description": "Data quality",
         "display_type": "time_series",
@@ -18254,11 +18777,88 @@
         "axis_label": "Data quality"
       },
       {
+        "variable_name": "apd_energy",
+        "catalog_description": "Deposited energy at APD",
+        "display_type": "time_series",
+        "units": "keV",
+        "axis_label": "APD Energy"
+      },
+      {
+        "variable_name": "elevation",
+        "catalog_description": "Elevation per event",
+        "display_type": "time_series",
+        "units": "degrees",
+        "axis_label": "Elevation"
+      },
+      {
+        "variable_name": "energy_step",
+        "catalog_description": "Energy per charge selected by ESA",
+        "display_type": "time_series",
+        "units": "keV/e",
+        "axis_label": "Energy Step"
+      },
+      {
+        "variable_name": "gain",
+        "catalog_description": "Gain",
+        "display_type": "time_series",
+        "units": "",
+        "axis_label": "Gain"
+      },
+      {
+        "variable_name": "mass",
+        "catalog_description": "Mass of event",
+        "display_type": "time_series",
+        "units": "amu",
+        "axis_label": "m"
+      },
+      {
+        "variable_name": "mass_per_charge",
+        "catalog_description": "Mass per charge of event",
+        "display_type": "time_series",
+        "units": "amu/q",
+        "axis_label": "m/q"
+      },
+      {
+        "variable_name": "multi_flag",
+        "catalog_description": "Multi flag",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Multi flag"
+      },
+      {
+        "variable_name": "normalization",
+        "catalog_description": "Normalization factor",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Normalization"
+      },
+      {
         "variable_name": "num_events",
         "catalog_description": "Number of events",
         "display_type": "time_series",
         "units": " ",
         "axis_label": "Num. events"
+      },
+      {
+        "variable_name": "position",
+        "catalog_description": "Position index per event",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Position index"
+      },
+      {
+        "variable_name": "spin_angle",
+        "catalog_description": "Spin angle per event",
+        "display_type": "time_series",
+        "units": "degrees",
+        "axis_label": "Spin angle"
+      },
+      {
+        "variable_name": "tof",
+        "catalog_description": "Time of flight",
+        "display_type": "time_series",
+        "units": "ns",
+        "axis_label": "TOF"
       }
     ],
     "logical_source": "imap_codice_l3a_lo-direct-events",
