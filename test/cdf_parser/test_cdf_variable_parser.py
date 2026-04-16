@@ -66,7 +66,7 @@ class TestCdfVariableParser(unittest.TestCase):
 
         variable_names = [variable.variable_name for variable in parsed_info]
         self.assertNotIn("Epoch", variable_names)
-        self.assertEqual(48, len(variable_names))
+        self.assertEqual(54, len(variable_names))
 
     def test_parse_info_from_epilo_cdf_filters_out_variables_that_are_missing_key_features(self):
         mock_cdf = Mock()
@@ -275,6 +275,9 @@ class TestCdfVariableParser(unittest.TestCase):
             CdfVariableInfo(
                 "var1", "var_that_not_filtered_three_dimensional_spectrogram", "spectrogram", "degrees", ""
             ),
+            CdfVariableInfo(
+                "var2", "var_timeseries_many_dimensions", "time_series", "degrees", ""
+            ),
         ]
 
         var_that_is_not_filtered = Mock()
@@ -305,9 +308,9 @@ class TestCdfVariableParser(unittest.TestCase):
             "UNITS": "degrees",
         }
 
-        var_filtered_for_timeseries_shape_with_too_many_dimensions = Mock()
-        var_filtered_for_timeseries_shape_with_too_many_dimensions.attrs = {
-            "CATDESC": "var_filtered_for_timeseries_shape_with_too_many_dimensions",
+        allowed_multidimensional_timeseries_var = Mock()
+        allowed_multidimensional_timeseries_var.attrs = {
+            "CATDESC": "var_timeseries_many_dimensions",
             "VAR_TYPE": "data",
             "FIELDNAM": "something",
             "DEPEND_0": "time_col_good",
@@ -316,12 +319,12 @@ class TestCdfVariableParser(unittest.TestCase):
             "DISPLAY_TYPE": "time_series",
             "UNITS": "degrees",
         }
-        var_filtered_for_timeseries_shape_with_too_many_dimensions.shape = (1, 2, 3)
+        allowed_multidimensional_timeseries_var.shape = (1, 2, 3)
 
         mock_cdf.items.return_value = {
             "var0": var_that_is_not_filtered,
             "var1": var_that_is_not_filtered_three_dimensional_spectrogram,
-            "var2": var_filtered_for_timeseries_shape_with_too_many_dimensions,
+            "var2": allowed_multidimensional_timeseries_var,
         }.items()
 
         mock_time_column_good = Mock()

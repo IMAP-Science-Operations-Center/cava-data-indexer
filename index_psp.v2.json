@@ -415,8 +415,22 @@
         "axis_label": "Direction [x,y,z] HCI"
       },
       {
+        "variable_name": "HET_A_R17_SECT_HCI",
+        "catalog_description": "HCI flow direction HETAR17SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "HET_B_HCI",
         "catalog_description": "HCI flow direction HETB",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "HET_B_R17_SECT_HCI",
+        "catalog_description": "HCI flow direction HETBR17SECT",
         "display_type": "time_series",
         "units": " ",
         "axis_label": "Direction [x,y,z] HCI"
@@ -1059,8 +1073,22 @@
         "axis_label": "Direction [R,T,N]"
       },
       {
+        "variable_name": "HET_A_R17_SECT_RTN",
+        "catalog_description": "RTN flow direction HETAR17SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
         "variable_name": "HET_B_RTN",
         "catalog_description": "RTN flow direction HETB",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "HET_B_R17_SECT_RTN",
+        "catalog_description": "RTN flow direction HETBR17SECT",
         "display_type": "time_series",
         "units": " ",
         "axis_label": "Direction [R,T,N]"
@@ -13219,8 +13247,22 @@
         "axis_label": "Direction [x,y,z] HCI"
       },
       {
+        "variable_name": "HET_A_R17_SECT_HCI",
+        "catalog_description": "HCI flow direction HETAR17SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "HET_B_HCI",
         "catalog_description": "HCI flow direction HETB",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "HET_B_R17_SECT_HCI",
+        "catalog_description": "HCI flow direction HETBR17SECT",
         "display_type": "time_series",
         "units": " ",
         "axis_label": "Direction [x,y,z] HCI"
@@ -13653,8 +13695,22 @@
         "axis_label": "Direction [R,T,N]"
       },
       {
+        "variable_name": "HET_A_R17_SECT_RTN",
+        "catalog_description": "RTN flow direction HETAR17SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
         "variable_name": "HET_B_RTN",
         "catalog_description": "RTN flow direction HETB",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "HET_B_R17_SECT_RTN",
+        "catalog_description": "RTN flow direction HETBR17SECT",
         "display_type": "time_series",
         "units": " ",
         "axis_label": "Direction [R,T,N]"
@@ -22313,8 +22369,22 @@
         "axis_label": "Direction [x,y,z] HCI"
       },
       {
+        "variable_name": "HET_A_R17_SECT_HCI",
+        "catalog_description": "HCI flow direction HETAR17SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "HET_B_HCI",
         "catalog_description": "HCI flow direction HETB",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "HET_B_R17_SECT_HCI",
+        "catalog_description": "HCI flow direction HETBR17SECT",
         "display_type": "time_series",
         "units": " ",
         "axis_label": "Direction [x,y,z] HCI"
@@ -22439,8 +22509,22 @@
         "axis_label": "Direction [R,T,N]"
       },
       {
+        "variable_name": "HET_A_R17_SECT_RTN",
+        "catalog_description": "RTN flow direction HETAR17SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
         "variable_name": "HET_B_RTN",
         "catalog_description": "RTN flow direction HETB",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "HET_B_R17_SECT_RTN",
+        "catalog_description": "RTN flow direction HETBR17SECT",
         "display_type": "time_series",
         "units": " ",
         "axis_label": "Direction [R,T,N]"
@@ -36259,8 +36343,36 @@
         "axis_label": "Direction [x,y,z] HCI"
       },
       {
+        "variable_name": "LET1_A_R1_SECT_HCI",
+        "catalog_description": "HCI flow direction LET1AR1SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "LET1_A_R26_SECT_HCI",
+        "catalog_description": "HCI flow direction LET1AR26SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "LET1_B_HCI",
         "catalog_description": "HCI flow direction LET1B",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "LET1_B_R1_SECT_HCI",
+        "catalog_description": "HCI flow direction LET1BR1SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "LET1_B_R26_SECT_HCI",
+        "catalog_description": "HCI flow direction LET1BR26SECT",
         "display_type": "time_series",
         "units": " ",
         "axis_label": "Direction [x,y,z] HCI"
@@ -36917,8 +37029,36 @@
         "axis_label": "Direction [R,T,N]"
       },
       {
+        "variable_name": "LET1_A_R1_SECT_RTN",
+        "catalog_description": "RTN flow direction LET1AR1SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "LET1_A_R26_SECT_RTN",
+        "catalog_description": "RTN flow direction LET1AR26SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
         "variable_name": "LET1_B_RTN",
         "catalog_description": "RTN flow direction LET1B",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "LET1_B_R1_SECT_RTN",
+        "catalog_description": "RTN flow direction LET1BR1SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "LET1_B_R26_SECT_RTN",
+        "catalog_description": "RTN flow direction LET1BR26SECT",
         "display_type": "time_series",
         "units": " ",
         "axis_label": "Direction [R,T,N]"
@@ -49082,8 +49222,36 @@
         "axis_label": "Direction [x,y,z] HCI"
       },
       {
+        "variable_name": "LET1_A_R1_SECT_HCI",
+        "catalog_description": "HCI flow direction LET1AR1SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "LET1_A_R26_SECT_HCI",
+        "catalog_description": "HCI flow direction LET1AR26SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "LET1_B_HCI",
         "catalog_description": "HCI flow direction LET1B",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "LET1_B_R1_SECT_HCI",
+        "catalog_description": "HCI flow direction LET1BR1SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "LET1_B_R26_SECT_HCI",
+        "catalog_description": "HCI flow direction LET1BR26SECT",
         "display_type": "time_series",
         "units": " ",
         "axis_label": "Direction [x,y,z] HCI"
@@ -49572,8 +49740,36 @@
         "axis_label": "Direction [R,T,N]"
       },
       {
+        "variable_name": "LET1_A_R1_SECT_RTN",
+        "catalog_description": "RTN flow direction LET1AR1SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "LET1_A_R26_SECT_RTN",
+        "catalog_description": "RTN flow direction LET1AR26SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
         "variable_name": "LET1_B_RTN",
         "catalog_description": "RTN flow direction LET1B",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "LET1_B_R1_SECT_RTN",
+        "catalog_description": "RTN flow direction LET1BR1SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "LET1_B_R26_SECT_RTN",
+        "catalog_description": "RTN flow direction LET1BR26SECT",
         "display_type": "time_series",
         "units": " ",
         "axis_label": "Direction [R,T,N]"
@@ -58260,8 +58456,36 @@
         "axis_label": "Direction [x,y,z] HCI"
       },
       {
+        "variable_name": "LET1_A_R1_SECT_HCI",
+        "catalog_description": "HCI flow direction LET1AR1SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "LET1_A_R26_SECT_HCI",
+        "catalog_description": "HCI flow direction LET1AR26SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "LET1_B_HCI",
         "catalog_description": "HCI flow direction LET1B",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "LET1_B_R1_SECT_HCI",
+        "catalog_description": "HCI flow direction LET1BR1SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "LET1_B_R26_SECT_HCI",
+        "catalog_description": "HCI flow direction LET1BR26SECT",
         "display_type": "time_series",
         "units": " ",
         "axis_label": "Direction [x,y,z] HCI"
@@ -58428,8 +58652,36 @@
         "axis_label": "Direction [R,T,N]"
       },
       {
+        "variable_name": "LET1_A_R1_SECT_RTN",
+        "catalog_description": "RTN flow direction LET1AR1SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "LET1_A_R26_SECT_RTN",
+        "catalog_description": "RTN flow direction LET1AR26SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
         "variable_name": "LET1_B_RTN",
         "catalog_description": "RTN flow direction LET1B",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "LET1_B_R1_SECT_RTN",
+        "catalog_description": "RTN flow direction LET1BR1SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "LET1_B_R26_SECT_RTN",
+        "catalog_description": "RTN flow direction LET1BR26SECT",
         "display_type": "time_series",
         "units": " ",
         "axis_label": "Direction [R,T,N]"
@@ -72022,6 +72274,20 @@
         "axis_label": "Direction [x,y,z] HCI"
       },
       {
+        "variable_name": "LET2_C_R1_SECT_HCI",
+        "catalog_description": "HCI flow direction LET2CR1SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "LET2_C_R25_SECT_HCI",
+        "catalog_description": "HCI flow direction LET2CR25SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "HCI_Lat",
         "catalog_description": "HCI latitude",
         "display_type": "time_series",
@@ -72353,6 +72619,20 @@
       {
         "variable_name": "LET2_C_RTN",
         "catalog_description": "RTN flow direction LET2C",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "LET2_C_R1_SECT_RTN",
+        "catalog_description": "RTN flow direction LET2CR1SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "LET2_C_R25_SECT_RTN",
+        "catalog_description": "RTN flow direction LET2CR25SECT",
         "display_type": "time_series",
         "units": " ",
         "axis_label": "Direction [R,T,N]"
@@ -84285,6 +84565,20 @@
         "axis_label": "Direction [x,y,z] HCI"
       },
       {
+        "variable_name": "LET2_C_R1_SECT_HCI",
+        "catalog_description": "HCI flow direction LET2CR1SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "LET2_C_R25_SECT_HCI",
+        "catalog_description": "HCI flow direction LET2CR25SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "HCI_Lat",
         "catalog_description": "HCI latitude",
         "display_type": "time_series",
@@ -84546,6 +84840,20 @@
       {
         "variable_name": "LET2_C_RTN",
         "catalog_description": "RTN flow direction LET2C",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "LET2_C_R1_SECT_RTN",
+        "catalog_description": "RTN flow direction LET2CR1SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "LET2_C_R25_SECT_RTN",
+        "catalog_description": "RTN flow direction LET2CR25SECT",
         "display_type": "time_series",
         "units": " ",
         "axis_label": "Direction [R,T,N]"
@@ -93167,6 +93475,20 @@
         "axis_label": "Direction [x,y,z] HCI"
       },
       {
+        "variable_name": "LET2_C_R1_SECT_HCI",
+        "catalog_description": "HCI flow direction LET2CR1SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "LET2_C_R25_SECT_HCI",
+        "catalog_description": "HCI flow direction LET2CR25SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "HCI_Lat",
         "catalog_description": "HCI latitude",
         "display_type": "time_series",
@@ -93267,6 +93589,20 @@
       {
         "variable_name": "LET2_C_RTN",
         "catalog_description": "RTN flow direction LET2C",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "LET2_C_R1_SECT_RTN",
+        "catalog_description": "RTN flow direction LET2CR1SECT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "LET2_C_R25_SECT_RTN",
+        "catalog_description": "RTN flow direction LET2CR25SECT",
         "display_type": "time_series",
         "units": " ",
         "axis_label": "Direction [R,T,N]"
@@ -106870,6 +107206,41 @@
         "axis_label": "H flux chanT"
       },
       {
+        "variable_name": "HCI_ChanC",
+        "catalog_description": "HCI flow direction ChanC",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "HCI_ChanD",
+        "catalog_description": "HCI flow direction ChanD",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "HCI_ChanP",
+        "catalog_description": "HCI flow direction ChanP",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "HCI_ChanR",
+        "catalog_description": "HCI flow direction ChanR",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "HCI_ChanT",
+        "catalog_description": "HCI flow direction ChanT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "HCI_Lat_ChanC",
         "catalog_description": "HCI latitude ChanC",
         "display_type": "time_series",
@@ -107246,6 +107617,41 @@
         "display_type": "time_series",
         "units": "degree",
         "axis_label": "PA"
+      },
+      {
+        "variable_name": "RTN_ChanC",
+        "catalog_description": "RTN flow direction ChanC",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "RTN_ChanD",
+        "catalog_description": "RTN flow direction ChanD",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "RTN_ChanP",
+        "catalog_description": "RTN flow direction ChanP",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "RTN_ChanR",
+        "catalog_description": "RTN flow direction ChanR",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "RTN_ChanT",
+        "catalog_description": "RTN flow direction ChanT",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
       },
       {
         "variable_name": "Si_CountRate_ChanD",
@@ -119857,6 +120263,27 @@
         "axis_label": "H counts chanG"
       },
       {
+        "variable_name": "HCI_ChanE",
+        "catalog_description": "HCI flow direction ChanE",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "HCI_ChanF",
+        "catalog_description": "HCI flow direction ChanF",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
+        "variable_name": "HCI_ChanG",
+        "catalog_description": "HCI flow direction ChanG",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [x,y,z] HCI"
+      },
+      {
         "variable_name": "HCI_Lat_ChanE",
         "catalog_description": "HCI latitude ChanE",
         "display_type": "time_series",
@@ -120023,6 +120450,27 @@
         "display_type": "time_series",
         "units": "degree",
         "axis_label": "PA"
+      },
+      {
+        "variable_name": "RTN_ChanE",
+        "catalog_description": "RTN flow direction ChanE",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "RTN_ChanF",
+        "catalog_description": "RTN flow direction ChanF",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
+      },
+      {
+        "variable_name": "RTN_ChanG",
+        "catalog_description": "RTN flow direction ChanG",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Direction [R,T,N]"
       }
     ],
     "logical_source": "psp_isois-epilo_l2-pe",
@@ -182808,6 +183256,48 @@
         "display_type": "time_series",
         "units": "Deg K",
         "axis_label": "1AU IP Plasma Temp"
+      },
+      {
+        "variable_name": "PR-FLX_1",
+        "catalog_description": "1AU Proton flux > 1 MeV ,1/(SQcm-ster-s)",
+        "display_type": "time_series",
+        "units": "1/(SQcm-ster-s)",
+        "axis_label": "1AU Protons>1 MeV"
+      },
+      {
+        "variable_name": "PR-FLX_10",
+        "catalog_description": "1AU Proton flux >10 MeV (1/(SQcm-ster-s))",
+        "display_type": "time_series",
+        "units": "1/(SQcm-ster-s)",
+        "axis_label": "1AU Protons>10 MeV"
+      },
+      {
+        "variable_name": "PR-FLX_2",
+        "catalog_description": "1AU Proton flux >2 MeV (1/(SQcm-ster-s))",
+        "display_type": "time_series",
+        "units": "1/(SQcm-ster-s)",
+        "axis_label": "1AU Protons>2 MeV"
+      },
+      {
+        "variable_name": "PR-FLX_30",
+        "catalog_description": "1AU Proton flux >30 MeV (1/(SQcm-ster-s))",
+        "display_type": "time_series",
+        "units": "1/(SQcm-ster-s)",
+        "axis_label": "1AU Protons>30 MeV"
+      },
+      {
+        "variable_name": "PR-FLX_4",
+        "catalog_description": "1AU Proton flux >4 MeV (1/(SQcm-ster-s))",
+        "display_type": "time_series",
+        "units": "1/(SQcm-ster-s)",
+        "axis_label": "1AU Protons>4 MeV"
+      },
+      {
+        "variable_name": "PR-FLX_60",
+        "catalog_description": "1AU Proton flux >60 MeV (1/(SQcm-ster-s))",
+        "display_type": "time_series",
+        "units": "1/(SQcm-ster-s)..",
+        "axis_label": "1AU Protons>60 MeV"
       },
       {
         "variable_name": "AE",
