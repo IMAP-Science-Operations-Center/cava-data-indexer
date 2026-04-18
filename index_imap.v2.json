@@ -16343,7 +16343,7 @@
     "variables": [
       {
         "variable_name": "ena_intensity",
-        "catalog_description": "Mono-energetic ENA intensity.",
+        "catalog_description": "IMAP Hi Combined H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 4 deg, 1 Yr",
         "display_type": "map_image",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
@@ -16351,7 +16351,7 @@
     ],
     "logical_source": "imap_hi_l3_hic-ena-h-hf-nsp-full-hae-4deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 12 Month Map",
-    "generation_date": "2026-01-30",
+    "generation_date": "2026-04-18",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -16362,6 +16362,11 @@
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_hic-ena-h-hf-nsp-full-hae-4deg-1yr_20250415_v002.cdf"
+      },
+      {
+        "start_time": "2025-04-19T00:00:00+00:00",
+        "end_time": "2026-04-19T06:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_hic-ena-h-hf-nsp-full-hae-4deg-1yr_20250419_v001.cdf"
       }
     ]
   },
@@ -16369,7 +16374,7 @@
     "variables": [
       {
         "variable_name": "ena_intensity",
-        "catalog_description": "Mono-energetic ENA intensity.",
+        "catalog_description": "IMAP Hi Combined H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 6 deg, 1 Yr",
         "display_type": "map_image",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
@@ -16377,7 +16382,7 @@
     ],
     "logical_source": "imap_hi_l3_hic-ena-h-hf-nsp-full-hae-6deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 12 Month Map",
-    "generation_date": "2026-01-30",
+    "generation_date": "2026-04-18",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -16388,6 +16393,11 @@
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_hic-ena-h-hf-nsp-full-hae-6deg-1yr_20250415_v002.cdf"
+      },
+      {
+        "start_time": "2025-04-19T00:00:00+00:00",
+        "end_time": "2026-04-19T06:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_hic-ena-h-hf-nsp-full-hae-6deg-1yr_20250419_v001.cdf"
       }
     ]
   },
@@ -16395,7 +16405,7 @@
     "variables": [
       {
         "variable_name": "ena_intensity",
-        "catalog_description": "Mono-energetic ENA intensity.",
+        "catalog_description": "IMAP Hi Combined H Inten, HAE Helio Frame, Surv Corr, Full Spin, 4 deg, 1 Yr",
         "display_type": "map_image",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
@@ -16403,7 +16413,7 @@
     ],
     "logical_source": "imap_hi_l3_hic-ena-h-hf-sp-full-hae-4deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 12 Month Map",
-    "generation_date": "2026-01-30",
+    "generation_date": "2026-04-18",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -16414,6 +16424,11 @@
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_hic-ena-h-hf-sp-full-hae-4deg-1yr_20250415_v002.cdf"
+      },
+      {
+        "start_time": "2025-04-19T00:00:00+00:00",
+        "end_time": "2026-04-19T06:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_hic-ena-h-hf-sp-full-hae-4deg-1yr_20250419_v001.cdf"
       }
     ]
   },
@@ -16421,7 +16436,7 @@
     "variables": [
       {
         "variable_name": "ena_intensity",
-        "catalog_description": "Mono-energetic ENA intensity.",
+        "catalog_description": "IMAP Hi Combined H Inten, HAE Helio Frame, Surv Corr, Full Spin, 6 deg, 1 Yr",
         "display_type": "map_image",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
@@ -16429,7 +16444,7 @@
     ],
     "logical_source": "imap_hi_l3_hic-ena-h-hf-sp-full-hae-6deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 12 Month Map",
-    "generation_date": "2026-01-30",
+    "generation_date": "2026-04-18",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -16440,11 +16455,30 @@
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_hic-ena-h-hf-sp-full-hae-6deg-1yr_20250415_v002.cdf"
+      },
+      {
+        "start_time": "2025-04-19T00:00:00+00:00",
+        "end_time": "2026-04-19T06:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_hic-ena-h-hf-sp-full-hae-6deg-1yr_20250419_v001.cdf"
       }
     ]
   },
   {
     "variables": [
+      {
+        "variable_name": "ena_spectral_index_chisq",
+        "catalog_description": "ENA spectral index reduced chi-squared",
+        "display_type": "map_image",
+        "units": " ",
+        "axis_label": "spectral index chi-sq"
+      },
+      {
+        "variable_name": "ena_spectral_scalar_stat_uncert",
+        "catalog_description": "ENA spectral index scalar coefficient statistical uncertainty.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Statistical unc."
+      },
       {
         "variable_name": "ena_spectral_scalar",
         "catalog_description": "ENA spectral index scalar coefficient.",
@@ -16461,7 +16495,7 @@
       },
       {
         "variable_name": "ena_spectral_index",
-        "catalog_description": "ENA spectral index.",
+        "catalog_description": "IMAP Hi Combined H Spectral, HAE Helio Frame, Surv Corr, Full Spin, 4 deg, 1 Yr",
         "display_type": "map_image",
         "units": " ",
         "axis_label": "spectral index"
@@ -16469,7 +16503,7 @@
     ],
     "logical_source": "imap_hi_l3_hic-spx-h-hf-sp-full-hae-4deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi Combined, Spectral Index, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 12 Month Map",
-    "generation_date": "2026-01-30",
+    "generation_date": "2026-04-18",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -16480,11 +16514,30 @@
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_hic-spx-h-hf-sp-full-hae-4deg-1yr_20250415_v002.cdf"
+      },
+      {
+        "start_time": "2025-04-19T00:00:00+00:00",
+        "end_time": "2026-04-19T06:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_hic-spx-h-hf-sp-full-hae-4deg-1yr_20250419_v001.cdf"
       }
     ]
   },
   {
     "variables": [
+      {
+        "variable_name": "ena_spectral_index_chisq",
+        "catalog_description": "ENA spectral index reduced chi-squared",
+        "display_type": "map_image",
+        "units": " ",
+        "axis_label": "spectral index chi-sq"
+      },
+      {
+        "variable_name": "ena_spectral_scalar_stat_uncert",
+        "catalog_description": "ENA spectral index scalar coefficient statistical uncertainty.",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Statistical unc."
+      },
       {
         "variable_name": "ena_spectral_scalar",
         "catalog_description": "ENA spectral index scalar coefficient.",
@@ -16501,7 +16554,7 @@
       },
       {
         "variable_name": "ena_spectral_index",
-        "catalog_description": "ENA spectral index.",
+        "catalog_description": "IMAP Hi Combined H Spectral, HAE Helio Frame, Surv Corr, Full Spin, 6 deg, 1 Yr",
         "display_type": "map_image",
         "units": " ",
         "axis_label": "spectral index"
@@ -16509,7 +16562,7 @@
     ],
     "logical_source": "imap_hi_l3_hic-spx-h-hf-sp-full-hae-6deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi Combined, Spectral Index, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 12 Month Map",
-    "generation_date": "2026-01-30",
+    "generation_date": "2026-04-18",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -16520,6 +16573,11 @@
         "start_time": "2025-04-15T00:00:00+00:00",
         "end_time": "2026-04-15T06:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_hic-spx-h-hf-sp-full-hae-6deg-1yr_20250415_v002.cdf"
+      },
+      {
+        "start_time": "2025-04-19T00:00:00+00:00",
+        "end_time": "2026-04-19T06:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_hic-spx-h-hf-sp-full-hae-6deg-1yr_20250419_v001.cdf"
       }
     ]
   },
