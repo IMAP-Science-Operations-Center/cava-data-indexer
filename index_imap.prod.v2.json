@@ -16626,6 +16626,32 @@
     "variables": [
       {
         "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Hi45 H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 4 deg, 3 Mon",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_hi_l2_h45-ena-h-hf-nsp-full-hae-4deg-3mo",
+    "logical_source_description": "IMAP-Hi Instrument Level-2 ENA Intensity Map Data for Hi45 on rectangular tiling.",
+    "generation_date": "2026-04-21",
+    "data_level": "l2",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "three_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-04-18T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l2/2026/01/imap_hi_l2_h45-ena-h-hf-nsp-full-hae-4deg-3mo_20260117_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
         "catalog_description": "IMAP Hi45 H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 6 deg, 3 Mon",
         "display_type": "map_image",
         "units": "cm -2 s -1 sr -1 keV -1",
