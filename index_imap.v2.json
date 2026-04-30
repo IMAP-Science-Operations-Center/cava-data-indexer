@@ -10403,7 +10403,7 @@
     ],
     "logical_source": "imap_hit_l2_macropixel-intensity",
     "logical_source_description": "IMAP Mission HIT Instrument Level-2 Macro Pixel Intensity Data.",
-    "generation_date": "2026-04-29",
+    "generation_date": "2026-04-30",
     "data_level": "l2",
     "instrument": "HIT",
     "mission": "IMAP",
@@ -11153,7 +11153,12 @@
       {
         "start_time": "2026-04-29T00:00:00+00:00",
         "end_time": "2026-04-30T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_macropixel-intensity_20260429_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_macropixel-intensity_20260429_v002.cdf"
+      },
+      {
+        "start_time": "2026-04-30T00:00:00+00:00",
+        "end_time": "2026-05-01T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_macropixel-intensity_20260430_v001.cdf"
       }
     ]
   },
@@ -11288,7 +11293,7 @@
     ],
     "logical_source": "imap_hit_l2_standard-intensity",
     "logical_source_description": "IMAP Mission HIT Instrument Level-2 Standard Intensity Data.",
-    "generation_date": "2026-04-29",
+    "generation_date": "2026-04-30",
     "data_level": "l2",
     "instrument": "HIT",
     "mission": "IMAP",
@@ -12053,7 +12058,12 @@
       {
         "start_time": "2026-04-29T00:00:00+00:00",
         "end_time": "2026-04-30T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_standard-intensity_20260429_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_standard-intensity_20260429_v002.cdf"
+      },
+      {
+        "start_time": "2026-04-30T00:00:00+00:00",
+        "end_time": "2026-05-01T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_standard-intensity_20260430_v001.cdf"
       }
     ]
   },
@@ -12188,7 +12198,7 @@
     ],
     "logical_source": "imap_hit_l2_summed-intensity",
     "logical_source_description": "IMAP Mission HIT Instrument Level-2 Summed Intensity Data.",
-    "generation_date": "2026-04-29",
+    "generation_date": "2026-04-30",
     "data_level": "l2",
     "instrument": "HIT",
     "mission": "IMAP",
@@ -12953,7 +12963,12 @@
       {
         "start_time": "2026-04-29T00:00:00+00:00",
         "end_time": "2026-04-30T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_summed-intensity_20260429_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_summed-intensity_20260429_v002.cdf"
+      },
+      {
+        "start_time": "2026-04-30T00:00:00+00:00",
+        "end_time": "2026-05-01T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_summed-intensity_20260430_v001.cdf"
       }
     ]
   },
@@ -16816,7 +16831,7 @@
     ],
     "logical_source": "imap_hit_l3_direct-events",
     "logical_source_description": "HIT Instrument Level-3 Direct Event Science Data",
-    "generation_date": "2026-04-29",
+    "generation_date": "2026-04-30",
     "data_level": "l3",
     "instrument": "HIT",
     "mission": "IMAP",
@@ -17581,7 +17596,12 @@
       {
         "start_time": "2026-04-29T00:00:00+00:00",
         "end_time": "2026-04-30T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l3/2026/04/imap_hit_l3_direct-events_20260429_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l3/2026/04/imap_hit_l3_direct-events_20260429_v002.cdf"
+      },
+      {
+        "start_time": "2026-04-30T00:00:00+00:00",
+        "end_time": "2026-05-01T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l3/2026/04/imap_hit_l3_direct-events_20260430_v001.cdf"
       }
     ]
   },
