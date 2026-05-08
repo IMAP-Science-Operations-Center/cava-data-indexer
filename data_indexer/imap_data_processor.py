@@ -2,18 +2,14 @@ import os
 import re
 from collections import defaultdict
 from dataclasses import dataclass
-from datetime import datetime, timezone
-from functools import reduce
-from typing import TypeVar
-
-import imap_data_access
+from datetime import date, datetime, timezone
 
 from data_indexer.cdf_parser.cdf_parser import CdfParser
 from data_indexer.cdf_parser.variable_selector.default_variable_selector import DefaultVariableSelector
 from data_indexer.file_cadence.carrington_file_cadence import CarringtonFileCadence
 from data_indexer.file_cadence.daily_file_cadence import DailyFileCadence
 from data_indexer.file_cadence.map_file_cadence import BadFileNameError, MapFileCadence
-from data_indexer.imap_data_access_utility import get_with_retry
+from data_indexer.imap_data_access_utility import get_with_retry, query_chunked_data_product
 from data_indexer.utils import DataProductSource, get_index_entry
 
 
@@ -24,12 +20,8 @@ class Dataproduct:
     descriptor: str
 
 
-T = TypeVar("T")
-
-
-def flatten(list_to_flatten: list[list[T]]) -> list[T]:
-    return reduce(list.__add__, list_to_flatten, [])
-
+INSTRUMENTS: list[str] = ["codice", "glows", "hi", "hit", "idex", "lo", "mag", "swapi", "swe", "ultra"]
+L2_L3_DATA_LEVELS: list[str] = ["l2", "l2a", "l2b", "l2c", "l3", "l3a", "l3b", "l3c", "l3d", "l3e"]
 
 instrument_names = {
     "codice": "CoDICE",
@@ -48,10 +40,13 @@ instrument_names = {
 def get_metadata_index() -> list[dict]:
     uuid_matcher = re.compile("[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}")
 
-    mag_l1d_cdf_metadatas = imap_data_access.query(instrument="mag", data_level="l1d")
-    version_variants = ["l2", "l2a", "l2b", "l2c", "l3", "l3a", "l3b", "l3c", "l3d", "l3e"]
-    l2_l3_cdf_metadatas = flatten([imap_data_access.query(data_level=version) for version in version_variants])
-    cdf_metadatas = mag_l1d_cdf_metadatas + l2_l3_cdf_metadatas
+    today: date = datetime.now(tz=timezone.utc).date()
+    cdf_metadatas: list[dict] = query_chunked_data_product(instrument="mag", data_level="l1d", today=today)
+    for instrument in INSTRUMENTS:
+        for data_level in L2_L3_DATA_LEVELS:
+            cdf_metadatas.extend(
+                query_chunked_data_product(instrument=instrument, data_level=data_level, today=today)
+            )
 
     data_products = defaultdict(lambda: dict())
     for cdf_metadata in cdf_metadatas:
