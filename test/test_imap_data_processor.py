@@ -1,6 +1,6 @@
 import os
 import uuid
-from datetime import date
+from datetime import date, datetime, timezone
 from pathlib import Path
 from unittest import TestCase
 from unittest.mock import Mock, call, patch
@@ -12,17 +12,26 @@ from data_indexer.cdf_parser.cdf_global_parser import CdfGlobalInfo
 from data_indexer.cdf_parser.cdf_parser import CdfFileInfo
 from data_indexer.cdf_parser.cdf_variable_parser import CdfVariableInfo
 from data_indexer.cdf_parser.variable_selector.default_variable_selector import DefaultVariableSelector
-from data_indexer.imap_data_processor import get_metadata_index
+from data_indexer.imap_data_processor import INSTRUMENTS, L2_L3_DATA_LEVELS, get_metadata_index
+
+MODULE = "data_indexer.imap_data_processor"
 
 
 class TestImapDataProcessor(TestCase):
     def setUp(self):
         os.environ["IMAP_API_DOWNLOAD_URL"] = "https://api.dev.imap-mission.com/download/"
 
-    @patch("data_indexer.imap_data_processor.CdfParser")
-    @patch("data_indexer.imap_data_processor.imap_data_access.query")
-    @patch("data_indexer.imap_data_processor.get_with_retry")
-    def test_get_metadata_index(self, mock_get_with_retry, mock_data_access_query, mock_cdf_parser):
+    @staticmethod
+    def _stub_data_product_metadata_query(cdf_metadata_rows: list[dict]):
+        def query_chunked_data_product(instrument: str, data_level: str, today: date) -> list[dict]:
+            return list(cdf_metadata_rows)
+
+        return query_chunked_data_product
+
+    @patch(f"{MODULE}.CdfParser")
+    @patch(f"{MODULE}.query_chunked_data_product")
+    @patch(f"{MODULE}.get_with_retry")
+    def test_get_metadata_index(self, mock_get_with_retry, mock_query_chunked, mock_cdf_parser):
 
         l3a_protons_data_product_v3 = (
             "fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_protons_20250606_v003.cdf"
@@ -45,7 +54,7 @@ class TestImapDataProcessor(TestCase):
             "fake-mission/fake-instrument/l3b/2025/06/fake-mission_fake-instrument_l3b_pui-he_20250607_v003.cdf"
         )
 
-        mock_data_access_query.return_value = [
+        query_rows: list[dict] = [
             {
                 "file_path": l3a_protons_data_product_v2_outdated,
                 "instrument": "fake-instrument",
@@ -113,6 +122,7 @@ class TestImapDataProcessor(TestCase):
                 "ingestion_date": "2024-11-21 21:12:40",
             },
         ]
+        mock_query_chunked.side_effect = self._stub_data_product_metadata_query(query_rows)
 
         first_cdf_response = Mock()
         second_cdf_response = Mock()
@@ -340,21 +350,6 @@ class TestImapDataProcessor(TestCase):
             },
         ]
 
-        mock_data_access_query.assert_has_calls(
-            [
-                call(data_level="l1d", instrument="mag"),
-                call(data_level="l2"),
-                call(data_level="l2a"),
-                call(data_level="l2b"),
-                call(data_level="l2c"),
-                call(data_level="l3"),
-                call(data_level="l3a"),
-                call(data_level="l3b"),
-                call(data_level="l3c"),
-                call(data_level="l3d"),
-                call(data_level="l3e"),
-            ]
-        )
         self.assertEqual(expected_index, actual_index)
 
         self.assertEqual(
@@ -367,48 +362,54 @@ class TestImapDataProcessor(TestCase):
             mock_cdf_parser.parse_cdf.call_args_list,
         )
 
-    @patch("data_indexer.imap_data_processor.CdfParser")
-    @patch("data_indexer.imap_data_processor.imap_data_access.query")
-    @patch("data_indexer.imap_data_processor.get_with_retry")
-    def test_get_metadata_index_gets_l1d_l2_l3_data(self, mock_get_with_retry, mock_data_access_query, _):
-        imap_dev_server = "https://api.dev.imap-mission.com/download/"
-        os.environ["IMAP_API_DOWNLOAD_URL"] = imap_dev_server
-        expected_data_levels = {"l1d", "l2", "l2a", "l2b", "l2c", "l3", "l3a", "l3b", "l3c", "l3d", "l3e"}
-        expected_data_levels_and_response = {
-            data_level: self.create_cdf_metadata_query_response(data_level) for data_level in expected_data_levels
-        }
-        expected_parse_cdf_files = [Path(value["file_path"]) for value in expected_data_levels_and_response.values()]
-
-        mock_data_access_query.side_effect = [[v] for v in list(expected_data_levels_and_response.values())]
-        mock_get_with_retry.side_effect = expected_parse_cdf_files
+    @patch(f"{MODULE}.datetime")
+    @patch(f"{MODULE}.query_chunked_data_product")
+    def test_calls_chunked_helper_for_mag_l1d_then_full_l2_l3_grid_in_order(
+        self, mock_query_chunked, mock_datetime
+    ):
+        mock_datetime.now.return_value = datetime(2026, 5, 8, tzinfo=timezone.utc)
+        today = date(2026, 5, 8)
+        mock_query_chunked.side_effect = self._stub_data_product_metadata_query([])
 
         get_metadata_index()
 
-        mock_data_access_query.assert_has_calls(
-            [
-                call(data_level="l1d", instrument="mag"),
-                call(data_level="l2"),
-                call(data_level="l2a"),
-                call(data_level="l2b"),
-                call(data_level="l2c"),
-                call(data_level="l3"),
-                call(data_level="l3a"),
-                call(data_level="l3b"),
-                call(data_level="l3c"),
-                call(data_level="l3d"),
-                call(data_level="l3e"),
-            ]
-        )
+        expected_calls = [call(instrument="mag", data_level="l1d", today=today)]
+        for instrument in INSTRUMENTS:
+            for data_level in L2_L3_DATA_LEVELS:
+                expected_calls.append(call(instrument=instrument, data_level=data_level, today=today))
+        self.assertEqual(mock_query_chunked.call_args_list, expected_calls)
+        self.assertEqual(mock_query_chunked.call_count, 1 + len(INSTRUMENTS) * len(L2_L3_DATA_LEVELS))
+
+    @patch(f"{MODULE}.CdfParser")
+    @patch(f"{MODULE}.query_chunked_data_product")
+    @patch(f"{MODULE}.get_with_retry")
+    def test_invokes_get_with_retry_for_every_data_product_returned_by_chunked_helper(
+        self, mock_get_with_retry, mock_query_chunked, _mock_cdf_parser
+    ):
+        response_by_pair: dict[tuple[str, str], list[dict]] = {
+            ("mag", "l1d"): [self.create_cdf_metadata_query_response("l1d")],
+        }
+        for data_level in L2_L3_DATA_LEVELS:
+            response_by_pair[("codice", data_level)] = [self.create_cdf_metadata_query_response(data_level)]
+
+        def query_chunked_data_product(instrument: str, data_level: str, today: date) -> list[dict]:
+            return response_by_pair.get((instrument, data_level), [])
+
+        mock_query_chunked.side_effect = query_chunked_data_product
+        mock_get_with_retry.side_effect = [Path(rows[0]["file_path"]) for rows in response_by_pair.values()]
+
+        get_metadata_index()
 
         mock_get_with_retry.assert_has_calls(
-            [call(value["file_path"]) for value in expected_data_levels_and_response.values()]
+            [call(rows[0]["file_path"]) for rows in response_by_pair.values()]
         )
+        self.assertEqual(mock_get_with_retry.call_count, len(response_by_pair))
 
-    @patch("data_indexer.imap_data_processor.CdfParser")
-    @patch("data_indexer.imap_data_processor.imap_data_access.query")
-    @patch("data_indexer.imap_data_processor.get_with_retry")
+    @patch(f"{MODULE}.CdfParser")
+    @patch(f"{MODULE}.query_chunked_data_product")
+    @patch(f"{MODULE}.get_with_retry")
     def test_get_metadata_index_returns_instrument_names_correctly(
-        self, _mock_get_with_retry, mock_data_access_query, _
+        self, _mock_get_with_retry, mock_query_chunked, _
     ):
         lowercase_instruments = [
             "codice",
@@ -434,7 +435,7 @@ class TestImapDataProcessor(TestCase):
             "SWE",
             "IMAP-Ultra",
         ]
-        mock_data_access_query.return_value = [
+        query_rows: list[dict] = [
             {
                 "file_path": "",
                 "instrument": instrument,
@@ -448,6 +449,7 @@ class TestImapDataProcessor(TestCase):
             }
             for instrument in lowercase_instruments
         ]
+        mock_query_chunked.side_effect = self._stub_data_product_metadata_query(query_rows)
 
         actual_index = get_metadata_index()
 
@@ -456,9 +458,9 @@ class TestImapDataProcessor(TestCase):
         for expected, actual in zip(uppercase_instruments, actual_index):
             self.assertEqual(expected, actual["instrument"])
 
-    @patch("data_indexer.imap_data_processor.imap_data_access.query")
-    def test_get_metadata_index_excludes_log_files_and_files_with_uuids(self, mock_data_access_query):
-        mock_data_access_query.return_value = [
+    @patch(f"{MODULE}.query_chunked_data_product")
+    def test_get_metadata_index_excludes_log_files_and_files_with_uuids(self, mock_query_chunked):
+        query_rows: list[dict] = [
             {
                 "file_path": (
                     "fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_protons_20250606_v002.cdf"
@@ -486,16 +488,17 @@ class TestImapDataProcessor(TestCase):
                 "ingestion_date": "2024-11-21 21:09:58",
             },
         ]
+        mock_query_chunked.side_effect = self._stub_data_product_metadata_query(query_rows)
 
         actual_index = get_metadata_index()
 
-        mock_data_access_query.assert_called()
+        mock_query_chunked.assert_called()
         self.assertEqual([], actual_index)
 
-    @patch("data_indexer.imap_data_processor.CdfParser")
-    @patch("data_indexer.imap_data_processor.imap_data_access.query")
-    @patch("data_indexer.imap_data_processor.get_with_retry")
-    def test_ignores_poorly_formatted_cdfs(self, _, mock_imap_query, mock_cdf_parser):
+    @patch(f"{MODULE}.CdfParser")
+    @patch(f"{MODULE}.query_chunked_data_product")
+    @patch(f"{MODULE}.get_with_retry")
+    def test_ignores_poorly_formatted_cdfs(self, _, mock_query_chunked, mock_cdf_parser):
         expected_file_path_1 = (
             "fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_protons_20250606_v003.cdf"
         )
@@ -503,7 +506,7 @@ class TestImapDataProcessor(TestCase):
             "fake-mission/fake-instrument/l3a/2025/06/fake-mission_fake-instrument_l3a_pui-he_20250606_v003.cdf"
         )
 
-        mock_imap_query.return_value = [
+        query_rows: list[dict] = [
             {
                 "file_path": expected_file_path_1,
                 "instrument": "fake-instrument",
@@ -527,6 +530,7 @@ class TestImapDataProcessor(TestCase):
                 "ingestion_date": "2024-11-21 21:09:59",
             },
         ]
+        mock_query_chunked.side_effect = self._stub_data_product_metadata_query(query_rows)
 
         mock_cdf_parser.parse_cdf.side_effect = [
             CDFError(spacepy.pycdf.const.NOT_A_CDF_OR_NOT_SUPPORTED),
@@ -547,15 +551,15 @@ class TestImapDataProcessor(TestCase):
 
         self.assertEqual(1, len(actual_index))
 
-    @patch("data_indexer.imap_data_processor.CdfParser")
-    @patch("data_indexer.imap_data_processor.imap_data_access.query")
-    @patch("data_indexer.imap_data_processor.get_with_retry")
-    def test_handles_files_with_carrington_cadence(self, _, mock_imap_query, mock_cdf_parser):
+    @patch(f"{MODULE}.CdfParser")
+    @patch(f"{MODULE}.query_chunked_data_product")
+    @patch(f"{MODULE}.get_with_retry")
+    def test_handles_files_with_carrington_cadence(self, _, mock_query_chunked, mock_cdf_parser):
         glows_l3b_file_path = "some/path/on/server/imap_glows_l3b_glows-descriptor_20250101_v000.cdf"
         glows_l3c_file_path = "some/path/on/server/imap_glows_l3c_glows-descriptor_20250101_v001.cdf"
         glows_l3d_file_path = "some/path/on/server/imap_glows_l3d_glows-descriptor_19470101-cr2292_v000.cdf"
 
-        mock_imap_query.return_value = [
+        query_rows: list[dict] = [
             {
                 "file_path": glows_l3b_file_path,
                 "instrument": "glows",
@@ -593,6 +597,7 @@ class TestImapDataProcessor(TestCase):
                 "ingestion_date": "2024-11-21 21:09:59",
             },
         ]
+        mock_query_chunked.side_effect = self._stub_data_product_metadata_query(query_rows)
 
         mock_cdf_parser.parse_cdf.side_effect = [
             CdfFileInfo(
@@ -700,15 +705,15 @@ class TestImapDataProcessor(TestCase):
 
         self.assertEqual(expected_index, get_metadata_index())
 
-    @patch("data_indexer.imap_data_processor.CdfParser")
-    @patch("data_indexer.imap_data_processor.imap_data_access.query")
-    @patch("data_indexer.imap_data_processor.get_with_retry")
-    def test_handles_map_cadences(self, _, mock_imap_query, mock_cdf_parser):
+    @patch(f"{MODULE}.CdfParser")
+    @patch(f"{MODULE}.query_chunked_data_product")
+    @patch(f"{MODULE}.get_with_retry")
+    def test_handles_map_cadences(self, _, mock_query_chunked, mock_cdf_parser):
         hi_3month_file_path = "some/path/on/server/imap_hi_l3_intensity-3mo_20250101_v000.cdf"
         hi_6month_file_path = "some/path/on/server/imap_hi_l3_intensity-6mo_20250101_v000.cdf"
         map_with_bad_cadence = "some/path/on/server/imap_hi_l3_intensity-3yr_20250101_v000.cdf"
 
-        mock_imap_query.return_value = [
+        query_rows: list[dict] = [
             {
                 "file_path": hi_3month_file_path,
                 "instrument": "hi",
@@ -746,6 +751,7 @@ class TestImapDataProcessor(TestCase):
                 "ingestion_date": "2024-11-21 21:09:59",
             },
         ]
+        mock_query_chunked.side_effect = self._stub_data_product_metadata_query(query_rows)
 
         mock_cdf_parser.parse_cdf.side_effect = [
             CdfFileInfo(
@@ -821,6 +827,20 @@ class TestImapDataProcessor(TestCase):
         ]
 
         self.assertEqual(expected_index, get_metadata_index())
+
+    @patch(f"{MODULE}.CdfParser")
+    @patch(f"{MODULE}.get_with_retry")
+    @patch(f"{MODULE}.query_chunked_data_product")
+    def test_returns_empty_index_when_every_chunked_query_is_empty(
+        self, mock_query_chunked, mock_get_with_retry, mock_cdf_parser
+    ):
+        mock_query_chunked.side_effect = self._stub_data_product_metadata_query([])
+
+        actual_index = get_metadata_index()
+
+        self.assertEqual([], actual_index)
+        self.assertEqual(0, mock_get_with_retry.call_count)
+        self.assertEqual(0, mock_cdf_parser.parse_cdf.call_count)
 
     def create_cdf_metadata_query_response(
         self,
