@@ -26710,7 +26710,7 @@
     ],
     "logical_source": "imap_idex_l2a_sci-10days",
     "logical_source_description": "IMAP Mission IDEX Instrument Level-2A 10-Day Data",
-    "generation_date": "2026-05-15",
+    "generation_date": "2026-05-18",
     "data_level": "l2a",
     "instrument": "IDEX",
     "mission": "IMAP",
@@ -26718,9 +26718,44 @@
     "version": "",
     "file_timeranges": [
       {
+        "start_time": "2026-01-30T00:00:00+00:00",
+        "end_time": "2026-01-31T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2a/2026/01/imap_idex_l2a_sci-10days_20260130_v001.cdf"
+      },
+      {
+        "start_time": "2026-02-09T00:00:00+00:00",
+        "end_time": "2026-02-10T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2a/2026/02/imap_idex_l2a_sci-10days_20260209_v001.cdf"
+      },
+      {
+        "start_time": "2026-02-19T00:00:00+00:00",
+        "end_time": "2026-02-20T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2a/2026/02/imap_idex_l2a_sci-10days_20260219_v001.cdf"
+      },
+      {
+        "start_time": "2026-03-01T00:00:00+00:00",
+        "end_time": "2026-03-02T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2a/2026/03/imap_idex_l2a_sci-10days_20260301_v001.cdf"
+      },
+      {
+        "start_time": "2026-03-11T00:00:00+00:00",
+        "end_time": "2026-03-12T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2a/2026/03/imap_idex_l2a_sci-10days_20260311_v001.cdf"
+      },
+      {
+        "start_time": "2026-03-21T00:00:00+00:00",
+        "end_time": "2026-03-22T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2a/2026/03/imap_idex_l2a_sci-10days_20260321_v001.cdf"
+      },
+      {
         "start_time": "2026-04-10T00:00:00+00:00",
         "end_time": "2026-04-11T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2a/2026/04/imap_idex_l2a_sci-10days_20260410_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2a/2026/04/imap_idex_l2a_sci-10days_20260410_v002.cdf"
+      },
+      {
+        "start_time": "2026-04-20T00:00:00+00:00",
+        "end_time": "2026-04-21T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2a/2026/04/imap_idex_l2a_sci-10days_20260420_v001.cdf"
       }
     ]
   },
