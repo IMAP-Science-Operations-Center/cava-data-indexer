@@ -27813,6 +27813,11 @@
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2a/2026/03/imap_idex_l2a_sci-10days_20260321_v004.cdf"
       },
       {
+        "start_time": "2026-03-31T00:00:00+00:00",
+        "end_time": "2026-04-01T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2a/2026/03/imap_idex_l2a_sci-10days_20260331_v001.cdf"
+      },
+      {
         "start_time": "2026-04-10T00:00:00+00:00",
         "end_time": "2026-04-11T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2a/2026/04/imap_idex_l2a_sci-10days_20260410_v005.cdf"
@@ -27912,6 +27917,11 @@
         "start_time": "2026-03-01T00:00:00+00:00",
         "end_time": "2026-03-02T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2b/2026/03/imap_idex_l2b_sci-1mo_20260301_v003.cdf"
+      },
+      {
+        "start_time": "2026-03-31T00:00:00+00:00",
+        "end_time": "2026-04-01T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2b/2026/03/imap_idex_l2b_sci-1mo_20260331_v001.cdf"
       }
     ]
   },
@@ -27991,6 +28001,11 @@
         "start_time": "2026-03-01T00:00:00+00:00",
         "end_time": "2026-03-02T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2c/2026/03/imap_idex_l2c_rectangular-map-1mo_20260301_v003.cdf"
+      },
+      {
+        "start_time": "2026-03-31T00:00:00+00:00",
+        "end_time": "2026-04-01T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2c/2026/03/imap_idex_l2c_rectangular-map-1mo_20260331_v001.cdf"
       }
     ]
   },
