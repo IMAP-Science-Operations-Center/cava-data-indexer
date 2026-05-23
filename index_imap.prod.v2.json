@@ -22994,7 +22994,7 @@
     ],
     "logical_source": "imap_codice_l3a_lo-sw-charge-state-distributions",
     "logical_source_description": "IMAP Mission CoDICE Instrument Charge State Distributions",
-    "generation_date": "2026-05-22",
+    "generation_date": "2026-05-23",
     "data_level": "l3a",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -23879,7 +23879,7 @@
       {
         "start_time": "2026-05-22T00:00:00+00:00",
         "end_time": "2026-05-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/05/imap_codice_l3a_lo-sw-charge-state-distributions_20260522_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/05/imap_codice_l3a_lo-sw-charge-state-distributions_20260522_v002.cdf"
       }
     ]
   },
@@ -52271,7 +52271,7 @@
     ],
     "logical_source": "imap_swapi_l3a_proton-sw",
     "logical_source_description": "SWAPI Instrument Proton Solar Wind Parameters",
-    "generation_date": "2026-05-22",
+    "generation_date": "2026-05-23",
     "data_level": "l3a",
     "instrument": "SWAPI",
     "mission": "IMAP",
@@ -53206,7 +53206,7 @@
       {
         "start_time": "2026-05-22T00:00:00+00:00",
         "end_time": "2026-05-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/05/imap_swapi_l3a_proton-sw_20260522_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/05/imap_swapi_l3a_proton-sw_20260522_v002.cdf"
       }
     ]
   },
@@ -53257,7 +53257,7 @@
     ],
     "logical_source": "imap_swapi_l3a_pui-he",
     "logical_source_description": "SWAPI Instrument Pickup Ion Parameters",
-    "generation_date": "2026-05-22",
+    "generation_date": "2026-05-23",
     "data_level": "l3a",
     "instrument": "SWAPI",
     "mission": "IMAP",
@@ -54192,7 +54192,7 @@
       {
         "start_time": "2026-05-22T00:00:00+00:00",
         "end_time": "2026-05-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/05/imap_swapi_l3a_pui-he_20260522_v001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/05/imap_swapi_l3a_pui-he_20260522_v002.cdf"
       }
     ]
   },
