@@ -1393,6 +1393,121 @@
   {
     "variables": [
       {
+        "variable_name": "counts_by_charge",
+        "catalog_description": "Count by impact charge and spin phase.",
+        "display_type": "spectrogram",
+        "units": "counts",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "counts_by_mass",
+        "catalog_description": "Count by mass and spin phase.",
+        "display_type": "spectrogram",
+        "units": "counts",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "rate_by_charge",
+        "catalog_description": "Count rate per day by impact charge and spin phase.",
+        "display_type": "spectrogram",
+        "units": "day^-1",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "rate_by_mass",
+        "catalog_description": "Count rate per day by mass and spin phase.",
+        "display_type": "spectrogram",
+        "units": "day^-1",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "rate_calculation_quality_flags",
+        "catalog_description": "Quality flag for rate calculation (1 = good, 0 = insufficient IDEX uptime data)",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Quality Flag"
+      },
+      {
+        "variable_name": "impact_day_of_year",
+        "catalog_description": "The unique day of the years when dust impacts occurred.",
+        "display_type": "time_series",
+        "units": "days",
+        "axis_label": "Impact DOY"
+      }
+    ],
+    "logical_source": "imap_idex_l2b_sci-1mo",
+    "logical_source_description": "IMAP Mission IDEX Instrument Level-2B Monthly Data",
+    "generation_date": "2026-05-29",
+    "data_level": "l2b",
+    "instrument": "IDEX",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-30T00:00:00+00:00",
+        "end_time": "2026-05-01T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2b/2026/04/imap_idex_l2b_sci-1mo_20260430_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "counts_by_charge_map",
+        "catalog_description": "Count by impact charge, longitude, and latitude.",
+        "display_type": "spectrogram",
+        "units": "counts",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "counts_by_mass_map",
+        "catalog_description": "Count by mass, longitude, and latitude.",
+        "display_type": "spectrogram",
+        "units": "counts",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "rate_by_charge_map",
+        "catalog_description": "Count rate per day by impact charge, longitude, and latitude.",
+        "display_type": "spectrogram",
+        "units": "day^-1",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "rate_by_mass_map",
+        "catalog_description": "Count rate per day by mass, longitude, and latitude.",
+        "display_type": "spectrogram",
+        "units": "day^-1",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "impact_day_of_year",
+        "catalog_description": "The unique day of the years when dust impacts occurred.",
+        "display_type": "time_series",
+        "units": "days",
+        "axis_label": "Impact DOY"
+      }
+    ],
+    "logical_source": "imap_idex_l2c_rectangular-map-1mo",
+    "logical_source_description": "IMAP Mission IDEX Instrument Level-2C Rectangular Map Monthly Data",
+    "generation_date": "2026-05-29",
+    "data_level": "l2c",
+    "instrument": "IDEX",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-30T00:00:00+00:00",
+        "end_time": "2026-05-01T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2c/2026/04/imap_idex_l2c_rectangular-map-1mo_20260430_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
         "variable_name": "swp_l1a_flags",
         "catalog_description": "Bitwise flag. There are 13 flags. See VAR_NOTES for more details.",
         "display_type": "spectrogram",
