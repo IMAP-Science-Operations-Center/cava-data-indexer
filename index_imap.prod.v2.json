@@ -28859,7 +28859,7 @@
     ],
     "logical_source": "imap_glows_l3b_ion-rate-profile",
     "logical_source_description": "IMAP Mission GLOWS Carrington averaged ionization rate profiles",
-    "generation_date": "2026-05-28",
+    "generation_date": "2026-05-30",
     "data_level": "l3b",
     "instrument": "GLOWS",
     "mission": "IMAP",
@@ -28894,12 +28894,12 @@
       {
         "start_time": "2026-03-19T05:18:48.959992+00:00",
         "end_time": "2026-04-15T11:55:14.879992+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3b/2026/03/imap_glows_l3b_ion-rate-profile_20260319-cr02309_v005.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3b/2026/03/imap_glows_l3b_ion-rate-profile_20260319-cr02309_v006.cdf"
       },
       {
         "start_time": "2026-04-15T11:55:14.879992+00:00",
         "end_time": "2026-05-12T18:31:40.799992+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3b/2026/04/imap_glows_l3b_ion-rate-profile_20260415-cr02310_v005.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3b/2026/04/imap_glows_l3b_ion-rate-profile_20260415-cr02310_v006.cdf"
       }
     ]
   },
@@ -28917,33 +28917,33 @@
         "catalog_description": "Averaged profile of proton density adjusted to 1 au",
         "display_type": "spectrogram",
         "units": "cm^-3",
-        "axis_label": "Density"
+        "axis_label": "Proton Density"
       },
       {
         "variable_name": "plasma_speed_profile",
         "catalog_description": "Averaged profile of solar wind plasma speed",
         "display_type": "spectrogram",
         "units": "km/s",
-        "axis_label": "Speed"
+        "axis_label": "Plasma Speed"
       },
       {
         "variable_name": "proton_density_ecliptic",
         "catalog_description": "Averaged proton density in the ecliptic plane adjusted to 1 au",
         "display_type": "time_series",
         "units": "cm^-3",
-        "axis_label": "Density"
+        "axis_label": "Ecliptic Proton Density"
       },
       {
         "variable_name": "plasma_speed_ecliptic",
         "catalog_description": "Averaged solar wind plasma speed in the ecliptic plane",
         "display_type": "time_series",
         "units": "km/s",
-        "axis_label": "Speed"
+        "axis_label": "Ecliptic Plasma Speed"
       }
     ],
     "logical_source": "imap_glows_l3c_sw-profile",
     "logical_source_description": "IMAP Mission GLOWS Carrington period-averaged solar wind plasma speed and proton density profiles",
-    "generation_date": "2026-05-28",
+    "generation_date": "2026-05-30",
     "data_level": "l3c",
     "instrument": "GLOWS",
     "mission": "IMAP",
@@ -28978,12 +28978,12 @@
       {
         "start_time": "2026-03-19T05:18:48.959992+00:00",
         "end_time": "2026-04-15T11:55:14.879992+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3c/2026/03/imap_glows_l3c_sw-profile_20260319-cr02309_v005.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3c/2026/03/imap_glows_l3c_sw-profile_20260319-cr02309_v006.cdf"
       },
       {
         "start_time": "2026-04-15T11:55:14.879992+00:00",
         "end_time": "2026-05-12T18:31:40.799992+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3c/2026/04/imap_glows_l3c_sw-profile_20260415-cr02310_v005.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3c/2026/04/imap_glows_l3c_sw-profile_20260415-cr02310_v006.cdf"
       }
     ]
   },
