@@ -3,7 +3,7 @@
     "variables": [],
     "logical_source": "imap_codice_l2_hi-direct-events",
     "logical_source_description": "IMAP Mission CoDICE Hi Level-2 Event Data.",
-    "generation_date": "2026-05-29",
+    "generation_date": "2026-05-31",
     "data_level": "l2",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -13,12 +13,12 @@
       {
         "start_time": "2026-04-02T00:00:00+00:00",
         "end_time": "2026-04-03T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_hi-direct-events_20260402_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_hi-direct-events_20260402_v002.cdf"
       },
       {
         "start_time": "2026-04-04T00:00:00+00:00",
         "end_time": "2026-04-05T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_hi-direct-events_20260404_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_hi-direct-events_20260404_v002.cdf"
       }
     ]
   },
@@ -215,7 +215,7 @@
     ],
     "logical_source": "imap_codice_l2_lo-direct-events",
     "logical_source_description": "IMAP Mission CoDICE Lo Level-2 Event Data.",
-    "generation_date": "2026-05-29",
+    "generation_date": "2026-05-31",
     "data_level": "l2",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -225,12 +225,12 @@
       {
         "start_time": "2026-04-02T00:00:00+00:00",
         "end_time": "2026-04-03T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_lo-direct-events_20260402_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_lo-direct-events_20260402_v002.cdf"
       },
       {
         "start_time": "2026-04-04T00:00:00+00:00",
         "end_time": "2026-04-05T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_lo-direct-events_20260404_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_lo-direct-events_20260404_v002.cdf"
       }
     ]
   },
@@ -585,7 +585,7 @@
     ],
     "logical_source": "imap_codice_l3a_hi-direct-events",
     "logical_source_description": "IMAP Mission CoDICE Hi Instrument Direct Events",
-    "generation_date": "2026-05-29",
+    "generation_date": "2026-05-31",
     "data_level": "l3a",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -595,12 +595,12 @@
       {
         "start_time": "2026-04-02T00:00:00+00:00",
         "end_time": "2026-04-03T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_hi-direct-events_20260402_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_hi-direct-events_20260402_v002.cdf"
       },
       {
         "start_time": "2026-04-04T00:00:00+00:00",
         "end_time": "2026-04-05T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_hi-direct-events_20260404_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_hi-direct-events_20260404_v002.cdf"
       }
     ]
   },
@@ -1129,6 +1129,46 @@
   {
     "variables": [
       {
+        "variable_name": "exposure_times",
+        "catalog_description": "Exposure times for histogram bins for observational day",
+        "display_type": "spectrogram",
+        "units": "s",
+        "axis_label": "Bin exposure"
+      },
+      {
+        "variable_name": "raw_histograms",
+        "catalog_description": "Histogram of counts for observational day",
+        "display_type": "spectrogram",
+        "units": "#",
+        "axis_label": "Counts"
+      },
+      {
+        "variable_name": "photon_flux",
+        "catalog_description": "Photon flux in scanning-circle bins averaged over observational day",
+        "display_type": "spectrogram",
+        "units": "Rayleigh",
+        "axis_label": "Flux"
+      }
+    ],
+    "logical_source": "imap_glows_l2_hist",
+    "logical_source_description": "IMAP Mission GLOWS Instrument Level-2 Histogram Data.",
+    "generation_date": "2026-05-31",
+    "data_level": "l2",
+    "instrument": "GLOWS",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-10T00:00:00+00:00",
+        "end_time": "2026-04-11T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/glows/l2/2026/04/imap_glows_l2_hist_20260410-repoint00214_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
         "variable_name": "tof_peak_area_under_fit",
         "catalog_description": "Area under the EMG curve for each mass peak.",
         "display_type": "spectrogram",
@@ -1384,9 +1424,14 @@
     "version": "",
     "file_timeranges": [
       {
+        "start_time": "2026-04-20T00:00:00+00:00",
+        "end_time": "2026-04-21T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2a/2026/04/imap_idex_l2a_sci-10days_20260420_v001.cdf"
+      },
+      {
         "start_time": "2026-04-30T00:00:00+00:00",
         "end_time": "2026-05-01T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2a/2026/04/imap_idex_l2a_sci-10days_20260430_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2a/2026/04/imap_idex_l2a_sci-10days_20260430_v002.cdf"
       },
       {
         "start_time": "2026-05-10T00:00:00+00:00",
