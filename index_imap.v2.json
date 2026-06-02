@@ -1,9 +1,52 @@
 [
   {
-    "variables": [],
+    "variables": [
+      {
+        "variable_name": "elevation_angle",
+        "catalog_description": "Elevation Angle",
+        "display_type": "spectrogram",
+        "units": "degrees",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "energy_per_nuc",
+        "catalog_description": "Energy per Nucleon",
+        "display_type": "spectrogram",
+        "units": "MeV/nuc",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "num_events",
+        "catalog_description": "Number of Events per Priority",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "spin_angle",
+        "catalog_description": "Spin Angle",
+        "display_type": "spectrogram",
+        "units": "degrees",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "ssd_energy",
+        "catalog_description": "SSD Energy",
+        "display_type": "spectrogram",
+        "units": "keV",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "tof",
+        "catalog_description": "Time of Flight",
+        "display_type": "spectrogram",
+        "units": "ns",
+        "axis_label": ""
+      }
+    ],
     "logical_source": "imap_codice_l2_hi-direct-events",
     "logical_source_description": "IMAP Mission CoDICE Hi Level-2 Event Data.",
-    "generation_date": "2026-05-31",
+    "generation_date": "2026-06-01",
     "data_level": "l2",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -24,70 +67,82 @@
         "start_time": "2026-04-04T00:00:00+00:00",
         "end_time": "2026-04-05T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_hi-direct-events_20260404_v002.cdf"
+      },
+      {
+        "start_time": "2026-05-31T00:00:00+00:00",
+        "end_time": "2026-06-01T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/05/imap_codice_l2_hi-direct-events_20260531_v001.cdf"
       }
     ]
   },
   {
     "variables": [
       {
+        "variable_name": "data_quality",
+        "catalog_description": "Data Quality (0=good, 1=suspect)",
+        "display_type": "time_series",
+        "units": "0=good",
+        "axis_label": "Data Quality"
+      },
+      {
         "variable_name": "c",
-        "catalog_description": "c (Root 2 spacing)",
+        "catalog_description": "Differential intensity for C at root-2-spaced energy-per-nucleon channels",
         "display_type": "time_series",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "fe",
-        "catalog_description": "fe (Root 2 spacing)",
+        "catalog_description": "Differential intensity for Fe at root-2-spaced energy-per-nucleon channels",
         "display_type": "time_series",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "h",
-        "catalog_description": "h (Root 2 spacing)",
+        "catalog_description": "Differential intensity for H at root-2-spaced energy-per-nucleon channels",
         "display_type": "time_series",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "he3",
-        "catalog_description": "he3 (Root 2 spacing)",
+        "catalog_description": "Differential intensity for He3 at root-2-spaced energy-per-nucleon channels",
         "display_type": "time_series",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "he4",
-        "catalog_description": "he4 (Root 2 spacing)",
+        "catalog_description": "Differential intensity for He4 at root-2-spaced energy-per-nucleon channels",
         "display_type": "time_series",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "junk",
-        "catalog_description": "junk (Root 2 spacing)",
+        "catalog_description": "Differential intensity for Junk (unclassified counts) at root-2-spaced energy-per-nucleon channels",
         "display_type": "time_series",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "ne_mg_si",
-        "catalog_description": "ne-mg-si (Root 2 spacing)",
+        "catalog_description": "Differential intensity for Ne+Mg+Si at root-2-spaced energy-per-nucleon channels",
         "display_type": "time_series",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "o",
-        "catalog_description": "o (Root 2 spacing)",
+        "catalog_description": "Differential intensity for O at root-2-spaced energy-per-nucleon channels",
         "display_type": "time_series",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "uh",
-        "catalog_description": "uh (Root 2 spacing)",
+        "catalog_description": "Differential intensity for Ultra-Heavy ions at root-2-spaced energy-per-nucleon channels",
         "display_type": "time_series",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
@@ -111,63 +166,75 @@
         "start_time": "2026-04-04T00:00:00+00:00",
         "end_time": "2026-04-05T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_hi-omni_20260404_v002.cdf"
+      },
+      {
+        "start_time": "2026-05-31T00:00:00+00:00",
+        "end_time": "2026-06-01T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/05/imap_codice_l2_hi-omni_20260531_v001.cdf"
       }
     ]
   },
   {
     "variables": [
       {
+        "variable_name": "data_quality",
+        "catalog_description": "Data Quality (0=good, 1=suspect)",
+        "display_type": "time_series",
+        "units": "0=good",
+        "axis_label": "Data Quality"
+      },
+      {
         "variable_name": "cno",
-        "catalog_description": "cno (x2 spacing)",
+        "catalog_description": "Differential intensity for CNO by energy, spin sector, and elevation at x2-spaced energy-per-nucleon channels",
         "display_type": "spectrogram",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "fe",
-        "catalog_description": "fe (x2 spacing)",
+        "catalog_description": "Differential intensity for Fe by energy, spin sector, and elevation at x2-spaced energy-per-nucleon channels",
         "display_type": "spectrogram",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "h",
-        "catalog_description": "h (x2 spacing)",
+        "catalog_description": "Differential intensity for H by energy, spin sector, and elevation at x2-spaced energy-per-nucleon channels",
         "display_type": "spectrogram",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "he3he4",
-        "catalog_description": "he3he4 (x2 spacing)",
+        "catalog_description": "Differential intensity for He3+He4 by energy, spin sector, and elevation at x2-spaced energy-per-nucleon channels",
         "display_type": "spectrogram",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "unc_cno",
-        "catalog_description": "Uncertainties for cno (x2 spacing)",
+        "catalog_description": "Uncertainty in differential intensity for CNO by energy, spin sector, and elevation at x2-spaced energy-per-nucleon channels",
         "display_type": "spectrogram",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "unc_fe",
-        "catalog_description": "Uncertainties for fe (x2 spacing)",
+        "catalog_description": "Uncertainty in differential intensity for Fe by energy, spin sector, and elevation at x2-spaced energy-per-nucleon channels",
         "display_type": "spectrogram",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "unc_h",
-        "catalog_description": "Uncertainties for h (x2 spacing)",
+        "catalog_description": "Uncertainty in differential intensity for H by energy, spin sector, and elevation at x2-spaced energy-per-nucleon channels",
         "display_type": "spectrogram",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "unc_he3he4",
-        "catalog_description": "Uncertainties for he3he4 (x2 spacing)",
+        "catalog_description": "Uncertainty in differential intensity for He3+He4 by energy, spin sector, and elevation at x2-spaced energy-per-nucleon channels",
         "display_type": "spectrogram",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
@@ -191,11 +258,37 @@
         "start_time": "2026-04-04T00:00:00+00:00",
         "end_time": "2026-04-05T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_hi-sectored_20260404_v002.cdf"
+      },
+      {
+        "start_time": "2026-05-31T00:00:00+00:00",
+        "end_time": "2026-06-01T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/05/imap_codice_l2_hi-sectored_20260531_v001.cdf"
       }
     ]
   },
   {
     "variables": [
+      {
+        "variable_name": "apd_energy",
+        "catalog_description": "APD Energy",
+        "display_type": "spectrogram",
+        "units": "keV",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "elevation_angle",
+        "catalog_description": "Elevation Angle",
+        "display_type": "spectrogram",
+        "units": "degrees",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "energy_per_charge",
+        "catalog_description": "Energy per Charge",
+        "display_type": "spectrogram",
+        "units": "keV/q",
+        "axis_label": ""
+      },
       {
         "variable_name": "nso_esa_step",
         "catalog_description": "Energy Step When No Scan Operation (NSO) was activated",
@@ -204,11 +297,32 @@
         "axis_label": "NSO Energy Step"
       },
       {
+        "variable_name": "num_events",
+        "catalog_description": "Number of Events per Priority",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "spin_angle",
+        "catalog_description": "Spin Angle",
+        "display_type": "spectrogram",
+        "units": "degrees",
+        "axis_label": ""
+      },
+      {
         "variable_name": "nso_spin_sector",
         "catalog_description": "Spin Sector When No Scan Operation (NSO) was activated",
         "display_type": "time_series",
         "units": "spin sector",
         "axis_label": "NSO Spin Sector"
+      },
+      {
+        "variable_name": "tof",
+        "catalog_description": "Time of Flight",
+        "display_type": "spectrogram",
+        "units": "ns",
+        "axis_label": ""
       },
       {
         "variable_name": "nso_half_spin",
@@ -220,7 +334,7 @@
     ],
     "logical_source": "imap_codice_l2_lo-direct-events",
     "logical_source_description": "IMAP Mission CoDICE Lo Level-2 Event Data.",
-    "generation_date": "2026-05-31",
+    "generation_date": "2026-06-01",
     "data_level": "l2",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -241,6 +355,11 @@
         "start_time": "2026-04-04T00:00:00+00:00",
         "end_time": "2026-04-05T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_lo-direct-events_20260404_v002.cdf"
+      },
+      {
+        "start_time": "2026-05-31T00:00:00+00:00",
+        "end_time": "2026-06-01T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/05/imap_codice_l2_lo-direct-events_20260531_v001.cdf"
       }
     ]
   },
@@ -255,21 +374,98 @@
       },
       {
         "variable_name": "cplus4",
-        "catalog_description": "cplus4 Solar Wind Sunward Species",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind C4+",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
       },
       {
         "variable_name": "cplus5",
-        "catalog_description": "cplus5 Solar Wind Sunward Species",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind C5+",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
       },
       {
         "variable_name": "cplus6",
-        "catalog_description": "cplus6 Solar Wind Sunward Species",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind C6+",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "fe_hiq",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind Fe HiQ",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "fe_loq",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind Fe LoQ",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "hplus",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind H+",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "heplusplus",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind He++",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "mg",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind Mg",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "ne",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind Ne",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "oplus5",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind O5+",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "oplus6",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind O6+",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "oplus7",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind O7+",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "oplus8",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind O8+",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "si",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind Si",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
@@ -282,36 +478,8 @@
         "axis_label": "NSO Energy Step"
       },
       {
-        "variable_name": "fe_hiq",
-        "catalog_description": "fe_hiq Solar Wind Sunward Species",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "fe_loq",
-        "catalog_description": "fe_loq Solar Wind Sunward Species",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
         "variable_name": "heplus",
         "catalog_description": "heplus Pickup Ion Sunward Species",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "heplusplus",
-        "catalog_description": "heplusplus Solar Wind Sunward Species",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "hplus",
-        "catalog_description": "hplus Solar Wind Sunward Species",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
@@ -322,55 +490,6 @@
         "display_type": "time_series",
         "units": " ",
         "axis_label": "Data Quality"
-      },
-      {
-        "variable_name": "mg",
-        "catalog_description": "mg Solar Wind Sunward Species",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "ne",
-        "catalog_description": "ne Solar Wind Sunward Species",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "oplus5",
-        "catalog_description": "oplus5 Solar Wind Sunward Species",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "oplus6",
-        "catalog_description": "oplus6 Solar Wind Sunward Species",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "oplus7",
-        "catalog_description": "oplus7 Solar Wind Sunward Species",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "oplus8",
-        "catalog_description": "oplus8 Solar Wind Sunward Species",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "si",
-        "catalog_description": "si Solar Wind Sunward Species",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
       },
       {
         "variable_name": "nso_spin_sector",
@@ -387,41 +506,6 @@
         "axis_label": ""
       },
       {
-        "variable_name": "unc_cplus4",
-        "catalog_description": "unc_cplus4 Solar Wind Sunward Species uncertainty",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "unc_cplus5",
-        "catalog_description": "unc_cplus5 Solar Wind Sunward Species uncertainty",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "unc_cplus6",
-        "catalog_description": "unc_cplus6 Solar Wind Sunward Species uncertainty",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "unc_fe_hiq",
-        "catalog_description": "unc_fe_hiq Solar Wind Sunward Species uncertainty",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "unc_fe_loq",
-        "catalog_description": "unc_fe_loq Solar Wind Sunward Species uncertainty",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
         "variable_name": "unc_heplus",
         "catalog_description": "unc_heplus Pickup Ion Sunward Species uncertainty",
         "display_type": "spectrogram",
@@ -429,64 +513,99 @@
         "axis_label": ""
       },
       {
-        "variable_name": "unc_heplusplus",
-        "catalog_description": "unc_heplusplus Solar Wind Sunward Species uncertainty",
+        "variable_name": "unc_cplus4",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind C4+",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_cplus5",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind C5+",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_cplus6",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind C6+",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_fe_hiq",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind Fe HiQ",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_fe_loq",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind Fe LoQ",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
       },
       {
         "variable_name": "unc_hplus",
-        "catalog_description": "unc_hplus Solar Wind Sunward Species uncertainty",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind H+",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_heplusplus",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind He++",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
       },
       {
         "variable_name": "unc_mg",
-        "catalog_description": "unc_mg Solar Wind Sunward Species uncertainty",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind Mg",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
       },
       {
         "variable_name": "unc_ne",
-        "catalog_description": "unc_ne Solar Wind Sunward Species uncertainty",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind Ne",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
       },
       {
         "variable_name": "unc_oplus5",
-        "catalog_description": "unc_oplus5 Solar Wind Sunward Species uncertainty",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind O5+",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
       },
       {
         "variable_name": "unc_oplus6",
-        "catalog_description": "unc_oplus6 Solar Wind Sunward Species uncertainty",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind O6+",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
       },
       {
         "variable_name": "unc_oplus7",
-        "catalog_description": "unc_oplus7 Solar Wind Sunward Species uncertainty",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind O7+",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
       },
       {
         "variable_name": "unc_oplus8",
-        "catalog_description": "unc_oplus8 Solar Wind Sunward Species uncertainty",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind O8+",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
       },
       {
         "variable_name": "unc_si",
-        "catalog_description": "unc_si Solar Wind Sunward Species uncertainty",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind Si",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
@@ -510,6 +629,11 @@
         "start_time": "2026-04-04T00:00:00+00:00",
         "end_time": "2026-04-05T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_lo-sw-species_20260404_v002.cdf"
+      },
+      {
+        "start_time": "2026-05-31T00:00:00+00:00",
+        "end_time": "2026-06-01T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/05/imap_codice_l2_lo-sw-species_20260531_v001.cdf"
       }
     ]
   },
@@ -595,7 +719,7 @@
     ],
     "logical_source": "imap_codice_l3a_hi-direct-events",
     "logical_source_description": "IMAP Mission CoDICE Hi Instrument Direct Events",
-    "generation_date": "2026-05-31",
+    "generation_date": "2026-06-01",
     "data_level": "l3a",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -616,6 +740,11 @@
         "start_time": "2026-04-04T00:00:00+00:00",
         "end_time": "2026-04-05T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_hi-direct-events_20260404_v002.cdf"
+      },
+      {
+        "start_time": "2026-05-31T00:00:00+00:00",
+        "end_time": "2026-06-01T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/05/imap_codice_l3a_hi-direct-events_20260531_v001.cdf"
       }
     ]
   },
