@@ -2,6 +2,326 @@
   {
     "variables": [
       {
+        "variable_name": "quality_flags",
+        "catalog_description": "Data quality flag. 0: Good data, 1: Bad data.",
+        "display_type": "time_series",
+        "units": "0=good",
+        "axis_label": "QF"
+      },
+      {
+        "variable_name": "b_dsrf",
+        "catalog_description": "Magnetic field in the Despun Spacecraft Reference Frame (DSRF)",
+        "display_type": "time_series",
+        "units": "nT",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "magnitude",
+        "catalog_description": "Magnitude of the magnetic field",
+        "display_type": "time_series",
+        "units": "nT",
+        "axis_label": "|B|"
+      }
+    ],
+    "logical_source": "imap_mag_l1d_burst-dsrf",
+    "logical_source_description": "IMAP Mission Burst Rate Instrument Level-1D Data in Despun Spacecraft Reference Frame.",
+    "generation_date": "2026-06-03",
+    "data_level": "l1d",
+    "instrument": "MAG",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-10T00:00:00+00:00",
+        "end_time": "2026-04-11T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/mag/l1d/2026/04/imap_mag_l1d_burst-dsrf_20260410_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "quality_flags",
+        "catalog_description": "Data quality flag. 0: Good data, 1: Bad data.",
+        "display_type": "time_series",
+        "units": "0=good",
+        "axis_label": "QF"
+      },
+      {
+        "variable_name": "b_gse",
+        "catalog_description": "Magnetic field in GSE coordinates",
+        "display_type": "time_series",
+        "units": "nT",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "magnitude",
+        "catalog_description": "Magnitude of the magnetic field",
+        "display_type": "time_series",
+        "units": "nT",
+        "axis_label": "|B|"
+      }
+    ],
+    "logical_source": "imap_mag_l1d_burst-gse",
+    "logical_source_description": "IMAP Mission Burst Rate Instrument Level-1D Data in Geocentric Solar Ecliptic Reference Frame.",
+    "generation_date": "2026-06-03",
+    "data_level": "l1d",
+    "instrument": "MAG",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-10T00:00:00+00:00",
+        "end_time": "2026-04-11T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/mag/l1d/2026/04/imap_mag_l1d_burst-gse_20260410_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "quality_flags",
+        "catalog_description": "Data quality flag. 0: Good data, 1: Bad data.",
+        "display_type": "time_series",
+        "units": "0=good",
+        "axis_label": "QF"
+      },
+      {
+        "variable_name": "b_rtn",
+        "catalog_description": "Magnetic field in RTN coordinates",
+        "display_type": "time_series",
+        "units": "nT",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "magnitude",
+        "catalog_description": "Magnitude of the magnetic field",
+        "display_type": "time_series",
+        "units": "nT",
+        "axis_label": "|B|"
+      }
+    ],
+    "logical_source": "imap_mag_l1d_burst-rtn",
+    "logical_source_description": "IMAP Mission Burst Rate Instrument Level-1D Data in Radial-Tangential-Normal Reference Frame.",
+    "generation_date": "2026-06-03",
+    "data_level": "l1d",
+    "instrument": "MAG",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-10T00:00:00+00:00",
+        "end_time": "2026-04-11T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/mag/l1d/2026/04/imap_mag_l1d_burst-rtn_20260410_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "quality_flags",
+        "catalog_description": "Data quality flag. 0: Good data, 1: Bad data.",
+        "display_type": "time_series",
+        "units": "0=good",
+        "axis_label": "QF"
+      },
+      {
+        "variable_name": "b_srf",
+        "catalog_description": "Magnetic field in the Spacecraft Reference Frame (SRF)",
+        "display_type": "time_series",
+        "units": "nT",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "magnitude",
+        "catalog_description": "Magnitude of the magnetic field",
+        "display_type": "time_series",
+        "units": "nT",
+        "axis_label": "|B|"
+      }
+    ],
+    "logical_source": "imap_mag_l1d_burst-srf",
+    "logical_source_description": "IMAP Mission Burst Rate Instrument Level-1D Data in Spacecraft Reference Frame.",
+    "generation_date": "2026-06-03",
+    "data_level": "l1d",
+    "instrument": "MAG",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-10T00:00:00+00:00",
+        "end_time": "2026-04-11T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/mag/l1d/2026/04/imap_mag_l1d_burst-srf_20260410_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "quality_flags",
+        "catalog_description": "Data quality flag. 0: Good data, 1: Bad data.",
+        "display_type": "time_series",
+        "units": "0=good",
+        "axis_label": "QF"
+      },
+      {
+        "variable_name": "b_dsrf",
+        "catalog_description": "Magnetic field in the Despun Spacecraft Reference Frame (DSRF)",
+        "display_type": "time_series",
+        "units": "nT",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "magnitude",
+        "catalog_description": "Magnitude of the magnetic field",
+        "display_type": "time_series",
+        "units": "nT",
+        "axis_label": "|B|"
+      }
+    ],
+    "logical_source": "imap_mag_l1d_norm-dsrf",
+    "logical_source_description": "IMAP Mission Normal Rate Instrument Level-1D Data in Despun Spacecraft Reference Frame.",
+    "generation_date": "2026-06-03",
+    "data_level": "l1d",
+    "instrument": "MAG",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-10T00:00:00+00:00",
+        "end_time": "2026-04-11T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/mag/l1d/2026/04/imap_mag_l1d_norm-dsrf_20260410_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "quality_flags",
+        "catalog_description": "Data quality flag. 0: Good data, 1: Bad data.",
+        "display_type": "time_series",
+        "units": "0=good",
+        "axis_label": "QF"
+      },
+      {
+        "variable_name": "b_gse",
+        "catalog_description": "Magnetic field in GSE coordinates",
+        "display_type": "time_series",
+        "units": "nT",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "magnitude",
+        "catalog_description": "Magnitude of the magnetic field",
+        "display_type": "time_series",
+        "units": "nT",
+        "axis_label": "|B|"
+      }
+    ],
+    "logical_source": "imap_mag_l1d_norm-gse",
+    "logical_source_description": "IMAP Mission Normal Rate Instrument Level-1D Data in Geocentric Solar Ecliptic Reference Frame.",
+    "generation_date": "2026-06-03",
+    "data_level": "l1d",
+    "instrument": "MAG",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-10T00:00:00+00:00",
+        "end_time": "2026-04-11T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/mag/l1d/2026/04/imap_mag_l1d_norm-gse_20260410_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "quality_flags",
+        "catalog_description": "Data quality flag. 0: Good data, 1: Bad data.",
+        "display_type": "time_series",
+        "units": "0=good",
+        "axis_label": "QF"
+      },
+      {
+        "variable_name": "b_rtn",
+        "catalog_description": "Magnetic field in RTN coordinates",
+        "display_type": "time_series",
+        "units": "nT",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "magnitude",
+        "catalog_description": "Magnitude of the magnetic field",
+        "display_type": "time_series",
+        "units": "nT",
+        "axis_label": "|B|"
+      }
+    ],
+    "logical_source": "imap_mag_l1d_norm-rtn",
+    "logical_source_description": "IMAP Mission Normal Rate Instrument Level-1D Data in Radial-Tangential-Normal Reference Frame.",
+    "generation_date": "2026-06-03",
+    "data_level": "l1d",
+    "instrument": "MAG",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-10T00:00:00+00:00",
+        "end_time": "2026-04-11T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/mag/l1d/2026/04/imap_mag_l1d_norm-rtn_20260410_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "quality_flags",
+        "catalog_description": "Data quality flag. 0: Good data, 1: Bad data.",
+        "display_type": "time_series",
+        "units": "0=good",
+        "axis_label": "QF"
+      },
+      {
+        "variable_name": "b_srf",
+        "catalog_description": "Magnetic field in the Spacecraft Reference Frame (SRF)",
+        "display_type": "time_series",
+        "units": "nT",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "magnitude",
+        "catalog_description": "Magnitude of the magnetic field",
+        "display_type": "time_series",
+        "units": "nT",
+        "axis_label": "|B|"
+      }
+    ],
+    "logical_source": "imap_mag_l1d_norm-srf",
+    "logical_source_description": "IMAP Mission Normal Rate Instrument Level-1D Data in Spacecraft Reference Frame.",
+    "generation_date": "2026-06-03",
+    "data_level": "l1d",
+    "instrument": "MAG",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-10T00:00:00+00:00",
+        "end_time": "2026-04-11T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/mag/l1d/2026/04/imap_mag_l1d_norm-srf_20260410_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
         "variable_name": "elevation_angle",
         "catalog_description": "Elevation Angle",
         "display_type": "spectrogram",
@@ -73,64 +393,71 @@
   {
     "variables": [
       {
+        "variable_name": "data_quality",
+        "catalog_description": "Data Quality (0=good, 1=suspect)",
+        "display_type": "time_series",
+        "units": "0=good",
+        "axis_label": "Data Quality"
+      },
+      {
         "variable_name": "c",
-        "catalog_description": "c (Root 2 spacing)",
+        "catalog_description": "Differential intensity for C at root-2-spaced energy-per-nucleon channels",
         "display_type": "time_series",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "fe",
-        "catalog_description": "fe (Root 2 spacing)",
+        "catalog_description": "Differential intensity for Fe at root-2-spaced energy-per-nucleon channels",
         "display_type": "time_series",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "h",
-        "catalog_description": "h (Root 2 spacing)",
+        "catalog_description": "Differential intensity for H at root-2-spaced energy-per-nucleon channels",
         "display_type": "time_series",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "he3",
-        "catalog_description": "he3 (Root 2 spacing)",
+        "catalog_description": "Differential intensity for He3 at root-2-spaced energy-per-nucleon channels",
         "display_type": "time_series",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "he4",
-        "catalog_description": "he4 (Root 2 spacing)",
+        "catalog_description": "Differential intensity for He4 at root-2-spaced energy-per-nucleon channels",
         "display_type": "time_series",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "junk",
-        "catalog_description": "junk (Root 2 spacing)",
+        "catalog_description": "Differential intensity for Junk (unclassified counts) at root-2-spaced energy-per-nucleon channels",
         "display_type": "time_series",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "ne_mg_si",
-        "catalog_description": "ne-mg-si (Root 2 spacing)",
+        "catalog_description": "Differential intensity for Ne+Mg+Si at root-2-spaced energy-per-nucleon channels",
         "display_type": "time_series",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "o",
-        "catalog_description": "o (Root 2 spacing)",
+        "catalog_description": "Differential intensity for O at root-2-spaced energy-per-nucleon channels",
         "display_type": "time_series",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "uh",
-        "catalog_description": "uh (Root 2 spacing)",
+        "catalog_description": "Differential intensity for Ultra-Heavy ions at root-2-spaced energy-per-nucleon channels",
         "display_type": "time_series",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
@@ -138,7 +465,7 @@
     ],
     "logical_source": "imap_codice_l2_hi-omni",
     "logical_source_description": "IMAP Mission CoDICE Hi Level-2 Omnidirectional Species Intensity Data.",
-    "generation_date": "2026-05-29",
+    "generation_date": "2026-06-03",
     "data_level": "l2",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -148,69 +475,76 @@
       {
         "start_time": "2026-04-02T00:00:00+00:00",
         "end_time": "2026-04-03T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_hi-omni_20260402_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_hi-omni_20260402_v002.cdf"
       },
       {
         "start_time": "2026-04-04T00:00:00+00:00",
         "end_time": "2026-04-05T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_hi-omni_20260404_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_hi-omni_20260404_v002.cdf"
       }
     ]
   },
   {
     "variables": [
       {
+        "variable_name": "data_quality",
+        "catalog_description": "Data Quality (0=good, 1=suspect)",
+        "display_type": "time_series",
+        "units": "0=good",
+        "axis_label": "Data Quality"
+      },
+      {
         "variable_name": "cno",
-        "catalog_description": "cno (x2 spacing)",
+        "catalog_description": "Differential intensity for CNO by energy, spin sector, and elevation at x2-spaced energy-per-nucleon channels",
         "display_type": "spectrogram",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "fe",
-        "catalog_description": "fe (x2 spacing)",
+        "catalog_description": "Differential intensity for Fe by energy, spin sector, and elevation at x2-spaced energy-per-nucleon channels",
         "display_type": "spectrogram",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "h",
-        "catalog_description": "h (x2 spacing)",
+        "catalog_description": "Differential intensity for H by energy, spin sector, and elevation at x2-spaced energy-per-nucleon channels",
         "display_type": "spectrogram",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "he3he4",
-        "catalog_description": "he3he4 (x2 spacing)",
+        "catalog_description": "Differential intensity for He3+He4 by energy, spin sector, and elevation at x2-spaced energy-per-nucleon channels",
         "display_type": "spectrogram",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "unc_cno",
-        "catalog_description": "Uncertainties for cno (x2 spacing)",
+        "catalog_description": "Uncertainty in differential intensity for CNO by energy, spin sector, and elevation at x2-spaced energy-per-nucleon channels",
         "display_type": "spectrogram",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "unc_fe",
-        "catalog_description": "Uncertainties for fe (x2 spacing)",
+        "catalog_description": "Uncertainty in differential intensity for Fe by energy, spin sector, and elevation at x2-spaced energy-per-nucleon channels",
         "display_type": "spectrogram",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "unc_h",
-        "catalog_description": "Uncertainties for h (x2 spacing)",
+        "catalog_description": "Uncertainty in differential intensity for H by energy, spin sector, and elevation at x2-spaced energy-per-nucleon channels",
         "display_type": "spectrogram",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
       },
       {
         "variable_name": "unc_he3he4",
-        "catalog_description": "Uncertainties for he3he4 (x2 spacing)",
+        "catalog_description": "Uncertainty in differential intensity for He3+He4 by energy, spin sector, and elevation at x2-spaced energy-per-nucleon channels",
         "display_type": "spectrogram",
         "units": "# / cm2 s sr MeV/nuc",
         "axis_label": ""
@@ -218,7 +552,7 @@
     ],
     "logical_source": "imap_codice_l2_hi-sectored",
     "logical_source_description": "IMAP Mission CoDICE Hi Level-2 Sectored Species Intensity Data.",
-    "generation_date": "2026-05-29",
+    "generation_date": "2026-06-03",
     "data_level": "l2",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -228,12 +562,12 @@
       {
         "start_time": "2026-04-02T00:00:00+00:00",
         "end_time": "2026-04-03T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_hi-sectored_20260402_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_hi-sectored_20260402_v002.cdf"
       },
       {
         "start_time": "2026-04-04T00:00:00+00:00",
         "end_time": "2026-04-05T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_hi-sectored_20260404_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_hi-sectored_20260404_v002.cdf"
       }
     ]
   },
@@ -340,21 +674,98 @@
       },
       {
         "variable_name": "cplus4",
-        "catalog_description": "cplus4 Solar Wind Sunward Species",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind C4+",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
       },
       {
         "variable_name": "cplus5",
-        "catalog_description": "cplus5 Solar Wind Sunward Species",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind C5+",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
       },
       {
         "variable_name": "cplus6",
-        "catalog_description": "cplus6 Solar Wind Sunward Species",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind C6+",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "fe_hiq",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind Fe HiQ",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "fe_loq",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind Fe LoQ",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "hplus",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind H+",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "heplusplus",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind He++",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "mg",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind Mg",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "ne",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind Ne",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "oplus5",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind O5+",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "oplus6",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind O6+",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "oplus7",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind O7+",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "oplus8",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind O8+",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "si",
+        "catalog_description": "Differential intensity from sunward-looking detectors measuring solar-wind Si",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
@@ -367,36 +778,8 @@
         "axis_label": "NSO Energy Step"
       },
       {
-        "variable_name": "fe_hiq",
-        "catalog_description": "fe_hiq Solar Wind Sunward Species",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "fe_loq",
-        "catalog_description": "fe_loq Solar Wind Sunward Species",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
         "variable_name": "heplus",
         "catalog_description": "heplus Pickup Ion Sunward Species",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "heplusplus",
-        "catalog_description": "heplusplus Solar Wind Sunward Species",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "hplus",
-        "catalog_description": "hplus Solar Wind Sunward Species",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
@@ -407,55 +790,6 @@
         "display_type": "time_series",
         "units": " ",
         "axis_label": "Data Quality"
-      },
-      {
-        "variable_name": "mg",
-        "catalog_description": "mg Solar Wind Sunward Species",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "ne",
-        "catalog_description": "ne Solar Wind Sunward Species",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "oplus5",
-        "catalog_description": "oplus5 Solar Wind Sunward Species",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "oplus6",
-        "catalog_description": "oplus6 Solar Wind Sunward Species",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "oplus7",
-        "catalog_description": "oplus7 Solar Wind Sunward Species",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "oplus8",
-        "catalog_description": "oplus8 Solar Wind Sunward Species",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "si",
-        "catalog_description": "si Solar Wind Sunward Species",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
       },
       {
         "variable_name": "nso_spin_sector",
@@ -472,41 +806,6 @@
         "axis_label": ""
       },
       {
-        "variable_name": "unc_cplus4",
-        "catalog_description": "unc_cplus4 Solar Wind Sunward Species uncertainty",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "unc_cplus5",
-        "catalog_description": "unc_cplus5 Solar Wind Sunward Species uncertainty",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "unc_cplus6",
-        "catalog_description": "unc_cplus6 Solar Wind Sunward Species uncertainty",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "unc_fe_hiq",
-        "catalog_description": "unc_fe_hiq Solar Wind Sunward Species uncertainty",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
-        "variable_name": "unc_fe_loq",
-        "catalog_description": "unc_fe_loq Solar Wind Sunward Species uncertainty",
-        "display_type": "spectrogram",
-        "units": "#/(cm^2-s-sr-keV/q)",
-        "axis_label": ""
-      },
-      {
         "variable_name": "unc_heplus",
         "catalog_description": "unc_heplus Pickup Ion Sunward Species uncertainty",
         "display_type": "spectrogram",
@@ -514,64 +813,99 @@
         "axis_label": ""
       },
       {
-        "variable_name": "unc_heplusplus",
-        "catalog_description": "unc_heplusplus Solar Wind Sunward Species uncertainty",
+        "variable_name": "unc_cplus4",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind C4+",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_cplus5",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind C5+",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_cplus6",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind C6+",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_fe_hiq",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind Fe HiQ",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_fe_loq",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind Fe LoQ",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
       },
       {
         "variable_name": "unc_hplus",
-        "catalog_description": "unc_hplus Solar Wind Sunward Species uncertainty",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind H+",
+        "display_type": "spectrogram",
+        "units": "#/(cm^2-s-sr-keV/q)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "unc_heplusplus",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind He++",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
       },
       {
         "variable_name": "unc_mg",
-        "catalog_description": "unc_mg Solar Wind Sunward Species uncertainty",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind Mg",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
       },
       {
         "variable_name": "unc_ne",
-        "catalog_description": "unc_ne Solar Wind Sunward Species uncertainty",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind Ne",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
       },
       {
         "variable_name": "unc_oplus5",
-        "catalog_description": "unc_oplus5 Solar Wind Sunward Species uncertainty",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind O5+",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
       },
       {
         "variable_name": "unc_oplus6",
-        "catalog_description": "unc_oplus6 Solar Wind Sunward Species uncertainty",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind O6+",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
       },
       {
         "variable_name": "unc_oplus7",
-        "catalog_description": "unc_oplus7 Solar Wind Sunward Species uncertainty",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind O7+",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
       },
       {
         "variable_name": "unc_oplus8",
-        "catalog_description": "unc_oplus8 Solar Wind Sunward Species uncertainty",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind O8+",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
       },
       {
         "variable_name": "unc_si",
-        "catalog_description": "unc_si Solar Wind Sunward Species uncertainty",
+        "catalog_description": "Uncertainty in differential intensity from sunward-looking detectors measuring solar-wind Si",
         "display_type": "spectrogram",
         "units": "#/(cm^2-s-sr-keV/q)",
         "axis_label": ""
@@ -579,7 +913,7 @@
     ],
     "logical_source": "imap_codice_l2_lo-sw-species",
     "logical_source_description": "IMAP Mission CoDICE Lo Level-2 Sunward Species Intensity Data.",
-    "generation_date": "2026-05-29",
+    "generation_date": "2026-06-03",
     "data_level": "l2",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -589,12 +923,665 @@
       {
         "start_time": "2026-04-02T00:00:00+00:00",
         "end_time": "2026-04-03T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_lo-sw-species_20260402_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_lo-sw-species_20260402_v002.cdf"
       },
       {
         "start_time": "2026-04-04T00:00:00+00:00",
         "end_time": "2026-04-05T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_lo-sw-species_20260404_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_lo-sw-species_20260404_v002.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "data_quality",
+        "catalog_description": "Data quality flags",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Quality flag"
+      },
+      {
+        "variable_name": "ssd_id",
+        "catalog_description": "Elevation angle of event in despun pointing set frame",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Elevation angle"
+      },
+      {
+        "variable_name": "energy_per_nuc",
+        "catalog_description": "Energy per nuc",
+        "display_type": "spectrogram",
+        "units": "MeV/nuc",
+        "axis_label": "Energy per nuc"
+      },
+      {
+        "variable_name": "estimated_mass",
+        "catalog_description": "Estimated mass",
+        "display_type": "spectrogram",
+        "units": "amu",
+        "axis_label": "Mass Estimate"
+      },
+      {
+        "variable_name": "multi_flag",
+        "catalog_description": "Multi flag",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Multi flag"
+      },
+      {
+        "variable_name": "num_events",
+        "catalog_description": "Number of events",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Num. events"
+      },
+      {
+        "variable_name": "type",
+        "catalog_description": "PHA Type",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "PHA Type"
+      },
+      {
+        "variable_name": "spin_angle",
+        "catalog_description": "Spin angle when event was observed in despun pointing set frame",
+        "display_type": "spectrogram",
+        "units": "degrees",
+        "axis_label": "Spin angle"
+      },
+      {
+        "variable_name": "spin_number",
+        "catalog_description": "Spin number",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Spin number"
+      },
+      {
+        "variable_name": "ssd_energy",
+        "catalog_description": "SSD energy",
+        "display_type": "spectrogram",
+        "units": "MeV",
+        "axis_label": "SSD energy"
+      },
+      {
+        "variable_name": "tof",
+        "catalog_description": "Time of Flight of Event",
+        "display_type": "spectrogram",
+        "units": "ns",
+        "axis_label": "TOF"
+      }
+    ],
+    "logical_source": "imap_codice_l3a_hi-direct-events",
+    "logical_source_description": "IMAP Mission CoDICE Hi Instrument Direct Events",
+    "generation_date": "2026-06-03",
+    "data_level": "l3a",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-02T00:00:00+00:00",
+        "end_time": "2026-04-03T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_hi-direct-events_20260402_v001.cdf"
+      },
+      {
+        "start_time": "2026-04-03T00:00:00+00:00",
+        "end_time": "2026-04-04T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_hi-direct-events_20260403_v001.cdf"
+      },
+      {
+        "start_time": "2026-04-04T00:00:00+00:00",
+        "end_time": "2026-04-05T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_hi-direct-events_20260404_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "apd_id",
+        "catalog_description": "APD ID",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "APD ID"
+      },
+      {
+        "variable_name": "apd_energy",
+        "catalog_description": "Deposited energy at APD",
+        "display_type": "spectrogram",
+        "units": "keV",
+        "axis_label": "APD Energy"
+      },
+      {
+        "variable_name": "elevation",
+        "catalog_description": "Elevation per event",
+        "display_type": "spectrogram",
+        "units": "degrees",
+        "axis_label": "Elevation"
+      },
+      {
+        "variable_name": "energy_per_charge",
+        "catalog_description": "Energy per Charge",
+        "display_type": "spectrogram",
+        "units": "keV/q",
+        "axis_label": "Energy per Charge"
+      },
+      {
+        "variable_name": "energy_step",
+        "catalog_description": "Energy Step Index",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Energy Step"
+      },
+      {
+        "variable_name": "nso_esa_step",
+        "catalog_description": "Energy Step When No Scan Operation (NSO) was activated",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "NSO Energy Step"
+      },
+      {
+        "variable_name": "rgfo_esa_step",
+        "catalog_description": "Energy Step When Reduced Gain Factor Operation (RGFO) was activated",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "RGFO Energy Step"
+      },
+      {
+        "variable_name": "type",
+        "catalog_description": "Event Type",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Type"
+      },
+      {
+        "variable_name": "gain",
+        "catalog_description": "Gain",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Gain"
+      },
+      {
+        "variable_name": "rgfo_half_spin",
+        "catalog_description": "Half Spin When Reduced Gain Factor Operation (RGFO) was activated",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "RGFO Half Spin"
+      },
+      {
+        "variable_name": "mass",
+        "catalog_description": "Mass of event",
+        "display_type": "spectrogram",
+        "units": "amu",
+        "axis_label": "m"
+      },
+      {
+        "variable_name": "mass_per_charge",
+        "catalog_description": "Mass per charge of event",
+        "display_type": "spectrogram",
+        "units": "amu/q",
+        "axis_label": "m/q"
+      },
+      {
+        "variable_name": "multi_flag",
+        "catalog_description": "Multi flag",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Multi flag"
+      },
+      {
+        "variable_name": "normalization",
+        "catalog_description": "Normalization factor",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Normalization"
+      },
+      {
+        "variable_name": "normalization_per_event",
+        "catalog_description": "Normalization per event",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Normalization"
+      },
+      {
+        "variable_name": "num_events",
+        "catalog_description": "Number of events",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Num. events"
+      },
+      {
+        "variable_name": "position",
+        "catalog_description": "Position index per event",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Position index"
+      },
+      {
+        "variable_name": "spin_angle",
+        "catalog_description": "Spin angle per event",
+        "display_type": "spectrogram",
+        "units": "degrees",
+        "axis_label": "Spin angle"
+      },
+      {
+        "variable_name": "spin_sector",
+        "catalog_description": "Spin sector per event",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "Spin sector"
+      },
+      {
+        "variable_name": "nso_spin_sector",
+        "catalog_description": "Spin Sector When No Scan Operation (NSO) was activated",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "NSO Spin Sector"
+      },
+      {
+        "variable_name": "rgfo_spin_sector",
+        "catalog_description": "Spin Sector When Reduced Gain Factor Operation (RGFO) was activated",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "RGFO Spin Sector"
+      },
+      {
+        "variable_name": "tof",
+        "catalog_description": "Time of flight",
+        "display_type": "spectrogram",
+        "units": "ns",
+        "axis_label": "TOF"
+      },
+      {
+        "variable_name": "nso_half_spin",
+        "catalog_description": "When No Scan Operation (NSO) was activated",
+        "display_type": "time_series",
+        "units": "half spin number",
+        "axis_label": "NSO Half Spin"
+      }
+    ],
+    "logical_source": "imap_codice_l3a_lo-direct-events",
+    "logical_source_description": "IMAP Mission CoDICE Lo Instrument Direct Events",
+    "generation_date": "2026-06-03",
+    "data_level": "l3a",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-02T00:00:00+00:00",
+        "end_time": "2026-04-03T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_lo-direct-events_20260402_v001.cdf"
+      },
+      {
+        "start_time": "2026-04-03T00:00:00+00:00",
+        "end_time": "2026-04-04T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_lo-direct-events_20260403_v001.cdf"
+      },
+      {
+        "start_time": "2026-04-04T00:00:00+00:00",
+        "end_time": "2026-04-05T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_lo-direct-events_20260404_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "heplus",
+        "catalog_description": "He+ Intensity 3d distribution",
+        "display_type": "spectrogram",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "He+ Intensity"
+      }
+    ],
+    "logical_source": "imap_codice_l3a_lo-heplus-3d-distribution",
+    "logical_source_description": "IMAP Mission CoDICE Lo He+ 3d Instrument Frame Distributions",
+    "generation_date": "2026-06-03",
+    "data_level": "l3a",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-02T00:00:00+00:00",
+        "end_time": "2026-04-03T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_lo-heplus-3d-distribution_20260402_v001.cdf"
+      },
+      {
+        "start_time": "2026-04-03T00:00:00+00:00",
+        "end_time": "2026-04-04T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_lo-heplus-3d-distribution_20260403_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "heplusplus",
+        "catalog_description": "He++ Intensity 3d distribution",
+        "display_type": "spectrogram",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "He++ Intensity"
+      }
+    ],
+    "logical_source": "imap_codice_l3a_lo-heplusplus-3d-distribution",
+    "logical_source_description": "IMAP Mission CoDICE Lo He++ 3d Instrument Frame Distributions",
+    "generation_date": "2026-06-03",
+    "data_level": "l3a",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-02T00:00:00+00:00",
+        "end_time": "2026-04-03T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_lo-heplusplus-3d-distribution_20260402_v001.cdf"
+      },
+      {
+        "start_time": "2026-04-03T00:00:00+00:00",
+        "end_time": "2026-04-04T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_lo-heplusplus-3d-distribution_20260403_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "hplus",
+        "catalog_description": "H+ Intensity 3d distribution",
+        "display_type": "spectrogram",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "H+ Intensity"
+      }
+    ],
+    "logical_source": "imap_codice_l3a_lo-hplus-3d-distribution",
+    "logical_source_description": "IMAP Mission CoDICE Lo H+ 3d Instrument Frame Distributions",
+    "generation_date": "2026-06-03",
+    "data_level": "l3a",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-02T00:00:00+00:00",
+        "end_time": "2026-04-03T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_lo-hplus-3d-distribution_20260402_v001.cdf"
+      },
+      {
+        "start_time": "2026-04-03T00:00:00+00:00",
+        "end_time": "2026-04-04T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_lo-hplus-3d-distribution_20260403_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "oplus6",
+        "catalog_description": "0+6 Intensity 3d distribution",
+        "display_type": "spectrogram",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "0+6 Intensity"
+      }
+    ],
+    "logical_source": "imap_codice_l3a_lo-oplus6-3d-distribution",
+    "logical_source_description": "IMAP Mission CoDICE Lo O+6 3d Instrument Frame Distributions",
+    "generation_date": "2026-06-03",
+    "data_level": "l3a",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-02T00:00:00+00:00",
+        "end_time": "2026-04-03T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_lo-oplus6-3d-distribution_20260402_v001.cdf"
+      },
+      {
+        "start_time": "2026-04-03T00:00:00+00:00",
+        "end_time": "2026-04-04T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_lo-oplus6-3d-distribution_20260403_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "cplus4_partial_density",
+        "catalog_description": "Partial density of C+4",
+        "display_type": "time_series",
+        "units": "#/cm^3",
+        "axis_label": "C+4 N"
+      },
+      {
+        "variable_name": "cplus5_partial_density",
+        "catalog_description": "Partial density of C+5",
+        "display_type": "time_series",
+        "units": "#/cm^3",
+        "axis_label": "C+5 N"
+      },
+      {
+        "variable_name": "cplus6_partial_density",
+        "catalog_description": "Partial density of C+6",
+        "display_type": "time_series",
+        "units": "#/cm^3",
+        "axis_label": "C+6 N"
+      },
+      {
+        "variable_name": "fe_hiq_partial_density",
+        "catalog_description": "Partial density of Fe (high Q)",
+        "display_type": "time_series",
+        "units": "#/cm^3",
+        "axis_label": "Fe (high Q) N"
+      },
+      {
+        "variable_name": "fe_loq_partial_density",
+        "catalog_description": "Partial density of Fe (low Q)",
+        "display_type": "time_series",
+        "units": "#/cm^3",
+        "axis_label": "Fe (low Q) N"
+      },
+      {
+        "variable_name": "hplus_partial_density",
+        "catalog_description": "Partial density of H+",
+        "display_type": "time_series",
+        "units": "#/cm^3",
+        "axis_label": "H+ N"
+      },
+      {
+        "variable_name": "heplusplus_partial_density",
+        "catalog_description": "Partial density of He++",
+        "display_type": "time_series",
+        "units": "#/cm^3",
+        "axis_label": "He++ N"
+      },
+      {
+        "variable_name": "mg_partial_density",
+        "catalog_description": "Partial density of Mg",
+        "display_type": "time_series",
+        "units": "#/cm^3",
+        "axis_label": "Mg N"
+      },
+      {
+        "variable_name": "ne_partial_density",
+        "catalog_description": "Partial density of Ne",
+        "display_type": "time_series",
+        "units": "#/cm^3",
+        "axis_label": "Ne N"
+      },
+      {
+        "variable_name": "oplus5_partial_density",
+        "catalog_description": "Partial density of O+5",
+        "display_type": "time_series",
+        "units": "#/cm^3",
+        "axis_label": "O+5 N"
+      },
+      {
+        "variable_name": "oplus6_partial_density",
+        "catalog_description": "Partial density of O+6",
+        "display_type": "time_series",
+        "units": "#/cm^3",
+        "axis_label": "O+6 N"
+      },
+      {
+        "variable_name": "oplus7_partial_density",
+        "catalog_description": "Partial density of O+7",
+        "display_type": "time_series",
+        "units": "#/cm^3",
+        "axis_label": "O+7 N"
+      },
+      {
+        "variable_name": "oplus8_partial_density",
+        "catalog_description": "Partial density of O+8",
+        "display_type": "time_series",
+        "units": "#/cm^3",
+        "axis_label": "O+8 N"
+      },
+      {
+        "variable_name": "si_partial_density",
+        "catalog_description": "Partial density of Si",
+        "display_type": "time_series",
+        "units": "#/cm^3",
+        "axis_label": "Si N"
+      }
+    ],
+    "logical_source": "imap_codice_l3a_lo-partial-densities",
+    "logical_source_description": "IMAP Mission CoDICE Lo Instrument Partial Densities",
+    "generation_date": "2026-06-03",
+    "data_level": "l3a",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-02T00:00:00+00:00",
+        "end_time": "2026-04-03T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_lo-partial-densities_20260402_v001.cdf"
+      },
+      {
+        "start_time": "2026-04-04T00:00:00+00:00",
+        "end_time": "2026-04-05T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_lo-partial-densities_20260404_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "carbon_charge_state_distribution",
+        "catalog_description": "Carbon charge state relative abundances",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "C dist."
+      },
+      {
+        "variable_name": "oxygen_charge_state_distribution",
+        "catalog_description": "Oxygen charge state relative abundances",
+        "display_type": "spectrogram",
+        "units": " ",
+        "axis_label": "O dist."
+      }
+    ],
+    "logical_source": "imap_codice_l3a_lo-sw-charge-state-distributions",
+    "logical_source_description": "IMAP Mission CoDICE Instrument Charge State Distributions",
+    "generation_date": "2026-06-03",
+    "data_level": "l3a",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-02T00:00:00+00:00",
+        "end_time": "2026-04-03T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_lo-sw-charge-state-distributions_20260402_v001.cdf"
+      },
+      {
+        "start_time": "2026-04-04T00:00:00+00:00",
+        "end_time": "2026-04-05T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_lo-sw-charge-state-distributions_20260404_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "c6_to_c4_ratio",
+        "catalog_description": "Charge State Ratio C6 to C4",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "C6/C4"
+      },
+      {
+        "variable_name": "c6_to_c5_ratio",
+        "catalog_description": "Charge State Ratio C6 to C5",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "C6/C5"
+      },
+      {
+        "variable_name": "felo_to_fehi_ratio",
+        "catalog_description": "Charge State Ratio Fe Low (+6 - +12) to Fe High (+13 - +17)",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "FeLo/FeHi"
+      },
+      {
+        "variable_name": "o7_to_o6_ratio",
+        "catalog_description": "Charge State Ratio O7 to O6",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "O7/O6"
+      },
+      {
+        "variable_name": "c_to_o_ratio",
+        "catalog_description": "Elemental Abundance Ratio C to O",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "C/O"
+      },
+      {
+        "variable_name": "fe_to_o_ratio",
+        "catalog_description": "Elemental Abundance Ratio Fe to O",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Fe/O"
+      },
+      {
+        "variable_name": "mg_to_o_ratio",
+        "catalog_description": "Elemental Abundance Ratio Mg to O",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Mg/O"
+      }
+    ],
+    "logical_source": "imap_codice_l3a_lo-sw-ratios",
+    "logical_source_description": "IMAP Mission CoDICE Lo Instrument SW Ratios",
+    "generation_date": "2026-06-03",
+    "data_level": "l3a",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-02T00:00:00+00:00",
+        "end_time": "2026-04-03T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_lo-sw-ratios_20260402_v001.cdf"
+      },
+      {
+        "start_time": "2026-04-04T00:00:00+00:00",
+        "end_time": "2026-04-05T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/04/imap_codice_l3a_lo-sw-ratios_20260404_v001.cdf"
       }
     ]
   },
@@ -635,6 +1622,296 @@
         "start_time": "2026-04-10T00:00:00+00:00",
         "end_time": "2026-04-11T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/glows/l2/2026/04/imap_glows_l2_hist_20260410-repoint00214_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "al_standard_intensity",
+        "catalog_description": "Al Standard Omnidirectional Intensity in 9 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "Al Intensity Std"
+      },
+      {
+        "variable_name": "ar_standard_intensity",
+        "catalog_description": "Ar Standard Omnidirectional Intensity in 13 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "Ar Intensity Std"
+      },
+      {
+        "variable_name": "c_standard_intensity",
+        "catalog_description": "C Standard Omnidirectional Intensity in 12 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "C Intensity Std"
+      },
+      {
+        "variable_name": "ca_standard_intensity",
+        "catalog_description": "Ca Standard Omnidirectional Intensity in 13 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "Ca Intensity Std"
+      },
+      {
+        "variable_name": "fe_standard_intensity",
+        "catalog_description": "Fe Standard Omnidirectional Intensity in 16 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "Fe Intensity Std"
+      },
+      {
+        "variable_name": "h_standard_intensity",
+        "catalog_description": "H Standard Omnidirectional Intensity in 12 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "H Intensity Std"
+      },
+      {
+        "variable_name": "he_standard_intensity",
+        "catalog_description": "He (total) Standard Omnidirectional Intensity in 11 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "He Intensity Std"
+      },
+      {
+        "variable_name": "he3_standard_intensity",
+        "catalog_description": "He3 Standard Omnidirectional Intensity in 11 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "He3 Intensity Std"
+      },
+      {
+        "variable_name": "he4_standard_intensity",
+        "catalog_description": "He4 Standard Omnidirectional Intensity in 12 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "He4 Intensity Std"
+      },
+      {
+        "variable_name": "mg_standard_intensity",
+        "catalog_description": "Mg Standard Omnidirectional Intensity in 14 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "Mg Intensity Std"
+      },
+      {
+        "variable_name": "n_standard_intensity",
+        "catalog_description": "N Standard Omnidirectional Intensity in 12 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "N Intensity Std"
+      },
+      {
+        "variable_name": "na_standard_intensity",
+        "catalog_description": "Na Standard Omnidirectional Intensity in 8 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "Na Intensity Std"
+      },
+      {
+        "variable_name": "ne_standard_intensity",
+        "catalog_description": "Ne Standard Omnidirectional Intensity in 13 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "Ne Intensity Std"
+      },
+      {
+        "variable_name": "ni_standard_intensity",
+        "catalog_description": "Ni Standard Omnidirectional Intensity in 9 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "Ni Intensity Std"
+      },
+      {
+        "variable_name": "o_standard_intensity",
+        "catalog_description": "O Standard Omnidirectional Intensity in 12 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "O Intensity Std"
+      },
+      {
+        "variable_name": "dynamic_threshold_state",
+        "catalog_description": "Raw dynamic threshold state per integration",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "State"
+      },
+      {
+        "variable_name": "s_standard_intensity",
+        "catalog_description": "S Standard Omnidirectional Intensity in 13 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "S Intensity Std"
+      },
+      {
+        "variable_name": "si_standard_intensity",
+        "catalog_description": "Si Standard Omnidirectional Intensity in 14 energy bins",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "Si Intensity Std"
+      }
+    ],
+    "logical_source": "imap_hit_l2_standard-intensity",
+    "logical_source_description": "IMAP Mission HIT Instrument Level-2 Standard Intensity Data.",
+    "generation_date": "2026-06-03",
+    "data_level": "l2",
+    "instrument": "HIT",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-26T00:00:00+00:00",
+        "end_time": "2026-04-27T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_standard-intensity_20260426_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "al_summed_intensity",
+        "catalog_description": "Al Summed Omnidirectional Intensity in 3 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "Al intensity summed"
+      },
+      {
+        "variable_name": "ar_summed_intensity",
+        "catalog_description": "Ar Summed Omnidirectional Intensity in 5 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "Ar intensity summed"
+      },
+      {
+        "variable_name": "c_summed_intensity",
+        "catalog_description": "C Summed Omnidirectional Intensity in 4 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "C intensity summed"
+      },
+      {
+        "variable_name": "ca_summed_intensity",
+        "catalog_description": "Ca Summed Omnidirectional Intensity in 5 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "Ca intensity summed"
+      },
+      {
+        "variable_name": "fe_summed_intensity",
+        "catalog_description": "Fe Summed Omnidirectional Intensity in 5 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "Fe intensity summed"
+      },
+      {
+        "variable_name": "h_summed_intensity",
+        "catalog_description": "H Summed Omnidirectional Intensity in 4 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "H intensity summed"
+      },
+      {
+        "variable_name": "he_summed_intensity",
+        "catalog_description": "He (total) Summed Omnidirectional Intensity in 3 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "He intensity summed"
+      },
+      {
+        "variable_name": "he3_summed_intensity",
+        "catalog_description": "He3 Summed Omnidirectional Intensity in 3 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "He3 intensity summed"
+      },
+      {
+        "variable_name": "he4_summed_intensity",
+        "catalog_description": "He4 Summed Omnidirectional Intensity in 4 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "He4 intensity summed"
+      },
+      {
+        "variable_name": "mg_summed_intensity",
+        "catalog_description": "Mg Summed Omnidirectional Intensity in 4 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "Mg intensity summed"
+      },
+      {
+        "variable_name": "n_summed_intensity",
+        "catalog_description": "N Summed Omnidirectional Intensity in 4 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "N intensity summed"
+      },
+      {
+        "variable_name": "na_summed_intensity",
+        "catalog_description": "Na Summed Omnidirectional Intensity in 2 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "Na intensity summed"
+      },
+      {
+        "variable_name": "ne_summed_intensity",
+        "catalog_description": "Ne Summed Omnidirectional Intensity in 4 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "Ne intensity summed"
+      },
+      {
+        "variable_name": "ni_summed_intensity",
+        "catalog_description": "Ni Summed Omnidirectional Intensity in 3 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "Ni intensity summed"
+      },
+      {
+        "variable_name": "o_summed_intensity",
+        "catalog_description": "O Summed Omnidirectional Intensity in 4 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "O intensity summed"
+      },
+      {
+        "variable_name": "dynamic_threshold_state",
+        "catalog_description": "Raw dynamic threshold state per integration",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "State"
+      },
+      {
+        "variable_name": "s_summed_intensity",
+        "catalog_description": "S Summed Omnidirectional Intensity in 5 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "S intensity summed"
+      },
+      {
+        "variable_name": "si_summed_intensity",
+        "catalog_description": "Si Summed Omnidirectional Intensity in 5 energy bins (useful for quiet times)",
+        "display_type": "spectrogram",
+        "units": "1/(cm^2 s MeV/nuc sr)",
+        "axis_label": "Si intensity summed"
+      }
+    ],
+    "logical_source": "imap_hit_l2_summed-intensity",
+    "logical_source_description": "IMAP Mission HIT Instrument Level-2 Summed Intensity Data.",
+    "generation_date": "2026-06-03",
+    "data_level": "l2",
+    "instrument": "HIT",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-26T00:00:00+00:00",
+        "end_time": "2026-04-27T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l2/2026/04/imap_hit_l2_summed-intensity_20260426_v001.cdf"
       }
     ]
   },
@@ -828,6 +2105,20 @@
         "axis_label": "Longitude"
       },
       {
+        "variable_name": "tof_peak_kappa",
+        "catalog_description": "Mass-scale alignment metric for the TOF peak solution.",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "TOF High Kappa"
+      },
+      {
+        "variable_name": "mass_scale",
+        "catalog_description": "Preliminary time-to-mass scale for the TOF waveform.",
+        "display_type": "spectrogram",
+        "units": "amu",
+        "axis_label": "Mass Scale"
+      },
+      {
         "variable_name": "ion_grid_reduced_chi_squared",
         "catalog_description": "Reduced chi squared value for the Ion Grid signal fit.",
         "display_type": "time_series",
@@ -842,13 +2133,6 @@
         "axis_label": "TL Red Chi Square"
       },
       {
-        "variable_name": "target_high_reduced_chi_squared",
-        "catalog_description": "Reduced chi squared value for the Target Low signal fit.",
-        "display_type": "time_series",
-        "units": " ",
-        "axis_label": "TH Red Chi Square"
-      },
-      {
         "variable_name": "tof_peak_reduced_chi_square",
         "catalog_description": "Reduced chi squared value for the TOF peak emg fits.",
         "display_type": "spectrogram",
@@ -856,39 +2140,25 @@
         "axis_label": "Red Chi Square (TOF)"
       },
       {
+        "variable_name": "target_high_reduced_chi_squared",
+        "catalog_description": "Reduced chi-square value for the Target High waveform fit.",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "TH Red Chi Square"
+      },
+      {
+        "variable_name": "tof_snr",
+        "catalog_description": "Signal-to-noise ratio of the TOF High waveform.",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "TOF High SNR"
+      },
+      {
         "variable_name": "solar_longitude",
         "catalog_description": "Solar Longitude of the IMAP spacecraft",
         "display_type": "time_series",
         "units": "Degrees",
         "axis_label": "Solar Longitude"
-      },
-      {
-        "variable_name": "tof_snr",
-        "catalog_description": "TOF High signal to noise ratio.",
-        "display_type": "time_series",
-        "units": "pC",
-        "axis_label": "TOF High SNR"
-      },
-      {
-        "variable_name": "mass_scale",
-        "catalog_description": "TOF High spectrum with x-axis converted from time to mass.",
-        "display_type": "spectrogram",
-        "units": "Kg",
-        "axis_label": "Mass Scale"
-      },
-      {
-        "variable_name": "mass",
-        "catalog_description": "TOF High spectrum with x-axis converted from time to mass.",
-        "display_type": "spectrogram",
-        "units": "Kg",
-        "axis_label": "Mass Scale"
-      },
-      {
-        "variable_name": "tof_peak_kappa",
-        "catalog_description": "TOF High spectrum with x-axis converted from time to mass.",
-        "display_type": "time_series",
-        "units": "Kg",
-        "axis_label": "TOF High Kappa"
       },
       {
         "variable_name": "target_low_impact_charge",
@@ -942,7 +2212,7 @@
     ],
     "logical_source": "imap_idex_l2a_sci-10days",
     "logical_source_description": "IMAP Mission IDEX Instrument Level-2A 10-Day Data",
-    "generation_date": "2026-05-29",
+    "generation_date": "2026-06-03",
     "data_level": "l2a",
     "instrument": "IDEX",
     "mission": "IMAP",
@@ -952,17 +2222,132 @@
       {
         "start_time": "2026-04-20T00:00:00+00:00",
         "end_time": "2026-04-21T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2a/2026/04/imap_idex_l2a_sci-10days_20260420_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2a/2026/04/imap_idex_l2a_sci-10days_20260420_v002.cdf"
       },
       {
         "start_time": "2026-05-10T00:00:00+00:00",
         "end_time": "2026-05-11T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2a/2026/05/imap_idex_l2a_sci-10days_20260510_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2a/2026/05/imap_idex_l2a_sci-10days_20260510_v002.cdf"
       },
       {
         "start_time": "2026-05-20T00:00:00+00:00",
         "end_time": "2026-05-21T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2a/2026/05/imap_idex_l2a_sci-10days_20260520_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2a/2026/05/imap_idex_l2a_sci-10days_20260520_v002.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "counts_by_charge",
+        "catalog_description": "Count by impact charge and spin phase.",
+        "display_type": "spectrogram",
+        "units": "counts",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "counts_by_mass",
+        "catalog_description": "Count by mass and spin phase.",
+        "display_type": "spectrogram",
+        "units": "counts",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "rate_by_charge",
+        "catalog_description": "Count rate per day by impact charge and spin phase.",
+        "display_type": "spectrogram",
+        "units": "day^-1",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "rate_by_mass",
+        "catalog_description": "Count rate per day by mass and spin phase.",
+        "display_type": "spectrogram",
+        "units": "day^-1",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "rate_calculation_quality_flags",
+        "catalog_description": "Quality flag for rate calculation (1 = good, 0 = insufficient IDEX uptime data)",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Quality Flag"
+      },
+      {
+        "variable_name": "impact_day_of_year",
+        "catalog_description": "The unique day of the years when dust impacts occurred.",
+        "display_type": "time_series",
+        "units": "days",
+        "axis_label": "Impact DOY"
+      }
+    ],
+    "logical_source": "imap_idex_l2b_sci-1mo",
+    "logical_source_description": "IMAP Mission IDEX Instrument Level-2B Monthly Data",
+    "generation_date": "2026-06-03",
+    "data_level": "l2b",
+    "instrument": "IDEX",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-30T00:00:00+00:00",
+        "end_time": "2026-05-01T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2b/2026/04/imap_idex_l2b_sci-1mo_20260430_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "counts_by_charge_map",
+        "catalog_description": "Count by impact charge, longitude, and latitude.",
+        "display_type": "spectrogram",
+        "units": "counts",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "counts_by_mass_map",
+        "catalog_description": "Count by mass, longitude, and latitude.",
+        "display_type": "spectrogram",
+        "units": "counts",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "rate_by_charge_map",
+        "catalog_description": "Count rate per day by impact charge, longitude, and latitude.",
+        "display_type": "spectrogram",
+        "units": "day^-1",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "rate_by_mass_map",
+        "catalog_description": "Count rate per day by mass, longitude, and latitude.",
+        "display_type": "spectrogram",
+        "units": "day^-1",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "impact_day_of_year",
+        "catalog_description": "The unique day of the years when dust impacts occurred.",
+        "display_type": "time_series",
+        "units": "days",
+        "axis_label": "Impact DOY"
+      }
+    ],
+    "logical_source": "imap_idex_l2c_rectangular-map-1mo",
+    "logical_source_description": "IMAP Mission IDEX Instrument Level-2C Rectangular Map Monthly Data",
+    "generation_date": "2026-06-03",
+    "data_level": "l2c",
+    "instrument": "IDEX",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-30T00:00:00+00:00",
+        "end_time": "2026-05-01T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2c/2026/04/imap_idex_l2c_rectangular-map-1mo_20260430_v001.cdf"
       }
     ]
   },
@@ -970,24 +2355,10 @@
     "variables": [
       {
         "variable_name": "swp_l1a_flags",
-        "catalog_description": "Bitwise flag. There are 13 flags. See VAR_NOTES for more details.",
+        "catalog_description": "Bitwise science and housekeeping quality flags. See VAR_NOTES for bit definitions.",
         "display_type": "spectrogram",
         "units": " ",
         "axis_label": "Flags"
-      },
-      {
-        "variable_name": "swp_coin_rate_stat_uncert_plus",
-        "catalog_description": "Coincidence rate uncertainty",
-        "display_type": "spectrogram",
-        "units": "counts",
-        "axis_label": "coin_rate_stat_unc"
-      },
-      {
-        "variable_name": "swp_coin_rate_stat_uncert_minus",
-        "catalog_description": "Coincidence rate uncertainty",
-        "display_type": "spectrogram",
-        "units": "counts",
-        "axis_label": "coin_rate_stat_unc"
       },
       {
         "variable_name": "swp_coin_rate",
@@ -997,18 +2368,11 @@
         "axis_label": "coin_rate"
       },
       {
-        "variable_name": "swp_pcem_rate_stat_uncert_plus",
-        "catalog_description": "Primary Channel Electron Multiplier (CEM) rate uncertainty",
+        "variable_name": "esa_energy",
+        "catalog_description": "ESA energy in eV/q corresponding to each step id for each sweep",
         "display_type": "spectrogram",
-        "units": "counts",
-        "axis_label": "pcem_rate_stat_unc"
-      },
-      {
-        "variable_name": "swp_pcem_rate_stat_uncert_minus",
-        "catalog_description": "Primary Channel Electron Multiplier (CEM) rate uncertainty",
-        "display_type": "spectrogram",
-        "units": "counts",
-        "axis_label": "pcem_rate_stat_unc"
+        "units": "eV / q",
+        "axis_label": "Energy (eV/q)"
       },
       {
         "variable_name": "swp_pcem_rate",
@@ -1016,20 +2380,6 @@
         "display_type": "spectrogram",
         "units": "counts/s",
         "axis_label": "pcem_rate"
-      },
-      {
-        "variable_name": "swp_scem_rate_stat_uncert_plus",
-        "catalog_description": "Secondary Channel Electron Multiplier (CEM) rate uncertainty",
-        "display_type": "spectrogram",
-        "units": "counts",
-        "axis_label": "scem_rate_stat_unc"
-      },
-      {
-        "variable_name": "swp_scem_rate_stat_uncert_minus",
-        "catalog_description": "Secondary Channel Electron Multiplier (CEM) rate uncertainty",
-        "display_type": "spectrogram",
-        "units": "counts",
-        "axis_label": "scem_rate_stat_unc"
       },
       {
         "variable_name": "swp_scem_rate",
@@ -1041,7 +2391,7 @@
     ],
     "logical_source": "imap_swapi_l2_sci",
     "logical_source_description": "IMAP SWAPI Instrument Level-2 Science Data",
-    "generation_date": "2026-05-29",
+    "generation_date": "2026-06-03",
     "data_level": "l2",
     "instrument": "SWAPI",
     "mission": "IMAP",
@@ -1051,31 +2401,172 @@
       {
         "start_time": "2026-04-01T00:00:00+00:00",
         "end_time": "2026-04-02T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/swapi/l2/2026/04/imap_swapi_l2_sci_20260401_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/swapi/l2/2026/04/imap_swapi_l2_sci_20260401_v002.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "flux_stat_uncert",
-        "catalog_description": "Flux statistical uncertainty",
-        "display_type": "spectrogram",
-        "units": "counts",
-        "axis_label": ""
+        "variable_name": "proton_sw_speed",
+        "catalog_description": "Magnitude of the bulk velocity vector of the solar wind proton population (spacecraft frame)",
+        "display_type": "time_series",
+        "units": "km/s",
+        "axis_label": "Vp SC"
       },
+      {
+        "variable_name": "proton_sw_speed_sun",
+        "catalog_description": "Magnitude of the bulk velocity vector of the solar wind proton population (Sun frame)",
+        "display_type": "time_series",
+        "units": "km/s",
+        "axis_label": "Vp Sun"
+      },
+      {
+        "variable_name": "proton_sw_density",
+        "catalog_description": "Number density of the solar wind proton population",
+        "display_type": "time_series",
+        "units": "cm^-3",
+        "axis_label": "Np"
+      },
+      {
+        "variable_name": "proton_sw_temperature",
+        "catalog_description": "Scalar temperature of the solar wind proton population",
+        "display_type": "time_series",
+        "units": "K",
+        "axis_label": "Tp"
+      },
+      {
+        "variable_name": "proton_sw_velocity_rtn",
+        "catalog_description": "Solar wind proton bulk velocity vector in RTN coordinates (spacecraft frame)",
+        "display_type": "time_series",
+        "units": "km/s",
+        "axis_label": "Vp RTN SC"
+      },
+      {
+        "variable_name": "proton_sw_velocity_rtn_sun",
+        "catalog_description": "Solar wind proton bulk velocity vector in RTN coordinates (Sun frame)",
+        "display_type": "time_series",
+        "units": "km/s",
+        "axis_label": "Vp RTN Sun"
+      }
+    ],
+    "logical_source": "imap_swapi_l3a_proton-sw",
+    "logical_source_description": "SWAPI Instrument Proton Solar Wind Parameters",
+    "generation_date": "2026-06-03",
+    "data_level": "l3a",
+    "instrument": "SWAPI",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-01T00:00:00+00:00",
+        "end_time": "2026-04-02T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/swapi/l3a/2026/04/imap_swapi_l3a_proton-sw_20260401_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "pui_background_count_rate",
+        "catalog_description": "Pickup ion background count rate",
+        "display_type": "time_series",
+        "units": "s^-1",
+        "axis_label": "Bg Rate"
+      },
+      {
+        "variable_name": "pui_cooling_index",
+        "catalog_description": "Pickup ion cooling index",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Cool Idx"
+      },
+      {
+        "variable_name": "pui_cutoff_speed",
+        "catalog_description": "Pickup ion cutoff speed in the solar wind frame",
+        "display_type": "time_series",
+        "units": "km/s",
+        "axis_label": "Cutoff V"
+      },
+      {
+        "variable_name": "pui_ionization_rate",
+        "catalog_description": "Pickup ion ionization rate",
+        "display_type": "time_series",
+        "units": "s^-1",
+        "axis_label": "Ion Rate"
+      },
+      {
+        "variable_name": "pui_density",
+        "catalog_description": "Pickup ion number density",
+        "display_type": "time_series",
+        "units": "cm^-3",
+        "axis_label": "n_PUI"
+      },
+      {
+        "variable_name": "pui_temperature",
+        "catalog_description": "Pickup ion temperature",
+        "display_type": "time_series",
+        "units": "K",
+        "axis_label": "T_PUI"
+      }
+    ],
+    "logical_source": "imap_swapi_l3a_pui-he",
+    "logical_source_description": "SWAPI Instrument Pickup Ion Parameters",
+    "generation_date": "2026-06-03",
+    "data_level": "l3a",
+    "instrument": "SWAPI",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-01T00:00:00+00:00",
+        "end_time": "2026-04-02T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/swapi/l3a/2026/04/imap_swapi_l3a_pui-he_20260401_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "combined_differential_flux",
+        "catalog_description": "Combined differential flux",
+        "display_type": "spectrogram",
+        "units": "cm^-2 s^-1 sr^-1 (eV/q)^-1",
+        "axis_label": "Combined differential flux"
+      }
+    ],
+    "logical_source": "imap_swapi_l3b_combined",
+    "logical_source_description": "SWAPI Instrument Combined VDF and Differential Flux",
+    "generation_date": "2026-06-03",
+    "data_level": "l3b",
+    "instrument": "SWAPI",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-01T00:00:00+00:00",
+        "end_time": "2026-04-02T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/swapi/l3b/2026/04/imap_swapi_l3b_combined_20260401_v001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
       {
         "variable_name": "flux",
         "catalog_description": "Number flux organized by energy (eV), spin angle, CEM angle",
         "display_type": "spectrogram",
-        "units": "1 / (2 * eV * cm^2 * s * ster)",
+        "units": "1 / (eV * cm^2 * s * ster)",
         "axis_label": ""
       },
       {
         "variable_name": "flux_spin_sector",
         "catalog_description": "Number flux organized by ESA step and spin sector and CEM",
         "display_type": "spectrogram",
-        "units": "1 / (2 * eV * cm^2 * s * ster)",
+        "units": "1 / (eV * cm^2 * s * ster)",
         "axis_label": ""
       },
       {
@@ -1093,15 +2584,8 @@
         "axis_label": ""
       },
       {
-        "variable_name": "psd_stat_uncert",
-        "catalog_description": "Phase space density statistical uncertainty",
-        "display_type": "spectrogram",
-        "units": "counts",
-        "axis_label": ""
-      },
-      {
         "variable_name": "inst_az_spin_sector",
-        "catalog_description": "Spin angle organized by ESA step and spin sector",
+        "catalog_description": "Spin angle in despun spacecraft coordinates organized by ESA step and spin sector",
         "display_type": "spectrogram",
         "units": "Degree",
         "axis_label": ""
@@ -1109,7 +2593,7 @@
     ],
     "logical_source": "imap_swe_l2_sci",
     "logical_source_description": "IMAP SWE Instrument Level-2 Science Data",
-    "generation_date": "2026-05-29",
+    "generation_date": "2026-06-03",
     "data_level": "l2",
     "instrument": "SWE",
     "mission": "IMAP",
@@ -1119,7 +2603,7 @@
       {
         "start_time": "2026-04-02T00:00:00+00:00",
         "end_time": "2026-04-03T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/swe/l2/2026/04/imap_swe_l2_sci_20260402_v001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/swe/l2/2026/04/imap_swe_l2_sci_20260402_v002.cdf"
       }
     ]
   }
