@@ -2402,6 +2402,11 @@
         "start_time": "2026-04-01T00:00:00+00:00",
         "end_time": "2026-04-02T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/swapi/l2/2026/04/imap_swapi_l2_sci_20260401_v002.cdf"
+      },
+      {
+        "start_time": "2026-06-03T00:00:00+00:00",
+        "end_time": "2026-06-04T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/swapi/l2/2026/06/imap_swapi_l2_sci_20260603_v001.cdf"
       }
     ]
   },
@@ -2528,15 +2533,7 @@
     ]
   },
   {
-    "variables": [
-      {
-        "variable_name": "combined_differential_flux",
-        "catalog_description": "Combined differential flux",
-        "display_type": "spectrogram",
-        "units": "cm^-2 s^-1 sr^-1 (eV/q)^-1",
-        "axis_label": "Combined differential flux"
-      }
-    ],
+    "variables": [],
     "logical_source": "imap_swapi_l3b_combined",
     "logical_source_description": "SWAPI Instrument Combined VDF and Differential Flux",
     "generation_date": "2026-06-03",
@@ -2550,6 +2547,11 @@
         "start_time": "2026-04-01T00:00:00+00:00",
         "end_time": "2026-04-02T00:00:00+00:00",
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/swapi/l3b/2026/04/imap_swapi_l3b_combined_20260401_v001.cdf"
+      },
+      {
+        "start_time": "2026-06-03T00:00:00+00:00",
+        "end_time": "2026-06-04T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/swapi/l3b/2026/06/imap_swapi_l3b_combined_20260603_v001.cdf"
       }
     ]
   },
