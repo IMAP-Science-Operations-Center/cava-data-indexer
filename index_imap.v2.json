@@ -366,7 +366,7 @@
     ],
     "logical_source": "imap_codice_l2_hi-direct-events",
     "logical_source_description": "IMAP Mission CoDICE Hi Level-2 Event Data.",
-    "generation_date": "2026-06-07",
+    "generation_date": "2026-06-08",
     "data_level": "l2",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -406,12 +406,12 @@
       {
         "start_time": "2026-06-05T00:00:00+00:00",
         "end_time": "2026-06-06T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/06/imap_codice_l2_hi-direct-events_20260605_v009.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/06/imap_codice_l2_hi-direct-events_20260605_v011.cdf"
       },
       {
         "start_time": "2026-06-06T00:00:00+00:00",
         "end_time": "2026-06-07T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/06/imap_codice_l2_hi-direct-events_20260606_v003.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/06/imap_codice_l2_hi-direct-events_20260606_v005.cdf"
       }
     ]
   },
@@ -694,7 +694,7 @@
     ],
     "logical_source": "imap_codice_l2_lo-direct-events",
     "logical_source_description": "IMAP Mission CoDICE Lo Level-2 Event Data.",
-    "generation_date": "2026-06-07",
+    "generation_date": "2026-06-08",
     "data_level": "l2",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -734,12 +734,12 @@
       {
         "start_time": "2026-06-05T00:00:00+00:00",
         "end_time": "2026-06-06T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/06/imap_codice_l2_lo-direct-events_20260605_v010.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/06/imap_codice_l2_lo-direct-events_20260605_v014.cdf"
       },
       {
         "start_time": "2026-06-06T00:00:00+00:00",
         "end_time": "2026-06-07T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/06/imap_codice_l2_lo-direct-events_20260606_v003.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/06/imap_codice_l2_lo-direct-events_20260606_v005.cdf"
       }
     ]
   },
@@ -1109,7 +1109,7 @@
     ],
     "logical_source": "imap_codice_l3a_hi-direct-events",
     "logical_source_description": "IMAP Mission CoDICE Hi Instrument Direct Events",
-    "generation_date": "2026-06-07",
+    "generation_date": "2026-06-08",
     "data_level": "l3a",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -1154,7 +1154,7 @@
       {
         "start_time": "2026-06-06T00:00:00+00:00",
         "end_time": "2026-06-07T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/06/imap_codice_l3a_hi-direct-events_20260606_v003.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l3a/2026/06/imap_codice_l3a_hi-direct-events_20260606_v004.cdf"
       }
     ]
   },
@@ -2175,7 +2175,7 @@
       {
         "start_time": "2026-06-06T00:00:00+00:00",
         "end_time": "2026-06-07T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260606_v003.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260606_v004.cdf"
       }
     ]
   },
