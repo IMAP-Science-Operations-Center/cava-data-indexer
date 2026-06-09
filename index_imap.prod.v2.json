@@ -63104,30 +63104,30 @@
   {
     "variables": [
       {
-        "variable_name": "ena_intensity",
-        "catalog_description": "IMAP Ultra45 H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 2 deg, 3 Mon",
+        "variable_name": "bg_rate",
+        "catalog_description": "IMAP Ultra45 H Background Count Rate, HAE Helio Frame, No Surv Corr, Full Spin, 2 deg, 3 Mon",
         "display_type": "map_image",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Intensity"
+        "units": "count s-1",
+        "axis_label": "Rate"
       },
       {
         "variable_name": "counts",
-        "catalog_description": "Mono-energetic ENA Count.",
+        "catalog_description": "IMAP Ultra45 H Counts, HAE Helio Frame, No Surv Corr, Full Spin, 2 deg, 3 Mon",
         "display_type": "map_image",
         "units": "counts",
         "axis_label": "Count"
       },
       {
-        "variable_name": "bg_rate",
-        "catalog_description": "Total background count rate from non-ENA (non-heliospheric) sources, as calculated by ground processing; makes sense only for \"uncombined\" calibration products.",
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Ultra45 H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 2 deg, 3 Mon",
         "display_type": "map_image",
-        "units": "count s-1",
-        "axis_label": "Rate"
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
       }
     ],
     "logical_source": "imap_ultra_l2_u45-ena-h-hf-nsp-full-hae-2deg-3mo",
     "logical_source_description": "IMAP-Ultra Instrument Level-2 ENA Intensity Map Data for Ultra45 on rectangular tiling in heliospheric frame over 3mo duration.",
-    "generation_date": "2026-04-21",
+    "generation_date": "2026-06-09",
     "data_level": "l2",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -63138,36 +63138,41 @@
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2026-04-18T07:30:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l2/2026/01/imap_ultra_l2_u45-ena-h-hf-nsp-full-hae-2deg-3mo_20260117_v001.cdf"
+      },
+      {
+        "start_time": "2026-01-18T00:00:00+00:00",
+        "end_time": "2026-04-19T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l2/2026/01/imap_ultra_l2_u45-ena-h-hf-nsp-full-hae-2deg-3mo_20260118_v001.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity",
-        "catalog_description": "IMAP Ultra45 H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 4 deg, 3 Mon",
+        "variable_name": "bg_rate",
+        "catalog_description": "IMAP Ultra45 H Background Count Rate, HAE Helio Frame, No Surv Corr, Full Spin, 4 deg, 3 Mon",
         "display_type": "map_image",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Intensity"
+        "units": "count s-1",
+        "axis_label": "Rate"
       },
       {
         "variable_name": "counts",
-        "catalog_description": "Mono-energetic ENA Count.",
+        "catalog_description": "IMAP Ultra45 H Counts, HAE Helio Frame, No Surv Corr, Full Spin, 4 deg, 3 Mon",
         "display_type": "map_image",
         "units": "counts",
         "axis_label": "Count"
       },
       {
-        "variable_name": "bg_rate",
-        "catalog_description": "Total background count rate from non-ENA (non-heliospheric) sources, as calculated by ground processing; makes sense only for \"uncombined\" calibration products.",
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Ultra45 H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 4 deg, 3 Mon",
         "display_type": "map_image",
-        "units": "count s-1",
-        "axis_label": "Rate"
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
       }
     ],
     "logical_source": "imap_ultra_l2_u45-ena-h-hf-nsp-full-hae-4deg-3mo",
     "logical_source_description": "IMAP-Ultra Instrument Level-2 ENA Intensity Map Data for Ultra45 on rectangular tiling in heliospheric frame over 3mo duration.",
-    "generation_date": "2026-04-21",
+    "generation_date": "2026-06-09",
     "data_level": "l2",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -63178,36 +63183,41 @@
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2026-04-18T07:30:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l2/2026/01/imap_ultra_l2_u45-ena-h-hf-nsp-full-hae-4deg-3mo_20260117_v001.cdf"
+      },
+      {
+        "start_time": "2026-01-18T00:00:00+00:00",
+        "end_time": "2026-04-19T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l2/2026/01/imap_ultra_l2_u45-ena-h-hf-nsp-full-hae-4deg-3mo_20260118_v001.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity",
-        "catalog_description": "IMAP Ultra45 H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 6 deg, 3 Mon",
+        "variable_name": "bg_rate",
+        "catalog_description": "IMAP Ultra45 H Background Count Rate, HAE Helio Frame, No Surv Corr, Full Spin, 6 deg, 3 Mon",
         "display_type": "map_image",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Intensity"
+        "units": "count s-1",
+        "axis_label": "Rate"
       },
       {
         "variable_name": "counts",
-        "catalog_description": "Mono-energetic ENA Count.",
+        "catalog_description": "IMAP Ultra45 H Counts, HAE Helio Frame, No Surv Corr, Full Spin, 6 deg, 3 Mon",
         "display_type": "map_image",
         "units": "counts",
         "axis_label": "Count"
       },
       {
-        "variable_name": "bg_rate",
-        "catalog_description": "Total background count rate from non-ENA (non-heliospheric) sources, as calculated by ground processing; makes sense only for \"uncombined\" calibration products.",
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Ultra45 H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 6 deg, 3 Mon",
         "display_type": "map_image",
-        "units": "count s-1",
-        "axis_label": "Rate"
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
       }
     ],
     "logical_source": "imap_ultra_l2_u45-ena-h-hf-nsp-full-hae-6deg-3mo",
     "logical_source_description": "IMAP-Ultra Instrument Level-2 ENA Intensity Map Data for Ultra45 on rectangular tiling in heliospheric frame over 3mo duration.",
-    "generation_date": "2026-04-21",
+    "generation_date": "2026-06-09",
     "data_level": "l2",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -63218,36 +63228,41 @@
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2026-04-18T07:30:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l2/2026/01/imap_ultra_l2_u45-ena-h-hf-nsp-full-hae-6deg-3mo_20260117_v001.cdf"
+      },
+      {
+        "start_time": "2026-01-18T00:00:00+00:00",
+        "end_time": "2026-04-19T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l2/2026/01/imap_ultra_l2_u45-ena-h-hf-nsp-full-hae-6deg-3mo_20260118_v001.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity",
-        "catalog_description": "IMAP Ultra45 H Inten, HAE SC Frame, No Surv Corr, Full Spin, 2 deg, 3 Mon",
+        "variable_name": "bg_rate",
+        "catalog_description": "IMAP Ultra45 H Background Count Rate, HAE SC Frame, No Surv Corr, Full Spin, 2 deg, 3 Mon",
         "display_type": "map_image",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Intensity"
+        "units": "count s-1",
+        "axis_label": "Rate"
       },
       {
         "variable_name": "counts",
-        "catalog_description": "Mono-energetic ENA Count.",
+        "catalog_description": "IMAP Ultra45 H Counts, HAE SC Frame, No Surv Corr, Full Spin, 2 deg, 3 Mon",
         "display_type": "map_image",
         "units": "counts",
         "axis_label": "Count"
       },
       {
-        "variable_name": "bg_rate",
-        "catalog_description": "Total background count rate from non-ENA (non-heliospheric) sources, as calculated by ground processing; makes sense only for \"uncombined\" calibration products.",
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Ultra45 H Inten, HAE SC Frame, No Surv Corr, Full Spin, 2 deg, 3 Mon",
         "display_type": "map_image",
-        "units": "count s-1",
-        "axis_label": "Rate"
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
       }
     ],
     "logical_source": "imap_ultra_l2_u45-ena-h-sf-nsp-full-hae-2deg-3mo",
     "logical_source_description": "IMAP-Ultra Instrument Level-2 ENA Intensity Map Data for Ultra45 on rectangular tiling in spacecraft frame over 3mo duration.",
-    "generation_date": "2026-04-21",
+    "generation_date": "2026-06-09",
     "data_level": "l2",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -63258,36 +63273,41 @@
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2026-04-18T07:30:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l2/2026/01/imap_ultra_l2_u45-ena-h-sf-nsp-full-hae-2deg-3mo_20260117_v001.cdf"
+      },
+      {
+        "start_time": "2026-01-18T00:00:00+00:00",
+        "end_time": "2026-04-19T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l2/2026/01/imap_ultra_l2_u45-ena-h-sf-nsp-full-hae-2deg-3mo_20260118_v001.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity",
-        "catalog_description": "IMAP Ultra45 H Inten, HAE SC Frame, No Surv Corr, Full Spin, 4 deg, 3 Mon",
+        "variable_name": "bg_rate",
+        "catalog_description": "IMAP Ultra45 H Background Count Rate, HAE SC Frame, No Surv Corr, Full Spin, 4 deg, 3 Mon",
         "display_type": "map_image",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Intensity"
+        "units": "count s-1",
+        "axis_label": "Rate"
       },
       {
         "variable_name": "counts",
-        "catalog_description": "Mono-energetic ENA Count.",
+        "catalog_description": "IMAP Ultra45 H Counts, HAE SC Frame, No Surv Corr, Full Spin, 4 deg, 3 Mon",
         "display_type": "map_image",
         "units": "counts",
         "axis_label": "Count"
       },
       {
-        "variable_name": "bg_rate",
-        "catalog_description": "Total background count rate from non-ENA (non-heliospheric) sources, as calculated by ground processing; makes sense only for \"uncombined\" calibration products.",
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Ultra45 H Inten, HAE SC Frame, No Surv Corr, Full Spin, 4 deg, 3 Mon",
         "display_type": "map_image",
-        "units": "count s-1",
-        "axis_label": "Rate"
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
       }
     ],
     "logical_source": "imap_ultra_l2_u45-ena-h-sf-nsp-full-hae-4deg-3mo",
     "logical_source_description": "IMAP-Ultra Instrument Level-2 ENA Intensity Map Data for Ultra45 on rectangular tiling in spacecraft frame over 3mo duration.",
-    "generation_date": "2026-04-21",
+    "generation_date": "2026-06-09",
     "data_level": "l2",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -63298,6 +63318,11 @@
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2026-04-18T07:30:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l2/2026/01/imap_ultra_l2_u45-ena-h-sf-nsp-full-hae-4deg-3mo_20260117_v001.cdf"
+      },
+      {
+        "start_time": "2026-01-18T00:00:00+00:00",
+        "end_time": "2026-04-19T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l2/2026/01/imap_ultra_l2_u45-ena-h-sf-nsp-full-hae-4deg-3mo_20260118_v001.cdf"
       }
     ]
   },
@@ -63344,30 +63369,30 @@
   {
     "variables": [
       {
-        "variable_name": "ena_intensity",
-        "catalog_description": "IMAP Ultra90 H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 2 deg, 3 Mon",
+        "variable_name": "bg_rate",
+        "catalog_description": "IMAP Ultra90 H Background Count Rate, HAE Helio Frame, No Surv Corr, Full Spin, 2 deg, 3 Mon",
         "display_type": "map_image",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Intensity"
+        "units": "count s-1",
+        "axis_label": "Rate"
       },
       {
         "variable_name": "counts",
-        "catalog_description": "Mono-energetic ENA Count.",
+        "catalog_description": "IMAP Ultra90 H Counts, HAE Helio Frame, No Surv Corr, Full Spin, 2 deg, 3 Mon",
         "display_type": "map_image",
         "units": "counts",
         "axis_label": "Count"
       },
       {
-        "variable_name": "bg_rate",
-        "catalog_description": "Total background count rate from non-ENA (non-heliospheric) sources, as calculated by ground processing; makes sense only for \"uncombined\" calibration products.",
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Ultra90 H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 2 deg, 3 Mon",
         "display_type": "map_image",
-        "units": "count s-1",
-        "axis_label": "Rate"
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
       }
     ],
     "logical_source": "imap_ultra_l2_u90-ena-h-hf-nsp-full-hae-2deg-3mo",
     "logical_source_description": "IMAP-Ultra Instrument Level-2 ENA Intensity Map Data for Ultra90 on rectangular tiling in heliospheric frame over 3mo duration.",
-    "generation_date": "2026-04-21",
+    "generation_date": "2026-06-09",
     "data_level": "l2",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -63378,36 +63403,41 @@
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2026-04-18T07:30:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l2/2026/01/imap_ultra_l2_u90-ena-h-hf-nsp-full-hae-2deg-3mo_20260117_v001.cdf"
+      },
+      {
+        "start_time": "2026-01-18T00:00:00+00:00",
+        "end_time": "2026-04-19T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l2/2026/01/imap_ultra_l2_u90-ena-h-hf-nsp-full-hae-2deg-3mo_20260118_v001.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity",
-        "catalog_description": "IMAP Ultra90 H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 4 deg, 3 Mon",
+        "variable_name": "bg_rate",
+        "catalog_description": "IMAP Ultra90 H Background Count Rate, HAE Helio Frame, No Surv Corr, Full Spin, 4 deg, 3 Mon",
         "display_type": "map_image",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Intensity"
+        "units": "count s-1",
+        "axis_label": "Rate"
       },
       {
         "variable_name": "counts",
-        "catalog_description": "Mono-energetic ENA Count.",
+        "catalog_description": "IMAP Ultra90 H Counts, HAE Helio Frame, No Surv Corr, Full Spin, 4 deg, 3 Mon",
         "display_type": "map_image",
         "units": "counts",
         "axis_label": "Count"
       },
       {
-        "variable_name": "bg_rate",
-        "catalog_description": "Total background count rate from non-ENA (non-heliospheric) sources, as calculated by ground processing; makes sense only for \"uncombined\" calibration products.",
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Ultra90 H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 4 deg, 3 Mon",
         "display_type": "map_image",
-        "units": "count s-1",
-        "axis_label": "Rate"
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
       }
     ],
     "logical_source": "imap_ultra_l2_u90-ena-h-hf-nsp-full-hae-4deg-3mo",
     "logical_source_description": "IMAP-Ultra Instrument Level-2 ENA Intensity Map Data for Ultra90 on rectangular tiling in heliospheric frame over 3mo duration.",
-    "generation_date": "2026-04-21",
+    "generation_date": "2026-06-09",
     "data_level": "l2",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -63418,36 +63448,41 @@
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2026-04-18T07:30:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l2/2026/01/imap_ultra_l2_u90-ena-h-hf-nsp-full-hae-4deg-3mo_20260117_v001.cdf"
+      },
+      {
+        "start_time": "2026-01-18T00:00:00+00:00",
+        "end_time": "2026-04-19T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l2/2026/01/imap_ultra_l2_u90-ena-h-hf-nsp-full-hae-4deg-3mo_20260118_v001.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity",
-        "catalog_description": "IMAP Ultra90 H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 6 deg, 3 Mon",
+        "variable_name": "bg_rate",
+        "catalog_description": "IMAP Ultra90 H Background Count Rate, HAE Helio Frame, No Surv Corr, Full Spin, 6 deg, 3 Mon",
         "display_type": "map_image",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Intensity"
+        "units": "count s-1",
+        "axis_label": "Rate"
       },
       {
         "variable_name": "counts",
-        "catalog_description": "Mono-energetic ENA Count.",
+        "catalog_description": "IMAP Ultra90 H Counts, HAE Helio Frame, No Surv Corr, Full Spin, 6 deg, 3 Mon",
         "display_type": "map_image",
         "units": "counts",
         "axis_label": "Count"
       },
       {
-        "variable_name": "bg_rate",
-        "catalog_description": "Total background count rate from non-ENA (non-heliospheric) sources, as calculated by ground processing; makes sense only for \"uncombined\" calibration products.",
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Ultra90 H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 6 deg, 3 Mon",
         "display_type": "map_image",
-        "units": "count s-1",
-        "axis_label": "Rate"
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
       }
     ],
     "logical_source": "imap_ultra_l2_u90-ena-h-hf-nsp-full-hae-6deg-3mo",
     "logical_source_description": "IMAP-Ultra Instrument Level-2 ENA Intensity Map Data for Ultra90 on rectangular tiling in heliospheric frame over 3mo duration.",
-    "generation_date": "2026-04-21",
+    "generation_date": "2026-06-09",
     "data_level": "l2",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -63458,6 +63493,11 @@
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2026-04-18T07:30:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l2/2026/01/imap_ultra_l2_u90-ena-h-hf-nsp-full-hae-6deg-3mo_20260117_v001.cdf"
+      },
+      {
+        "start_time": "2026-01-18T00:00:00+00:00",
+        "end_time": "2026-04-19T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l2/2026/01/imap_ultra_l2_u90-ena-h-hf-nsp-full-hae-6deg-3mo_20260118_v001.cdf"
       }
     ]
   },
@@ -63504,30 +63544,30 @@
   {
     "variables": [
       {
-        "variable_name": "ena_intensity",
-        "catalog_description": "IMAP Ultra90 H Inten, HAE SC Frame, No Surv Corr, Full Spin, 4 deg, 3 Mon",
+        "variable_name": "bg_rate",
+        "catalog_description": "IMAP Ultra90 H Background Count Rate, HAE SC Frame, No Surv Corr, Full Spin, 4 deg, 3 Mon",
         "display_type": "map_image",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Intensity"
+        "units": "count s-1",
+        "axis_label": "Rate"
       },
       {
         "variable_name": "counts",
-        "catalog_description": "Mono-energetic ENA Count.",
+        "catalog_description": "IMAP Ultra90 H Counts, HAE SC Frame, No Surv Corr, Full Spin, 4 deg, 3 Mon",
         "display_type": "map_image",
         "units": "counts",
         "axis_label": "Count"
       },
       {
-        "variable_name": "bg_rate",
-        "catalog_description": "Total background count rate from non-ENA (non-heliospheric) sources, as calculated by ground processing; makes sense only for \"uncombined\" calibration products.",
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Ultra90 H Inten, HAE SC Frame, No Surv Corr, Full Spin, 4 deg, 3 Mon",
         "display_type": "map_image",
-        "units": "count s-1",
-        "axis_label": "Rate"
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
       }
     ],
     "logical_source": "imap_ultra_l2_u90-ena-h-sf-nsp-full-hae-4deg-3mo",
     "logical_source_description": "IMAP-Ultra Instrument Level-2 ENA Intensity Map Data for Ultra90 on rectangular tiling in spacecraft frame over 3mo duration.",
-    "generation_date": "2026-04-21",
+    "generation_date": "2026-06-09",
     "data_level": "l2",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -63538,36 +63578,41 @@
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2026-04-18T07:30:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l2/2026/01/imap_ultra_l2_u90-ena-h-sf-nsp-full-hae-4deg-3mo_20260117_v001.cdf"
+      },
+      {
+        "start_time": "2026-01-18T00:00:00+00:00",
+        "end_time": "2026-04-19T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l2/2026/01/imap_ultra_l2_u90-ena-h-sf-nsp-full-hae-4deg-3mo_20260118_v001.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity",
-        "catalog_description": "IMAP Ultra90 H Inten, HAE SC Frame, No Surv Corr, Full Spin, 6 deg, 3 Mon",
+        "variable_name": "bg_rate",
+        "catalog_description": "IMAP Ultra90 H Background Count Rate, HAE SC Frame, No Surv Corr, Full Spin, 6 deg, 3 Mon",
         "display_type": "map_image",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Intensity"
+        "units": "count s-1",
+        "axis_label": "Rate"
       },
       {
         "variable_name": "counts",
-        "catalog_description": "Mono-energetic ENA Count.",
+        "catalog_description": "IMAP Ultra90 H Counts, HAE SC Frame, No Surv Corr, Full Spin, 6 deg, 3 Mon",
         "display_type": "map_image",
         "units": "counts",
         "axis_label": "Count"
       },
       {
-        "variable_name": "bg_rate",
-        "catalog_description": "Total background count rate from non-ENA (non-heliospheric) sources, as calculated by ground processing; makes sense only for \"uncombined\" calibration products.",
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Ultra90 H Inten, HAE SC Frame, No Surv Corr, Full Spin, 6 deg, 3 Mon",
         "display_type": "map_image",
-        "units": "count s-1",
-        "axis_label": "Rate"
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
       }
     ],
     "logical_source": "imap_ultra_l2_u90-ena-h-sf-nsp-full-hae-6deg-3mo",
     "logical_source_description": "IMAP-Ultra Instrument Level-2 ENA Intensity Map Data for Ultra90 on rectangular tiling in spacecraft frame over 3mo duration.",
-    "generation_date": "2026-04-21",
+    "generation_date": "2026-06-09",
     "data_level": "l2",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -63578,6 +63623,11 @@
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2026-04-18T07:30:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l2/2026/01/imap_ultra_l2_u90-ena-h-sf-nsp-full-hae-6deg-3mo_20260117_v001.cdf"
+      },
+      {
+        "start_time": "2026-01-18T00:00:00+00:00",
+        "end_time": "2026-04-19T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l2/2026/01/imap_ultra_l2_u90-ena-h-sf-nsp-full-hae-6deg-3mo_20260118_v001.cdf"
       }
     ]
   }
