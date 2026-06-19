@@ -56215,7 +56215,7 @@
     ],
     "logical_source": "imap_swapi_l2_sci",
     "logical_source_description": "IMAP SWAPI Instrument Level-2 Science Data",
-    "generation_date": "2026-06-18",
+    "generation_date": "2026-06-19",
     "data_level": "l2",
     "instrument": "SWAPI",
     "mission": "IMAP",
@@ -57301,6 +57301,11 @@
         "start_time": "2026-06-17T00:00:00+00:00",
         "end_time": "2026-06-18T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l2/2026/06/imap_swapi_l2_sci_20260617_v002.cdf"
+      },
+      {
+        "start_time": "2026-06-19T00:00:00+00:00",
+        "end_time": "2026-06-20T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l2/2026/06/imap_swapi_l2_sci_20260619_v001.cdf"
       }
     ]
   },
@@ -60624,7 +60629,7 @@
     ],
     "logical_source": "imap_swapi_l3b_combined",
     "logical_source_description": "SWAPI Instrument Combined VDF and Differential Flux",
-    "generation_date": "2026-06-18",
+    "generation_date": "2026-06-19",
     "data_level": "l3b",
     "instrument": "SWAPI",
     "mission": "IMAP",
@@ -61710,6 +61715,11 @@
         "start_time": "2026-06-17T00:00:00+00:00",
         "end_time": "2026-06-18T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3b/2026/06/imap_swapi_l3b_combined_20260617_v002.cdf"
+      },
+      {
+        "start_time": "2026-06-19T00:00:00+00:00",
+        "end_time": "2026-06-20T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3b/2026/06/imap_swapi_l3b_combined_20260619_v001.cdf"
       }
     ]
   },
