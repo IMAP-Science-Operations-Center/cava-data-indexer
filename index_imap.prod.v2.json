@@ -31183,7 +31183,7 @@
     ],
     "logical_source": "imap_glows_l3b_ion-rate-profile",
     "logical_source_description": "IMAP Mission GLOWS Carrington averaged ionization rate profiles",
-    "generation_date": "2026-06-18",
+    "generation_date": "2026-06-20",
     "data_level": "l3b",
     "instrument": "GLOWS",
     "mission": "IMAP",
@@ -31218,17 +31218,17 @@
       {
         "start_time": "2026-03-19T05:18:48.959992+00:00",
         "end_time": "2026-04-15T11:55:14.879992+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3b/2026/03/imap_glows_l3b_ion-rate-profile_20260319-cr02309_v013.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3b/2026/03/imap_glows_l3b_ion-rate-profile_20260319-cr02309_v014.cdf"
       },
       {
         "start_time": "2026-04-15T11:55:14.879992+00:00",
         "end_time": "2026-05-12T18:31:40.799992+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3b/2026/04/imap_glows_l3b_ion-rate-profile_20260415-cr02310_v012.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3b/2026/04/imap_glows_l3b_ion-rate-profile_20260415-cr02310_v013.cdf"
       },
       {
         "start_time": "2026-05-12T18:31:40.799992+00:00",
         "end_time": "2026-06-09T01:08:06.719992+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3b/2026/05/imap_glows_l3b_ion-rate-profile_20260512-cr02311_v005.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3b/2026/05/imap_glows_l3b_ion-rate-profile_20260512-cr02311_v006.cdf"
       }
     ]
   },
@@ -31272,7 +31272,7 @@
     ],
     "logical_source": "imap_glows_l3c_sw-profile",
     "logical_source_description": "IMAP Mission GLOWS Carrington period-averaged solar wind plasma speed and proton density profiles",
-    "generation_date": "2026-06-18",
+    "generation_date": "2026-06-20",
     "data_level": "l3c",
     "instrument": "GLOWS",
     "mission": "IMAP",
@@ -31307,17 +31307,17 @@
       {
         "start_time": "2026-03-19T05:18:48.959992+00:00",
         "end_time": "2026-04-15T11:55:14.879992+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3c/2026/03/imap_glows_l3c_sw-profile_20260319-cr02309_v013.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3c/2026/03/imap_glows_l3c_sw-profile_20260319-cr02309_v014.cdf"
       },
       {
         "start_time": "2026-04-15T11:55:14.879992+00:00",
         "end_time": "2026-05-12T18:31:40.799992+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3c/2026/04/imap_glows_l3c_sw-profile_20260415-cr02310_v012.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3c/2026/04/imap_glows_l3c_sw-profile_20260415-cr02310_v013.cdf"
       },
       {
         "start_time": "2026-05-12T18:31:40.799992+00:00",
         "end_time": "2026-06-09T01:08:06.719992+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3c/2026/05/imap_glows_l3c_sw-profile_20260512-cr02311_v005.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3c/2026/05/imap_glows_l3c_sw-profile_20260512-cr02311_v006.cdf"
       }
     ]
   },
