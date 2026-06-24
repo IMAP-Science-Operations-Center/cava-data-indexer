@@ -14,6 +14,7 @@ jobs:
     strategy:
       matrix:
         environment: [Development, Production]
+        branch: [main, release/v3]
         indexer_type: [imap]
         include:
           - indexer_type: psp
@@ -33,7 +34,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
-        ref: main
+        ref: ${{matrix.branch}}
     - name: Set up uv
       uses: astral-sh/setup-uv@v5
       with:
