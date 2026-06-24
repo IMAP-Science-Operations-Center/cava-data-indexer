@@ -10,7 +10,6 @@ from data_indexer.cdf_downloader.psp_downloader import (
 )
 from data_indexer.cdf_downloader.psp_file_parser import PspFileInfo, PspFileParser
 from data_indexer.cdf_parser.variable_selector.default_variable_selector import DefaultVariableSelector
-from data_indexer.cdf_parser.variable_selector.multi_dimension_variable_selector import MultiDimensionVariableSelector
 from data_indexer.cdf_parser.variable_selector.omni_variable_selector import OmniVariableSelector
 from data_indexer.file_cadence.daily_file_cadence import DailyFileCadence
 from data_indexer.file_cadence.six_month_file_cadence import SixMonthFileCadence

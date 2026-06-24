@@ -5,7 +5,7 @@ import sys
 from data_indexer import imap_data_processor
 from data_indexer.psp_data_processor import PspDataProcessor
 
-CURRENT_VERSION = "v2"
+CURRENT_VERSION = "v3"
 
 
 def main():

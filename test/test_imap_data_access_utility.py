@@ -76,7 +76,7 @@ class TestQueryChunkedDataProduct(unittest.TestCase):
         }
         errors_by_range: set[tuple[str, str]] = {("20260101", "20261231")}
 
-        def side_effect(*, _, __, ingestion_start_date, ingestion_end_date):
+        def side_effect(*, ingestion_start_date, ingestion_end_date, **_kwargs):
             key = (ingestion_start_date, ingestion_end_date)
             if key in errors_by_range:
                 raise IMAPDataAccessError("500 Internal Server Error")

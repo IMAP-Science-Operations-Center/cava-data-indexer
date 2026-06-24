@@ -145,8 +145,8 @@ class TestImapDataProcessor(TestCase):
                     date(2022, 11, 12),
                 ),
                 [
-                    CdfVariableInfo("VAR1", "variable 1", "time-series", None, "axis_label_1"),
-                    CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units", "axis_label_2"),
+                    CdfVariableInfo("VAR1", "variable 1", "time-series", "data", None, "axis_label_1"),
+                    CdfVariableInfo("VAR2", "variable 2", "spectrogram", "data", "Units", "axis_label_2"),
                 ],
             ),
             CdfFileInfo(
@@ -157,8 +157,8 @@ class TestImapDataProcessor(TestCase):
                     date(2022, 11, 13),
                 ),
                 [
-                    CdfVariableInfo("VAR3", "variable 3", "time-series", None, "axis_label_3"),
-                    CdfVariableInfo("VAR4", "variable 4", "spectrogram", None, "axis_label_4"),
+                    CdfVariableInfo("VAR3", "variable 3", "time-series", "data", None, "axis_label_3"),
+                    CdfVariableInfo("VAR4", "variable 4", "spectrogram", "data", None, "axis_label_4"),
                 ],
             ),
             CdfFileInfo(
@@ -169,8 +169,8 @@ class TestImapDataProcessor(TestCase):
                     date(2022, 11, 12),
                 ),
                 [
-                    CdfVariableInfo("VAR1", "variable 1", "time-series", None, "axis_label_1"),
-                    CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units", "axis_label_2"),
+                    CdfVariableInfo("VAR1", "variable 1", "time-series", "data", None, "axis_label_1"),
+                    CdfVariableInfo("VAR2", "variable 2", "spectrogram", "support_data", "Units", "axis_label_2"),
                 ],
             ),
             CdfFileInfo(
@@ -181,8 +181,8 @@ class TestImapDataProcessor(TestCase):
                     date(2022, 11, 13),
                 ),
                 [
-                    CdfVariableInfo("VAR3", "variable 3", "time-series", None, "axis_label_3"),
-                    CdfVariableInfo("VAR4", "variable 4", "spectrogram", None, "axis_label_4"),
+                    CdfVariableInfo("VAR3", "variable 3", "time-series", "support_data", None, "axis_label_3"),
+                    CdfVariableInfo("VAR4", "variable 4", "spectrogram", "support_data", None, "axis_label_4"),
                 ],
             ),
         ]
@@ -228,6 +228,7 @@ class TestImapDataProcessor(TestCase):
                         "display_type": "time-series",
                         "variable_name": "VAR1",
                         "units": None,
+                        "var_type": "data",
                         "axis_label": "axis_label_1",
                     },
                     {
@@ -235,6 +236,7 @@ class TestImapDataProcessor(TestCase):
                         "display_type": "spectrogram",
                         "variable_name": "VAR2",
                         "units": "Units",
+                        "var_type": "data",
                         "axis_label": "axis_label_2",
                     },
                 ],
@@ -266,6 +268,7 @@ class TestImapDataProcessor(TestCase):
                         "display_type": "time-series",
                         "variable_name": "VAR3",
                         "units": None,
+                        "var_type": "data",
                         "axis_label": "axis_label_3",
                     },
                     {
@@ -273,6 +276,7 @@ class TestImapDataProcessor(TestCase):
                         "display_type": "spectrogram",
                         "variable_name": "VAR4",
                         "units": None,
+                        "var_type": "data",
                         "axis_label": "axis_label_4",
                     },
                 ],
@@ -299,6 +303,7 @@ class TestImapDataProcessor(TestCase):
                         "display_type": "time-series",
                         "variable_name": "VAR1",
                         "units": None,
+                        "var_type": "data",
                         "axis_label": "axis_label_1",
                     },
                     {
@@ -306,6 +311,7 @@ class TestImapDataProcessor(TestCase):
                         "display_type": "spectrogram",
                         "variable_name": "VAR2",
                         "units": "Units",
+                        "var_type": "support_data",
                         "axis_label": "axis_label_2",
                     },
                 ],
@@ -332,6 +338,7 @@ class TestImapDataProcessor(TestCase):
                         "display_type": "time-series",
                         "variable_name": "VAR3",
                         "units": None,
+                        "var_type": "support_data",
                         "axis_label": "axis_label_3",
                     },
                     {
@@ -339,6 +346,7 @@ class TestImapDataProcessor(TestCase):
                         "display_type": "spectrogram",
                         "variable_name": "VAR4",
                         "units": None,
+                        "var_type": "support_data",
                         "axis_label": "axis_label_4",
                     },
                 ],
@@ -542,8 +550,8 @@ class TestImapDataProcessor(TestCase):
                     date(2022, 11, 12),
                 ),
                 [
-                    CdfVariableInfo("VAR1", "variable 1", "time-series", None, "axis"),
-                    CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units", "Axis"),
+                    CdfVariableInfo("VAR1", "variable 1", "time-series", "data", None, "axis"),
+                    CdfVariableInfo("VAR2", "variable 2", "spectrogram", "data", "Units", "Axis"),
                 ],
             ),
         ]
@@ -604,19 +612,19 @@ class TestImapDataProcessor(TestCase):
                 CdfGlobalInfo(
                     "imap_glows_l3b_glows-descriptor", "imap glows l3b glows-descriptor", "v000", date(2022, 11, 12)
                 ),
-                [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units", "axis_label")],
+                [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "data", "Units", "axis_label")],
             ),
             CdfFileInfo(
                 CdfGlobalInfo(
                     "imap_glows_l3c_glows-descriptor", "imap glows l3c glows-descriptor", "v001", date(2022, 11, 12)
                 ),
-                [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units", "axis_label")],
+                [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "data", "Units", "axis_label")],
             ),
             CdfFileInfo(
                 CdfGlobalInfo(
                     "imap_glows_l3d_glows-descriptor", "imap glows l3d glows-descriptor", "v000", date(2022, 11, 12)
                 ),
-                [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units", "axis_label")],
+                [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "data", "Units", "axis_label")],
             ),
         ]
 
@@ -645,6 +653,7 @@ class TestImapDataProcessor(TestCase):
                         "display_type": "spectrogram",
                         "units": "Units",
                         "variable_name": "VAR2",
+                        "var_type": "data",
                         "axis_label": "axis_label",
                     }
                 ],
@@ -671,6 +680,7 @@ class TestImapDataProcessor(TestCase):
                         "display_type": "spectrogram",
                         "units": "Units",
                         "variable_name": "VAR2",
+                        "var_type": "data",
                         "axis_label": "axis_label",
                     }
                 ],
@@ -697,6 +707,7 @@ class TestImapDataProcessor(TestCase):
                         "display_type": "spectrogram",
                         "units": "Units",
                         "variable_name": "VAR2",
+                        "var_type": "data",
                         "axis_label": "axis_label",
                     }
                 ],
@@ -756,15 +767,15 @@ class TestImapDataProcessor(TestCase):
         mock_cdf_parser.parse_cdf.side_effect = [
             CdfFileInfo(
                 CdfGlobalInfo("imap_hi_l3_intensity-3mo", "imap hi l3 intensity-3mo", "v000", date(2022, 11, 12)),
-                [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units", "axis_label")],
+                [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "data", "Units", "axis_label")],
             ),
             CdfFileInfo(
                 CdfGlobalInfo("imap_hi_l3_intensity-6mo", "imap hi l3 intensity-6mo", "v000", date(2022, 11, 12)),
-                [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units", "axis_label")],
+                [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "data", "Units", "axis_label")],
             ),
             CdfFileInfo(
                 CdfGlobalInfo("imap_hi_l3_intensity-3yr", "imap hi l3 intensity-3yr", "v000", date(2022, 11, 12)),
-                [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "Units", "axis_label")],
+                [CdfVariableInfo("VAR2", "variable 2", "spectrogram", "data", "Units", "axis_label")],
             ),
         ]
 
@@ -794,6 +805,7 @@ class TestImapDataProcessor(TestCase):
                         "display_type": "spectrogram",
                         "units": "Units",
                         "variable_name": "VAR2",
+                        "var_type": "data",
                         "axis_label": "axis_label",
                     }
                 ],
@@ -820,6 +832,7 @@ class TestImapDataProcessor(TestCase):
                         "display_type": "spectrogram",
                         "units": "Units",
                         "variable_name": "VAR2",
+                        "var_type": "data",
                         "axis_label": "axis_label",
                     }
                 ],

@@ -90,19 +90,19 @@ class TestPspDataProcessor(unittest.TestCase):
         mock_cdf_parser.parse_cdf_bytes.side_effect = [
             CdfFileInfo(
                 CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 10", "10", date(2022, 11, 14)),
-                [CdfVariableInfo("a key into the CDF 1", "a description v1", "time_series", "units", "axis_1")],
+                [CdfVariableInfo("a key into the CDF 1", "a description v1", "time_series", "data", "units", "axis_1")],
             ),
             CdfFileInfo(
                 CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 11", "11", date(2022, 11, 15)),
-                [CdfVariableInfo("a key into the CDF 2", "a description v2", "time_series", "units", "axis_2")],
+                [CdfVariableInfo("a key into the CDF 2", "a description v2", "time_series", "data", "units", "axis_2")],
             ),
             CdfFileInfo(
                 CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 12", "12", date(2022, 11, 16)),
-                [CdfVariableInfo("a key into the CDF 3", "a description v3", "time_series", "units", "axis_3")],
+                [CdfVariableInfo("a key into the CDF 3", "a description v3", "time_series", "data", "units", "axis_3")],
             ),
             CdfFileInfo(
                 CdfGlobalInfo("psp_isois-epihi_l2-het-rates3600", "PSP Description 13", "13", date(2022, 11, 17)),
-                [CdfVariableInfo("a key into the CDF 4", "a description v4", "time_series", "units", "axis_4")],
+                [CdfVariableInfo("a key into the CDF 4", "a description v4", "time_series", "data", "units", "axis_4")],
             ),
         ]
 
@@ -163,6 +163,7 @@ class TestPspDataProcessor(unittest.TestCase):
                             "display_type": "time_series",
                             "variable_name": "a key into the CDF 1",
                             "units": "units",
+                            "var_type": "data",
                             "axis_label": "axis_1",
                         }
                     ],
@@ -194,6 +195,7 @@ class TestPspDataProcessor(unittest.TestCase):
                             "display_type": "time_series",
                             "variable_name": "a key into the CDF 2",
                             "units": "units",
+                            "var_type": "data",
                             "axis_label": "axis_2",
                         }
                     ],
@@ -225,6 +227,7 @@ class TestPspDataProcessor(unittest.TestCase):
                             "display_type": "time_series",
                             "variable_name": "a key into the CDF 3",
                             "units": "units",
+                            "var_type": "data",
                             "axis_label": "axis_3",
                         }
                     ],
@@ -256,6 +259,7 @@ class TestPspDataProcessor(unittest.TestCase):
                             "display_type": "time_series",
                             "variable_name": "a key into the CDF 4",
                             "units": "units",
+                            "var_type": "data",
                             "axis_label": "axis_4",
                         }
                     ],

@@ -26,7 +26,6 @@ class TestDefaultVariableSelector(unittest.TestCase):
         accepted_variable = Mock()
         accepted_variable.attrs = {
             "CATDESC": "accepted_variable",
-            "VAR_TYPE": "data",
             "FIELDNAM": "something",
             "DEPEND_0": "time_col_good",
             "SCALETYP": "linear",
@@ -34,56 +33,43 @@ class TestDefaultVariableSelector(unittest.TestCase):
             "DISPLAY_TYPE": "time_series",
         }
 
-        shapes = [(1,), (1, 2)]
-        for shape in shapes:
-            with self.subTest(shape):
+        test_cases = [
+            ("data", (1,)),
+            ("data", (1, 2)),
+            ("support_data", (1,)),
+            ("support_data", (1, 2)),
+        ]
+        for var_type, shape in test_cases:
+            with self.subTest(f"{var_type} {shape}"):
+                accepted_variable.attrs["VAR_TYPE"] = var_type
                 accepted_variable.shape = shape
                 self.assertTrue(DefaultVariableSelector.should_include(accepted_variable, self.mock_cdf))
 
-    def test_accepts_expected_2_dimensional_spectrogram_variable(self):
+    def test_accepts_expected_dimensional_spectrogram_variable(self):
         accepted_variable = Mock()
         accepted_variable.attrs = {
             "CATDESC": "accepted_variable",
-            "VAR_TYPE": "data",
             "FIELDNAM": "something",
             "DEPEND_0": "time_col_good",
             "SCALETYP": "log",
             "SCALEMIN": 1,
             "DISPLAY_TYPE": "spectrogram",
         }
-        accepted_variable.shape = (1, 2)
 
-        self.assertTrue(DefaultVariableSelector.should_include(accepted_variable, self.mock_cdf))
+        test_cases = [
+            ("data", (1, 2)),
+            ("data", (1, 2, 3)),
+            ("data", (1, 2, 3, 4)),
+            ("support_data", (1, 2)),
+            ("support_data", (1, 2, 3)),
+            ("support_data", (1, 2, 3, 4)),
+        ]
 
-    def test_accepts_expected_3_dimensional_spectrogram_variable(self):
-        accepted_variable = Mock()
-        accepted_variable.attrs = {
-            "CATDESC": "accepted_variable_with_3",
-            "VAR_TYPE": "data",
-            "FIELDNAM": "now in 3D",
-            "DEPEND_0": "time_col_good",
-            "SCALETYP": "log",
-            "SCALEMIN": 1,
-            "DISPLAY_TYPE": "spectrogram",
-        }
-        accepted_variable.shape = (1, 2, 3)
-
-        self.assertTrue(DefaultVariableSelector.should_include(accepted_variable, self.mock_cdf))
-
-    def test_accepts_expected_4_dimensional_spectrogram_variable(self):
-        accepted_variable = Mock()
-        accepted_variable.attrs = {
-            "CATDESC": "a 4 dimensional spectrogram",
-            "VAR_TYPE": "data",
-            "FIELDNAM": "now in 4D!!!!",
-            "DEPEND_0": "time_col_good",
-            "SCALETYP": "log",
-            "SCALEMIN": 1,
-            "DISPLAY_TYPE": "spectrogram",
-        }
-        accepted_variable.shape = (1, 2, 3, 4)
-
-        self.assertTrue(DefaultVariableSelector.should_include(accepted_variable, self.mock_cdf))
+        for var_type, shape in test_cases:
+            with self.subTest(f"{var_type} {shape}"):
+                accepted_variable.attrs["VAR_TYPE"] = var_type
+                accepted_variable.shape = shape
+                self.assertTrue(DefaultVariableSelector.should_include(accepted_variable, self.mock_cdf))
 
     def test_does_not_accept_variable_with_bad_shape_for_spectrogram(self):
         bad_shape_variable_spectrogram = Mock()
@@ -160,13 +146,21 @@ class TestDefaultVariableSelector(unittest.TestCase):
         self.assertFalse(DefaultVariableSelector.should_include(var_with_unknown_time_unit, self.mock_cdf))
 
     def test_does_accepts_map_variable(self):
-        cases = ["image", "map_image", "plasmagram"]
-        for display_type in cases:
-            with self.subTest(display_type=display_type):
+
+        cases = [
+            ("data", "image"),
+            ("data", "map_image"),
+            ("data", "plasmagram"),
+            ("support_data", "image"),
+            ("support_data", "map_image"),
+            ("support_data", "plasmagram"),
+        ]
+        for var_type, display_type in cases:
+            with self.subTest(f"{var_type} {display_type}"):
                 map_variable = Mock()
                 map_variable.attrs = {
                     "CATDESC": "Map of Intensity of ENAs",
-                    "VAR_TYPE": "data",
+                    "VAR_TYPE": var_type,
                     "FIELDNAM": "something",
                     "DEPEND_0": "time_col_good",
                     "SCALETYP": "linear",
@@ -207,7 +201,6 @@ class TestDefaultVariableSelector(unittest.TestCase):
         missing_depend_0_variable.shape = (1, 2, 3, 4)
 
         self.assertFalse(DefaultVariableSelector.should_include(missing_depend_0_variable, self.mock_cdf))
-
 
 if __name__ == "__main__":
     unittest.main()

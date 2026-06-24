@@ -18,39 +18,41 @@ class TestCdfVariableParser(unittest.TestCase):
                 "Roll_Angle",
                 "Angle between nominal ram and actual ram, 0 in encounter",
                 "time_series",
+                "data",
                 "degrees",
                 "Roll Angle",
             ),
             CdfVariableInfo(
-                "Sun_Angle", "Angle between TPS and Sun, 0 in encounter", "time_series", "degrees", "Sun Angle"
+                "Sun_Angle", "Angle between TPS and Sun, 0 in encounter", "time_series", "data", "degrees", "Sun Angle"
             ),
             CdfVariableInfo(
                 "Clock_Angle",
                 "angle of off-pointing from ecliptic north when not in encounter",
                 "time_series",
+                "data",
                 "degrees",
                 "Clock Angle",
             ),
-            CdfVariableInfo("HCI_Lat", "HCI latitude", "time_series", "degrees", "HCI latitude"),
-            CdfVariableInfo("HCI_Lon", "HCI longitude", "time_series", "degrees", "HCI longitude"),
-            CdfVariableInfo("HCI_R", "Heliocentric distance", "time_series", "AU", "R"),
-            CdfVariableInfo("HGC_R", "Heliocentric distance", "time_series", "AU", "R"),
+            CdfVariableInfo("HCI_Lat", "HCI latitude", "time_series", "data", "degrees", "HCI latitude"),
+            CdfVariableInfo("HCI_Lon", "HCI longitude", "time_series", "data", "degrees", "HCI longitude"),
+            CdfVariableInfo("HCI_R", "Heliocentric distance", "time_series", "data", "AU", "R"),
+            CdfVariableInfo("HGC_R", "Heliocentric distance", "time_series", "data", "AU", "R"),
             CdfVariableInfo(
-                "Spiral_HETA", "HETA look angle with nominal parker spiral", "time_series", "degrees", "HETA Angle"
+                "Spiral_HETA", "HETA look angle with nominal parker spiral", "time_series", "data", "degrees", "HETA Angle"
             ),
-            CdfVariableInfo("HGC_Lat", "HGC latitude", "time_series", "degrees", "HGC latitude"),
-            CdfVariableInfo("HGC_Lon", "HGC longitude", "time_series", "degrees", "HGC longitude"),
+            CdfVariableInfo("HGC_Lat", "HGC latitude", "time_series", "data", "degrees", "HGC latitude"),
+            CdfVariableInfo("HGC_Lon", "HGC longitude", "time_series", "data", "degrees", "HGC longitude"),
             CdfVariableInfo(
-                "Spiral_LET1A", "LET1A look angle with nominal parker spiral", "time_series", "degrees", "LET1A Angle"
-            ),
-            CdfVariableInfo(
-                "Spiral_LET2C", "LET2C look angle with nominal parker spiral", "time_series", "degrees", "LET2C Angle"
+                "Spiral_LET1A", "LET1A look angle with nominal parker spiral", "time_series", "data", "degrees", "LET1A Angle"
             ),
             CdfVariableInfo(
-                "Spiral_Lo", "Lo look angle with nominal parker spiral", "time_series", "degrees", "Lo Angle"
+                "Spiral_LET2C", "LET2C look angle with nominal parker spiral", "time_series", "data", "degrees", "LET2C Angle"
             ),
-            CdfVariableInfo("Ram_Pointing", "Spacecraft is ram pointing", "time_series", "", "Ram Pointing"),
-            CdfVariableInfo("Umbra_Pointing", "Spacecraft is umbra pointing", "time_series", "", "Umbra Pointing"),
+            CdfVariableInfo(
+                "Spiral_Lo", "Lo look angle with nominal parker spiral", "time_series", "data", "degrees", "Lo Angle"
+            ),
+            CdfVariableInfo("Ram_Pointing", "Spacecraft is ram pointing", "time_series", "data", "", "Ram Pointing"),
+            CdfVariableInfo("Umbra_Pointing", "Spacecraft is umbra pointing", "time_series", "data", "", "Umbra Pointing"),
         ]
 
         cdf_path = str(Path(test.__file__).parent / "test_data/test.cdf")
@@ -77,19 +79,22 @@ class TestCdfVariableParser(unittest.TestCase):
             "Descriptor": "ISOIS-EPILO>Integrated Science Investigation of the Sun, Energetic Particle Instrument Lo",
         }
         expected_info = [
-            CdfVariableInfo("var0", "var_not_filtered", "spectrogram", "degrees", ""),
-            CdfVariableInfo("var7", "var_not_filtered_for_nonzero_min_and_log", "spectrogram", "degrees", ""),
-            CdfVariableInfo("var9", "var_not_filtered_for_scale", "spectrogram", "degrees", ""),
-            CdfVariableInfo("var6", "var_not_filtered_for_scaletype_log_and_scalemin_zero", "spectrogram", "degrees", ""),
+            CdfVariableInfo("var0", "var_not_filtered", "spectrogram", "data", "degrees", ""),
+            CdfVariableInfo("var7", "var_not_filtered_for_nonzero_min_and_log", "spectrogram", "data", "degrees", ""),
+            CdfVariableInfo("var9", "var_not_filtered_for_scale", "spectrogram", "data", "degrees", ""),
+            CdfVariableInfo("var6", "var_not_filtered_for_scaletype_log_and_scalemin_zero", "spectrogram", "data", "degrees", ""),
             CdfVariableInfo(
-                "var8", "var_not_filtered_for_scaletype_missing_and_scalemin_zero", "spectrogram", "degrees", ""
+                "var8", "var_not_filtered_for_scaletype_missing_and_scalemin_zero", "spectrogram", "data", "degrees", ""
             ),
             CdfVariableInfo(
-                "var13", "var_not_filtered_for_timeseries_shape_with_look_direction", "time_series", "degrees", ""
+                "var13", "var_not_filtered_for_timeseries_shape_with_look_direction", "time_series", "data", "degrees", ""
             ),
-            CdfVariableInfo("var5", "var_not_filtered_linear", "spectrogram", "degrees", ""),
+            CdfVariableInfo("var5", "var_not_filtered_linear", "spectrogram", "data", "degrees", ""),
             CdfVariableInfo(
-                "var12", "var_that_is_not_filtered_three_dimensional_spectrogram", "spectrogram", "degrees", ""
+                "var14", "var_not_filtered_with_type_support_data", "time_series", "support_data", "degrees", ""
+            ),
+            CdfVariableInfo(
+                "var12", "var_that_is_not_filtered_three_dimensional_spectrogram", "spectrogram", "data", "degrees", ""
             ),
         ]
 
@@ -236,6 +241,19 @@ class TestCdfVariableParser(unittest.TestCase):
         }
         var_not_filtered_for_timeseries_shape_with_look_direction.shape = (1, 2)
 
+        var_not_filtered_with_type_support_data = Mock()
+        var_not_filtered_with_type_support_data.attrs = {
+            "CATDESC": "var_not_filtered_with_type_support_data",
+            "VAR_TYPE": "support_data",
+            "FIELDNAM": "something",
+            "DEPEND_0": "time_col_good",
+            "SCALETYP": "linear",
+            "SCALEMIN": 1,
+            "DISPLAY_TYPE": "time_series",
+            "UNITS": "degrees",
+        }
+        var_not_filtered_with_type_support_data.shape = (1, 2)
+
         mock_cdf.items.return_value = {
             "var0": var_that_is_not_filtered,
             "var1": var_filtered_for_incorrect_shape,
@@ -248,6 +266,7 @@ class TestCdfVariableParser(unittest.TestCase):
             "var11": var_filtered_for_wrong_timeseries_shape,
             "var12": var_that_is_not_filtered_three_dimensional_spectrogram,
             "var13": var_not_filtered_for_timeseries_shape_with_look_direction,
+            "var14": var_not_filtered_with_type_support_data,
         }.items()
 
         mock_time_column_good = Mock()
@@ -271,12 +290,12 @@ class TestCdfVariableParser(unittest.TestCase):
             "Descriptor": "ISOIS-EPIHI>Integrated Science Investigation of the Sun, Energetic Particle Instrument Hi",
         }
         expected_info = [
-            CdfVariableInfo("var0", "var_not_filtered", "spectrogram", "degrees", ""),
+            CdfVariableInfo("var0", "var_not_filtered", "spectrogram", "data", "degrees", ""),
             CdfVariableInfo(
-                "var1", "var_that_not_filtered_three_dimensional_spectrogram", "spectrogram", "degrees", ""
+                "var1", "var_that_not_filtered_three_dimensional_spectrogram", "spectrogram", "data", "degrees", ""
             ),
             CdfVariableInfo(
-                "var2", "var_timeseries_many_dimensions", "time_series", "degrees", ""
+                "var2", "var_timeseries_many_dimensions", "time_series", "data", "degrees", ""
             ),
         ]
 

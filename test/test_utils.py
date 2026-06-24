@@ -13,7 +13,7 @@ class TestUtils(unittest.TestCase):
     def test_get_index(self):
         cdf_file_info = CdfFileInfo(
             CdfGlobalInfo("source", "source in human", "v123", date(2022, 7, 28)),
-            [CdfVariableInfo("cdf_var_1", "Variable 1", "spectrogram", "units", "axis_label_1")],
+            [CdfVariableInfo("cdf_var_1", "Variable 1", "spectrogram", "data", "units", "axis_label_1")],
         )
         data_product_source_1 = DataProductSource(
             "url_1", datetime(2025, 1, 1, tzinfo=timezone.utc), datetime(2025, 1, 2, tzinfo=timezone.utc)
@@ -37,6 +37,7 @@ class TestUtils(unittest.TestCase):
                     "variable_name": "cdf_var_1",
                     "display_type": "spectrogram",
                     "units": "units",
+                    "var_type": "data",
                     "axis_label": "axis_label_1",
                 }
             ],
@@ -54,7 +55,7 @@ class TestUtils(unittest.TestCase):
     def test_get_index_defaults_to_empty_version(self):
         cdf_file_info = CdfFileInfo(
             CdfGlobalInfo("source", "source in human", "v123", date(2022, 7, 28)),
-            [CdfVariableInfo("cdf_var_1", "Variable 1", "spectrogram", "units", "axis_label_1")],
+            [CdfVariableInfo("cdf_var_1", "Variable 1", "spectrogram", "data", "units", "axis_label_1")],
         )
         data_product_source_1 = DataProductSource(
             "url_1", datetime(2025, 1, 1, tzinfo=timezone.utc), datetime(2025, 1, 2, tzinfo=timezone.utc)
@@ -78,6 +79,7 @@ class TestUtils(unittest.TestCase):
                     "variable_name": "cdf_var_1",
                     "display_type": "spectrogram",
                     "units": "units",
+                    "var_type": "data",
                     "axis_label": "axis_label_1",
                 }
             ],

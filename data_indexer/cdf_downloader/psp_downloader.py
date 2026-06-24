@@ -3,7 +3,6 @@ from typing import Dict, List
 
 from data_indexer.cdf_downloader.psp_file_parser import PspFileInfo, PspFileParser
 from data_indexer.cdf_parser.variable_selector.default_variable_selector import DefaultVariableSelector
-from data_indexer.cdf_parser.variable_selector.multi_dimension_variable_selector import MultiDimensionVariableSelector
 from data_indexer.cdf_parser.variable_selector.omni_variable_selector import OmniVariableSelector
 from data_indexer.cdf_parser.variable_selector.variable_selector import VariableSelector
 from data_indexer.file_cadence.daily_file_cadence import DailyFileCadence

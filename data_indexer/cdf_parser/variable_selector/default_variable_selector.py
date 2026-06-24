@@ -11,10 +11,11 @@ class DefaultVariableSelector(VariableSelector):
         "spectrogram": (2, 3, 4),
         "time_series": (1, 2, 3, 4),
     }
+    allowed_var_types = ("data", "support_data")
 
     @classmethod
     def should_include(cls, var: pycdf.Var, cdf: pycdf.CDF) -> bool:
-        if var.attrs["VAR_TYPE"] != "data":
+        if var.attrs["VAR_TYPE"] not in cls.allowed_var_types:
             return False
         display_type = var.attrs.get("DISPLAY_TYPE")
         has_correct_shape = len(var.shape) in cls.acceptable_dimensions.get(display_type, [])
