@@ -50,7 +50,10 @@ class TestImapDataProcessor(TestCase):
         l3a_pui_diff_instrument_product = (
             "fake-mission/fake-instrument2/l3a/2025/06/fake-mission_fake-instrument2_l3a_pui-he_20250607_v003.cdf"
         )
-        l3b_pui_data_product = (
+        l3b_pui_data_product_with_major_version = (
+            "fake-mission/fake-instrument/l3b/2025/06/fake-mission_fake-instrument_l3b_pui-he_20250607_v001.0004.cdf"
+        )
+        l3b_pui_data_product_outdated = (
             "fake-mission/fake-instrument/l3b/2025/06/fake-mission_fake-instrument_l3b_pui-he_20250607_v003.cdf"
         )
 
@@ -111,13 +114,24 @@ class TestImapDataProcessor(TestCase):
                 "ingestion_date": "2024-11-21 21:12:40",
             },
             {
-                "file_path": l3b_pui_data_product,
+                "file_path": l3b_pui_data_product_with_major_version,
                 "instrument": "fake-instrument",
                 "data_level": "l3b",
                 "descriptor": "pui-he",
                 "start_date": "20250607",
                 "repointing": None,
-                "version": "v003",
+                "extension": "cdf",
+                "ingestion_date": "2024-11-21 21:12:40",
+            },
+            {
+                "file_path": l3b_pui_data_product_outdated,
+                "instrument": "fake-instrument",
+                "data_level": "l3b",
+                "descriptor": "pui-he",
+                "start_date": "20250607",
+                "repointing": None,
+                "major_version": None,
+                "minor_version": 3,
                 "extension": "cdf",
                 "ingestion_date": "2024-11-21 21:12:40",
             },
@@ -199,14 +213,14 @@ class TestImapDataProcessor(TestCase):
         l3a_pui_diff_instrument_product_url = (
             f"https://api.dev.imap-mission.com/download/{l3a_pui_diff_instrument_product}"
         )
-        l3b_pui_data_product_url = f"https://api.dev.imap-mission.com/download/{l3b_pui_data_product}"
+        l3b_pui_data_product_url = f"https://api.dev.imap-mission.com/download/{l3b_pui_data_product_with_major_version}"
 
         mock_get_with_retry.assert_has_calls(
             [
                 call(l3a_protons_data_product_v3),
                 call(l3a_pui_data_product_20250607_v2),
                 call(l3a_pui_diff_instrument_product),
-                call(l3b_pui_data_product),
+                call(l3b_pui_data_product_with_major_version),
             ]
         )
 
