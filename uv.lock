@@ -177,7 +177,7 @@ dev = [
 requires-dist = [
     { name = "beautifulsoup4", specifier = ">=4.11.1" },
     { name = "httpx", specifier = ">=0.23.0" },
-    { name = "imap-data-access", specifier = ">=0.38.0" },
+    { name = "imap-data-access", specifier = "==0.42.0.dev0" },
     { name = "spacepy", specifier = ">=0.7.0" },
 ]
 
@@ -300,14 +300,14 @@ wheels = [
 
 [[package]]
 name = "imap-data-access"
-version = "0.38.0"
+version = "0.42.0.dev0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e6/12/f4f10bda8a04597eb87b6d0522de13fbf4433db0d031a1201be038156b5f/imap_data_access-0.38.0.tar.gz", hash = "sha256:743076cd791a02a061732d409f289b4a976798188f4262b3ae65b5483694fd87", size = 51725, upload-time = "2026-03-26T17:04:50.866Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/1b/9a/9a8efafcbf985fbf0b50dff4ec29593b2468d6d93de95d59531811a60ca4/imap_data_access-0.42.0.dev0.tar.gz", hash = "sha256:d75b5f2df51fb220d58c5fb009fd5d2eec24c22abdeac5035bc32df55ee2c338", size = 59535, upload-time = "2026-06-18T16:02:19.287Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ca/4d/076654c548af5d03fb702d35eb55c94c014383ae598fe4bf45c2f97f8d55/imap_data_access-0.38.0-py3-none-any.whl", hash = "sha256:42a1e9cd3cefd14df5a78c45fad1110e2377294eb884c73e2b5a8a49674b3e7d", size = 36931, upload-time = "2026-03-26T17:04:49.122Z" },
+    { url = "https://files.pythonhosted.org/packages/7c/7b/be7b42051f060016417b1aedf84994a87b506cca1cb86b08d735fb86e8bf/imap_data_access-0.42.0.dev0-py3-none-any.whl", hash = "sha256:ba6618e809033cf8effa1ed0a63add082ff32ce5cde239a59530ec7065237da2", size = 41593, upload-time = "2026-06-18T16:02:17.989Z" },
 ]
 
 [[package]]
