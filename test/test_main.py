@@ -17,7 +17,7 @@ class TestMain(unittest.TestCase):
         mock_json_dump.assert_called_with(
             mock_data_processor.get_metadata_index.return_value, mock_open.return_value.__enter__.return_value, indent=2
         )
-        mock_open.assert_called_with("index_imap.v2.json", "w")
+        mock_open.assert_called_with("index_imap.v3.json", "w")
         mock_open.return_value.__exit__.assert_called()
 
     @patch("main.imap_data_processor")
@@ -31,7 +31,7 @@ class TestMain(unittest.TestCase):
         mock_json_dump.assert_called_with(
             mock_data_processor.get_metadata_index.return_value, mock_open.return_value.__enter__.return_value, indent=2
         )
-        mock_open.assert_called_with("index_imap.prod.v2.json", "w")
+        mock_open.assert_called_with("index_imap.prod.v3.json", "w")
         mock_open.return_value.__exit__.assert_called()
 
     @patch("main.PspDataProcessor.get_metadata_index")
@@ -44,7 +44,7 @@ class TestMain(unittest.TestCase):
         mock_json_dump.assert_called_with(
             mock_get_metadata_index.return_value, mock_open.return_value.__enter__.return_value, indent=2
         )
-        mock_open.assert_called_with("index_psp.v2.json", "w")
+        mock_open.assert_called_with("index_psp.v3.json", "w")
         mock_open.return_value.__exit__.assert_called()
 
 
