@@ -1,8 +1,11 @@
+import logging
 import os
 import re
 from collections import defaultdict
 from dataclasses import dataclass
 from datetime import date, datetime, timezone
+
+from imap_data_access.file_validation import Version
 
 from data_indexer.cdf_parser.cdf_parser import CdfParser
 from data_indexer.cdf_parser.variable_selector.default_variable_selector import DefaultVariableSelector
@@ -12,6 +15,7 @@ from data_indexer.file_cadence.map_file_cadence import BadFileNameError, MapFile
 from data_indexer.imap_data_access_utility import get_with_retry, query_chunked_data_product
 from data_indexer.utils import DataProductSource, get_index_entry
 
+logger = logging.getLogger()
 
 @dataclass(frozen=True)
 class Dataproduct:
@@ -56,7 +60,11 @@ def get_metadata_index() -> list[dict]:
 
         data_product = Dataproduct(cdf_metadata["instrument"], cdf_metadata["data_level"], descriptor)
         if data_product in data_products and cdf_metadata["start_date"] in data_products[data_product]:
-            if cdf_metadata["version"] > data_products[data_product][cdf_metadata["start_date"]]["version"]:
+            version = _get_version_from_metadata(cdf_metadata)
+            existing_version = _get_version_from_metadata(data_products[data_product][cdf_metadata["start_date"]])
+            if version is None or existing_version is None:
+                continue
+            if version > existing_version:
                 data_products[data_product][cdf_metadata["start_date"]] = cdf_metadata
         else:
             data_products[data_product][cdf_metadata["start_date"]] = cdf_metadata
@@ -111,6 +119,17 @@ def determine_start_and_end_for_file(file_metadata):
 
     return start_time, end_time, cadence
 
+def _get_version_from_metadata(metadata):
+    version = None
+
+    if "version" in metadata:
+        version = Version.from_version(metadata["version"])
+    elif "major_version" in metadata and "minor_version" in metadata:
+        version = Version(metadata["major_version"], metadata["minor_version"])
+    else:
+        logger.error(f"Version format from data product does not match expected convention.\n Metadata: {metadata}")
+
+    return version
 
 if __name__ == "__main__":
     get_metadata_index()
