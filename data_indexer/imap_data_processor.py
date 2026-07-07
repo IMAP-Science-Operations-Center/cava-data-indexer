@@ -59,11 +59,11 @@ def get_metadata_index() -> list[dict]:
             continue
 
         data_product = Dataproduct(cdf_metadata["instrument"], cdf_metadata["data_level"], descriptor)
-        if data_product in data_products and cdf_metadata["start_date"] in data_products[data_product]:
-            version = _get_version_from_metadata(cdf_metadata)
-            existing_version = _get_version_from_metadata(data_products[data_product][cdf_metadata["start_date"]])
-            if version is None or existing_version is None:
-                continue
+        version = _get_version_from_metadata(cdf_metadata)
+        if version is None:
+            continue
+        if existing_record := data_products[data_product].get(cdf_metadata["start_date"]):
+            existing_version = _get_version_from_metadata(existing_record)
             if version > existing_version:
                 data_products[data_product][cdf_metadata["start_date"]] = cdf_metadata
         else:
