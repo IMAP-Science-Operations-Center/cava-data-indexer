@@ -120,6 +120,8 @@ class TestImapDataProcessor(TestCase):
                 "descriptor": "pui-he",
                 "start_date": "20250607",
                 "repointing": None,
+                "major_version": 1,
+                "minor_version": 2,
                 "extension": "cdf",
                 "ingestion_date": "2024-11-21 21:12:40",
             },
