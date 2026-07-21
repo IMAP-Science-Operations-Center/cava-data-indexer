@@ -46206,11 +46206,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi Combined H Survival Probability, HAE Helio Frame, Surv Corr, Full Spin, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_hic-ena-h-hf-sp-full-hae-4deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 12 Month Map",
-    "generation_date": "2026-07-16",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -46220,7 +46228,7 @@
       {
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_hic-ena-h-hf-sp-full-hae-4deg-1yr_20250419_v001.0016.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_hic-ena-h-hf-sp-full-hae-4deg-1yr_20250419_v001.0017.cdf"
       }
     ]
   },
@@ -46249,11 +46257,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi Combined H Survival Probability, HAE Helio Frame, Surv Corr, Full Spin, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_hic-ena-h-hf-sp-full-hae-6deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 12 Month Map",
-    "generation_date": "2026-07-16",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -46263,7 +46279,7 @@
       {
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_hic-ena-h-hf-sp-full-hae-6deg-1yr_20250419_v001.0016.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_hic-ena-h-hf-sp-full-hae-6deg-1yr_20250419_v001.0017.cdf"
       }
     ]
   },
