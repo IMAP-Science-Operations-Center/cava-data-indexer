@@ -11764,7 +11764,7 @@
     ],
     "logical_source": "imap_codice_l2_hi-direct-events",
     "logical_source_description": "IMAP Mission CoDICE Hi Level-2 Event Data.",
-    "generation_date": "2026-07-20",
+    "generation_date": "2026-07-21",
     "data_level": "l2",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -12954,7 +12954,12 @@
       {
         "start_time": "2026-07-20T00:00:00+00:00",
         "end_time": "2026-07-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/07/imap_codice_l2_hi-direct-events_20260720_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/07/imap_codice_l2_hi-direct-events_20260720_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-07-21T00:00:00+00:00",
+        "end_time": "2026-07-22T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/07/imap_codice_l2_hi-direct-events_20260721_v001.0001.cdf"
       }
     ]
   },
@@ -13115,7 +13120,7 @@
     ],
     "logical_source": "imap_codice_l2_hi-omni",
     "logical_source_description": "IMAP Mission CoDICE Hi Level-2 Omnidirectional Species Intensity Data.",
-    "generation_date": "2026-07-20",
+    "generation_date": "2026-07-21",
     "data_level": "l2",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -14300,7 +14305,12 @@
       {
         "start_time": "2026-07-20T00:00:00+00:00",
         "end_time": "2026-07-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/07/imap_codice_l2_hi-omni_20260720_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/07/imap_codice_l2_hi-omni_20260720_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-07-21T00:00:00+00:00",
+        "end_time": "2026-07-22T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/07/imap_codice_l2_hi-omni_20260721_v001.0001.cdf"
       }
     ]
   },
@@ -14381,7 +14391,7 @@
     ],
     "logical_source": "imap_codice_l2_hi-sectored",
     "logical_source_description": "IMAP Mission CoDICE Hi Level-2 Sectored Species Intensity Data.",
-    "generation_date": "2026-07-20",
+    "generation_date": "2026-07-21",
     "data_level": "l2",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -15566,7 +15576,12 @@
       {
         "start_time": "2026-07-20T00:00:00+00:00",
         "end_time": "2026-07-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/07/imap_codice_l2_hi-sectored_20260720_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/07/imap_codice_l2_hi-sectored_20260720_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-07-21T00:00:00+00:00",
+        "end_time": "2026-07-22T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/07/imap_codice_l2_hi-sectored_20260721_v001.0001.cdf"
       }
     ]
   },
@@ -15647,7 +15662,7 @@
     ],
     "logical_source": "imap_codice_l2_lo-direct-events",
     "logical_source_description": "IMAP Mission CoDICE Lo Level-2 Event Data.",
-    "generation_date": "2026-07-20",
+    "generation_date": "2026-07-21",
     "data_level": "l2",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -16832,7 +16847,12 @@
       {
         "start_time": "2026-07-20T00:00:00+00:00",
         "end_time": "2026-07-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/07/imap_codice_l2_lo-direct-events_20260720_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/07/imap_codice_l2_lo-direct-events_20260720_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-07-21T00:00:00+00:00",
+        "end_time": "2026-07-22T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/07/imap_codice_l2_lo-direct-events_20260721_v001.0001.cdf"
       }
     ]
   },
@@ -19918,7 +19938,7 @@
     ],
     "logical_source": "imap_codice_l2_lo-sw-species",
     "logical_source_description": "IMAP Mission CoDICE Lo Level-2 Sunward Species Intensity Data.",
-    "generation_date": "2026-07-20",
+    "generation_date": "2026-07-21",
     "data_level": "l2",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -21098,7 +21118,12 @@
       {
         "start_time": "2026-07-20T00:00:00+00:00",
         "end_time": "2026-07-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/07/imap_codice_l2_lo-sw-species_20260720_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/07/imap_codice_l2_lo-sw-species_20260720_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-07-21T00:00:00+00:00",
+        "end_time": "2026-07-22T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l2/2026/07/imap_codice_l2_lo-sw-species_20260721_v001.0001.cdf"
       }
     ]
   },
@@ -22605,7 +22630,7 @@
     ],
     "logical_source": "imap_codice_l3a_lo-direct-events",
     "logical_source_description": "IMAP Mission CoDICE Lo Instrument Direct Events",
-    "generation_date": "2026-07-20",
+    "generation_date": "2026-07-21",
     "data_level": "l3a",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -23790,7 +23815,7 @@
       {
         "start_time": "2026-07-20T00:00:00+00:00",
         "end_time": "2026-07-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-direct-events_20260720_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-direct-events_20260720_v001.0002.cdf"
       }
     ]
   },
@@ -23911,7 +23936,7 @@
     ],
     "logical_source": "imap_codice_l3a_lo-partial-densities",
     "logical_source_description": "IMAP Mission CoDICE Lo Instrument Partial Densities",
-    "generation_date": "2026-07-19",
+    "generation_date": "2026-07-21",
     "data_level": "l3a",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -25081,7 +25106,17 @@
       {
         "start_time": "2026-07-18T00:00:00+00:00",
         "end_time": "2026-07-19T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-partial-densities_20260718_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-partial-densities_20260718_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-07-19T00:00:00+00:00",
+        "end_time": "2026-07-20T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-partial-densities_20260719_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-20T00:00:00+00:00",
+        "end_time": "2026-07-21T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-partial-densities_20260720_v001.0001.cdf"
       }
     ]
   },
@@ -33454,7 +33489,7 @@
     ],
     "logical_source": "imap_glows_l2_hist",
     "logical_source_description": "IMAP Mission GLOWS Instrument Level-2 Histogram Data.",
-    "generation_date": "2026-07-13",
+    "generation_date": "2026-07-21",
     "data_level": "l2",
     "instrument": "GLOWS",
     "mission": "IMAP",
@@ -34475,6 +34510,11 @@
         "start_time": "2026-07-04T00:00:00+00:00",
         "end_time": "2026-07-05T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/glows/l2/2026/07/imap_glows_l2_hist_20260704-repoint00299_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-06T00:00:00+00:00",
+        "end_time": "2026-07-07T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l2/2026/07/imap_glows_l2_hist_20260706-repoint00301_v001.0001.cdf"
       }
     ]
   },
@@ -44770,20 +44810,20 @@
   {
     "variables": [
       {
-        "variable_name": "ena_intensity_sys_err",
-        "catalog_description": "ENA intensity non-statistical error.",
-        "display_type": "map_image",
-        "var_type": "support_data",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Non-statistical Error"
-      },
-      {
         "variable_name": "ena_intensity_stat_uncert",
-        "catalog_description": "ENA intensity statistical uncertainty.",
+        "catalog_description": "IMAP Hi45 H Inten Stat. Unc., HAE Helio Frame, Surv Corr, Anti, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "support_data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Hi45 H Inten Sys. Err., HAE Helio Frame, Surv Corr, Anti, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
       },
       {
         "variable_name": "ena_intensity",
@@ -44792,11 +44832,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi45 H Survival Probability, HAE Helio Frame, Surv Corr, Anti, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_h45-ena-h-hf-sp-anti-hae-4deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-45 Sensor, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Anti-Ram, HAE, Rectangular 4 degree, 12 Month Map",
-    "generation_date": "2026-07-09",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -44806,27 +44854,27 @@
       {
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h45-ena-h-hf-sp-anti-hae-4deg-1yr_20250419_v001.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h45-ena-h-hf-sp-anti-hae-4deg-1yr_20250419_v001.0016.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity_sys_err",
-        "catalog_description": "ENA intensity non-statistical error.",
-        "display_type": "map_image",
-        "var_type": "support_data",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Non-statistical Error"
-      },
-      {
         "variable_name": "ena_intensity_stat_uncert",
-        "catalog_description": "ENA intensity statistical uncertainty.",
+        "catalog_description": "IMAP Hi45 H Inten Stat. Unc., HAE Helio Frame, Surv Corr, Anti, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "support_data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Hi45 H Inten Sys. Err., HAE Helio Frame, Surv Corr, Anti, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
       },
       {
         "variable_name": "ena_intensity",
@@ -44835,11 +44883,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi45 H Survival Probability, HAE Helio Frame, Surv Corr, Anti, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_h45-ena-h-hf-sp-anti-hae-6deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-45 Sensor, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Anti-Ram, HAE, Rectangular 6 degree, 12 Month Map",
-    "generation_date": "2026-07-09",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -44849,27 +44905,27 @@
       {
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h45-ena-h-hf-sp-anti-hae-6deg-1yr_20250419_v001.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h45-ena-h-hf-sp-anti-hae-6deg-1yr_20250419_v001.0016.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity_sys_err",
-        "catalog_description": "ENA intensity non-statistical error.",
-        "display_type": "map_image",
-        "var_type": "support_data",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Non-statistical Error"
-      },
-      {
         "variable_name": "ena_intensity_stat_uncert",
-        "catalog_description": "ENA intensity statistical uncertainty.",
+        "catalog_description": "IMAP Hi45 H Inten Stat. Unc., HAE Helio Frame, Surv Corr, Ram, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "support_data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Hi45 H Inten Sys. Err., HAE Helio Frame, Surv Corr, Ram, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
       },
       {
         "variable_name": "ena_intensity",
@@ -44878,11 +44934,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi45 H Survival Probability, HAE Helio Frame, Surv Corr, Ram, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_h45-ena-h-hf-sp-ram-hae-4deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-45 Sensor, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Ram, HAE, Rectangular 4 degree, 12 Month Map",
-    "generation_date": "2026-07-09",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -44892,27 +44956,27 @@
       {
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h45-ena-h-hf-sp-ram-hae-4deg-1yr_20250419_v001.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h45-ena-h-hf-sp-ram-hae-4deg-1yr_20250419_v001.0016.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity_sys_err",
-        "catalog_description": "ENA intensity non-statistical error.",
-        "display_type": "map_image",
-        "var_type": "support_data",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Non-statistical Error"
-      },
-      {
         "variable_name": "ena_intensity_stat_uncert",
-        "catalog_description": "ENA intensity statistical uncertainty.",
+        "catalog_description": "IMAP Hi45 H Inten Stat. Unc., HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "support_data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Hi45 H Inten Sys. Err., HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
       },
       {
         "variable_name": "ena_intensity",
@@ -44921,11 +44985,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi45 H Survival Probability, HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_h45-ena-h-hf-sp-ram-hae-6deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-45 Sensor, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Ram, HAE, Rectangular 6 degree, 12 Month Map",
-    "generation_date": "2026-07-09",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -44935,27 +45007,27 @@
       {
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h45-ena-h-hf-sp-ram-hae-6deg-1yr_20250419_v001.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h45-ena-h-hf-sp-ram-hae-6deg-1yr_20250419_v001.0016.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity_sys_err",
-        "catalog_description": "ENA intensity non-statistical error.",
-        "display_type": "map_image",
-        "var_type": "support_data",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Non-statistical Error"
-      },
-      {
         "variable_name": "ena_intensity_stat_uncert",
-        "catalog_description": "ENA intensity statistical uncertainty.",
+        "catalog_description": "IMAP Hi45 H Inten Stat. Unc., HAE SC Frame, Surv Corr, Anti, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "support_data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Hi45 H Inten Sys. Err., HAE SC Frame, Surv Corr, Anti, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
       },
       {
         "variable_name": "ena_intensity",
@@ -44964,11 +45036,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi45 H Survival Probability, HAE SC Frame, Surv Corr, Anti, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_h45-ena-h-sf-sp-anti-hae-4deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-45 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Anti-Ram, HAE, Rectangular 4 degree, 12 Month Map",
-    "generation_date": "2026-07-09",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -44978,27 +45058,27 @@
       {
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h45-ena-h-sf-sp-anti-hae-4deg-1yr_20250419_v001.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h45-ena-h-sf-sp-anti-hae-4deg-1yr_20250419_v001.0016.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity_sys_err",
-        "catalog_description": "ENA intensity non-statistical error.",
-        "display_type": "map_image",
-        "var_type": "support_data",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Non-statistical Error"
-      },
-      {
         "variable_name": "ena_intensity_stat_uncert",
-        "catalog_description": "ENA intensity statistical uncertainty.",
+        "catalog_description": "IMAP Hi45 H Inten Stat. Unc., HAE SC Frame, Surv Corr, Anti, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "support_data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Hi45 H Inten Sys. Err., HAE SC Frame, Surv Corr, Anti, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
       },
       {
         "variable_name": "ena_intensity",
@@ -45007,11 +45087,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi45 H Survival Probability, HAE SC Frame, Surv Corr, Anti, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_h45-ena-h-sf-sp-anti-hae-6deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-45 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Anti-Ram, HAE, Rectangular 6 degree, 12 Month Map",
-    "generation_date": "2026-07-09",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -45021,27 +45109,27 @@
       {
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h45-ena-h-sf-sp-anti-hae-6deg-1yr_20250419_v001.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h45-ena-h-sf-sp-anti-hae-6deg-1yr_20250419_v001.0016.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity_sys_err",
-        "catalog_description": "ENA intensity non-statistical error.",
-        "display_type": "map_image",
-        "var_type": "support_data",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Non-statistical Error"
-      },
-      {
         "variable_name": "ena_intensity_stat_uncert",
-        "catalog_description": "ENA intensity statistical uncertainty.",
+        "catalog_description": "IMAP Hi45 H Inten Stat. Unc., HAE SC Frame, Surv Corr, Ram, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "support_data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Hi45 H Inten Sys. Err., HAE SC Frame, Surv Corr, Ram, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
       },
       {
         "variable_name": "ena_intensity",
@@ -45050,11 +45138,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi45 H Survival Probability, HAE SC Frame, Surv Corr, Ram, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_h45-ena-h-sf-sp-ram-hae-4deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-45 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Ram, HAE, Rectangular 4 degree, 12 Month Map",
-    "generation_date": "2026-07-09",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -45064,27 +45160,27 @@
       {
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h45-ena-h-sf-sp-ram-hae-4deg-1yr_20250419_v001.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h45-ena-h-sf-sp-ram-hae-4deg-1yr_20250419_v001.0016.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity_sys_err",
-        "catalog_description": "ENA intensity non-statistical error.",
-        "display_type": "map_image",
-        "var_type": "support_data",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Non-statistical Error"
-      },
-      {
         "variable_name": "ena_intensity_stat_uncert",
-        "catalog_description": "ENA intensity statistical uncertainty.",
+        "catalog_description": "IMAP Hi45 H Inten Stat. Unc., HAE SC Frame, Surv Corr, Ram, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "support_data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Hi45 H Inten Sys. Err., HAE SC Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
       },
       {
         "variable_name": "ena_intensity",
@@ -45093,11 +45189,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi45 H Survival Probability, HAE SC Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_h45-ena-h-sf-sp-ram-hae-6deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-45 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Ram, HAE, Rectangular 6 degree, 12 Month Map",
-    "generation_date": "2026-07-09",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -45107,7 +45211,7 @@
       {
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h45-ena-h-sf-sp-ram-hae-6deg-1yr_20250419_v001.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h45-ena-h-sf-sp-ram-hae-6deg-1yr_20250419_v001.0016.cdf"
       }
     ]
   },
@@ -45350,20 +45454,20 @@
   {
     "variables": [
       {
-        "variable_name": "ena_intensity_sys_err",
-        "catalog_description": "ENA intensity non-statistical error.",
-        "display_type": "map_image",
-        "var_type": "support_data",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Non-statistical Error"
-      },
-      {
         "variable_name": "ena_intensity_stat_uncert",
-        "catalog_description": "ENA intensity statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Inten Stat. Unc., HAE Helio Frame, Surv Corr, Anti, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "support_data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Hi90 H Inten Sys. Err., HAE Helio Frame, Surv Corr, Anti, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
       },
       {
         "variable_name": "ena_intensity",
@@ -45372,11 +45476,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi90 H Survival Probability, HAE Helio Frame, Surv Corr, Anti, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_h90-ena-h-hf-sp-anti-hae-4deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Anti-Ram, HAE, Rectangular 4 degree, 12 Month Map",
-    "generation_date": "2026-07-09",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -45386,27 +45498,27 @@
       {
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h90-ena-h-hf-sp-anti-hae-4deg-1yr_20250419_v001.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h90-ena-h-hf-sp-anti-hae-4deg-1yr_20250419_v001.0016.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity_sys_err",
-        "catalog_description": "ENA intensity non-statistical error.",
-        "display_type": "map_image",
-        "var_type": "support_data",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Non-statistical Error"
-      },
-      {
         "variable_name": "ena_intensity_stat_uncert",
-        "catalog_description": "ENA intensity statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Inten Stat. Unc., HAE Helio Frame, Surv Corr, Anti, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "support_data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Hi90 H Inten Sys. Err., HAE Helio Frame, Surv Corr, Anti, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
       },
       {
         "variable_name": "ena_intensity",
@@ -45415,11 +45527,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi90 H Survival Probability, HAE Helio Frame, Surv Corr, Anti, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_h90-ena-h-hf-sp-anti-hae-6deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Anti-Ram, HAE, Rectangular 6 degree, 12 Month Map",
-    "generation_date": "2026-07-09",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -45429,27 +45549,27 @@
       {
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h90-ena-h-hf-sp-anti-hae-6deg-1yr_20250419_v001.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h90-ena-h-hf-sp-anti-hae-6deg-1yr_20250419_v001.0016.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity_sys_err",
-        "catalog_description": "ENA intensity non-statistical error.",
-        "display_type": "map_image",
-        "var_type": "support_data",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Non-statistical Error"
-      },
-      {
         "variable_name": "ena_intensity_stat_uncert",
-        "catalog_description": "ENA intensity statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Inten Stat. Unc., HAE Helio Frame, Surv Corr, Ram, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "support_data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Hi90 H Inten Sys. Err., HAE Helio Frame, Surv Corr, Ram, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
       },
       {
         "variable_name": "ena_intensity",
@@ -45458,11 +45578,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi90 H Survival Probability, HAE Helio Frame, Surv Corr, Ram, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_h90-ena-h-hf-sp-ram-hae-4deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Ram, HAE, Rectangular 4 degree, 12 Month Map",
-    "generation_date": "2026-07-09",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -45472,27 +45600,27 @@
       {
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h90-ena-h-hf-sp-ram-hae-4deg-1yr_20250419_v001.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h90-ena-h-hf-sp-ram-hae-4deg-1yr_20250419_v001.0016.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity_sys_err",
-        "catalog_description": "ENA intensity non-statistical error.",
-        "display_type": "map_image",
-        "var_type": "support_data",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Non-statistical Error"
-      },
-      {
         "variable_name": "ena_intensity_stat_uncert",
-        "catalog_description": "ENA intensity statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Inten Stat. Unc., HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "support_data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Hi90 H Inten Sys. Err., HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
       },
       {
         "variable_name": "ena_intensity",
@@ -45501,11 +45629,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi90 H Survival Probability, HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_h90-ena-h-hf-sp-ram-hae-6deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Ram, HAE, Rectangular 6 degree, 12 Month Map",
-    "generation_date": "2026-07-09",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -45515,27 +45651,27 @@
       {
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h90-ena-h-hf-sp-ram-hae-6deg-1yr_20250419_v001.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h90-ena-h-hf-sp-ram-hae-6deg-1yr_20250419_v001.0016.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity_sys_err",
-        "catalog_description": "ENA intensity non-statistical error.",
-        "display_type": "map_image",
-        "var_type": "support_data",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Non-statistical Error"
-      },
-      {
         "variable_name": "ena_intensity_stat_uncert",
-        "catalog_description": "ENA intensity statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Inten Stat. Unc., HAE SC Frame, Surv Corr, Anti, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "support_data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Hi90 H Inten Sys. Err., HAE SC Frame, Surv Corr, Anti, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
       },
       {
         "variable_name": "ena_intensity",
@@ -45544,11 +45680,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi90 H Survival Probability, HAE SC Frame, Surv Corr, Anti, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_h90-ena-h-sf-sp-anti-hae-4deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Anti-Ram, HAE, Rectangular 4 degree, 12 Month Map",
-    "generation_date": "2026-07-09",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -45558,27 +45702,27 @@
       {
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h90-ena-h-sf-sp-anti-hae-4deg-1yr_20250419_v001.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h90-ena-h-sf-sp-anti-hae-4deg-1yr_20250419_v001.0016.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity_sys_err",
-        "catalog_description": "ENA intensity non-statistical error.",
-        "display_type": "map_image",
-        "var_type": "support_data",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Non-statistical Error"
-      },
-      {
         "variable_name": "ena_intensity_stat_uncert",
-        "catalog_description": "ENA intensity statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Inten Stat. Unc., HAE SC Frame, Surv Corr, Anti, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "support_data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Hi90 H Inten Sys. Err., HAE SC Frame, Surv Corr, Anti, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
       },
       {
         "variable_name": "ena_intensity",
@@ -45587,11 +45731,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi90 H Survival Probability, HAE SC Frame, Surv Corr, Anti, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_h90-ena-h-sf-sp-anti-hae-6deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Anti-Ram, HAE, Rectangular 6 degree, 12 Month Map",
-    "generation_date": "2026-07-09",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -45601,27 +45753,27 @@
       {
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h90-ena-h-sf-sp-anti-hae-6deg-1yr_20250419_v001.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h90-ena-h-sf-sp-anti-hae-6deg-1yr_20250419_v001.0016.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity_sys_err",
-        "catalog_description": "ENA intensity non-statistical error.",
-        "display_type": "map_image",
-        "var_type": "support_data",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Non-statistical Error"
-      },
-      {
         "variable_name": "ena_intensity_stat_uncert",
-        "catalog_description": "ENA intensity statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Inten Stat. Unc., HAE SC Frame, Surv Corr, Ram, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "support_data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Hi90 H Inten Sys. Err., HAE SC Frame, Surv Corr, Ram, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
       },
       {
         "variable_name": "ena_intensity",
@@ -45630,11 +45782,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi90 H Survival Probability, HAE SC Frame, Surv Corr, Ram, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_h90-ena-h-sf-sp-ram-hae-4deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Ram, HAE, Rectangular 4 degree, 12 Month Map",
-    "generation_date": "2026-07-09",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -45644,27 +45804,27 @@
       {
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h90-ena-h-sf-sp-ram-hae-4deg-1yr_20250419_v001.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h90-ena-h-sf-sp-ram-hae-4deg-1yr_20250419_v001.0016.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity_sys_err",
-        "catalog_description": "ENA intensity non-statistical error.",
-        "display_type": "map_image",
-        "var_type": "support_data",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Non-statistical Error"
-      },
-      {
         "variable_name": "ena_intensity_stat_uncert",
-        "catalog_description": "ENA intensity statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Inten Stat. Unc., HAE SC Frame, Surv Corr, Ram, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "support_data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Hi90 H Inten Sys. Err., HAE SC Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
       },
       {
         "variable_name": "ena_intensity",
@@ -45673,11 +45833,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi90 H Survival Probability, HAE SC Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_h90-ena-h-sf-sp-ram-hae-6deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Ram, HAE, Rectangular 6 degree, 12 Month Map",
-    "generation_date": "2026-07-09",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -45687,7 +45855,7 @@
       {
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h90-ena-h-sf-sp-ram-hae-6deg-1yr_20250419_v001.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h90-ena-h-sf-sp-ram-hae-6deg-1yr_20250419_v001.0016.cdf"
       }
     ]
   },
@@ -46220,20 +46388,20 @@
   {
     "variables": [
       {
-        "variable_name": "ena_intensity_sys_err",
-        "catalog_description": "ENA intensity non-statistical error.",
-        "display_type": "map_image",
-        "var_type": "support_data",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Non-statistical Error"
-      },
-      {
         "variable_name": "ena_intensity_stat_uncert",
-        "catalog_description": "ENA intensity statistical uncertainty.",
+        "catalog_description": "IMAP Hi45 H Inten Stat. Unc., HAE Helio Frame, Surv Corr, Full Spin, 4 deg, 6 Mon",
         "display_type": "map_image",
         "var_type": "support_data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Hi45 H Inten Sys. Err., HAE Helio Frame, Surv Corr, Full Spin, 4 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
       },
       {
         "variable_name": "ena_intensity",
@@ -46242,11 +46410,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi45 H Survival Probability, HAE Helio Frame, Surv Corr, Full Spin, 4 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_h45-ena-h-hf-sp-full-hae-4deg-6mo",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-45 Sensor, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 6 Month Map",
-    "generation_date": "2026-07-09",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -46256,27 +46432,32 @@
       {
         "start_time": "2025-10-18T00:00:00+00:00",
         "end_time": "2026-04-18T15:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/10/imap_hi_l3_h45-ena-h-hf-sp-full-hae-4deg-6mo_20251018_v001.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/10/imap_hi_l3_h45-ena-h-hf-sp-full-hae-4deg-6mo_20251018_v001.0016.cdf"
+      },
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-07-18T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h45-ena-h-hf-sp-full-hae-4deg-6mo_20260117_v001.0001.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity_sys_err",
-        "catalog_description": "ENA intensity non-statistical error.",
-        "display_type": "map_image",
-        "var_type": "support_data",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Non-statistical Error"
-      },
-      {
         "variable_name": "ena_intensity_stat_uncert",
-        "catalog_description": "ENA intensity statistical uncertainty.",
+        "catalog_description": "IMAP Hi45 H Inten Stat. Unc., HAE Helio Frame, Surv Corr, Full Spin, 6 deg, 6 Mon",
         "display_type": "map_image",
         "var_type": "support_data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Hi45 H Inten Sys. Err., HAE Helio Frame, Surv Corr, Full Spin, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
       },
       {
         "variable_name": "ena_intensity",
@@ -46285,11 +46466,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi45 H Survival Probability, HAE Helio Frame, Surv Corr, Full Spin, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_h45-ena-h-hf-sp-full-hae-6deg-6mo",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-45 Sensor, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 6 Month Map",
-    "generation_date": "2026-07-09",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -46299,7 +46488,12 @@
       {
         "start_time": "2025-10-18T00:00:00+00:00",
         "end_time": "2026-04-18T15:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/10/imap_hi_l3_h45-ena-h-hf-sp-full-hae-6deg-6mo_20251018_v001.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/10/imap_hi_l3_h45-ena-h-hf-sp-full-hae-6deg-6mo_20251018_v001.0016.cdf"
+      },
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-07-18T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h45-ena-h-hf-sp-full-hae-6deg-6mo_20260117_v001.0001.cdf"
       }
     ]
   },
@@ -46424,20 +46618,20 @@
   {
     "variables": [
       {
-        "variable_name": "ena_intensity_sys_err",
-        "catalog_description": "ENA intensity non-statistical error.",
-        "display_type": "map_image",
-        "var_type": "support_data",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Non-statistical Error"
-      },
-      {
         "variable_name": "ena_intensity_stat_uncert",
-        "catalog_description": "ENA intensity statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Inten Stat. Unc., HAE Helio Frame, Surv Corr, Full Spin, 4 deg, 6 Mon",
         "display_type": "map_image",
         "var_type": "support_data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Hi90 H Inten Sys. Err., HAE Helio Frame, Surv Corr, Full Spin, 4 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
       },
       {
         "variable_name": "ena_intensity",
@@ -46446,11 +46640,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi90 H Survival Probability, HAE Helio Frame, Surv Corr, Full Spin, 4 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_h90-ena-h-hf-sp-full-hae-4deg-6mo",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 6 Month Map",
-    "generation_date": "2026-07-09",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -46460,27 +46662,32 @@
       {
         "start_time": "2025-10-18T00:00:00+00:00",
         "end_time": "2026-04-18T15:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/10/imap_hi_l3_h90-ena-h-hf-sp-full-hae-4deg-6mo_20251018_v001.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/10/imap_hi_l3_h90-ena-h-hf-sp-full-hae-4deg-6mo_20251018_v001.0016.cdf"
+      },
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-07-18T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h90-ena-h-hf-sp-full-hae-4deg-6mo_20260117_v001.0001.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity_sys_err",
-        "catalog_description": "ENA intensity non-statistical error.",
-        "display_type": "map_image",
-        "var_type": "support_data",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Non-statistical Error"
-      },
-      {
         "variable_name": "ena_intensity_stat_uncert",
-        "catalog_description": "ENA intensity statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Inten Stat. Unc., HAE Helio Frame, Surv Corr, Full Spin, 6 deg, 6 Mon",
         "display_type": "map_image",
         "var_type": "support_data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Hi90 H Inten Sys. Err., HAE Helio Frame, Surv Corr, Full Spin, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
       },
       {
         "variable_name": "ena_intensity",
@@ -46489,11 +46696,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi90 H Survival Probability, HAE Helio Frame, Surv Corr, Full Spin, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_h90-ena-h-hf-sp-full-hae-6deg-6mo",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 6 Month Map",
-    "generation_date": "2026-07-09",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -46503,27 +46718,32 @@
       {
         "start_time": "2025-10-18T00:00:00+00:00",
         "end_time": "2026-04-18T15:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/10/imap_hi_l3_h90-ena-h-hf-sp-full-hae-6deg-6mo_20251018_v001.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/10/imap_hi_l3_h90-ena-h-hf-sp-full-hae-6deg-6mo_20251018_v001.0016.cdf"
+      },
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-07-18T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h90-ena-h-hf-sp-full-hae-6deg-6mo_20260117_v001.0001.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity_sys_err",
-        "catalog_description": "ENA intensity non-statistical error.",
-        "display_type": "map_image",
-        "var_type": "support_data",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Non-statistical Error"
-      },
-      {
         "variable_name": "ena_intensity_stat_uncert",
-        "catalog_description": "ENA intensity statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Inten Stat. Unc., HAE SC Frame, Surv Corr, Full Spin, 4 deg, 6 Mon",
         "display_type": "map_image",
         "var_type": "support_data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Hi90 H Inten Sys. Err., HAE SC Frame, Surv Corr, Full Spin, 4 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
       },
       {
         "variable_name": "ena_intensity",
@@ -46532,11 +46752,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi90 H Survival Probability, HAE SC Frame, Surv Corr, Full Spin, 4 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_h90-ena-h-sf-sp-full-hae-4deg-6mo",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 6 Month Map",
-    "generation_date": "2026-07-09",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -46546,27 +46774,32 @@
       {
         "start_time": "2025-10-18T00:00:00+00:00",
         "end_time": "2026-04-18T15:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/10/imap_hi_l3_h90-ena-h-sf-sp-full-hae-4deg-6mo_20251018_v001.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/10/imap_hi_l3_h90-ena-h-sf-sp-full-hae-4deg-6mo_20251018_v001.0016.cdf"
+      },
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-07-18T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h90-ena-h-sf-sp-full-hae-4deg-6mo_20260117_v001.0001.cdf"
       }
     ]
   },
   {
     "variables": [
       {
-        "variable_name": "ena_intensity_sys_err",
-        "catalog_description": "ENA intensity non-statistical error.",
-        "display_type": "map_image",
-        "var_type": "support_data",
-        "units": "cm -2 s -1 sr -1 keV -1",
-        "axis_label": "Non-statistical Error"
-      },
-      {
         "variable_name": "ena_intensity_stat_uncert",
-        "catalog_description": "ENA intensity statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Inten Stat. Unc., HAE SC Frame, Surv Corr, Full Spin, 6 deg, 6 Mon",
         "display_type": "map_image",
         "var_type": "support_data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Hi90 H Inten Sys. Err., HAE SC Frame, Surv Corr, Full Spin, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
       },
       {
         "variable_name": "ena_intensity",
@@ -46575,11 +46808,19 @@
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
         "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi90 H Survival Probability, HAE SC Frame, Surv Corr, Full Spin, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
       }
     ],
     "logical_source": "imap_hi_l3_h90-ena-h-sf-sp-full-hae-6deg-6mo",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 6 Month Map",
-    "generation_date": "2026-07-09",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -46589,7 +46830,12 @@
       {
         "start_time": "2025-10-18T00:00:00+00:00",
         "end_time": "2026-04-18T15:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/10/imap_hi_l3_h90-ena-h-sf-sp-full-hae-6deg-6mo_20251018_v001.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/10/imap_hi_l3_h90-ena-h-sf-sp-full-hae-6deg-6mo_20251018_v001.0016.cdf"
+      },
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-07-18T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h90-ena-h-sf-sp-full-hae-6deg-6mo_20260117_v001.0001.cdf"
       }
     ]
   },
@@ -48017,7 +48263,7 @@
     ],
     "logical_source": "imap_hit_l2_standard-intensity",
     "logical_source_description": "IMAP Mission HIT Instrument Level-2 Standard Intensity Data.",
-    "generation_date": "2026-07-20",
+    "generation_date": "2026-07-21",
     "data_level": "l2",
     "instrument": "HIT",
     "mission": "IMAP",
@@ -49467,7 +49713,12 @@
       {
         "start_time": "2026-07-20T00:00:00+00:00",
         "end_time": "2026-07-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260720_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260720_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-07-21T00:00:00+00:00",
+        "end_time": "2026-07-22T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260721_v001.0001.cdf"
       }
     ]
   },
@@ -49620,7 +49871,7 @@
     ],
     "logical_source": "imap_hit_l2_summed-intensity",
     "logical_source_description": "IMAP Mission HIT Instrument Level-2 Summed Intensity Data.",
-    "generation_date": "2026-07-20",
+    "generation_date": "2026-07-21",
     "data_level": "l2",
     "instrument": "HIT",
     "mission": "IMAP",
@@ -51065,7 +51316,12 @@
       {
         "start_time": "2026-07-20T00:00:00+00:00",
         "end_time": "2026-07-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260720_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260720_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-07-21T00:00:00+00:00",
+        "end_time": "2026-07-22T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260721_v001.0001.cdf"
       }
     ]
   },
@@ -51258,7 +51514,7 @@
     ],
     "logical_source": "imap_hit_l3_direct-events",
     "logical_source_description": "HIT Instrument Level-3 Direct Event Science Data",
-    "generation_date": "2026-07-20",
+    "generation_date": "2026-07-21",
     "data_level": "l3",
     "instrument": "HIT",
     "mission": "IMAP",
@@ -52703,7 +52959,12 @@
       {
         "start_time": "2026-07-20T00:00:00+00:00",
         "end_time": "2026-07-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260720_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260720_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-07-21T00:00:00+00:00",
+        "end_time": "2026-07-22T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260721_v001.0001.cdf"
       }
     ]
   },
@@ -53988,7 +54249,7 @@
     ],
     "logical_source": "imap_idex_l2a_sci-10days",
     "logical_source_description": "IMAP Mission IDEX Instrument Level-2A 10-Day Data",
-    "generation_date": "2026-07-17",
+    "generation_date": "2026-07-21",
     "data_level": "l2a",
     "instrument": "IDEX",
     "mission": "IMAP",
@@ -53998,72 +54259,72 @@
       {
         "start_time": "2025-09-27T00:00:00+00:00",
         "end_time": "2025-09-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/09/imap_idex_l2a_sci-10days_20250927_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/09/imap_idex_l2a_sci-10days_20250927_v001.0004.cdf"
       },
       {
         "start_time": "2025-10-27T00:00:00+00:00",
         "end_time": "2025-10-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/10/imap_idex_l2a_sci-10days_20251027_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/10/imap_idex_l2a_sci-10days_20251027_v001.0004.cdf"
       },
       {
         "start_time": "2025-11-06T00:00:00+00:00",
         "end_time": "2025-11-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/11/imap_idex_l2a_sci-10days_20251106_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/11/imap_idex_l2a_sci-10days_20251106_v001.0004.cdf"
       },
       {
         "start_time": "2025-11-16T00:00:00+00:00",
         "end_time": "2025-11-17T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/11/imap_idex_l2a_sci-10days_20251116_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/11/imap_idex_l2a_sci-10days_20251116_v001.0004.cdf"
       },
       {
         "start_time": "2025-11-26T00:00:00+00:00",
         "end_time": "2025-11-27T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/11/imap_idex_l2a_sci-10days_20251126_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/11/imap_idex_l2a_sci-10days_20251126_v001.0004.cdf"
       },
       {
         "start_time": "2025-12-06T00:00:00+00:00",
         "end_time": "2025-12-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/12/imap_idex_l2a_sci-10days_20251206_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/12/imap_idex_l2a_sci-10days_20251206_v001.0004.cdf"
       },
       {
         "start_time": "2025-12-16T00:00:00+00:00",
         "end_time": "2025-12-17T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/12/imap_idex_l2a_sci-10days_20251216_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/12/imap_idex_l2a_sci-10days_20251216_v001.0004.cdf"
       },
       {
         "start_time": "2025-12-26T00:00:00+00:00",
         "end_time": "2025-12-27T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/12/imap_idex_l2a_sci-10days_20251226_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2025/12/imap_idex_l2a_sci-10days_20251226_v001.0004.cdf"
       },
       {
         "start_time": "2026-01-01T00:00:00+00:00",
         "end_time": "2026-01-02T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/01/imap_idex_l2a_sci-10days_20260101_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/01/imap_idex_l2a_sci-10days_20260101_v001.0004.cdf"
       },
       {
         "start_time": "2026-01-10T00:00:00+00:00",
         "end_time": "2026-01-11T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/01/imap_idex_l2a_sci-10days_20260110_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/01/imap_idex_l2a_sci-10days_20260110_v001.0004.cdf"
       },
       {
         "start_time": "2026-01-20T00:00:00+00:00",
         "end_time": "2026-01-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/01/imap_idex_l2a_sci-10days_20260120_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/01/imap_idex_l2a_sci-10days_20260120_v001.0004.cdf"
       },
       {
         "start_time": "2026-01-30T00:00:00+00:00",
         "end_time": "2026-01-31T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/01/imap_idex_l2a_sci-10days_20260130_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/01/imap_idex_l2a_sci-10days_20260130_v001.0004.cdf"
       },
       {
         "start_time": "2026-02-09T00:00:00+00:00",
         "end_time": "2026-02-10T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/02/imap_idex_l2a_sci-10days_20260209_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/02/imap_idex_l2a_sci-10days_20260209_v001.0004.cdf"
       },
       {
         "start_time": "2026-02-19T00:00:00+00:00",
         "end_time": "2026-02-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/02/imap_idex_l2a_sci-10days_20260219_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/02/imap_idex_l2a_sci-10days_20260219_v001.0004.cdf"
       },
       {
         "start_time": "2026-03-01T00:00:00+00:00",
@@ -54073,62 +54334,62 @@
       {
         "start_time": "2026-03-11T00:00:00+00:00",
         "end_time": "2026-03-12T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/03/imap_idex_l2a_sci-10days_20260311_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/03/imap_idex_l2a_sci-10days_20260311_v001.0004.cdf"
       },
       {
         "start_time": "2026-03-21T00:00:00+00:00",
         "end_time": "2026-03-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/03/imap_idex_l2a_sci-10days_20260321_v001.0016.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/03/imap_idex_l2a_sci-10days_20260321_v001.0017.cdf"
       },
       {
         "start_time": "2026-03-31T00:00:00+00:00",
         "end_time": "2026-04-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/03/imap_idex_l2a_sci-10days_20260331_v001.0016.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/03/imap_idex_l2a_sci-10days_20260331_v001.0017.cdf"
       },
       {
         "start_time": "2026-04-10T00:00:00+00:00",
         "end_time": "2026-04-11T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/04/imap_idex_l2a_sci-10days_20260410_v001.0016.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/04/imap_idex_l2a_sci-10days_20260410_v001.0017.cdf"
       },
       {
         "start_time": "2026-04-20T00:00:00+00:00",
         "end_time": "2026-04-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/04/imap_idex_l2a_sci-10days_20260420_v001.0016.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/04/imap_idex_l2a_sci-10days_20260420_v001.0017.cdf"
       },
       {
         "start_time": "2026-04-30T00:00:00+00:00",
         "end_time": "2026-05-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/04/imap_idex_l2a_sci-10days_20260430_v001.0016.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/04/imap_idex_l2a_sci-10days_20260430_v001.0017.cdf"
       },
       {
         "start_time": "2026-05-10T00:00:00+00:00",
         "end_time": "2026-05-11T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/05/imap_idex_l2a_sci-10days_20260510_v001.0016.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/05/imap_idex_l2a_sci-10days_20260510_v001.0017.cdf"
       },
       {
         "start_time": "2026-05-20T00:00:00+00:00",
         "end_time": "2026-05-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/05/imap_idex_l2a_sci-10days_20260520_v001.0016.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/05/imap_idex_l2a_sci-10days_20260520_v001.0017.cdf"
       },
       {
         "start_time": "2026-05-30T00:00:00+00:00",
         "end_time": "2026-05-31T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/05/imap_idex_l2a_sci-10days_20260530_v001.0021.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/05/imap_idex_l2a_sci-10days_20260530_v001.0022.cdf"
       },
       {
         "start_time": "2026-06-09T00:00:00+00:00",
         "end_time": "2026-06-10T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/06/imap_idex_l2a_sci-10days_20260609_v001.0011.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/06/imap_idex_l2a_sci-10days_20260609_v001.0012.cdf"
       },
       {
         "start_time": "2026-06-19T00:00:00+00:00",
         "end_time": "2026-06-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/06/imap_idex_l2a_sci-10days_20260619_v001.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/06/imap_idex_l2a_sci-10days_20260619_v001.0016.cdf"
       },
       {
         "start_time": "2026-06-29T00:00:00+00:00",
         "end_time": "2026-06-30T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/06/imap_idex_l2a_sci-10days_20260629_v001.0013.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/06/imap_idex_l2a_sci-10days_20260629_v001.0014.cdf"
       }
     ]
   },
@@ -54987,6 +55248,156 @@
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/lo/l2/2025/04/imap_lo_l2_l090-isn-o-sf-nsp-ram-hae-6deg-1yr_20250419_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "bg_intensity_stat_uncert",
+        "catalog_description": "IMAP Lo90 H Background Inten Stat. Unc., HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Unc"
+      },
+      {
+        "variable_name": "bg_intensity_sys_err",
+        "catalog_description": "IMAP Lo90 H Background Inten Sys. Err., HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
+      },
+      {
+        "variable_name": "bg_intensity",
+        "catalog_description": "IMAP Lo90 H Background Inten, HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "ena_intensity_stat_uncert",
+        "catalog_description": "IMAP Lo90 H Inten Stat. Unc., HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Lo90 H Inten Sys. Err., HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
+      },
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Lo90 H Inten, HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Lo90 H Survival Probability, HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
+      }
+    ],
+    "logical_source": "imap_lo_l3_l090-ena-h-hf-sp-ram-hae-6deg-1yr",
+    "logical_source_description": "IMAP-lo Level-3 Survival Corrected",
+    "generation_date": "2026-07-21",
+    "data_level": "l3",
+    "instrument": "IMAP-Lo",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-19T00:00:00+00:00",
+        "end_time": "2026-04-19T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/lo/l3/2025/04/imap_lo_l3_l090-ena-h-hf-sp-ram-hae-6deg-1yr_20250419_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "bg_intensity_stat_uncert",
+        "catalog_description": "IMAP Lo90 H Background Inten Stat. Unc., HAE SC Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Unc"
+      },
+      {
+        "variable_name": "bg_intensity_sys_err",
+        "catalog_description": "IMAP Lo90 H Background Inten Sys. Err., HAE SC Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
+      },
+      {
+        "variable_name": "bg_intensity",
+        "catalog_description": "IMAP Lo90 H Background Inten, HAE SC Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "ena_intensity_stat_uncert",
+        "catalog_description": "IMAP Lo90 H Inten Stat. Unc., HAE SC Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Statistical unc."
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Lo90 H Inten Sys. Err., HAE SC Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
+      },
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Lo90 H Inten, HAE SC Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Lo90 H Survival Probability, HAE SC Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "survival probability"
+      }
+    ],
+    "logical_source": "imap_lo_l3_l090-ena-h-sf-sp-ram-hae-6deg-1yr",
+    "logical_source_description": "IMAP-lo Level-3 Survival Corrected",
+    "generation_date": "2026-07-21",
+    "data_level": "l3",
+    "instrument": "IMAP-Lo",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-04-19T00:00:00+00:00",
+        "end_time": "2026-04-19T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/lo/l3/2025/04/imap_lo_l3_l090-ena-h-sf-sp-ram-hae-6deg-1yr_20250419_v001.0001.cdf"
       }
     ]
   },
@@ -65809,7 +66220,7 @@
     ],
     "logical_source": "imap_swapi_l2_sci",
     "logical_source_description": "IMAP SWAPI Instrument Level-2 Science Data",
-    "generation_date": "2026-07-20",
+    "generation_date": "2026-07-21",
     "data_level": "l2",
     "instrument": "SWAPI",
     "mission": "IMAP",
@@ -67029,7 +67440,12 @@
       {
         "start_time": "2026-07-20T00:00:00+00:00",
         "end_time": "2026-07-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l2/2026/07/imap_swapi_l2_sci_20260720_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l2/2026/07/imap_swapi_l2_sci_20260720_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-07-21T00:00:00+00:00",
+        "end_time": "2026-07-22T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l2/2026/07/imap_swapi_l2_sci_20260721_v001.0001.cdf"
       }
     ]
   },
@@ -68329,7 +68745,7 @@
     ],
     "logical_source": "imap_swapi_l3a_proton-sw",
     "logical_source_description": "SWAPI Instrument Proton Solar Wind Parameters",
-    "generation_date": "2026-07-20",
+    "generation_date": "2026-07-21",
     "data_level": "l3a",
     "instrument": "SWAPI",
     "mission": "IMAP",
@@ -69545,6 +69961,11 @@
         "start_time": "2026-07-19T00:00:00+00:00",
         "end_time": "2026-07-20T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/07/imap_swapi_l3a_proton-sw_20260719_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-07-20T00:00:00+00:00",
+        "end_time": "2026-07-21T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/07/imap_swapi_l3a_proton-sw_20260720_v001.0001.cdf"
       }
     ]
   },
@@ -69609,7 +70030,7 @@
     ],
     "logical_source": "imap_swapi_l3a_pui-he",
     "logical_source_description": "SWAPI Instrument Pickup Ion Parameters",
-    "generation_date": "2026-07-20",
+    "generation_date": "2026-07-21",
     "data_level": "l3a",
     "instrument": "SWAPI",
     "mission": "IMAP",
@@ -70825,6 +71246,11 @@
         "start_time": "2026-07-19T00:00:00+00:00",
         "end_time": "2026-07-20T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/07/imap_swapi_l3a_pui-he_20260719_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-07-20T00:00:00+00:00",
+        "end_time": "2026-07-21T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/07/imap_swapi_l3a_pui-he_20260720_v001.0001.cdf"
       }
     ]
   },
@@ -70841,7 +71267,7 @@
     ],
     "logical_source": "imap_swapi_l3b_combined",
     "logical_source_description": "SWAPI Instrument Combined VDF and Differential Flux",
-    "generation_date": "2026-07-20",
+    "generation_date": "2026-07-21",
     "data_level": "l3b",
     "instrument": "SWAPI",
     "mission": "IMAP",
@@ -72057,6 +72483,11 @@
         "start_time": "2026-07-19T00:00:00+00:00",
         "end_time": "2026-07-20T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3b/2026/07/imap_swapi_l3b_combined_20260719_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-07-20T00:00:00+00:00",
+        "end_time": "2026-07-21T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3b/2026/07/imap_swapi_l3b_combined_20260720_v001.0001.cdf"
       }
     ]
   },
@@ -72145,7 +72576,7 @@
     ],
     "logical_source": "imap_swe_l2_sci",
     "logical_source_description": "IMAP SWE Instrument Level-2 Science Data",
-    "generation_date": "2026-07-20",
+    "generation_date": "2026-07-21",
     "data_level": "l2",
     "instrument": "SWE",
     "mission": "IMAP",
@@ -73441,6 +73872,11 @@
         "start_time": "2026-07-19T00:00:00+00:00",
         "end_time": "2026-07-20T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swe/l2/2026/07/imap_swe_l2_sci_20260719_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-20T00:00:00+00:00",
+        "end_time": "2026-07-21T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swe/l2/2026/07/imap_swe_l2_sci_20260720_v001.0001.cdf"
       }
     ]
   },
