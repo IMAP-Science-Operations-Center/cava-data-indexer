@@ -26369,6 +26369,11 @@
         "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-sw-charge-state-distributions_20260718_v001.0001.cdf"
       },
       {
+        "start_time": "2026-07-21T00:00:00+00:00",
+        "end_time": "2026-07-22T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-sw-charge-state-distributions_20260721_v001.0001.cdf"
+      },
+      {
         "start_time": "2026-07-22T00:00:00+00:00",
         "end_time": "2026-07-23T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-sw-charge-state-distributions_20260722_v001.0001.cdf"
@@ -27607,6 +27612,11 @@
         "start_time": "2026-07-18T00:00:00+00:00",
         "end_time": "2026-07-19T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-sw-ratios_20260718_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-21T00:00:00+00:00",
+        "end_time": "2026-07-22T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-sw-ratios_20260721_v001.0001.cdf"
       },
       {
         "start_time": "2026-07-22T00:00:00+00:00",
@@ -70679,6 +70689,11 @@
         "start_time": "2026-07-21T00:00:00+00:00",
         "end_time": "2026-07-22T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/07/imap_swapi_l3a_proton-sw_20260721_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-22T00:00:00+00:00",
+        "end_time": "2026-07-23T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/07/imap_swapi_l3a_proton-sw_20260722_v001.0001.cdf"
       }
     ]
   },
@@ -71969,6 +71984,11 @@
         "start_time": "2026-07-21T00:00:00+00:00",
         "end_time": "2026-07-22T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/07/imap_swapi_l3a_pui-he_20260721_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-22T00:00:00+00:00",
+        "end_time": "2026-07-23T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/07/imap_swapi_l3a_pui-he_20260722_v001.0001.cdf"
       }
     ]
   },
