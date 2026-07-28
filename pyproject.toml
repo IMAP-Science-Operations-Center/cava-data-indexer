@@ -10,7 +10,7 @@ dependencies = [
     "beautifulsoup4>=4.11.1",
     "spacepy>=0.7.0",
     "httpx>=0.23.0",
-    "imap-data-access==0.42.0.dev0",
+    "imap-data-access==0.42.0",
 ]
 
 [dependency-groups]
