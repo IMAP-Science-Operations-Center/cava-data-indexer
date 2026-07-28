@@ -34,6 +34,7 @@ def _query_range(instrument: str, data_level: str, start: date, end: date) -> li
             data_level=data_level,
             ingestion_start_date=start.strftime("%Y%m%d"),
             ingestion_end_date=end.strftime("%Y%m%d"),
+            version="latest",
         )
     except IMAPDataAccessError:
         if end - start < MIN_BISECT_RANGE:

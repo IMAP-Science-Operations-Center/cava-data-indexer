@@ -57,9 +57,9 @@ class TestQueryChunkedDataProduct(unittest.TestCase):
         self.assertEqual(
             mock_query.call_args_list,
             [
-                call(instrument="mag", data_level="l1d", ingestion_start_date="20240101", ingestion_end_date="20241231"),
-                call(instrument="mag", data_level="l1d", ingestion_start_date="20250101", ingestion_end_date="20251231"),
-                call(instrument="mag", data_level="l1d", ingestion_start_date="20260101", ingestion_end_date="20261231"),
+                call(instrument="mag", data_level="l1d", ingestion_start_date="20240101", ingestion_end_date="20241231", version="latest"),
+                call(instrument="mag", data_level="l1d", ingestion_start_date="20250101", ingestion_end_date="20251231", version="latest"),
+                call(instrument="mag", data_level="l1d", ingestion_start_date="20260101", ingestion_end_date="20261231", version="latest"),
             ],
         )
         self.assertEqual(result, [{"y": 2024}, {"y": 2025}, {"y": 2026}])
@@ -89,11 +89,11 @@ class TestQueryChunkedDataProduct(unittest.TestCase):
         self.assertEqual(
             mock_query.call_args_list,
             [
-                call(instrument="mag", data_level="l1d", ingestion_start_date="20240101", ingestion_end_date="20241231"),
-                call(instrument="mag", data_level="l1d", ingestion_start_date="20250101", ingestion_end_date="20251231"),
-                call(instrument="mag", data_level="l1d", ingestion_start_date="20260101", ingestion_end_date="20261231"),
-                call(instrument="mag", data_level="l1d", ingestion_start_date="20260101", ingestion_end_date="20260702"),
-                call(instrument="mag", data_level="l1d", ingestion_start_date="20260703", ingestion_end_date="20261231"),
+                call(instrument="mag", data_level="l1d", ingestion_start_date="20240101", ingestion_end_date="20241231", version="latest"),
+                call(instrument="mag", data_level="l1d", ingestion_start_date="20250101", ingestion_end_date="20251231", version="latest"),
+                call(instrument="mag", data_level="l1d", ingestion_start_date="20260101", ingestion_end_date="20261231", version="latest"),
+                call(instrument="mag", data_level="l1d", ingestion_start_date="20260101", ingestion_end_date="20260702", version="latest"),
+                call(instrument="mag", data_level="l1d", ingestion_start_date="20260703", ingestion_end_date="20261231", version="latest"),
             ],
         )
         self.assertEqual(result, [{"half": 1}, {"half": 2}])
@@ -112,7 +112,7 @@ class TestQueryChunkedDataProduct(unittest.TestCase):
             ("20260101", "20260702"),
         }
 
-        def side_effect(*, instrument, data_level, ingestion_start_date, ingestion_end_date):
+        def side_effect(*, ingestion_start_date, ingestion_end_date, **kwargs):
             key = (ingestion_start_date, ingestion_end_date)
             if key in errors_by_range:
                 raise IMAPDataAccessError("500 Internal Server Error")
@@ -135,11 +135,11 @@ class TestQueryChunkedDataProduct(unittest.TestCase):
         self.assertEqual(
             mock_query.call_args_list,
             [
-                call(instrument="mag", data_level="l1d", ingestion_start_date="20240101", ingestion_end_date="20241231"),
-                call(instrument="mag", data_level="l1d", ingestion_start_date="20240101", ingestion_end_date="20240701"),
-                call(instrument="mag", data_level="l1d", ingestion_start_date="20240101", ingestion_end_date="20240401"),
-                call(instrument="mag", data_level="l1d", ingestion_start_date="20240101", ingestion_end_date="20240215"),
-                call(instrument="mag", data_level="l1d", ingestion_start_date="20240101", ingestion_end_date="20240123"),
+                call(instrument="mag", data_level="l1d", ingestion_start_date="20240101", ingestion_end_date="20241231", version="latest"),
+                call(instrument="mag", data_level="l1d", ingestion_start_date="20240101", ingestion_end_date="20240701", version="latest"),
+                call(instrument="mag", data_level="l1d", ingestion_start_date="20240101", ingestion_end_date="20240401", version="latest"),
+                call(instrument="mag", data_level="l1d", ingestion_start_date="20240101", ingestion_end_date="20240215", version="latest"),
+                call(instrument="mag", data_level="l1d", ingestion_start_date="20240101", ingestion_end_date="20240123", version="latest"),
             ],
         )
 

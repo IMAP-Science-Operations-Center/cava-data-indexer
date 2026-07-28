@@ -114,7 +114,7 @@ class TestMultiDimensionVariableSelector(TestCase):
 
         self.assertFalse(MultiDimensionVariableSelector.should_include(variable, self.mock_cdf))
 
-    def test_does_not_accept_log_scale_axis_with_invalid_scalemin(self):
+    def test_accepts_log_scale_axis_with_invalid_scalemin_because_cava_can_auto_range(self):
         var_with_invalid_log_scalemin = Mock()
         var_with_invalid_log_scalemin.attrs = {
             "CATDESC": "var_with_unknown_time_unit",
@@ -127,7 +127,7 @@ class TestMultiDimensionVariableSelector(TestCase):
         }
         var_with_invalid_log_scalemin.shape = (1,)
 
-        self.assertFalse(MultiDimensionVariableSelector.should_include(var_with_invalid_log_scalemin, self.mock_cdf))
+        self.assertTrue(MultiDimensionVariableSelector.should_include(var_with_invalid_log_scalemin, self.mock_cdf))
 
     def test_does_not_accept_variable_with_unknown_time_unit(self):
         var_with_unknown_time_unit = Mock()
