@@ -26107,6 +26107,11 @@
         "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-heplusplus-3d-distribution_20260726_v001.0001.cdf"
       },
       {
+        "start_time": "2026-07-27T00:00:00+00:00",
+        "end_time": "2026-07-28T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-heplusplus-3d-distribution_20260727_v001.0001.cdf"
+      },
+      {
         "start_time": "2026-07-28T00:00:00+00:00",
         "end_time": "2026-07-29T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-heplusplus-3d-distribution_20260728_v001.0001.cdf"
@@ -27344,6 +27349,16 @@
         "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-hplus-3d-distribution_20260726_v001.0001.cdf"
       },
       {
+        "start_time": "2026-07-27T00:00:00+00:00",
+        "end_time": "2026-07-28T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-hplus-3d-distribution_20260727_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-28T00:00:00+00:00",
+        "end_time": "2026-07-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-hplus-3d-distribution_20260728_v001.0001.cdf"
+      },
+      {
         "start_time": "2026-07-29T00:00:00+00:00",
         "end_time": "2026-07-30T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-hplus-3d-distribution_20260729_v001.0001.cdf"
@@ -28574,6 +28589,16 @@
         "start_time": "2026-07-26T00:00:00+00:00",
         "end_time": "2026-07-27T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-oplus6-3d-distribution_20260726_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-27T00:00:00+00:00",
+        "end_time": "2026-07-28T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-oplus6-3d-distribution_20260727_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-28T00:00:00+00:00",
+        "end_time": "2026-07-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-oplus6-3d-distribution_20260728_v001.0001.cdf"
       },
       {
         "start_time": "2026-07-29T00:00:00+00:00",
@@ -29917,6 +29942,11 @@
         "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-partial-densities_20260727_v001.0001.cdf"
       },
       {
+        "start_time": "2026-07-28T00:00:00+00:00",
+        "end_time": "2026-07-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-partial-densities_20260728_v001.0001.cdf"
+      },
+      {
         "start_time": "2026-07-29T00:00:00+00:00",
         "end_time": "2026-07-30T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-partial-densities_20260729_v001.0001.cdf"
@@ -29944,7 +29974,7 @@
     ],
     "logical_source": "imap_codice_l3a_lo-sw-charge-state-distributions",
     "logical_source_description": "IMAP Mission CoDICE Instrument Charge State Distributions",
-    "generation_date": "2026-07-27",
+    "generation_date": "2026-07-29",
     "data_level": "l3a",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -31145,6 +31175,21 @@
         "start_time": "2026-07-26T00:00:00+00:00",
         "end_time": "2026-07-27T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-sw-charge-state-distributions_20260726_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-27T00:00:00+00:00",
+        "end_time": "2026-07-28T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-sw-charge-state-distributions_20260727_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-28T00:00:00+00:00",
+        "end_time": "2026-07-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-sw-charge-state-distributions_20260728_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-29T00:00:00+00:00",
+        "end_time": "2026-07-30T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-sw-charge-state-distributions_20260729_v001.0001.cdf"
       }
     ]
   },
@@ -31209,7 +31254,7 @@
     ],
     "logical_source": "imap_codice_l3a_lo-sw-ratios",
     "logical_source_description": "IMAP Mission CoDICE Lo Instrument SW Ratios",
-    "generation_date": "2026-07-27",
+    "generation_date": "2026-07-29",
     "data_level": "l3a",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -32410,6 +32455,21 @@
         "start_time": "2026-07-26T00:00:00+00:00",
         "end_time": "2026-07-27T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-sw-ratios_20260726_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-27T00:00:00+00:00",
+        "end_time": "2026-07-28T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-sw-ratios_20260727_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-28T00:00:00+00:00",
+        "end_time": "2026-07-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-sw-ratios_20260728_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-29T00:00:00+00:00",
+        "end_time": "2026-07-30T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/07/imap_codice_l3a_lo-sw-ratios_20260729_v001.0001.cdf"
       }
     ]
   },
@@ -36347,7 +36407,7 @@
     ],
     "logical_source": "imap_glows_l3d_solar-hist",
     "logical_source_description": "IMAP Mission GLOWS Carrington period-averaged solar history",
-    "generation_date": "2026-07-28",
+    "generation_date": "2026-07-29",
     "data_level": "l3d",
     "instrument": "GLOWS",
     "mission": "IMAP",
@@ -36357,7 +36417,7 @@
       {
         "start_time": "2026-07-06T07:44:32.639992+00:00",
         "end_time": "2026-08-02T14:20:58.559992+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3d/1947/03/imap_glows_l3d_solar-hist_19470303-cr02313_v001.0022.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3d/1947/03/imap_glows_l3d_solar-hist_19470303-cr02313_v001.0023.cdf"
       }
     ]
   },
@@ -47056,7 +47116,7 @@
     ],
     "logical_source": "imap_hi_l3_h45-ena-h-hf-sp-full-hae-4deg-6mo",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-45 Sensor, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 6 Month Map",
-    "generation_date": "2026-07-28",
+    "generation_date": "2026-07-29",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -47071,7 +47131,7 @@
       {
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2026-07-18T15:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h45-ena-h-hf-sp-full-hae-4deg-6mo_20260117_v001.0006.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h45-ena-h-hf-sp-full-hae-4deg-6mo_20260117_v001.0007.cdf"
       }
     ]
   },
@@ -47112,7 +47172,7 @@
     ],
     "logical_source": "imap_hi_l3_h45-ena-h-hf-sp-full-hae-6deg-6mo",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-45 Sensor, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 6 Month Map",
-    "generation_date": "2026-07-28",
+    "generation_date": "2026-07-29",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -47127,7 +47187,7 @@
       {
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2026-07-18T15:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h45-ena-h-hf-sp-full-hae-6deg-6mo_20260117_v001.0006.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h45-ena-h-hf-sp-full-hae-6deg-6mo_20260117_v001.0007.cdf"
       }
     ]
   },
@@ -47286,7 +47346,7 @@
     ],
     "logical_source": "imap_hi_l3_h90-ena-h-hf-sp-full-hae-4deg-6mo",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 6 Month Map",
-    "generation_date": "2026-07-28",
+    "generation_date": "2026-07-29",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -47301,7 +47361,7 @@
       {
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2026-07-18T15:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h90-ena-h-hf-sp-full-hae-4deg-6mo_20260117_v001.0006.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h90-ena-h-hf-sp-full-hae-4deg-6mo_20260117_v001.0007.cdf"
       }
     ]
   },
@@ -47342,7 +47402,7 @@
     ],
     "logical_source": "imap_hi_l3_h90-ena-h-hf-sp-full-hae-6deg-6mo",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 6 Month Map",
-    "generation_date": "2026-07-28",
+    "generation_date": "2026-07-29",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -47357,7 +47417,7 @@
       {
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2026-07-18T15:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h90-ena-h-hf-sp-full-hae-6deg-6mo_20260117_v001.0006.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h90-ena-h-hf-sp-full-hae-6deg-6mo_20260117_v001.0007.cdf"
       }
     ]
   },
@@ -47398,7 +47458,7 @@
     ],
     "logical_source": "imap_hi_l3_h90-ena-h-sf-sp-full-hae-4deg-6mo",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 6 Month Map",
-    "generation_date": "2026-07-28",
+    "generation_date": "2026-07-29",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -47413,7 +47473,7 @@
       {
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2026-07-18T15:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h90-ena-h-sf-sp-full-hae-4deg-6mo_20260117_v001.0006.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h90-ena-h-sf-sp-full-hae-4deg-6mo_20260117_v001.0007.cdf"
       }
     ]
   },
@@ -47454,7 +47514,7 @@
     ],
     "logical_source": "imap_hi_l3_h90-ena-h-sf-sp-full-hae-6deg-6mo",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 6 Month Map",
-    "generation_date": "2026-07-28",
+    "generation_date": "2026-07-29",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -47469,7 +47529,7 @@
       {
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2026-07-18T15:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h90-ena-h-sf-sp-full-hae-6deg-6mo_20260117_v001.0006.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h90-ena-h-sf-sp-full-hae-6deg-6mo_20260117_v001.0007.cdf"
       }
     ]
   },
