@@ -47914,7 +47914,7 @@
     ],
     "logical_source": "imap_hit_l2_macropixel-intensity",
     "logical_source_description": "IMAP Mission HIT Instrument Level-2 Macro Pixel Intensity Data.",
-    "generation_date": "2026-06-07",
+    "generation_date": "2026-08-03",
     "data_level": "l2",
     "instrument": "HIT",
     "mission": "IMAP",
@@ -49014,7 +49014,357 @@
       {
         "start_time": "2026-05-19T00:00:00+00:00",
         "end_time": "2026-05-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_macropixel-intensity_20260519_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_macropixel-intensity_20260519_v001.0003.cdf"
+      },
+      {
+        "start_time": "2026-05-20T00:00:00+00:00",
+        "end_time": "2026-05-21T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_macropixel-intensity_20260520_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-05-21T00:00:00+00:00",
+        "end_time": "2026-05-22T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_macropixel-intensity_20260521_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-05-22T00:00:00+00:00",
+        "end_time": "2026-05-23T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_macropixel-intensity_20260522_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-05-23T00:00:00+00:00",
+        "end_time": "2026-05-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_macropixel-intensity_20260523_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-05-25T00:00:00+00:00",
+        "end_time": "2026-05-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_macropixel-intensity_20260525_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-05-26T00:00:00+00:00",
+        "end_time": "2026-05-27T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_macropixel-intensity_20260526_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-05-27T00:00:00+00:00",
+        "end_time": "2026-05-28T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_macropixel-intensity_20260527_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-05-28T00:00:00+00:00",
+        "end_time": "2026-05-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_macropixel-intensity_20260528_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-05-29T00:00:00+00:00",
+        "end_time": "2026-05-30T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_macropixel-intensity_20260529_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-05-30T00:00:00+00:00",
+        "end_time": "2026-05-31T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_macropixel-intensity_20260530_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-05-31T00:00:00+00:00",
+        "end_time": "2026-06-01T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_macropixel-intensity_20260531_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-01T00:00:00+00:00",
+        "end_time": "2026-06-02T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260601_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-02T00:00:00+00:00",
+        "end_time": "2026-06-03T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260602_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-03T00:00:00+00:00",
+        "end_time": "2026-06-04T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260603_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-04T00:00:00+00:00",
+        "end_time": "2026-06-05T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260604_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-05T00:00:00+00:00",
+        "end_time": "2026-06-06T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260605_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-07T00:00:00+00:00",
+        "end_time": "2026-06-08T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260607_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-08T00:00:00+00:00",
+        "end_time": "2026-06-09T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260608_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-09T00:00:00+00:00",
+        "end_time": "2026-06-10T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260609_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-10T00:00:00+00:00",
+        "end_time": "2026-06-11T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260610_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-11T00:00:00+00:00",
+        "end_time": "2026-06-12T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260611_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-13T00:00:00+00:00",
+        "end_time": "2026-06-14T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260613_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-14T00:00:00+00:00",
+        "end_time": "2026-06-15T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260614_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-15T00:00:00+00:00",
+        "end_time": "2026-06-16T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260615_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-16T00:00:00+00:00",
+        "end_time": "2026-06-17T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260616_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-17T00:00:00+00:00",
+        "end_time": "2026-06-18T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260617_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-18T00:00:00+00:00",
+        "end_time": "2026-06-19T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260618_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-19T00:00:00+00:00",
+        "end_time": "2026-06-20T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260619_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-21T00:00:00+00:00",
+        "end_time": "2026-06-22T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260621_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-22T00:00:00+00:00",
+        "end_time": "2026-06-23T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260622_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-23T00:00:00+00:00",
+        "end_time": "2026-06-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260623_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-24T00:00:00+00:00",
+        "end_time": "2026-06-25T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260624_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-25T00:00:00+00:00",
+        "end_time": "2026-06-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260625_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-26T00:00:00+00:00",
+        "end_time": "2026-06-27T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260626_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-27T00:00:00+00:00",
+        "end_time": "2026-06-28T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260627_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-28T00:00:00+00:00",
+        "end_time": "2026-06-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260628_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-29T00:00:00+00:00",
+        "end_time": "2026-06-30T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260629_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-30T00:00:00+00:00",
+        "end_time": "2026-07-01T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_macropixel-intensity_20260630_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-01T00:00:00+00:00",
+        "end_time": "2026-07-02T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260701_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-02T00:00:00+00:00",
+        "end_time": "2026-07-03T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260702_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-03T00:00:00+00:00",
+        "end_time": "2026-07-04T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260703_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-04T00:00:00+00:00",
+        "end_time": "2026-07-05T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260704_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-05T00:00:00+00:00",
+        "end_time": "2026-07-06T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260705_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-06T00:00:00+00:00",
+        "end_time": "2026-07-07T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260706_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-07T00:00:00+00:00",
+        "end_time": "2026-07-08T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260707_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-08T00:00:00+00:00",
+        "end_time": "2026-07-09T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260708_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-09T00:00:00+00:00",
+        "end_time": "2026-07-10T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260709_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-10T00:00:00+00:00",
+        "end_time": "2026-07-11T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260710_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-11T00:00:00+00:00",
+        "end_time": "2026-07-12T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260711_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-12T00:00:00+00:00",
+        "end_time": "2026-07-13T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260712_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-13T00:00:00+00:00",
+        "end_time": "2026-07-14T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260713_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-14T00:00:00+00:00",
+        "end_time": "2026-07-15T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260714_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-15T00:00:00+00:00",
+        "end_time": "2026-07-16T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260715_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-16T00:00:00+00:00",
+        "end_time": "2026-07-17T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260716_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-17T00:00:00+00:00",
+        "end_time": "2026-07-18T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260717_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-18T00:00:00+00:00",
+        "end_time": "2026-07-19T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260718_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-19T00:00:00+00:00",
+        "end_time": "2026-07-20T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260719_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-20T00:00:00+00:00",
+        "end_time": "2026-07-21T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260720_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-21T00:00:00+00:00",
+        "end_time": "2026-07-22T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260721_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-22T00:00:00+00:00",
+        "end_time": "2026-07-23T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260722_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-23T00:00:00+00:00",
+        "end_time": "2026-07-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260723_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-24T00:00:00+00:00",
+        "end_time": "2026-07-25T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260724_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-25T00:00:00+00:00",
+        "end_time": "2026-07-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260725_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-26T00:00:00+00:00",
+        "end_time": "2026-07-27T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260726_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-27T00:00:00+00:00",
+        "end_time": "2026-07-28T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260727_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-28T00:00:00+00:00",
+        "end_time": "2026-07-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260728_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-29T00:00:00+00:00",
+        "end_time": "2026-07-30T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260729_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-30T00:00:00+00:00",
+        "end_time": "2026-07-31T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260730_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-31T00:00:00+00:00",
+        "end_time": "2026-08-01T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_macropixel-intensity_20260731_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-08-01T00:00:00+00:00",
+        "end_time": "2026-08-02T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/08/imap_hit_l2_macropixel-intensity_20260801_v001.0001.cdf"
       }
     ]
   },
@@ -50312,27 +50662,27 @@
       {
         "start_time": "2026-05-19T00:00:00+00:00",
         "end_time": "2026-05-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260519_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260519_v001.0003.cdf"
       },
       {
         "start_time": "2026-05-20T00:00:00+00:00",
         "end_time": "2026-05-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260520_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260520_v001.0002.cdf"
       },
       {
         "start_time": "2026-05-21T00:00:00+00:00",
         "end_time": "2026-05-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260521_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260521_v001.0002.cdf"
       },
       {
         "start_time": "2026-05-22T00:00:00+00:00",
         "end_time": "2026-05-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260522_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260522_v001.0002.cdf"
       },
       {
         "start_time": "2026-05-23T00:00:00+00:00",
         "end_time": "2026-05-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260523_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260523_v001.0002.cdf"
       },
       {
         "start_time": "2026-05-24T00:00:00+00:00",
@@ -50342,342 +50692,342 @@
       {
         "start_time": "2026-05-25T00:00:00+00:00",
         "end_time": "2026-05-26T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260525_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260525_v001.0002.cdf"
       },
       {
         "start_time": "2026-05-26T00:00:00+00:00",
         "end_time": "2026-05-27T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260526_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260526_v001.0002.cdf"
       },
       {
         "start_time": "2026-05-27T00:00:00+00:00",
         "end_time": "2026-05-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260527_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260527_v001.0002.cdf"
       },
       {
         "start_time": "2026-05-28T00:00:00+00:00",
         "end_time": "2026-05-29T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260528_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260528_v001.0002.cdf"
       },
       {
         "start_time": "2026-05-29T00:00:00+00:00",
         "end_time": "2026-05-30T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260529_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260529_v001.0002.cdf"
       },
       {
         "start_time": "2026-05-30T00:00:00+00:00",
         "end_time": "2026-05-31T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260530_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260530_v001.0002.cdf"
       },
       {
         "start_time": "2026-05-31T00:00:00+00:00",
         "end_time": "2026-06-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260531_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_standard-intensity_20260531_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-01T00:00:00+00:00",
         "end_time": "2026-06-02T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260601_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260601_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-02T00:00:00+00:00",
         "end_time": "2026-06-03T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260602_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260602_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-03T00:00:00+00:00",
         "end_time": "2026-06-04T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260603_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260603_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-04T00:00:00+00:00",
         "end_time": "2026-06-05T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260604_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260604_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-05T00:00:00+00:00",
         "end_time": "2026-06-06T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260605_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260605_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-06T00:00:00+00:00",
         "end_time": "2026-06-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260606_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260606_v001.0004.cdf"
       },
       {
         "start_time": "2026-06-07T00:00:00+00:00",
         "end_time": "2026-06-08T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260607_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260607_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-08T00:00:00+00:00",
         "end_time": "2026-06-09T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260608_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260608_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-09T00:00:00+00:00",
         "end_time": "2026-06-10T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260609_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260609_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-10T00:00:00+00:00",
         "end_time": "2026-06-11T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260610_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260610_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-11T00:00:00+00:00",
         "end_time": "2026-06-12T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260611_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260611_v001.0004.cdf"
       },
       {
         "start_time": "2026-06-12T00:00:00+00:00",
         "end_time": "2026-06-13T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260612_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260612_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-13T00:00:00+00:00",
         "end_time": "2026-06-14T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260613_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260613_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-14T00:00:00+00:00",
         "end_time": "2026-06-15T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260614_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260614_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-15T00:00:00+00:00",
         "end_time": "2026-06-16T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260615_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260615_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-16T00:00:00+00:00",
         "end_time": "2026-06-17T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260616_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260616_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-17T00:00:00+00:00",
         "end_time": "2026-06-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260617_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260617_v001.0004.cdf"
       },
       {
         "start_time": "2026-06-18T00:00:00+00:00",
         "end_time": "2026-06-19T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260618_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260618_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-19T00:00:00+00:00",
         "end_time": "2026-06-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260619_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260619_v001.0004.cdf"
       },
       {
         "start_time": "2026-06-21T00:00:00+00:00",
         "end_time": "2026-06-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260621_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260621_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-22T00:00:00+00:00",
         "end_time": "2026-06-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260622_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260622_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-23T00:00:00+00:00",
         "end_time": "2026-06-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260623_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260623_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-24T00:00:00+00:00",
         "end_time": "2026-06-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260624_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260624_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-25T00:00:00+00:00",
         "end_time": "2026-06-26T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260625_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260625_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-26T00:00:00+00:00",
         "end_time": "2026-06-27T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260626_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260626_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-27T00:00:00+00:00",
         "end_time": "2026-06-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260627_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260627_v001.0004.cdf"
       },
       {
         "start_time": "2026-06-28T00:00:00+00:00",
         "end_time": "2026-06-29T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260628_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260628_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-29T00:00:00+00:00",
         "end_time": "2026-06-30T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260629_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260629_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-30T00:00:00+00:00",
         "end_time": "2026-07-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260630_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_standard-intensity_20260630_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-01T00:00:00+00:00",
         "end_time": "2026-07-02T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260701_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260701_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-02T00:00:00+00:00",
         "end_time": "2026-07-03T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260702_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260702_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-03T00:00:00+00:00",
         "end_time": "2026-07-04T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260703_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260703_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-04T00:00:00+00:00",
         "end_time": "2026-07-05T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260704_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260704_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-05T00:00:00+00:00",
         "end_time": "2026-07-06T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260705_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260705_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-06T00:00:00+00:00",
         "end_time": "2026-07-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260706_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260706_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-07T00:00:00+00:00",
         "end_time": "2026-07-08T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260707_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260707_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-08T00:00:00+00:00",
         "end_time": "2026-07-09T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260708_v001.0005.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260708_v001.0006.cdf"
       },
       {
         "start_time": "2026-07-09T00:00:00+00:00",
         "end_time": "2026-07-10T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260709_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260709_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-10T00:00:00+00:00",
         "end_time": "2026-07-11T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260710_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260710_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-11T00:00:00+00:00",
         "end_time": "2026-07-12T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260711_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260711_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-12T00:00:00+00:00",
         "end_time": "2026-07-13T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260712_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260712_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-13T00:00:00+00:00",
         "end_time": "2026-07-14T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260713_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260713_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-14T00:00:00+00:00",
         "end_time": "2026-07-15T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260714_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260714_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-15T00:00:00+00:00",
         "end_time": "2026-07-16T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260715_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260715_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-16T00:00:00+00:00",
         "end_time": "2026-07-17T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260716_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260716_v001.0004.cdf"
       },
       {
         "start_time": "2026-07-17T00:00:00+00:00",
         "end_time": "2026-07-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260717_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260717_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-18T00:00:00+00:00",
         "end_time": "2026-07-19T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260718_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260718_v001.0004.cdf"
       },
       {
         "start_time": "2026-07-19T00:00:00+00:00",
         "end_time": "2026-07-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260719_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260719_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-20T00:00:00+00:00",
         "end_time": "2026-07-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260720_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260720_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-21T00:00:00+00:00",
         "end_time": "2026-07-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260721_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260721_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-22T00:00:00+00:00",
         "end_time": "2026-07-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260722_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260722_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-23T00:00:00+00:00",
         "end_time": "2026-07-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260723_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260723_v001.0004.cdf"
       },
       {
         "start_time": "2026-07-24T00:00:00+00:00",
         "end_time": "2026-07-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260724_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260724_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-25T00:00:00+00:00",
         "end_time": "2026-07-26T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260725_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260725_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-26T00:00:00+00:00",
         "end_time": "2026-07-27T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260726_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260726_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-27T00:00:00+00:00",
         "end_time": "2026-07-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260727_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260727_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-28T00:00:00+00:00",
         "end_time": "2026-07-29T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260728_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260728_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-29T00:00:00+00:00",
         "end_time": "2026-07-30T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260729_v001.0004.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260729_v001.0005.cdf"
       },
       {
         "start_time": "2026-07-30T00:00:00+00:00",
         "end_time": "2026-07-31T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260730_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260730_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-31T00:00:00+00:00",
         "end_time": "2026-08-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260731_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_standard-intensity_20260731_v001.0003.cdf"
       },
       {
         "start_time": "2026-08-01T00:00:00+00:00",
         "end_time": "2026-08-02T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/08/imap_hit_l2_standard-intensity_20260801_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/08/imap_hit_l2_standard-intensity_20260801_v001.0002.cdf"
       }
     ]
   },
@@ -51975,27 +52325,27 @@
       {
         "start_time": "2026-05-19T00:00:00+00:00",
         "end_time": "2026-05-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260519_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260519_v001.0003.cdf"
       },
       {
         "start_time": "2026-05-20T00:00:00+00:00",
         "end_time": "2026-05-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260520_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260520_v001.0002.cdf"
       },
       {
         "start_time": "2026-05-21T00:00:00+00:00",
         "end_time": "2026-05-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260521_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260521_v001.0002.cdf"
       },
       {
         "start_time": "2026-05-22T00:00:00+00:00",
         "end_time": "2026-05-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260522_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260522_v001.0002.cdf"
       },
       {
         "start_time": "2026-05-23T00:00:00+00:00",
         "end_time": "2026-05-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260523_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260523_v001.0002.cdf"
       },
       {
         "start_time": "2026-05-24T00:00:00+00:00",
@@ -52005,337 +52355,342 @@
       {
         "start_time": "2026-05-25T00:00:00+00:00",
         "end_time": "2026-05-26T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260525_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260525_v001.0002.cdf"
       },
       {
         "start_time": "2026-05-26T00:00:00+00:00",
         "end_time": "2026-05-27T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260526_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260526_v001.0002.cdf"
       },
       {
         "start_time": "2026-05-27T00:00:00+00:00",
         "end_time": "2026-05-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260527_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260527_v001.0002.cdf"
       },
       {
         "start_time": "2026-05-28T00:00:00+00:00",
         "end_time": "2026-05-29T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260528_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260528_v001.0002.cdf"
       },
       {
         "start_time": "2026-05-29T00:00:00+00:00",
         "end_time": "2026-05-30T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260529_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260529_v001.0002.cdf"
       },
       {
         "start_time": "2026-05-30T00:00:00+00:00",
         "end_time": "2026-05-31T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260530_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260530_v001.0002.cdf"
       },
       {
         "start_time": "2026-05-31T00:00:00+00:00",
         "end_time": "2026-06-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260531_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/05/imap_hit_l2_summed-intensity_20260531_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-01T00:00:00+00:00",
         "end_time": "2026-06-02T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260601_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260601_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-02T00:00:00+00:00",
         "end_time": "2026-06-03T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260602_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260602_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-03T00:00:00+00:00",
         "end_time": "2026-06-04T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260603_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260603_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-04T00:00:00+00:00",
         "end_time": "2026-06-05T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260604_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260604_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-05T00:00:00+00:00",
         "end_time": "2026-06-06T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260605_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260605_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-06T00:00:00+00:00",
         "end_time": "2026-06-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260606_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260606_v001.0004.cdf"
       },
       {
         "start_time": "2026-06-07T00:00:00+00:00",
         "end_time": "2026-06-08T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260607_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260607_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-08T00:00:00+00:00",
         "end_time": "2026-06-09T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260608_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260608_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-09T00:00:00+00:00",
         "end_time": "2026-06-10T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260609_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260609_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-10T00:00:00+00:00",
         "end_time": "2026-06-11T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260610_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260610_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-11T00:00:00+00:00",
         "end_time": "2026-06-12T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260611_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260611_v001.0004.cdf"
       },
       {
         "start_time": "2026-06-12T00:00:00+00:00",
         "end_time": "2026-06-13T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260612_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260612_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-13T00:00:00+00:00",
         "end_time": "2026-06-14T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260613_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260613_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-14T00:00:00+00:00",
         "end_time": "2026-06-15T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260614_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260614_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-15T00:00:00+00:00",
         "end_time": "2026-06-16T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260615_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260615_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-16T00:00:00+00:00",
         "end_time": "2026-06-17T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260616_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260616_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-17T00:00:00+00:00",
         "end_time": "2026-06-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260617_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260617_v001.0004.cdf"
       },
       {
         "start_time": "2026-06-18T00:00:00+00:00",
         "end_time": "2026-06-19T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260618_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260618_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-19T00:00:00+00:00",
         "end_time": "2026-06-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260619_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260619_v001.0004.cdf"
       },
       {
         "start_time": "2026-06-21T00:00:00+00:00",
         "end_time": "2026-06-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260621_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260621_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-22T00:00:00+00:00",
         "end_time": "2026-06-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260622_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260622_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-23T00:00:00+00:00",
         "end_time": "2026-06-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260623_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260623_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-24T00:00:00+00:00",
         "end_time": "2026-06-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260624_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260624_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-25T00:00:00+00:00",
         "end_time": "2026-06-26T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260625_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260625_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-26T00:00:00+00:00",
         "end_time": "2026-06-27T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260626_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260626_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-27T00:00:00+00:00",
         "end_time": "2026-06-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260627_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260627_v001.0004.cdf"
       },
       {
         "start_time": "2026-06-28T00:00:00+00:00",
         "end_time": "2026-06-29T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260628_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260628_v001.0002.cdf"
       },
       {
         "start_time": "2026-06-29T00:00:00+00:00",
         "end_time": "2026-06-30T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260629_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260629_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-30T00:00:00+00:00",
         "end_time": "2026-07-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260630_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/06/imap_hit_l2_summed-intensity_20260630_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-01T00:00:00+00:00",
         "end_time": "2026-07-02T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260701_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260701_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-02T00:00:00+00:00",
         "end_time": "2026-07-03T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260702_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260702_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-03T00:00:00+00:00",
         "end_time": "2026-07-04T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260703_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260703_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-04T00:00:00+00:00",
         "end_time": "2026-07-05T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260704_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260704_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-05T00:00:00+00:00",
         "end_time": "2026-07-06T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260705_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260705_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-06T00:00:00+00:00",
         "end_time": "2026-07-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260706_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260706_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-07T00:00:00+00:00",
         "end_time": "2026-07-08T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260707_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260707_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-08T00:00:00+00:00",
         "end_time": "2026-07-09T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260708_v001.0005.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260708_v001.0006.cdf"
       },
       {
         "start_time": "2026-07-09T00:00:00+00:00",
         "end_time": "2026-07-10T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260709_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260709_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-10T00:00:00+00:00",
         "end_time": "2026-07-11T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260710_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260710_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-11T00:00:00+00:00",
         "end_time": "2026-07-12T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260711_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260711_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-12T00:00:00+00:00",
         "end_time": "2026-07-13T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260712_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260712_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-07-13T00:00:00+00:00",
+        "end_time": "2026-07-14T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260713_v001.0001.cdf"
       },
       {
         "start_time": "2026-07-14T00:00:00+00:00",
         "end_time": "2026-07-15T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260714_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260714_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-15T00:00:00+00:00",
         "end_time": "2026-07-16T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260715_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260715_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-16T00:00:00+00:00",
         "end_time": "2026-07-17T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260716_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260716_v001.0004.cdf"
       },
       {
         "start_time": "2026-07-17T00:00:00+00:00",
         "end_time": "2026-07-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260717_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260717_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-18T00:00:00+00:00",
         "end_time": "2026-07-19T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260718_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260718_v001.0004.cdf"
       },
       {
         "start_time": "2026-07-19T00:00:00+00:00",
         "end_time": "2026-07-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260719_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260719_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-20T00:00:00+00:00",
         "end_time": "2026-07-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260720_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260720_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-21T00:00:00+00:00",
         "end_time": "2026-07-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260721_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260721_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-22T00:00:00+00:00",
         "end_time": "2026-07-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260722_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260722_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-23T00:00:00+00:00",
         "end_time": "2026-07-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260723_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260723_v001.0004.cdf"
       },
       {
         "start_time": "2026-07-24T00:00:00+00:00",
         "end_time": "2026-07-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260724_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260724_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-25T00:00:00+00:00",
         "end_time": "2026-07-26T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260725_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260725_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-26T00:00:00+00:00",
         "end_time": "2026-07-27T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260726_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260726_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-27T00:00:00+00:00",
         "end_time": "2026-07-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260727_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260727_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-28T00:00:00+00:00",
         "end_time": "2026-07-29T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260728_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260728_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-29T00:00:00+00:00",
         "end_time": "2026-07-30T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260729_v001.0004.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260729_v001.0005.cdf"
       },
       {
         "start_time": "2026-07-30T00:00:00+00:00",
         "end_time": "2026-07-31T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260730_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260730_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-31T00:00:00+00:00",
         "end_time": "2026-08-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260731_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/07/imap_hit_l2_summed-intensity_20260731_v001.0003.cdf"
       },
       {
         "start_time": "2026-08-01T00:00:00+00:00",
         "end_time": "2026-08-02T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/08/imap_hit_l2_summed-intensity_20260801_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/08/imap_hit_l2_summed-intensity_20260801_v001.0002.cdf"
       }
     ]
   },
@@ -53673,12 +54028,12 @@
       {
         "start_time": "2026-05-19T00:00:00+00:00",
         "end_time": "2026-05-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_direct-events_20260519_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_direct-events_20260519_v001.0004.cdf"
       },
       {
         "start_time": "2026-05-20T00:00:00+00:00",
         "end_time": "2026-05-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_direct-events_20260520_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_direct-events_20260520_v001.0003.cdf"
       },
       {
         "start_time": "2026-05-21T00:00:00+00:00",
@@ -53688,12 +54043,12 @@
       {
         "start_time": "2026-05-22T00:00:00+00:00",
         "end_time": "2026-05-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_direct-events_20260522_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_direct-events_20260522_v001.0003.cdf"
       },
       {
         "start_time": "2026-05-23T00:00:00+00:00",
         "end_time": "2026-05-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_direct-events_20260523_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_direct-events_20260523_v001.0003.cdf"
       },
       {
         "start_time": "2026-05-24T00:00:00+00:00",
@@ -53703,12 +54058,12 @@
       {
         "start_time": "2026-05-25T00:00:00+00:00",
         "end_time": "2026-05-26T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_direct-events_20260525_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_direct-events_20260525_v001.0003.cdf"
       },
       {
         "start_time": "2026-05-26T00:00:00+00:00",
         "end_time": "2026-05-27T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_direct-events_20260526_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_direct-events_20260526_v001.0003.cdf"
       },
       {
         "start_time": "2026-05-27T00:00:00+00:00",
@@ -53718,22 +54073,22 @@
       {
         "start_time": "2026-05-28T00:00:00+00:00",
         "end_time": "2026-05-29T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_direct-events_20260528_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_direct-events_20260528_v001.0003.cdf"
       },
       {
         "start_time": "2026-05-29T00:00:00+00:00",
         "end_time": "2026-05-30T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_direct-events_20260529_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_direct-events_20260529_v001.0003.cdf"
       },
       {
         "start_time": "2026-05-30T00:00:00+00:00",
         "end_time": "2026-05-31T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_direct-events_20260530_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_direct-events_20260530_v001.0003.cdf"
       },
       {
         "start_time": "2026-05-31T00:00:00+00:00",
         "end_time": "2026-06-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_direct-events_20260531_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_direct-events_20260531_v001.0004.cdf"
       },
       {
         "start_time": "2026-06-01T00:00:00+00:00",
@@ -53753,17 +54108,17 @@
       {
         "start_time": "2026-06-04T00:00:00+00:00",
         "end_time": "2026-06-05T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260604_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260604_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-05T00:00:00+00:00",
         "end_time": "2026-06-06T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260605_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260605_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-06T00:00:00+00:00",
         "end_time": "2026-06-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260606_v001.0004.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260606_v001.0005.cdf"
       },
       {
         "start_time": "2026-06-07T00:00:00+00:00",
@@ -53773,17 +54128,17 @@
       {
         "start_time": "2026-06-08T00:00:00+00:00",
         "end_time": "2026-06-09T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260608_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260608_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-09T00:00:00+00:00",
         "end_time": "2026-06-10T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260609_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260609_v001.0004.cdf"
       },
       {
         "start_time": "2026-06-10T00:00:00+00:00",
         "end_time": "2026-06-11T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260610_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260610_v001.0004.cdf"
       },
       {
         "start_time": "2026-06-11T00:00:00+00:00",
@@ -53793,12 +54148,12 @@
       {
         "start_time": "2026-06-12T00:00:00+00:00",
         "end_time": "2026-06-13T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260612_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260612_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-13T00:00:00+00:00",
         "end_time": "2026-06-14T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260613_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260613_v001.0004.cdf"
       },
       {
         "start_time": "2026-06-14T00:00:00+00:00",
@@ -53818,7 +54173,7 @@
       {
         "start_time": "2026-06-17T00:00:00+00:00",
         "end_time": "2026-06-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260617_v001.0004.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260617_v001.0005.cdf"
       },
       {
         "start_time": "2026-06-18T00:00:00+00:00",
@@ -53828,7 +54183,7 @@
       {
         "start_time": "2026-06-19T00:00:00+00:00",
         "end_time": "2026-06-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260619_v001.0004.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260619_v001.0005.cdf"
       },
       {
         "start_time": "2026-06-21T00:00:00+00:00",
@@ -53838,7 +54193,7 @@
       {
         "start_time": "2026-06-22T00:00:00+00:00",
         "end_time": "2026-06-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260622_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260622_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-23T00:00:00+00:00",
@@ -53848,7 +54203,7 @@
       {
         "start_time": "2026-06-24T00:00:00+00:00",
         "end_time": "2026-06-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260624_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260624_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-25T00:00:00+00:00",
@@ -53858,12 +54213,12 @@
       {
         "start_time": "2026-06-26T00:00:00+00:00",
         "end_time": "2026-06-27T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260626_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260626_v001.0003.cdf"
       },
       {
         "start_time": "2026-06-27T00:00:00+00:00",
         "end_time": "2026-06-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260627_v001.0004.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260627_v001.0005.cdf"
       },
       {
         "start_time": "2026-06-28T00:00:00+00:00",
@@ -53873,17 +54228,17 @@
       {
         "start_time": "2026-06-29T00:00:00+00:00",
         "end_time": "2026-06-30T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260629_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260629_v001.0004.cdf"
       },
       {
         "start_time": "2026-06-30T00:00:00+00:00",
         "end_time": "2026-07-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260630_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_direct-events_20260630_v001.0004.cdf"
       },
       {
         "start_time": "2026-07-01T00:00:00+00:00",
         "end_time": "2026-07-02T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260701_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260701_v001.0004.cdf"
       },
       {
         "start_time": "2026-07-02T00:00:00+00:00",
@@ -53893,7 +54248,7 @@
       {
         "start_time": "2026-07-03T00:00:00+00:00",
         "end_time": "2026-07-04T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260703_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260703_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-04T00:00:00+00:00",
@@ -53903,22 +54258,22 @@
       {
         "start_time": "2026-07-05T00:00:00+00:00",
         "end_time": "2026-07-06T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260705_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260705_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-06T00:00:00+00:00",
         "end_time": "2026-07-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260706_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260706_v001.0004.cdf"
       },
       {
         "start_time": "2026-07-07T00:00:00+00:00",
         "end_time": "2026-07-08T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260707_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260707_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-08T00:00:00+00:00",
         "end_time": "2026-07-09T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260708_v001.0005.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260708_v001.0006.cdf"
       },
       {
         "start_time": "2026-07-09T00:00:00+00:00",
@@ -53929,6 +54284,11 @@
         "start_time": "2026-07-10T00:00:00+00:00",
         "end_time": "2026-07-11T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260710_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-07-11T00:00:00+00:00",
+        "end_time": "2026-07-12T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260711_v001.0001.cdf"
       },
       {
         "start_time": "2026-07-12T00:00:00+00:00",
@@ -53943,7 +54303,7 @@
       {
         "start_time": "2026-07-14T00:00:00+00:00",
         "end_time": "2026-07-15T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260714_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260714_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-15T00:00:00+00:00",
@@ -53953,12 +54313,12 @@
       {
         "start_time": "2026-07-16T00:00:00+00:00",
         "end_time": "2026-07-17T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260716_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260716_v001.0004.cdf"
       },
       {
         "start_time": "2026-07-17T00:00:00+00:00",
         "end_time": "2026-07-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260717_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260717_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-18T00:00:00+00:00",
@@ -53973,12 +54333,12 @@
       {
         "start_time": "2026-07-20T00:00:00+00:00",
         "end_time": "2026-07-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260720_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260720_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-21T00:00:00+00:00",
         "end_time": "2026-07-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260721_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260721_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-22T00:00:00+00:00",
@@ -53988,12 +54348,12 @@
       {
         "start_time": "2026-07-23T00:00:00+00:00",
         "end_time": "2026-07-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260723_v001.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260723_v001.0004.cdf"
       },
       {
         "start_time": "2026-07-24T00:00:00+00:00",
         "end_time": "2026-07-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260724_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260724_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-25T00:00:00+00:00",
@@ -54003,37 +54363,37 @@
       {
         "start_time": "2026-07-26T00:00:00+00:00",
         "end_time": "2026-07-27T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260726_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260726_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-27T00:00:00+00:00",
         "end_time": "2026-07-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260727_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260727_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-28T00:00:00+00:00",
         "end_time": "2026-07-29T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260728_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260728_v001.0002.cdf"
       },
       {
         "start_time": "2026-07-29T00:00:00+00:00",
         "end_time": "2026-07-30T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260729_v001.0004.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260729_v001.0005.cdf"
       },
       {
         "start_time": "2026-07-30T00:00:00+00:00",
         "end_time": "2026-07-31T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260730_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260730_v001.0003.cdf"
       },
       {
         "start_time": "2026-07-31T00:00:00+00:00",
         "end_time": "2026-08-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260731_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_direct-events_20260731_v001.0003.cdf"
       },
       {
         "start_time": "2026-08-01T00:00:00+00:00",
         "end_time": "2026-08-02T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/08/imap_hit_l3_direct-events_20260801_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/08/imap_hit_l3_direct-events_20260801_v001.0002.cdf"
       }
     ]
   },
@@ -54146,7 +54506,7 @@
     ],
     "logical_source": "imap_hit_l3_macropixel",
     "logical_source_description": "HIT Instrument Level-3 Macropixel Intensity Science Data",
-    "generation_date": "2026-07-22",
+    "generation_date": "2026-08-04",
     "data_level": "l3",
     "instrument": "HIT",
     "mission": "IMAP",
@@ -55061,7 +55421,192 @@
       {
         "start_time": "2026-05-19T00:00:00+00:00",
         "end_time": "2026-05-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_macropixel_20260519_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_macropixel_20260519_v001.0003.cdf"
+      },
+      {
+        "start_time": "2026-05-21T00:00:00+00:00",
+        "end_time": "2026-05-22T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_macropixel_20260521_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-05-22T00:00:00+00:00",
+        "end_time": "2026-05-23T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_macropixel_20260522_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-05-25T00:00:00+00:00",
+        "end_time": "2026-05-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_macropixel_20260525_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-05-26T00:00:00+00:00",
+        "end_time": "2026-05-27T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_macropixel_20260526_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-05-27T00:00:00+00:00",
+        "end_time": "2026-05-28T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_macropixel_20260527_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-05-28T00:00:00+00:00",
+        "end_time": "2026-05-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_macropixel_20260528_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-05-29T00:00:00+00:00",
+        "end_time": "2026-05-30T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_macropixel_20260529_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-05-30T00:00:00+00:00",
+        "end_time": "2026-05-31T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/05/imap_hit_l3_macropixel_20260530_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-01T00:00:00+00:00",
+        "end_time": "2026-06-02T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260601_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-02T00:00:00+00:00",
+        "end_time": "2026-06-03T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260602_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-03T00:00:00+00:00",
+        "end_time": "2026-06-04T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260603_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-04T00:00:00+00:00",
+        "end_time": "2026-06-05T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260604_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-05T00:00:00+00:00",
+        "end_time": "2026-06-06T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260605_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-07T00:00:00+00:00",
+        "end_time": "2026-06-08T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260607_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-09T00:00:00+00:00",
+        "end_time": "2026-06-10T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260609_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-10T00:00:00+00:00",
+        "end_time": "2026-06-11T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260610_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-11T00:00:00+00:00",
+        "end_time": "2026-06-12T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260611_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-13T00:00:00+00:00",
+        "end_time": "2026-06-14T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260613_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-14T00:00:00+00:00",
+        "end_time": "2026-06-15T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260614_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-15T00:00:00+00:00",
+        "end_time": "2026-06-16T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260615_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-17T00:00:00+00:00",
+        "end_time": "2026-06-18T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260617_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-18T00:00:00+00:00",
+        "end_time": "2026-06-19T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260618_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-21T00:00:00+00:00",
+        "end_time": "2026-06-22T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260621_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-22T00:00:00+00:00",
+        "end_time": "2026-06-23T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260622_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-23T00:00:00+00:00",
+        "end_time": "2026-06-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260623_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-24T00:00:00+00:00",
+        "end_time": "2026-06-25T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260624_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-25T00:00:00+00:00",
+        "end_time": "2026-06-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260625_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-26T00:00:00+00:00",
+        "end_time": "2026-06-27T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260626_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-27T00:00:00+00:00",
+        "end_time": "2026-06-28T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260627_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-28T00:00:00+00:00",
+        "end_time": "2026-06-29T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260628_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-29T00:00:00+00:00",
+        "end_time": "2026-06-30T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260629_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-30T00:00:00+00:00",
+        "end_time": "2026-07-01T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/06/imap_hit_l3_macropixel_20260630_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-02T00:00:00+00:00",
+        "end_time": "2026-07-03T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_macropixel_20260702_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-03T00:00:00+00:00",
+        "end_time": "2026-07-04T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_macropixel_20260703_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-04T00:00:00+00:00",
+        "end_time": "2026-07-05T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_macropixel_20260704_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-05T00:00:00+00:00",
+        "end_time": "2026-07-06T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_macropixel_20260705_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-06T00:00:00+00:00",
+        "end_time": "2026-07-07T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/07/imap_hit_l3_macropixel_20260706_v001.0001.cdf"
       }
     ]
   },
