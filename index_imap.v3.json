@@ -304,5 +304,64 @@
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2a/2026/05/imap_idex_l2a_sci-10days_20260510_v001.0001.cdf"
       }
     ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "bg_rate",
+        "catalog_description": "IMAP Ultra45 H Background Count Rate, HAE SC Frame, No Surv Corr, Full Spin, 2 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "count s-1",
+        "axis_label": "Rate"
+      },
+      {
+        "variable_name": "counts",
+        "catalog_description": "IMAP Ultra45 H Counts, HAE SC Frame, No Surv Corr, Full Spin, 2 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "counts",
+        "axis_label": "Count"
+      },
+      {
+        "variable_name": "ena_intensity_stat_uncert",
+        "catalog_description": "IMAP Ultra45 H Inten Stat. Unc., HAE SC Frame, No Surv Corr, Full Spin, 2 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Statistical Unc"
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Ultra45 H Inten Sys. Err., HAE SC Frame, No Surv Corr, Full Spin, 2 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
+      },
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Ultra45 H Inten, HAE SC Frame, No Surv Corr, Full Spin, 2 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_ultra_l2_u45-ena-h-sf-nsp-full-hae-2deg-6mo",
+    "logical_source_description": "IMAP-Ultra Instrument Level-2 ENA Intensity Map Data for Ultra45 on rectangular tiling in spacecraft frame over 6mo duration.",
+    "generation_date": "2026-08-13",
+    "data_level": "l2",
+    "instrument": "IMAP-Ultra",
+    "mission": "IMAP",
+    "file_cadence": "six_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-07-18T15:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/ultra/l2/2026/01/imap_ultra_l2_u45-ena-h-sf-nsp-full-hae-2deg-6mo_20260117_v001.0001.cdf"
+      }
+    ]
   }
 ]
