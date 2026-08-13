@@ -38240,7 +38240,7 @@
     ],
     "logical_source": "imap_glows_l3d_solar-hist",
     "logical_source_description": "IMAP Mission GLOWS Carrington period-averaged solar history",
-    "generation_date": "2026-08-12",
+    "generation_date": "2026-08-13",
     "data_level": "l3d",
     "instrument": "GLOWS",
     "mission": "IMAP",
@@ -38250,7 +38250,7 @@
       {
         "start_time": "2026-08-02T14:20:58.559992+00:00",
         "end_time": "2026-08-29T20:57:24.479992+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3d/1947/03/imap_glows_l3d_solar-hist_19470303-cr02314_v001.0037.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3d/1947/03/imap_glows_l3d_solar-hist_19470303-cr02314_v001.0038.cdf"
       }
     ]
   },
@@ -38273,7 +38273,7 @@
     ],
     "logical_source": "imap_glows_l3e_survival-probability-hi-45",
     "logical_source_description": "IMAP Mission GLOWS L3e Hi 45 Survival Probability",
-    "generation_date": "2026-08-12",
+    "generation_date": "2026-08-13",
     "data_level": "l3e",
     "instrument": "GLOWS",
     "mission": "IMAP",
@@ -39664,6 +39664,11 @@
         "start_time": "2026-08-10T00:00:00+00:00",
         "end_time": "2026-08-11T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260810-repoint00336_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-08-11T00:00:00+00:00",
+        "end_time": "2026-08-12T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260811-repoint00337_v001.0001.cdf"
       }
     ]
   },
@@ -39686,7 +39691,7 @@
     ],
     "logical_source": "imap_glows_l3e_survival-probability-hi-90",
     "logical_source_description": "IMAP Mission GLOWS L3e Hi 90 Survival Probability",
-    "generation_date": "2026-08-12",
+    "generation_date": "2026-08-13",
     "data_level": "l3e",
     "instrument": "GLOWS",
     "mission": "IMAP",
@@ -41077,6 +41082,11 @@
         "start_time": "2026-08-10T00:00:00+00:00",
         "end_time": "2026-08-11T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260810-repoint00336_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-08-11T00:00:00+00:00",
+        "end_time": "2026-08-12T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260811-repoint00337_v001.0001.cdf"
       }
     ]
   },
@@ -41099,7 +41109,7 @@
     ],
     "logical_source": "imap_glows_l3e_survival-probability-lo",
     "logical_source_description": "IMAP Mission GLOWS L3e Lo Survival Probability",
-    "generation_date": "2026-08-12",
+    "generation_date": "2026-08-13",
     "data_level": "l3e",
     "instrument": "GLOWS",
     "mission": "IMAP",
@@ -42490,6 +42500,11 @@
         "start_time": "2026-08-10T00:00:00+00:00",
         "end_time": "2026-08-11T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260810-repoint00336_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-08-11T00:00:00+00:00",
+        "end_time": "2026-08-12T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260811-repoint00337_v001.0001.cdf"
       }
     ]
   },
@@ -42512,7 +42527,7 @@
     ],
     "logical_source": "imap_glows_l3e_survival-probability-ul-hf",
     "logical_source_description": "IMAP Mission GLOWS L3e Ultra Survival Probability HF",
-    "generation_date": "2026-08-12",
+    "generation_date": "2026-08-13",
     "data_level": "l3e",
     "instrument": "GLOWS",
     "mission": "IMAP",
@@ -43903,6 +43918,11 @@
         "start_time": "2026-08-10T00:00:00+00:00",
         "end_time": "2026-08-11T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260810-repoint00336_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-08-11T00:00:00+00:00",
+        "end_time": "2026-08-12T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260811-repoint00337_v001.0001.cdf"
       }
     ]
   },
@@ -43925,7 +43945,7 @@
     ],
     "logical_source": "imap_glows_l3e_survival-probability-ul-sf",
     "logical_source_description": "IMAP Mission GLOWS L3e Ultra Survival Probability",
-    "generation_date": "2026-08-12",
+    "generation_date": "2026-08-13",
     "data_level": "l3e",
     "instrument": "GLOWS",
     "mission": "IMAP",
@@ -45316,6 +45336,11 @@
         "start_time": "2026-08-10T00:00:00+00:00",
         "end_time": "2026-08-11T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260810-repoint00336_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-08-11T00:00:00+00:00",
+        "end_time": "2026-08-12T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260811-repoint00337_v001.0001.cdf"
       }
     ]
   },
