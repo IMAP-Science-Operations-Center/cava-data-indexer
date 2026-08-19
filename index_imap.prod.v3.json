@@ -59953,7 +59953,7 @@
     ],
     "logical_source": "imap_idex_l2a_sci-10days",
     "logical_source_description": "IMAP Mission IDEX Instrument Level-2A 10-Day Data",
-    "generation_date": "2026-08-16",
+    "generation_date": "2026-08-19",
     "data_level": "l2a",
     "instrument": "IDEX",
     "mission": "IMAP",
@@ -60113,7 +60113,7 @@
       {
         "start_time": "2026-08-08T00:00:00+00:00",
         "end_time": "2026-08-09T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/08/imap_idex_l2a_sci-10days_20260808_v001.0007.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/08/imap_idex_l2a_sci-10days_20260808_v001.0008.cdf"
       }
     ]
   },
@@ -79916,7 +79916,7 @@
     ],
     "logical_source": "imap_swe_l2_sci",
     "logical_source_description": "IMAP SWE Instrument Level-2 Science Data",
-    "generation_date": "2026-08-16",
+    "generation_date": "2026-08-19",
     "data_level": "l2",
     "instrument": "SWE",
     "mission": "IMAP",
@@ -81377,6 +81377,11 @@
         "start_time": "2026-08-14T00:00:00+00:00",
         "end_time": "2026-08-15T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swe/l2/2026/08/imap_swe_l2_sci_20260814_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-08-15T00:00:00+00:00",
+        "end_time": "2026-08-16T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swe/l2/2026/08/imap_swe_l2_sci_20260815_v001.0001.cdf"
       }
     ]
   },
