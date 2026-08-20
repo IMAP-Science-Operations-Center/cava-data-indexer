@@ -32209,7 +32209,7 @@
     ],
     "logical_source": "imap_codice_l3a_lo-sw-charge-state-distributions",
     "logical_source_description": "IMAP Mission CoDICE Instrument Charge State Distributions",
-    "generation_date": "2026-08-19",
+    "generation_date": "2026-08-20",
     "data_level": "l3a",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -33529,7 +33529,7 @@
       {
         "start_time": "2026-08-19T00:00:00+00:00",
         "end_time": "2026-08-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/08/imap_codice_l3a_lo-sw-charge-state-distributions_20260819_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/08/imap_codice_l3a_lo-sw-charge-state-distributions_20260819_v001.0002.cdf"
       }
     ]
   },
@@ -33587,7 +33587,7 @@
     ],
     "logical_source": "imap_codice_l3a_lo-sw-ratios",
     "logical_source_description": "IMAP Mission CoDICE Lo Instrument SW Ratios",
-    "generation_date": "2026-08-19",
+    "generation_date": "2026-08-20",
     "data_level": "l3a",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -34907,7 +34907,7 @@
       {
         "start_time": "2026-08-19T00:00:00+00:00",
         "end_time": "2026-08-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/08/imap_codice_l3a_lo-sw-ratios_20260819_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/08/imap_codice_l3a_lo-sw-ratios_20260819_v001.0002.cdf"
       }
     ]
   },
@@ -76856,7 +76856,7 @@
     ],
     "logical_source": "imap_swe_l2_sci",
     "logical_source_description": "IMAP SWE Instrument Level-2 Science Data",
-    "generation_date": "2026-08-19",
+    "generation_date": "2026-08-20",
     "data_level": "l2",
     "instrument": "SWE",
     "mission": "IMAP",
@@ -78337,6 +78337,11 @@
         "start_time": "2026-08-18T00:00:00+00:00",
         "end_time": "2026-08-19T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swe/l2/2026/08/imap_swe_l2_sci_20260818_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-08-19T00:00:00+00:00",
+        "end_time": "2026-08-20T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swe/l2/2026/08/imap_swe_l2_sci_20260819_v001.0001.cdf"
       }
     ]
   },
