@@ -85722,7 +85722,7 @@
     ],
     "logical_source": "imap_swe_l2_sci",
     "logical_source_description": "IMAP SWE Instrument Level-2 Science Data",
-    "generation_date": "2026-08-30",
+    "generation_date": "2026-08-31",
     "data_level": "l2",
     "instrument": "SWE",
     "mission": "IMAP",
@@ -87253,6 +87253,16 @@
         "start_time": "2026-08-28T00:00:00+00:00",
         "end_time": "2026-08-29T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swe/l2/2026/08/imap_swe_l2_sci_20260828_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-08-29T00:00:00+00:00",
+        "end_time": "2026-08-30T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swe/l2/2026/08/imap_swe_l2_sci_20260829_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-08-30T00:00:00+00:00",
+        "end_time": "2026-08-31T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swe/l2/2026/08/imap_swe_l2_sci_20260830_v001.0001.cdf"
       }
     ]
   },
