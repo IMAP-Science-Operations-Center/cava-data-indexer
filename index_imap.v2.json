@@ -255,5 +255,106 @@
         "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2a/2026/04/imap_idex_l2a_sci-10days_20260420_v001.0002.cdf"
       }
     ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "counts_by_charge",
+        "catalog_description": "Count by impact charge and spin phase.",
+        "display_type": "spectrogram",
+        "units": "counts",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "counts_by_mass",
+        "catalog_description": "Count by mass and spin phase.",
+        "display_type": "spectrogram",
+        "units": "counts",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "rate_by_charge",
+        "catalog_description": "Count rate by impact charge and spin phase over the 10-day window.",
+        "display_type": "spectrogram",
+        "units": "s^-1",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "rate_by_mass",
+        "catalog_description": "Count rate by mass and spin phase over the 10-day window.",
+        "display_type": "spectrogram",
+        "units": "s^-1",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "rate_calculation_quality_flags",
+        "catalog_description": "Quality flag for rate calculation (1 = good, 0 = insufficient IDEX uptime data)",
+        "display_type": "time_series",
+        "units": " ",
+        "axis_label": "Quality Flag"
+      }
+    ],
+    "logical_source": "imap_idex_l2b_sci-10days",
+    "logical_source_description": "IMAP Mission IDEX Instrument Level-2B 10-Day Data",
+    "generation_date": "2026-09-01",
+    "data_level": "l2b",
+    "instrument": "IDEX",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-20T00:00:00+00:00",
+        "end_time": "2026-04-21T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2b/2026/04/imap_idex_l2b_sci-10days_20260420_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "counts_by_charge_map",
+        "catalog_description": "Count by impact charge, longitude, and latitude.",
+        "display_type": "spectrogram",
+        "units": "counts",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "counts_by_mass_map",
+        "catalog_description": "Count by mass, longitude, and latitude.",
+        "display_type": "spectrogram",
+        "units": "counts",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "rate_by_charge_map",
+        "catalog_description": "Count rate by impact charge, longitude, and latitude over the 10-day window.",
+        "display_type": "spectrogram",
+        "units": "s^-1",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "rate_by_mass_map",
+        "catalog_description": "Count rate by mass, longitude, and latitude over the 10-day window.",
+        "display_type": "spectrogram",
+        "units": "s^-1",
+        "axis_label": ""
+      }
+    ],
+    "logical_source": "imap_idex_l2c_rectangular-map-10days",
+    "logical_source_description": "IMAP Mission IDEX Instrument Level-2C Rectangular Map 10-Day Data",
+    "generation_date": "2026-09-01",
+    "data_level": "l2c",
+    "instrument": "IDEX",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-20T00:00:00+00:00",
+        "end_time": "2026-04-21T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/idex/l2c/2026/04/imap_idex_l2c_rectangular-map-10days_20260420_v001.0001.cdf"
+      }
+    ]
   }
 ]
