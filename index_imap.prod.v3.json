@@ -55851,7 +55851,7 @@
       {
         "start_time": "2026-09-01T00:00:00+00:00",
         "end_time": "2026-09-02T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/09/imap_hit_l2_macropixel-intensity_20260901_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l2/2026/09/imap_hit_l2_macropixel-intensity_20260901_v001.0003.cdf"
       },
       {
         "start_time": "2026-09-02T00:00:00+00:00",
@@ -61486,7 +61486,7 @@
     ],
     "logical_source": "imap_hit_l3_macropixel",
     "logical_source_description": "HIT Instrument Level-3 Macropixel Intensity Science Data",
-    "generation_date": "2026-08-31",
+    "generation_date": "2026-09-02",
     "data_level": "l3",
     "instrument": "HIT",
     "mission": "IMAP",
@@ -62767,6 +62767,11 @@
         "start_time": "2026-08-30T00:00:00+00:00",
         "end_time": "2026-08-31T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/08/imap_hit_l3_macropixel_20260830_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-01T00:00:00+00:00",
+        "end_time": "2026-09-02T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/09/imap_hit_l3_macropixel_20260901_v001.0001.cdf"
       }
     ]
   },
