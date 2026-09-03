@@ -412,7 +412,7 @@
     ],
     "logical_source": "imap_glows_l3a_hist",
     "logical_source_description": "IMAP Mission GLOWS Instrument Light Curve",
-    "generation_date": "2026-09-02",
+    "generation_date": "2026-09-03",
     "data_level": "l3a",
     "instrument": "GLOWS",
     "mission": "IMAP",
@@ -422,12 +422,12 @@
       {
         "start_time": "2025-11-13T00:00:00+00:00",
         "end_time": "2025-11-14T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/glows/l3a/2025/11/imap_glows_l3a_hist_20251113-repoint00047_v001.0001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/glows/l3a/2025/11/imap_glows_l3a_hist_20251113-repoint00047_v002.0002.cdf"
       },
       {
         "start_time": "2026-01-01T00:00:00+00:00",
         "end_time": "2026-01-02T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/glows/l3a/2026/01/imap_glows_l3a_hist_20260101-repoint00096_v001.0001.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/glows/l3a/2026/01/imap_glows_l3a_hist_20260101-repoint00096_v002.0002.cdf"
       }
     ]
   }
