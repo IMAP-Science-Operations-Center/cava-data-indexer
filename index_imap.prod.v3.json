@@ -64973,6 +64973,121 @@
         "axis_label": "Intensity"
       }
     ],
+    "logical_source": "imap_lo_l2_ilo-enasbsMsk-h-sf-nsp-ram-hae-6deg-6mo",
+    "logical_source_description": "IMAP-Lo Instrument Level-2 map of Hydrogen ENA Intensity in the spacecraft frame with no survival correction in the ram direction in HAE coordinates on rectangular 6 degree tiling over 6 months.",
+    "generation_date": "2026-09-04",
+    "data_level": "l2",
+    "instrument": "IMAP-Lo",
+    "mission": "IMAP",
+    "file_cadence": "six_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-07-18T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/lo/l2/2026/01/imap_lo_l2_ilo-enasbsMsk-h-sf-nsp-ram-hae-6deg-6mo_20260117_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "bg_rate_stat_uncert",
+        "catalog_description": "IMAP Lo H Background Count Rate Stat. Unc., HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "count s-1",
+        "axis_label": "Rate Uncertainty"
+      },
+      {
+        "variable_name": "bg_rate",
+        "catalog_description": "IMAP Lo H Background Count Rate, HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "count s-1",
+        "axis_label": "Rate"
+      },
+      {
+        "variable_name": "bg_intensity_stat_uncert",
+        "catalog_description": "IMAP Lo H Background Inten Stat. Unc., HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity Uncertainty"
+      },
+      {
+        "variable_name": "bg_intensity",
+        "catalog_description": "IMAP Lo H Background Inten, HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "ena_count",
+        "catalog_description": "IMAP Lo H Counts, HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "counts",
+        "axis_label": "Count"
+      },
+      {
+        "variable_name": "ena_count_rate_stat_uncert",
+        "catalog_description": "IMAP Lo H ENA Count Rate Stat. Unc., HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "counts/s",
+        "axis_label": "Rate Uncertainty"
+      },
+      {
+        "variable_name": "ena_count_rate",
+        "catalog_description": "IMAP Lo H ENA Count Rate, HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "counts/s",
+        "axis_label": "Rate"
+      },
+      {
+        "variable_name": "ena_intensity_stat_uncert",
+        "catalog_description": "IMAP Lo H Inten Stat. Unc., HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Statistical Unc"
+      },
+      {
+        "variable_name": "ena_intensity_sys_err_minus",
+        "catalog_description": "IMAP Lo H Inten Sys. Err. Lower, HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error Lower"
+      },
+      {
+        "variable_name": "ena_intensity_sys_err_plus",
+        "catalog_description": "IMAP Lo H Inten Sys. Err. Upper, HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error Upper"
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Lo H Inten Sys. Err., HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
+      },
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Lo H Inten, HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
     "logical_source": "imap_lo_l2_ilo-enasnbsMsk-h-sf-nsp-ram-hae-6deg-6mo",
     "logical_source_description": "IMAP-Lo Instrument Level-2 map of Hydrogen ENA Intensity in the spacecraft frame with no survival correction in the ram direction in HAE coordinates on rectangular 6 degree tiling over 6 months.",
     "generation_date": "2026-09-04",
@@ -65101,6 +65216,121 @@
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2026-07-18T15:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/lo/l2/2026/01/imap_lo_l2_l075-enansnbs-h-sf-nsp-ram-hae-6deg-6mo_20260117_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "bg_rate_stat_uncert",
+        "catalog_description": "IMAP Lo75 H Background Count Rate Stat. Unc., HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "count s-1",
+        "axis_label": "Rate Uncertainty"
+      },
+      {
+        "variable_name": "bg_rate",
+        "catalog_description": "IMAP Lo75 H Background Count Rate, HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "count s-1",
+        "axis_label": "Rate"
+      },
+      {
+        "variable_name": "bg_intensity_stat_uncert",
+        "catalog_description": "IMAP Lo75 H Background Inten Stat. Unc., HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity Uncertainty"
+      },
+      {
+        "variable_name": "bg_intensity",
+        "catalog_description": "IMAP Lo75 H Background Inten, HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "ena_count",
+        "catalog_description": "IMAP Lo75 H Counts, HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "counts",
+        "axis_label": "Count"
+      },
+      {
+        "variable_name": "ena_count_rate_stat_uncert",
+        "catalog_description": "IMAP Lo75 H ENA Count Rate Stat. Unc., HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "counts/s",
+        "axis_label": "Rate Uncertainty"
+      },
+      {
+        "variable_name": "ena_count_rate",
+        "catalog_description": "IMAP Lo75 H ENA Count Rate, HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "counts/s",
+        "axis_label": "Rate"
+      },
+      {
+        "variable_name": "ena_intensity_stat_uncert",
+        "catalog_description": "IMAP Lo75 H Inten Stat. Unc., HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Statistical Unc"
+      },
+      {
+        "variable_name": "ena_intensity_sys_err_minus",
+        "catalog_description": "IMAP Lo75 H Inten Sys. Err. Lower, HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error Lower"
+      },
+      {
+        "variable_name": "ena_intensity_sys_err_plus",
+        "catalog_description": "IMAP Lo75 H Inten Sys. Err. Upper, HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error Upper"
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Lo75 H Inten Sys. Err., HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
+      },
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Lo75 H Inten, HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_lo_l2_l075-enansnbsMsk-h-sf-nsp-ram-hae-6deg-6mo",
+    "logical_source_description": "IMAP-Lo Instrument Level-2 sensor 75 map of Hydrogen ENA Intensity in the spacecraft frame with no survival correction in the ram direction in HAE coordinates on rectangular 6 degree tiling over 6 months.",
+    "generation_date": "2026-09-04",
+    "data_level": "l2",
+    "instrument": "IMAP-Lo",
+    "mission": "IMAP",
+    "file_cadence": "six_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-07-18T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/lo/l2/2026/01/imap_lo_l2_l075-enansnbsMsk-h-sf-nsp-ram-hae-6deg-6mo_20260117_v001.0001.cdf"
       }
     ]
   },
@@ -65676,6 +65906,121 @@
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2026-07-18T15:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/lo/l2/2026/01/imap_lo_l2_l075-enasnbs-h-sf-nsp-ram-hae-6deg-6mo_20260117_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "bg_rate_stat_uncert",
+        "catalog_description": "IMAP Lo75 H Background Count Rate Stat. Unc., HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "count s-1",
+        "axis_label": "Rate Uncertainty"
+      },
+      {
+        "variable_name": "bg_rate",
+        "catalog_description": "IMAP Lo75 H Background Count Rate, HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "count s-1",
+        "axis_label": "Rate"
+      },
+      {
+        "variable_name": "bg_intensity_stat_uncert",
+        "catalog_description": "IMAP Lo75 H Background Inten Stat. Unc., HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity Uncertainty"
+      },
+      {
+        "variable_name": "bg_intensity",
+        "catalog_description": "IMAP Lo75 H Background Inten, HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "ena_count",
+        "catalog_description": "IMAP Lo75 H Counts, HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "counts",
+        "axis_label": "Count"
+      },
+      {
+        "variable_name": "ena_count_rate_stat_uncert",
+        "catalog_description": "IMAP Lo75 H ENA Count Rate Stat. Unc., HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "counts/s",
+        "axis_label": "Rate Uncertainty"
+      },
+      {
+        "variable_name": "ena_count_rate",
+        "catalog_description": "IMAP Lo75 H ENA Count Rate, HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "counts/s",
+        "axis_label": "Rate"
+      },
+      {
+        "variable_name": "ena_intensity_stat_uncert",
+        "catalog_description": "IMAP Lo75 H Inten Stat. Unc., HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Statistical Unc"
+      },
+      {
+        "variable_name": "ena_intensity_sys_err_minus",
+        "catalog_description": "IMAP Lo75 H Inten Sys. Err. Lower, HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error Lower"
+      },
+      {
+        "variable_name": "ena_intensity_sys_err_plus",
+        "catalog_description": "IMAP Lo75 H Inten Sys. Err. Upper, HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error Upper"
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Lo75 H Inten Sys. Err., HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
+      },
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Lo75 H Inten, HAE SC Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_lo_l2_l075-enasnbsMsk-h-sf-nsp-ram-hae-6deg-6mo",
+    "logical_source_description": "IMAP-Lo Instrument Level-2 sensor 75 map of Hydrogen ENA Intensity in the spacecraft frame with no survival correction in the ram direction in HAE coordinates on rectangular 6 degree tiling over 6 months.",
+    "generation_date": "2026-09-04",
+    "data_level": "l2",
+    "instrument": "IMAP-Lo",
+    "mission": "IMAP",
+    "file_cadence": "six_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-07-18T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/lo/l2/2026/01/imap_lo_l2_l075-enasnbsMsk-h-sf-nsp-ram-hae-6deg-6mo_20260117_v001.0001.cdf"
       }
     ]
   },
@@ -66826,6 +67171,121 @@
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2026-07-18T15:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/lo/l2/2026/01/imap_lo_l2_l105-enansnbsMsk-h-sf-nsp-ram-hae-6deg-6mo_20260117_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "bg_rate_stat_uncert",
+        "catalog_description": "IMAP Lo105 H Background Count Rate Stat. Unc., HAE Helio Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "count s-1",
+        "axis_label": "Rate Uncertainty"
+      },
+      {
+        "variable_name": "bg_rate",
+        "catalog_description": "IMAP Lo105 H Background Count Rate, HAE Helio Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "count s-1",
+        "axis_label": "Rate"
+      },
+      {
+        "variable_name": "bg_intensity_stat_uncert",
+        "catalog_description": "IMAP Lo105 H Background Inten Stat. Unc., HAE Helio Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity Uncertainty"
+      },
+      {
+        "variable_name": "bg_intensity",
+        "catalog_description": "IMAP Lo105 H Background Inten, HAE Helio Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "ena_count",
+        "catalog_description": "IMAP Lo105 H Counts, HAE Helio Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "counts",
+        "axis_label": "Count"
+      },
+      {
+        "variable_name": "ena_count_rate_stat_uncert",
+        "catalog_description": "IMAP Lo105 H ENA Count Rate Stat. Unc., HAE Helio Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "counts/s",
+        "axis_label": "Rate Uncertainty"
+      },
+      {
+        "variable_name": "ena_count_rate",
+        "catalog_description": "IMAP Lo105 H ENA Count Rate, HAE Helio Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "counts/s",
+        "axis_label": "Rate"
+      },
+      {
+        "variable_name": "ena_intensity_stat_uncert",
+        "catalog_description": "IMAP Lo105 H Inten Stat. Unc., HAE Helio Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Statistical Unc"
+      },
+      {
+        "variable_name": "ena_intensity_sys_err_minus",
+        "catalog_description": "IMAP Lo105 H Inten Sys. Err. Lower, HAE Helio Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error Lower"
+      },
+      {
+        "variable_name": "ena_intensity_sys_err_plus",
+        "catalog_description": "IMAP Lo105 H Inten Sys. Err. Upper, HAE Helio Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error Upper"
+      },
+      {
+        "variable_name": "ena_intensity_sys_err",
+        "catalog_description": "IMAP Lo105 H Inten Sys. Err., HAE Helio Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "support_data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Non-statistical Error"
+      },
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Lo105 H Inten, HAE Helio Frame, No Surv Corr, Ram, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_lo_l2_l105-enasbs-h-hf-nsp-ram-hae-6deg-6mo",
+    "logical_source_description": "IMAP-Lo Instrument Level-2 sensor 105 map of Hydrogen ENA Intensity in the heliospheric frame with no survival correction in the ram direction in HAE coordinates on rectangular 6 degree tiling over 6 months.",
+    "generation_date": "2026-09-04",
+    "data_level": "l2",
+    "instrument": "IMAP-Lo",
+    "mission": "IMAP",
+    "file_cadence": "six_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-07-18T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/lo/l2/2026/01/imap_lo_l2_l105-enasbs-h-hf-nsp-ram-hae-6deg-6mo_20260117_v001.0001.cdf"
       }
     ]
   },
