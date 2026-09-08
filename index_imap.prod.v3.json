@@ -30660,6 +30660,11 @@
         "start_time": "2026-09-06T00:00:00+00:00",
         "end_time": "2026-09-07T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/09/imap_codice_l3a_lo-heplusplus-3d-distribution_20260906_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-07T00:00:00+00:00",
+        "end_time": "2026-09-08T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/09/imap_codice_l3a_lo-heplusplus-3d-distribution_20260907_v001.0001.cdf"
       }
     ]
   },
@@ -32091,12 +32096,17 @@
       {
         "start_time": "2026-09-05T00:00:00+00:00",
         "end_time": "2026-09-06T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/09/imap_codice_l3a_lo-hplus-3d-distribution_20260905_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/09/imap_codice_l3a_lo-hplus-3d-distribution_20260905_v001.0003.cdf"
       },
       {
         "start_time": "2026-09-06T00:00:00+00:00",
         "end_time": "2026-09-07T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/09/imap_codice_l3a_lo-hplus-3d-distribution_20260906_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-07T00:00:00+00:00",
+        "end_time": "2026-09-08T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/09/imap_codice_l3a_lo-hplus-3d-distribution_20260907_v001.0001.cdf"
       }
     ]
   },
@@ -35104,7 +35114,7 @@
     ],
     "logical_source": "imap_codice_l3a_lo-sw-charge-state-distributions",
     "logical_source_description": "IMAP Mission CoDICE Instrument Charge State Distributions",
-    "generation_date": "2026-09-05",
+    "generation_date": "2026-09-08",
     "data_level": "l3a",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -36509,7 +36519,17 @@
       {
         "start_time": "2026-09-05T00:00:00+00:00",
         "end_time": "2026-09-06T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/09/imap_codice_l3a_lo-sw-charge-state-distributions_20260905_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/09/imap_codice_l3a_lo-sw-charge-state-distributions_20260905_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-09-06T00:00:00+00:00",
+        "end_time": "2026-09-07T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/09/imap_codice_l3a_lo-sw-charge-state-distributions_20260906_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-07T00:00:00+00:00",
+        "end_time": "2026-09-08T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/09/imap_codice_l3a_lo-sw-charge-state-distributions_20260907_v001.0001.cdf"
       }
     ]
   },
@@ -36574,7 +36594,7 @@
     ],
     "logical_source": "imap_codice_l3a_lo-sw-ratios",
     "logical_source_description": "IMAP Mission CoDICE Lo Instrument SW Ratios",
-    "generation_date": "2026-09-05",
+    "generation_date": "2026-09-08",
     "data_level": "l3a",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -37979,7 +37999,17 @@
       {
         "start_time": "2026-09-05T00:00:00+00:00",
         "end_time": "2026-09-06T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/09/imap_codice_l3a_lo-sw-ratios_20260905_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/09/imap_codice_l3a_lo-sw-ratios_20260905_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-09-06T00:00:00+00:00",
+        "end_time": "2026-09-07T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/09/imap_codice_l3a_lo-sw-ratios_20260906_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-07T00:00:00+00:00",
+        "end_time": "2026-09-08T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/09/imap_codice_l3a_lo-sw-ratios_20260907_v001.0001.cdf"
       }
     ]
   },
