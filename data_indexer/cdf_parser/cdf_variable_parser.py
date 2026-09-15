@@ -23,7 +23,8 @@ class CdfVariableParser:
         for key, var in cdf.items():
             if selector.should_include(var, cdf):
                 catalog_description = str(var.attrs["CATDESC"])
-                display_type = str(var.attrs["DISPLAY_TYPE"])
+                display_type_from_cdf = str(var.attrs["DISPLAY_TYPE"])
+                display_type = CdfVariableParser._remap_stack_plot_to_timeseries_display_type(display_type_from_cdf)
                 var_type = str(var.attrs["VAR_TYPE"])
                 units = str(var.attrs.get("UNITS"))
                 axis_label = str(var.attrs.get("LABLAXIS", ""))
@@ -32,3 +33,10 @@ class CdfVariableParser:
                 print("Ignored variable", key, "from file", cdf.attrs["Logical_source"])
 
         return sorted(variable_infos, key=lambda i: i.catalog_description.lower())
+
+    @staticmethod
+    def _remap_stack_plot_to_timeseries_display_type(display_type: str):
+        if display_type == "stack_plot":
+            return "time_series"
+        else:
+            return display_type

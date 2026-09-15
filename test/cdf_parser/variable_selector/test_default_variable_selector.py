@@ -45,6 +45,31 @@ class TestDefaultVariableSelector(unittest.TestCase):
                 accepted_variable.shape = shape
                 self.assertTrue(DefaultVariableSelector.should_include(accepted_variable, self.mock_cdf))
 
+    def test_accepts_expected_stack_plot_variable(self):
+        accepted_variable = Mock()
+        accepted_variable.attrs = {
+            "CATDESC": "accepted_variable",
+            "FIELDNAM": "something",
+            "DEPEND_0": "time_col_good",
+            "SCALETYP": "linear",
+            "SCALEMIN": 1,
+            "DISPLAY_TYPE": "stack_plot",
+        }
+
+        test_cases = [
+            ("data", (1,)),
+            ("data", (1, 2)),
+            ("data", (1, 2, 3)),
+            ("support_data", (1,)),
+            ("support_data", (1, 2)),
+            ("support_data", (1, 2, 3, 4)),
+        ]
+        for var_type, shape in test_cases:
+            with self.subTest(f"{var_type} {shape}"):
+                accepted_variable.attrs["VAR_TYPE"] = var_type
+                accepted_variable.shape = shape
+                self.assertTrue(DefaultVariableSelector.should_include(accepted_variable, self.mock_cdf))
+
     def test_accepts_expected_dimensional_spectrogram_variable(self):
         accepted_variable = Mock()
         accepted_variable.attrs = {

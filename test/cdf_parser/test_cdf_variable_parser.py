@@ -61,6 +61,32 @@ class TestCdfVariableParser(unittest.TestCase):
 
         self.assertEqual(expected_info, parsed_info)
 
+    def test_parse_info_from_cdf_with_stack_plot_variables_returns_timeseries_variables(self):
+        expected_info = [
+            CdfVariableInfo(
+                "carbon_charge_state_distribution",
+                "Carbon charge state relative abundances",
+                "time_series",
+                "data",
+                " ",
+                "C dist.",
+            ),
+            CdfVariableInfo(
+                "oxygen_charge_state_distribution",
+                "Oxygen charge state relative abundances",
+                "time_series",
+                "data",
+                " ",
+                "O dist.",
+            )
+        ]
+
+        cdf_path = str(Path(test.__file__).parent / "test_data/test_stack_plot.cdf")
+        with pycdf.CDF(cdf_path) as cdf:
+            parsed_info = CdfVariableParser.parse_info_from_cdf(cdf, DefaultVariableSelector)
+
+        self.assertEqual(expected_info, parsed_info)
+
     def test_parse_info_from_omni_data(self):
         cdf_path = str(Path(test.__file__).parent / "test_data/omni2_h0_mrg1hr_20240101_v01.cdf")
         with pycdf.CDF(cdf_path) as cdf:

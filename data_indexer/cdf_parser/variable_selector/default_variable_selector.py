@@ -10,6 +10,7 @@ class DefaultVariableSelector(VariableSelector):
         "plasmagram": (4,),
         "spectrogram": (2, 3, 4),
         "time_series": (1, 2, 3, 4),
+        "stack_plot": (1, 2, 3, 4),
     }
     allowed_var_types = ("data", "support_data")
 
