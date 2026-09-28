@@ -45208,7 +45208,7 @@
     ],
     "logical_source": "imap_glows_l3b_ion-rate-profile",
     "logical_source_description": "IMAP Mission GLOWS Carrington averaged ionization rate profiles",
-    "generation_date": "2026-09-18",
+    "generation_date": "2026-09-28",
     "data_level": "l3b",
     "instrument": "GLOWS",
     "mission": "IMAP",
@@ -45269,6 +45269,11 @@
         "start_time": "2026-08-02T14:20:58.559992+00:00",
         "end_time": "2026-08-29T20:57:24.479992+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3b/2026/08/imap_glows_l3b_ion-rate-profile_20260802-cr02314_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-08-29T20:57:24.479992+00:00",
+        "end_time": "2026-09-26T03:33:50.399992+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3b/2026/08/imap_glows_l3b_ion-rate-profile_20260829-cr02315_v002.0001.cdf"
       }
     ]
   },
@@ -45325,7 +45330,7 @@
     ],
     "logical_source": "imap_glows_l3c_sw-profile",
     "logical_source_description": "IMAP Mission GLOWS Carrington period-averaged solar wind plasma speed and proton density profiles",
-    "generation_date": "2026-09-18",
+    "generation_date": "2026-09-28",
     "data_level": "l3c",
     "instrument": "GLOWS",
     "mission": "IMAP",
@@ -45386,6 +45391,11 @@
         "start_time": "2026-08-02T14:20:58.559992+00:00",
         "end_time": "2026-08-29T20:57:24.479992+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3c/2026/08/imap_glows_l3c_sw-profile_20260802-cr02314_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-08-29T20:57:24.479992+00:00",
+        "end_time": "2026-09-26T03:33:50.399992+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3c/2026/08/imap_glows_l3c_sw-profile_20260829-cr02315_v002.0001.cdf"
       }
     ]
   },
@@ -45474,7 +45484,7 @@
     ],
     "logical_source": "imap_glows_l3d_solar-hist",
     "logical_source_description": "IMAP Mission GLOWS Carrington period-averaged solar history",
-    "generation_date": "2026-09-25",
+    "generation_date": "2026-09-28",
     "data_level": "l3d",
     "instrument": "GLOWS",
     "mission": "IMAP",
@@ -45482,9 +45492,9 @@
     "version": "",
     "file_timeranges": [
       {
-        "start_time": "2026-08-29T20:57:24.479992+00:00",
-        "end_time": "2026-09-26T03:33:50.399992+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3d/1947/03/imap_glows_l3d_solar-hist_19470303-cr02315_v002.0084.cdf"
+        "start_time": "2026-09-26T03:33:50.399992+00:00",
+        "end_time": "2026-10-23T10:10:16.319992+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3d/1947/03/imap_glows_l3d_solar-hist_19470303-cr02316_v002.0085.cdf"
       }
     ]
   },
@@ -45565,7 +45575,7 @@
     ],
     "logical_source": "imap_glows_l3e_survival-probability-hi-45",
     "logical_source_description": "IMAP Mission GLOWS L3e Hi 45 Survival Probability",
-    "generation_date": "2026-09-18",
+    "generation_date": "2026-09-28",
     "data_level": "l3e",
     "instrument": "GLOWS",
     "mission": "IMAP",
@@ -46780,342 +46790,407 @@
       {
         "start_time": "2026-07-06T00:00:00+00:00",
         "end_time": "2026-07-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260706-repoint00301_v002.0016.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260706-repoint00301_v002.0017.cdf"
       },
       {
         "start_time": "2026-07-07T00:00:00+00:00",
         "end_time": "2026-07-08T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260707-repoint00302_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260707-repoint00302_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-08T00:00:00+00:00",
         "end_time": "2026-07-09T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260708-repoint00303_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260708-repoint00303_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-09T00:00:00+00:00",
         "end_time": "2026-07-10T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260709-repoint00304_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260709-repoint00304_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-10T00:00:00+00:00",
         "end_time": "2026-07-11T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260710-repoint00305_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260710-repoint00305_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-11T00:00:00+00:00",
         "end_time": "2026-07-12T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260711-repoint00306_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260711-repoint00306_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-12T00:00:00+00:00",
         "end_time": "2026-07-13T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260712-repoint00307_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260712-repoint00307_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-13T00:00:00+00:00",
         "end_time": "2026-07-14T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260713-repoint00308_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260713-repoint00308_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-14T00:00:00+00:00",
         "end_time": "2026-07-15T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260714-repoint00309_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260714-repoint00309_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-15T00:00:00+00:00",
         "end_time": "2026-07-16T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260715-repoint00310_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260715-repoint00310_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-16T00:00:00+00:00",
         "end_time": "2026-07-17T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260716-repoint00311_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260716-repoint00311_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-17T00:00:00+00:00",
         "end_time": "2026-07-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260717-repoint00312_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260717-repoint00312_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-18T00:00:00+00:00",
         "end_time": "2026-07-19T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260718-repoint00313_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260718-repoint00313_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-19T00:00:00+00:00",
         "end_time": "2026-07-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260719-repoint00314_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260719-repoint00314_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-20T00:00:00+00:00",
         "end_time": "2026-07-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260720-repoint00315_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260720-repoint00315_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-21T00:00:00+00:00",
         "end_time": "2026-07-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260721-repoint00316_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260721-repoint00316_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-22T00:00:00+00:00",
         "end_time": "2026-07-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260722-repoint00317_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260722-repoint00317_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-23T00:00:00+00:00",
         "end_time": "2026-07-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260723-repoint00318_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260723-repoint00318_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-24T00:00:00+00:00",
         "end_time": "2026-07-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260724-repoint00319_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260724-repoint00319_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-25T00:00:00+00:00",
         "end_time": "2026-07-26T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260725-repoint00320_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260725-repoint00320_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-26T00:00:00+00:00",
         "end_time": "2026-07-27T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260726-repoint00321_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260726-repoint00321_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-27T00:00:00+00:00",
         "end_time": "2026-07-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260727-repoint00322_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260727-repoint00322_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-28T00:00:00+00:00",
         "end_time": "2026-07-29T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260728-repoint00323_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260728-repoint00323_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-29T00:00:00+00:00",
         "end_time": "2026-07-30T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260729-repoint00324_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260729-repoint00324_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-30T00:00:00+00:00",
         "end_time": "2026-07-31T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260730-repoint00325_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260730-repoint00325_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-31T00:00:00+00:00",
         "end_time": "2026-08-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260731-repoint00326_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-45_20260731-repoint00326_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-01T00:00:00+00:00",
         "end_time": "2026-08-02T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260801-repoint00327_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260801-repoint00327_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-02T00:00:00+00:00",
         "end_time": "2026-08-03T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260802-repoint00328_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260802-repoint00328_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-03T00:00:00+00:00",
         "end_time": "2026-08-04T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260803-repoint00329_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260803-repoint00329_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-04T00:00:00+00:00",
         "end_time": "2026-08-05T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260804-repoint00330_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260804-repoint00330_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-05T00:00:00+00:00",
         "end_time": "2026-08-06T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260805-repoint00331_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260805-repoint00331_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-06T00:00:00+00:00",
         "end_time": "2026-08-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260806-repoint00332_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260806-repoint00332_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-07T00:00:00+00:00",
         "end_time": "2026-08-08T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260807-repoint00333_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260807-repoint00333_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-08T00:00:00+00:00",
         "end_time": "2026-08-09T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260808-repoint00334_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260808-repoint00334_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-09T00:00:00+00:00",
         "end_time": "2026-08-10T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260809-repoint00335_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260809-repoint00335_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-10T00:00:00+00:00",
         "end_time": "2026-08-11T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260810-repoint00336_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260810-repoint00336_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-11T00:00:00+00:00",
         "end_time": "2026-08-12T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260811-repoint00337_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260811-repoint00337_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-12T00:00:00+00:00",
         "end_time": "2026-08-13T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260812-repoint00338_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260812-repoint00338_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-13T00:00:00+00:00",
         "end_time": "2026-08-14T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260813-repoint00339_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260813-repoint00339_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-14T00:00:00+00:00",
         "end_time": "2026-08-15T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260814-repoint00340_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260814-repoint00340_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-15T00:00:00+00:00",
         "end_time": "2026-08-16T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260815-repoint00341_v002.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260815-repoint00341_v002.0003.cdf"
       },
       {
         "start_time": "2026-08-16T00:00:00+00:00",
         "end_time": "2026-08-17T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260816-repoint00342_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260816-repoint00342_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-17T00:00:00+00:00",
         "end_time": "2026-08-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260817-repoint00343_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260817-repoint00343_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-18T00:00:00+00:00",
         "end_time": "2026-08-19T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260818-repoint00344_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260818-repoint00344_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-19T00:00:00+00:00",
         "end_time": "2026-08-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260819-repoint00345_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260819-repoint00345_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-20T00:00:00+00:00",
         "end_time": "2026-08-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260820-repoint00346_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260820-repoint00346_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-21T00:00:00+00:00",
         "end_time": "2026-08-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260821-repoint00347_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260821-repoint00347_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-22T00:00:00+00:00",
         "end_time": "2026-08-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260822-repoint00348_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260822-repoint00348_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-23T00:00:00+00:00",
         "end_time": "2026-08-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260823-repoint00349_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260823-repoint00349_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-24T00:00:00+00:00",
         "end_time": "2026-08-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260824-repoint00350_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260824-repoint00350_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-25T00:00:00+00:00",
         "end_time": "2026-08-26T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260825-repoint00351_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260825-repoint00351_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-26T00:00:00+00:00",
         "end_time": "2026-08-27T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260826-repoint00352_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260826-repoint00352_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-27T00:00:00+00:00",
         "end_time": "2026-08-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260827-repoint00353_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260827-repoint00353_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-28T00:00:00+00:00",
         "end_time": "2026-08-29T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260828-repoint00354_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260828-repoint00354_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-29T00:00:00+00:00",
         "end_time": "2026-08-30T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260829-repoint00355_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260829-repoint00355_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-30T00:00:00+00:00",
         "end_time": "2026-08-31T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260830-repoint00356_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260830-repoint00356_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-31T00:00:00+00:00",
         "end_time": "2026-09-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260831-repoint00357_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-45_20260831-repoint00357_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-01T00:00:00+00:00",
         "end_time": "2026-09-02T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260901-repoint00358_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260901-repoint00358_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-02T00:00:00+00:00",
         "end_time": "2026-09-03T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260902-repoint00359_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260902-repoint00359_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-03T00:00:00+00:00",
         "end_time": "2026-09-04T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260903-repoint00360_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260903-repoint00360_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-04T00:00:00+00:00",
         "end_time": "2026-09-05T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260904-repoint00361_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260904-repoint00361_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-05T00:00:00+00:00",
         "end_time": "2026-09-06T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260905-repoint00362_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260905-repoint00362_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-06T00:00:00+00:00",
         "end_time": "2026-09-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260906-repoint00363_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260906-repoint00363_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-07T00:00:00+00:00",
         "end_time": "2026-09-08T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260907-repoint00364_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260907-repoint00364_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-08T00:00:00+00:00",
         "end_time": "2026-09-09T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260908-repoint00365_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260908-repoint00365_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-09T00:00:00+00:00",
         "end_time": "2026-09-10T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260909-repoint00366_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260909-repoint00366_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-10T00:00:00+00:00",
         "end_time": "2026-09-11T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260910-repoint00367_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260910-repoint00367_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-11T00:00:00+00:00",
         "end_time": "2026-09-12T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260911-repoint00368_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260911-repoint00368_v002.0002.cdf"
+      },
+      {
+        "start_time": "2026-09-12T00:00:00+00:00",
+        "end_time": "2026-09-13T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260912-repoint00369_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-13T00:00:00+00:00",
+        "end_time": "2026-09-14T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260913-repoint00370_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-14T00:00:00+00:00",
+        "end_time": "2026-09-15T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260914-repoint00371_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-15T00:00:00+00:00",
+        "end_time": "2026-09-16T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260915-repoint00372_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-16T00:00:00+00:00",
+        "end_time": "2026-09-17T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260916-repoint00373_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-17T00:00:00+00:00",
+        "end_time": "2026-09-18T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260917-repoint00374_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-18T00:00:00+00:00",
+        "end_time": "2026-09-19T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260918-repoint00375_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-19T00:00:00+00:00",
+        "end_time": "2026-09-20T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260919-repoint00376_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-20T00:00:00+00:00",
+        "end_time": "2026-09-21T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260920-repoint00377_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-21T00:00:00+00:00",
+        "end_time": "2026-09-22T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260921-repoint00378_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-22T00:00:00+00:00",
+        "end_time": "2026-09-23T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260922-repoint00379_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-23T00:00:00+00:00",
+        "end_time": "2026-09-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260923-repoint00380_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-24T00:00:00+00:00",
+        "end_time": "2026-09-25T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-45_20260924-repoint00381_v002.0001.cdf"
       }
     ]
   },
@@ -47196,7 +47271,7 @@
     ],
     "logical_source": "imap_glows_l3e_survival-probability-hi-90",
     "logical_source_description": "IMAP Mission GLOWS L3e Hi 90 Survival Probability",
-    "generation_date": "2026-09-18",
+    "generation_date": "2026-09-28",
     "data_level": "l3e",
     "instrument": "GLOWS",
     "mission": "IMAP",
@@ -48411,342 +48486,407 @@
       {
         "start_time": "2026-07-06T00:00:00+00:00",
         "end_time": "2026-07-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260706-repoint00301_v002.0016.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260706-repoint00301_v002.0017.cdf"
       },
       {
         "start_time": "2026-07-07T00:00:00+00:00",
         "end_time": "2026-07-08T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260707-repoint00302_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260707-repoint00302_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-08T00:00:00+00:00",
         "end_time": "2026-07-09T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260708-repoint00303_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260708-repoint00303_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-09T00:00:00+00:00",
         "end_time": "2026-07-10T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260709-repoint00304_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260709-repoint00304_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-10T00:00:00+00:00",
         "end_time": "2026-07-11T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260710-repoint00305_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260710-repoint00305_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-11T00:00:00+00:00",
         "end_time": "2026-07-12T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260711-repoint00306_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260711-repoint00306_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-12T00:00:00+00:00",
         "end_time": "2026-07-13T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260712-repoint00307_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260712-repoint00307_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-13T00:00:00+00:00",
         "end_time": "2026-07-14T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260713-repoint00308_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260713-repoint00308_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-14T00:00:00+00:00",
         "end_time": "2026-07-15T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260714-repoint00309_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260714-repoint00309_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-15T00:00:00+00:00",
         "end_time": "2026-07-16T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260715-repoint00310_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260715-repoint00310_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-16T00:00:00+00:00",
         "end_time": "2026-07-17T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260716-repoint00311_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260716-repoint00311_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-17T00:00:00+00:00",
         "end_time": "2026-07-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260717-repoint00312_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260717-repoint00312_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-18T00:00:00+00:00",
         "end_time": "2026-07-19T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260718-repoint00313_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260718-repoint00313_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-19T00:00:00+00:00",
         "end_time": "2026-07-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260719-repoint00314_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260719-repoint00314_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-20T00:00:00+00:00",
         "end_time": "2026-07-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260720-repoint00315_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260720-repoint00315_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-21T00:00:00+00:00",
         "end_time": "2026-07-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260721-repoint00316_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260721-repoint00316_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-22T00:00:00+00:00",
         "end_time": "2026-07-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260722-repoint00317_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260722-repoint00317_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-23T00:00:00+00:00",
         "end_time": "2026-07-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260723-repoint00318_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260723-repoint00318_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-24T00:00:00+00:00",
         "end_time": "2026-07-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260724-repoint00319_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260724-repoint00319_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-25T00:00:00+00:00",
         "end_time": "2026-07-26T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260725-repoint00320_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260725-repoint00320_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-26T00:00:00+00:00",
         "end_time": "2026-07-27T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260726-repoint00321_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260726-repoint00321_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-27T00:00:00+00:00",
         "end_time": "2026-07-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260727-repoint00322_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260727-repoint00322_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-28T00:00:00+00:00",
         "end_time": "2026-07-29T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260728-repoint00323_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260728-repoint00323_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-29T00:00:00+00:00",
         "end_time": "2026-07-30T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260729-repoint00324_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260729-repoint00324_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-30T00:00:00+00:00",
         "end_time": "2026-07-31T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260730-repoint00325_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260730-repoint00325_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-31T00:00:00+00:00",
         "end_time": "2026-08-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260731-repoint00326_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-hi-90_20260731-repoint00326_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-01T00:00:00+00:00",
         "end_time": "2026-08-02T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260801-repoint00327_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260801-repoint00327_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-02T00:00:00+00:00",
         "end_time": "2026-08-03T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260802-repoint00328_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260802-repoint00328_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-03T00:00:00+00:00",
         "end_time": "2026-08-04T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260803-repoint00329_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260803-repoint00329_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-04T00:00:00+00:00",
         "end_time": "2026-08-05T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260804-repoint00330_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260804-repoint00330_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-05T00:00:00+00:00",
         "end_time": "2026-08-06T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260805-repoint00331_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260805-repoint00331_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-06T00:00:00+00:00",
         "end_time": "2026-08-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260806-repoint00332_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260806-repoint00332_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-07T00:00:00+00:00",
         "end_time": "2026-08-08T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260807-repoint00333_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260807-repoint00333_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-08T00:00:00+00:00",
         "end_time": "2026-08-09T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260808-repoint00334_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260808-repoint00334_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-09T00:00:00+00:00",
         "end_time": "2026-08-10T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260809-repoint00335_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260809-repoint00335_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-10T00:00:00+00:00",
         "end_time": "2026-08-11T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260810-repoint00336_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260810-repoint00336_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-11T00:00:00+00:00",
         "end_time": "2026-08-12T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260811-repoint00337_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260811-repoint00337_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-12T00:00:00+00:00",
         "end_time": "2026-08-13T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260812-repoint00338_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260812-repoint00338_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-13T00:00:00+00:00",
         "end_time": "2026-08-14T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260813-repoint00339_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260813-repoint00339_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-14T00:00:00+00:00",
         "end_time": "2026-08-15T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260814-repoint00340_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260814-repoint00340_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-15T00:00:00+00:00",
         "end_time": "2026-08-16T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260815-repoint00341_v002.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260815-repoint00341_v002.0003.cdf"
       },
       {
         "start_time": "2026-08-16T00:00:00+00:00",
         "end_time": "2026-08-17T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260816-repoint00342_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260816-repoint00342_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-17T00:00:00+00:00",
         "end_time": "2026-08-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260817-repoint00343_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260817-repoint00343_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-18T00:00:00+00:00",
         "end_time": "2026-08-19T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260818-repoint00344_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260818-repoint00344_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-19T00:00:00+00:00",
         "end_time": "2026-08-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260819-repoint00345_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260819-repoint00345_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-20T00:00:00+00:00",
         "end_time": "2026-08-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260820-repoint00346_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260820-repoint00346_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-21T00:00:00+00:00",
         "end_time": "2026-08-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260821-repoint00347_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260821-repoint00347_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-22T00:00:00+00:00",
         "end_time": "2026-08-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260822-repoint00348_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260822-repoint00348_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-23T00:00:00+00:00",
         "end_time": "2026-08-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260823-repoint00349_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260823-repoint00349_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-24T00:00:00+00:00",
         "end_time": "2026-08-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260824-repoint00350_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260824-repoint00350_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-25T00:00:00+00:00",
         "end_time": "2026-08-26T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260825-repoint00351_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260825-repoint00351_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-26T00:00:00+00:00",
         "end_time": "2026-08-27T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260826-repoint00352_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260826-repoint00352_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-27T00:00:00+00:00",
         "end_time": "2026-08-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260827-repoint00353_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260827-repoint00353_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-28T00:00:00+00:00",
         "end_time": "2026-08-29T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260828-repoint00354_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260828-repoint00354_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-29T00:00:00+00:00",
         "end_time": "2026-08-30T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260829-repoint00355_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260829-repoint00355_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-30T00:00:00+00:00",
         "end_time": "2026-08-31T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260830-repoint00356_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260830-repoint00356_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-31T00:00:00+00:00",
         "end_time": "2026-09-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260831-repoint00357_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-hi-90_20260831-repoint00357_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-01T00:00:00+00:00",
         "end_time": "2026-09-02T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260901-repoint00358_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260901-repoint00358_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-02T00:00:00+00:00",
         "end_time": "2026-09-03T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260902-repoint00359_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260902-repoint00359_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-03T00:00:00+00:00",
         "end_time": "2026-09-04T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260903-repoint00360_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260903-repoint00360_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-04T00:00:00+00:00",
         "end_time": "2026-09-05T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260904-repoint00361_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260904-repoint00361_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-05T00:00:00+00:00",
         "end_time": "2026-09-06T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260905-repoint00362_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260905-repoint00362_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-06T00:00:00+00:00",
         "end_time": "2026-09-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260906-repoint00363_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260906-repoint00363_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-07T00:00:00+00:00",
         "end_time": "2026-09-08T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260907-repoint00364_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260907-repoint00364_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-08T00:00:00+00:00",
         "end_time": "2026-09-09T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260908-repoint00365_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260908-repoint00365_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-09T00:00:00+00:00",
         "end_time": "2026-09-10T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260909-repoint00366_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260909-repoint00366_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-10T00:00:00+00:00",
         "end_time": "2026-09-11T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260910-repoint00367_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260910-repoint00367_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-11T00:00:00+00:00",
         "end_time": "2026-09-12T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260911-repoint00368_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260911-repoint00368_v002.0002.cdf"
+      },
+      {
+        "start_time": "2026-09-12T00:00:00+00:00",
+        "end_time": "2026-09-13T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260912-repoint00369_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-13T00:00:00+00:00",
+        "end_time": "2026-09-14T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260913-repoint00370_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-14T00:00:00+00:00",
+        "end_time": "2026-09-15T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260914-repoint00371_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-15T00:00:00+00:00",
+        "end_time": "2026-09-16T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260915-repoint00372_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-16T00:00:00+00:00",
+        "end_time": "2026-09-17T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260916-repoint00373_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-17T00:00:00+00:00",
+        "end_time": "2026-09-18T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260917-repoint00374_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-18T00:00:00+00:00",
+        "end_time": "2026-09-19T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260918-repoint00375_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-19T00:00:00+00:00",
+        "end_time": "2026-09-20T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260919-repoint00376_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-20T00:00:00+00:00",
+        "end_time": "2026-09-21T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260920-repoint00377_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-21T00:00:00+00:00",
+        "end_time": "2026-09-22T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260921-repoint00378_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-22T00:00:00+00:00",
+        "end_time": "2026-09-23T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260922-repoint00379_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-23T00:00:00+00:00",
+        "end_time": "2026-09-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260923-repoint00380_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-24T00:00:00+00:00",
+        "end_time": "2026-09-25T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-hi-90_20260924-repoint00381_v002.0001.cdf"
       }
     ]
   },
@@ -48827,7 +48967,7 @@
     ],
     "logical_source": "imap_glows_l3e_survival-probability-lo",
     "logical_source_description": "IMAP Mission GLOWS L3e Lo Survival Probability",
-    "generation_date": "2026-09-18",
+    "generation_date": "2026-09-28",
     "data_level": "l3e",
     "instrument": "GLOWS",
     "mission": "IMAP",
@@ -50042,342 +50182,407 @@
       {
         "start_time": "2026-07-06T00:00:00+00:00",
         "end_time": "2026-07-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260706-repoint00301_v002.0016.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260706-repoint00301_v002.0017.cdf"
       },
       {
         "start_time": "2026-07-07T00:00:00+00:00",
         "end_time": "2026-07-08T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260707-repoint00302_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260707-repoint00302_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-08T00:00:00+00:00",
         "end_time": "2026-07-09T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260708-repoint00303_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260708-repoint00303_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-09T00:00:00+00:00",
         "end_time": "2026-07-10T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260709-repoint00304_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260709-repoint00304_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-10T00:00:00+00:00",
         "end_time": "2026-07-11T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260710-repoint00305_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260710-repoint00305_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-11T00:00:00+00:00",
         "end_time": "2026-07-12T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260711-repoint00306_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260711-repoint00306_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-12T00:00:00+00:00",
         "end_time": "2026-07-13T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260712-repoint00307_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260712-repoint00307_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-13T00:00:00+00:00",
         "end_time": "2026-07-14T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260713-repoint00308_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260713-repoint00308_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-14T00:00:00+00:00",
         "end_time": "2026-07-15T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260714-repoint00309_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260714-repoint00309_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-15T00:00:00+00:00",
         "end_time": "2026-07-16T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260715-repoint00310_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260715-repoint00310_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-16T00:00:00+00:00",
         "end_time": "2026-07-17T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260716-repoint00311_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260716-repoint00311_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-17T00:00:00+00:00",
         "end_time": "2026-07-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260717-repoint00312_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260717-repoint00312_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-18T00:00:00+00:00",
         "end_time": "2026-07-19T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260718-repoint00313_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260718-repoint00313_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-19T00:00:00+00:00",
         "end_time": "2026-07-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260719-repoint00314_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260719-repoint00314_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-20T00:00:00+00:00",
         "end_time": "2026-07-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260720-repoint00315_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260720-repoint00315_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-21T00:00:00+00:00",
         "end_time": "2026-07-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260721-repoint00316_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260721-repoint00316_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-22T00:00:00+00:00",
         "end_time": "2026-07-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260722-repoint00317_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260722-repoint00317_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-23T00:00:00+00:00",
         "end_time": "2026-07-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260723-repoint00318_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260723-repoint00318_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-24T00:00:00+00:00",
         "end_time": "2026-07-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260724-repoint00319_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260724-repoint00319_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-25T00:00:00+00:00",
         "end_time": "2026-07-26T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260725-repoint00320_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260725-repoint00320_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-26T00:00:00+00:00",
         "end_time": "2026-07-27T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260726-repoint00321_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260726-repoint00321_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-27T00:00:00+00:00",
         "end_time": "2026-07-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260727-repoint00322_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260727-repoint00322_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-28T00:00:00+00:00",
         "end_time": "2026-07-29T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260728-repoint00323_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260728-repoint00323_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-29T00:00:00+00:00",
         "end_time": "2026-07-30T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260729-repoint00324_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260729-repoint00324_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-30T00:00:00+00:00",
         "end_time": "2026-07-31T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260730-repoint00325_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260730-repoint00325_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-31T00:00:00+00:00",
         "end_time": "2026-08-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260731-repoint00326_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-lo_20260731-repoint00326_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-01T00:00:00+00:00",
         "end_time": "2026-08-02T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260801-repoint00327_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260801-repoint00327_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-02T00:00:00+00:00",
         "end_time": "2026-08-03T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260802-repoint00328_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260802-repoint00328_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-03T00:00:00+00:00",
         "end_time": "2026-08-04T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260803-repoint00329_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260803-repoint00329_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-04T00:00:00+00:00",
         "end_time": "2026-08-05T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260804-repoint00330_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260804-repoint00330_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-05T00:00:00+00:00",
         "end_time": "2026-08-06T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260805-repoint00331_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260805-repoint00331_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-06T00:00:00+00:00",
         "end_time": "2026-08-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260806-repoint00332_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260806-repoint00332_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-07T00:00:00+00:00",
         "end_time": "2026-08-08T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260807-repoint00333_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260807-repoint00333_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-08T00:00:00+00:00",
         "end_time": "2026-08-09T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260808-repoint00334_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260808-repoint00334_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-09T00:00:00+00:00",
         "end_time": "2026-08-10T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260809-repoint00335_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260809-repoint00335_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-10T00:00:00+00:00",
         "end_time": "2026-08-11T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260810-repoint00336_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260810-repoint00336_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-11T00:00:00+00:00",
         "end_time": "2026-08-12T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260811-repoint00337_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260811-repoint00337_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-12T00:00:00+00:00",
         "end_time": "2026-08-13T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260812-repoint00338_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260812-repoint00338_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-13T00:00:00+00:00",
         "end_time": "2026-08-14T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260813-repoint00339_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260813-repoint00339_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-14T00:00:00+00:00",
         "end_time": "2026-08-15T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260814-repoint00340_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260814-repoint00340_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-15T00:00:00+00:00",
         "end_time": "2026-08-16T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260815-repoint00341_v002.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260815-repoint00341_v002.0003.cdf"
       },
       {
         "start_time": "2026-08-16T00:00:00+00:00",
         "end_time": "2026-08-17T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260816-repoint00342_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260816-repoint00342_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-17T00:00:00+00:00",
         "end_time": "2026-08-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260817-repoint00343_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260817-repoint00343_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-18T00:00:00+00:00",
         "end_time": "2026-08-19T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260818-repoint00344_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260818-repoint00344_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-19T00:00:00+00:00",
         "end_time": "2026-08-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260819-repoint00345_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260819-repoint00345_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-20T00:00:00+00:00",
         "end_time": "2026-08-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260820-repoint00346_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260820-repoint00346_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-21T00:00:00+00:00",
         "end_time": "2026-08-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260821-repoint00347_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260821-repoint00347_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-22T00:00:00+00:00",
         "end_time": "2026-08-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260822-repoint00348_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260822-repoint00348_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-23T00:00:00+00:00",
         "end_time": "2026-08-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260823-repoint00349_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260823-repoint00349_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-24T00:00:00+00:00",
         "end_time": "2026-08-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260824-repoint00350_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260824-repoint00350_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-25T00:00:00+00:00",
         "end_time": "2026-08-26T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260825-repoint00351_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260825-repoint00351_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-26T00:00:00+00:00",
         "end_time": "2026-08-27T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260826-repoint00352_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260826-repoint00352_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-27T00:00:00+00:00",
         "end_time": "2026-08-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260827-repoint00353_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260827-repoint00353_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-28T00:00:00+00:00",
         "end_time": "2026-08-29T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260828-repoint00354_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260828-repoint00354_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-29T00:00:00+00:00",
         "end_time": "2026-08-30T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260829-repoint00355_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260829-repoint00355_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-30T00:00:00+00:00",
         "end_time": "2026-08-31T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260830-repoint00356_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260830-repoint00356_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-31T00:00:00+00:00",
         "end_time": "2026-09-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260831-repoint00357_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-lo_20260831-repoint00357_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-01T00:00:00+00:00",
         "end_time": "2026-09-02T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260901-repoint00358_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260901-repoint00358_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-02T00:00:00+00:00",
         "end_time": "2026-09-03T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260902-repoint00359_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260902-repoint00359_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-03T00:00:00+00:00",
         "end_time": "2026-09-04T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260903-repoint00360_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260903-repoint00360_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-04T00:00:00+00:00",
         "end_time": "2026-09-05T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260904-repoint00361_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260904-repoint00361_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-05T00:00:00+00:00",
         "end_time": "2026-09-06T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260905-repoint00362_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260905-repoint00362_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-06T00:00:00+00:00",
         "end_time": "2026-09-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260906-repoint00363_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260906-repoint00363_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-07T00:00:00+00:00",
         "end_time": "2026-09-08T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260907-repoint00364_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260907-repoint00364_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-08T00:00:00+00:00",
         "end_time": "2026-09-09T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260908-repoint00365_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260908-repoint00365_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-09T00:00:00+00:00",
         "end_time": "2026-09-10T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260909-repoint00366_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260909-repoint00366_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-10T00:00:00+00:00",
         "end_time": "2026-09-11T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260910-repoint00367_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260910-repoint00367_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-11T00:00:00+00:00",
         "end_time": "2026-09-12T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260911-repoint00368_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260911-repoint00368_v002.0002.cdf"
+      },
+      {
+        "start_time": "2026-09-12T00:00:00+00:00",
+        "end_time": "2026-09-13T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260912-repoint00369_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-13T00:00:00+00:00",
+        "end_time": "2026-09-14T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260913-repoint00370_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-14T00:00:00+00:00",
+        "end_time": "2026-09-15T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260914-repoint00371_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-15T00:00:00+00:00",
+        "end_time": "2026-09-16T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260915-repoint00372_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-16T00:00:00+00:00",
+        "end_time": "2026-09-17T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260916-repoint00373_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-17T00:00:00+00:00",
+        "end_time": "2026-09-18T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260917-repoint00374_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-18T00:00:00+00:00",
+        "end_time": "2026-09-19T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260918-repoint00375_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-19T00:00:00+00:00",
+        "end_time": "2026-09-20T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260919-repoint00376_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-20T00:00:00+00:00",
+        "end_time": "2026-09-21T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260920-repoint00377_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-21T00:00:00+00:00",
+        "end_time": "2026-09-22T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260921-repoint00378_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-22T00:00:00+00:00",
+        "end_time": "2026-09-23T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260922-repoint00379_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-23T00:00:00+00:00",
+        "end_time": "2026-09-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260923-repoint00380_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-24T00:00:00+00:00",
+        "end_time": "2026-09-25T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-lo_20260924-repoint00381_v002.0001.cdf"
       }
     ]
   },
@@ -50458,7 +50663,7 @@
     ],
     "logical_source": "imap_glows_l3e_survival-probability-ul-hf",
     "logical_source_description": "IMAP Mission GLOWS L3e Ultra Survival Probability HF",
-    "generation_date": "2026-09-18",
+    "generation_date": "2026-09-28",
     "data_level": "l3e",
     "instrument": "GLOWS",
     "mission": "IMAP",
@@ -51673,342 +51878,407 @@
       {
         "start_time": "2026-07-06T00:00:00+00:00",
         "end_time": "2026-07-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260706-repoint00301_v002.0016.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260706-repoint00301_v002.0017.cdf"
       },
       {
         "start_time": "2026-07-07T00:00:00+00:00",
         "end_time": "2026-07-08T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260707-repoint00302_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260707-repoint00302_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-08T00:00:00+00:00",
         "end_time": "2026-07-09T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260708-repoint00303_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260708-repoint00303_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-09T00:00:00+00:00",
         "end_time": "2026-07-10T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260709-repoint00304_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260709-repoint00304_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-10T00:00:00+00:00",
         "end_time": "2026-07-11T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260710-repoint00305_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260710-repoint00305_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-11T00:00:00+00:00",
         "end_time": "2026-07-12T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260711-repoint00306_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260711-repoint00306_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-12T00:00:00+00:00",
         "end_time": "2026-07-13T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260712-repoint00307_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260712-repoint00307_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-13T00:00:00+00:00",
         "end_time": "2026-07-14T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260713-repoint00308_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260713-repoint00308_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-14T00:00:00+00:00",
         "end_time": "2026-07-15T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260714-repoint00309_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260714-repoint00309_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-15T00:00:00+00:00",
         "end_time": "2026-07-16T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260715-repoint00310_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260715-repoint00310_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-16T00:00:00+00:00",
         "end_time": "2026-07-17T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260716-repoint00311_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260716-repoint00311_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-17T00:00:00+00:00",
         "end_time": "2026-07-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260717-repoint00312_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260717-repoint00312_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-18T00:00:00+00:00",
         "end_time": "2026-07-19T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260718-repoint00313_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260718-repoint00313_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-19T00:00:00+00:00",
         "end_time": "2026-07-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260719-repoint00314_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260719-repoint00314_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-20T00:00:00+00:00",
         "end_time": "2026-07-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260720-repoint00315_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260720-repoint00315_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-21T00:00:00+00:00",
         "end_time": "2026-07-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260721-repoint00316_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260721-repoint00316_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-22T00:00:00+00:00",
         "end_time": "2026-07-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260722-repoint00317_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260722-repoint00317_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-23T00:00:00+00:00",
         "end_time": "2026-07-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260723-repoint00318_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260723-repoint00318_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-24T00:00:00+00:00",
         "end_time": "2026-07-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260724-repoint00319_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260724-repoint00319_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-25T00:00:00+00:00",
         "end_time": "2026-07-26T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260725-repoint00320_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260725-repoint00320_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-26T00:00:00+00:00",
         "end_time": "2026-07-27T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260726-repoint00321_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260726-repoint00321_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-27T00:00:00+00:00",
         "end_time": "2026-07-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260727-repoint00322_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260727-repoint00322_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-28T00:00:00+00:00",
         "end_time": "2026-07-29T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260728-repoint00323_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260728-repoint00323_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-29T00:00:00+00:00",
         "end_time": "2026-07-30T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260729-repoint00324_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260729-repoint00324_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-30T00:00:00+00:00",
         "end_time": "2026-07-31T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260730-repoint00325_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260730-repoint00325_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-31T00:00:00+00:00",
         "end_time": "2026-08-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260731-repoint00326_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-hf_20260731-repoint00326_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-01T00:00:00+00:00",
         "end_time": "2026-08-02T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260801-repoint00327_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260801-repoint00327_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-02T00:00:00+00:00",
         "end_time": "2026-08-03T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260802-repoint00328_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260802-repoint00328_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-03T00:00:00+00:00",
         "end_time": "2026-08-04T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260803-repoint00329_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260803-repoint00329_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-04T00:00:00+00:00",
         "end_time": "2026-08-05T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260804-repoint00330_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260804-repoint00330_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-05T00:00:00+00:00",
         "end_time": "2026-08-06T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260805-repoint00331_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260805-repoint00331_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-06T00:00:00+00:00",
         "end_time": "2026-08-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260806-repoint00332_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260806-repoint00332_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-07T00:00:00+00:00",
         "end_time": "2026-08-08T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260807-repoint00333_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260807-repoint00333_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-08T00:00:00+00:00",
         "end_time": "2026-08-09T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260808-repoint00334_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260808-repoint00334_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-09T00:00:00+00:00",
         "end_time": "2026-08-10T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260809-repoint00335_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260809-repoint00335_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-10T00:00:00+00:00",
         "end_time": "2026-08-11T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260810-repoint00336_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260810-repoint00336_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-11T00:00:00+00:00",
         "end_time": "2026-08-12T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260811-repoint00337_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260811-repoint00337_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-12T00:00:00+00:00",
         "end_time": "2026-08-13T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260812-repoint00338_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260812-repoint00338_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-13T00:00:00+00:00",
         "end_time": "2026-08-14T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260813-repoint00339_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260813-repoint00339_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-14T00:00:00+00:00",
         "end_time": "2026-08-15T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260814-repoint00340_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260814-repoint00340_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-15T00:00:00+00:00",
         "end_time": "2026-08-16T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260815-repoint00341_v002.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260815-repoint00341_v002.0003.cdf"
       },
       {
         "start_time": "2026-08-16T00:00:00+00:00",
         "end_time": "2026-08-17T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260816-repoint00342_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260816-repoint00342_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-17T00:00:00+00:00",
         "end_time": "2026-08-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260817-repoint00343_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260817-repoint00343_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-18T00:00:00+00:00",
         "end_time": "2026-08-19T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260818-repoint00344_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260818-repoint00344_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-19T00:00:00+00:00",
         "end_time": "2026-08-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260819-repoint00345_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260819-repoint00345_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-20T00:00:00+00:00",
         "end_time": "2026-08-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260820-repoint00346_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260820-repoint00346_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-21T00:00:00+00:00",
         "end_time": "2026-08-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260821-repoint00347_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260821-repoint00347_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-22T00:00:00+00:00",
         "end_time": "2026-08-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260822-repoint00348_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260822-repoint00348_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-23T00:00:00+00:00",
         "end_time": "2026-08-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260823-repoint00349_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260823-repoint00349_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-24T00:00:00+00:00",
         "end_time": "2026-08-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260824-repoint00350_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260824-repoint00350_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-25T00:00:00+00:00",
         "end_time": "2026-08-26T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260825-repoint00351_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260825-repoint00351_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-26T00:00:00+00:00",
         "end_time": "2026-08-27T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260826-repoint00352_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260826-repoint00352_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-27T00:00:00+00:00",
         "end_time": "2026-08-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260827-repoint00353_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260827-repoint00353_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-28T00:00:00+00:00",
         "end_time": "2026-08-29T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260828-repoint00354_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260828-repoint00354_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-29T00:00:00+00:00",
         "end_time": "2026-08-30T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260829-repoint00355_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260829-repoint00355_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-30T00:00:00+00:00",
         "end_time": "2026-08-31T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260830-repoint00356_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260830-repoint00356_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-31T00:00:00+00:00",
         "end_time": "2026-09-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260831-repoint00357_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-hf_20260831-repoint00357_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-01T00:00:00+00:00",
         "end_time": "2026-09-02T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260901-repoint00358_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260901-repoint00358_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-02T00:00:00+00:00",
         "end_time": "2026-09-03T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260902-repoint00359_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260902-repoint00359_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-03T00:00:00+00:00",
         "end_time": "2026-09-04T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260903-repoint00360_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260903-repoint00360_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-04T00:00:00+00:00",
         "end_time": "2026-09-05T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260904-repoint00361_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260904-repoint00361_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-05T00:00:00+00:00",
         "end_time": "2026-09-06T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260905-repoint00362_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260905-repoint00362_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-06T00:00:00+00:00",
         "end_time": "2026-09-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260906-repoint00363_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260906-repoint00363_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-07T00:00:00+00:00",
         "end_time": "2026-09-08T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260907-repoint00364_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260907-repoint00364_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-08T00:00:00+00:00",
         "end_time": "2026-09-09T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260908-repoint00365_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260908-repoint00365_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-09T00:00:00+00:00",
         "end_time": "2026-09-10T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260909-repoint00366_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260909-repoint00366_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-10T00:00:00+00:00",
         "end_time": "2026-09-11T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260910-repoint00367_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260910-repoint00367_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-11T00:00:00+00:00",
         "end_time": "2026-09-12T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260911-repoint00368_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260911-repoint00368_v002.0002.cdf"
+      },
+      {
+        "start_time": "2026-09-12T00:00:00+00:00",
+        "end_time": "2026-09-13T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260912-repoint00369_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-13T00:00:00+00:00",
+        "end_time": "2026-09-14T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260913-repoint00370_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-14T00:00:00+00:00",
+        "end_time": "2026-09-15T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260914-repoint00371_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-15T00:00:00+00:00",
+        "end_time": "2026-09-16T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260915-repoint00372_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-16T00:00:00+00:00",
+        "end_time": "2026-09-17T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260916-repoint00373_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-17T00:00:00+00:00",
+        "end_time": "2026-09-18T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260917-repoint00374_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-18T00:00:00+00:00",
+        "end_time": "2026-09-19T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260918-repoint00375_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-19T00:00:00+00:00",
+        "end_time": "2026-09-20T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260919-repoint00376_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-20T00:00:00+00:00",
+        "end_time": "2026-09-21T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260920-repoint00377_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-21T00:00:00+00:00",
+        "end_time": "2026-09-22T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260921-repoint00378_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-22T00:00:00+00:00",
+        "end_time": "2026-09-23T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260922-repoint00379_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-23T00:00:00+00:00",
+        "end_time": "2026-09-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260923-repoint00380_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-24T00:00:00+00:00",
+        "end_time": "2026-09-25T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-hf_20260924-repoint00381_v002.0001.cdf"
       }
     ]
   },
@@ -52089,7 +52359,7 @@
     ],
     "logical_source": "imap_glows_l3e_survival-probability-ul-sf",
     "logical_source_description": "IMAP Mission GLOWS L3e Ultra Survival Probability",
-    "generation_date": "2026-09-18",
+    "generation_date": "2026-09-28",
     "data_level": "l3e",
     "instrument": "GLOWS",
     "mission": "IMAP",
@@ -53304,342 +53574,407 @@
       {
         "start_time": "2026-07-06T00:00:00+00:00",
         "end_time": "2026-07-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260706-repoint00301_v002.0016.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260706-repoint00301_v002.0017.cdf"
       },
       {
         "start_time": "2026-07-07T00:00:00+00:00",
         "end_time": "2026-07-08T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260707-repoint00302_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260707-repoint00302_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-08T00:00:00+00:00",
         "end_time": "2026-07-09T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260708-repoint00303_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260708-repoint00303_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-09T00:00:00+00:00",
         "end_time": "2026-07-10T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260709-repoint00304_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260709-repoint00304_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-10T00:00:00+00:00",
         "end_time": "2026-07-11T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260710-repoint00305_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260710-repoint00305_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-11T00:00:00+00:00",
         "end_time": "2026-07-12T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260711-repoint00306_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260711-repoint00306_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-12T00:00:00+00:00",
         "end_time": "2026-07-13T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260712-repoint00307_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260712-repoint00307_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-13T00:00:00+00:00",
         "end_time": "2026-07-14T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260713-repoint00308_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260713-repoint00308_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-14T00:00:00+00:00",
         "end_time": "2026-07-15T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260714-repoint00309_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260714-repoint00309_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-15T00:00:00+00:00",
         "end_time": "2026-07-16T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260715-repoint00310_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260715-repoint00310_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-16T00:00:00+00:00",
         "end_time": "2026-07-17T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260716-repoint00311_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260716-repoint00311_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-17T00:00:00+00:00",
         "end_time": "2026-07-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260717-repoint00312_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260717-repoint00312_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-18T00:00:00+00:00",
         "end_time": "2026-07-19T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260718-repoint00313_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260718-repoint00313_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-19T00:00:00+00:00",
         "end_time": "2026-07-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260719-repoint00314_v002.0015.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260719-repoint00314_v002.0016.cdf"
       },
       {
         "start_time": "2026-07-20T00:00:00+00:00",
         "end_time": "2026-07-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260720-repoint00315_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260720-repoint00315_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-21T00:00:00+00:00",
         "end_time": "2026-07-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260721-repoint00316_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260721-repoint00316_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-22T00:00:00+00:00",
         "end_time": "2026-07-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260722-repoint00317_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260722-repoint00317_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-23T00:00:00+00:00",
         "end_time": "2026-07-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260723-repoint00318_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260723-repoint00318_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-24T00:00:00+00:00",
         "end_time": "2026-07-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260724-repoint00319_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260724-repoint00319_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-25T00:00:00+00:00",
         "end_time": "2026-07-26T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260725-repoint00320_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260725-repoint00320_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-26T00:00:00+00:00",
         "end_time": "2026-07-27T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260726-repoint00321_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260726-repoint00321_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-27T00:00:00+00:00",
         "end_time": "2026-07-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260727-repoint00322_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260727-repoint00322_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-28T00:00:00+00:00",
         "end_time": "2026-07-29T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260728-repoint00323_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260728-repoint00323_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-29T00:00:00+00:00",
         "end_time": "2026-07-30T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260729-repoint00324_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260729-repoint00324_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-30T00:00:00+00:00",
         "end_time": "2026-07-31T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260730-repoint00325_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260730-repoint00325_v002.0004.cdf"
       },
       {
         "start_time": "2026-07-31T00:00:00+00:00",
         "end_time": "2026-08-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260731-repoint00326_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/07/imap_glows_l3e_survival-probability-ul-sf_20260731-repoint00326_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-01T00:00:00+00:00",
         "end_time": "2026-08-02T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260801-repoint00327_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260801-repoint00327_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-02T00:00:00+00:00",
         "end_time": "2026-08-03T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260802-repoint00328_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260802-repoint00328_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-03T00:00:00+00:00",
         "end_time": "2026-08-04T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260803-repoint00329_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260803-repoint00329_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-04T00:00:00+00:00",
         "end_time": "2026-08-05T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260804-repoint00330_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260804-repoint00330_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-05T00:00:00+00:00",
         "end_time": "2026-08-06T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260805-repoint00331_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260805-repoint00331_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-06T00:00:00+00:00",
         "end_time": "2026-08-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260806-repoint00332_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260806-repoint00332_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-07T00:00:00+00:00",
         "end_time": "2026-08-08T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260807-repoint00333_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260807-repoint00333_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-08T00:00:00+00:00",
         "end_time": "2026-08-09T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260808-repoint00334_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260808-repoint00334_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-09T00:00:00+00:00",
         "end_time": "2026-08-10T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260809-repoint00335_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260809-repoint00335_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-10T00:00:00+00:00",
         "end_time": "2026-08-11T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260810-repoint00336_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260810-repoint00336_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-11T00:00:00+00:00",
         "end_time": "2026-08-12T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260811-repoint00337_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260811-repoint00337_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-12T00:00:00+00:00",
         "end_time": "2026-08-13T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260812-repoint00338_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260812-repoint00338_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-13T00:00:00+00:00",
         "end_time": "2026-08-14T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260813-repoint00339_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260813-repoint00339_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-14T00:00:00+00:00",
         "end_time": "2026-08-15T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260814-repoint00340_v002.0003.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260814-repoint00340_v002.0004.cdf"
       },
       {
         "start_time": "2026-08-15T00:00:00+00:00",
         "end_time": "2026-08-16T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260815-repoint00341_v002.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260815-repoint00341_v002.0003.cdf"
       },
       {
         "start_time": "2026-08-16T00:00:00+00:00",
         "end_time": "2026-08-17T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260816-repoint00342_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260816-repoint00342_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-17T00:00:00+00:00",
         "end_time": "2026-08-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260817-repoint00343_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260817-repoint00343_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-18T00:00:00+00:00",
         "end_time": "2026-08-19T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260818-repoint00344_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260818-repoint00344_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-19T00:00:00+00:00",
         "end_time": "2026-08-20T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260819-repoint00345_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260819-repoint00345_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-20T00:00:00+00:00",
         "end_time": "2026-08-21T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260820-repoint00346_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260820-repoint00346_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-21T00:00:00+00:00",
         "end_time": "2026-08-22T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260821-repoint00347_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260821-repoint00347_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-22T00:00:00+00:00",
         "end_time": "2026-08-23T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260822-repoint00348_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260822-repoint00348_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-23T00:00:00+00:00",
         "end_time": "2026-08-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260823-repoint00349_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260823-repoint00349_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-24T00:00:00+00:00",
         "end_time": "2026-08-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260824-repoint00350_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260824-repoint00350_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-25T00:00:00+00:00",
         "end_time": "2026-08-26T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260825-repoint00351_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260825-repoint00351_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-26T00:00:00+00:00",
         "end_time": "2026-08-27T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260826-repoint00352_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260826-repoint00352_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-27T00:00:00+00:00",
         "end_time": "2026-08-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260827-repoint00353_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260827-repoint00353_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-28T00:00:00+00:00",
         "end_time": "2026-08-29T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260828-repoint00354_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260828-repoint00354_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-29T00:00:00+00:00",
         "end_time": "2026-08-30T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260829-repoint00355_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260829-repoint00355_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-30T00:00:00+00:00",
         "end_time": "2026-08-31T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260830-repoint00356_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260830-repoint00356_v002.0002.cdf"
       },
       {
         "start_time": "2026-08-31T00:00:00+00:00",
         "end_time": "2026-09-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260831-repoint00357_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/08/imap_glows_l3e_survival-probability-ul-sf_20260831-repoint00357_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-01T00:00:00+00:00",
         "end_time": "2026-09-02T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260901-repoint00358_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260901-repoint00358_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-02T00:00:00+00:00",
         "end_time": "2026-09-03T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260902-repoint00359_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260902-repoint00359_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-03T00:00:00+00:00",
         "end_time": "2026-09-04T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260903-repoint00360_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260903-repoint00360_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-04T00:00:00+00:00",
         "end_time": "2026-09-05T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260904-repoint00361_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260904-repoint00361_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-05T00:00:00+00:00",
         "end_time": "2026-09-06T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260905-repoint00362_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260905-repoint00362_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-06T00:00:00+00:00",
         "end_time": "2026-09-07T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260906-repoint00363_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260906-repoint00363_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-07T00:00:00+00:00",
         "end_time": "2026-09-08T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260907-repoint00364_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260907-repoint00364_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-08T00:00:00+00:00",
         "end_time": "2026-09-09T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260908-repoint00365_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260908-repoint00365_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-09T00:00:00+00:00",
         "end_time": "2026-09-10T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260909-repoint00366_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260909-repoint00366_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-10T00:00:00+00:00",
         "end_time": "2026-09-11T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260910-repoint00367_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260910-repoint00367_v002.0002.cdf"
       },
       {
         "start_time": "2026-09-11T00:00:00+00:00",
         "end_time": "2026-09-12T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260911-repoint00368_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260911-repoint00368_v002.0002.cdf"
+      },
+      {
+        "start_time": "2026-09-12T00:00:00+00:00",
+        "end_time": "2026-09-13T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260912-repoint00369_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-13T00:00:00+00:00",
+        "end_time": "2026-09-14T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260913-repoint00370_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-14T00:00:00+00:00",
+        "end_time": "2026-09-15T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260914-repoint00371_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-15T00:00:00+00:00",
+        "end_time": "2026-09-16T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260915-repoint00372_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-16T00:00:00+00:00",
+        "end_time": "2026-09-17T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260916-repoint00373_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-17T00:00:00+00:00",
+        "end_time": "2026-09-18T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260917-repoint00374_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-18T00:00:00+00:00",
+        "end_time": "2026-09-19T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260918-repoint00375_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-19T00:00:00+00:00",
+        "end_time": "2026-09-20T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260919-repoint00376_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-20T00:00:00+00:00",
+        "end_time": "2026-09-21T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260920-repoint00377_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-21T00:00:00+00:00",
+        "end_time": "2026-09-22T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260921-repoint00378_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-22T00:00:00+00:00",
+        "end_time": "2026-09-23T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260922-repoint00379_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-23T00:00:00+00:00",
+        "end_time": "2026-09-24T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260923-repoint00380_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-24T00:00:00+00:00",
+        "end_time": "2026-09-25T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/glows/l3e/2026/09/imap_glows_l3e_survival-probability-ul-sf_20260924-repoint00381_v002.0001.cdf"
       }
     ]
   },
@@ -68705,7 +69040,7 @@
       {
         "start_time": "2026-09-17T00:00:00+00:00",
         "end_time": "2026-09-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/09/imap_idex_l2a_sci-10days_20260917_v002.0005.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/09/imap_idex_l2a_sci-10days_20260917_v002.0006.cdf"
       }
     ]
   },
@@ -68950,7 +69285,7 @@
       {
         "start_time": "2026-09-17T00:00:00+00:00",
         "end_time": "2026-09-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2b/2026/09/imap_idex_l2b_sci-10days_20260917_v002.0007.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2b/2026/09/imap_idex_l2b_sci-10days_20260917_v002.0008.cdf"
       }
     ]
   },
@@ -69288,7 +69623,7 @@
       {
         "start_time": "2026-09-17T00:00:00+00:00",
         "end_time": "2026-09-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2c/2026/09/imap_idex_l2c_rectangular-map-10days_20260917_v002.0007.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2c/2026/09/imap_idex_l2c_rectangular-map-10days_20260917_v002.0008.cdf"
       }
     ]
   },
@@ -95335,7 +95670,7 @@
       {
         "start_time": "2026-09-25T00:00:00+00:00",
         "end_time": "2026-09-26T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_proton-sw_20260925_v001.0004.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_proton-sw_20260925_v001.0005.cdf"
       }
     ]
   },
@@ -96969,7 +97304,7 @@
       {
         "start_time": "2026-09-25T00:00:00+00:00",
         "end_time": "2026-09-26T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_pui-he_20260925_v001.0005.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_pui-he_20260925_v001.0006.cdf"
       }
     ]
   },
@@ -98675,7 +99010,7 @@
     ],
     "logical_source": "imap_swe_l2_sci",
     "logical_source_description": "IMAP SWE Instrument Level-2 Science Data",
-    "generation_date": "2026-09-26",
+    "generation_date": "2026-09-28",
     "data_level": "l2",
     "instrument": "SWE",
     "mission": "IMAP",
@@ -100341,6 +100676,11 @@
         "start_time": "2026-09-24T00:00:00+00:00",
         "end_time": "2026-09-25T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swe/l2/2026/09/imap_swe_l2_sci_20260924_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-25T00:00:00+00:00",
+        "end_time": "2026-09-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swe/l2/2026/09/imap_swe_l2_sci_20260925_v001.0001.cdf"
       }
     ]
   },
@@ -105417,7 +105757,7 @@
     ],
     "logical_source": "imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-4deg-6mo",
     "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 6 Month Map",
-    "generation_date": "2026-09-21",
+    "generation_date": "2026-09-28",
     "data_level": "l3",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -105442,7 +105782,7 @@
       {
         "start_time": "2026-07-18T00:00:00+00:00",
         "end_time": "2027-01-16T15:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-4deg-6mo_20260718_v001.0004.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-4deg-6mo_20260718_v001.0005.cdf"
       }
     ]
   },
@@ -105483,7 +105823,7 @@
     ],
     "logical_source": "imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-6deg-6mo",
     "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 6 Month Map",
-    "generation_date": "2026-09-21",
+    "generation_date": "2026-09-28",
     "data_level": "l3",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -105508,7 +105848,7 @@
       {
         "start_time": "2026-07-18T00:00:00+00:00",
         "end_time": "2027-01-16T15:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-6deg-6mo_20260718_v001.0004.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-6deg-6mo_20260718_v001.0005.cdf"
       }
     ]
   },
@@ -105766,7 +106106,7 @@
     ],
     "logical_source": "imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-2deg-6mo",
     "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 2 degree, 6 Month Map",
-    "generation_date": "2026-09-21",
+    "generation_date": "2026-09-28",
     "data_level": "l3",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -105786,7 +106126,7 @@
       {
         "start_time": "2026-07-18T00:00:00+00:00",
         "end_time": "2027-01-16T15:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-2deg-6mo_20260718_v001.0004.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-2deg-6mo_20260718_v001.0005.cdf"
       }
     ]
   },
@@ -106689,7 +107029,7 @@
     ],
     "logical_source": "imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-2deg-1yr",
     "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 2 degree, 12 Month Map",
-    "generation_date": "2026-09-21",
+    "generation_date": "2026-09-28",
     "data_level": "l3",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -106699,7 +107039,7 @@
       {
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2027-01-17T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/01/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-2deg-1yr_20260117_v001.0004.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/01/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-2deg-1yr_20260117_v001.0005.cdf"
       }
     ]
   },
@@ -106740,7 +107080,7 @@
     ],
     "logical_source": "imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-2deg-3mo",
     "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 2 degree, 3 Month Map",
-    "generation_date": "2026-09-21",
+    "generation_date": "2026-09-28",
     "data_level": "l3",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -106765,7 +107105,7 @@
       {
         "start_time": "2026-07-18T00:00:00+00:00",
         "end_time": "2026-10-17T07:30:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-2deg-3mo_20260718_v001.0004.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-2deg-3mo_20260718_v001.0005.cdf"
       }
     ]
   },
@@ -106806,7 +107146,7 @@
     ],
     "logical_source": "imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-4deg-1yr",
     "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 12 Month Map",
-    "generation_date": "2026-09-21",
+    "generation_date": "2026-09-28",
     "data_level": "l3",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -106816,7 +107156,7 @@
       {
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2027-01-17T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/01/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-4deg-1yr_20260117_v001.0004.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/01/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-4deg-1yr_20260117_v001.0005.cdf"
       }
     ]
   },
@@ -106857,7 +107197,7 @@
     ],
     "logical_source": "imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-4deg-3mo",
     "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 3 Month Map",
-    "generation_date": "2026-09-21",
+    "generation_date": "2026-09-28",
     "data_level": "l3",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -106882,7 +107222,7 @@
       {
         "start_time": "2026-07-18T00:00:00+00:00",
         "end_time": "2026-10-17T07:30:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-4deg-3mo_20260718_v001.0004.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-4deg-3mo_20260718_v001.0005.cdf"
       }
     ]
   },
@@ -106923,7 +107263,7 @@
     ],
     "logical_source": "imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-6deg-1yr",
     "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 12 Month Map",
-    "generation_date": "2026-09-21",
+    "generation_date": "2026-09-28",
     "data_level": "l3",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -106933,7 +107273,7 @@
       {
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2027-01-17T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/01/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-6deg-1yr_20260117_v001.0004.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/01/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-6deg-1yr_20260117_v001.0005.cdf"
       }
     ]
   },
@@ -106974,7 +107314,7 @@
     ],
     "logical_source": "imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-6deg-3mo",
     "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 3 Month Map",
-    "generation_date": "2026-09-21",
+    "generation_date": "2026-09-28",
     "data_level": "l3",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -106999,7 +107339,7 @@
       {
         "start_time": "2026-07-18T00:00:00+00:00",
         "end_time": "2026-10-17T07:30:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-6deg-3mo_20260718_v001.0004.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-6deg-3mo_20260718_v001.0005.cdf"
       }
     ]
   },
