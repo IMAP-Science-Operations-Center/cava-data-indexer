@@ -44,7 +44,7 @@
     ],
     "logical_source": "imap_mag_l1d_burst-dsrf",
     "logical_source_description": "IMAP Mission MAG Burst Rate Instrument Level-1D Data in Despun Spacecraft Reference Frame",
-    "generation_date": "2026-09-26",
+    "generation_date": "2026-09-28",
     "data_level": "l1d",
     "instrument": "MAG",
     "mission": "IMAP",
@@ -1849,12 +1849,17 @@
       {
         "start_time": "2026-09-23T00:00:00+00:00",
         "end_time": "2026-09-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_burst-dsrf_20260923_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_burst-dsrf_20260923_v001.0002.cdf"
       },
       {
         "start_time": "2026-09-24T00:00:00+00:00",
         "end_time": "2026-09-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_burst-dsrf_20260924_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_burst-dsrf_20260924_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-09-25T00:00:00+00:00",
+        "end_time": "2026-09-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_burst-dsrf_20260925_v001.0002.cdf"
       }
     ]
   },
@@ -1903,7 +1908,7 @@
     ],
     "logical_source": "imap_mag_l1d_burst-gse",
     "logical_source_description": "IMAP Mission MAG Burst Rate Instrument Level-1D Data in Geocentric Solar Ecliptic Reference Frame",
-    "generation_date": "2026-09-26",
+    "generation_date": "2026-09-28",
     "data_level": "l1d",
     "instrument": "MAG",
     "mission": "IMAP",
@@ -3708,12 +3713,17 @@
       {
         "start_time": "2026-09-23T00:00:00+00:00",
         "end_time": "2026-09-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_burst-gse_20260923_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_burst-gse_20260923_v001.0002.cdf"
       },
       {
         "start_time": "2026-09-24T00:00:00+00:00",
         "end_time": "2026-09-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_burst-gse_20260924_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_burst-gse_20260924_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-09-25T00:00:00+00:00",
+        "end_time": "2026-09-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_burst-gse_20260925_v001.0002.cdf"
       }
     ]
   },
@@ -3762,7 +3772,7 @@
     ],
     "logical_source": "imap_mag_l1d_burst-rtn",
     "logical_source_description": "IMAP Mission MAG Burst Rate Instrument Level-1D Data in Radial-Tangential-Normal Reference Frame",
-    "generation_date": "2026-09-26",
+    "generation_date": "2026-09-28",
     "data_level": "l1d",
     "instrument": "MAG",
     "mission": "IMAP",
@@ -5567,12 +5577,17 @@
       {
         "start_time": "2026-09-23T00:00:00+00:00",
         "end_time": "2026-09-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_burst-rtn_20260923_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_burst-rtn_20260923_v001.0002.cdf"
       },
       {
         "start_time": "2026-09-24T00:00:00+00:00",
         "end_time": "2026-09-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_burst-rtn_20260924_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_burst-rtn_20260924_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-09-25T00:00:00+00:00",
+        "end_time": "2026-09-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_burst-rtn_20260925_v001.0002.cdf"
       }
     ]
   },
@@ -5621,7 +5636,7 @@
     ],
     "logical_source": "imap_mag_l1d_burst-srf",
     "logical_source_description": "IMAP Mission MAG Burst Rate Instrument Level-1D Data in Spacecraft Reference Frame",
-    "generation_date": "2026-09-26",
+    "generation_date": "2026-09-28",
     "data_level": "l1d",
     "instrument": "MAG",
     "mission": "IMAP",
@@ -7426,12 +7441,17 @@
       {
         "start_time": "2026-09-23T00:00:00+00:00",
         "end_time": "2026-09-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_burst-srf_20260923_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_burst-srf_20260923_v001.0002.cdf"
       },
       {
         "start_time": "2026-09-24T00:00:00+00:00",
         "end_time": "2026-09-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_burst-srf_20260924_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_burst-srf_20260924_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-09-25T00:00:00+00:00",
+        "end_time": "2026-09-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_burst-srf_20260925_v001.0002.cdf"
       }
     ]
   },
@@ -7480,7 +7500,7 @@
     ],
     "logical_source": "imap_mag_l1d_norm-dsrf",
     "logical_source_description": "IMAP Mission MAG Normal Rate Instrument Level-1D Data in Despun Spacecraft Reference Frame",
-    "generation_date": "2026-09-26",
+    "generation_date": "2026-09-28",
     "data_level": "l1d",
     "instrument": "MAG",
     "mission": "IMAP",
@@ -9285,12 +9305,17 @@
       {
         "start_time": "2026-09-23T00:00:00+00:00",
         "end_time": "2026-09-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_norm-dsrf_20260923_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_norm-dsrf_20260923_v001.0002.cdf"
       },
       {
         "start_time": "2026-09-24T00:00:00+00:00",
         "end_time": "2026-09-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_norm-dsrf_20260924_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_norm-dsrf_20260924_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-09-25T00:00:00+00:00",
+        "end_time": "2026-09-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_norm-dsrf_20260925_v001.0002.cdf"
       }
     ]
   },
@@ -9339,7 +9364,7 @@
     ],
     "logical_source": "imap_mag_l1d_norm-gse",
     "logical_source_description": "IMAP Mission MAG Normal Rate Instrument Level-1D Data in Geocentric Solar Ecliptic Reference Frame",
-    "generation_date": "2026-09-26",
+    "generation_date": "2026-09-28",
     "data_level": "l1d",
     "instrument": "MAG",
     "mission": "IMAP",
@@ -11144,12 +11169,17 @@
       {
         "start_time": "2026-09-23T00:00:00+00:00",
         "end_time": "2026-09-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_norm-gse_20260923_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_norm-gse_20260923_v001.0002.cdf"
       },
       {
         "start_time": "2026-09-24T00:00:00+00:00",
         "end_time": "2026-09-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_norm-gse_20260924_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_norm-gse_20260924_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-09-25T00:00:00+00:00",
+        "end_time": "2026-09-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_norm-gse_20260925_v001.0002.cdf"
       }
     ]
   },
@@ -11198,7 +11228,7 @@
     ],
     "logical_source": "imap_mag_l1d_norm-rtn",
     "logical_source_description": "IMAP Mission MAG Normal Rate Instrument Level-1D Data in Radial-Tangential-Normal Reference Frame",
-    "generation_date": "2026-09-26",
+    "generation_date": "2026-09-28",
     "data_level": "l1d",
     "instrument": "MAG",
     "mission": "IMAP",
@@ -13003,12 +13033,17 @@
       {
         "start_time": "2026-09-23T00:00:00+00:00",
         "end_time": "2026-09-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_norm-rtn_20260923_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_norm-rtn_20260923_v001.0002.cdf"
       },
       {
         "start_time": "2026-09-24T00:00:00+00:00",
         "end_time": "2026-09-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_norm-rtn_20260924_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_norm-rtn_20260924_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-09-25T00:00:00+00:00",
+        "end_time": "2026-09-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_norm-rtn_20260925_v001.0002.cdf"
       }
     ]
   },
@@ -13057,7 +13092,7 @@
     ],
     "logical_source": "imap_mag_l1d_norm-srf",
     "logical_source_description": "IMAP Mission MAG Normal Rate Instrument Level-1D Data in Spacecraft Reference Frame",
-    "generation_date": "2026-09-26",
+    "generation_date": "2026-09-28",
     "data_level": "l1d",
     "instrument": "MAG",
     "mission": "IMAP",
@@ -14862,12 +14897,17 @@
       {
         "start_time": "2026-09-23T00:00:00+00:00",
         "end_time": "2026-09-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_norm-srf_20260923_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_norm-srf_20260923_v001.0002.cdf"
       },
       {
         "start_time": "2026-09-24T00:00:00+00:00",
         "end_time": "2026-09-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_norm-srf_20260924_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_norm-srf_20260924_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-09-25T00:00:00+00:00",
+        "end_time": "2026-09-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/mag/l1d/2026/09/imap_mag_l1d_norm-srf_20260925_v001.0002.cdf"
       }
     ]
   },
@@ -69040,7 +69080,12 @@
       {
         "start_time": "2026-09-17T00:00:00+00:00",
         "end_time": "2026-09-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/09/imap_idex_l2a_sci-10days_20260917_v002.0006.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/09/imap_idex_l2a_sci-10days_20260917_v002.0007.cdf"
+      },
+      {
+        "start_time": "2026-09-27T00:00:00+00:00",
+        "end_time": "2026-09-28T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/09/imap_idex_l2a_sci-10days_20260927_v002.0001.cdf"
       }
     ]
   },
@@ -92440,7 +92485,7 @@
     ],
     "logical_source": "imap_swapi_l3a_alpha-sw",
     "logical_source_description": "SWAPI Instrument Alpha Solar Wind Parameters",
-    "generation_date": "2026-09-26",
+    "generation_date": "2026-09-28",
     "data_level": "l3a",
     "instrument": "SWAPI",
     "mission": "IMAP",
@@ -94015,12 +94060,12 @@
       {
         "start_time": "2026-09-23T00:00:00+00:00",
         "end_time": "2026-09-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_alpha-sw_20260923_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_alpha-sw_20260923_v001.0002.cdf"
       },
       {
         "start_time": "2026-09-24T00:00:00+00:00",
         "end_time": "2026-09-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_alpha-sw_20260924_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_alpha-sw_20260924_v001.0002.cdf"
       }
     ]
   },
@@ -95660,17 +95705,22 @@
       {
         "start_time": "2026-09-23T00:00:00+00:00",
         "end_time": "2026-09-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_proton-sw_20260923_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_proton-sw_20260923_v001.0002.cdf"
       },
       {
         "start_time": "2026-09-24T00:00:00+00:00",
         "end_time": "2026-09-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_proton-sw_20260924_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_proton-sw_20260924_v001.0002.cdf"
       },
       {
         "start_time": "2026-09-25T00:00:00+00:00",
         "end_time": "2026-09-26T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_proton-sw_20260925_v001.0005.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_proton-sw_20260925_v001.0006.cdf"
+      },
+      {
+        "start_time": "2026-09-26T00:00:00+00:00",
+        "end_time": "2026-09-27T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_proton-sw_20260926_v001.0001.cdf"
       }
     ]
   },
@@ -97294,17 +97344,22 @@
       {
         "start_time": "2026-09-23T00:00:00+00:00",
         "end_time": "2026-09-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_pui-he_20260923_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_pui-he_20260923_v001.0002.cdf"
       },
       {
         "start_time": "2026-09-24T00:00:00+00:00",
         "end_time": "2026-09-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_pui-he_20260924_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_pui-he_20260924_v001.0002.cdf"
       },
       {
         "start_time": "2026-09-25T00:00:00+00:00",
         "end_time": "2026-09-26T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_pui-he_20260925_v001.0006.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_pui-he_20260925_v001.0007.cdf"
+      },
+      {
+        "start_time": "2026-09-26T00:00:00+00:00",
+        "end_time": "2026-09-27T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_pui-he_20260926_v001.0001.cdf"
       }
     ]
   },
@@ -101297,7 +101352,7 @@
     ],
     "logical_source": "imap_swe_l3_sci",
     "logical_source_description": "SWE Instrument Level-3 Science Data",
-    "generation_date": "2026-09-26",
+    "generation_date": "2026-09-28",
     "data_level": "l3",
     "instrument": "SWE",
     "mission": "IMAP",
@@ -102867,12 +102922,12 @@
       {
         "start_time": "2026-09-23T00:00:00+00:00",
         "end_time": "2026-09-24T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swe/l3/2026/09/imap_swe_l3_sci_20260923_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swe/l3/2026/09/imap_swe_l3_sci_20260923_v001.0002.cdf"
       },
       {
         "start_time": "2026-09-24T00:00:00+00:00",
         "end_time": "2026-09-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swe/l3/2026/09/imap_swe_l3_sci_20260924_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swe/l3/2026/09/imap_swe_l3_sci_20260924_v001.0002.cdf"
       }
     ]
   },
@@ -105897,7 +105952,7 @@
     ],
     "logical_source": "imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-4deg-6mo",
     "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 6 Month Map",
-    "generation_date": "2026-09-21",
+    "generation_date": "2026-09-28",
     "data_level": "l3",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -105922,7 +105977,7 @@
       {
         "start_time": "2026-07-18T00:00:00+00:00",
         "end_time": "2027-01-16T15:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-4deg-6mo_20260718_v001.0005.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-4deg-6mo_20260718_v001.0006.cdf"
       }
     ]
   },
@@ -105971,7 +106026,7 @@
     ],
     "logical_source": "imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-6deg-6mo",
     "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 6 Month Map",
-    "generation_date": "2026-09-21",
+    "generation_date": "2026-09-28",
     "data_level": "l3",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -105996,7 +106051,7 @@
       {
         "start_time": "2026-07-18T00:00:00+00:00",
         "end_time": "2027-01-16T15:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-6deg-6mo_20260718_v001.0005.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-6deg-6mo_20260718_v001.0006.cdf"
       }
     ]
   },
@@ -106175,7 +106230,7 @@
     ],
     "logical_source": "imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-2deg-6mo",
     "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 2 degree, 6 Month Map",
-    "generation_date": "2026-09-21",
+    "generation_date": "2026-09-28",
     "data_level": "l3",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -106195,7 +106250,7 @@
       {
         "start_time": "2026-07-18T00:00:00+00:00",
         "end_time": "2027-01-16T15:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-2deg-6mo_20260718_v001.0005.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-2deg-6mo_20260718_v001.0006.cdf"
       }
     ]
   },
@@ -107388,7 +107443,7 @@
     ],
     "logical_source": "imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-2deg-1yr",
     "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 2 degree, 12 Month Map",
-    "generation_date": "2026-09-21",
+    "generation_date": "2026-09-28",
     "data_level": "l3",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -107398,7 +107453,7 @@
       {
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2027-01-17T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/01/imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-2deg-1yr_20260117_v001.0005.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/01/imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-2deg-1yr_20260117_v001.0006.cdf"
       }
     ]
   },
@@ -107447,7 +107502,7 @@
     ],
     "logical_source": "imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-2deg-3mo",
     "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 2 degree, 3 Month Map",
-    "generation_date": "2026-09-21",
+    "generation_date": "2026-09-28",
     "data_level": "l3",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -107472,7 +107527,7 @@
       {
         "start_time": "2026-07-18T00:00:00+00:00",
         "end_time": "2026-10-17T07:30:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-2deg-3mo_20260718_v001.0005.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-2deg-3mo_20260718_v001.0006.cdf"
       }
     ]
   },
@@ -107521,7 +107576,7 @@
     ],
     "logical_source": "imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-4deg-1yr",
     "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 12 Month Map",
-    "generation_date": "2026-09-21",
+    "generation_date": "2026-09-28",
     "data_level": "l3",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -107531,7 +107586,7 @@
       {
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2027-01-17T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/01/imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-4deg-1yr_20260117_v001.0005.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/01/imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-4deg-1yr_20260117_v001.0006.cdf"
       }
     ]
   },
@@ -107580,7 +107635,7 @@
     ],
     "logical_source": "imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-4deg-3mo",
     "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 3 Month Map",
-    "generation_date": "2026-09-21",
+    "generation_date": "2026-09-28",
     "data_level": "l3",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -107605,7 +107660,7 @@
       {
         "start_time": "2026-07-18T00:00:00+00:00",
         "end_time": "2026-10-17T07:30:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-4deg-3mo_20260718_v001.0005.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-4deg-3mo_20260718_v001.0006.cdf"
       }
     ]
   },
@@ -107654,7 +107709,7 @@
     ],
     "logical_source": "imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-6deg-1yr",
     "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 12 Month Map",
-    "generation_date": "2026-09-21",
+    "generation_date": "2026-09-28",
     "data_level": "l3",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -107664,7 +107719,7 @@
       {
         "start_time": "2026-01-17T00:00:00+00:00",
         "end_time": "2027-01-17T06:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/01/imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-6deg-1yr_20260117_v001.0005.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/01/imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-6deg-1yr_20260117_v001.0006.cdf"
       }
     ]
   },
@@ -107713,7 +107768,7 @@
     ],
     "logical_source": "imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-6deg-3mo",
     "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 3 Month Map",
-    "generation_date": "2026-09-21",
+    "generation_date": "2026-09-28",
     "data_level": "l3",
     "instrument": "IMAP-Ultra",
     "mission": "IMAP",
@@ -107738,7 +107793,7 @@
       {
         "start_time": "2026-07-18T00:00:00+00:00",
         "end_time": "2026-10-17T07:30:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-6deg-3mo_20260718_v001.0005.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/07/imap_ultra_l3_ulc-ena-h-hf-sp-full-hae-6deg-3mo_20260718_v001.0006.cdf"
       }
     ]
   }
