@@ -36199,7 +36199,7 @@
       {
         "start_time": "2026-09-30T00:00:00+00:00",
         "end_time": "2026-10-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3b/2026/09/imap_codice_l3b_hi-pitch-angle_20260930_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3b/2026/09/imap_codice_l3b_hi-pitch-angle_20260930_v001.0002.cdf"
       }
     ]
   },
@@ -69089,7 +69089,7 @@
       {
         "start_time": "2026-09-30T00:00:00+00:00",
         "end_time": "2026-10-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/09/imap_hit_l3_macropixel_20260930_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/hit/l3/2026/09/imap_hit_l3_macropixel_20260930_v001.0002.cdf"
       }
     ]
   },
@@ -97770,7 +97770,7 @@
       {
         "start_time": "2026-09-30T00:00:00+00:00",
         "end_time": "2026-10-01T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_alpha-sw_20260930_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/09/imap_swapi_l3a_alpha-sw_20260930_v001.0002.cdf"
       }
     ]
   },
@@ -104617,7 +104617,7 @@
         "catalog_description": "Core t_parallel integrated",
         "display_type": "time_series",
         "var_type": "data",
-        "units": " ",
+        "units": "K",
         "axis_label": "Core t parallel integrated"
       },
       {
@@ -104801,7 +104801,7 @@
         "catalog_description": "Halo t_parallel integrated",
         "display_type": "time_series",
         "var_type": "data",
-        "units": " ",
+        "units": "K",
         "axis_label": "Halo t parallel integrated"
       },
       {
@@ -105049,7 +105049,7 @@
         "catalog_description": "Total speed integrated",
         "display_type": "time_series",
         "var_type": "support_data",
-        "units": " ",
+        "units": "km/s",
         "axis_label": "Total speed integrated"
       },
       {
@@ -105057,7 +105057,7 @@
         "catalog_description": "Total t_parallel integrated",
         "display_type": "time_series",
         "var_type": "support_data",
-        "units": " ",
+        "units": "K",
         "axis_label": "Total t parallel integrated"
       },
       {
@@ -105126,8 +105126,8 @@
       }
     ],
     "logical_source": "imap_swe_l3_sci",
-    "logical_source_description": "SWE Instrument Level-3 Science Data",
-    "generation_date": "2026-09-30",
+    "logical_source_description": "IMAP Mission SWE Instrument Level-3 Science Data",
+    "generation_date": "2026-10-01",
     "data_level": "l3",
     "instrument": "SWE",
     "mission": "IMAP",
@@ -106723,6 +106723,11 @@
         "start_time": "2026-09-29T00:00:00+00:00",
         "end_time": "2026-09-30T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swe/l3/2026/09/imap_swe_l3_sci_20260929_v001.0006.cdf"
+      },
+      {
+        "start_time": "2026-09-30T00:00:00+00:00",
+        "end_time": "2026-10-01T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swe/l3/2026/09/imap_swe_l3_sci_20260930_v001.0002.cdf"
       }
     ]
   },
