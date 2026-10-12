@@ -58728,15 +58728,23 @@
     "variables": [
       {
         "variable_name": "ena_spectral_index_chisq",
-        "catalog_description": "ENA spectral index reduced chi-squared",
+        "catalog_description": "IMAP Hi45 H Spectral Index Chisq, HAE Helio Frame, Surv Corr, Anti, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "spectral index chi-sq"
       },
       {
+        "variable_name": "ena_spectral_index",
+        "catalog_description": "IMAP Hi45 H Spectral Index, HAE Helio Frame, Surv Corr, Anti, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "spectral index"
+      },
+      {
         "variable_name": "ena_spectral_scalar_stat_uncert",
-        "catalog_description": "ENA spectral index scalar coefficient statistical uncertainty.",
+        "catalog_description": "IMAP Hi45 H Spectral Scalar Stat. Unc., HAE Helio Frame, Surv Corr, Anti, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -58744,7 +58752,7 @@
       },
       {
         "variable_name": "ena_spectral_scalar",
-        "catalog_description": "ENA spectral index scalar coefficient.",
+        "catalog_description": "IMAP Hi45 H Spectral Scalar, HAE Helio Frame, Surv Corr, Anti, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -58752,24 +58760,24 @@
       },
       {
         "variable_name": "ena_spectral_index_stat_uncert",
-        "catalog_description": "ENA spectral index statistical uncertainty.",
+        "catalog_description": "IMAP Hi45 H Spectral Stat. Unc., HAE Helio Frame, Surv Corr, Anti, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "Statistical unc."
       },
       {
-        "variable_name": "ena_spectral_index",
-        "catalog_description": "IMAP Hi45 H Spectral, HAE Helio Frame, Surv Corr, Anti, 4 deg, 1 Yr",
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Hi (caution required if nonzero)",
         "display_type": "map_image",
         "var_type": "data",
-        "units": " ",
-        "axis_label": "spectral index"
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Hi"
       }
     ],
     "logical_source": "imap_hi_l3_h45-spx-h-hf-sp-anti-hae-4deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-45 Sensor, Spectral Index, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Anti-Ram, HAE, Rectangular 4 degree, 12 Month Map",
-    "generation_date": "2026-06-02",
+    "generation_date": "2026-10-11",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -58780,6 +58788,11 @@
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h45-spx-h-hf-sp-anti-hae-4deg-1yr_20250419_v001.0010.cdf"
+      },
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2027-01-17T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h45-spx-h-hf-sp-anti-hae-4deg-1yr_20260117_v001.0001.cdf"
       }
     ]
   },
@@ -58787,15 +58800,23 @@
     "variables": [
       {
         "variable_name": "ena_spectral_index_chisq",
-        "catalog_description": "ENA spectral index reduced chi-squared",
+        "catalog_description": "IMAP Hi45 H Spectral Index Chisq, HAE Helio Frame, Surv Corr, Anti, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "spectral index chi-sq"
       },
       {
+        "variable_name": "ena_spectral_index",
+        "catalog_description": "IMAP Hi45 H Spectral Index, HAE Helio Frame, Surv Corr, Anti, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "spectral index"
+      },
+      {
         "variable_name": "ena_spectral_scalar_stat_uncert",
-        "catalog_description": "ENA spectral index scalar coefficient statistical uncertainty.",
+        "catalog_description": "IMAP Hi45 H Spectral Scalar Stat. Unc., HAE Helio Frame, Surv Corr, Anti, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -58803,7 +58824,7 @@
       },
       {
         "variable_name": "ena_spectral_scalar",
-        "catalog_description": "ENA spectral index scalar coefficient.",
+        "catalog_description": "IMAP Hi45 H Spectral Scalar, HAE Helio Frame, Surv Corr, Anti, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -58811,24 +58832,24 @@
       },
       {
         "variable_name": "ena_spectral_index_stat_uncert",
-        "catalog_description": "ENA spectral index statistical uncertainty.",
+        "catalog_description": "IMAP Hi45 H Spectral Stat. Unc., HAE Helio Frame, Surv Corr, Anti, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "Statistical unc."
       },
       {
-        "variable_name": "ena_spectral_index",
-        "catalog_description": "IMAP Hi45 H Spectral, HAE Helio Frame, Surv Corr, Anti, 6 deg, 1 Yr",
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Hi (caution required if nonzero)",
         "display_type": "map_image",
         "var_type": "data",
-        "units": " ",
-        "axis_label": "spectral index"
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Hi"
       }
     ],
     "logical_source": "imap_hi_l3_h45-spx-h-hf-sp-anti-hae-6deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-45 Sensor, Spectral Index, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Anti-Ram, HAE, Rectangular 6 degree, 12 Month Map",
-    "generation_date": "2026-06-02",
+    "generation_date": "2026-10-11",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -58839,6 +58860,11 @@
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h45-spx-h-hf-sp-anti-hae-6deg-1yr_20250419_v001.0010.cdf"
+      },
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2027-01-17T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h45-spx-h-hf-sp-anti-hae-6deg-1yr_20260117_v001.0001.cdf"
       }
     ]
   },
@@ -58846,15 +58872,23 @@
     "variables": [
       {
         "variable_name": "ena_spectral_index_chisq",
-        "catalog_description": "ENA spectral index reduced chi-squared",
+        "catalog_description": "IMAP Hi45 H Spectral Index Chisq, HAE Helio Frame, Surv Corr, Ram, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "spectral index chi-sq"
       },
       {
+        "variable_name": "ena_spectral_index",
+        "catalog_description": "IMAP Hi45 H Spectral Index, HAE Helio Frame, Surv Corr, Ram, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "spectral index"
+      },
+      {
         "variable_name": "ena_spectral_scalar_stat_uncert",
-        "catalog_description": "ENA spectral index scalar coefficient statistical uncertainty.",
+        "catalog_description": "IMAP Hi45 H Spectral Scalar Stat. Unc., HAE Helio Frame, Surv Corr, Ram, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -58862,7 +58896,7 @@
       },
       {
         "variable_name": "ena_spectral_scalar",
-        "catalog_description": "ENA spectral index scalar coefficient.",
+        "catalog_description": "IMAP Hi45 H Spectral Scalar, HAE Helio Frame, Surv Corr, Ram, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -58870,24 +58904,24 @@
       },
       {
         "variable_name": "ena_spectral_index_stat_uncert",
-        "catalog_description": "ENA spectral index statistical uncertainty.",
+        "catalog_description": "IMAP Hi45 H Spectral Stat. Unc., HAE Helio Frame, Surv Corr, Ram, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "Statistical unc."
       },
       {
-        "variable_name": "ena_spectral_index",
-        "catalog_description": "IMAP Hi45 H Spectral, HAE Helio Frame, Surv Corr, Ram, 4 deg, 1 Yr",
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Hi (caution required if nonzero)",
         "display_type": "map_image",
         "var_type": "data",
-        "units": " ",
-        "axis_label": "spectral index"
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Hi"
       }
     ],
     "logical_source": "imap_hi_l3_h45-spx-h-hf-sp-ram-hae-4deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-45 Sensor, Spectral Index, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Ram, HAE, Rectangular 4 degree, 12 Month Map",
-    "generation_date": "2026-06-02",
+    "generation_date": "2026-10-11",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -58898,6 +58932,11 @@
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h45-spx-h-hf-sp-ram-hae-4deg-1yr_20250419_v001.0010.cdf"
+      },
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2027-01-17T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h45-spx-h-hf-sp-ram-hae-4deg-1yr_20260117_v001.0001.cdf"
       }
     ]
   },
@@ -58905,15 +58944,23 @@
     "variables": [
       {
         "variable_name": "ena_spectral_index_chisq",
-        "catalog_description": "ENA spectral index reduced chi-squared",
+        "catalog_description": "IMAP Hi45 H Spectral Index Chisq, HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "spectral index chi-sq"
       },
       {
+        "variable_name": "ena_spectral_index",
+        "catalog_description": "IMAP Hi45 H Spectral Index, HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "spectral index"
+      },
+      {
         "variable_name": "ena_spectral_scalar_stat_uncert",
-        "catalog_description": "ENA spectral index scalar coefficient statistical uncertainty.",
+        "catalog_description": "IMAP Hi45 H Spectral Scalar Stat. Unc., HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -58921,7 +58968,7 @@
       },
       {
         "variable_name": "ena_spectral_scalar",
-        "catalog_description": "ENA spectral index scalar coefficient.",
+        "catalog_description": "IMAP Hi45 H Spectral Scalar, HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -58929,24 +58976,24 @@
       },
       {
         "variable_name": "ena_spectral_index_stat_uncert",
-        "catalog_description": "ENA spectral index statistical uncertainty.",
+        "catalog_description": "IMAP Hi45 H Spectral Stat. Unc., HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "Statistical unc."
       },
       {
-        "variable_name": "ena_spectral_index",
-        "catalog_description": "IMAP Hi45 H Spectral, HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Hi (caution required if nonzero)",
         "display_type": "map_image",
         "var_type": "data",
-        "units": " ",
-        "axis_label": "spectral index"
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Hi"
       }
     ],
     "logical_source": "imap_hi_l3_h45-spx-h-hf-sp-ram-hae-6deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-45 Sensor, Spectral Index, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Ram, HAE, Rectangular 6 degree, 12 Month Map",
-    "generation_date": "2026-06-02",
+    "generation_date": "2026-10-11",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -58957,6 +59004,11 @@
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h45-spx-h-hf-sp-ram-hae-6deg-1yr_20250419_v001.0010.cdf"
+      },
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2027-01-17T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h45-spx-h-hf-sp-ram-hae-6deg-1yr_20260117_v001.0001.cdf"
       }
     ]
   },
@@ -59476,15 +59528,23 @@
     "variables": [
       {
         "variable_name": "ena_spectral_index_chisq",
-        "catalog_description": "ENA spectral index reduced chi-squared",
+        "catalog_description": "IMAP Hi90 H Spectral Index Chisq, HAE Helio Frame, Surv Corr, Anti, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "spectral index chi-sq"
       },
       {
+        "variable_name": "ena_spectral_index",
+        "catalog_description": "IMAP Hi90 H Spectral Index, HAE Helio Frame, Surv Corr, Anti, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "spectral index"
+      },
+      {
         "variable_name": "ena_spectral_scalar_stat_uncert",
-        "catalog_description": "ENA spectral index scalar coefficient statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Spectral Scalar Stat. Unc., HAE Helio Frame, Surv Corr, Anti, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -59492,7 +59552,7 @@
       },
       {
         "variable_name": "ena_spectral_scalar",
-        "catalog_description": "ENA spectral index scalar coefficient.",
+        "catalog_description": "IMAP Hi90 H Spectral Scalar, HAE Helio Frame, Surv Corr, Anti, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -59500,24 +59560,24 @@
       },
       {
         "variable_name": "ena_spectral_index_stat_uncert",
-        "catalog_description": "ENA spectral index statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Spectral Stat. Unc., HAE Helio Frame, Surv Corr, Anti, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "Statistical unc."
       },
       {
-        "variable_name": "ena_spectral_index",
-        "catalog_description": "IMAP Hi90 H Spectral, HAE Helio Frame, Surv Corr, Anti, 4 deg, 1 Yr",
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Hi (caution required if nonzero)",
         "display_type": "map_image",
         "var_type": "data",
-        "units": " ",
-        "axis_label": "spectral index"
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Hi"
       }
     ],
     "logical_source": "imap_hi_l3_h90-spx-h-hf-sp-anti-hae-4deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, Spectral Index, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Anti-Ram, HAE, Rectangular 4 degree, 12 Month Map",
-    "generation_date": "2026-06-02",
+    "generation_date": "2026-10-11",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -59528,6 +59588,11 @@
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h90-spx-h-hf-sp-anti-hae-4deg-1yr_20250419_v001.0010.cdf"
+      },
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2027-01-17T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h90-spx-h-hf-sp-anti-hae-4deg-1yr_20260117_v001.0001.cdf"
       }
     ]
   },
@@ -59535,15 +59600,23 @@
     "variables": [
       {
         "variable_name": "ena_spectral_index_chisq",
-        "catalog_description": "ENA spectral index reduced chi-squared",
+        "catalog_description": "IMAP Hi90 H Spectral Index Chisq, HAE Helio Frame, Surv Corr, Anti, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "spectral index chi-sq"
       },
       {
+        "variable_name": "ena_spectral_index",
+        "catalog_description": "IMAP Hi90 H Spectral Index, HAE Helio Frame, Surv Corr, Anti, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "spectral index"
+      },
+      {
         "variable_name": "ena_spectral_scalar_stat_uncert",
-        "catalog_description": "ENA spectral index scalar coefficient statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Spectral Scalar Stat. Unc., HAE Helio Frame, Surv Corr, Anti, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -59551,7 +59624,7 @@
       },
       {
         "variable_name": "ena_spectral_scalar",
-        "catalog_description": "ENA spectral index scalar coefficient.",
+        "catalog_description": "IMAP Hi90 H Spectral Scalar, HAE Helio Frame, Surv Corr, Anti, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -59559,24 +59632,24 @@
       },
       {
         "variable_name": "ena_spectral_index_stat_uncert",
-        "catalog_description": "ENA spectral index statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Spectral Stat. Unc., HAE Helio Frame, Surv Corr, Anti, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "Statistical unc."
       },
       {
-        "variable_name": "ena_spectral_index",
-        "catalog_description": "IMAP Hi90 H Spectral, HAE Helio Frame, Surv Corr, Anti, 6 deg, 1 Yr",
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Hi (caution required if nonzero)",
         "display_type": "map_image",
         "var_type": "data",
-        "units": " ",
-        "axis_label": "spectral index"
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Hi"
       }
     ],
     "logical_source": "imap_hi_l3_h90-spx-h-hf-sp-anti-hae-6deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, Spectral Index, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Anti-Ram, HAE, Rectangular 6 degree, 12 Month Map",
-    "generation_date": "2026-06-02",
+    "generation_date": "2026-10-11",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -59587,6 +59660,11 @@
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h90-spx-h-hf-sp-anti-hae-6deg-1yr_20250419_v001.0010.cdf"
+      },
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2027-01-17T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h90-spx-h-hf-sp-anti-hae-6deg-1yr_20260117_v001.0001.cdf"
       }
     ]
   },
@@ -59594,15 +59672,23 @@
     "variables": [
       {
         "variable_name": "ena_spectral_index_chisq",
-        "catalog_description": "ENA spectral index reduced chi-squared",
+        "catalog_description": "IMAP Hi90 H Spectral Index Chisq, HAE Helio Frame, Surv Corr, Ram, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "spectral index chi-sq"
       },
       {
+        "variable_name": "ena_spectral_index",
+        "catalog_description": "IMAP Hi90 H Spectral Index, HAE Helio Frame, Surv Corr, Ram, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "spectral index"
+      },
+      {
         "variable_name": "ena_spectral_scalar_stat_uncert",
-        "catalog_description": "ENA spectral index scalar coefficient statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Spectral Scalar Stat. Unc., HAE Helio Frame, Surv Corr, Ram, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -59610,7 +59696,7 @@
       },
       {
         "variable_name": "ena_spectral_scalar",
-        "catalog_description": "ENA spectral index scalar coefficient.",
+        "catalog_description": "IMAP Hi90 H Spectral Scalar, HAE Helio Frame, Surv Corr, Ram, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -59618,24 +59704,24 @@
       },
       {
         "variable_name": "ena_spectral_index_stat_uncert",
-        "catalog_description": "ENA spectral index statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Spectral Stat. Unc., HAE Helio Frame, Surv Corr, Ram, 4 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "Statistical unc."
       },
       {
-        "variable_name": "ena_spectral_index",
-        "catalog_description": "IMAP Hi90 H Spectral, HAE Helio Frame, Surv Corr, Ram, 4 deg, 1 Yr",
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Hi (caution required if nonzero)",
         "display_type": "map_image",
         "var_type": "data",
-        "units": " ",
-        "axis_label": "spectral index"
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Hi"
       }
     ],
     "logical_source": "imap_hi_l3_h90-spx-h-hf-sp-ram-hae-4deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, Spectral Index, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Ram, HAE, Rectangular 4 degree, 12 Month Map",
-    "generation_date": "2026-06-02",
+    "generation_date": "2026-10-11",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -59646,6 +59732,11 @@
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h90-spx-h-hf-sp-ram-hae-4deg-1yr_20250419_v001.0010.cdf"
+      },
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2027-01-17T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h90-spx-h-hf-sp-ram-hae-4deg-1yr_20260117_v001.0001.cdf"
       }
     ]
   },
@@ -59653,15 +59744,23 @@
     "variables": [
       {
         "variable_name": "ena_spectral_index_chisq",
-        "catalog_description": "ENA spectral index reduced chi-squared",
+        "catalog_description": "IMAP Hi90 H Spectral Index Chisq, HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "spectral index chi-sq"
       },
       {
+        "variable_name": "ena_spectral_index",
+        "catalog_description": "IMAP Hi90 H Spectral Index, HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "spectral index"
+      },
+      {
         "variable_name": "ena_spectral_scalar_stat_uncert",
-        "catalog_description": "ENA spectral index scalar coefficient statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Spectral Scalar Stat. Unc., HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -59669,7 +59768,7 @@
       },
       {
         "variable_name": "ena_spectral_scalar",
-        "catalog_description": "ENA spectral index scalar coefficient.",
+        "catalog_description": "IMAP Hi90 H Spectral Scalar, HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -59677,24 +59776,24 @@
       },
       {
         "variable_name": "ena_spectral_index_stat_uncert",
-        "catalog_description": "ENA spectral index statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Spectral Stat. Unc., HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "Statistical unc."
       },
       {
-        "variable_name": "ena_spectral_index",
-        "catalog_description": "IMAP Hi90 H Spectral, HAE Helio Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Hi (caution required if nonzero)",
         "display_type": "map_image",
         "var_type": "data",
-        "units": " ",
-        "axis_label": "spectral index"
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Hi"
       }
     ],
     "logical_source": "imap_hi_l3_h90-spx-h-hf-sp-ram-hae-6deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, Spectral Index, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Ram, HAE, Rectangular 6 degree, 12 Month Map",
-    "generation_date": "2026-06-02",
+    "generation_date": "2026-10-11",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -59705,6 +59804,11 @@
         "start_time": "2025-04-19T00:00:00+00:00",
         "end_time": "2026-04-19T06:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/04/imap_hi_l3_h90-spx-h-hf-sp-ram-hae-6deg-1yr_20250419_v001.0010.cdf"
+      },
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2027-01-17T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h90-spx-h-hf-sp-ram-hae-6deg-1yr_20260117_v001.0001.cdf"
       }
     ]
   },
@@ -60208,15 +60312,23 @@
     "variables": [
       {
         "variable_name": "ena_spectral_index_chisq",
-        "catalog_description": "ENA spectral index reduced chi-squared",
+        "catalog_description": "IMAP Hi45 H Spectral Index Chisq, HAE Helio Frame, Surv Corr, Full Spin, 4 deg, 6 Mon",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "spectral index chi-sq"
       },
       {
+        "variable_name": "ena_spectral_index",
+        "catalog_description": "IMAP Hi45 H Spectral Index, HAE Helio Frame, Surv Corr, Full Spin, 4 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "spectral index"
+      },
+      {
         "variable_name": "ena_spectral_scalar_stat_uncert",
-        "catalog_description": "ENA spectral index scalar coefficient statistical uncertainty.",
+        "catalog_description": "IMAP Hi45 H Spectral Scalar Stat. Unc., HAE Helio Frame, Surv Corr, Full Spin, 4 deg, 6 Mon",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -60224,7 +60336,7 @@
       },
       {
         "variable_name": "ena_spectral_scalar",
-        "catalog_description": "ENA spectral index scalar coefficient.",
+        "catalog_description": "IMAP Hi45 H Spectral Scalar, HAE Helio Frame, Surv Corr, Full Spin, 4 deg, 6 Mon",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -60232,24 +60344,24 @@
       },
       {
         "variable_name": "ena_spectral_index_stat_uncert",
-        "catalog_description": "ENA spectral index statistical uncertainty.",
+        "catalog_description": "IMAP Hi45 H Spectral Stat. Unc., HAE Helio Frame, Surv Corr, Full Spin, 4 deg, 6 Mon",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "Statistical unc."
       },
       {
-        "variable_name": "ena_spectral_index",
-        "catalog_description": "IMAP Hi45 H Spectral, HAE Helio Frame, Surv Corr, Full Spin, 4 deg, 6 Mon",
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Hi (caution required if nonzero)",
         "display_type": "map_image",
         "var_type": "data",
-        "units": " ",
-        "axis_label": "spectral index"
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Hi"
       }
     ],
     "logical_source": "imap_hi_l3_h45-spx-h-hf-sp-full-hae-4deg-6mo",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-45 Sensor, Spectral Index, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 6 Month Map",
-    "generation_date": "2026-06-02",
+    "generation_date": "2026-10-11",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -60260,6 +60372,16 @@
         "start_time": "2025-10-18T00:00:00+00:00",
         "end_time": "2026-04-18T15:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/10/imap_hi_l3_h45-spx-h-hf-sp-full-hae-4deg-6mo_20251018_v001.0010.cdf"
+      },
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-07-18T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h45-spx-h-hf-sp-full-hae-4deg-6mo_20260117_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-18T00:00:00+00:00",
+        "end_time": "2027-01-16T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/07/imap_hi_l3_h45-spx-h-hf-sp-full-hae-4deg-6mo_20260718_v001.0001.cdf"
       }
     ]
   },
@@ -60267,15 +60389,23 @@
     "variables": [
       {
         "variable_name": "ena_spectral_index_chisq",
-        "catalog_description": "ENA spectral index reduced chi-squared",
+        "catalog_description": "IMAP Hi45 H Spectral Index Chisq, HAE Helio Frame, Surv Corr, Full Spin, 6 deg, 6 Mon",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "spectral index chi-sq"
       },
       {
+        "variable_name": "ena_spectral_index",
+        "catalog_description": "IMAP Hi45 H Spectral Index, HAE Helio Frame, Surv Corr, Full Spin, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "spectral index"
+      },
+      {
         "variable_name": "ena_spectral_scalar_stat_uncert",
-        "catalog_description": "ENA spectral index scalar coefficient statistical uncertainty.",
+        "catalog_description": "IMAP Hi45 H Spectral Scalar Stat. Unc., HAE Helio Frame, Surv Corr, Full Spin, 6 deg, 6 Mon",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -60283,7 +60413,7 @@
       },
       {
         "variable_name": "ena_spectral_scalar",
-        "catalog_description": "ENA spectral index scalar coefficient.",
+        "catalog_description": "IMAP Hi45 H Spectral Scalar, HAE Helio Frame, Surv Corr, Full Spin, 6 deg, 6 Mon",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -60291,24 +60421,24 @@
       },
       {
         "variable_name": "ena_spectral_index_stat_uncert",
-        "catalog_description": "ENA spectral index statistical uncertainty.",
+        "catalog_description": "IMAP Hi45 H Spectral Stat. Unc., HAE Helio Frame, Surv Corr, Full Spin, 6 deg, 6 Mon",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "Statistical unc."
       },
       {
-        "variable_name": "ena_spectral_index",
-        "catalog_description": "IMAP Hi45 H Spectral, HAE Helio Frame, Surv Corr, Full Spin, 6 deg, 6 Mon",
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Hi (caution required if nonzero)",
         "display_type": "map_image",
         "var_type": "data",
-        "units": " ",
-        "axis_label": "spectral index"
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Hi"
       }
     ],
     "logical_source": "imap_hi_l3_h45-spx-h-hf-sp-full-hae-6deg-6mo",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-45 Sensor, Spectral Index, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 6 Month Map",
-    "generation_date": "2026-06-02",
+    "generation_date": "2026-10-11",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -60319,6 +60449,16 @@
         "start_time": "2025-10-18T00:00:00+00:00",
         "end_time": "2026-04-18T15:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/10/imap_hi_l3_h45-spx-h-hf-sp-full-hae-6deg-6mo_20251018_v001.0010.cdf"
+      },
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-07-18T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h45-spx-h-hf-sp-full-hae-6deg-6mo_20260117_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-18T00:00:00+00:00",
+        "end_time": "2027-01-16T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/07/imap_hi_l3_h45-spx-h-hf-sp-full-hae-6deg-6mo_20260718_v001.0001.cdf"
       }
     ]
   },
@@ -60602,15 +60742,23 @@
     "variables": [
       {
         "variable_name": "ena_spectral_index_chisq",
-        "catalog_description": "ENA spectral index reduced chi-squared",
+        "catalog_description": "IMAP Hi90 H Spectral Index Chisq, HAE Helio Frame, Surv Corr, Full Spin, 4 deg, 6 Mon",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "spectral index chi-sq"
       },
       {
+        "variable_name": "ena_spectral_index",
+        "catalog_description": "IMAP Hi90 H Spectral Index, HAE Helio Frame, Surv Corr, Full Spin, 4 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "spectral index"
+      },
+      {
         "variable_name": "ena_spectral_scalar_stat_uncert",
-        "catalog_description": "ENA spectral index scalar coefficient statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Spectral Scalar Stat. Unc., HAE Helio Frame, Surv Corr, Full Spin, 4 deg, 6 Mon",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -60618,7 +60766,7 @@
       },
       {
         "variable_name": "ena_spectral_scalar",
-        "catalog_description": "ENA spectral index scalar coefficient.",
+        "catalog_description": "IMAP Hi90 H Spectral Scalar, HAE Helio Frame, Surv Corr, Full Spin, 4 deg, 6 Mon",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -60626,24 +60774,24 @@
       },
       {
         "variable_name": "ena_spectral_index_stat_uncert",
-        "catalog_description": "ENA spectral index statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Spectral Stat. Unc., HAE Helio Frame, Surv Corr, Full Spin, 4 deg, 6 Mon",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "Statistical unc."
       },
       {
-        "variable_name": "ena_spectral_index",
-        "catalog_description": "IMAP Hi90 H Spectral, HAE Helio Frame, Surv Corr, Full Spin, 4 deg, 6 Mon",
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Hi (caution required if nonzero)",
         "display_type": "map_image",
         "var_type": "data",
-        "units": " ",
-        "axis_label": "spectral index"
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Hi"
       }
     ],
     "logical_source": "imap_hi_l3_h90-spx-h-hf-sp-full-hae-4deg-6mo",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, Spectral Index, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 6 Month Map",
-    "generation_date": "2026-06-02",
+    "generation_date": "2026-10-11",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -60654,6 +60802,16 @@
         "start_time": "2025-10-18T00:00:00+00:00",
         "end_time": "2026-04-18T15:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/10/imap_hi_l3_h90-spx-h-hf-sp-full-hae-4deg-6mo_20251018_v001.0010.cdf"
+      },
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-07-18T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h90-spx-h-hf-sp-full-hae-4deg-6mo_20260117_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-18T00:00:00+00:00",
+        "end_time": "2027-01-16T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/07/imap_hi_l3_h90-spx-h-hf-sp-full-hae-4deg-6mo_20260718_v001.0001.cdf"
       }
     ]
   },
@@ -60661,15 +60819,23 @@
     "variables": [
       {
         "variable_name": "ena_spectral_index_chisq",
-        "catalog_description": "ENA spectral index reduced chi-squared",
+        "catalog_description": "IMAP Hi90 H Spectral Index Chisq, HAE Helio Frame, Surv Corr, Full Spin, 6 deg, 6 Mon",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "spectral index chi-sq"
       },
       {
+        "variable_name": "ena_spectral_index",
+        "catalog_description": "IMAP Hi90 H Spectral Index, HAE Helio Frame, Surv Corr, Full Spin, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "var_type": "data",
+        "units": " ",
+        "axis_label": "spectral index"
+      },
+      {
         "variable_name": "ena_spectral_scalar_stat_uncert",
-        "catalog_description": "ENA spectral index scalar coefficient statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Spectral Scalar Stat. Unc., HAE Helio Frame, Surv Corr, Full Spin, 6 deg, 6 Mon",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -60677,7 +60843,7 @@
       },
       {
         "variable_name": "ena_spectral_scalar",
-        "catalog_description": "ENA spectral index scalar coefficient.",
+        "catalog_description": "IMAP Hi90 H Spectral Scalar, HAE Helio Frame, Surv Corr, Full Spin, 6 deg, 6 Mon",
         "display_type": "map_image",
         "var_type": "data",
         "units": "cm -2 s -1 sr -1 keV -1",
@@ -60685,24 +60851,24 @@
       },
       {
         "variable_name": "ena_spectral_index_stat_uncert",
-        "catalog_description": "ENA spectral index statistical uncertainty.",
+        "catalog_description": "IMAP Hi90 H Spectral Stat. Unc., HAE Helio Frame, Surv Corr, Full Spin, 6 deg, 6 Mon",
         "display_type": "map_image",
         "var_type": "data",
         "units": " ",
         "axis_label": "Statistical unc."
       },
       {
-        "variable_name": "ena_spectral_index",
-        "catalog_description": "IMAP Hi90 H Spectral, HAE Helio Frame, Surv Corr, Full Spin, 6 deg, 6 Mon",
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Hi (caution required if nonzero)",
         "display_type": "map_image",
         "var_type": "data",
-        "units": " ",
-        "axis_label": "spectral index"
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Hi"
       }
     ],
     "logical_source": "imap_hi_l3_h90-spx-h-hf-sp-full-hae-6deg-6mo",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, Spectral Index, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 6 Month Map",
-    "generation_date": "2026-06-02",
+    "generation_date": "2026-10-11",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -60713,6 +60879,16 @@
         "start_time": "2025-10-18T00:00:00+00:00",
         "end_time": "2026-04-18T15:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/10/imap_hi_l3_h90-spx-h-hf-sp-full-hae-6deg-6mo_20251018_v001.0010.cdf"
+      },
+      {
+        "start_time": "2026-01-17T00:00:00+00:00",
+        "end_time": "2026-07-18T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/01/imap_hi_l3_h90-spx-h-hf-sp-full-hae-6deg-6mo_20260117_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-07-18T00:00:00+00:00",
+        "end_time": "2027-01-16T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/07/imap_hi_l3_h90-spx-h-hf-sp-full-hae-6deg-6mo_20260718_v001.0001.cdf"
       }
     ]
   },
