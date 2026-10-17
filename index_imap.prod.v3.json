@@ -102527,7 +102527,7 @@
     ],
     "logical_source": "imap_swapi_l3a_proton-sw",
     "logical_source_description": "IMAP Mission SWAPI Instrument Proton Solar Wind Parameters",
-    "generation_date": "2026-10-15",
+    "generation_date": "2026-10-17",
     "data_level": "l3a",
     "instrument": "SWAPI",
     "mission": "IMAP",
@@ -104207,7 +104207,17 @@
       {
         "start_time": "2026-10-14T00:00:00+00:00",
         "end_time": "2026-10-15T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/10/imap_swapi_l3a_proton-sw_20261014_v002.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/10/imap_swapi_l3a_proton-sw_20261014_v002.0002.cdf"
+      },
+      {
+        "start_time": "2026-10-15T00:00:00+00:00",
+        "end_time": "2026-10-16T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/10/imap_swapi_l3a_proton-sw_20261015_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-10-17T00:00:00+00:00",
+        "end_time": "2026-10-18T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/10/imap_swapi_l3a_proton-sw_20261017_v002.0001.cdf"
       }
     ]
   },
@@ -104256,7 +104266,7 @@
     ],
     "logical_source": "imap_swapi_l3a_pui-he",
     "logical_source_description": "IMAP Mission SWAPI Instrument Pickup Ion Parameters",
-    "generation_date": "2026-10-15",
+    "generation_date": "2026-10-17",
     "data_level": "l3a",
     "instrument": "SWAPI",
     "mission": "IMAP",
@@ -105936,7 +105946,17 @@
       {
         "start_time": "2026-10-14T00:00:00+00:00",
         "end_time": "2026-10-15T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/10/imap_swapi_l3a_pui-he_20261014_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/10/imap_swapi_l3a_pui-he_20261014_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-10-15T00:00:00+00:00",
+        "end_time": "2026-10-16T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/10/imap_swapi_l3a_pui-he_20261015_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-10-17T00:00:00+00:00",
+        "end_time": "2026-10-18T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/10/imap_swapi_l3a_pui-he_20261017_v001.0001.cdf"
       }
     ]
   },
