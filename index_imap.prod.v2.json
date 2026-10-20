@@ -56040,6 +56040,46 @@
   {
     "variables": [
       {
+        "variable_name": "bg_rate",
+        "catalog_description": "IMAP Hi45 H Background Count Rate, HAE Helio Frame, No Surv Corr, Anti, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "units": "count s-1",
+        "axis_label": "Rate"
+      },
+      {
+        "variable_name": "ena_count",
+        "catalog_description": "IMAP Hi45 H Counts, HAE Helio Frame, No Surv Corr, Anti, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "units": "counts",
+        "axis_label": "Count"
+      },
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Hi45 H Inten, HAE Helio Frame, No Surv Corr, Anti, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_hi_l2_h45-ena-h-hf-nsp-anti-hae-4deg-1yr",
+    "logical_source_description": "IMAP-Hi Instrument Level-2 45 degree sensor map of Hydrogen ENA Intensity in the heliospheric frame with no survival correction in the anti-ram direction in HAE coordinates on rectangular 4 degree tiling over 1 year.",
+    "generation_date": "2026-10-20",
+    "data_level": "l2",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2024-12-25T00:00:00+00:00",
+        "end_time": "2025-12-25T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l2/2024/12/imap_hi_l2_h45-ena-h-hf-nsp-anti-hae-4deg-1yr_20241225_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
         "variable_name": "cno_macropixel_intensity",
         "catalog_description": "C, N, O Macropixel Intensity",
         "display_type": "spectrogram",
@@ -67198,6 +67238,60 @@
         "start_time": "2026-06-29T00:00:00+00:00",
         "end_time": "2026-06-30T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2c/2026/06/imap_idex_l2c_rectangular-map-1mo_20260629_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "bg_rate",
+        "catalog_description": "IMAP Lo H Background Count Rate, HAE SC Frame, No Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "units": "count s-1",
+        "axis_label": "Rate"
+      },
+      {
+        "variable_name": "bg_intensity",
+        "catalog_description": "IMAP Lo H Background Inten, HAE SC Frame, No Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "ena_count",
+        "catalog_description": "IMAP Lo H Counts, HAE SC Frame, No Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "units": "counts",
+        "axis_label": "Count"
+      },
+      {
+        "variable_name": "ena_count_rate",
+        "catalog_description": "IMAP Lo H ENA Count Rate, HAE SC Frame, No Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "units": "counts/s",
+        "axis_label": "Rate"
+      },
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Lo H Inten, HAE SC Frame, No Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_lo_l2_ilo-enansnbsMsk-h-sf-nsp-ram-hae-6deg-1yr",
+    "logical_source_description": "IMAP-Lo Instrument Level-2 map of Hydrogen ENA Intensity in the spacecraft frame with no survival correction in the ram direction in HAE coordinates on rectangular 6 degree tiling over 1 year.",
+    "generation_date": "2026-10-20",
+    "data_level": "l2",
+    "instrument": "IMAP-Lo",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2024-12-25T00:00:00+00:00",
+        "end_time": "2025-12-25T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/lo/l2/2024/12/imap_lo_l2_ilo-enansnbsMsk-h-sf-nsp-ram-hae-6deg-1yr_20241225_v001.0001.cdf"
       }
     ]
   },
@@ -95692,6 +95786,46 @@
         "start_time": "2026-10-19T00:00:00+00:00",
         "end_time": "2026-10-20T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swe/l3/2026/10/imap_swe_l3_sci_20261019_v002.0003.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "bg_rate",
+        "catalog_description": "IMAP Ultra45 H Background Count Rate, HAE Helio Frame, No Surv Corr, Full Spin, 2 deg, 1 Yr",
+        "display_type": "map_image",
+        "units": "count s-1",
+        "axis_label": "Rate"
+      },
+      {
+        "variable_name": "counts",
+        "catalog_description": "IMAP Ultra45 H Counts, HAE Helio Frame, No Surv Corr, Full Spin, 2 deg, 1 Yr",
+        "display_type": "map_image",
+        "units": "counts",
+        "axis_label": "Count"
+      },
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Ultra45 H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 2 deg, 1 Yr",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      }
+    ],
+    "logical_source": "imap_ultra_l2_u45-ena-h-hf-nsp-full-hae-2deg-1yr",
+    "logical_source_description": "IMAP-Ultra Instrument Level-2 45 degree sensor map of Hydrogen ENA Intensity in the heliospheric frame with no survival correction in the full spin direction in HAE coordinates on rectangular 2 degree tiling over 1 year.",
+    "generation_date": "2026-10-20",
+    "data_level": "l2",
+    "instrument": "IMAP-Ultra",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2024-12-25T00:00:00+00:00",
+        "end_time": "2025-12-25T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l2/2024/12/imap_ultra_l2_u45-ena-h-hf-nsp-full-hae-2deg-1yr_20241225_v001.0001.cdf"
       }
     ]
   }
