@@ -100714,5 +100714,407 @@
         "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l2/2026/09/imap_ultra_l2_u90-ena-h-sf-nsp-full-hae-6deg-3mo_20260925_v001.0001.cdf"
       }
     ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Ultra Combined H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 2 deg, 1 Yr",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Ultra (caution required if nonzero)",
+        "display_type": "map_image",
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Ultra"
+      }
+    ],
+    "logical_source": "imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-2deg-1yr",
+    "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 2 degree, 12 Month Map",
+    "generation_date": "2026-10-21",
+    "data_level": "l3",
+    "instrument": "IMAP-Ultra",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2024-12-25T00:00:00+00:00",
+        "end_time": "2025-12-25T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2024/12/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-2deg-1yr_20241225_v001.0001.cdf"
+      },
+      {
+        "start_time": "2025-12-25T00:00:00+00:00",
+        "end_time": "2026-12-25T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2025/12/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-2deg-1yr_20251225_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Ultra Combined H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Ultra (caution required if nonzero)",
+        "display_type": "map_image",
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Ultra"
+      }
+    ],
+    "logical_source": "imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-4deg-1yr",
+    "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 12 Month Map",
+    "generation_date": "2026-10-21",
+    "data_level": "l3",
+    "instrument": "IMAP-Ultra",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2024-12-25T00:00:00+00:00",
+        "end_time": "2025-12-25T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2024/12/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-4deg-1yr_20241225_v001.0001.cdf"
+      },
+      {
+        "start_time": "2025-12-25T00:00:00+00:00",
+        "end_time": "2026-12-25T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2025/12/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-4deg-1yr_20251225_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Ultra Combined H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Ultra (caution required if nonzero)",
+        "display_type": "map_image",
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Ultra"
+      }
+    ],
+    "logical_source": "imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-6deg-1yr",
+    "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 12 Month Map",
+    "generation_date": "2026-10-21",
+    "data_level": "l3",
+    "instrument": "IMAP-Ultra",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2024-12-25T00:00:00+00:00",
+        "end_time": "2025-12-25T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2024/12/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-6deg-1yr_20241225_v001.0001.cdf"
+      },
+      {
+        "start_time": "2025-12-25T00:00:00+00:00",
+        "end_time": "2026-12-25T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2025/12/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-6deg-1yr_20251225_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Ultra Combined H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 2 deg, 6 Mon",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Ultra (caution required if nonzero)",
+        "display_type": "map_image",
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Ultra"
+      }
+    ],
+    "logical_source": "imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-2deg-6mo",
+    "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 2 degree, 6 Month Map",
+    "generation_date": "2026-10-21",
+    "data_level": "l3",
+    "instrument": "IMAP-Ultra",
+    "mission": "IMAP",
+    "file_cadence": "six_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-06-25T00:00:00+00:00",
+        "end_time": "2025-12-24T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2025/06/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-2deg-6mo_20250625_v001.0001.cdf"
+      },
+      {
+        "start_time": "2025-12-25T00:00:00+00:00",
+        "end_time": "2026-06-25T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2025/12/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-2deg-6mo_20251225_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-25T00:00:00+00:00",
+        "end_time": "2026-12-24T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/06/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-2deg-6mo_20260625_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Ultra Combined H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 4 deg, 6 Mon",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Ultra (caution required if nonzero)",
+        "display_type": "map_image",
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Ultra"
+      }
+    ],
+    "logical_source": "imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-4deg-6mo",
+    "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 6 Month Map",
+    "generation_date": "2026-10-21",
+    "data_level": "l3",
+    "instrument": "IMAP-Ultra",
+    "mission": "IMAP",
+    "file_cadence": "six_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-06-25T00:00:00+00:00",
+        "end_time": "2025-12-24T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2025/06/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-4deg-6mo_20250625_v001.0001.cdf"
+      },
+      {
+        "start_time": "2025-12-25T00:00:00+00:00",
+        "end_time": "2026-06-25T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2025/12/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-4deg-6mo_20251225_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-25T00:00:00+00:00",
+        "end_time": "2026-12-24T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/06/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-4deg-6mo_20260625_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Ultra Combined H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Ultra (caution required if nonzero)",
+        "display_type": "map_image",
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Ultra"
+      }
+    ],
+    "logical_source": "imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-6deg-6mo",
+    "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 6 Month Map",
+    "generation_date": "2026-10-21",
+    "data_level": "l3",
+    "instrument": "IMAP-Ultra",
+    "mission": "IMAP",
+    "file_cadence": "six_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-06-25T00:00:00+00:00",
+        "end_time": "2025-12-24T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2025/06/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-6deg-6mo_20250625_v001.0001.cdf"
+      },
+      {
+        "start_time": "2025-12-25T00:00:00+00:00",
+        "end_time": "2026-06-25T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2025/12/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-6deg-6mo_20251225_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-25T00:00:00+00:00",
+        "end_time": "2026-12-24T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/06/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-6deg-6mo_20260625_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Ultra Combined H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 2 deg, 3 Mon",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Ultra (caution required if nonzero)",
+        "display_type": "map_image",
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Ultra"
+      }
+    ],
+    "logical_source": "imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-2deg-3mo",
+    "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 2 degree, 3 Month Map",
+    "generation_date": "2026-10-21",
+    "data_level": "l3",
+    "instrument": "IMAP-Ultra",
+    "mission": "IMAP",
+    "file_cadence": "three_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-09-25T00:00:00+00:00",
+        "end_time": "2025-12-25T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2025/09/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-2deg-3mo_20250925_v001.0001.cdf"
+      },
+      {
+        "start_time": "2025-12-25T00:00:00+00:00",
+        "end_time": "2026-03-26T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2025/12/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-2deg-3mo_20251225_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-03-25T00:00:00+00:00",
+        "end_time": "2026-06-24T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/03/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-2deg-3mo_20260325_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-25T00:00:00+00:00",
+        "end_time": "2026-09-24T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/06/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-2deg-3mo_20260625_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-25T00:00:00+00:00",
+        "end_time": "2026-12-25T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/09/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-2deg-3mo_20260925_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Ultra Combined H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 4 deg, 3 Mon",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Ultra (caution required if nonzero)",
+        "display_type": "map_image",
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Ultra"
+      }
+    ],
+    "logical_source": "imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-4deg-3mo",
+    "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 3 Month Map",
+    "generation_date": "2026-10-21",
+    "data_level": "l3",
+    "instrument": "IMAP-Ultra",
+    "mission": "IMAP",
+    "file_cadence": "three_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-09-25T00:00:00+00:00",
+        "end_time": "2025-12-25T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2025/09/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-4deg-3mo_20250925_v001.0001.cdf"
+      },
+      {
+        "start_time": "2025-12-25T00:00:00+00:00",
+        "end_time": "2026-03-26T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2025/12/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-4deg-3mo_20251225_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-03-25T00:00:00+00:00",
+        "end_time": "2026-06-24T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/03/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-4deg-3mo_20260325_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-25T00:00:00+00:00",
+        "end_time": "2026-09-24T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/06/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-4deg-3mo_20260625_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-25T00:00:00+00:00",
+        "end_time": "2026-12-25T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/09/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-4deg-3mo_20260925_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Ultra Combined H Inten, HAE Helio Frame, No Surv Corr, Full Spin, 6 deg, 3 Mon",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Ultra (caution required if nonzero)",
+        "display_type": "map_image",
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Ultra"
+      }
+    ],
+    "logical_source": "imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-6deg-3mo",
+    "logical_source_description": "IMAP Ultra Instrument Level 3 Ultra Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 3 Month Map",
+    "generation_date": "2026-10-21",
+    "data_level": "l3",
+    "instrument": "IMAP-Ultra",
+    "mission": "IMAP",
+    "file_cadence": "three_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-09-25T00:00:00+00:00",
+        "end_time": "2025-12-25T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2025/09/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-6deg-3mo_20250925_v001.0001.cdf"
+      },
+      {
+        "start_time": "2025-12-25T00:00:00+00:00",
+        "end_time": "2026-03-26T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2025/12/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-6deg-3mo_20251225_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-03-25T00:00:00+00:00",
+        "end_time": "2026-06-24T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/03/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-6deg-3mo_20260325_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-25T00:00:00+00:00",
+        "end_time": "2026-09-24T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/06/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-6deg-3mo_20260625_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-09-25T00:00:00+00:00",
+        "end_time": "2026-12-25T07:30:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/ultra/l3/2026/09/imap_ultra_l3_ulc-ena-h-hf-nsp-full-hae-6deg-3mo_20260925_v001.0001.cdf"
+      }
+    ]
   }
 ]
