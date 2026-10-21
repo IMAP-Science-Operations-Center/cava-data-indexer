@@ -58913,7 +58913,7 @@
     ],
     "logical_source": "imap_hi_l3_h90-ena-h-hf-sp-ram-hae-4deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Ram, HAE, Rectangular 4 degree, 12 Month Map",
-    "generation_date": "2026-10-20",
+    "generation_date": "2026-10-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -58924,6 +58924,11 @@
         "start_time": "2024-12-25T00:00:00+00:00",
         "end_time": "2025-12-25T06:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2024/12/imap_hi_l3_h90-ena-h-hf-sp-ram-hae-4deg-1yr_20241225_v001.0001.cdf"
+      },
+      {
+        "start_time": "2025-12-25T00:00:00+00:00",
+        "end_time": "2026-12-25T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/12/imap_hi_l3_h90-ena-h-hf-sp-ram-hae-4deg-1yr_20251225_v001.0001.cdf"
       }
     ]
   },
@@ -58953,7 +58958,7 @@
     ],
     "logical_source": "imap_hi_l3_h90-ena-h-hf-sp-ram-hae-6deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Ram, HAE, Rectangular 6 degree, 12 Month Map",
-    "generation_date": "2026-10-20",
+    "generation_date": "2026-10-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -58964,6 +58969,11 @@
         "start_time": "2024-12-25T00:00:00+00:00",
         "end_time": "2025-12-25T06:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2024/12/imap_hi_l3_h90-ena-h-hf-sp-ram-hae-6deg-1yr_20241225_v001.0001.cdf"
+      },
+      {
+        "start_time": "2025-12-25T00:00:00+00:00",
+        "end_time": "2026-12-25T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/12/imap_hi_l3_h90-ena-h-hf-sp-ram-hae-6deg-1yr_20251225_v001.0001.cdf"
       }
     ]
   },
@@ -58993,7 +59003,7 @@
     ],
     "logical_source": "imap_hi_l3_h90-ena-h-sf-sp-anti-hae-4deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Anti-Ram, HAE, Rectangular 4 degree, 12 Month Map",
-    "generation_date": "2026-10-20",
+    "generation_date": "2026-10-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -59004,6 +59014,11 @@
         "start_time": "2024-12-25T00:00:00+00:00",
         "end_time": "2025-12-25T06:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2024/12/imap_hi_l3_h90-ena-h-sf-sp-anti-hae-4deg-1yr_20241225_v001.0001.cdf"
+      },
+      {
+        "start_time": "2025-12-25T00:00:00+00:00",
+        "end_time": "2026-12-25T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/12/imap_hi_l3_h90-ena-h-sf-sp-anti-hae-4deg-1yr_20251225_v001.0001.cdf"
       }
     ]
   },
@@ -59033,7 +59048,7 @@
     ],
     "logical_source": "imap_hi_l3_h90-ena-h-sf-sp-anti-hae-6deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Anti-Ram, HAE, Rectangular 6 degree, 12 Month Map",
-    "generation_date": "2026-10-20",
+    "generation_date": "2026-10-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -59044,6 +59059,101 @@
         "start_time": "2024-12-25T00:00:00+00:00",
         "end_time": "2025-12-25T06:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2024/12/imap_hi_l3_h90-ena-h-sf-sp-anti-hae-6deg-1yr_20241225_v001.0001.cdf"
+      },
+      {
+        "start_time": "2025-12-25T00:00:00+00:00",
+        "end_time": "2026-12-25T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/12/imap_hi_l3_h90-ena-h-sf-sp-anti-hae-6deg-1yr_20251225_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Hi90 H Inten, HAE SC Frame, Surv Corr, Ram, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi90 H Survival Probability, HAE SC Frame, Surv Corr, Ram, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "units": " ",
+        "axis_label": "survival probability"
+      },
+      {
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Hi (caution required if nonzero)",
+        "display_type": "map_image",
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Hi"
+      }
+    ],
+    "logical_source": "imap_hi_l3_h90-ena-h-sf-sp-ram-hae-4deg-1yr",
+    "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Ram, HAE, Rectangular 4 degree, 12 Month Map",
+    "generation_date": "2026-10-21",
+    "data_level": "l3",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2024-12-25T00:00:00+00:00",
+        "end_time": "2025-12-25T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2024/12/imap_hi_l3_h90-ena-h-sf-sp-ram-hae-4deg-1yr_20241225_v001.0001.cdf"
+      },
+      {
+        "start_time": "2025-12-25T00:00:00+00:00",
+        "end_time": "2026-12-25T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/12/imap_hi_l3_h90-ena-h-sf-sp-ram-hae-4deg-1yr_20251225_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Hi90 H Inten, HAE SC Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi90 H Survival Probability, HAE SC Frame, Surv Corr, Ram, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "units": " ",
+        "axis_label": "survival probability"
+      },
+      {
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Hi (caution required if nonzero)",
+        "display_type": "map_image",
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Hi"
+      }
+    ],
+    "logical_source": "imap_hi_l3_h90-ena-h-sf-sp-ram-hae-6deg-1yr",
+    "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Ram, HAE, Rectangular 6 degree, 12 Month Map",
+    "generation_date": "2026-10-21",
+    "data_level": "l3",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2024-12-25T00:00:00+00:00",
+        "end_time": "2025-12-25T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2024/12/imap_hi_l3_h90-ena-h-sf-sp-ram-hae-6deg-1yr_20241225_v001.0001.cdf"
+      },
+      {
+        "start_time": "2025-12-25T00:00:00+00:00",
+        "end_time": "2026-12-25T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/12/imap_hi_l3_h90-ena-h-sf-sp-ram-hae-6deg-1yr_20251225_v001.0001.cdf"
       }
     ]
   },
@@ -59066,7 +59176,7 @@
     ],
     "logical_source": "imap_hi_l3_hic-ena-h-hf-nsp-full-hae-4deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 12 Month Map",
-    "generation_date": "2026-10-20",
+    "generation_date": "2026-10-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -59077,6 +59187,11 @@
         "start_time": "2024-12-25T00:00:00+00:00",
         "end_time": "2025-12-25T06:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2024/12/imap_hi_l3_hic-ena-h-hf-nsp-full-hae-4deg-1yr_20241225_v001.0001.cdf"
+      },
+      {
+        "start_time": "2025-12-25T00:00:00+00:00",
+        "end_time": "2026-12-25T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/12/imap_hi_l3_hic-ena-h-hf-nsp-full-hae-4deg-1yr_20251225_v001.0001.cdf"
       }
     ]
   },
@@ -59099,7 +59214,7 @@
     ],
     "logical_source": "imap_hi_l3_hic-ena-h-hf-nsp-full-hae-6deg-1yr",
     "logical_source_description": "IMAP Hi Instrument Level 3 Hi Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Non-Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 12 Month Map",
-    "generation_date": "2026-10-20",
+    "generation_date": "2026-10-21",
     "data_level": "l3",
     "instrument": "IMAP-Hi",
     "mission": "IMAP",
@@ -59110,6 +59225,91 @@
         "start_time": "2024-12-25T00:00:00+00:00",
         "end_time": "2025-12-25T06:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2024/12/imap_hi_l3_hic-ena-h-hf-nsp-full-hae-6deg-1yr_20241225_v001.0001.cdf"
+      },
+      {
+        "start_time": "2025-12-25T00:00:00+00:00",
+        "end_time": "2026-12-25T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/12/imap_hi_l3_hic-ena-h-hf-nsp-full-hae-6deg-1yr_20251225_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Hi Combined H Inten, HAE Helio Frame, Surv Corr, Full Spin, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi Combined H Survival Probability, HAE Helio Frame, Surv Corr, Full Spin, 4 deg, 1 Yr",
+        "display_type": "map_image",
+        "units": " ",
+        "axis_label": "survival probability"
+      },
+      {
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Hi (caution required if nonzero)",
+        "display_type": "map_image",
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Hi"
+      }
+    ],
+    "logical_source": "imap_hi_l3_hic-ena-h-hf-sp-full-hae-4deg-1yr",
+    "logical_source_description": "IMAP Hi Instrument Level 3 Hi Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 12 Month Map",
+    "generation_date": "2026-10-21",
+    "data_level": "l3",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2024-12-25T00:00:00+00:00",
+        "end_time": "2025-12-25T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2024/12/imap_hi_l3_hic-ena-h-hf-sp-full-hae-4deg-1yr_20241225_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Hi Combined H Inten, HAE Helio Frame, Surv Corr, Full Spin, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi Combined H Survival Probability, HAE Helio Frame, Surv Corr, Full Spin, 6 deg, 1 Yr",
+        "display_type": "map_image",
+        "units": " ",
+        "axis_label": "survival probability"
+      },
+      {
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Hi (caution required if nonzero)",
+        "display_type": "map_image",
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Hi"
+      }
+    ],
+    "logical_source": "imap_hi_l3_hic-ena-h-hf-sp-full-hae-6deg-1yr",
+    "logical_source_description": "IMAP Hi Instrument Level 3 Hi Combined, ENA Intensity, Hydrogen, Heliospheric Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 12 Month Map",
+    "generation_date": "2026-10-21",
+    "data_level": "l3",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "one_year_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2024-12-25T00:00:00+00:00",
+        "end_time": "2025-12-25T06:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2024/12/imap_hi_l3_hic-ena-h-hf-sp-full-hae-6deg-1yr_20241225_v001.0001.cdf"
       }
     ]
   },
@@ -59310,6 +59510,106 @@
         "start_time": "2026-06-25T00:00:00+00:00",
         "end_time": "2026-12-24T15:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/06/imap_hi_l3_h90-ena-h-hf-sp-full-hae-6deg-6mo_20260625_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Hi90 H Inten, HAE SC Frame, Surv Corr, Full Spin, 4 deg, 6 Mon",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi90 H Survival Probability, HAE SC Frame, Surv Corr, Full Spin, 4 deg, 6 Mon",
+        "display_type": "map_image",
+        "units": " ",
+        "axis_label": "survival probability"
+      },
+      {
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Hi (caution required if nonzero)",
+        "display_type": "map_image",
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Hi"
+      }
+    ],
+    "logical_source": "imap_hi_l3_h90-ena-h-sf-sp-full-hae-4deg-6mo",
+    "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 4 degree, 6 Month Map",
+    "generation_date": "2026-10-21",
+    "data_level": "l3",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "six_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-06-25T00:00:00+00:00",
+        "end_time": "2025-12-24T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/06/imap_hi_l3_h90-ena-h-sf-sp-full-hae-4deg-6mo_20250625_v001.0001.cdf"
+      },
+      {
+        "start_time": "2025-12-25T00:00:00+00:00",
+        "end_time": "2026-06-25T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/12/imap_hi_l3_h90-ena-h-sf-sp-full-hae-4deg-6mo_20251225_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-25T00:00:00+00:00",
+        "end_time": "2026-12-24T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/06/imap_hi_l3_h90-ena-h-sf-sp-full-hae-4deg-6mo_20260625_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "ena_intensity",
+        "catalog_description": "IMAP Hi90 H Inten, HAE SC Frame, Surv Corr, Full Spin, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "units": "cm -2 s -1 sr -1 keV -1",
+        "axis_label": "Intensity"
+      },
+      {
+        "variable_name": "survival_probability",
+        "catalog_description": "IMAP Hi90 H Survival Probability, HAE SC Frame, Surv Corr, Full Spin, 6 deg, 6 Mon",
+        "display_type": "map_image",
+        "units": " ",
+        "axis_label": "survival probability"
+      },
+      {
+        "variable_name": "quality_flags",
+        "catalog_description": "Quality flags for Hi (caution required if nonzero)",
+        "display_type": "map_image",
+        "units": "0: okay; nonzero: caution",
+        "axis_label": "Quality flags for Hi"
+      }
+    ],
+    "logical_source": "imap_hi_l3_h90-ena-h-sf-sp-full-hae-6deg-6mo",
+    "logical_source_description": "IMAP Hi Instrument Level 3 Hi-90 Sensor, ENA Intensity, Hydrogen, Spacecraft Frame, Survival Probability-Corrected, Full Spin, HAE, Rectangular 6 degree, 6 Month Map",
+    "generation_date": "2026-10-21",
+    "data_level": "l3",
+    "instrument": "IMAP-Hi",
+    "mission": "IMAP",
+    "file_cadence": "six_month_map",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2025-06-25T00:00:00+00:00",
+        "end_time": "2025-12-24T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/06/imap_hi_l3_h90-ena-h-sf-sp-full-hae-6deg-6mo_20250625_v001.0001.cdf"
+      },
+      {
+        "start_time": "2025-12-25T00:00:00+00:00",
+        "end_time": "2026-06-25T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2025/12/imap_hi_l3_h90-ena-h-sf-sp-full-hae-6deg-6mo_20251225_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-06-25T00:00:00+00:00",
+        "end_time": "2026-12-24T15:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/hi/l3/2026/06/imap_hi_l3_h90-ena-h-sf-sp-full-hae-6deg-6mo_20260625_v001.0001.cdf"
       }
     ]
   },
