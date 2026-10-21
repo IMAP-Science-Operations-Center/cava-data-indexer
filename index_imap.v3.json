@@ -2,6 +2,364 @@
   {
     "variables": [
       {
+        "variable_name": "data_quality",
+        "catalog_description": "Data Quality (0=good, 1=suspect)",
+        "display_type": "time_series",
+        "var_type": "data",
+        "units": "0=good",
+        "axis_label": "Data Quality"
+      },
+      {
+        "variable_name": "c",
+        "catalog_description": "Differential intensity for C at root-2-spaced energy-per-nucleon channels",
+        "display_type": "spectrogram",
+        "var_type": "data",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": "C Diff. Int."
+      },
+      {
+        "variable_name": "fe",
+        "catalog_description": "Differential intensity for Fe at root-2-spaced energy-per-nucleon channels",
+        "display_type": "spectrogram",
+        "var_type": "data",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": "Fe Diff. Int."
+      },
+      {
+        "variable_name": "h",
+        "catalog_description": "Differential intensity for H at root-2-spaced energy-per-nucleon channels",
+        "display_type": "spectrogram",
+        "var_type": "data",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": "H Diff. Int."
+      },
+      {
+        "variable_name": "he3",
+        "catalog_description": "Differential intensity for He3 at root-2-spaced energy-per-nucleon channels",
+        "display_type": "spectrogram",
+        "var_type": "data",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": "He3 Diff. Int."
+      },
+      {
+        "variable_name": "he4",
+        "catalog_description": "Differential intensity for He4 at root-2-spaced energy-per-nucleon channels",
+        "display_type": "spectrogram",
+        "var_type": "data",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": "He4 Diff. Int."
+      },
+      {
+        "variable_name": "junk",
+        "catalog_description": "Differential intensity for Junk (unclassified counts) at root-2-spaced energy-per-nucleon channels",
+        "display_type": "spectrogram",
+        "var_type": "data",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": "Junk Diff. Int."
+      },
+      {
+        "variable_name": "ne_mg_si",
+        "catalog_description": "Differential intensity for Ne+Mg+Si at root-2-spaced energy-per-nucleon channels",
+        "display_type": "spectrogram",
+        "var_type": "data",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": "Ne-Si Diff. Int."
+      },
+      {
+        "variable_name": "o",
+        "catalog_description": "Differential intensity for O at root-2-spaced energy-per-nucleon channels",
+        "display_type": "spectrogram",
+        "var_type": "data",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": "O Diff. Int."
+      },
+      {
+        "variable_name": "uh",
+        "catalog_description": "Differential intensity for Ultra-Heavy ions at root-2-spaced energy-per-nucleon channels",
+        "display_type": "spectrogram",
+        "var_type": "data",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": "Ultra-heavy Diff. Int."
+      },
+      {
+        "variable_name": "unc_c",
+        "catalog_description": "Uncertainty in differential intensity for C at root-2-spaced energy-per-nucleon channels",
+        "display_type": "spectrogram",
+        "var_type": "support_data",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": "C uncertainty"
+      },
+      {
+        "variable_name": "unc_fe",
+        "catalog_description": "Uncertainty in differential intensity for Fe at root-2-spaced energy-per-nucleon channels",
+        "display_type": "spectrogram",
+        "var_type": "support_data",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": "Fe uncertainty"
+      },
+      {
+        "variable_name": "unc_h",
+        "catalog_description": "Uncertainty in differential intensity for H at root-2-spaced energy-per-nucleon channels",
+        "display_type": "spectrogram",
+        "var_type": "support_data",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": "H uncertainty"
+      },
+      {
+        "variable_name": "unc_he3",
+        "catalog_description": "Uncertainty in differential intensity for He3 at root-2-spaced energy-per-nucleon channels",
+        "display_type": "spectrogram",
+        "var_type": "support_data",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": "He3 uncertainty"
+      },
+      {
+        "variable_name": "unc_he4",
+        "catalog_description": "Uncertainty in differential intensity for He4 at root-2-spaced energy-per-nucleon channels",
+        "display_type": "spectrogram",
+        "var_type": "support_data",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": "He4 uncertainty"
+      },
+      {
+        "variable_name": "unc_junk",
+        "catalog_description": "Uncertainty in differential intensity for Junk (unclassified counts) at root-2-spaced energy-per-nucleon channels",
+        "display_type": "spectrogram",
+        "var_type": "support_data",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": "Junk uncertainty"
+      },
+      {
+        "variable_name": "unc_ne_mg_si",
+        "catalog_description": "Uncertainty in differential intensity for Ne+Mg+Si at root-2-spaced energy-per-nucleon channels",
+        "display_type": "spectrogram",
+        "var_type": "support_data",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": "Ne-Si uncertainty"
+      },
+      {
+        "variable_name": "unc_o",
+        "catalog_description": "Uncertainty in differential intensity for O at root-2-spaced energy-per-nucleon channels",
+        "display_type": "spectrogram",
+        "var_type": "support_data",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": "O uncertainty"
+      },
+      {
+        "variable_name": "unc_uh",
+        "catalog_description": "Uncertainty in differential intensity for Ultra-Heavy ions at root-2-spaced energy-per-nucleon channels",
+        "display_type": "spectrogram",
+        "var_type": "support_data",
+        "units": "# / cm2 s sr MeV/nuc",
+        "axis_label": "Ultra-heavy uncertainty"
+      }
+    ],
+    "logical_source": "imap_codice_l2_hi-omni",
+    "logical_source_description": "IMAP Mission CoDICE Hi Level-2 Omnidirectional Species Intensity Data",
+    "generation_date": "2026-10-21",
+    "data_level": "l2",
+    "instrument": "CoDICE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-29T00:00:00+00:00",
+        "end_time": "2026-04-30T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/codice/l2/2026/04/imap_codice_l2_hi-omni_20260429_v001.0001.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
+        "variable_name": "hv_voltage_average",
+        "catalog_description": "CEM HV voltage averaged over observational day",
+        "display_type": "time_series",
+        "var_type": "support_data",
+        "units": "V",
+        "axis_label": "HV"
+      },
+      {
+        "variable_name": "exposure_times",
+        "catalog_description": "Exposure times for histogram bins for observational day",
+        "display_type": "spectrogram",
+        "var_type": "data",
+        "units": "s",
+        "axis_label": "Bin exposure"
+      },
+      {
+        "variable_name": "filter_temperature_average",
+        "catalog_description": "Filter temperature averaged over observational day",
+        "display_type": "time_series",
+        "var_type": "support_data",
+        "units": "Celsius",
+        "axis_label": "Temp"
+      },
+      {
+        "variable_name": "raw_histograms",
+        "catalog_description": "Histogram of counts for observational day",
+        "display_type": "spectrogram",
+        "var_type": "data",
+        "units": "#",
+        "axis_label": "Counts"
+      },
+      {
+        "variable_name": "number_of_bins",
+        "catalog_description": "Number of bins in histogram",
+        "display_type": "time_series",
+        "var_type": "support_data",
+        "units": " ",
+        "axis_label": "No. of bins"
+      },
+      {
+        "variable_name": "number_of_good_l1b_inputs",
+        "catalog_description": "Number of good L1B inputs per observational day",
+        "display_type": "time_series",
+        "var_type": "support_data",
+        "units": " ",
+        "axis_label": "No. of L1B"
+      },
+      {
+        "variable_name": "photon_flux",
+        "catalog_description": "Photon flux in scanning-circle bins averaged over observational day",
+        "display_type": "spectrogram",
+        "var_type": "data",
+        "units": "Rayleigh",
+        "axis_label": "Flux"
+      },
+      {
+        "variable_name": "position_angle_offset_average",
+        "catalog_description": "Position angle offset averaged over observational day",
+        "display_type": "time_series",
+        "var_type": "support_data",
+        "units": "degrees",
+        "axis_label": "Offset angle"
+      },
+      {
+        "variable_name": "pulse_length_average",
+        "catalog_description": "Pulse length averaged over observational day",
+        "display_type": "time_series",
+        "var_type": "support_data",
+        "units": "us",
+        "axis_label": "Pulse"
+      },
+      {
+        "variable_name": "spin_axis_orientation_average",
+        "catalog_description": "Spin axis pointing averaged over observational day (ecliptic lon and lat)",
+        "display_type": "time_series",
+        "var_type": "support_data",
+        "units": "degrees",
+        "axis_label": "Lon/lat"
+      },
+      {
+        "variable_name": "spin_period_ground_average",
+        "catalog_description": "Spin period (ground processing) averaged over observational day",
+        "display_type": "time_series",
+        "var_type": "support_data",
+        "units": "s",
+        "axis_label": "Period"
+      },
+      {
+        "variable_name": "spin_period_average",
+        "catalog_description": "Spin period averaged over observational day",
+        "display_type": "time_series",
+        "var_type": "support_data",
+        "units": "s",
+        "axis_label": "Period"
+      },
+      {
+        "variable_name": "identifier",
+        "catalog_description": "Spin-axis pointing number to identify observational day",
+        "display_type": "time_series",
+        "var_type": "support_data",
+        "units": " ",
+        "axis_label": "Pointing no."
+      },
+      {
+        "variable_name": "hv_voltage_std_dev",
+        "catalog_description": "Standard deviation of CEM HV voltage",
+        "display_type": "time_series",
+        "var_type": "support_data",
+        "units": "V",
+        "axis_label": "HV std dev"
+      },
+      {
+        "variable_name": "filter_temperature_std_dev",
+        "catalog_description": "Standard deviation of filter temperature",
+        "display_type": "time_series",
+        "var_type": "support_data",
+        "units": "Celsius",
+        "axis_label": "Temp std dev"
+      },
+      {
+        "variable_name": "position_angle_offset_std_dev",
+        "catalog_description": "Standard deviation of position angle offset",
+        "display_type": "time_series",
+        "var_type": "support_data",
+        "units": "degrees",
+        "axis_label": "Offset std dev"
+      },
+      {
+        "variable_name": "pulse_length_std_dev",
+        "catalog_description": "Standard deviation of pulse length",
+        "display_type": "time_series",
+        "var_type": "support_data",
+        "units": "us",
+        "axis_label": "Pulse std dev"
+      },
+      {
+        "variable_name": "spin_axis_orientation_std_dev",
+        "catalog_description": "Standard deviation of spin axis pointing",
+        "display_type": "time_series",
+        "var_type": "support_data",
+        "units": "degrees",
+        "axis_label": "Lon/lat std dev"
+      },
+      {
+        "variable_name": "spin_period_std_dev",
+        "catalog_description": "Standard deviation of spin period",
+        "display_type": "time_series",
+        "var_type": "support_data",
+        "units": "s",
+        "axis_label": "Period std dev"
+      },
+      {
+        "variable_name": "spin_period_ground_std_dev",
+        "catalog_description": "Standard deviation of spin period (ground processing)",
+        "display_type": "time_series",
+        "var_type": "support_data",
+        "units": "s",
+        "axis_label": "Period std dev"
+      },
+      {
+        "variable_name": "total_l1b_inputs",
+        "catalog_description": "Total number of L1B inputs per observational day",
+        "display_type": "time_series",
+        "var_type": "support_data",
+        "units": " ",
+        "axis_label": "No. of L1B"
+      }
+    ],
+    "logical_source": "imap_glows_l2_hist",
+    "logical_source_description": "IMAP Mission GLOWS Instrument Level-2 Histogram Data",
+    "generation_date": "2026-10-21",
+    "data_level": "l2",
+    "instrument": "GLOWS",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-29T00:00:00+00:00",
+        "end_time": "2026-04-30T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/glows/l2/2026/04/imap_glows_l2_hist_20260429-repoint00233_v002.0002.cdf"
+      }
+    ]
+  },
+  {
+    "variables": [
+      {
         "variable_name": "acq_duration",
         "catalog_description": "Acquisition duration",
         "display_type": "spectrogram",
@@ -94,7 +452,7 @@
       {
         "start_time": "2026-04-29T00:00:00+00:00",
         "end_time": "2026-04-30T00:00:00+00:00",
-        "url": "https://api.dev.imap-mission.com/authorized/download/imap/swe/l2/2026/04/imap_swe_l2_sci_20260429_v002.0002.cdf"
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/swe/l2/2026/04/imap_swe_l2_sci_20260429_v002.0003.cdf"
       },
       {
         "start_time": "2026-10-05T00:00:00+00:00",
