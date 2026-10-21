@@ -1,1 +1,71 @@
-[]
+[
+  {
+    "variables": [
+      {
+        "variable_name": "flux",
+        "catalog_description": "Number flux organized by energy (eV), spin angle, CEM angle",
+        "display_type": "spectrogram",
+        "units": "1 / (eV * cm^2 * s * ster)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "flux_spin_sector",
+        "catalog_description": "Number flux organized by ESA step and spin sector and CEM",
+        "display_type": "spectrogram",
+        "units": "1 / (eV * cm^2 * s * ster)",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "phase_space_density",
+        "catalog_description": "Phase space density organized by energy (eV), spin angle, CEM angle",
+        "display_type": "spectrogram",
+        "units": "s^3 / cm^6",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "phase_space_density_spin_sector",
+        "catalog_description": "Phase space density organized by ESA step and spin sector and CEM",
+        "display_type": "spectrogram",
+        "units": "s^3 / cm^6",
+        "axis_label": ""
+      },
+      {
+        "variable_name": "inst_az_spin_sector",
+        "catalog_description": "Spin angle in despun spacecraft coordinates organized by ESA step and spin sector",
+        "display_type": "spectrogram",
+        "units": "Degree",
+        "axis_label": ""
+      }
+    ],
+    "logical_source": "imap_swe_l2_sci",
+    "logical_source_description": "IMAP Mission SWE Instrument Level-2 Science Data",
+    "generation_date": "2026-10-21",
+    "data_level": "l2",
+    "instrument": "SWE",
+    "mission": "IMAP",
+    "file_cadence": "daily",
+    "version": "",
+    "file_timeranges": [
+      {
+        "start_time": "2026-04-29T00:00:00+00:00",
+        "end_time": "2026-04-30T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/swe/l2/2026/04/imap_swe_l2_sci_20260429_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-10-05T00:00:00+00:00",
+        "end_time": "2026-10-06T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/swe/l2/2026/10/imap_swe_l2_sci_20261005_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-10-06T00:00:00+00:00",
+        "end_time": "2026-10-07T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/swe/l2/2026/10/imap_swe_l2_sci_20261006_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-10-07T00:00:00+00:00",
+        "end_time": "2026-10-08T00:00:00+00:00",
+        "url": "https://api.dev.imap-mission.com/authorized/download/imap/swe/l2/2026/10/imap_swe_l2_sci_20261007_v002.0001.cdf"
+      }
+    ]
+  }
+]
