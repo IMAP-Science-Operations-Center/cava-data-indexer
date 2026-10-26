@@ -31653,7 +31653,7 @@
     ],
     "logical_source": "imap_codice_l3a_lo-partial-densities",
     "logical_source_description": "IMAP Mission CoDICE Lo Instrument Partial Densities",
-    "generation_date": "2026-10-24",
+    "generation_date": "2026-10-26",
     "data_level": "l3a",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -33313,7 +33313,17 @@
       {
         "start_time": "2026-10-24T00:00:00+00:00",
         "end_time": "2026-10-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/10/imap_codice_l3a_lo-partial-densities_20261024_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/10/imap_codice_l3a_lo-partial-densities_20261024_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-10-25T00:00:00+00:00",
+        "end_time": "2026-10-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/10/imap_codice_l3a_lo-partial-densities_20261025_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-10-26T00:00:00+00:00",
+        "end_time": "2026-10-27T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/10/imap_codice_l3a_lo-partial-densities_20261026_v001.0001.cdf"
       }
     ]
   },
@@ -33338,7 +33348,7 @@
     ],
     "logical_source": "imap_codice_l3a_lo-sw-charge-state-distributions",
     "logical_source_description": "IMAP Mission CoDICE Instrument Charge State Distributions",
-    "generation_date": "2026-10-24",
+    "generation_date": "2026-10-26",
     "data_level": "l3a",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -34998,7 +35008,17 @@
       {
         "start_time": "2026-10-24T00:00:00+00:00",
         "end_time": "2026-10-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/10/imap_codice_l3a_lo-sw-charge-state-distributions_20261024_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/10/imap_codice_l3a_lo-sw-charge-state-distributions_20261024_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-10-25T00:00:00+00:00",
+        "end_time": "2026-10-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/10/imap_codice_l3a_lo-sw-charge-state-distributions_20261025_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-10-26T00:00:00+00:00",
+        "end_time": "2026-10-27T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/10/imap_codice_l3a_lo-sw-charge-state-distributions_20261026_v001.0001.cdf"
       }
     ]
   },
@@ -35063,7 +35083,7 @@
     ],
     "logical_source": "imap_codice_l3a_lo-sw-ratios",
     "logical_source_description": "IMAP Mission CoDICE Lo Instrument SW Ratios",
-    "generation_date": "2026-10-24",
+    "generation_date": "2026-10-26",
     "data_level": "l3a",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -36723,7 +36743,17 @@
       {
         "start_time": "2026-10-24T00:00:00+00:00",
         "end_time": "2026-10-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/10/imap_codice_l3a_lo-sw-ratios_20261024_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/10/imap_codice_l3a_lo-sw-ratios_20261024_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-10-25T00:00:00+00:00",
+        "end_time": "2026-10-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/10/imap_codice_l3a_lo-sw-ratios_20261025_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-10-26T00:00:00+00:00",
+        "end_time": "2026-10-27T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3a/2026/10/imap_codice_l3a_lo-sw-ratios_20261026_v001.0001.cdf"
       }
     ]
   },
@@ -38516,7 +38546,7 @@
     ],
     "logical_source": "imap_codice_l3b_lo-heplus-3d-distribution",
     "logical_source_description": "IMAP Mission CoDICE Lo He+ 3d Instrument Frame Distributions",
-    "generation_date": "2026-10-24",
+    "generation_date": "2026-10-26",
     "data_level": "l3b",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -40176,7 +40206,17 @@
       {
         "start_time": "2026-10-24T00:00:00+00:00",
         "end_time": "2026-10-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3b/2026/10/imap_codice_l3b_lo-heplus-3d-distribution_20261024_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3b/2026/10/imap_codice_l3b_lo-heplus-3d-distribution_20261024_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-10-25T00:00:00+00:00",
+        "end_time": "2026-10-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3b/2026/10/imap_codice_l3b_lo-heplus-3d-distribution_20261025_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-10-26T00:00:00+00:00",
+        "end_time": "2026-10-27T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3b/2026/10/imap_codice_l3b_lo-heplus-3d-distribution_20261026_v001.0001.cdf"
       }
     ]
   },
@@ -41893,7 +41933,17 @@
       {
         "start_time": "2026-10-24T00:00:00+00:00",
         "end_time": "2026-10-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3b/2026/10/imap_codice_l3b_lo-heplusplus-3d-distribution_20261024_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3b/2026/10/imap_codice_l3b_lo-heplusplus-3d-distribution_20261024_v001.0003.cdf"
+      },
+      {
+        "start_time": "2026-10-25T00:00:00+00:00",
+        "end_time": "2026-10-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3b/2026/10/imap_codice_l3b_lo-heplusplus-3d-distribution_20261025_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-10-26T00:00:00+00:00",
+        "end_time": "2026-10-27T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3b/2026/10/imap_codice_l3b_lo-heplusplus-3d-distribution_20261026_v001.0001.cdf"
       }
     ]
   },
@@ -43610,7 +43660,17 @@
       {
         "start_time": "2026-10-24T00:00:00+00:00",
         "end_time": "2026-10-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3b/2026/10/imap_codice_l3b_lo-hplus-3d-distribution_20261024_v001.0002.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3b/2026/10/imap_codice_l3b_lo-hplus-3d-distribution_20261024_v001.0003.cdf"
+      },
+      {
+        "start_time": "2026-10-25T00:00:00+00:00",
+        "end_time": "2026-10-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3b/2026/10/imap_codice_l3b_lo-hplus-3d-distribution_20261025_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-10-26T00:00:00+00:00",
+        "end_time": "2026-10-27T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3b/2026/10/imap_codice_l3b_lo-hplus-3d-distribution_20261026_v001.0001.cdf"
       }
     ]
   },
@@ -43667,7 +43727,7 @@
     ],
     "logical_source": "imap_codice_l3b_lo-oplus6-3d-distribution",
     "logical_source_description": "IMAP Mission CoDICE Lo O+6 3d Instrument Frame Distributions",
-    "generation_date": "2026-10-24",
+    "generation_date": "2026-10-26",
     "data_level": "l3b",
     "instrument": "CoDICE",
     "mission": "IMAP",
@@ -45327,7 +45387,17 @@
       {
         "start_time": "2026-10-24T00:00:00+00:00",
         "end_time": "2026-10-25T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3b/2026/10/imap_codice_l3b_lo-oplus6-3d-distribution_20261024_v001.0001.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3b/2026/10/imap_codice_l3b_lo-oplus6-3d-distribution_20261024_v001.0002.cdf"
+      },
+      {
+        "start_time": "2026-10-25T00:00:00+00:00",
+        "end_time": "2026-10-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3b/2026/10/imap_codice_l3b_lo-oplus6-3d-distribution_20261025_v001.0001.cdf"
+      },
+      {
+        "start_time": "2026-10-26T00:00:00+00:00",
+        "end_time": "2026-10-27T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/codice/l3b/2026/10/imap_codice_l3b_lo-oplus6-3d-distribution_20261026_v001.0001.cdf"
       }
     ]
   },
@@ -75414,7 +75484,7 @@
     ],
     "logical_source": "imap_idex_l2a_sci-10days",
     "logical_source_description": "IMAP Mission IDEX Instrument Level-2A 10-Day Data",
-    "generation_date": "2026-10-24",
+    "generation_date": "2026-10-26",
     "data_level": "l2a",
     "instrument": "IDEX",
     "mission": "IMAP",
@@ -75609,7 +75679,7 @@
       {
         "start_time": "2026-10-17T00:00:00+00:00",
         "end_time": "2026-10-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/10/imap_idex_l2a_sci-10days_20261017_v003.0008.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/10/imap_idex_l2a_sci-10days_20261017_v003.0010.cdf"
       }
     ]
   },
@@ -75674,7 +75744,7 @@
     ],
     "logical_source": "imap_idex_l2b_sci-10days",
     "logical_source_description": "IMAP Mission IDEX Instrument Level-2B 10-Day Data",
-    "generation_date": "2026-10-24",
+    "generation_date": "2026-10-26",
     "data_level": "l2b",
     "instrument": "IDEX",
     "mission": "IMAP",
@@ -75869,7 +75939,7 @@
       {
         "start_time": "2026-10-17T00:00:00+00:00",
         "end_time": "2026-10-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2b/2026/10/imap_idex_l2b_sci-10days_20261017_v003.0010.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2b/2026/10/imap_idex_l2b_sci-10days_20261017_v003.0012.cdf"
       }
     ]
   },
@@ -76027,7 +76097,7 @@
     ],
     "logical_source": "imap_idex_l2c_rectangular-map-10days",
     "logical_source_description": "IMAP Mission IDEX Instrument Level-2C Rectangular Map 10-Day Data",
-    "generation_date": "2026-10-24",
+    "generation_date": "2026-10-26",
     "data_level": "l2c",
     "instrument": "IDEX",
     "mission": "IMAP",
@@ -76222,7 +76292,7 @@
       {
         "start_time": "2026-10-17T00:00:00+00:00",
         "end_time": "2026-10-18T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2c/2026/10/imap_idex_l2c_rectangular-map-10days_20261017_v002.0010.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2c/2026/10/imap_idex_l2c_rectangular-map-10days_20261017_v002.0012.cdf"
       }
     ]
   },
@@ -108731,7 +108801,7 @@
     ],
     "logical_source": "imap_swe_l2_sci",
     "logical_source_description": "IMAP Mission SWE Instrument Level-2 Science Data",
-    "generation_date": "2026-10-24",
+    "generation_date": "2026-10-26",
     "data_level": "l2",
     "instrument": "SWE",
     "mission": "IMAP",
@@ -110532,6 +110602,16 @@
         "start_time": "2026-10-23T00:00:00+00:00",
         "end_time": "2026-10-24T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swe/l2/2026/10/imap_swe_l2_sci_20261023_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-10-24T00:00:00+00:00",
+        "end_time": "2026-10-25T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swe/l2/2026/10/imap_swe_l2_sci_20261024_v002.0001.cdf"
+      },
+      {
+        "start_time": "2026-10-25T00:00:00+00:00",
+        "end_time": "2026-10-26T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swe/l2/2026/10/imap_swe_l2_sci_20261025_v002.0001.cdf"
       }
     ]
   },
