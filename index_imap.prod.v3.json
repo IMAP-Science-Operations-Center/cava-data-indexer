@@ -77184,7 +77184,7 @@
       {
         "start_time": "2026-10-27T00:00:00+00:00",
         "end_time": "2026-10-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/10/imap_idex_l2a_sci-10days_20261027_v003.0006.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2a/2026/10/imap_idex_l2a_sci-10days_20261027_v003.0007.cdf"
       }
     ]
   },
@@ -77449,7 +77449,7 @@
       {
         "start_time": "2026-10-27T00:00:00+00:00",
         "end_time": "2026-10-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2b/2026/10/imap_idex_l2b_sci-10days_20261027_v003.0007.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2b/2026/10/imap_idex_l2b_sci-10days_20261027_v003.0008.cdf"
       }
     ]
   },
@@ -77807,7 +77807,7 @@
       {
         "start_time": "2026-10-27T00:00:00+00:00",
         "end_time": "2026-10-28T00:00:00+00:00",
-        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2c/2026/10/imap_idex_l2c_rectangular-map-10days_20261027_v002.0007.cdf"
+        "url": "https://api.imap-mission.com/authorized/download/imap/idex/l2c/2026/10/imap_idex_l2c_rectangular-map-10days_20261027_v002.0008.cdf"
       }
     ]
   },
@@ -108337,6 +108337,11 @@
         "start_time": "2026-11-02T00:00:00+00:00",
         "end_time": "2026-11-03T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/11/imap_swapi_l3a_proton-sw_20261102_v002.0005.cdf"
+      },
+      {
+        "start_time": "2026-11-05T00:00:00+00:00",
+        "end_time": "2026-11-06T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/11/imap_swapi_l3a_proton-sw_20261105_v002.0001.cdf"
       }
     ]
   },
@@ -110161,6 +110166,11 @@
         "start_time": "2026-11-02T00:00:00+00:00",
         "end_time": "2026-11-03T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/11/imap_swapi_l3a_pui-he_20261102_v001.0005.cdf"
+      },
+      {
+        "start_time": "2026-11-05T00:00:00+00:00",
+        "end_time": "2026-11-06T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/11/imap_swapi_l3a_pui-he_20261105_v001.0001.cdf"
       }
     ]
   },
