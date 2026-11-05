@@ -104726,7 +104726,7 @@
     ],
     "logical_source": "imap_swapi_l3a_alpha-sw",
     "logical_source_description": "IMAP Mission SWAPI Instrument Alpha Solar Wind Parameters",
-    "generation_date": "2026-11-02",
+    "generation_date": "2026-11-05",
     "data_level": "l3a",
     "instrument": "SWAPI",
     "mission": "IMAP",
@@ -106492,6 +106492,11 @@
         "start_time": "2026-11-01T00:00:00+00:00",
         "end_time": "2026-11-02T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/11/imap_swapi_l3a_alpha-sw_20261101_v002.0004.cdf"
+      },
+      {
+        "start_time": "2026-11-02T00:00:00+00:00",
+        "end_time": "2026-11-03T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swapi/l3a/2026/11/imap_swapi_l3a_alpha-sw_20261102_v002.0001.cdf"
       }
     ]
   },
@@ -114513,7 +114518,7 @@
     ],
     "logical_source": "imap_swe_l3_sci",
     "logical_source_description": "IMAP Mission SWE Instrument Level-3 Science Data",
-    "generation_date": "2026-11-02",
+    "generation_date": "2026-11-05",
     "data_level": "l3",
     "instrument": "SWE",
     "mission": "IMAP",
@@ -116274,6 +116279,11 @@
         "start_time": "2026-11-01T00:00:00+00:00",
         "end_time": "2026-11-02T00:00:00+00:00",
         "url": "https://api.imap-mission.com/authorized/download/imap/swe/l3/2026/11/imap_swe_l3_sci_20261101_v002.0005.cdf"
+      },
+      {
+        "start_time": "2026-11-02T00:00:00+00:00",
+        "end_time": "2026-11-03T00:00:00+00:00",
+        "url": "https://api.imap-mission.com/authorized/download/imap/swe/l3/2026/11/imap_swe_l3_sci_20261102_v002.0001.cdf"
       }
     ]
   },
